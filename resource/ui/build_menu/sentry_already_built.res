@@ -4,12 +4,18 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
+		"labelText"			"#TF_Object_Sentry"
+		"labelText_lodef"	"#TF_Object_Sentry_360"
+	}
+	
+	"BuildingIcon"	
+	{
+		"ypos"				"22"
+		"icon"				"obj_status_sentrygun_1"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"1"
+		"labelText"			"1"
 	}
 }

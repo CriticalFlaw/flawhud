@@ -4,12 +4,12 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
+		"labelText"			"#TF_Object_Sentry"
+		"labelText_lodef"	"#TF_Object_Sentry_360"
 	}
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_sentry_build"
+		"icon"				"hud_menu_sentry_build"
 	}
 }
