@@ -1,81 +1,119 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"ResumeGameButton"
+	// MAIN MENU
+	"QuickplayButton"
 	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"label" 		"Casual" 
+		"command" 		"play_casual"
 	}
-	"FindAGameButton"
+	"CompetitiveButton"
 	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
+		"label"			"Competitive" 
+		"command"		"play_competitive"
 	}
-
-	"FindAGameButtonHalfWidth"
+	"PlayPVEButton"
 	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
+		"label"			"CO-OP" 
+		"command"		"play_mvm"
 	}
-
-	"VRModeButton"
+	"ServerBrowserButton"
 	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
+		"label" 		"Servers" 
+		"command" 		"OpenServerBrowser"
 	}
-
-	"GeneralStoreButton"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label"			"Items"
+		"command"		"engine open_charinfo"
+	}
+	"GeneralStoreButton"
+	{
+		"label" 		"Store"
+		"command" 		"engine open_store"
+	}
+	"SettingsButton"
+	{
+		"label" 		"Settings"
+		"command" 		"OpenOptionsDialog"
+	}
+	"QuitButton"
+	{
+		"label" 		"Quit"
+		"command" 		"engine quit"
+		"OnlyAtMenu" 	"1"
+	}
+	"DisconnectButton"
+	{
+		"label" 		"Disconnect"
+		"command" 		"engine disconnect"
+		"subimage" 		""
+		"OnlyInGame"	"1"
+	}
+	"FavoriteServer"
+	{
+		"label"   		"I"
+		"command" 		"engine connect XXXXXXXXXXXXXXX"
+        "tooltip" 		"Favorite Server"
 	}
 
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+	// BOTTOM ROW BUTTONS
+	"TF2SettingsButton"
+	{
+		"label" 		"TF2Settings"
+		"command" 		"engine opentf2options"
+		"subimage" 		"glyph_steamworkshop"
+		"tooltip" 		"Advanced Settings"
+	}
+	"AchievementsButton"
+	{
+		"label" 		"Achievements"
+		"command" 		"OpenAchievementsDialog"
+		"subimage" 		"glyph_achievements"
+		"tooltip" 		"Achievements"
+	}
+	"ReplayButton"
+	{
+		"label" 		"Replay"
+		"command" 		"engine replay_reloadbrowser"
+		"subimage" 		"glyph_tv"
+		"tooltip" 		"Replay"
+	}
+	"TrainingButton"
+	{
+		"label"			"Training"
+		"command" 		"play_training"
+		"subimage" 		"glyph_tutorial"
+		"tooltip" 		"Training"
+	}
+	"CreateServerButton"
+	{
+		"label" 		"CreateServer"
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"subimage" 		"glyph_create"
+		"tooltip" 		"Create a Server"
+	}
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"CallVote"
 		"command"		"callvote"
+		"subimage" 		"icon_checkbox"
+		"tooltip" 		"Call Vote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"MutePlayers"
 		"command"		"OpenPlayerListDialog"
+		"subimage" 		"glyph_muted"
+		"tooltip" 		"Mute Players"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			""
+		"label"			"ReportPlayer"
 		"command"		"OpenReportPlayerDialog"
+		"subimage"		"glyph_commentary"
+		"tooltip" 		"Report Player"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

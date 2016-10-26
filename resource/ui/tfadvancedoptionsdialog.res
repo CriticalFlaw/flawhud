@@ -2,7 +2,7 @@
 {
 	"TFAdvancedOptionsDialog"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TFAdvancedOptionsDialog"
 		"xpos"		"c-250"
 		"ypos"		"90"
@@ -13,18 +13,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"G_Footer"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
-		"paintbackground"		"0"
-		"border"				"GrayDialogBorder"
-		
+		"paintbackground"		"1"
+		"border"				"QuickplayBorder"
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
 		"slider_h"			"25"
+		"fgcolor_override"	"White"
 	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -41,8 +42,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -67,6 +69,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -94,7 +97,7 @@
 	
 	"PanelListPanel"
 	{
-		"ControlName"		"CPanelListPanel"
+		"ControlName"	"CPanelListPanel"
 		"fieldName"		"PanelListPanel"
 		"xpos"		"10"
 		"ypos"		"40"
@@ -105,7 +108,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"G_MenuBg"
 	}
 	
 	"TooltipPanel"
@@ -119,7 +122,8 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"QuickplayBorder"
+		"bgcolor_override"	"G_DarkNight"
 		
 		"TipLabel"
 		{
@@ -137,7 +141,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}
