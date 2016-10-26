@@ -39,8 +39,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType" 	"2"
+		"bgcolor_override"		"TanLight"
 	}
 	
 	"EnemyCountCritImageBG"

@@ -89,21 +89,21 @@
 
 		"SpectatorGUIHealth"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"SpectatorGUIHealth"
-			"xpos"				"165"
-			"ypos"				"39"
-			"zpos"				"20"
-			"wide"				"48"
-			"tall"				"48"
-			"visible"			"1"
-			"enabled"			"1"	
-			"HealthBonusPosAdj"	"10"
+			"ControlName"				"EditablePanel"
+			"fieldName"					"SpectatorGUIHealth"
+			"xpos"						"165"
+			"ypos"						"39"
+			"zpos"						"20"
+			"wide"						"48"
+			"tall"						"48"
+			"visible"					"1"
+			"enabled"					"1"	
+			"HealthBonusPosAdj"			"10"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
-			"autoResize"	"1"
+			"autoResize"				"1"
 		}
 	}
 }
