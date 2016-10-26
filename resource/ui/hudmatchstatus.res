@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"G_FontMedium"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"G_FontMedium"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"G_Shadow"
 		"proportionaltoparent"	"1"
 
 	
@@ -215,8 +215,7 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
+		"tall"				"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
@@ -234,9 +233,8 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"0"
+		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -244,14 +242,13 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"G_FontMedium"
 
 		if_match
 		{
@@ -264,22 +261,22 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"G_FontSmall"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"G_FontMedium"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"fgcolor"		"White"
+			"xpos"			"33"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"-5"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
@@ -290,7 +287,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_match
@@ -318,11 +315,9 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
-
 		"max_size"	"19"
 
-		"6v6_gap"	"4"
+		"6v6_gap"	"1"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
@@ -585,8 +580,8 @@
 
 		if_large
 		{
-			"ypos"			"65"
-			"tall"			"385"
+			"ypos"		"65"
+			"tall"		"385"
 		}
 
 		"BlueTeamBG"
@@ -684,7 +679,7 @@
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"		"315"
 			}
 		}
 		"BluePlayerListBG"
@@ -704,7 +699,7 @@
 
 			if_large
 			{
-				"tall"			"325"
+				"tall"		"325"
 			}
 		}
 	}
@@ -723,8 +718,8 @@
 
 		if_large
 		{
-			"ypos"			"65"
-			"tall"			"385"
+			"ypos"		"65"
+			"tall"		"385"
 		}
 
 		"RedTeamBG"
@@ -822,7 +817,7 @@
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"		"315"
 			}
 		}
 		"RedPlayerListBG"
@@ -842,7 +837,7 @@
 
 			if_large
 			{
-				"tall"			"325"
+				"tall"		"325"
 			}
 		}
 	}
