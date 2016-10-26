@@ -1,26 +1,5 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"12"
-		"ypos"			"6"
-		"zpos"			"0"
-		"wide"			"76"
-		"wide_minmode"	"56"
-		"tall"			"38"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
-	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -44,7 +23,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
@@ -87,8 +66,8 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
@@ -170,8 +149,8 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
@@ -228,6 +207,6 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
-		}			
-	}				
+		}
+	}
 }
