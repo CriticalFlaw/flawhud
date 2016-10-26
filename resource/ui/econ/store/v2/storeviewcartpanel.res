@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
 		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"G_FontTiny"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -153,21 +153,7 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}				
-	"BackgroundFooter"
-	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -176,23 +162,54 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}		
+
+	"G_BackgroundHeader"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"G_BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}
+	
+	"BackgroundFooter"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}	
+	
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Highlight"
+	}	
 	
 	"ClientArea"
 	{
@@ -206,18 +223,35 @@
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"5"
+			"ypos"			"7"
+			"zpos"			"2"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_Highlight"
+		}		
+	
+		"Wall"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Wall"
+			"xpos"			"0"
+			"ypos"			"50"
+			"zpos"			"-5"		
+			"wide"			"f0"
+			"tall"			"380"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_MenuBg"
+		}		
 		
 		"CartItemsLabel"
 		{
@@ -227,7 +261,7 @@
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
-			"ypos"			"25"
+			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"350"
 			"tall"			"20"
@@ -246,8 +280,8 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
 		}				
@@ -275,10 +309,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ItemListContainerScroller"
 			"xpos"			"c-300"
-			"ypos"			"62"
+			"ypos"			"60"
 			"zpos"			"5"
 			"wide"			"600"
-			"tall"			"240"
+			"tall"			"260"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"51 47 46 255"

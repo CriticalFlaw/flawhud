@@ -31,9 +31,9 @@
 	{
 		"ControlName"	"ScrollBar"
 		"FieldName"		"ScrollBar"
-		"xpos"			"c222"
+		"xpos"			"c226"
 		"ypos"			"c-120"
-		"wide"			"11"
+		"wide"			"4"
 		"tall"			"200"
 		"zpos"			"1000"
 		"visible"		"1"
@@ -41,8 +41,8 @@
 		
 		"Slider"
 		{
-			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"PaintBackgroundType"	"0"
+			"fgcolor_override"	"G_White"
 		}
 		
 		"UpButton"
@@ -92,8 +92,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"paintbackground"	"1"
+		"border"		""
+		"bgcolor_override"	"G_Footer"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -109,43 +110,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
-		}
-	
-		// 90-degree corners on the top part of the footer
-		"FooterTopPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"FooterTopPanel"
-			"xpos"			"3"
-			"ypos"			"240"
-			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
-			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
-		}
-		
-		// Rounded corners on the bottom of the footer
-		"FootBottomPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
-			"ypos"			"240"
-			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"58"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
-			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"border"		""
+			"bgcolor_override"	"G_Grey"
 		}
 		
 		"ItemNameLabel"
@@ -215,7 +181,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"118 107 94 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"RestrictionsLabel"
@@ -266,7 +232,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"UsedByTextLabel"
@@ -299,7 +265,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"SlotTextLabel"
@@ -401,7 +367,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"TradableTextLabel"
@@ -434,7 +400,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"GiftableTextLabel"
@@ -467,7 +433,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"NameableTextLabel"
@@ -500,7 +466,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"G_White"
 				}		
 				
 				"CraftableTextLabel"
@@ -1263,51 +1229,6 @@
 			"scaleImage"	"1"
 		}				
 	}
-
-	"OptionsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"OptionsButton"
-		"xpos"			"c-63"
-		"ypos"			"c-123"
-		"zpos"			"20"
-		"wide"			"11"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"options"
-		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 200"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}				
-	}
 	
 	"TeamNavPanel"
 	{
@@ -1408,6 +1329,31 @@
 			}
 		}
 	}
+	
+	"PaintButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PaintButton"
+		"xpos"			"c-158"
+		"ypos"			"c-140"
+		"zpos"			"20"
+		"wide"			"76"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_Paint"
+		"font"			"HudFontSmallest"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"paint_toggle"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 	"CycleTextLabel"
 	{
@@ -1426,7 +1372,28 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}
+	}		
+
+	"NextStyleButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextStyleButton"
+		"zpos"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_NextStyle"
+		"font"			"HudFontSmallest"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"next_style"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
@@ -1485,8 +1452,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"X"
+		"font"			"Code16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1496,6 +1463,10 @@
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
 		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "G_White"
+		"armedFgColor_override" "255 0 0 255"
+		"depressedFgColor_override" "G_White"
 		
 		"image_drawcolor"	"118 107 94 255"
 		"image_armedcolor"	"246 247 213 255"
@@ -1509,8 +1480,8 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
@@ -1524,12 +1495,12 @@
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"22"
+		"tall"			"20"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1549,12 +1520,12 @@
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"22"
+		"tall"			"20"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_TryItOut"
+		"labelText"		"Try It Out"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1574,13 +1545,13 @@
 		"ypos"			"c103"
 		"zpos"			"2"
 		"wide"			"160"
-		"tall"			"27"
+		"tall"			"20"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
