@@ -2,43 +2,12 @@
 
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {
-
-	
-	"LearnMoreButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"LearnMoreButton"
-		"xpos"			"c106"
-		"ypos"			"385"
-		"zpos"			"2"
-		"wide"			"195"
-		"tall"			"25"
-		"autoResize"	"0"
-		//"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_MvM_LearnMore"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"learn_more"
-
-		"NavUp"			"PracticeButton"
-		"NavLeft"		"BackButton"
-		"NavRight"		"NextButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"PlayNowButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayNowButton"
 		"xpos"			"c-295"
-		"ypos"			"303"
+		"ypos"			"333"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -48,7 +17,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_MannUp"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -63,13 +32,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
+		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
+
+		"defaultBgColor_override" 	"G_DarkNight"
+		"armedBgColor_override" 	"G_White"
+		"depressedBgColor_override" "G_White"
 	}
 
 	"PracticeButton"
@@ -77,7 +50,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PracticeButton"
 		"xpos"			"c-95"
-		"ypos"			"303"
+		"ypos"			"333"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -87,7 +60,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_BootCamp"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -102,13 +75,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
+		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
+
+		"defaultBgColor_override" 	"G_DarkNight"
+		"armedBgColor_override" 	"G_White"
+		"depressedBgColor_override" "G_White"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -116,14 +93,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayWithFriendsExplanation"
 		"xpos"			"c+100"
-		"ypos"			"62"
+		"ypos"			"90"
 		"zpos"			"8"
 		"wide"			"200"
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"			"QuickplayBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

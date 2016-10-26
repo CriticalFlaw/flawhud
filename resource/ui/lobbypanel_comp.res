@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"		"G_MenuBg"
 		"proportionaltoparent"	"1"
 	}
 
@@ -29,7 +29,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"p0.8"
+		"tall"			"p0.9"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -42,10 +42,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScrollableContainer"
 		"xpos"			"c-305"
-		"ypos"			"r343"
+		"ypos"			"r341"
 		"zpos"			"100"
-		"wide"			"260"
-		"tall"			"290"
+		"wide"			"280"
+		"tall"			"285"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -61,12 +61,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-				
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -89,13 +88,12 @@
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-
 
 		"PlaylistBGPanel"
 		{
@@ -108,7 +106,8 @@
 			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"bgcolor_override"	"TransparentBlack"
+			"border"		"QuickplayBorder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -136,7 +135,7 @@
 				"fieldName"		"MatchHistoryCategories"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"		"10"
+				"zpos"		"0"
 				"wide"			"p0.95"
 				"tall"			"20"
 				"visible"		"1"
@@ -173,9 +172,9 @@
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"TanDark"
-					"selectedFgColor_override" "TanDark"
+					"defaultFgColor_override" "White"
+					"armedFgColor_override"	"TanLight"
+					"selectedFgColor_override" "White"
 				}
 
 				"ResultButton"
@@ -197,9 +196,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" "White"
+					"armedFgColor_override"	"TanLight"
+					"selectedFgColor_override" "White"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -227,13 +226,13 @@
 			
 					"labeltext"			"#TF_Competitive_Date"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" "White"
+					"armedFgColor_override"	"TanLight"
+					"selectedFgColor_override" "White"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -261,13 +260,13 @@
 			
 					"labeltext"			"#TF_Competitive_Map"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" "White"
+					"armedFgColor_override"	"TanLight"
+					"selectedFgColor_override" "White"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -294,12 +293,12 @@
 			
 					"labeltext"			"#TF_Competitive_KDR"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" "White"
+					"armedFgColor_override"	"TanLight"
+					"selectedFgColor_override" "White"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -325,7 +324,6 @@
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
 
-
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -340,7 +338,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"TanDark"
+						"fgcolor_override"	"White"
 					}
 		
 					"UpButton"
@@ -380,7 +378,7 @@
 
 	"PartyActiveGroupBox"
 	{
-		"xpos"			"c+100"
+		"xpos"		"c+100"
 		"ypos"		"r340"
 		"tall"		"300"
 		"proportionaltoparent"	"1"
@@ -447,13 +445,13 @@
 			"ypos"		"85"
 		}
 
-			"PlayersInGameTotalNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"85"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameTotalNearbyValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-90"
+			"ypos"		"85"
+			"proportionaltoparent"	"1"
+		}
 
 			"PlayersInGameTotalWorldwideValue"
 			{

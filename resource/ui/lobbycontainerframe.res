@@ -35,7 +35,7 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -44,37 +44,39 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}
+
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"r55"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}
+
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"r55"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Highlight"
+	}
 	
 	"Sheet"
 	{
@@ -88,30 +90,27 @@
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_Highlight"
+		}
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"textinsety"		"5"
+			"textinsetx"		"5"
+			"font"				"G_FontBig"
+			"selectedcolor"		"G_FooterText"
+			"unselectedcolor"	"G_DimmFooterText"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
-			"mouseinputenabled"	"0"
 		}
 	}
 
@@ -119,8 +118,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-305"
-		"ypos"			"437"
+		"xpos"			"c-295"
+		"ypos"			"r40"
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"25"
@@ -129,7 +128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -189,13 +188,12 @@
 		}
 	}
 
-
 	"NextButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NextButton"
-		"xpos"			"c+120"
-		"ypos"			"437"
+		"xpos"			"c+110"
+		"ypos"			"r40"
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"25"
@@ -204,7 +202,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -223,7 +221,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"StartPartyButton"
 		"xpos"			"c+110"
-		"ypos"			"310"
+		"ypos"			"340"
 		"zpos"			"10"
 		"wide"			"180"
 		"tall"			"25"
@@ -233,12 +231,18 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Matchmaking_StartParty"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"start_party"
+
+		if_competitive
+		{
+			"xpos"			"c+110"	//"c+105"
+			"ypos"			"310"	//"387"
+		}
 
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
