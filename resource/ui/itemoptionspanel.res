@@ -60,7 +60,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "G_White"
 		}
 
 		"SetStyleButton"

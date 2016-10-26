@@ -1,8 +1,8 @@
-"Resource/UI/hudpvewinpanel.res"
+"resource/UI/hudpvewinpanel.res"
 {
 	"WinPanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -12,15 +12,14 @@
 		"image"			"../hud/tournament_panel_brown"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" "5"
 	}
 
 	"WaveCompleteContainer"
@@ -36,7 +35,7 @@
 		
 		"WinningTeamLabelDropshadow"
 		{	
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
@@ -44,31 +43,31 @@
 			"ypos"			"3"
 			"wide"			"295"
 			"tall"			"26"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
-			"textAlignment"		"Center"
+			"textAlignment"	"Center"
 			"dulltext"		"0"
-			"brighttext"		"0"
-			
+			"brighttext"	"0"
+
 			// blue Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"black"
 			"bgcolor_override"	"91 122 142 200"
 		}
 		
 		"WinningTeamLabel"
 		{	
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"WinningTeamLabel"
 			"font"			"HudFontMediumSmallBold"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
 			"tall"			"26"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -76,10 +75,10 @@
 			"textAlignment"		"Center"
 		}
 	}
-	
+
 	"WinReasonLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"0"
@@ -87,19 +86,19 @@
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 
 	"DetailsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"15"
@@ -107,14 +106,14 @@
 		"zpos"			"1"
 		"wide"			"265"
 		"tall"			"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
