@@ -12,7 +12,7 @@
 		
 		"SplashBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
 			"xpos"			"25"
 			"ypos"			"0"
