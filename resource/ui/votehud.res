@@ -409,7 +409,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"NoBorder"
+		"border"		"QuickplayBorder"
 		"bgcolor_override"	"25 25 25 255"
 				
 		"FailedIcon"
@@ -476,7 +476,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"NoBorder"
+		"border"		"QuickplayBorder"
 		"bgcolor_override"	"25 25 25 255"
 				
 		"FailedIcon"

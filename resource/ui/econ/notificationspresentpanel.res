@@ -2,7 +2,7 @@
 {
 	"NotificationsPresentPanel"
 	{
-		"ControlName"	"CNotificationsPresentPanel"
+		"ControlName"		"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"c160"
 		"ypos"			"10"
@@ -11,26 +11,26 @@
 		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"border"		QuickplayBorder
 	}
 
 	"TextLabel"
 	{	
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		White
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"116"
 		"tall"			"35"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#Notifications_Present"
-		"textAlignment"	"north-west"
+		"textAlignment"		"north-west"
 		"font"			"TFFontSmall"
 	}
 }

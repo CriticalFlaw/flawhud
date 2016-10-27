@@ -615,7 +615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"44"
 				"tall_lodef"	"52"
 				"weight"		"500"
@@ -627,7 +627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"35"
 				"tall_lodef"	"40"
 				"weight"		"500"
@@ -662,7 +662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -696,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -707,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -756,7 +756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -767,7 +767,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -778,7 +778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -813,7 +813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -1171,7 +1171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"24"
 				"tall_hidef"	"32"
 				"weight"		"900"
@@ -1182,7 +1182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"24"
 				"tall_hidef"	"32"
 				"weight"		"900"
@@ -1912,7 +1912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code Pro Bold"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1959,7 +1959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Code Pro Bold"
 				"tall"			"10"
 				"weight"		"600"
 				"additive"		"0"

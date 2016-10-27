@@ -2,7 +2,7 @@
 {
 	"NotificationToastContainer"
 	{
-		"ControlName"	"CNotificationToastControl"
+		"ControlName"		"CNotificationToastControl"
 		"fieldName"		"NotificationToastContainer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -11,13 +11,12 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"QuickplayBorder"
 	}
-
 
 	"HelpTextLabel"
 	{	
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"HelpTextLabel"
 		"fgcolor"		"RedSolid"
 		"xpos"			"5"
@@ -25,16 +24,15 @@
 		"zpos"			"2"
 		"wide"			"140"
 		"tall"			"38"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"	"North"
+		"textAlignment"		"North"
 		"font"			"TFFontSmall"
-		"textinsetx"	"2"
-		"textinsety"	"7"
+		"textinsetx"		"2"
+		"textinsety"		"7"
 	}
-
 }
