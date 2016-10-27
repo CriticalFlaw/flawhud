@@ -21,7 +21,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WaitingForPlayersLabel"
-		"font"			"HudFontMedium"
+		"font"			"G_FontSmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WaitingForPlayersEndingLabel"
-		"font"			"HudFontMedium"
+		"font"			"G_FontSmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

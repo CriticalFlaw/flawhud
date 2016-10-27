@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"27 27 27 255"
+		"infocus_bgcolor_override" 		"27 27 27 255"
+		"outoffocus_bgcolor_override" 	"27 27 27 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -50,7 +50,7 @@
 			"model_ypos"		"5"			
 			"model_tall"		"55"
 			"model_wide"		"82"
-			"text_ypos"			"54"
+			"text_ypos"			"53"
 			"text_center"		"1"
 			"name_only"			"1"
 			
@@ -64,6 +64,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}
 
@@ -80,7 +81,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontMedium"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -92,31 +93,32 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMedium"
 		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
+		"textAlignment"	"center"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"15"
+		"textAlignment"	"center"
+		"xpos"			"c-120"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
@@ -124,6 +126,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "White"
 	}
 
 	"TauntCaratLabel"
@@ -133,33 +136,36 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-150"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
+
 	"TauntLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
 		"font"			"HudFontMediumBold"
+
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
-		"xpos"			"c-130"
-		"ypos"			"15"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
+
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TopLine"
@@ -171,8 +177,8 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
@@ -195,7 +201,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -312,7 +318,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"G_FontSmall_2"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -370,7 +376,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontMedium"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -389,7 +395,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"G_FontMedium"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -419,7 +425,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontMedium"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -460,12 +466,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"140"
+		"wide"			"100"
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"22 22 22 255"
+		"PaintBackgroundType"	"0"
+		"border"		"G_MainMenuButtonBorder"
 	}
 
 	"TauntHintLabel"
@@ -473,18 +480,56 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c90"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"	
 		"wide"			"250"
 		"tall"			"25"
 		"autoResize"	"0"
-		"pinCorner"		"0"
+		"pinCorner"		"1"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_ClassLoadoutTauntInputHint"
 		"textAlignment"	"east"
 		"centerwrap"	"1"
+	}
+
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-54"
+		"ypos"				"c100"
+		"zpos"				"12"	
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"B"
+		"textAlignment"		"center"
+		"font"				"G_FontMedium"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"defaultFgColor_override" "G_Blue"
+		"armedFgColor_override" "G_White"
+		"armedBgColor_override"	"G_Blue"
+		"depressedFgColor_override" "G_White"
+		"depressedBgColor_override"	"G_Blue"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			""
+		"border_armed"				""
+		"border_depressed"			""
 	}
 
 	"CharacterLoadoutButton"
@@ -492,8 +537,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-25"
-		"ypos"			"c90"
+		"xpos"			"c-27"
+		"ypos"			"c100"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -531,7 +576,7 @@
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
 		"xpos"			"c2"
-		"ypos"			"c90"
+		"ypos"			"c100"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -561,6 +606,44 @@
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
 		}
+	}
+
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c29"
+		"ypos"				"c100"
+		"zpos"				"12"	
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"R"
+		"textAlignment"		"center"
+		"font"				"G_FontMedium"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"defaultFgColor_override" "G_Red"
+		"armedFgColor_override" "G_White"
+		"armedBgColor_override"	"G_Red"
+		"depressedFgColor_override" "G_White"
+		"depressedBgColor_override"	"G_Red"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			""
+		"border_armed"				""
+		"border_depressed"			""
 	}
 
 	"TauntsExplanation"

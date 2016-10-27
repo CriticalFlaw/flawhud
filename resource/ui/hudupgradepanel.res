@@ -27,7 +27,7 @@
 		
 		"modelpanels_kv"
 		{
-			"zpos"			"-2"
+			"zpos"			"11"
 			"wide"			"70"
 			"tall"			"50"
 			"bgcolor_override"		"0 0 0 0"
@@ -38,7 +38,7 @@
 			"model_ypos"	"5"
 			"model_tall"	"32"
 			"model_wide"	"48"
-			"model_center_x"	"1"
+			"model_center_x" "1"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -60,13 +60,13 @@
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-		"zpos"		"-1"
+		"zpos"		"-10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 210"
+		"bgcolor_override"	"G_TransparentMenuBg"
 	}
 	
 	"SelectWeaponPanel"
@@ -86,7 +86,7 @@
 		
 		"OutterPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"OutterPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -95,8 +95,8 @@
 			"tall"			"310"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -107,10 +107,66 @@
 
 		}
 		
+		"G_Borders"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"G_Borders"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"500"
+			"tall"			"310"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"1"
+			"border"		"G_TargetBorder"
+			"paintbackground"	"1"
+			"bgcolor_override"	"140 140 140 0"
+		}
+
+		"G_OuterPanelBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"G_OuterPanelBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-8"
+			"wide"			"500"
+			"tall"			"310"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"1"
+			"border"		"NoBorder"
+			"bgcolor_override"	"G_Footer"
+		}
+
+		
 		"InnerPanelRim"
 		{
 			"ControlName"	"Panel"
 			"fieldName"		"InnerPanelRim"
+			"xpos"			"0"
+			"ypos"			"50"
+			"zpos"			"-1"
+			"wide"			"500"
+			"tall"			"230"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"G_MenuBg"
+			"border"			"G_TargetBorder"
+		}
+		
+		"G_InnerPanelRim"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"G_InnerPanelRim"
 			"xpos"			"10"
 			"ypos"			"50"
 			"zpos"			"-1"
@@ -118,11 +174,14 @@
 			"tall"			"230"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			
-			"PaintBackgroundType" "2"
-			"bgcolor_override"	"142 132 121 255"
+			"image"			"../hud/color_panel_red"
+			"paintborder"			"0"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		
 		"InnerBGPanel"
@@ -134,9 +193,10 @@
 			"zpos"			"0"
 			"wide"			"470"
 			"tall"			"220"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"visible"		"0"
+			"PaintBackgroundType"	"0"
+			"border"		"G_TargetBorder"
+			"bgcolor_override"	"G_Footer"
 		}
 	
 		"PlayerUpgradeButton"
@@ -212,8 +272,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"142 132 121 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"G_Highlight"
+			"PaintBackgroundType"	"0"
+			"border"	"G_TargetBorder"
 		}
 		
 		"MouseOverTabPanel"
@@ -222,16 +283,16 @@
 			"fieldName"		"MouseOverTabPanel"
 			"xpos"			"14"
 			"ypos"			"9"
-			"zpos"			"-6"
+			"zpos"			"-4"
 			"wide"			"72"
 			"tall"			"54"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"MouseOverUpgradePanel"
@@ -246,10 +307,10 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -266,8 +327,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel2"
@@ -284,8 +345,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel3"
@@ -302,8 +363,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel4"
@@ -320,8 +381,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel5"
@@ -338,8 +399,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel6"
@@ -356,25 +417,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveSeparatorPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InactiveSeparatorPanel"
-			"xpos"			"10"
-			"ypos"			"48"
-			"zpos"			"-4"
-			"wide"			"480"
-			"tall"			"5"
+			"xpos"			"0"
+			"ypos"			"50"
+			"zpos"			"0"
+			"wide"			"500"
+			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 128"
+			"bgcolor_override"	"G_Highlight"
+			"border"			"G_TargetBorderSides"
 		}
 
 		"GreyedOutLabel"
@@ -462,7 +524,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"52 48 45 255"
+			"bgcolor_override"	"G_ItemDescriptionPanelBg"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -471,6 +533,7 @@
 			"fieldName"		"UpgradeItemsDescriptionLabel"
 			"font"			"ItemFontAttribLarge"
 			"labelText"		"%upgrade_description%"
+			"fgcolor"		"G_MenuText"
 			"textAlignment"	"center"
 			"wrap"			"1"
 			"centerwrap"	"1"
@@ -493,13 +556,13 @@
 			"ypos"			"135"
 			"zpos"			"0"
 			"wide"			"130"
-			"tall"			"130"
+			"tall"			"128"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"97 94 84 255"
+			"bgcolor_override"	"G_ItemDescriptionPanelBg"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -516,7 +579,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"72 68 63 255"
+			"bgcolor_override"	"G_ItemDescriptionPanelBg"
 		}
 		
 		"UpgradeItemsLabel"
@@ -524,12 +587,13 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
 			"font"			"HudFontSmall"
+			"fgcolor"		"G_MenuText"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
-			"xpos"			"25"
-			"ypos"			"135"
+			"xpos"			"30"
+			"ypos"			"136"
 			"zpos"			"2"
-			"wide"			"130"
+			"wide"			"120"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -548,7 +612,7 @@
 			"ypos"			"160"
 			"zpos"			"2"
 			"wide"			"120"
-			"tall"			"105"
+			"tall"			"103"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -556,11 +620,27 @@
 			"wrap"			"1"
 		}
 		
+		"G_FooterLine"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"G_FooterLine"
+			"xpos"			"0"
+			"ypos"			"278"
+			"zpos"			"0"
+			"wide"			"500"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_Highlight"
+			"border"			"G_TargetBorderSides"
+		}
+		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"G_FontMedium"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -572,13 +652,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"121 195 58 255"
+			"bgcolor_override"	"200 0 0 0"
 		}
 		
 		"CreditsTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"G_FontMedium_2"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
@@ -589,7 +670,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"G_FooterText"
 		}
 		
 		"CancelButton"
@@ -597,7 +678,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"CancelButton"
 			"xpos"			"335"
-			"ypos"			"285"
+			"ypos"			"286"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"17"
@@ -622,7 +703,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"CloseButton"
 			"xpos"			"415"
-			"ypos"			"285"
+			"ypos"			"286"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"17"
@@ -647,7 +728,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"RespecButton"
 			"xpos"			"50"
-			"ypos"			"285"
+			"ypos"			"286"
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"17"
@@ -673,15 +754,16 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TipPanel"
 		"xpos"			"c-250"
-		"ypos"			"395"
+		"ypos"			"400"
 		"zpos"			"10"
 		"wide"			"500"
-		"tall"			"40"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"63 59 55 0"
+		"bgcolor_override"	"G_Footer"
+		"border"		"G_TargetBorder"
 		
 		"TipPanelBG"
 		{
@@ -694,8 +776,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -709,20 +791,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
+			"font"			"DefaultVerySmall"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"11"
 			"wide"			"460"
-			"tall"			"40"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"G_MenuText"
 		}
 		
 		"NextTipButton"
@@ -730,10 +812,10 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"NextTipButton"
 			"xpos"			"470"
-			"ypos"			"9"
-			"zpos"			"12"
-			"wide"			"20"
-			"tall"			"23"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"30"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -744,6 +826,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"nexttip"
+			"font"			"DefaultVerySmall"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "0 0 0 0"
 		}
-	}	
+	}
 }

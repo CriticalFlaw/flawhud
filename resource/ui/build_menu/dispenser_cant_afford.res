@@ -7,6 +7,11 @@
 		"labelText"		"#TF_Object_dispenser"
 	}
 	
+	"BuildingIcon"	
+	{
+		"icon"			"hud_menu_dispenser_build"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"2"

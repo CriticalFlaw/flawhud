@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_minmode"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -48,12 +47,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
+		"xpos"				"75"
+		"ypos"				"r30"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"r88"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -62,12 +59,10 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
+		"xpos"				"75"
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"145"
-		"ypos_minmode"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -184,7 +179,7 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"				"102"
+		//"zpos"			"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -225,7 +220,7 @@
 		
 		"Background"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
 			"ypos"			"400"
@@ -237,10 +232,10 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
+			"src_corner_height"		"22"
+			"src_corner_width"		"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"5"
 			"draw_corner_height" 	"5"	
 		}
 	
@@ -260,5 +255,4 @@
 			"fgcolor"		"tanlight"		
 		}
 	}
-	
 }

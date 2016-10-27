@@ -11,35 +11,15 @@
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
-	}
-	
-	"WaveCountLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
-		"xpos"			"200"
-		"ypos"			"6"
-		"zpos"			"3"
-		"wide"			"200"
-		"tall"			"15"
-		"xpos_minmode"	"110"
-		"wide_minmode"	"-300"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
-		"labelText"					"%wave_count%"
 	}
 	
 	"SeparatorBar"
@@ -61,6 +41,23 @@
 		{
 			"visible"		"1"
 		}
+	}
+	
+	"WaveCountLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"TanLight"
+		"xpos"			"200"
+		"ypos"			"6"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
+		"labelText"					"%wave_count%"
 	}
 	
 	"SupportLabel"
@@ -93,21 +90,33 @@
 		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"178"
-		"tall"			"10"
-		"xpos_minmode"	"231"
-		"ypos_minmode"	"8"
-		"wide_minmode"	"138"
+		"tall"			"6"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"fillcolor"		"../HUD/tournament_panel_tan"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
+	"NewProgressBarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NewProgressBarBG"
+		"xpos"			"211"
+		"ypos"			"20"
+		"zpos"			"-1"
+		"wide"			"179"
+		"tall"			"6"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"HudBlack"
+	}
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -117,17 +126,14 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"xpos_minmode"	"230"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"140"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }

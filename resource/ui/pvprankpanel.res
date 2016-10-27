@@ -160,11 +160,12 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
-		"wide"			"605"
+		"wide"			"602"
 		"tall"			"70"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"0"
+		"border"		"QuickplayBorder"
+		"bgcolor_override"	"25 25 25 200"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -333,10 +334,10 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
-					"wide"			"f0"
-					"tall"			"f0"
+					"wide"			"0"
+					"tall"			"0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
+					"border"		"NoBorder"
 				}
 
 

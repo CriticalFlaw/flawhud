@@ -13,6 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintbackground"	"0"
 	}
 	
 	"MapInfoTitle"
@@ -33,8 +34,9 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
+		"font"			"G_FontMedium"
+		"fgcolor"		"G_White"
+		"textinsetx"	"5"
 	}
 	
 	"MapInfoType"
@@ -42,10 +44,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-184"
-		"xpos_lodef"			"c-174"
-		"xpos_hidef"			"c-174"
-		"ypos"			"125"
-		"ypos_lodef"			"140"
+		"ypos"			"116"
 		"zpos"			"1"
 		"wide"			"225"
 		"tall"			"24"
@@ -55,15 +54,16 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardText"
-		"fgcolor"		"Gray"
+		"font"			"G_FontSmall_2"
+		"fgcolor"		"G_White"
+		"textinsetx"	"5"
 	}	
 	
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ChalkboardText"
+		"font"			"G_FontSmall_2"
 		"xpos"			"c-184"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"G_GhostWhite"
 	}
 	
 	"MapImage"
@@ -119,13 +119,13 @@
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"&D"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,16 +133,44 @@
 		"default"		"1"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
+		"Alpha"			"0"
+	}
+	
+	"G_MapInfoContinue" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"G_MapInfoContinue"
+		"xpos"			"r190"
+		"xpos_lodef"	"r222"
+		"xpos_hidef"	"r232"
+		"ypos"			"r40"
+		"ypos_lodef"	"r64"
+		"ypos_hidef"	"r54"
+		"zpos"			"10"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&D"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"G_MenuArrowBig"
+		"fgcolor"		"TanLight"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"ypos_lodef"	"r64"
+		"ypos_hidef"	"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -170,24 +198,50 @@
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"&A"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
+		"Alpha"			"0"
+	}
+	
+	"G_MapInfoBack" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"G_MapInfoBack"
+		"xpos"			"40"
+		"xpos_hidef"	"50"
+		"ypos"			"r40"
+		"ypos_lodef"	"r64"
+		"ypos_hidef"	"r54"
+		"zpos"			"10"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&A"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"G_MenuArrowBig"
+		"fgcolor"		"TanLight"
 	}
 	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -196,77 +250,23 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
-	}					
-
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"17 17 17 215"
+	}	
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"5"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}	
+		"fillcolor"		"17 17 17 215"
+	}
 }
