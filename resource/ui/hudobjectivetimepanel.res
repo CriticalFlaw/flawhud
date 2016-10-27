@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"60"
@@ -39,12 +39,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"G_PanelBg"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"wide"					"76"
-		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -91,7 +85,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"60"
@@ -99,12 +93,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"G_PanelBg"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"wide"					"76"
-		}
 	}
 	"OvertimeLabel"
 	{
@@ -151,7 +139,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"60"
@@ -159,12 +147,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"G_PanelBg"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"wide"					"76"
-		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -211,7 +193,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"60"
@@ -219,13 +201,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"G_PanelBg"
-
-		if_match
-		{
-			"ypos"			"30"
-			"proportionaltoparent"	"1"
-			"wide"					"76"
-		}
 	}
 	"SetupLabel"
 	{
@@ -273,7 +248,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"60"
@@ -281,12 +256,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"G_PanelBg"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"wide"					"76"
-		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -313,7 +282,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"G_FontTiny_2"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
