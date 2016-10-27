@@ -234,7 +234,6 @@
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -253,8 +252,7 @@
 		if_match
 		{
 			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"ypos_minmode"			"0"
+			"wide"					"130
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -269,20 +267,16 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"G_FontMedium"
-			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"White"
 			"xpos"			"33"
-			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"-5"
-			"ypos_minmode"	"6"
+			"ypos"			"-5
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
@@ -296,10 +290,8 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}
 		}	

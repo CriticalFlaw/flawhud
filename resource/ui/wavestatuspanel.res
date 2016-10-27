@@ -54,12 +54,9 @@
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"110"
-		"wide_minmode"	"-300"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -94,7 +91,6 @@
 		"zpos"			"3"
 		"wide"			"178"
 		"tall"			"6"
-		"ypos_minmode"	"9"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"../HUD/tournament_panel_tan"
@@ -115,7 +111,6 @@
 		"zpos"			"-1"
 		"wide"			"179"
 		"tall"			"6"
-		"ypos_minmode"	"9"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

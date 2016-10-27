@@ -6,8 +6,6 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"10"
 		"ypos"			"0"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"-15"
 		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"

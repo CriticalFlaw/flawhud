@@ -65,8 +65,6 @@
 		"ypos"				"r140"	
 		"wide"				"100"
 		"tall"				"45"
-		"xpos_minmode"		"r85"
-		"ypos_minmode"		"r36"
 	}
 	
 	HudObjectiveStatus
@@ -90,9 +88,7 @@
 		"wide"				"200"
 		"tall"				"160"
 		"blue_active_xpos"	"5"
-		"red_active_xpos"	"65"	
-		"blue_active_xpos_minmode"	"55"	
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos"	"65"
 	}
 
 	HudItemEffectMeter
@@ -106,8 +102,6 @@
 		"tall"				"50"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
-		"xpos_minmode"		"r52"
-		"ypos_minmode"		"r50"
 	}
 	
 	HudMedicCharge
@@ -119,8 +113,6 @@
 		"ypos"				"200"
 		"wide"				"f0"
 		"tall"				"480"
-		"xpos_minmode"		"r100"
-		"ypos_minmode"		"r34"
 	}
 	
 	HudDemomanCharge
@@ -149,9 +141,6 @@
 		"tall"				"8"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
-		"xpos_minmode"		"r52"
-		"ypos_minmode"		"r40"
-		"wide_minmode"		"50"
 	}
 
 	HudFlameRocketCharge
@@ -166,9 +155,6 @@
 		"tall"				"8"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
-		"xpos_minmode"		"r52"
-		"ypos_minmode"		"r40"
-		"wide_minmode"		"50"
 	}
 
 	HudBossHealth
@@ -232,7 +218,6 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"ypos_minmode"			"r134"
 	}
 	
 	CHealthAccountPanel
@@ -245,8 +230,6 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"xpos_minmode"			"61"
-		"ypos_minmode"			"r134"
 	}
 	
 	CDamageAccountPanel
@@ -283,7 +266,6 @@
 		"tall"	 			"28"
 		"priority"			"40"
 		"priority_lodef"	"5"
-		"tall_minmode"		"28"
 	}
 	
 	CSpectatorTargetID
@@ -299,7 +281,6 @@
 		"priority_lodef"	"35"
 		"x_offset" 			"20"
 		"y_offset" 			"20"
-		"tall_minmode"		"28"
 	}
 	
 	CSecondaryTargetID
@@ -312,7 +293,6 @@
 		"wide"	 			"252"
 		"tall"	 			"28"
 		"priority"			"35"
-		"tall_minmode"		"28"
 	}
 	
 	BuildingStatus_Spy
@@ -992,8 +972,6 @@
 		"ypos"			"r135"
 		"wide"			"100"
 		"tall"			"50"
-		"xpos_minmode"	"r110"
-		"ypos_minmode"	"r30"
 	}	
 
 	HudTeamGoal
