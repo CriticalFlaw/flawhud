@@ -222,6 +222,7 @@
 
 		if_match
 		{
+			"ypos"			"30"
 			"proportionaltoparent"	"1"
 			"wide"					"76"
 		}
