@@ -252,7 +252,7 @@
 		if_match
 		{
 			"xpos"					"cs-0.5"
-			"wide"					"130
+			"wide"					"130"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -272,7 +272,7 @@
 			"xpos"			"33"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"-5
+			"ypos"			"-5"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"

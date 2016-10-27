@@ -66,7 +66,7 @@
 		"font"			"G_FontMedium"
 		"font_lodef"	"HudFontMedium"
 		"fgcolor"		"G_Shadow"
-		"xpos"			"62
+		"xpos"			"62"
 		"ypos"			"8"
 		"ypos_lodef"	"11"
 		"zpos"			"7"
@@ -111,7 +111,7 @@
 		"zpos"			"5"
 		"wide"			"84"
 		"wide_lodef"	"83"
-		"tall"			"50
+		"tall"			"50"
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
