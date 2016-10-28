@@ -4,53 +4,103 @@ Scheme
 	{
 		// CUSTOM COLORS
 		//---------------------------------------------
-		// Crosshair Colors	
-		"Crosshair"					"255 255 255 255"
-		"CrosshairDamage"			"255 0 0 255"
+		// Colors
+		"G_White"					"255 255 255 255"
+		"G_Black"					"0 0 0 255"
+		"G_Blue"					"72 112 125 255"
+		"G_Red"						"158 64 61 255"
+		"G_Brown"					"49 44 41 255"
+		"G_Yellow"					"235 220 50 255"
 		//---------------------------------------------
+		// Shadows	
+		"G_Shadow"					"0 0 0 220"
+		"G_LightShadow"				"0 0 0 110"
+		"G_WhiteShadow"				"255 255 255 50"
+		"G_WhiteShadowDim"			"255 255 255 40"
+		"G_WhiteShadowCharge"		"255 255 255 100"
+		//---------------------------------------------
+		// Main Menu
 		"G_Highlight"				"255 255 255 255"
 		"G_MenuBg"					"27 27 27 255"
 		"G_Footer"					"27 27 27 255"
 		"G_DarkNight"				"27 27 27 255"
+		"G_MenuShader"				"0 0 0 100" 		// Menu shader color
+		"G_Footer"					"27 27 27 255" 		// Menu footer color
 		"BGShader"					"18 22 25 225"
-		//---------------------------------------------
-		// Ubercharge
-		"Ubercharge1"				"170 240 45 255"
-		"Ubercharge2"				"100 240 45 255"
+		
+		"G_MainMenuOverlay"			"0 0 0 0" 			// Main Menu overlay color
+		"G_MainMenuShader"			"0 0 0 0" 			// Main Menu shader color
+		"G_MainMenuButton"			"255 255 255 255" 		// Main Menu button color
+		"G_MainMenuButtonHover"		"0 0 0 166" 		// Main Menu hovered button color
+		"G_MainMenuButtonFg"		"255 255 255 255" 	// Main Menu button text color
+		"G_MainMenuButtonHoverFg"	"255 255 255 255" 	// Main Menu hovered button text color
+		
+		"G_ItemEffectMeterLineColor"	"120 120 120 130"
+		"G_MainMenuButtonBorderColor" 	"255 255 255 255" 	// Main menu button border color
+		"G_MainMenuButtonBorderHoverColor" 	"0 0 0 100" 	// Main menu hovered button border color
+		
 		//---------------------------------------------
 		// Buttons
 		"G_ButtonBg"				"96 83 73 255" 		// Button bg color
 		"G_ButtonText"				"255 255 255 255"	// Button text color
 		"G_ButtonHoverBg"			"255 255 255 255" 	// Button hover bg color
 		"G_ButtonHoverText"			"0 0 0 255" 		// Button hover text color
-		"G_ButtonSelectedBg"		"255 255 255 105" 	// Button selected bg color
+		"G_ButtonSelectedBg"		"255 255 255 255" 	// Button selected bg color
 		"G_ButtonSelectedText"		"0 0 0 255" 		// Button selected text color
-		
+		//---------------------------------------------
+		// Gameplay
 		"G_Overheal"				"170 234 43 255" 	// Overhealed health value color
+		"G_Heal"					"89 196 31 255"		// Health Healed
+		"G_Hit"						"234 218 43 255"	// Damage Taken
+		"G_HealthValue"				"255 255 255 255" 	// Health value color
+		"G_LowHealthValue"			"255 0 0 255" 		// Low health value color
+		"G_AmmoClipValue"			"255 255 255 255" 	// Ammo in clip value color
+		"G_AmmoReserveValue"		"255 255 255 255" 	// Ammo in reserve value color
+		"G_LowAmmo"					"255 0 0 255" 		// Low ammo color
+		//---------------------------------------------
+		// Crosshair Colors	
+		"Crosshair"					"255 255 255 255"
+		"CrosshairDamage"			"255 0 0 255"
+		//---------------------------------------------
+		// Ubercharge
+		"Ubercharge1"				"170 240 45 255"
+		"Ubercharge2"				"100 240 45 255"
+		//---------------------------------------------
+		// Engineer Specific
+		"G_MetalValue"				"255 255 255 255" 	// Metal color
+		"G_MetalIcon"				"255 255 255 255" 	// Metal icon color
+		//---------------------------------------------
+		// TargetID
+		"G_CustomTargetID" 			"0 0 0 100" 		// Custom target id bg color
+		"G_TargetHealthValue" 		"255 255 255 255" 	// Target ID health value color
+		"G_TargetHealthValueShadow" "0 0 0 220" 		// Target ID health value shadow color
+		//---------------------------------------------
+		// Killstreak
+		"G_KillstreakValue"			"255 255 255 255" 	// Killstreak value color
+		"G_KillstreakIcon"			"255 255 255 255" 	// Killstreak icon color
+		//---------------------------------------------
+		// Stickybomb
+		"G_StickyColor"				"255 255 255 255" 	// Stickybomb color
+		"G_StickyIconColor"			"255 255 255 255" 	// Stickybomb icon color
+		//---------------------------------------------
+		// Head Count
+		"G_HeadsValue"				"255 255 255 255" 	// Heads value color
+		"G_HeadsLabel"				"255 255 255 255" 	// Heads value icon color
+		//---------------------------------------------
+		// Killfeed
+		"G_Killfeed_Base"			"61 61 61 255" 		// Killfeed Base color
+		"G_Killfeed_Local"			"243 243 243 255" 	// Killfeed Local color
+		"G_KillfeedBlue"			"83 164 196 255" 	// Killfeed blue text
+		"G_KillfeedRed"				"196 83 83 255" 	// Killfeed red text
+		"G_KillfeedIcon"			"255 255 255 255" 	// Killfeed icon color
 		
-		
-		"G_White"					"255 255 255 255"
-		
-		"G_MenuShader"				"0 0 0 100" 		// Menu shader color
 		//---------------------------------------------
 		// Uncategorized
 		"Base Color"				"255 255 255 255"
 		"G_Night"					"51 47 46 255"
 		"G_DarkNight"				"27 27 27 255"
 		"G_TanLight"				"242 242 242 255"
-		"G_White"					"255 255 255 255"
-		"G_Black"					"0 0 0 255"
-		"G_Blue"					"72 112 125 255"
-		"G_Red"						"158 64 61 255"
-		"G_Shadow"					"0 0 0 220"
-		"G_LightShadow"				"0 0 0 110"
-		"G_Heal"					"89 196 31 255"
-		"G_Hit"						"234 218 43 255"
-		"G_Brown"					"49 44 41 255"
-		"G_Yellow"					"235 220 50 255"
-		"G_WhiteShadow"				"255 255 255 50"
-		"G_WhiteShadowDim"			"255 255 255 40"
-		"G_WhiteShadowCharge"		"255 255 255 100"
+		
 		"G_Grey"					"54 54 54 255" 		// Move building bg
 		"G_LightGrey"				"180 180 180 255" 	// Metal color in build/destroy menu
 		"G_HealthBarBg"				"0 0 0 220" 		// Target health bg
@@ -59,24 +109,6 @@ Scheme
 		"G_PanelBg"					"40 40 40 199" 		// Panel color
 		"G_OpaquePanelBg"			"40 40 40 255" 		// Opaque Panel color
 		"G_Warning"					"150 0 0 255" 		// Warning color
-		"G_HealthValue"				"255 255 255 255" 	// Health value color
-		"G_LowHealthValue"			"255 0 0 255" 		// Low health value color
-		"G_AmmoClipValue"			"255 255 255 255" 	// Ammo in clip value color
-		"G_AmmoReserveValue"		"255 255 255 255" 	// Ammo in reserve value color
-		"G_LowAmmo"					"255 0 0 255" 		// Low ammo color
-		"G_MetalValue"				"255 255 255 255" 	// Metal color
-		"G_MetalIcon"				"255 255 255 255" 	// Metal icon color
-		"G_HeadsValue"				"255 255 255 255" 	// Heads value color
-		"G_HeadsLabel"				"255 255 255 255" 	// Heads value icon color
-		"G_KillstreakValue"			"255 255 255 255" 	// Killstreak value color
-		"G_KillstreakIcon"			"255 255 255 255" 	// Killstreak icon color
-		"G_StickyColor"				"255 255 255 255" 	// Stickybomb color
-		"G_StickyIconColor"			"255 255 255 255" 	// Stickybomb icon color
-		"G_CustomTargetID" 			"0 0 0 100" 		// Custom target id bg color
-		"G_TargetHealthValue" 		"255 255 255 255" 	// Target ID health value color
-		"G_TargetHealthValueShadow" "0 0 0 220" 		// Target ID health value shadow color
-		"G_Killfeed_Base"			"61 61 61 255" 		// Killfeed Base color
-		"G_Killfeed_Local"			"243 243 243 255" 	// Killfeed Local color
 		"G_CenteredMetalBg"			"50 50 50 120" 		// Centered metal background color
 		"G_CenteredUberchargeBg"	 "0 0 0 100" 		// Centered ubercharge meter background color
 		"G_BrownBg"					"46 43 42 220"
@@ -89,22 +121,13 @@ Scheme
 		"G_TeamButtonRed"			"189 58 58 100"
 		"G_TeamButtonBlueArmed"		"111 142 160 255"
 		"G_TeamButtonRedArmed"		"209 78 78 255"		
-		"G_Footer"					"27 27 27 255" 		// Menu footer color
+		
 		"G_DimmFooter"				"28 23 19 200" 		// Dimm Menu footer color
 		"G_FooterText"				"255 255 255 255" 	// Footer text color
 		"G_DimmFooterText"			"255 255 255 120" 	// Dimm Footer text color
 		"G_OuterBorder"				"0 0 0 255" 		// Outer border color
 		"G_InnerBorder"				"0 0 0 30" 			// Inner border color
-		"G_KillfeedBlue"			"83 164 196 255" 	// Killfeed blue text
-		"G_KillfeedRed"				"196 83 83 255" 	// Killfeed red text
-		"G_KillfeedIcon"			"255 255 255 255" 	// Killfeed icon color
 		"G_CustomHealthValue"		"120 120 120 255"
-		"G_MainMenuOverlay"			"0 0 0 0" 			// Main Menu overlay color
-		"G_MainMenuShader"			"0 0 0 0" 			// Main Menu shader color
-		"G_MainMenuButton"			"255 255 255 255" 		// Main Menu button color
-		"G_MainMenuButtonHover"		"0 0 0 166" 		// Main Menu hovered button color
-		"G_MainMenuButtonFg"		"255 255 255 255" 	// Main Menu button text color
-		"G_MainMenuButtonHoverFg"	"255 255 255 255" 	// Main Menu hovered button text color
 		"G_BackpackItemBg"			"22 22 22 255" 		// Backpack item bg color
 		"G_LoadoutItemBg"			"27 27 27 255" 		// Loadout item bg color
 		"G_MenuText"				"255 255 255 255" 	// Menu text color
@@ -117,10 +140,6 @@ Scheme
 		"G_GhostWhite"				"255 255 255 210"
 		"G_ItemMeterBg"				"0 0 0 100" 		// Item meter bg
 		"G_ItemMeterBorder"			"0 0 0 0" 			// Item meter border color
-		
-		"G_ItemEffectMeterLineColor"	"120 120 120 130"
-		"G_MainMenuButtonBorderColor" 	"242 242 242 255" 	// Main menu button border color
-		"G_MainMenuButtonBorderHoverColor" 	"0 0 0 100" 		// Main menu hovered button border color
 		"G_MvmLobbyPanelBg"				"40 40 40 255"
 		"G_MvmLobbyPanelText"			"220 220 220 255"
 
