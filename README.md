@@ -16,9 +16,10 @@ This button is located on the top right section of the main menu, under the Twit
 ####Transparent Viewmodels
 While the necessary files and entry in hudslayout (disabled by default) are included, the config necessary to use Transparent Viewmodels will not be included. This is due to a number of people having graphical issues due to their configs conflicting, so for those of you needing them - you'll have to find a config or modify your existing one accordingly.
 
-### Excluded Features
-* Classic Main Menu Style (There won't be anymore support for it, so it'll be excluded)
-* Miscellaneous Gamemodes (Arena, Passtime, Player/Robot Destruction etc.)
+### TO-DO List
+* MAC Compatability
+* Fix various coloring inconsistencies
+* Miscellaneous Gamemode Support (Arena, Passtime, Player/Robot Destruction etc.)
 
 ####Help/Support
 If you've found a bug, need help or have a suggestion - consider one of the following:
