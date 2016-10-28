@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkerGrey"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"BackColor"
     	{
@@ -32,8 +32,8 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"ahudPanelBorder"
-			"bgcolor_override"	"ahudDarkerGrey"
+			"border"			"QuickplayBorder"
+			"bgcolor_override"	"DarkerGrey"
     	}
 	}
 	

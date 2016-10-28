@@ -14,9 +14,9 @@ Scheme
 		Replay.RenderDialog.BgColor				"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor						"Blank"
-		Econ.Button.BgColor						"DarkNight"
-		Econ.Button.FgColor						"White"
-		Econ.Button.ArmedBgColor				"TFOrange"
+		Econ.Button.BgColor						"G_Black"
+		Econ.Button.FgColor						"G_White"
+		Econ.Button.ArmedBgColor				"G_White"
 		Econ.Button.ArmedFgColor				"G_Black"
 		Econ.Button.DepressedBgColor			"G_Black"
 		Econ.Button.DepressedFgColor			"G_White"	
@@ -26,6 +26,8 @@ Scheme
 		Econ.Button.PresetDefaultColorBg		"G_ButtonSelectedBg"
 		Econ.Button.PresetArmedColorBg			"G_ButtonHoverBg"
 		Econ.Button.PresetDepressedColorBg		"G_ButtonSelectedBg"
+		Econ.Button.Border.Default				"G_White"
+		"Econ.Button.Border.Armed				"G_Black"
 		
 		Border.Bright							"Blank"			// the lit side of a control
 		Border.Dark								"Black"			// the dark/unlit side of a control
