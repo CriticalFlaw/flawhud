@@ -65,6 +65,8 @@ Scheme
 		// Ubercharge
 		"Ubercharge1"				"170 240 45 255"
 		"Ubercharge2"				"100 240 45 255"
+		"ChargePercent"				"243 243 243 255"
+		"Ubercharge Meter"			"255 255 255 255"
 		//---------------------------------------------
 		// Engineer Specific
 		"G_MetalValue"				"255 255 255 255" 	// Metal color
