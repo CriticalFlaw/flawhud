@@ -27,7 +27,7 @@ Scheme
 		Econ.Button.PresetArmedColorBg			"G_ButtonHoverBg"
 		Econ.Button.PresetDepressedColorBg		"G_ButtonSelectedBg"
 		Econ.Button.Border.Default				"G_White"
-		"Econ.Button.Border.Armed				"G_Black"
+		Econ.Button.Border.Armed				"G_Black"
 		
 		Border.Bright							"Blank"			// the lit side of a control
 		Border.Dark								"Black"			// the dark/unlit side of a control
