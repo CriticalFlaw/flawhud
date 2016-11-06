@@ -20,11 +20,7 @@
 		
 		if_comp
 		{
-			"xpos"			"132"
-			"ypos"			"22"
-			"wide"			"76"
-			"tall"			"12"
-			"paintborder"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -65,7 +61,7 @@
 		if_comp
 		{
 			"xpos"				"142"
-			"ypos"				"22"
+			"ypos"				"25"
 			"wide"				"26"
 			"tall"				"12"
 			"bgcolor_override"	"0 0 0 0"
@@ -121,7 +117,7 @@
 		{
 			"font"			"G_FontTiny_2"
 			"xpos"			"170"
-			"ypos"			"22"
+			"ypos"			"25"
 			"wide"			"10"
 			"tall"			"12"
 		}
@@ -150,7 +146,7 @@
 		{
 			"font"			"G_FontTiny_2"
 			"xpos"			"180"
-			"ypos"			"22"
+			"ypos"			"25"
 			"wide"			"25"
 			"tall"			"12"
 		}
