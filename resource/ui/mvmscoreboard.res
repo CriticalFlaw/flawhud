@@ -20,52 +20,12 @@
 		"fieldName"		"PopFileLabel"
 		"font"			"HudFontSmallest"
 		"labelText"		"%popfile%"
-		"textAlignment"	"Center"
-		"xpos"			"5"
+		"textAlignment"	"East"
+		"xpos"			"-25"
 		"ypos"			"74"
-		"textAlignment"		"center"
 		"wide"			"600"
 		"tall"			"20"
 		"fgcolor"		"White"
-	}
-
-	"DifficultyContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DifficultyContainer"
-		"xpos"			"25"
-		"ypos"			"74"
-		"wide"			"550"
-		"tall"			"20"
-		"visible"		"1"
-		
-		"DifficultyLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"fgcolor"		"tanlight"
-		}
-		
-		"DifficultyValue"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallest"
-			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"540"
-			"tall"			"20"
-			"fgcolor"		"White"
-		}
 	}
 	
 	"PlayerListBackground"

@@ -2026,7 +2026,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code-Pro-Bold"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -2037,7 +2037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code-Pro-Bold"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2048,7 +2048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code-Pro-Bold"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2059,7 +2059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Code-Pro-Bold"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"

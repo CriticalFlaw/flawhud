@@ -826,7 +826,7 @@
 			
 		if_mvm
 		{
-		"visible"		"0"
+			"visible"		"0"
 		}
 	}						
 	"HorizontalLine"
@@ -834,8 +834,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"0"
-		"ypos"			"0"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
