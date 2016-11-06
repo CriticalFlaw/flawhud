@@ -8,10 +8,10 @@ Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf
 ####Custom Crosshairs (KnucklesCrosses)
 Custom crosshairs are disabled by default - to turn them on, go to `scripts\hudlayout.res` and under the `KnucklesCrosses` node change the values to the right of `visible` and `enabled` from 0 to 1.
 
-To change the crosshair style, in the same node change the property of `labelText` to the corresponding crosshair letter in the KnucklesCrosses.png image file that can be found in the same 'scripts' folder.
+To change the crosshair style, in the same node change the property of `labelText` to the corresponding crosshair letter in the KnucklesCrosses.png image file that can be found in the same `scripts` folder.
 
 ####Favorite Server
-This button is located on the top right section of the main menu, under the Twitch button. In order to add your favorite server, go to `resource\gamemenu.res` and under "FavoriteServer" replace the Xs with the server IP and password
+This button is located on the top right section of the main menu, under the Twitch button. In order to add your favorite server, go to `resource\gamemenu.res` and under `FavoriteServer` replace the Xs with the server IP and password
 
 ####Transparent Viewmodels
 While the necessary files and entry in hudslayout (disabled by default) are included, the config necessary to use Transparent Viewmodels will not be included. This is due to a number of people having graphical issues due to their configs conflicting, so for those of you needing them - you'll have to find a config or modify your existing one accordingly.

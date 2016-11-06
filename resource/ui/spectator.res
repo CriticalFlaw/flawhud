@@ -274,7 +274,6 @@
 		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
 		"wrap"			"1"
 		"paintbackground"	"1"
