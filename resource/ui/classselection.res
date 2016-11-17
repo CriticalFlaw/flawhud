@@ -775,4 +775,60 @@
 			}								
 		}
 	}
+	
+	"ClassTipsPanel"
+	{
+		"ControlName"	"CTFClassTipsPanel"
+		"fieldName"		"ClassTipsPanel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"7"
+		"wide"			"235"
+		"tall"			"165"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+	}
+	
+	"localPlayerImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"45"
+		"tall"			"90"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"0"	
+	}
+	
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"80"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/color_panel_clear"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_clear"
+		"teambg_3"		"../hud/color_panel_clear"
+			
+		"src_corner_height"		"23"			// pixels inside the image
+		"src_corner_width"		"23"
+				
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
 }
