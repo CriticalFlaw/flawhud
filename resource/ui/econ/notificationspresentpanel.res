@@ -32,6 +32,6 @@
 		"wrap"				"1"
 		"labelText"			"#Notifications_Present"
 		"textAlignment"		"north-west"
-		"font"				"TFFontSmall"
+		"font"				"HudFontSmallestBold"
 	}
 }

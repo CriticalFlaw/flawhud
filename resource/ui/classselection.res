@@ -51,7 +51,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"scout"
-		"xpos"				"c101"
+		"xpos"				"c100"
 		"ypos"				"c-63"
 		"zpos"				"6"
 		"wide"				"100"
@@ -61,7 +61,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1   Scout"
+		"labelText"			"1    Scout"
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"

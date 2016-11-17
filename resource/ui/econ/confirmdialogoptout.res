@@ -15,6 +15,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"border"			"QuickplayBorder"
 	}
 	
 	"TitleLabel"

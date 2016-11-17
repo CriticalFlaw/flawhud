@@ -17,6 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"DarkerGrey"
+		"border"			"QuickplayBorder"
 		
 		"BackColor"
     	{
