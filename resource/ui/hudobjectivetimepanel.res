@@ -64,9 +64,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ClockSubText"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
 
 		if_match
 		{
@@ -116,9 +116,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ClockSubText"	//"HudFontSmall"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
 
 		if_match
 		{
@@ -168,9 +168,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ClockSubText"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
 
 		if_match
 		{
@@ -220,9 +220,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ClockSubText"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
 
 		if_match
 		{
@@ -272,9 +272,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"ClockSubText"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
 
 		if_match
 		{

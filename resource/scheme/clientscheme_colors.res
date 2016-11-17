@@ -296,6 +296,23 @@ Scheme
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
+		
+		"DimmQualityColorNormal"				"178 178 178 100" // Dimm IQC Normal
+		"DimmQualityColorrarity1"				"77 116 85 100" // Dimm IQC Genuine
+		"DimmQualityColorrarity2"				"141 131 75 100"
+		"DimmQualityColorrarity3"				"204 204 250 100"
+		"DimmQualityColorrarity4"				"134 80 172 100" // Dimm IQC Unusual
+		"DimmQualityColorVintage"				"71 98 145 100" // Dimm IQC Vintage
+		"DimmQualityColorUnique"				"255 215 0 100" // Dimm IQC Unique
+		"DimmQualityColorCommunity"				"112 176 74 100" // Dimm IQC Community
+		"DimmQualityColorDeveloper"				"165 15 121 100" // Dimm IQC Valve
+		"DimmQualityColorSelfMade"				"112 176 74 100" // Dimm IQC Community
+		"DimmQualityColorCustomized"			"71 98 145 100"
+		"DimmQualityColorStrange"				"207 106 50 100" // Dimm IQC Strange
+		"DimmQualityColorCompleted"				"134 80 172 100"
+		"DimmQualityColorHaunted"				"56 243 171 100" // Dimm IQC Haunted
+		"DimmQualityColorCollectors"			"170 0 0 100" // Dimm IQC Collectors
+		"DimmQualityColorPaintkitWeapon"			"250 250 250 100" // Dimm IQC PaintkitWeapon
 
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
@@ -304,6 +321,14 @@ Scheme
 		"ItemRarityMythical"					"136 71 255 255"
 		"ItemRarityLegendary"					"211 44 230 255"
 		"ItemRarityAncient"						"235 75 75 255"
+		
+		"DimmItemRarityDefault"						"131 126 119 100"
+		"DimmItemRarityCommon"						"176 195 217 100" // Dimm IRC Common
+		"DimmItemRarityUncommon"					"94 152 217 100" // Dimm IRC Uncommon
+		"DimmItemRarityRare"						"75 105 255 100" // Dimm IRC Rare
+		"DimmItemRarityMythical"					"136 71 255 100" // Dimm IRC Mythical
+		"DimmItemRarityLegendary"					"211 44 230 100" // Dimm IRC Legendary
+		"DimmItemRarityAncient"						"235 75 75 100" // Dimm IRC Ancient
 		
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"

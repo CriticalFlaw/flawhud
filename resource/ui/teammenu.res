@@ -342,4 +342,26 @@
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 	}
+	
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Cancel"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"paintbackground""0"
+		"command"		"cancelmenu"
+	}
 }

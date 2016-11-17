@@ -800,7 +800,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r140"
+		"ypos"			"r138"
 		"wide"			"300"
 		"tall"			"300"
 		"zpos"			"4"

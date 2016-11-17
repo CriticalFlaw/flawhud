@@ -12,7 +12,7 @@
 		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"Quickplay"
+		"border"				"QuickplayBorder"
 	}
 
 	"mouseoveritempanel"
