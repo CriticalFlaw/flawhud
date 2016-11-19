@@ -510,6 +510,171 @@
 		"fillcolor"		"17 17 17 215"
 	}
 	
+	"countImage0" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage0"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}							
+	
+	"countImage1" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage1"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage2" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage3" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage3"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage4" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage5" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage5"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage6" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage6"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage7" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage7"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage8" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage8"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage9" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage9"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage10" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage10"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
 	"numScout"
 	{
 		"ControlName"	"CExLabel"
@@ -803,7 +968,6 @@
 		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			""	
 		"scaleImage"	"0"	
 	}
 	
@@ -831,4 +995,7 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
+	
+	
+	
 }
