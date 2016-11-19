@@ -45,18 +45,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"16"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
@@ -64,9 +56,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"ClockSubText"
-		"font_lodef"	"ClockSubText"
+		"font"			"G_FontTiny_2"
 
 		if_match
 		{
@@ -74,9 +64,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"G_FontTiny_2"
 		}
 	}
 	"OvertimeBG"
@@ -97,28 +85,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"16"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"ypos"			"23"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"	//"HudFontSmall"
-		"font_hidef"	"ClockSubText"
-		"font_lodef"	"ClockSubText"
+		"font"			"G_FontTiny_2"
 
 		if_match
 		{
@@ -126,9 +104,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"G_FontTiny_2"
 		}
 	}
 	"SuddenDeathBG"
@@ -149,18 +125,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"16"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -168,9 +136,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"ClockSubText"
-		"font_lodef"	"ClockSubText"
+		"font"			"G_FontTiny_2"
 
 		if_match
 		{
@@ -178,9 +144,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"G_FontTiny_2"
 		}
 	}
 	"SetupBG"
@@ -201,18 +165,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"16"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -220,9 +176,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"ClockSubText"
-		"font_lodef"	"ClockSubText"
+		"font"			"G_FontTiny_2"
 
 		if_match
 		{
@@ -230,9 +184,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"G_FontTiny_2"
 		}
 	}
 	"ServerTimeLimitLabelBG"
@@ -253,11 +205,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"16"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -272,9 +220,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"ClockSubText"
-		"font_lodef"	"ClockSubText"
+		"font"			"G_FontTiny_2"
 
 		if_match
 		{
@@ -282,9 +228,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"130"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"G_FontTiny_2"
 		}
 	}
 }
