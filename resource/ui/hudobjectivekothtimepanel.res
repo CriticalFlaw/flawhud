@@ -66,7 +66,7 @@
 				"ypos"			"6"
 				"tall"			"16"
 				"wide"			"38"
-				"font"			"G_FontSmall"
+				"font"			"G_FontTiny"
 			}
 		}	
 	}
@@ -125,11 +125,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"cs"
+				"xpos"			"cs-0.05"
 				"ypos"			"6"
 				"tall"			"16"
 				"wide"			"38"
-				"font"			"G_FontSmall"
+				"font"			"G_FontTiny"
 			}
 		}	
 	}

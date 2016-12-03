@@ -191,7 +191,7 @@
 			"fieldName"		"TotalGameCreditSpendPanel"
 			"xpos"			"140"
 			"ypos"			"72"
-			"wide"			"184"
+			"wide"			"135"
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"

@@ -2,7 +2,6 @@ Scheme
 {
 	Borders
 	{
-		
 		MainMenuTabs
 		{
 			"inset" "0 0 0 0"

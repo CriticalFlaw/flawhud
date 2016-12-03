@@ -101,8 +101,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
+			"xpos"					"5"
+			"ypos"					"15"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}
@@ -142,7 +142,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"15"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}
@@ -182,7 +182,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"15"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}
@@ -226,7 +226,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"15"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}

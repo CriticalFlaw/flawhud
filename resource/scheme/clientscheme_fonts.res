@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
@@ -65,7 +65,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -78,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"22"
 				"weight"		"0"
 				"additive"		"0"
@@ -126,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"55"
 				"weight"		"0"
 				"additive"		"0"
@@ -138,7 +138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"40"
 				"weight"		"0"
 				"additive"		"0"
@@ -150,7 +150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"25"
 				"weight"		"0"
 				"additive"		"0"
@@ -162,7 +162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -174,7 +174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
@@ -186,7 +186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
@@ -198,7 +198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"25"
 				"weight"		"0"
 				"additive"		"0"
@@ -210,7 +210,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"19"
 				"weight"		"0"
 				"additive"		"0"
@@ -222,7 +222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -246,7 +246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"weight"		"0"
 				"additive"		"0"
@@ -258,7 +258,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"13"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -266,7 +266,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"13"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -274,7 +274,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -283,7 +283,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"16"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -292,7 +292,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Code Pro LC"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -615,7 +615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"44"
 				"tall_lodef"	"52"
 				"weight"		"500"
@@ -627,7 +627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"35"
 				"tall_lodef"	"40"
 				"weight"		"500"
@@ -662,7 +662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -696,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -707,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -756,7 +756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -767,7 +767,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -778,7 +778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -813,7 +813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -1171,7 +1171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"tall_hidef"	"32"
 				"weight"		"900"
@@ -1182,7 +1182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"tall_hidef"	"32"
 				"weight"		"900"
@@ -1912,7 +1912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1959,7 +1959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code Pro Bold"
+				"name"			"Code-Pro-Bold"
 				"tall"			"10"
 				"weight"		"600"
 				"additive"		"0"

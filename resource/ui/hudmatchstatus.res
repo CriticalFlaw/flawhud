@@ -289,7 +289,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
+				"ypos"			"11"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_lodef"	"HudFontSmall"

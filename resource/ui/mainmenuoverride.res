@@ -148,30 +148,18 @@
 	
 	"Background"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-200"
-		"wide"			"o1.6"
-		"tall"			"f0"
+		"zpos"			"0"
+		"wide"			"0"	//f0
+		"tall"			"0"	//480
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"enabled"		"0"
+		"image"			""
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
-
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"o0.628"
-		}
-
-		if_taller
-		{
-			"wide"			"o1.6"
-			"tall"			"f0"
-		}
+		//"image"			"../console/background_upward"
 		
 		if_halloween_0
 		{
@@ -686,7 +674,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"G_FontTiny"
-		"labelText"		"v2016.11.17"
+		"labelText"		"v2016.12.03"
 		"textAlignment"	"west"
 		"xpos"			"30"
 		"ypos"			"175"
