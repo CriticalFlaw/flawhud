@@ -674,7 +674,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"G_FontTiny"
-		"labelText"		"v2016.11.17"
+		"labelText"		"v2016.12.03"
 		"textAlignment"	"west"
 		"xpos"			"30"
 		"ypos"			"175"

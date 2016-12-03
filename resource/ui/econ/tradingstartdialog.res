@@ -78,7 +78,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ahudWhite"
+		"fgcolor_override" "G_White"
 	}
 	
 	"PlayerListScroller"
@@ -159,6 +159,8 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
 		}
 		"subbutton1"
 		{
@@ -183,6 +185,8 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
 		}
 		"subbutton2"
 		{
@@ -207,6 +211,8 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
 		}
 	}
 	"StatePanel1"
@@ -361,7 +367,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "ahudWhite"
+			"fgcolor_override" "G_White"
 		}	
 		
 		"URLFailLabel"
@@ -424,7 +430,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"ahudWhite"
+			"fgcolor_override"	"G_White"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
@@ -455,6 +461,8 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
 		}
 	}
 	
@@ -481,5 +489,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}
 }

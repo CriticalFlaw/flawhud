@@ -68,6 +68,8 @@
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}
 
 	"OkButton"
@@ -93,6 +95,8 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}
 	
 	"PanelListPanel"
