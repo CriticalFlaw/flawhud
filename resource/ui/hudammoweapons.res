@@ -83,7 +83,6 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
-		
 	}
 
 	"AmmoInReserve"
@@ -134,7 +133,7 @@
 		"xpos"			"10"
 		"ypos"			"-4"
 		"zpos"			"5"
-		"wide"			"84"
+		"wide"			"85"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
@@ -150,7 +149,7 @@
 		"xpos"			"12"
 		"ypos"			"-2"
 		"zpos"			"5"
-		"wide"			"84"
+		"wide"			"85"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
