@@ -44,6 +44,13 @@
 		"armedBgColor_override" 	"G_White"
 		"depressedBgColor_override" "G_White"
 	}
+	
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"visible"	"0"
+	}
 
 	"PracticeButton"
 	{

@@ -249,7 +249,7 @@
 		"fieldName" 		"DisguiseStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-350"
+		"xpos"				"c-360"
 		"ypos"				"r32"
 		"wide"				"500"
 		"tall"				"28"

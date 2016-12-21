@@ -161,25 +161,13 @@
 		"scaleImage"	"1"
 		//"image"			"../console/background_upward"
 		
-		if_halloween_0
+		if_fullmoon
 		{
-			//"image"		"../console/title_team_halloween2011_widescreen"
+			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_halloween_1
+		if_christmas
 		{
-			//"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			//"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			//"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{	
-			//"image"		"../console/title_team_halloween2015_widescreen"
+			"image"		"../console/background_xmas2011_widescreen"
 		}
 	}
 	
@@ -674,7 +662,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"G_FontTiny"
-		"labelText"		"v2016.12.07"
+		"labelText"		"v2016.12.21"
 		"textAlignment"	"west"
 		"xpos"			"30"
 		"ypos"			"175"

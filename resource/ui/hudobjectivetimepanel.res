@@ -61,7 +61,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
+			"xpos"					"-3"
 			"ypos"					"21"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
@@ -82,17 +82,17 @@
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"ypos"			"20"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -101,11 +101,11 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"5"
+			"xpos"					"2"
 			"ypos"					"15"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
-		}
+		}`
 	}
 	"SuddenDeathBG"
 	{
@@ -142,7 +142,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"15"
+			"ypos"					"17"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}
@@ -172,9 +172,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
 
@@ -182,7 +182,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"15"
+			"ypos"					"17"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}
@@ -216,9 +216,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
 
@@ -226,7 +226,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"15"
+			"ypos"					"17"
 			"wide"					"130"
 			"font"					"G_FontTiny_2"
 		}

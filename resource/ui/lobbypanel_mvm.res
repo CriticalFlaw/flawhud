@@ -1276,7 +1276,7 @@
 				"xpos"			"5"
 				"ypos"			"32"
 				"zpos"			"0"
-				"wide"			"190"
+				"wide"			"192"
 				"tall"			"170"
 				"linespacing"	"18"
 			}

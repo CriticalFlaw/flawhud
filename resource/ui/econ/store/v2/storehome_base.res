@@ -263,7 +263,7 @@
 		"xpos"				"c-45"
 		"ypos"				"30"
 		"zpos"				"0"
-		"wide"				"335"
+		"wide"				"430"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
