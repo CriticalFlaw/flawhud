@@ -15,7 +15,7 @@
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-16"
 		
-		"team2_player_base_offset_x"		"300"
+		"team2_player_base_offset_x"		"260"
 		"team2_player_base_y"				"290"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-16"
@@ -317,7 +317,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"15"
+		"tall"			"0"
 		"Alpha"			"0"
 		
 		if_mvm 
