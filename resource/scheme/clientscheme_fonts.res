@@ -127,7 +127,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"55"
+				"tall"			"52"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -139,7 +139,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"40"
+				"tall"			"37"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -151,7 +151,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"25"
+				"tall"			"22"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -163,7 +163,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"20"
+				"tall"			"18"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -175,7 +175,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"16"
+				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -187,7 +187,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"14"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -199,7 +199,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"25"
+				"tall"			"23"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -211,7 +211,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"19"
+				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -223,7 +223,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"16"
+				"tall"			"13"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
