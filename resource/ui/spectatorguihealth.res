@@ -112,7 +112,7 @@
 		"textAlignment"	"center"
 		"font"			"G_FontTargetIDHealth"
 		"fgcolor"		"G_TargetHealthValueShadow"
-		"autoResize"	"1"
+		"autoResize"	"0"
 	}
 	
 	"PlayerStatusPlayerLevel"
