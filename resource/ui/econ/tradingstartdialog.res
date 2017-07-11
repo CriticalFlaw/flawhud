@@ -9,10 +9,10 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"G_MenuBg"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"QuickplayBorder"
+		"border"				"WhiteBorder"
 		
 		"button_kv"
 		{
@@ -78,7 +78,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "G_White"
+		"fgcolor_override" "White"
 	}
 	
 	"PlayerListScroller"
@@ -159,8 +159,8 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 		"subbutton1"
 		{
@@ -185,8 +185,8 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 		"subbutton2"
 		{
@@ -211,8 +211,8 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	}
 	"StatePanel1"
@@ -367,7 +367,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "G_White"
+			"fgcolor_override" "White"
 		}	
 		
 		"URLFailLabel"
@@ -430,7 +430,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"G_White"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
@@ -461,8 +461,8 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"QuickplayBorder"
-			"border_armed"		"QuickplayBorder"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	}
 	
@@ -489,7 +489,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 }

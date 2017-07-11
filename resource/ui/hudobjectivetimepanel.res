@@ -4,17 +4,17 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"25"
+		"xpos"			"28"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"20"
+		"wide"			"50"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"	"1"	
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
+		"src_corner_height"		"3"
+		"src_corner_width"		"3"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 		
@@ -22,73 +22,79 @@
 		{
 			"visible"	"0"
 		}
-		if_passtime
+	}
+	"TimePanelProgressBar"
+	{
+		"ControlName"		"CTFProgressBar"
+		"fieldName"			"TimePanelProgressBar"
+		"xpos"				"67"
+		"ypos"				"16"
+		"zpos"				"4"	
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"0"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"../hud/objectives_timepanel_progressbar"
+		"color_active"		"TimerProgress.Active"
+		"color_inactive"	"TimerProgress.InActive"
+		"color_warning"		"TimerProgress.Warning"
+		"percent_warning"	"0.75"
+		
+		if_match
 		{
 			"visible"	"0"
 		}
 	}
-	"WaitingForPlayersBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"60"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"G_PanelBg"
-	}
+
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"ypos"			"16"
+		"xpos"			"32"
+		"ypos"			"14"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"40"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
+		"fgcolor"		"White"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"-3"
 			"ypos"					"21"
-			"wide"					"130"
-			"font"					"G_FontTiny_2"
+			"ypos_minmode"			"21"
 		}
 	}
-	"OvertimeBG"
+	"WaitingForPlayersBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"OvertimeBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"60"
-		"tall"			"10"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"G_PanelBg"
+		"image"			"../hud/objectives_timepanel_suddendeath"
 	}
+
 	"OvertimeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
-		"ypos"			"16"
+		"xpos"			"32"
+		"ypos"			"14"
 		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"19"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -97,78 +103,76 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
+		"fgcolor"		"White"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"2"
-			"ypos"					"15"
-			"wide"					"130"
-			"font"					"G_FontTiny_2"
-		}`
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+		}
+	}
+	"OvertimeBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OvertimeBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"38"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"HudBlack"
+	}
+
+	"SuddenDeathLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SuddenDeathLabel"
+		"xpos"			"20"
+		"ypos"			"13"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#game_SuddenDeath"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"G_FontTiny_2"
+		"fgcolor"		"White"
+
+		if_match
+		{
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+		}
 	}
 	"SuddenDeathBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"60"
-		"tall"			"10"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"G_PanelBg"
+		"image"			"../hud/objectives_/_suddendeath"
 	}
-	"SuddenDeathLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"16"
-		"ypos"			"16"
-		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"19"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#game_SuddenDeath"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"G_FontTiny_2"
 
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"17"
-			"wide"					"130"
-			"font"					"G_FontTiny_2"
-		}
-	}
-	"SetupBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SetupBG"
-		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"60"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"G_PanelBg"
-	}
 	"SetupLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
-		"ypos"			"16"
+		"xpos"			"33"
+		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"19"
+		"wide"			"40"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -177,42 +181,37 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
+		"fgcolor"		"White"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"17"
-			"wide"					"130"
-			"font"					"G_FontTiny_2"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}
-	"ServerTimeLimitLabelBG"
+	"SetupBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerTimeLimitLabelBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SetupBG"
 		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"60"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"50"
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"G_PanelBg"
+		"fillcolor"		"HudBlack"
 	}
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
-		"ypos"			"16"
+		"xpos"			"-24"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
-		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -221,14 +220,32 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
-
+		"fgcolor"		"White"
+		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"17"
-			"wide"					"130"
-			"font"					"G_FontTiny_2"
+			"xpos"					"c-44"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"39"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"	"HudBlack"
+		"PaintBackgroundType"	"0"
+		
+		if_match
+		{
+			"wide"	"0"
+		}	
 	}
 }

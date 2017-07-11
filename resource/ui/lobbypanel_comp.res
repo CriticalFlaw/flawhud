@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"G_MenuBg"
+		"bgcolor_override"		"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -29,7 +29,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"p0.9"
+		"tall"			"p0.8"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -65,7 +65,7 @@
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -88,7 +88,7 @@
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -105,9 +105,9 @@
 			"wide"			"p0.98"
 			"tall"			"p1"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"TransparentBlack"
-			"border"		"QuickplayBorder"
+			"PaintBackgroundType"	"0"
+			"border"				"WhiteBorder"
+			"bgcolor_override"		"25 25 25 200"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -135,7 +135,7 @@
 				"fieldName"		"MatchHistoryCategories"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"		"0"
+				"zpos"			"10"
 				"wide"			"p0.95"
 				"tall"			"20"
 				"visible"		"1"
@@ -152,7 +152,8 @@
 					"tall"			"p1.3"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
+					"border"		"NoBorder"
+					"bgcolor_override"	"Black"
 				}
 
 				"SortArrow"
@@ -172,9 +173,9 @@
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"TanLight"
-					"selectedFgColor_override" "White"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"TanDark"
+					"selectedFgColor_override" 	"TanDark"
 				}
 
 				"ResultButton"
@@ -196,9 +197,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"TanLight"
-					"selectedFgColor_override" "White"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"Yellow"
+					"selectedFgColor_override"	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -226,13 +227,13 @@
 			
 					"labeltext"			"#TF_Competitive_Date"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"TanLight"
-					"selectedFgColor_override" "White"
+					"defaultFgColor_override"	"TanDark"
+					"armedFgColor_override"		"Yellow"
+					"selectedFgColor_override"	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -260,13 +261,13 @@
 			
 					"labeltext"			"#TF_Competitive_Map"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"TanLight"
-					"selectedFgColor_override" "White"
+					"defaultFgColor_override"	"TanDark"
+					"armedFgColor_override"		"Yellow"
+					"selectedFgColor_override"	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -293,12 +294,12 @@
 			
 					"labeltext"			"#TF_Competitive_KDR"
 					"font"				"HudFontSmallest"
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"TanLight"
-					"selectedFgColor_override" "White"
+					"defaultFgColor_override"	"TanDark"
+					"armedFgColor_override"		"Yellow"
+					"selectedFgColor_override"	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -338,7 +339,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"TanDark"
 					}
 		
 					"UpButton"
@@ -378,39 +379,40 @@
 
 	"PartyActiveGroupBox"
 	{
-		"xpos"		"c+100"
-		"ypos"		"r340"
+		"xpos"		"c+103"
+		"ypos"		"r341"
 		"tall"		"300"
 		"proportionaltoparent"	"1"
 
 		"PartyGroupBox"
 		{
-			"tall"		"160"
-			"border"		"QuickplayBorder"
+			"tall"			"160"
+			"border"		"WhiteBorder"
 		}
 
 		"ChatLog"
 		{
-			"ypos"			"165"
+			"ypos"			"164"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorder"
 		}
 
 		"ChatTextEntry"
 		{
-			"ypos"			"270"
+			"ypos"			"268"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorder"
 		}
 	}
 
 	"SearchActiveGroupBox"
 	{
-		"xpos"		"c-300"
+		"xpos"		"c-305"
 		"ypos"		"r340"
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
+		"border"	"WhiteBorder"
 
 		"SearchActiveTitle"
 		{
@@ -453,13 +455,13 @@
 			"proportionaltoparent"	"1"
 		}
 
-			"PlayersInGameTotalWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"85"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameTotalWorldwideValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-10"
+			"ypos"		"85"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersInGameMatchingLabel"
 		{
@@ -468,21 +470,21 @@
 			"ypos"		"97"
 		}
 
-			"PlayersInGameMatchingNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"97"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameMatchingNearbyValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-90"
+			"ypos"		"97"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersInGameMatchingWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"97"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameMatchingWorldwideValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-10"
+			"ypos"		"97"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersSearchingLabel"
 		{
@@ -498,21 +500,21 @@
 			"ypos"		"135"
 		}
 
-			"PlayersSearchingTotalNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"135"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingTotalNearbyValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-90"
+			"ypos"		"135"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersSearchingTotalWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"135"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingTotalWorldwideValue"
+		{
+			"font"			"HudFontSmallest"
+			"xpos"		"rs1-10"
+			"ypos"		"135"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersSearchingMatchingLabel"
 		{
@@ -537,12 +539,12 @@
 				"proportionaltoparent"	"1"
 			}
 
-		"EmptyGameserversLabel"
-		{
-			"font"			"HudFontSmallestBold"
-			"xpos"		"10"
-			"ypos"		"170"
-		}
+			"EmptyGameserversLabel"
+			{
+				"font"			"HudFontSmallestBold"
+				"xpos"		"10"
+				"ypos"		"170"
+			}
 
 			"EmptyGameserversMatchingNearbyValue"
 			{
@@ -560,13 +562,13 @@
 				"proportionaltoparent"	"1"
 			}
 
-		"PartyHasLowPriorityGroupBox"
-		{
-			"xpos"		"10"
-			"ypos"		"rs1-10"
-			"wide"		"f0"
-			"tall"		"65"
-			"proportionaltoparent"	"1"
+			"PartyHasLowPriorityGroupBox"
+			{
+				"xpos"		"10"
+				"ypos"		"rs1-10"
+				"wide"		"f0"
+				"tall"		"65"
+				"proportionaltoparent"	"1"
 
 			"PartyLowPriorityImage"
 			{

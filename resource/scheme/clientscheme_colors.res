@@ -4,171 +4,55 @@ Scheme
 	{
 		// CUSTOM COLORS
 		//---------------------------------------------
-		// Colors
-		"G_White"					"255 255 255 255"
-		"G_Black"					"0 0 0 255"
-		"G_Blue"					"72 112 125 255"
-		"G_Red"						"158 64 61 255"
-		"G_Brown"					"49 44 41 255"
-		"G_Yellow"					"235 220 50 255"
+		// HUD COLORS
 		//---------------------------------------------
-		// Shadows	
-		"G_Shadow"					"0 0 0 220"
-		"G_LightShadow"				"0 0 0 110"
-		"G_WhiteShadow"				"255 255 255 50"
-		"G_WhiteShadowDim"			"255 255 255 40"
-		"G_WhiteShadowCharge"		"255 255 255 100"
-		//---------------------------------------------
-		// Main Menu
-		"G_Highlight"				"255 255 255 255"
-		"G_MenuBg"					"27 27 27 255"
-		"G_Footer"					"27 27 27 255"
-		"G_DarkNight"				"27 27 27 255"
-		"G_MenuShader"				"0 0 0 100" 		// Menu shader color
-		"G_Footer"					"27 27 27 255" 		// Menu footer color
-		"BGShader"					"18 22 25 225"
+		"Blue"						"72 112 125 255"
+		"DarkBlue"					"46 73 82 255"
+		"Red"						"158 64 61 255"
+		"DarkRed"					"102 48 46 255"
 		
-		"G_MainMenuOverlay"			"0 0 0 0" 			// Main Menu overlay color
-		"G_MainMenuShader"			"0 0 0 0" 			// Main Menu shader color
-		"G_MainMenuButton"			"255 255 255 255" 		// Main Menu button color
-		"G_MainMenuButtonHover"		"0 0 0 166" 		// Main Menu hovered button color
-		"G_MainMenuButtonFg"		"255 255 255 255" 	// Main Menu button text color
-		"G_MainMenuButtonHoverFg"	"255 255 255 255" 	// Main Menu hovered button text color
+		"Green"						"92 122 90 255"
+		"DarkGreen"					"38 53 36 255"
+		"Yellow"					"170 221 183 255"
+		"BrightYellow"				"218 165 32 255"
 		
-		"G_ItemEffectMeterLineColor"	"120 120 120 130"
-		"G_MainMenuButtonBorderColor" 	"255 255 255 255" 	// Main menu button border color
-		"G_MainMenuButtonBorderHoverColor" 	"0 0 0 100" 	// Main menu hovered button border color
+		"White"						"242 242 242 255"
+		"DullWhite"					"132 132 132 255"
 		
-		//---------------------------------------------
-		// Buttons
-		"G_ButtonBg"				"96 83 73 255" 		// Button bg color
-		"G_ButtonText"				"255 255 255 255"	// Button text color
-		"G_ButtonHoverBg"			"255 255 255 255" 	// Button hover bg color
-		"G_ButtonHoverText"			"0 0 0 255" 		// Button hover text color
-		"G_ButtonSelectedBg"		"255 255 255 255" 	// Button selected bg color
-		"G_ButtonSelectedText"		"0 0 0 255" 		// Button selected text color
+		"Grey"						"51 47 46 255"
+		"DarkGrey"					"27 27 27 255"
+		"DarkerGrey"				"22 22 22 255"
+		
+		"Black"						"17 17 17 255"
+		"Brown"						"49 44 41 255"
+		"ShadowBlack"				"7 7 7 255"
+		"HudBlack"					"0 0 0 200"
+		"G_MenuShader"				"0 0 0 100"
 		//---------------------------------------------
 		// Gameplay
-		"G_Overheal"				"170 234 43 255" 	// Overhealed health value color
-		"G_Heal"					"89 196 31 255"		// Health Healed
-		"G_Hit"						"234 218 43 255"	// Damage Taken
-		"G_HealthValue"				"255 255 255 255" 	// Health value color
-		"G_LowHealthValue"			"255 0 0 255" 		// Low health value color
-		"G_AmmoClipValue"			"255 255 255 255" 	// Ammo in clip value color
-		"G_AmmoReserveValue"		"255 255 255 255" 	// Ammo in reserve value color
-		"G_LowAmmo"					"255 0 0 255" 		// Low ammo color
+		"G_Overheal"				"170 234 43 255"	//"0 255 127 255"		// HP Buff
+		"G_Heal"					"0 255 127 255"		// Healing Numbers
+		"G_Hit"						"255 255 0 255"		// Damage Numbers
+		"G_HealthValue"				"243 243 243 255"	// HP
+		"G_LowHealthValue"			"200 45 45 255"		// HP Low
+		"G_AmmoClipValue"			"243 243 243 255"	// Ammo In Clip
+		"G_AmmoReserveValue"		"0 191 255 255"		// Ammo In Reserve
+		"G_AmmoNoClipValue"			"243 243 243 255"	// Ammo No Clip
+		"G_LowAmmo"					"200 45 45 255"		// Low Ammo			"255 45 45 255"
+		
+		"G_Stickies"				"243 243 243 255"	// Stickies
+		"G_Metal"					"243 243 243 255"	// Metal
+		"G_Killstreak"				"243 243 243 255"	// Killstreak
 		//---------------------------------------------
 		// Crosshair Colors	
-		"Crosshair"					"255 255 255 255"
+		"Crosshair"					"242 242 242 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Ubercharge1"				"170 240 45 255"
-		"Ubercharge2"				"100 240 45 255"
+		"Ubercharge1"				"170 240 45 255"	//"0 255 127 255"
+		"Ubercharge2"				"100 240 45 255"	//"0 210 105 255"
 		"ChargePercent"				"243 243 243 255"
-		"Ubercharge Meter"			"255 255 255 255"
-		//---------------------------------------------
-		// Engineer Specific
-		"G_MetalValue"				"255 255 255 255" 	// Metal color
-		"G_MetalIcon"				"255 255 255 255" 	// Metal icon color
-		//---------------------------------------------
-		// TargetID
-		"G_CustomTargetID" 			"0 0 0 100" 		// Custom target id bg color
-		"G_TargetHealthValue" 		"255 255 255 255" 	// Target ID health value color
-		"G_TargetHealthValueShadow" "0 0 0 220" 		// Target ID health value shadow color
-		//---------------------------------------------
-		// Killstreak
-		"G_KillstreakValue"			"255 255 255 255" 	// Killstreak value color
-		"G_KillstreakIcon"			"255 255 255 255" 	// Killstreak icon color
-		//---------------------------------------------
-		// Stickybomb
-		"G_StickyColor"				"255 255 255 255" 	// Stickybomb color
-		"G_StickyIconColor"			"255 255 255 255" 	// Stickybomb icon color
-		//---------------------------------------------
-		// Head Count
-		"G_HeadsValue"				"255 255 255 255" 	// Heads value color
-		"G_HeadsLabel"				"255 255 255 255" 	// Heads value icon color
-		//---------------------------------------------
-		// Killfeed
-		"G_Killfeed_Base"			"61 61 61 255" 		// Killfeed Base color
-		"G_Killfeed_Local"			"243 243 243 255" 	// Killfeed Local color
-		"G_KillfeedBlue"			"83 164 196 255" 	// Killfeed blue text
-		"G_KillfeedRed"				"196 83 83 255" 	// Killfeed red text
-		"G_KillfeedIcon"			"255 255 255 255" 	// Killfeed icon color
-		
-		//---------------------------------------------
-		// Uncategorized
-		"Base Color"				"255 255 255 255"
-		"G_Night"					"51 47 46 255"
-		"G_DarkNight"				"27 27 27 255"
-		"G_TanLight"				"242 242 242 255"
-		
-		"G_Grey"					"54 54 54 255" 		// Move building bg
-		"G_LightGrey"				"180 180 180 255" 	// Metal color in build/destroy menu
-		"G_HealthBarBg"				"0 0 0 220" 		// Target health bg
-		"G_CurrencyBad"				"255 60 60 255" 	// Red currency in MvM
-		"G_TransparentMenuBG"		"40 40 40 199" 		// Transparent menu color
-		"G_PanelBg"					"40 40 40 199" 		// Panel color
-		"G_OpaquePanelBg"			"40 40 40 255" 		// Opaque Panel color
-		"G_Warning"					"150 0 0 255" 		// Warning color
-		"G_CenteredMetalBg"			"50 50 50 120" 		// Centered metal background color
-		"G_CenteredUberchargeBg"	 "0 0 0 100" 		// Centered ubercharge meter background color
-		"G_BrownBg"					"46 43 42 220"
-		"G_DestroyBg"				"120 0 0 150"
-		"G_ScoreboardBlue"			"55 73 85 100"
-		"G_ScoreboardRed"			"106 34 34 100"
-		"G_TeamBlue"				"91 122 140 255"
-		"G_TeamRed"					"189 58 58 255"
-		"G_TeamButtonBlue"			"91 122 140 100"
-		"G_TeamButtonRed"			"189 58 58 100"
-		"G_TeamButtonBlueArmed"		"111 142 160 255"
-		"G_TeamButtonRedArmed"		"209 78 78 255"		
-		
-		"G_DimmFooter"				"28 23 19 200" 		// Dimm Menu footer color
-		"G_FooterText"				"255 255 255 255" 	// Footer text color
-		"G_DimmFooterText"			"255 255 255 120" 	// Dimm Footer text color
-		"G_OuterBorder"				"0 0 0 255" 		// Outer border color
-		"G_InnerBorder"				"0 0 0 30" 			// Inner border color
-		"G_CustomHealthValue"		"120 120 120 255"
-		"G_BackpackItemBg"			"22 22 22 255" 		// Backpack item bg color
-		"G_LoadoutItemBg"			"27 27 27 255" 		// Loadout item bg color
-		"G_MenuText"				"255 255 255 255" 	// Menu text color
-		"G_InputText"				"0 0 0 240" 		// Input text color
-		"G_DimmInputText"			"0 0 0 100" 		// Dimm Input text color
-		"G_DimmMenuText"			"220 206 199 120" 	// Dimm Menu text color
-		"G_ItemDescriptionPanelBg"	"24 22 20 255" 		// Item description panel bg
-		"G_MiniButtonBg"			"50 50 50 255" 		// Mini button bg color
-		"G_MiniButtonHoverBg"		"10 10 10 255" 		// Mini button hover bg color
-		"G_GhostWhite"				"255 255 255 210"
-		"G_ItemMeterBg"				"0 0 0 100" 		// Item meter bg
-		"G_ItemMeterBorder"			"0 0 0 0" 			// Item meter border color
-		"G_MvmLobbyPanelBg"				"40 40 40 255"
-		"G_MvmLobbyPanelText"			"220 220 220 255"
-
-		//---------------------------------------------
-		// HUD COLORS
-		//---------------------------------------------
-		"ShadowBlack"					"7 7 7 255"
-		"HudBlack"						"0 0 0 200"
-		
-		"Blue"							"72 112 125 255"
-		"DarkBlue"						"46 73 82 255"
-		"Red"							"158 64 61 255"
-		"DarkRed"						"102 48 46 255"
-		
-		"Green"							"92 122 90 255"
-		"DarkGreen"						"38 53 36 255"
-		"Yellow"						"169 123 53 255"
-		"BrightYellow"					"218 165 32 255"
-		
-		"White"							"255 255 255 255"
-		"DullWhite"						"132 132 132 255"
-		
-		"Grey"							"51 47 46 255"
-		"DarkGrey"						"27 27 27 255"
-		"DarkerGrey"					"22 22 22 255"
-		
-		"Black"							"17 17 17 255"
+		"Ubercharge Meter"			"0 255 127 255"
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------
@@ -209,10 +93,10 @@ Scheme
 		"HUDDeathWarning"				"255 0 0 255"
 		"HudWhite"						"255 255 255 255"
 		"HudOffWhite"					"200 187 161 255"
-		"HudBlack"						"65 65 65 255"
-		"ProgressBarBlue"				"91 122 142 255"		
+		//"HudBlack"					"65 65 65 255"
+		"ProgressBarBlue"				"91 122 142 255"
 		"CreditsGreen"					"94 150 49 255"
-	
+
 		"Gray"							"178 178 178 255"
 		"Blank"							"0 0 0 0"
 		"ForTesting"					"255 0 0 32"
@@ -232,11 +116,11 @@ Scheme
 		"HudTimerProgressInActive"		"52 48 45 255"
 		"HudTimerProgressWarning"		"240 30 30 255"
 
-		// training
+		// Training
 		"HudTrainingHint"				"212 160 23 255"
 		
-		"TanDark"						"255 255 255 255"	//"117 107 94 255"
-		"TanLight"						"255 255 255 255"	//"235 226 202 255"
+		"TanDark"						"255 255 255 255"	//"132 132 132 255"
+		"TanLight"						"255 255 255 255"	//"242 242 242 255"
 		"TanDarker"						"46 43 42 255"
 		
 		"StoreDarkTan"					"131 121 104 255"
@@ -297,22 +181,22 @@ Scheme
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 		
-		"DimmQualityColorNormal"				"178 178 178 100" // Dimm IQC Normal
-		"DimmQualityColorrarity1"				"77 116 85 100" // Dimm IQC Genuine
+		"DimmQualityColorNormal"				"178 178 178 100" 	// Dimm IQC Normal
+		"DimmQualityColorrarity1"				"77 116 85 100" 	// Dimm IQC Genuine
 		"DimmQualityColorrarity2"				"141 131 75 100"
 		"DimmQualityColorrarity3"				"204 204 250 100"
-		"DimmQualityColorrarity4"				"134 80 172 100" // Dimm IQC Unusual
-		"DimmQualityColorVintage"				"71 98 145 100" // Dimm IQC Vintage
-		"DimmQualityColorUnique"				"255 215 0 100" // Dimm IQC Unique
-		"DimmQualityColorCommunity"				"112 176 74 100" // Dimm IQC Community
-		"DimmQualityColorDeveloper"				"165 15 121 100" // Dimm IQC Valve
-		"DimmQualityColorSelfMade"				"112 176 74 100" // Dimm IQC Community
+		"DimmQualityColorrarity4"				"134 80 172 100" 	// Dimm IQC Unusual
+		"DimmQualityColorVintage"				"71 98 145 100" 	// Dimm IQC Vintage
+		"DimmQualityColorUnique"				"255 215 0 100" 	// Dimm IQC Unique
+		"DimmQualityColorCommunity"				"112 176 74 100" 	// Dimm IQC Community
+		"DimmQualityColorDeveloper"				"165 15 121 100" 	// Dimm IQC Valve
+		"DimmQualityColorSelfMade"				"112 176 74 100" 	// Dimm IQC Community
 		"DimmQualityColorCustomized"			"71 98 145 100"
-		"DimmQualityColorStrange"				"207 106 50 100" // Dimm IQC Strange
+		"DimmQualityColorStrange"				"207 106 50 100" 	// Dimm IQC Strange
 		"DimmQualityColorCompleted"				"134 80 172 100"
-		"DimmQualityColorHaunted"				"56 243 171 100" // Dimm IQC Haunted
-		"DimmQualityColorCollectors"			"170 0 0 100" // Dimm IQC Collectors
-		"DimmQualityColorPaintkitWeapon"			"250 250 250 100" // Dimm IQC PaintkitWeapon
+		"DimmQualityColorHaunted"				"56 243 171 100" 	// Dimm IQC Haunted
+		"DimmQualityColorCollectors"			"170 0 0 100" 		// Dimm IQC Collectors
+		"DimmQualityColorPaintkitWeapon"		"250 250 250 100" 	// Dimm IQC PaintkitWeapon
 
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
@@ -321,14 +205,14 @@ Scheme
 		"ItemRarityMythical"					"136 71 255 255"
 		"ItemRarityLegendary"					"211 44 230 255"
 		"ItemRarityAncient"						"235 75 75 255"
-		
-		"DimmItemRarityDefault"						"131 126 119 100"
-		"DimmItemRarityCommon"						"176 195 217 100" // Dimm IRC Common
-		"DimmItemRarityUncommon"					"94 152 217 100" // Dimm IRC Uncommon
-		"DimmItemRarityRare"						"75 105 255 100" // Dimm IRC Rare
-		"DimmItemRarityMythical"					"136 71 255 100" // Dimm IRC Mythical
-		"DimmItemRarityLegendary"					"211 44 230 100" // Dimm IRC Legendary
-		"DimmItemRarityAncient"						"235 75 75 100" // Dimm IRC Ancient
+
+		"DimmItemRarityDefault"					"131 126 119 100"
+		"DimmItemRarityCommon"					"176 195 217 100" // Dimm IRC Common
+		"DimmItemRarityUncommon"				"94 152 217 100" // Dimm IRC Uncommon
+		"DimmItemRarityRare"					"75 105 255 100" // Dimm IRC Rare
+		"DimmItemRarityMythical"				"136 71 255 100" // Dimm IRC Mythical
+		"DimmItemRarityLegendary"				"211 44 230 100" // Dimm IRC Legendary
+		"DimmItemRarityAncient"					"235 75 75 100" // Dimm IRC Ancient
 		
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"

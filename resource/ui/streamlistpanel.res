@@ -31,7 +31,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 	}
 
 	"Stream2"
@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 	}
 
 	"Stream3"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 	}
 
 	"Stream4"
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 	}
 
 	"Stream5"
@@ -99,6 +99,6 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 	}
 }

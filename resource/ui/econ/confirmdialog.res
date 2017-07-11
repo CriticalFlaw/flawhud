@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"G_White"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"BackColor"
     	{
@@ -32,7 +32,7 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
-			"border"			"QuickplayBorder"
+			"border"			"WhiteBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
 	}
@@ -53,7 +53,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
 	}
 	
 	"ExplanationLabel"
@@ -73,7 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 80 60 255"
 	}
 		
 	"CancelButton"
@@ -99,8 +98,8 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"QuickplayBorder"
-		"border_armed"				"QuickplayBorder"
+		"border_default"			"Econ.Button.Border.Default"
+		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
@@ -131,8 +130,8 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"QuickplayBorder"
-		"border_armed"				"QuickplayBorder"
+		"border_default"			"Econ.Button.Border.Default"
+		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"

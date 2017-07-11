@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"5"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -18,99 +18,149 @@
 		}
 	}
 
-	"BluePanel"
+	"LeftSideBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BluePanel"
-		"xpos"			"c-60"
-		"ypos"			"r26"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG"
+		"xpos"			"c-40"
+		"ypos"			"r24"
 		"zpos"			"1"
-		"wide"			"46"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/color_panel_blu"
-		"scaleImage"	"1"	
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}
-	
-	"G_BluePanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"G_BluePanel"
-		"xpos"			"c-60"
-		"ypos"			"r36"
-		"wide"			"60"
-		"tall"			"20"
-		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"40"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_TeamBlue"
+		"fillcolor"		"Blue"
 		
-		if_mvm
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
 		
 		"if_specialdelivery"
 		{
-			"visible"		"0"
+			"visible"	"0"
+		}
+	}
+	
+	"LeftSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG2"
+		"xpos"			"c-40"
+		"ypos"			"r21"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"21"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"DarkBlue"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
 		}
 	}
 
-	"RedPanel"
+	"RightSideBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BluePanel"
-		"xpos"			"c14"
-		"ypos"			"r25"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG"
+		"xpos"			"c1"
+		"ypos"			"r24"
 		"zpos"			"1"
-		"wide"			"46"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/color_panel_red"
-		"scaleImage"	"1"	
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}
-	
-	"G_RedPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"G_RedPanel"
-		"xpos"			"c"
-		"ypos"			"r36"
-		"wide"			"60"
-		"tall"			"20"
-		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"40"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_TeamRed"
+		"fillcolor"		"Red"
 		
-		if_mvm
+		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-	
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
 		"if_specialdelivery"
 		{
-			"visible"		"0"
+			"visible"	"0"
+		}
+	}
+
+	"RightSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG2"
+		"xpos"			"c1"
+		"ypos"			"r21"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"DarkRed"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+		
+	"OutlineBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OutlineBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/objectives_flagpanel_bg_outline"
+		"scaleImage"	"1"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
 		}
 	}
 
@@ -118,23 +168,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-50"
-		"ypos"			"r43"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"xpos"			"c-80"
+		"ypos"			"r30"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"G_FontMedium"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -156,23 +200,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-48"
-		"ypos"			"r43"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"xpos"			"c-79"
+		"ypos"			"r29"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"G_FontMedium"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"G_Shadow"
+		"fgcolor"		"ShadowBlack"
 
 		"if_hybrid"
 		{
@@ -194,23 +232,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c-24"
-		"ypos"			"r43"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"xpos"			"c5"
+		"ypos"			"r30"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"G_FontMedium"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"	
 		
 		"if_hybrid"
 		{
@@ -232,23 +264,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c-22"
-		"ypos"			"r43"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"xpos"			"c6"
+		"ypos"			"r29"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"G_FontMedium"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"G_Shadow"		
+		"fgcolor"		"ShadowBlack"	
 		
 		"if_hybrid"
 		{
@@ -265,18 +291,33 @@
 			"visible"	"0"
 		}
 	}
+
+	"OutlineImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"OutlineImage"
+		"xpos"			"c-50"
+		"ypos"			"r127"
+		"zpos"			"9"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_outline"
+		"scaleImage"	"1"	
+	}
 	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-20"
-		"ypos"			"r76"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"10"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"100"
+		"tall"			"100"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 		
@@ -290,24 +331,53 @@
 			"visible"	"r142"
 		}
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r26"
-		"zpos"			"4"
+		"xpos"			"cs-0.5"
+		"ypos"			"r50"
+		"zpos"			"7"
 		"wide"			"140"
-		"tall"			"30"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DefaultVerySmall"
-		"fgcolor"		"G_White"
+		"font"			"LightGravity12"
+		"fgcolor"		"White"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}	
+			
+	"PlayingToBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayingToBG"
+		"xpos"			"c-40"
+		"ypos"			"r38"
+		"zpos"			"3"
+		"wide"			"80"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Hudblack"
 		
 		"if_hybrid"
 		{
@@ -329,17 +399,13 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
-		"ypos"			"r95"
+		"xpos"			"c-130"
+		"ypos"			"r67"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		if_mvm
-		{
-			"ypos"		"r110"
-		}
 		
 		"if_hybrid"
 		{
@@ -372,8 +438,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
-		"ypos"			"r95"
+		"xpos"			"c-30"
+		"ypos"			"r67"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -411,11 +477,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r104"
+		"xpos"			"c-30"
+		"ypos"			"r92"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -426,7 +492,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r80"
+			"ypos"		"r100"
 		}
 	}
 

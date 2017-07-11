@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"G_FontMedium"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"G_FontMedium"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"G_Shadow"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
 	
@@ -215,50 +215,40 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"0"
+		"tall"				"28"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
+		"border"			"NoBorder"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
+		"xpos"				"c-50"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"130"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
+		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"31"
+		"delta_item_start_y"	"14"
+		"delta_item_end_y"		"34"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
+		"delta_lifetime"		"2"
 		"delta_item_font"		"G_FontMedium"
 
 		if_match
 		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"ypos_minmode"			"0"
+			"delta_item_x"			"31"
+			"delta_item_start_y"	"23"
+			"delta_item_end_y"		"43"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
+			"delta_lifetime"		"2"
 			"delta_item_font"		"G_FontSmall"
 		}
 		
@@ -267,18 +257,12 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"G_FontMedium"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"White"
-			"xpos"			"28"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"-5"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"xpos"			"27"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"55"
-			"wide_lodef"	"50"
-			"tall"			"31"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -288,11 +272,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"cs-0.5"
-				"ypos"			"11"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"xpos"			"23"
+				"ypos"			"9"
+				"ypos_minmode"	"9"
+				"font"			"G_FontSmall"
 			}
 		}	
 	}
@@ -307,6 +290,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
+
 		"max_size"	"19"
 
 		"6v6_gap"	"1"
@@ -327,8 +311,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"158 64 61 255"
+			"color_portrait_bg_blue"	"72 112 125 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"
@@ -580,16 +564,17 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"6"
+			"ypos"			"19"
 			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
+			"wide"			"136"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"DarkBlueTeamBorder"
+			"bgcolor_override"	"Blue"
 		}
 		"BlueTeamImage"
 		{
@@ -612,7 +597,7 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
-			"xpos"			"48"
+			"xpos"			"50"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
@@ -627,7 +612,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
-			"xpos"			"11"
+			"xpos"			"8"
 			"ypos"			"10"
 			"zpos"			"5"	
 			"wide"			"35"
@@ -642,14 +627,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"			"9"
+			"xpos"			"6"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"DarkBlue"
 		}
 		"BluePlayerList"
 		{
@@ -659,14 +644,14 @@
 			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"175"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"25"
+			"linegap"		"0"
 			//"show_columns"	"1"
 
 			if_large
@@ -698,14 +683,14 @@
 
 	"RedTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamPanel"
 		"xpos"			"r-5"
 		"ypos"			"125"
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -718,16 +703,17 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"6"
+			"ypos"			"19"
 			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
+			"wide"			"136"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"DarkRedTeamBorder"
+			"bgcolor_override"	"Red"
 		}
 		"RedTeamImage"
 		{
@@ -750,7 +736,7 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
-			"xpos"			"5"
+			"xpos"			"11"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
@@ -765,7 +751,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
-			"xpos"			"102"
+			"xpos"			"106"
 			"ypos"			"10"
 			"zpos"			"5"
 			"wide"			"35"
@@ -780,14 +766,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
-			"xpos"			"100"
+			"xpos"			"104"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"DarkRed"
 		}
 		"RedPlayerList"
 		{
@@ -797,14 +783,14 @@
 			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"175"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"25"
+			"linegap"		"0"
 			//"show_columns"	"1"
 
 			if_large
@@ -814,7 +800,7 @@
 		}
 		"RedPlayerListBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedPlayerListBG"
 			"xpos"			"4"
 			"ypos"			"30"

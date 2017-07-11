@@ -160,11 +160,11 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
-		"wide"			"602"
+		"wide"			"605"
 		"tall"			"70"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 		"bgcolor_override"	"25 25 25 200"
 		"proportionaltoparent"	"1"
 

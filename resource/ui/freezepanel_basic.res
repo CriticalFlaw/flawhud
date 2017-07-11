@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r195"
+		"xpos"			"r200"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
@@ -42,7 +42,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"G_PanelBg"
+			"fillcolor"		"HudBlack"
 		}
 		
 		"itemmodelpanel"
@@ -56,7 +56,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"G_FontTiny_2"
+			"font"			"LightGravity9"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"5"
 			"ypos"			"5"
@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r175"
-		"ypos"			"250"	
+		"xpos"			"c-95"
+		"ypos"			"260"
 		"wide"			"190"		
 		"tall"			"32"		
 		"visible"		"1"
@@ -96,13 +96,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"		"../hud/color_panel_blu"
-			"fillcolor"		"G_LightShadow"
+			"fillcolor"		"HudBlack"
 			"scaleImage"		"1"	
 			
-			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 				
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -110,8 +110,8 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"G_FontTiny_2"
-			"fgcolor"		"G_White"
+			"font"			"LightGravity10"
+			"fgcolor"		"White"
 			"xpos"			"48"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -132,29 +132,25 @@
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"13"
+			"wide"			"44"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"	
-			"HealthBonusPosAdj"			"0" // 4 CTHB
+			"HealthBonusPosAdj"			"9"
 			"HealthDeathWarning"		"0.49"
-			"TFFont"					"G_FontTiny"
+			"TFFont"					"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"G_White"
-			"paintborder"				"0" // 5 CTHB
-			"paintbackground"			"1" // 5 CTHB
-			"border"					"G_HealthBorder"
-			"bgcolor_override"			"G_HealthBarBg"
+			"TextColor"					"HudOffWhite"
 		}	
 
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"G_FontTiny_2"
-			"fgcolor"		"G_White"
+			"font"			"LightGravity10"
+			"fgcolor"		"White"
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"5"
