@@ -826,7 +826,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"Gravity24"
+			"font"			"G_FontMedium"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"			"30"
 			"ypos"			"20"
@@ -842,7 +842,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NearbyColumnHead"
-			"font"			"HudFontSmall"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_Nearby"
 			"xpos"			"190"
 			"ypos"			"50"
@@ -858,7 +858,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorldwideColumnHead"
-			"font"			"HudFontSmall"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_Worldwide"
 			"xpos"			"280"
 			"ypos"			"50"
@@ -874,7 +874,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayersInGameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_ActivePlayers"
 			"xpos"			"30"
 			"ypos"			"70"
@@ -890,7 +890,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayersInGameTotalLabel"
-			"font"			"HudFontSmall"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_Total"
 			"xpos"			"60"
 			"ypos"			"90"
@@ -906,7 +906,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersInGameTotalNearbyValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"190"
 				"ypos"			"90"
 				"zpos"			"2"
@@ -922,7 +922,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersInGameTotalWorldwideValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"280"
 				"ypos"			"90"
 				"zpos"			"2"
@@ -938,7 +938,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayersInGameMatchingLabel"
-			"font"			"HudFontSmall"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_Compatible"
 			"xpos"			"60"
 			"ypos"			"110"
@@ -954,7 +954,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersInGameMatchingNearbyValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"190"
 				"ypos"			"110"
 				"zpos"			"2"
@@ -970,7 +970,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersInGameMatchingWorldwideValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"280"
 				"ypos"			"110"
 				"zpos"			"2"
@@ -986,7 +986,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayersSearchingLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_SearchingPlayers"
 			"xpos"			"30"
 			"ypos"			"140"
@@ -1002,7 +1002,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayersSearchingTotalLabel"
-			"font"			"HudFontSmall"
+			"font"			"G_FontSmall_2"
 			"labelText"		"#TF_Matchmaking_Total"
 			"xpos"			"60"
 			"ypos"			"160"
@@ -1018,7 +1018,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersSearchingTotalNearbyValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"190"
 				"ypos"			"160"
 				"zpos"			"2"
@@ -1034,7 +1034,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersSearchingTotalWorldwideValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"280"
 				"ypos"			"160"
 				"zpos"			"2"
@@ -1050,7 +1050,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersSearchingMatchingLabel"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"labelText"		"#TF_Matchmaking_Compatible"
 				"xpos"			"60"
 				"ypos"			"180"
@@ -1066,7 +1066,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersSearchingMatchingNearbyValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"190"
 				"ypos"			"180"
 				"zpos"			"2"
@@ -1082,7 +1082,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PlayersSearchingMatchingWorldwideValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"280"
 				"ypos"			"180"
 				"zpos"			"2"
@@ -1098,7 +1098,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"EmptyGameserversLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"G_FontSmall_2"
 				"labelText"		"#TF_Matchmaking_EmptyGameservers"
 				"xpos"			"30"
 				"ypos"			"210"
@@ -1114,7 +1114,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"EmptyGameserversMatchingNearbyValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"190"
 				"ypos"			"210"
 				"zpos"			"2"
@@ -1130,7 +1130,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"EmptyGameserversMatchingWorldwideValue"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"xpos"			"280"
 				"ypos"			"210"
 				"zpos"			"2"
@@ -1173,7 +1173,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"PartyHasLowPriorityLabel"
-				"font"				"HudFontSmall"
+				"font"				"G_FontSmall_2"
 				"labelText"			"#TF_Matchmaking_PartyPenalty"
 				"xpos"				"60"
 				"ypos"				"0"
@@ -1190,7 +1190,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PartyLowPriorityPenaltyTimer"
-				"font"			"HudFontSmall"
+				"font"			"G_FontSmall_2"
 				"labelText"		"%penaltytimer%"
 				"xpos"			"60"
 				"ypos"			"50"
@@ -1246,7 +1246,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PartyLabel"
-				"font"			"Gravity24"
+				"font"			"LightGravity24"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"
