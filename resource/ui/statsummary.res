@@ -123,7 +123,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapLeaderboardTitle"
-			"font"			"Gravity24"
+			"font"			"LightGravity24"
 			"labelText"		"%map_leaderboard_title%"
 			"textAlignment"	"north"
 			"xpos"			"9999"
@@ -393,7 +393,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"Gravity14"
+			"font"			"LightGravity24"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -1494,7 +1494,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"Gravity14"
+			"font"			"LightGravity24"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"

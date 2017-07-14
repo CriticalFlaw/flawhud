@@ -22,36 +22,6 @@ Scheme
 				"antialias" "0"
 			}
 		}
-		"Gravity14"
-		{
-			"1"
-			{
-				"name"		"Gravity-Book"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Gravity18"
-		{
-			"1"
-			{
-				"name"		"Gravity-Book"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Gravity24"
-		{
-			"1"
-			{
-				"name"		"Gravity-Book"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"LightGravity8"
 		{
 			"1"
@@ -113,6 +83,16 @@ Scheme
 			}
 		}
 		"LightGravity16"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity18"
 		{
 			"1"
 			{

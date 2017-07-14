@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"Gravity24"
+		"font"			"LightGravity24"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-300"

@@ -65,15 +65,10 @@ Scheme
 		}
 		"12"
 		{
-			"font"	"resource/fonts/Gravity-Book.otf"
-			"name"	"Gravity-Book"
-		}
-		"13"
-		{
 			"font"	"resource/fonts/Gravity-Light.otf"
 			"name"	"Gravity-Light"
 		}
-		"14"
+		"13"
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"

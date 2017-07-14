@@ -200,7 +200,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"Gravity24"
+		"font"			"LightGravity24"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
 		"xpos"			"c-55"

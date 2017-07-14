@@ -132,7 +132,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"G_FontMedium"	//"Gravity24"
+			"font"				"G_FontMedium"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"
