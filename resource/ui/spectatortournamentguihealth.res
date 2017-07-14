@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"				"G_HealthValue"
+		"font"				"G_FontSmall"
 		"fgcolor"		    "0 0 0 0"
 	}
 	"SpecHealthBG"
