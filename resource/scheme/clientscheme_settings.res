@@ -96,7 +96,7 @@ Scheme
 		Menu.TextColor							"White"
 		Menu.BgColor							"TransparentBlack"
 		Menu.ArmedTextColor						"TanDark"
-		Menu.ArmedBgColor						"White"
+		Menu.ArmedBgColor						"DarkGrey"
 		Menu.TextInset							"6"
 
 		Chat.TypingText							"Orange"
@@ -111,7 +111,7 @@ Scheme
 
 		CircularProgressBar.FgColor				"White"
 		CircularProgressBar.BgColor				"White"
-		
+
 		"BuildingHealthBar.BgColor"				"HealthBgGrey"
 		"BuildingHealthBar.Health"				"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"			"LowHealthRed"
@@ -146,7 +146,6 @@ Scheme
 		SectionedListPanel.BgColor				"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor	"Black"
 		SectionedListPanel.SelectedBgColor		"Red"
-
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
@@ -182,6 +181,7 @@ Scheme
 		HudObjectives.FgColor				"HudPanelForeground"
 		HudObjectives.BgColor				"HudPanelBackground"
 		HudObjectives.BorderColor			"HudPanelBorder"
+
 		HudProgressBar.Active				"HudProgressBarActive"
 		HudProgressBar.InActive				"HudProgressBarInActive"
 

@@ -69,7 +69,7 @@ Scheme
 		"QuestStandardHighlight"		"0 255 0 255"
 		"QuestBonusHighlight"			"150 160 255 255"
 		
-		"White"							"235 235 235 255"
+		"White"							"242 242 242 255"
 		"Red"							"192 28 0 140"
 		"RedSolid"						"192 28 0 255"
 		"Blue"							"0 28 162 140"
