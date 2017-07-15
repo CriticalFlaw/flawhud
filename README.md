@@ -14,7 +14,7 @@ To change the crosshair style, in the same node change the letter to the right o
 This button is heart shaped and is located on the top right section of the main menu, under the Twitch button. To add your favorite server, go to `resource\gamemenu.res` and under `FavoriteServer` replace the Xs with the server IP and password.
 
 #### Transparent Viewmodels
-While the necessary files and entry in hudslayout.res (disabled by default) are included, the config necessary to use Transparent Viewmodels will not be included. This is due to a number of users experiencing issues relating to their own graphical configs, therefore you're responsible for acquiring and modifying configs accordingly.
+While the necessary files and entry in hudslayout.res (disabled by default) are included, the config necessary to use Transparent Viewmodels will not be included. This is due to a number of users experiencing issues relating to their own graphical configs, therefore you're responsible for acquiring and modifying your configs accordingly. For more information, visit the TF.TV thread [here](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
 
 #### Medigun Panels
 If you're using [CastingEssentials](https://github.com/PazerOP/CastingEssentials/releases/tag/r12) you can enable medigun panels included with FlawHUD using the console command `ce_mediguninfo_enabled` - for more information refer to the [CastingEssentials wiki](https://github.com/PazerOP/CastingEssentials/wiki).
@@ -22,5 +22,4 @@ If you're using [CastingEssentials](https://github.com/PazerOP/CastingEssentials
 #### Help/Support
 If you've found a bug, need help or have a suggestion - consider one of the following:
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)
-* [Message me on huds.tf](http://huds.tf/forum/private.php?action=send&uid=7083)
 * [Post on the Steam Group Forums](https://steamcommunity.com/groups/FlawHUD/discussions)

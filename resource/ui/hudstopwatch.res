@@ -7,7 +7,7 @@
 		"xpos"			"c-22"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"135"
+		"wide"			"140"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"

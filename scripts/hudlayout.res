@@ -9,8 +9,8 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible" 			"0"
-		"enabled" 			"0"
+		"visible" 			"0"		// Change to "1" to enable
+		"enabled" 			"0"		// Change to "1" to enable
 		"labelText"			"i"
 		
 		"controlName"		"CExLabel"
@@ -38,8 +38,8 @@
 		"zpos"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"0"		// Change to "1" to enable
+		"enabled"			"0"		// Change to "1" to enable
 		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
 	}
