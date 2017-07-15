@@ -30,7 +30,7 @@ Scheme
 		"G_MenuShader"				"0 0 0 100"
 		//---------------------------------------------
 		// Gameplay
-		"G_Overheal"				"170 234 43 255"	//"0 255 127 255"		// HP Buff
+		"G_Overheal"				"0 170 127 255"		// HP Buff
 		"G_Heal"					"0 255 127 255"		// Healing Numbers
 		"G_Hit"						"255 255 0 255"		// Damage Numbers
 		"G_HealthValue"				"243 243 243 255"	// HP

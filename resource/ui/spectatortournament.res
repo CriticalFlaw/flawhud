@@ -236,7 +236,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor_override"		"G_Overheal"
+				"fgcolor_override"		"Yellow"
 			}
 
 			"specindex"
