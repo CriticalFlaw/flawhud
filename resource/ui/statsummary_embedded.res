@@ -1423,7 +1423,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMediumSmall"
+			"font"			"G_FontSmall"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"
@@ -1473,7 +1473,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1490,7 +1490,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1507,7 +1507,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1524,7 +1524,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1541,7 +1541,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1558,7 +1558,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1575,7 +1575,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1592,7 +1592,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1609,7 +1609,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1626,7 +1626,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1643,7 +1643,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1660,7 +1660,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1677,7 +1677,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1694,7 +1694,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1711,7 +1711,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1728,7 +1728,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1745,7 +1745,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1762,7 +1762,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1779,7 +1779,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1796,7 +1796,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1813,7 +1813,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1830,7 +1830,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1847,7 +1847,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1864,7 +1864,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1881,7 +1881,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1898,7 +1898,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1915,7 +1915,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1932,7 +1932,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"LightGravity9"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1949,7 +1949,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"OverallRecord15Label"
-			"font"				"LightGravity9"
+			"font"				"ScoreboardVerySmall"
 			"labelText"			"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"				"c+128"
@@ -1966,7 +1966,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"OverallRecord15Value"
-			"font"				"LightGravity9"
+			"font"				"ScoreboardVerySmall"
 			"labelText"			"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"				"c+210"

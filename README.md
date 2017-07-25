@@ -1,4 +1,4 @@
-## FlawHUD
+## FlawHUD 
 
 A Team Fortress 2 Heads-Up Display (HUD)
 
@@ -23,3 +23,5 @@ If you're using [CastingEssentials](https://github.com/PazerOP/CastingEssentials
 If you've found a bug, need help or have a suggestion - consider one of the following:
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)
 * [Post on the Steam Group Forums](https://steamcommunity.com/groups/FlawHUD/discussions)
+
+Version: 20170725

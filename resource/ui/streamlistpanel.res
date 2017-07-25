@@ -101,4 +101,36 @@
 		"bgcolor_override"	"0 0 0 0"
 		"border"		"WhiteBorder"
 	}
+	"Stream_URLButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Stream_URLButton"
+		"xpos"			"5"
+		"ypos"			"284"
+		"wide"			"290"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#MMenu_Stream_ViewMore"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"command"		"view_more"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "235 226 202 255"
+	}
 }

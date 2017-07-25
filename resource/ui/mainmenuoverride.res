@@ -733,7 +733,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity12"
-		"labelText"		"RC v2017.07.15"
+		"labelText"		"RC v2017.07.25"
 		"xpos"			"27"
 		"ypos"			"155"
 		"wide"			"80"
