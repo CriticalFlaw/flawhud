@@ -1552,9 +1552,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"	//"Gravity-Light"
 				"tall"			"8"
-				"tall_hidef"	"12"
+				"tall_hidef"	"10"	//"12"
 				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
