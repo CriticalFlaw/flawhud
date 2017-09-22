@@ -32,7 +32,7 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"QuickplayBorder"
+			"border"			"PanelBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
 	}
@@ -41,7 +41,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -53,7 +53,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"ExplanationLabel"
@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 	}
 		
 	"CancelButton"
@@ -99,12 +99,6 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"QuickplayBorder"
-		"border_armed"				"QuickplayBorder"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
 
 	"ConfirmButton"
@@ -131,11 +125,5 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"QuickplayBorder"
-		"border_armed"				"QuickplayBorder"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}			
 }

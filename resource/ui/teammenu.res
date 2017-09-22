@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"SelectAClassLabel"
-		"xpos"			"c-155"
+		"xpos"			"c-150"
 		"ypos"			"c-130"
 		"zpos"			"1"
 		"wide"			"300"
@@ -60,7 +60,7 @@
 		"font"			"G_FontMedium"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"G_White"
+		"fgcolor_override"	"White"
 	}
 	
 	"teambutton0"
@@ -82,12 +82,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
-		"team"				"3"		// team blue
+		"team"			"3"		// team blue
 		"font"			"G_FontMediumSmall"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"G_White"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"G_White"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"BlueTeamBG"
@@ -101,7 +101,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"72 112 125 255"
+		"fillcolor"		"Blue"
 	}
 
 	"BlueTeamBG2"
@@ -115,7 +115,7 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"46 73 82 255"
+		"fillcolor"		"DarkBlue"
 	}
 
 	"teambutton1"
@@ -137,12 +137,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
-		"team"				"4"		// team red
+		"team"			"4"		// team red
 		"font"			"G_FontMediumSmall"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"G_White"
+		"armedFgColor_override"		"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"G_White"
+		"selectedFgColor_override" 	"255 255 255 255"
 	}
 	
 	"RedTeamBG"
@@ -156,7 +156,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"158 64 61 255"
+		"fillcolor"		"Red"
 	}
 	
 	"RedTeamBG2"
@@ -170,7 +170,7 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"102 48 46 255"
+		"fillcolor"		"DarkRed"
 	}
 
 	"teambutton2"
@@ -193,11 +193,11 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"G_FontSmall"
+		"font"			"LightGravity12"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"G_White"
+		"armedFgColor_override"		"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"G_White"
+		"selectedFgColor_override" 	"255 255 255 255"
 	}
 
 	"teambutton3"
@@ -220,11 +220,11 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"G_FontSmall"
+		"font"			"LightGravity12"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"G_White"
+		"armedFgColor_override"		"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"G_White"
+		"selectedFgColor_override" 	"255 255 255 255"
 	}
 	
 	"teambuttonBG"
@@ -254,9 +254,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"17 17 17 230"
-	}	
-	
+		"fillcolor"		"255 255 255 7"
+	}
+
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -264,7 +264,7 @@
 		"xpos"			"c-95"
 		"ypos"			"c-19"
 		"zpos"			"3"
-		"wide"			"20"
+		"wide"			"18"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -274,10 +274,10 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"G_FontSmall"
+		"font"			"LightGravity12"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -295,10 +295,10 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"G_FontSmall"
+		"font"			"LightGravity12"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"TeamsFullLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -316,11 +316,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"G_FontMedium"
-		"fgcolor"		"G_White"
+		"font"			"LightGravity12"
+		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
-	
+
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -338,11 +338,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"G_FontMedium"
+		"font"			"LightGravity12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

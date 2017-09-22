@@ -9,8 +9,8 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible" 			"0"
-		"enabled" 			"0"
+		"visible" 			"0"		// Change to "1" to enable
+		"enabled" 			"0"		// Change to "1" to enable
 		"labelText"			"i"
 		
 		"controlName"		"CExLabel"
@@ -38,19 +38,19 @@
 		"zpos"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"0"		// Change to "1" to enable
+		"enabled"			"0"		// Change to "1" to enable
 		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
-	
+
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
+		"xpos"				"-15"
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
@@ -61,10 +61,10 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c+90"
-		"ypos"				"r140"	
-		"wide"				"100"
-		"tall"				"45"
+		"xpos"				"c92"
+		"ypos"				"c65"
+		"wide"				"150"
+		"tall"				"125"
 	}
 	
 	HudObjectiveStatus
@@ -76,19 +76,20 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-	}	
-	
+	}
+
 	HudKothTimeStatus
 	{
 		"fieldName" 		"HudKothTimeStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-65"
+		"xpos"				"c-100"
 		"ypos"				"0"
 		"wide"				"200"
-		"tall"				"160"
-		"blue_active_xpos"	"5"
-		"red_active_xpos"	"65"
+		"tall"				"200"
+
+		"blue_active_xpos"	"53"
+		"red_active_xpos"	"103"
 	}
 
 	HudItemEffectMeter
@@ -96,35 +97,34 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r162"
-		"ypos"				"r52"
-		"wide"				"100"
-		"tall"				"50"
-		"MeterFG"			"White"
+		"xpos"				"c-75"
+		"ypos"				"c93"
+		"wide"				"150"
+		"tall"				"40"
+		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
-	
+
 	HudMedicCharge
 	{
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-60"
-		"ypos"				"200"
+		"xpos"				"0"
+		"ypos"				"c65"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"300"
 	}
-	
+
 	HudDemomanCharge
 	{
-		"fieldName"			"HudDemomanCharge"
+		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"zpos"				"1"
-		"xpos"				"0"
-		"ypos"				"-40"
-		"wide"				"f0"
-		"tall"				"f0"
+		"xpos"				"c-75"
+		"ypos"				"c25"
+		"wide"				"150"
+		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -134,13 +134,14 @@
 		"fieldName"			"HudBowCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r80"
-		"ypos"				"r21"
+		"xpos"				"c-100"
+		"ypos"				"c124"
 		"zpos"				"1"
-		"wide"				"60"
-		"tall"				"8"
+		"wide"				"500"
+		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
+		"alpha"				"0"
 	}
 
 	HudFlameRocketCharge
@@ -207,36 +208,36 @@
 		"SelectionNumberFg"		"200 187 161 255"
 		"NumberFont" 			"HudSelectionText"
 	}
-	
+
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-38"
-		"ypos"					"r170"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-50"
+		"ypos"					"c25"
+		"wide"					"100"
+		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-115"
-		"ypos"					"r152"
+		"xpos"					"c-181"
+		"ypos"					"267"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"-10"
-		"ypos"					"15"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
@@ -246,83 +247,75 @@
 
 	DisguiseStatus
 	{
-		"fieldName" 		"DisguiseStatus"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-360"
-		"ypos"				"r32"
-		"wide"				"500"
-		"tall"				"28"
+		"fieldName" 			"DisguiseStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"105"
+		"ypos"					"r38"
+		"wide"					"170"
+		"tall"					"38"
 	}
 
 	CMainTargetID
 	{
-		"fieldName" 		"CMainTargetID"
-		"visible" 			"0"
-		"enabled" 			"1"
-		"xpos"				"c-126"
-		"ypos"				"285"
-		"wide"	 			"252"
-		"tall"	 			"28"
-		"priority"			"40"
-		"priority_lodef"	"5"
+		"fieldName" 			"CMainTargetID"
+		"visible" 				"0"
+		"enabled" 				"1"
+		"xpos"					"c-126"
+		"ypos"					"245"
+		"wide"	 				"200"
+		"tall"	 				"50"
+		"priority"				"40"
 	}
-	
+
 	CSpectatorTargetID
 	{
 		"fieldName" 		"CSpectatorTargetID"
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos"				"c-126"
-		"ypos"				"320"
-		"wide"	 			"252"
-		"tall"	 			"28"
+		"ypos"				"319"
+		"wide"	 			"200"
+		"tall"	 			"50"
 		"priority"			"40"
-		"priority_lodef"	"35"
-		"x_offset" 			"20"
-		"y_offset" 			"20"
 	}
-	
+
 	CSecondaryTargetID
 	{
 		"fieldName" 		"CSecondaryTargetID"
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos"				"c-126"
-		"ypos"				"375"
-		"wide"	 			"252"
-		"tall"	 			"28"
+		"ypos"				"275"
+		"wide"	 			"200"
+		"tall"	 			"50"
 		"priority"			"35"
 	}
-	
+
 	BuildingStatus_Spy
 	{
 		"fieldName" 			"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"	
+		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	BuildingStatus_Engineer
 	{
 		"fieldName" 			"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"xpos_hidef"			"32"
-		"xpos_lodef"			"40"
+		"xpos"					"-15"
 		"ypos"					"0"
-		"ypos_hidef"			"16"
-		"ypos_lodef"			"25"
-		"wide"					"640"
+		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudMannVsMachineStatus
 	{
 		"fieldName" 			"HudMannVsMachineStatus"
@@ -335,7 +328,7 @@
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudProgressBar
 	{
 		"fieldName" 			"HudProgressBar"
@@ -352,9 +345,9 @@
 	HudRoundTimer
 	{
 		"fieldName" 			"HudRoundTimer"
-		"xpos"					"c-20"
+		"xpos"					"c-25"
 		"ypos"					"440"
-		"wide"					"120"
+		"wide"					"f0"
 		"tall"  				"40"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -376,9 +369,9 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"IconColor"				"Hostage_Yellow"	
+		"IconColor"				"Hostage_Yellow"
 	}
-	
+
 	HudFlashlight
 	{
 		"fieldName" 			"HudFlashlight"
@@ -399,9 +392,9 @@
 		"fieldName"				"HudDamageIndicator"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"MinimumWidth" 			"12"
-		"MaximumWidth"			"20"
-		"StartRadius"			"100"
+		"MinimumWidth" 			"10"
+		"MaximumWidth"			"10"
+		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"			"30"
 		"MaximumHeight"			"60"
@@ -417,8 +410,9 @@
 		"tall"  				"50"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-		"BackgroundOverrideColor""0 0 0 128"
+
+		"PaintBackgroundType"		"2"
+		"BackgroundOverrideColor"	"0 0 0 128"
 
 		"bar_xpos"				"50"
 		"bar_ypos"				"20"
@@ -434,6 +428,7 @@
 		"icon_ypos"				"0"		
 		"icon_width"			"40"
 		"icon_height"			"40"
+
 		"use_script_bgcolor"	"1"
 	}
 
@@ -449,30 +444,39 @@
 		"BorderThickness" 		"88"
 	}
 
+	HudCrosshair
+	{
+		"fieldName" 			"HudCrosshair"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"wide"	 				"640"
+		"tall"	 				"480"
+	}
+
 	HudDeathNotice
 	{
 		"fieldName" 			"HudDeathNotice"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r635"
-		"ypos"	 				"5"
+		"ypos"	 				"15"
 		"wide"	 				"628"
 		"tall"	 				"468"
 
 		"MaxDeathNotices" 		"4"
 		"IconScale"				"0.35"
-		"LineHeight"			"10"
-		"LineSpacing"			"1"
-		"CornerRadius"			"2"
+		"LineHeight"			"12"
+		"LineSpacing"			"0"
+		"CornerRadius"			"0"
 		"RightJustify"			"1"
-		
+
 		"TextFont"				"AdFont_AdText"
-		"TeamBlue"				"G_KillfeedBlue"
-		"TeamRed"				"G_KillfeedRed"
-		"IconColor"				"G_KillfeedIcon"
-		"LocalPlayerColor"		"HUDBlack"
-		"BaseBackgroundColor"	"G_Killfeed_Base"
-		"LocalBackgroundColor"	"G_Killfeed_Local"
+		"TeamBlue"				"Blue"
+		"TeamRed"				"Red"
+		"IconColor"				"White"
+		"LocalPlayerColor"		"Black"
+		"BaseBackgroundColor"	"HudBlack"
+		"LocalBackgroundColor"	"White"
 	}
 
 	HudVehicle
@@ -537,6 +541,7 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"zpos" 				"1"
+
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -550,8 +555,9 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"zpos" 				"2"
-		"xpos"				"200"
-		"ypos"				"r91"
+		"xpos"				"232"
+		"ypos"				"r88"
+
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -562,14 +568,15 @@
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c+205"
-		"ypos"				"r140"
-		"wide"				"180"
-		"tall"				"60"
+		"xpos"				"c215"
+		"ypos"				"247"
+		"wide"				"500"
+		"tall"				"136"
 		"BgAlpha"			"0"
-		"GrowTime"			"0.05"
-		"ItemHiddenTime"	"0.05"
-		"ItemFadeInTime"	"0.05"
+		"GrowTime"			"0.25"
+		"ItemHiddenTime"	"0.2"
+		"ItemFadeInTime"	"0.15"
+
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"			"0"
 	}
@@ -701,17 +708,20 @@
 		"wide" 				"145"
 		"tall" 				"400"
 		"item_wide"			"135"
+
 		"show_avatar"		"0"
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
+
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
+
 		"text_xpos"			"33"
 	}
 
@@ -721,7 +731,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"xpos"				"c-240"
-		"ypos"				"c60"
+		"ypos"				"c90"
 		"wide"				"480"
 		"tall"				"100"
 		"HintSize"			"1"
@@ -747,7 +757,7 @@
 		"TextColor"			"255 170 0 220"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	overview
 	{
 		"fieldname" 		"overview"
@@ -758,7 +768,7 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
+
 	VguiScreenCursor
 	{
 		"fieldName"			"VguiScreenCursor"
@@ -777,9 +787,9 @@
 		"tall"				"200"
 		"visible"			"1"
 		"enabled"			"1"
-		"separator_width"	"9"
+		"separator_width"	"2"
 		"separator_height"	"7"
-		"height_offset"		"0"
+		"height_offset"		"2"
 	}
 
 	HudCapturePanel
@@ -800,9 +810,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r138"
-		"wide"			"300"
-		"tall"			"300"
+		"ypos"			"r163"
+		"wide"			"200"
+		"tall"			"152"
 		"zpos"			"4"
 		"proportionaltoparent"	"1"
 	}
@@ -812,13 +822,12 @@
 		"fieldName"		"ArenaWinPanel"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-225"
-		"ypos"			"250"
-		"wide"			"450"
-		"tall"			"218"
-
+		"xpos"			"c-180"
+		"ypos"			"r143"
+		"wide"			"360"
+		"tall"			"132"
 	}
-	
+
 	PVEWinPanel
 	{
 		"fieldName"		"PVEWinPanel"
@@ -835,16 +844,12 @@
 		"fieldName"		"StatPanel"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-133"
-		"xpos_lodef"	"c-190"
-		"ypos"			"270"
-		"ypos_lodef"	"250"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"266"
-		"wide_lodef"	"400"
 		"tall"			"120"
-		"tall_lodef"	"190"
 	}
-	
+
 	FreezePanel
 	{
 		"fieldName"		"FreezePanel"
@@ -888,7 +893,7 @@
 		"wide"			"292"
 		"tall"			"64"
 	}
-	
+
 	"HudUpgradePanel"
 	{
 		"fieldName"		"HudUpgradePanel"
@@ -897,7 +902,7 @@
 		"xpos"			"c-200"
 		"ypos"			"260"
 		"wide"			"400"
-		"tall"			"160"		
+		"tall"			"160"
 	}
 
 	"HudChat"
@@ -907,33 +912,35 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"
-		"ypos"			"275"
+		"ypos"			"255"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-142"
-		"ypos"			"c-65"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"c-125"
+		"ypos"			"c-35"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-88"
-		"ypos"			"c-65"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"c-75"
+		"ypos"			"c-35"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -942,46 +949,47 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-142"
-		"ypos"			"c-65"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"c-125"
+		"ypos"			"c-35"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-215"
-		"ypos"			"c-42"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"c-99"
+		"ypos"			"c-35"
+		"zpos"			"1"
+		"wide"			"198"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
-	}	
-	
+	}
+
 	HudDemomanPipes
 	{
-		"fieldName"		"HudDemomanPipes"
+		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-45"
-		"ypos"			"r145"
-		"wide"			"160"
+		"xpos"			"c75"
+		"ypos"			"c137"
+		"wide"			"150"
 		"tall"			"50"
-	}	
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
 
 	HudTeamGoal
 	{
 		"fieldName"		"HudTeamGoal"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-120"
+		"xpos"			"c-160"
 		"ypos"			"65"
-		"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -993,7 +1001,6 @@
 		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"15"
-		"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"300"
 	}
@@ -1005,8 +1012,6 @@
 		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"75"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"90"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -1018,8 +1023,6 @@
 		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"75"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"90"
 		"wide"			"320"
 		"tall"			"150"
 	}
@@ -1043,7 +1046,6 @@
 		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"65"
-		"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -1055,7 +1057,6 @@
 		"enabled"		"1"
 		"xpos"			"c-125"
 		"ypos"			"5"
-		"ypos_lodef"	"75"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"80"
@@ -1068,7 +1069,6 @@
 		"enabled"		"1"
 		"xpos"			"c-90"
 		"ypos"			"-70"
-		"ypos_lodef"	"75"
 		"wide"			"180"
 		"tall"			"65"
 	}
@@ -1078,13 +1078,12 @@
 		"fieldName"		"HudStopWatch"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"10"
-		"xpos"			"c-170"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"340"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"70"
 	}
-	
+
 	NotificationPanel
 	{
 		"fieldName"		"NotificationPanel"
@@ -1096,7 +1095,7 @@
 		"tall"			"100"
 	}
 
-	AchievementNotificationPanel	
+	AchievementNotificationPanel
 	{
 		"fieldName"		"AchievementNotificationPanel"
 		"visible"		"1"
@@ -1109,7 +1108,7 @@
 
 	CriticalPanel
 	{
-		"fieldName"		"CriticalPanel"		
+		"fieldName"		"CriticalPanel"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r155"
@@ -1117,21 +1116,21 @@
 		"wide"			"150"
 		"tall"			"25"
 	}
-	
+
 	HudArenaClassLayout
 	{
-		"fieldName"		"HudArenaClassLayout"		
+		"fieldName"		"HudArenaClassLayout"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"r320"
+		"ypos"			"r380"
 		"wide"			"f0"
 		"tall"			"320"
 	}
-	
+
 	HudArenaVsPanel
 	{
-		"fieldName"		"HudArenaVsPanel"		
+		"fieldName"		"HudArenaVsPanel"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
@@ -1139,32 +1138,32 @@
 		"wide"			"f0"
 		"tall"			"240"
 	}
-	
+
 	HudArenaPlayerCount
 	{
-		"fieldName"		"HudArenaPlayerCount"		
+		"fieldName"		"HudArenaPlayerCount"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"50"
-	}	
-	
+	}
+
 	"HudAchievementTracker"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
 		"NormalY"		"10"
-		"EngineerY"		"170"
+		"EngineerY"		"10"
 		"zpos"			"2"
-		"wide"			"280"
+		"wide"			"200"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	HudTrainingInfoMsg
 	{
 		"fieldName"		"HudTrainingInfoMsg"
@@ -1181,13 +1180,13 @@
 		"fieldName"		"HudInspectPanel"
 		"visible"		"0"
 		"enabled"		"1"
-		"xpos"			"c+250"
-		"ypos"			"rs1"
+		"xpos"			"r200"
+		"ypos"			"300"
 		"zpos"			"10"
-		"wide"			"190"
-		"tall"			"f0"
+		"wide"			"270"
+		"tall"			"180"
 	}
-	
+
 	HudTFCrosshair
 	{
 		"fieldName" 	"HudTFCrosshair"
@@ -1196,7 +1195,7 @@
 		"wide"	 		"640"
 		"tall"	 		"480"
 	}
-	
+
 	ItemQuickSwitchPanel
 	{
 		"fieldName"		"ItemQuickSwitchPanel"
@@ -1207,14 +1206,14 @@
 		"wide"			"250"
 		"tall"			"160"
 	}
-	
+
 	ReplayReminder
 	{
 		"fieldName"		"ReplayReminder"
 		"visible"		"0"
 		"enable"		"1"
 	}
-	
+
 	MainMenuAdditions
 	{
 		"fieldName"		"MainMenuAdditions"
@@ -1225,7 +1224,7 @@
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"100"
-	}	
+	}
 
 	CoachedByPanel
 	{
@@ -1260,11 +1259,11 @@
 		"wide"			"200"
 		"tall"			"0"
 	}
-	
+
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
-		"xpos"			"0"			
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1278,7 +1277,7 @@
 	{
 		"fieldName"		"HudAlert"
 		"visible"		"0"
-		"enabled"		"1"
+		"enable"		"1"
 		"xpos"			"c-160"
 		"ypos"			"100"
 		"wide"			"320"
@@ -1315,12 +1314,10 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-130"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"xpos"			"c-235"
+		"ypos"			"c-35"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1403,10 +1400,10 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	}
-	
-	HUDAutoAim			{ }	
+
+	HUDAutoAim			{ }
 	HudHDRDemo			{ }
-	HudTrainingMsg 		{ }
-	TrainingComplete 	{ }
+	HudTrainingMsg		{ }
+	TrainingComplete	{ }
 	AnnotationsPanel	{ }
 }

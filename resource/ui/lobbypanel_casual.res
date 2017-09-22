@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"		"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -59,9 +59,9 @@
 			"wide"			"p0.98"
 			"tall"			"p1"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"TransparentBlack"
-			"border"		"QuickplayBorder"
+			"PaintBackgroundType"	"0"
+			"border"				"WhiteBorder"
+			"bgcolor_override"		"25 25 25 200"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -78,7 +78,7 @@
 				"tall"			"p0.85"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
+				"border"		"NoBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}
@@ -108,8 +108,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"actionsignallevel"	"5"
 				"proportionaltoparent"	"1"
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_drawcolor"	"White"
+				"image_armedcolor"	"Yellow"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -151,8 +151,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"actionsignallevel"	"5"
 				"proportionaltoparent"	"1"
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_drawcolor"	"White"
+				"image_armedcolor"	"Yellow"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -181,7 +181,7 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_MapSelection"
 				"textAlignment"	"west"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"G_FontSmall"
 		
 				"mouseinputenabled"	"0"
 			}
@@ -198,7 +198,7 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"%selected_maps_count%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"G_FontSmall_2"
 				"fgcolor_override"	"White"
 		
 				"mouseinputenabled"	"1"
@@ -216,8 +216,8 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_QueueEstimation"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
-				"fgcolor_override"	"White"
+				"font"			"G_FontSmall"
+				"fgcolor_override"	"TanLight"
 				"textinsetx"	"5"
 				"visible"	"0"
 		
@@ -235,13 +235,13 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
-				"border"		"MainMenuBGBorder"
+				"border"		"NoBorder"
 
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1"
+					"xpos"			"rs0.7-1"
 					"ypos"			"0"
 					"tall"			"f0"
 					"wide"			"5"
@@ -251,7 +251,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"TanDark"
 					}
 		
 					"UpButton"
@@ -274,39 +274,40 @@
 
 	"PartyActiveGroupBox"
 	{
-		"xpos"		"c+100"
-		"ypos"		"r340"
+		"xpos"		"c+103"
+		"ypos"		"r341"
 		"tall"		"300"
 		"proportionaltoparent"	"1"
 
 		"PartyGroupBox"
 		{
-			"tall"		"160"
-			"border"		"QuickplayBorder"
+			"tall"			"160"
+			"border"		"WhiteBorder"
 		}
 
 		"ChatLog"
 		{
-			"ypos"			"165"
+			"ypos"			"164"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorder"
 		}
 
 		"ChatTextEntry"
 		{
-			"ypos"			"270"
+			"ypos"			"268"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorder"
 		}
 	}
 
 	"SearchActiveGroupBox"
 	{
-		"xpos"		"c-300"
-		"ypos"		"r340"
+		"xpos"		"c-302"
+		"ypos"		"r341"
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
+		"border"	"WhiteBorder"
 
 		"SearchActiveTitle"
 		{
@@ -316,145 +317,145 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"		"G_FontSmall_2"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
-			"PlayersInGameTotalNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"85"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameTotalNearbyValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-90"
+			"ypos"		"85"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersInGameTotalWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"85"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameTotalWorldwideValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-10"
+			"ypos"		"85"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
-			"PlayersInGameMatchingNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"97"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameMatchingNearbyValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-90"
+			"ypos"		"97"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersInGameMatchingWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"97"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersInGameMatchingWorldwideValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-10"
+			"ypos"		"97"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersSearchingLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"		"G_FontSmall_2"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
-			"PlayersSearchingTotalNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"135"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingTotalNearbyValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-90"
+			"ypos"		"135"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersSearchingTotalWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"135"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingTotalWorldwideValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-10"
+			"ypos"		"135"
+			"proportionaltoparent"	"1"
+		}
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"		"G_FontSmall_2"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
-			"PlayersSearchingMatchingNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"147"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingMatchingNearbyValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-90"
+			"ypos"		"147"
+			"proportionaltoparent"	"1"
+		}
 
-			"PlayersSearchingMatchingWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"147"
-				"proportionaltoparent"	"1"
-			}
+		"PlayersSearchingMatchingWorldwideValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-10"
+			"ypos"		"147"
+			"proportionaltoparent"	"1"
+		}
 
 		"EmptyGameserversLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"		"G_FontSmall_2"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
-			"EmptyGameserversMatchingNearbyValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-90"
-				"ypos"		"170"
-				"proportionaltoparent"	"1"
-			}
+		"EmptyGameserversMatchingNearbyValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-90"
+			"ypos"		"170"
+			"proportionaltoparent"	"1"
+		}
 
-			"EmptyGameserversMatchingWorldwideValue"
-			{
-				"font"			"HudFontSmallest"
-				"xpos"		"rs1-10"
-				"ypos"		"170"
-				"proportionaltoparent"	"1"
-			}
+		"EmptyGameserversMatchingWorldwideValue"
+		{
+			"font"		"G_FontSmall_2"
+			"xpos"		"rs1-10"
+			"ypos"		"170"
+			"proportionaltoparent"	"1"
+		}
 
 		"PartyHasLowPriorityGroupBox"
 		{
@@ -475,7 +476,7 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"G_FontSmall_2"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -487,7 +488,7 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"G_FontSmall_2"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"

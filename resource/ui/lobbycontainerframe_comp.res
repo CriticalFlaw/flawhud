@@ -29,15 +29,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayWithFriendsExplanation"
-		"xpos"			"c-20"
-		"ypos"			"130"
+		"xpos"			"c-19"
+		"ypos"			"131"
 		"zpos"			"8"
 		"wide"			"321"
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

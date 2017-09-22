@@ -47,10 +47,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"75"
-		"ypos"				"r30"
+		"xpos"				"90"
+		"ypos"				"r35"
 		"wide"				"100"
-		"tall"				"100"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -59,10 +59,10 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"75"
-		"ypos"				"r15"
+		"xpos"				"90"
+		"ypos"				"r20"
 		"wide"				"100"
-		"tall"				"100"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -179,7 +179,6 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"			"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -220,23 +219,19 @@
 		
 		"Background"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
-			"tall"			"20"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
+			"border"		"DarkRedTeamBorder"
+			"bgcolor_override"	"Red"
 
-			"src_corner_height"		"22"
-			"src_corner_width"		"22"
-		
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
 		}
 	
 		"ServerChangeLabel"
@@ -247,12 +242,12 @@
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"White"		
 		}
 	}
 }

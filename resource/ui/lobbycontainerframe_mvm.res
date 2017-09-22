@@ -2,12 +2,19 @@
 
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"visible"	"0"
+	}
+
 	"PlayNowButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayNowButton"
 		"xpos"			"c-295"
-		"ypos"			"333"
+		"ypos"			"303"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -17,7 +24,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_MannUp"
-		"font"			"G_FontMedium"
+		"font"			"LightGravity24"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -32,24 +39,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 		"paintbackground"	"1"
 			
-		"defaultFgColor_override" 	"G_ButtonText"
-		"armedFgColor_override" 	"G_ButtonHoverText"
-		"depressedFgColor_override" "G_ButtonHoverText"
-
-		"defaultBgColor_override" 	"G_DarkNight"
-		"armedBgColor_override" 	"G_White"
-		"depressedBgColor_override" "G_White"
-	}
-	
-	"OptionsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"OptionsButton"
-		"visible"	"0"
+		"defaultFgColor_override" 	"White"
+		"defaultBgColor_override"	"Black"
+		"armedFgColor_override" 	"Black"
+		"armedBgColor_override"		"White"	//"Yellow"
+		"depressedFgColor_override" "Black"
+		"depressedBgColor_override" "White"	//"Yellow"
 	}
 
 	"PracticeButton"
@@ -57,7 +56,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PracticeButton"
 		"xpos"			"c-95"
-		"ypos"			"333"
+		"ypos"			"303"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -67,7 +66,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_BootCamp"
-		"font"			"G_FontMedium"
+		"font"			"LightGravity24"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -82,17 +81,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"QuickplayBorder"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 		"paintbackground"	"1"
 			
-		"defaultFgColor_override" 	"G_ButtonText"
-		"armedFgColor_override" 	"G_ButtonHoverText"
-		"depressedFgColor_override" "G_ButtonHoverText"
-
-		"defaultBgColor_override" 	"G_DarkNight"
-		"armedBgColor_override" 	"G_White"
-		"depressedBgColor_override" "G_White"
+		"defaultFgColor_override"	"White"
+		"defaultBgColor_override"	"Black"
+		"armedFgColor_override"		"Black"	//"White"
+		"armedBgColor_override"		"White"	//"Yellow"
+		"depressedFgColor_override"	"Black"	//"White"
+		"depressedBgColor_override" "White"	//"Yellow"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -100,14 +98,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayWithFriendsExplanation"
 		"xpos"			"c+100"
-		"ypos"			"90"
+		"ypos"			"62"
 		"zpos"			"8"
 		"wide"			"200"
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"			"QuickplayBorder"
+		"bgcolor_override"	"25 25 25 200"
+		"border"			"WhiteBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

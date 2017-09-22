@@ -2,7 +2,212 @@ Scheme
 {
 	Fonts
 	{
-		"G_MenuArrowBig"	// Big arrows used in various menus
+		"SymbolS"
+		{
+			"1"
+			{
+				"name"	"Entypo"
+				"tall"	"25"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"BlocksSharp64"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"64"
+				"additive"	"0"
+				"antialias" "0"
+			}
+		}
+		"LightGravity8"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity9"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity10"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity11"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity12"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity14"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity16"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity18"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity20"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity20Outline"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"LightGravity24"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity24Outline"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"LightGravity26"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity34"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity40"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightGravity55"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"55"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravityHUD"
+		{
+			"1"
+			{
+				"name"		"Gravity-Light"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+				"italic"	"1"
+			}
+		}
+		"DefaultOutline"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"10"
+				"weight"		"900"
+				"range"			"0x0000 0x017F"
+				"outline"		"1"
+			}
+		}
+
+		"G_MenuArrowBig"
 		{
 			"1"
 			{
@@ -111,6 +316,18 @@ Scheme
 			}
 		}
 		
+		"G_ChargeLabel"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		
 		"G_FontNumberButton" // Key Button Text
 		{
 			"1"
@@ -127,7 +344,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"55"
+				"tall"			"52"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -139,7 +356,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"40"
+				"tall"			"37"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -151,7 +368,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"25"
+				"tall"			"22"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -163,7 +380,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"20"
+				"tall"			"18"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -175,7 +392,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"16"
+				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -187,7 +404,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"14"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -199,7 +416,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"25"
+				"tall"			"23"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -211,7 +428,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"19"
+				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -223,7 +440,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"16"
+				"tall"			"13"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -254,69 +471,22 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
-		"G_FontWinpanel"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"13"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"480 599"
-			}
-			"2"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"13"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
-			}
-			"3"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"15"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"768 1023"
-				"antialias"		"1"
-			}
-			"4"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"16"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"1024 1199"
-				"antialias"		"1"
-			}
-			"5"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"18"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
-				"antialias"		"1"
-			}
-		}
-		
+
 		"Default"
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"13"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
+				"name"			"Arial"
+				"tall"			"12"
+				"range"			"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"DefaultUnderline"
@@ -527,10 +697,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
-				"tall"			"12"
-				"weight"		"700"
-				"yres"			"480 599"
+				"name"			"Gravity-Light"
+				"tall"			"10"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 			"2"
 			{
@@ -565,7 +736,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_lodef"	"80"
 				"weight"		"500"
@@ -575,7 +746,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"32"
 				"tall_hidef"	"120"
 				"weight"		"500"
@@ -585,7 +756,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -594,7 +765,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -603,7 +774,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -615,7 +786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"44"
 				"tall_lodef"	"52"
 				"weight"		"500"
@@ -627,19 +798,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"35"
 				"tall_lodef"	"40"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"	 "1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontBig"
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"36"
 				"tall_hidef"	"48"
 				"weight"		"500"
@@ -651,7 +822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -662,7 +833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -673,19 +844,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_lodef"	"28"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -696,7 +867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -707,7 +878,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -718,7 +889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -731,7 +902,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -744,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"tall_lodef"	"16"
 				"weight"		"500"
@@ -756,7 +927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -767,7 +938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -778,7 +949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -790,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -801,7 +972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -813,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -825,7 +996,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"4"
 				"weight"		"500"
 				"additive"		"0"
@@ -837,9 +1008,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"10"
-				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -849,9 +1019,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"16"
-				"weight"		"500"
+				//"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -860,7 +1030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -871,7 +1041,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -882,7 +1052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"6"
 				"weight"		"0"
 				"additive"		"0"
@@ -893,7 +1063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -907,14 +1077,45 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-
+		GameUIButtons
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSmall
+		{
+			"1"	[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
+			}
+		}
+		GameUIButtonsSmallest
+		{
+			"1"	[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.4"
+				"scaley"	"0.4"
+			}
+		}
 		GameUIButtonsSteamController
 		{
 			"1"
@@ -951,7 +1152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -961,6 +1162,19 @@ Scheme
 			}
 		}
 
+		"HudClassHealth"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudClassHealth"
 		{
 			"1"
@@ -1028,7 +1242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1038,7 +1252,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1048,7 +1262,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1057,7 +1271,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1066,7 +1280,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1148,9 +1362,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_hidef"	"32"
+				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
 			}
@@ -1159,9 +1374,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_hidef"	"32"
+				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
 				"range"			"0x0000 0x017F"
@@ -1171,9 +1387,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_hidef"	"32"
+				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 			}
@@ -1182,9 +1399,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"tall_hidef"	"32"
+				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
 				"range"			"0x0000 0x017F"
@@ -1194,15 +1412,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"16"
 				"tall_hidef"	"24"
+				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 			}
 		}
 
-		// this is the symbol font
 		"Marlett"
 		{
 			"1"
@@ -1230,7 +1448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1240,7 +1458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"tall_lodef"	"14"
 				"antialias" 	"1"
@@ -1251,7 +1469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1345,9 +1563,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"8"
-				"tall_hidef"	"10"
+				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1358,21 +1576,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	"1"
+				"antialias"		"1"
 			}
 		}
 		"ScoreboardMediumSmall"
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
-				"tall"			"14"
+				"name"			"Gravity-Light"
+				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias" 	"1"
@@ -1383,7 +1601,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1395,7 +1613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1409,7 +1627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1421,8 +1639,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
-				"tall"			"20"
+				"name"			"Gravity-Light"
+				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias"		"1"
@@ -1433,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1447,7 +1665,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"36"
 				"tall_hidef"	"48"
 				"weight"		"500"
@@ -1459,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"52"
 				"tall_lodef"	"80"
 				"range" 		"0x0000 0x00FF"
@@ -1469,7 +1687,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"72"
 				"tall_hidef"	"120"
 				"range" 		"0x0000 0x00FF"
@@ -1479,7 +1697,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1488,7 +1706,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1497,7 +1715,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1510,7 +1728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1522,7 +1740,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1533,7 +1751,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
@@ -1545,7 +1763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1556,7 +1774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1567,7 +1785,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -1579,7 +1797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1637,7 +1855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1736,7 +1954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1745,12 +1963,12 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		CapPlayerFont
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1762,7 +1980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"8"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1815,7 +2033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"36"
 				"tall_lodef"	"28"
 				"weight"		"500"
@@ -1825,7 +2043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"30"
 				"tall_lodef"	"22"
 				"weight"		"500"
@@ -1835,7 +2053,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"28"
 				"tall_lodef"	"24"
 				"weight"		"500"
@@ -1863,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"22"
 				"weight"		"500"
 			}
@@ -1872,7 +2090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"500"
 			}
@@ -1912,7 +2130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Gravity-Light"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1924,7 +2142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"600"
 				"additive"		"0"
@@ -1936,14 +2154,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementNotification"
 		{
 			"1"
@@ -1959,7 +2177,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-Bold"
+				"name"			"Verdana"
 				"tall"			"10"
 				"weight"		"600"
 				"additive"		"0"
@@ -1982,8 +2200,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
-				"tall"			"7"
+				"name"			"Gravity-Light"
+				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2027,7 +2245,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"8"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2038,7 +2256,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"9"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2071,7 +2289,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"7"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2125,7 +2343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2136,7 +2354,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
@@ -2510,7 +2728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2574,7 +2792,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2585,7 +2803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2596,7 +2814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2609,7 +2827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2620,7 +2838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2635,7 +2853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2646,7 +2864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Gravity-Light"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2658,7 +2876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2671,7 +2889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
@@ -2683,24 +2901,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"antialias" 	"1"
 				"custom"		"1"
 			}
 		}
+
 		"XPSource_Glow"
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"weight"		"500"
 				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
-				"custom"		"1"
+			}
+		}
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 	}

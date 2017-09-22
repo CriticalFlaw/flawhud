@@ -15,7 +15,6 @@
 		"bgcolor_override"	"255 255 255 0"
 	}
 
-
 	"Borders"
 	{
 		"ControlName"	"EditablePanel"
@@ -81,7 +80,6 @@
 		}
 	}
 
-
 	"PreviewImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -115,6 +113,7 @@
 		"fgcolor"		"223 223 223 255"
 		"mouseinputenabled" "0"
 	}
+
 	"DisplayNameLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -156,7 +155,6 @@
 		"centerwrap"	"1"
 		"mouseinputenabled" "0"
 	}
-	
 
 	"TextDescriptionLabelShadow"
 	{
@@ -199,7 +197,7 @@
 		"fgcolor"		"223 223 223 255"
 		"mouseinputenabled" "0"
 	}
-	
+
 	"ViewerCountLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -242,12 +240,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-
 		"defaultBgColor_override" 	"0 0 0 235"
 		"armedBgColor_override" 	"0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 		
-		"border_default"	"0 0 0 235Border"
-		"border_armed"		"0 0 0 235BorderHover"
+		"border_default"	"0 0 0 235"
+		"border_armed"		"0 0 0 235"
 	}
 }

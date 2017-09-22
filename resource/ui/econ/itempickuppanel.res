@@ -16,22 +16,20 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"G_MenuBg"
-		"infocus_bgcolor_override" 		"G_MenuBg"
-		"outoffocus_bgcolor_override" 	"G_MenuBg"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override" 		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
-		
+
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
-			"border"				"NoBorder"
-			"paintbackground"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"paintborder"			"1"
+			"bgcolor_override"		"Grey"
 			
 			"model_xpos"	"0"
 			"model_center_y"	"1"
@@ -42,8 +40,8 @@
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
-			"is_mouseover"		"1"
-			"hide_collection_panel" "1"
+			"is_mouseover"	"1"
+			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
 			{
@@ -57,7 +55,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"classimageoutline"
-		"xpos"			"c207"
+		"xpos"			"c208"
 		"ypos"			"115"
 		"zpos"			"6"
 		"wide"			"36"
@@ -70,7 +68,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
-		"xpos"			"c210"
+		"xpos"			"c211"
 		"ypos"			"118"
 		"zpos"			"7"
 		"wide"			"30"
@@ -97,7 +95,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"SelectedItemFoundMethodLabel"
@@ -108,7 +105,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"60"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -116,7 +113,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"ItemCountLabel"
@@ -135,7 +131,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	"SelectedItemNumberLabel"
 	{
@@ -153,18 +148,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"NextButton"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c195"
-		"ypos"			"350"
+		"ypos"			"360"
 		"zpos"			"1"
 		"wide"			"70"
-		"tall"			"30"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -181,13 +175,13 @@
 	}
 	"PrevButton"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"PrevButton"
 		"xpos"			"c-265"
-		"ypos"			"350"
+		"ypos"			"360"
 		"zpos"			"1"
 		"wide"			"70"
-		"tall"			"30"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -211,7 +205,7 @@
 		"ypos"			"420"
 		"zpos"			"6"
 		"wide"			"250"
-		"tall"			"30"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -235,7 +229,7 @@
 		"ypos"			"420"
 		"zpos"			"6"
 		"wide"			"250"
-		"tall"			"30"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -255,11 +249,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c210"
+		"xpos"			"c224"
 		"ypos"			"155"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -278,8 +272,8 @@
 		"armedBgColor_override" "145 73 59 255"
 		"depressedBgColor_override" "117 107 94 255"
 			
-		"image_drawcolor"	"235 226 202 255"		
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"White"		
+		"image_armedcolor"	"White"		
 		
 		"SubImage"
 		{
@@ -302,14 +296,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DiscardButtonTooltip"
-		"xpos"			"c175"
-		"ypos"			"186"
+		"xpos"			"c180"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"paintbackground"	"1"
+		"border"		""
+		"bgcolor_override"	"DarkerGrey"
 		
 		"TipLabel"
 		{
@@ -326,7 +322,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -348,7 +344,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"G_MenuBg"
+		"bgcolor_override"	"46 43 42 255"
 	}
 	
 	"ScoreEntry"
@@ -370,26 +366,9 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
-	}
-	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"101"
-		"zpos"			"-5"		
-		"wide"			"f0"
-		"tall"			"280"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
 	}
 }

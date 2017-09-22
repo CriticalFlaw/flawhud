@@ -1,31 +1,52 @@
 event HudHealthBonusPulse
 {
-	Animate	G_PlayerStatusHealthValue		FgColor		"G_OverHeal"		Linear 0.0 0.0
-	Animate	TargetHealthBG					BgColor		"G_OverHeal"		Accel 0.0 0.0
-    Animate	TargetHealthBG					Alpha		"200"				Accel 0.0 0.2
-	Animate	TargetHealthBG					Alpha		"0"					Accel 0.2 0.4
+	Animate PlayerStatusHealthValue 			FgColor 	"G_HealthValue" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpec 		FgColor 	"G_HealthValue" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpecgui 		FgColor 	"G_HealthValue" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor 	"G_HealthValue" 	Linear 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop		0.4
+	Animate	HealthBG			BgColor		"G_Overheal"	Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"200"			Accel 0.0 0.2
+	Animate	HealthBG			Alpha		"0"				Accel 0.2 0.4
+	Animate	TargetHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
+    Animate	TargetHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	TargetHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	SpecHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
+    Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	FreezeHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
+    Animate	FreezeHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	FreezeHealthBG		Alpha		"0"				Accel 0.2 0.4
+
+	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 			0.0
-	StopEvent HudHealthBonusPulseLoop 		0.0
+	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
 
-	Animate	PlayerStatusHealthBonusImageBG	Alpha		"0"					Linear 0.0 0.0
-	Animate	G_PlayerStatusHealthValue		FgColor		"G_HealthValue"		Linear 0.0 0.0
-
-	Animate	TargetHealthBG					BgColor		"Blank"	       		Accel 0.0 0.0
-    Animate	TargetHealthBG					Alpha		"255"		   		Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor "G_HealthValue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec			FgColor "G_HealthValue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpecgui		FgColor "G_HealthValue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel	FgColor "G_HealthValue" Accel 0.0 0.0
+	
+	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
+	Animate	TargetHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	TargetHealthBG		Alpha		"255"		   Accel 0.0 0.0
+	Animate	SpecHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	SpecHealthBG		Alpha		"255"		   Accel 0.0 0.0
+	Animate	FreezeHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	FreezeHealthBG		Alpha		"255"		   Accel 0.0 0.0
 }
 //==================================================================================
 
 event HudHealthDyingPulse
 {
-	Animate	G_PlayerStatusHealthValue		FgColor		"G_LowHealthValue"	Linear 0.0 0.0
-	Animate	TargetHealthBG					BgColor		"G_TeamRed"			Accel 0.0 0.0
-    Animate	TargetHealthBG					Alpha		"200"				Accel 0.0 0.2
+	Animate	PlayerStatusHealthValue			FgColor		"G_LowHealthValue"	Linear 0.0 0.0
+	Animate	TargetHealthBG					BgColor		"TeamRed"			Accel 0.0 0.0
+	Animate	TargetHealthBG					Alpha		"200"				Accel 0.0 0.2
 	Animate	TargetHealthBG					Alpha		"0"					Accel 0.2 0.4
 
 	RunEvent HudHealthDyingPulseLoop		0.4
@@ -33,29 +54,29 @@ event HudHealthDyingPulse
 
 event HudHealthDyingPulseStop
 {
-	Animate	G_PlayerStatusHealthValue		FgColor		"G_HealthValue"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"G_HealthValue"		Linear 0.0 0.0
 	Animate	TargetHealthBG					BgColor		"Blank"	       		Accel 0.0 0.0
-    Animate	TargetHealthBG					Alpha		"255"		   		Accel 0.0 0.0
-	
+	Animate	TargetHealthBG					Alpha		"255"		   		Accel 0.0 0.0
+
 	StopEvent HudHealthDyingPulse 			0.0
 	StopEvent HudHealthDyingPulseLoop 		0.0
 }
 //==================================================================================
 
 event HudLowAmmoPulse
-{	
-	Animate AmmoInClip 						FgColor		"G_LowAmmo" 		Linear 0.0 0.0
-	Animate AmmoInReserve 					FgColor		"G_LowAmmo" 		Linear 0.0 0.0
-	Animate AmmoNoClip 						FgColor		"G_LowAmmo" 		Linear 0.0 0.0
-	
-	RunEvent HudLowAmmoPulseLoop 			1.6
+{
+	Animate AmmoInClip 					FgColor		"G_LowAmmo" 		Linear 0.0 0.075
+	Animate AmmoInReserve 				FgColor		"G_LowAmmo" 		Linear 0.0 0.075
+	Animate AmmoNoClip 					FgColor		"G_LowAmmo" 		Linear 0.0 0.075
+
+	RunEvent HudLowAmmoPulseLoop		0.4
 }
 
 event HudLowAmmoPulseStop
 {
-	Animate AmmoInClip 						FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
-	Animate AmmoInReserve 					FgColor		"G_AmmoReserveValue" Linear 0.0 0.0
-	Animate AmmoNoClip 						FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
+	Animate AmmoInClip 					FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
 
 	StopEvent HudLowAmmoPulse 				0.0
 	StopEvent HudLowAmmoPulseLoop 			0.0
@@ -74,8 +95,9 @@ event HudSpyDisguiseFadeOut	{ }
 
 event HudMedicCharged
 {
-	Animate ChargeLabel 			FgColor 	"Ubercharge1" 		Linear 0.0 0.1
-	Animate ChargeLabel 			FgColor 	"Ubercharge2" 		Linear 0.3 0.4
+	Animate ChargeLabel 			FgColor		"ChargePercent"		Linear 0.0 0.0
+	Animate ChargeLabel 			FgColor 	"ChargePercent"		Linear 0.0 0.0
+
 	Animate	ChargeMeter 			FgColor		"Ubercharge1"		Linear 0.0 0.1
 	Animate	ChargeMeter 			FgColor		"Ubercharge2"		Linear 0.3 0.4
 
@@ -105,31 +127,17 @@ event HitMarker
 }
 //==================================================================================
 
-event HudTournamentSetupPanelOpen
+event MMenu_PlayList_Expand
 {
-	Animate HudTournamentSetup		Position	"c-90 -25"			Linear 0.0 0.001
-	Animate HudTournamentSetup		Position	"c-90 35"			Spline 0.001 0.2
+	// empty
 }
 
-event HudTournamentSetupPanelClose
+event MMenu_PlayList_Collapse
 {
-	Animate HudTournamentSetup		Position	"c-90 40"			Linear 0.0 0.001
-	Animate HudTournamentSetup		Position	"c-90 -60"			Spline 0.001 0.2
-}
-//==================================================================================
-
-event ActiveTimerHighlight
-{
-	Animate TimePanelValue 			FgColor		"255 255 255 255"	Linear 0.1 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 100"	Linear 0.3 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 255"	Linear 0.5 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 100"	Linear 0.7 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 255"	Linear 0.9 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 100"	Linear 1.1 0.1
-	Animate TimePanelValue 			FgColor		"255 255 255 255"	Linear 1.3 0.3
+	// empty
 }
 
-event ActiveTimerDim
+event MMenu_PlayList_Collapse_Immediate
 {
-	Animate TimePanelValue 			FgColor		"255 255 255 100"	Linear 0.0 0.4
+	// empty
 }

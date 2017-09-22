@@ -1,5 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
-{	
+{
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -94,7 +94,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"White"
 			"centerwrap"	"1"
 		}
 		"attriblabel"
@@ -134,8 +134,8 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"Black"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"
@@ -169,8 +169,8 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"Black"
+			"PaintBackgroundType"	"0"
 		}
 
 		"serieslabel"
@@ -191,7 +191,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"matcheslabel"
@@ -230,6 +230,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -260,7 +261,6 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -314,6 +314,4 @@
 			"use_item_sounds"	"1"
 		}
 	}
-
-
 }

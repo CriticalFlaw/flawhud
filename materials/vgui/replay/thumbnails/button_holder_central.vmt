@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\replay\thumbnails\button_holder_central"
-	"$translucent" 1
-	"$ignorez" 1
-	"$vertexcolor" 1
-}

@@ -13,12 +13,12 @@
 	}
 	"PlayPVEButton"
 	{
-		"label"			"CO-OP" 
+		"label"			"Mann vs. Machine" 
 		"command"		"play_mvm"
 	}
 	"ServerBrowserButton"
 	{
-		"label" 		"Servers" 
+		"label" 		"Community Servers" 
 		"command" 		"OpenServerBrowser"
 	}
 	"CharacterSetupButton"
@@ -30,11 +30,6 @@
 	{
 		"label" 		"Store"
 		"command" 		"engine open_store"
-	}
-	"SettingsButton"
-	{
-		"label" 		"Settings"
-		"command" 		"OpenOptionsDialog"
 	}
 	"QuitButton"
 	{
@@ -51,69 +46,62 @@
 	}
 	"FavoriteServer"
 	{
-		"label"   		"I"
+		"label"			"6"
 		"command" 		"engine connect XXXXXXXXXXXXXXX"
         "tooltip" 		"Favorite Server"
 	}
 
 	// BOTTOM ROW BUTTONS
-	"TF2SettingsButton"
-	{
-		"label" 		"TF2Settings"
-		"command" 		"engine opentf2options"
-		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"Advanced Settings"
-	}
 	"AchievementsButton"
 	{
-		"label" 		"Achievements"
+		"label" 		""
 		"command" 		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
 	"ReplayButton"
 	{
-		"label" 		"Replay"
+		"label" 		""
 		"command" 		"engine replay_reloadbrowser"
 		"subimage" 		"glyph_tv"
 		"tooltip" 		"Replay"
 	}
 	"TrainingButton"
 	{
-		"label"			"Training"
+		"label"			""
 		"command" 		"play_training"
 		"subimage" 		"glyph_tutorial"
 		"tooltip" 		"Training"
 	}
 	"CreateServerButton"
 	{
-		"label" 		"CreateServer"
+		"label" 		""
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"subimage" 		"glyph_create"
 		"tooltip" 		"Create a Server"
 	}
 	"CallVoteButton"
 	{
-		"label"			"CallVote"
+		"label"			""
 		"command"		"callvote"
-		"subimage" 		"icon_checkbox"
-		"tooltip" 		"Call Vote"
+		"subimage"		"icon_checkbox"
+		"tooltip"		"Call Vote"
 		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"MutePlayers"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
-		"subimage" 		"glyph_muted"
-		"tooltip" 		"Mute Players"
+		"subimage"		"glyph_muted"
+		"tooltip"		"Mute Players"
 		"OnlyInGame"	"1"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			"ReportPlayer"
+		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"subimage"		"glyph_commentary"
-		"tooltip" 		"Report Player"
+		"tooltip"		"Report Player"
 		"OnlyInGame"	"1"
 	}
 }

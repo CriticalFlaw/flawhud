@@ -2,56 +2,56 @@ Scheme
 {
 	BaseSettings
 	{
-		ReplayBrowser.BgColor					"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor "LightRed"
-		ReplayBrowser.Button.ArmedBgColor		"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor	"TFOrange"
-		ReplayBrowser.CollectionTitle.FgColor	"LightRed"
-		ReplayBrowser.Warning.FgColor			"White"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor "TransparentYellow"
-		ReplayBrowser.Search.BgColor			"DarkNight"
-		ReplayBrowser.Search.FgColor			"White"
-		Replay.RenderDialog.BgColor				"LighterDarkBrown"
+		ReplayBrowser.BgColor							"DarkGrey"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"LightRed"
+		ReplayBrowser.Button.ArmedBgColor				"Yellow"
+		ReplayBrowser.Button.DepressedBgColor			"Yellow"
+		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
+		ReplayBrowser.Warning.FgColor					"White"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
+		ReplayBrowser.Search.BgColor					"Black"
+		ReplayBrowser.Search.FgColor					"White"
+		Replay.RenderDialog.BgColor						"DarkGrey"
 		
-		Econ.Dialog.BgColor						"Blank"
-		Econ.Button.BgColor						"G_Black"
-		Econ.Button.FgColor						"G_White"
-		Econ.Button.ArmedBgColor				"G_White"
-		Econ.Button.ArmedFgColor				"G_Black"
-		Econ.Button.DepressedBgColor			"G_Black"
-		Econ.Button.DepressedFgColor			"G_White"	
-		Econ.Button.PresetDefaultColorFg		"G_ButtonSelectedText"
-		Econ.Button.PresetArmedColorFg			"G_ButtonHoverText"
-		Econ.Button.PresetDepressedColorFg		"G_ButtonSelectedText"	
-		Econ.Button.PresetDefaultColorBg		"G_ButtonSelectedBg"
-		Econ.Button.PresetArmedColorBg			"G_ButtonHoverBg"
-		Econ.Button.PresetDepressedColorBg		"G_ButtonSelectedBg"
-		Econ.Button.Border.Default				"G_White"
-		Econ.Button.Border.Armed				"G_Black"
-		
-		Border.Bright							"Blank"			// the lit side of a control
-		Border.Dark								"Black"			// the dark/unlit side of a control
-		Border.Selection						"Gray"			// the additional border color for displaying the default/selected button
+		Econ.Dialog.BgColor								"Blank"
+		Econ.Button.BgColor								"Black"
+		Econ.Button.FgColor								"White"
+		Econ.Button.ArmedBgColor						"White"
+		Econ.Button.ArmedFgColor						"Black"
+		Econ.Button.DepressedBgColor					"Yellow"
+		Econ.Button.DepressedFgColor					"Black"
+		Econ.Button.PresetDefaultColorFg				"White"
+		Econ.Button.PresetArmedColorFg					"White"
+		Econ.Button.PresetDepressedColorFg				"White"
+		Econ.Button.PresetDefaultColorBg				"Green"
+		Econ.Button.PresetArmedColorBg					"Green"
+		Econ.Button.PresetDepressedColorBg				"Yellow"
+		Econ.Button.Border.Default						"White"
+		Econ.Button.Border.Armed						"Black"
 
-		Button.TextColor						"G_ButtonHoverBg"
-		Button.BgColor							"G_DarkNight"
-		Button.ArmedTextColor					"G_ButtonHoverText"
-		Button.ArmedBgColor						"G_ButtonHoverBg"
-		Button.SelectedTextColor				"G_ButtonSelectedText"
-		Button.SelectedBgColor					"G_ButtonSelectedBg"
-		Button.DepressedTextColor				"G_ButtonSelectedText"
-		Button.DepressedBgColor					"G_ButtonSelectedBg"
+		Border.Bright							"Blank"		// the lit side of a control
+		Border.Dark								"Black"		// the dark/unlit side of a control
+		Border.Selection						"Gray"		// the additional border color for displaying the default/selected button
 
-		CheckButton.TextColor					"G_MenuText"
-		CheckButton.SelectedTextColor			"G_MenuText"
-		CheckButton.BgColor						"0 0 0 0"
-		CheckButton.Border1  					"G_MenuText" 		// the left checkbutton border
-		CheckButton.Border2  					"G_MenuText"		// the right checkbutton border
-		CheckButton.Check						"G_MenuText"		// color of the check itself
-		CheckButton.HighlightFgColor			"G_MenuText"
+		Button.TextColor						"White"
+		Button.BgColor							"Black"
+		Button.ArmedTextColor					"Black"
+		Button.ArmedBgColor						"White"
+		Button.SelectedTextColor				"Black"
+		Button.SelectedBgColor					"White"
+		Button.DepressedTextColor				"Black"
+		Button.DepressedBgColor					"Yellow"
+
+		CheckButton.TextColor					"White"
+		CheckButton.SelectedTextColor			"White"
+		CheckButton.BgColor						"TransparentBlack"
+		CheckButton.Border1  					"White" 		// the left checkbutton border
+		CheckButton.Border2  					"White"			// the right checkbutton border
+		CheckButton.Check						"White"			// color of the check itself
+		CheckButton.HighlightFgColor			"White"
 		
-		ComboBoxButton.ArrowColor				"G_MenuText"
-		ComboBoxButton.ArmedArrowColor			"G_MenuText"
+		ComboBoxButton.ArrowColor				"White"
+		ComboBoxButton.ArmedArrowColor			"White"
 		ComboBoxButton.BgColor					"Blank"
 		ComboBoxButton.DisabledBgColor			"Blank"
 
@@ -94,12 +94,12 @@ Scheme
 		ListPanel.EmptyListInfoTextColor		"Orange"
 
 		Menu.TextColor							"White"
-		Menu.BgColor							"Black"
-		Menu.ArmedTextColor						"Black"
-		Menu.ArmedBgColor						"White"
+		Menu.BgColor							"TransparentBlack"
+		Menu.ArmedTextColor						"TanDark"
+		Menu.ArmedBgColor						"DarkGrey"
 		Menu.TextInset							"6"
 
-		Chat.TypingText							"White"
+		Chat.TypingText							"Orange"
 
 		Panel.FgColor							"Gray"
 		Panel.BgColor							"Blank"
@@ -111,31 +111,31 @@ Scheme
 
 		CircularProgressBar.FgColor				"White"
 		CircularProgressBar.BgColor				"White"
-		
+
 		"BuildingHealthBar.BgColor"				"HealthBgGrey"
 		"BuildingHealthBar.Health"				"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"			"LowHealthRed"
 
 		PropertySheet.TextColor					"Orange"
 		PropertySheet.SelectedTextColor			"Orange"
-		PropertySheet.TransitionEffectTime		"0.25"			// time to change from one tab to another
+		PropertySheet.TransitionEffectTime		"0.25"
 
-		RadioButton.TextColor					"Orange"
-		RadioButton.SelectedTextColor			"Orange"
+		RadioButton.TextColor					"Yellow"
+		RadioButton.SelectedTextColor			"Yellow"
 
 		RichText.TextColor						"Gray"
 		RichText.BgColor						"Blank"
 		RichText.SelectedTextColor				"Gray"
 		RichText.SelectedBgColor				"Red"
 
-		ScrollBarButton.FgColor					"G_MenuText"
+		ScrollBarButton.FgColor					"Gray"
 		ScrollBarButton.BgColor					"Blank"
-		ScrollBarButton.ArmedFgColor			"G_MenuText"
+		ScrollBarButton.ArmedFgColor			"Gray"
 		ScrollBarButton.ArmedBgColor			"Blank"
 		ScrollBarButton.DepressedFgColor		"Black"
 		ScrollBarButton.DepressedBgColor		"Blank"
 
-		ScrollBarSlider.FgColor					"G_MenuText"	// nob color
+		ScrollBarSlider.FgColor					"Gray"			// nob color
 		ScrollBarSlider.BgColor					"Blank"			// slider background color
 
 		SectionedListPanel.HeaderTextColor		"Orange"
@@ -149,23 +149,23 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-		Slider.NobColor						"255 255 255 255" 	// Highlight color
-		Slider.TextColor					"255 255 255 255" 	// Menu text color
-		Slider.TrackColor					"255 255 255 255" 	// Menu text color
-		Slider.DisabledTextColor1			"255 255 255 120" 	// Dimm Menu text color
-		Slider.DisabledTextColor2			"255 255 255 120" 	// Dimm Menu text color
+		Slider.NobColor						"108 108 108 255"
+		Slider.TextColor					"127 140 127 255"
+		Slider.TrackColor					"31 31 31 255"
+		Slider.DisabledTextColor1			"117 117 117 255"
+		Slider.DisabledTextColor2			"30 30 30 255"
 
 		TextEntry.TextColor					"Gray"
 		TextEntry.BgColor					"Blank"
 		TextEntry.CursorColor				"Gray"
 		TextEntry.DisabledTextColor			"Gray"
 		TextEntry.DisabledBgColor			"Blank"
-		TextEntry.SelectedTextColor			"White"
+		TextEntry.SelectedTextColor			"TanLight"
 		TextEntry.SelectedBgColor			"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor			"Blank"
 
-		ToggleButton.SelectedTextColor		"Orange"
+		ToggleButton.SelectedTextColor		"Yellow"
 
 		Tooltip.TextColor					"TransparentBlack"
 		Tooltip.BgColor						"Red"
@@ -173,7 +173,7 @@ Scheme
 		TreeView.BgColor					"TransparentBlack"
 
 		WizardSubPanel.BgColor				"Blank"
-		
+
 		TimerProgress.Active				"HudTimerProgressActive"
 		TimerProgress.InActive				"HudTimerProgressInActive"
 		TimerProgress.Warning				"HudTimerProgressWarning"
@@ -181,16 +181,17 @@ Scheme
 		HudObjectives.FgColor				"HudPanelForeground"
 		HudObjectives.BgColor				"HudPanelBackground"
 		HudObjectives.BorderColor			"HudPanelBorder"
+
 		HudProgressBar.Active				"HudProgressBarActive"
 		HudProgressBar.InActive				"HudProgressBarInActive"
-		
+
 		HudCaptureIcon.Active				"HudProgressBarActive"
 		HudCaptureIcon.InActive				"HudProgressBarInActive"
 		HudCaptureProgressBar.Active		"HudProgressBarActive"
 		HudCaptureProgressBar.InActive		"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"							"G_Highlight"
+		"FgColor"							"Orange"
 		"BgColor"							"TransparentBlack"
 
 		"ViewportBG"						"Blank"
@@ -225,8 +226,8 @@ Scheme
 		"Main.Menu.Y"						"248"
 
 		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"				"32"
+		"Main.BottomBorder"					"32"
 		
-		"VguiScreenCursor"				"255 208 64 255"
+		"VguiScreenCursor"					"255 208 64 255"
 	}
 }

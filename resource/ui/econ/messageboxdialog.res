@@ -32,14 +32,14 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"QuickplayBorder"
+			"border"			"WhiteBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
 	}
 	
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"G_FontMedium"
 		"labelText"		"#ConfirmTitle"

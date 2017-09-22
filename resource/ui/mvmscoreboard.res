@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"HudFontSmallest"
+		"font"			"G_FontTiny_2"
 		"labelText"		"%popfile%"
 		"textAlignment"	"East"
 		"xpos"			"-25"
@@ -139,11 +139,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"G_FontMedium"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"2"
+			"ypos"			"5"
 			"wide"			"275"
 			"tall"			"20"
 			"fgcolor"		"White"

@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"G_White"
+			"fgcolor_override"	"DullWhite"
 		}
 		
 		"UpButton"
@@ -93,8 +93,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"		""
-		"bgcolor_override"	"G_Footer"
+		"border"		"PanelBorder"
+		"bgcolor_override"	"DarkGrey"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -110,8 +110,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		""
-			"bgcolor_override"	"G_Grey"
+			"border"		"PanelBorder"
+			"bgcolor_override"	"Grey"
 		}
 		
 		"ItemNameLabel"
@@ -181,7 +181,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"RestrictionsLabel"
@@ -232,7 +232,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"UsedByTextLabel"
@@ -265,7 +265,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"SlotTextLabel"
@@ -367,7 +367,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"TradableTextLabel"
@@ -400,7 +400,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"GiftableTextLabel"
@@ -433,7 +433,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"NameableTextLabel"
@@ -466,7 +466,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"G_White"
+					"fgcolor"		"DullWhite"
 				}		
 				
 				"CraftableTextLabel"
@@ -1453,7 +1453,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		"X"
-		"font"			"Code16"
+		"font"			"LightGravity16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1464,9 +1464,9 @@
 		
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "G_White"
+		"defaultFgColor_override" "White"
 		"armedFgColor_override" "255 0 0 255"
-		"depressedFgColor_override" "G_White"
+		"depressedFgColor_override" "White"
 		
 		"image_drawcolor"	"118 107 94 255"
 		"image_armedcolor"	"246 247 213 255"

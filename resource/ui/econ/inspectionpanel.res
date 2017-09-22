@@ -10,7 +10,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"27 27 27 245"
 
 		"BGImage"
 		{
@@ -21,8 +21,8 @@
 			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"p0.75"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"item_carousel_bg"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
@@ -51,7 +51,7 @@
 		"paint_icon_hide" "1"
 		"model_hide"	"1"
 		"text_forcesize"	"4"
-		"name_only"	"1"
+		"name_only"		"1"
 
 		"itemmodelpanel"
 		{
