@@ -1330,7 +1330,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"fgcolor"		"White"
-			
+
 		}
 		"Assists"
 		{
@@ -1381,7 +1381,7 @@
 				"textAlignment"	"east"
 			}
 		}	
-		
+
 		"Destruction"
 		{
 			"ControlName"	"CExLabel"
@@ -1396,8 +1396,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			
 			if_mvm
 			{
@@ -1607,6 +1607,7 @@
 				"visible"		"0"
 			}
 		}
+
 		"Domination"
 		{
 			"ControlName"	"CExLabel"
@@ -1650,8 +1651,7 @@
 				"visible"	"0"
 			}
 		}
-																		
-		
+
 		"Revenge"
 		{
 			"ControlName"	"CExLabel"
@@ -2211,7 +2211,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"font"			"LightGravity12"
@@ -2219,7 +2219,7 @@
 				"ypos"			"100"
 				"wide"			"115"
 				"textAlignment"	"east"
-			}	
+			}
 		}
 		"DamageLabel"
 		{
@@ -2287,7 +2287,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"font"			"LightGravity12"
@@ -2298,6 +2298,7 @@
 			}
 		}
 	}
+
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"

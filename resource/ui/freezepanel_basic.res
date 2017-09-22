@@ -101,14 +101,14 @@
 			
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-				
+
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
 		
 		"FreezeLabel"
 		{	
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabel"
 			"font"			"LightGravity10"
 			"fgcolor"		"White"
@@ -117,14 +117,14 @@
 			"zpos"			"1"
 			"wide"			"166"
 			"tall"			"10"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
 		
 		"FreezePanelHealth"

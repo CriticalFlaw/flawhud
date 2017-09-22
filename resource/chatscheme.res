@@ -171,6 +171,7 @@ Scheme
 
 		WizardSubPanel.BgColor				"Blank"
 
+		// Scheme-Specific Colors
 		MainMenu.TextColor					"White"
 		MainMenu.ArmedTextColor				"200 200 200 255"
 		MainMenu.DepressedTextColor			"192 186 80 255"
@@ -557,8 +558,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 1"
+					"color"		"Blank"
+					"offset"	"0 1"
 				}
 			}
 

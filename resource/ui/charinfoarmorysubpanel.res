@@ -141,7 +141,7 @@
 		"disabledFgColor_override"		"TanLight"
 		"disabledBgColor_override"		"Black"
 		"selectionColor_override"		"Black"
-		"selectionTextColor_override" 	"TanLight"
+		"selectionTextColor_override" 		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 
 		"Button"

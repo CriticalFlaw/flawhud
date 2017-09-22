@@ -117,7 +117,7 @@
 		"font"			"LightGravity24"
 		"fgcolor"		"ShadowBlack"
 	}	
-							
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"

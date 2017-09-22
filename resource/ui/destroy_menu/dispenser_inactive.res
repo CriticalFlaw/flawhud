@@ -59,7 +59,7 @@
 	}	
 
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
 		"font"			"Default"

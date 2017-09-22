@@ -1,17 +1,3 @@
-// enum PinCorner_e 
-// {
-// 	PIN_TOPLEFT = 0,
-// 	PIN_TOPRIGHT,
-// 	PIN_BOTTOMLEFT,
-// 	PIN_BOTTOMRIGHT,
-
-// 	// For sibling pinning
-// 	PIN_CENTER_TOP,
-// 	PIN_CENTER_RIGHT,
-// 	PIN_CENTER_BOTTOM,
-// 	PIN_CENTER_LEFT,
-// };
-
 "Resource/UI/HudPasstimeBallStatus.res"
 {	
 	"HudPasstimeBallStatus"
@@ -280,7 +266,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
+		//"font"				"DefaultVerySmall"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"

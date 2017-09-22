@@ -15,13 +15,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -32,11 +31,11 @@
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
-	
+
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
@@ -56,8 +55,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -73,7 +72,7 @@
 		"iconColor"		"TanDark"
 		"textAlignment"	"center"
 	}
-	
+
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -90,9 +89,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
-	
+
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -109,10 +108,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -127,7 +126,7 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"

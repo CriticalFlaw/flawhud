@@ -118,34 +118,34 @@
 		
 		if_comp
 		{
-			"xpos"	"c7"
-			"ypos"	"31"
+			"xpos"		"c7"
+			"ypos"		"31"
 		}
 	}
 
 	"StopWatchLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StopWatchLabel"
-		"font"				"LightGravity10"
-		"labelText"			"%stopwatchlabel%"
-		"textAlignment"		"center"
-		"xpos"				"c10"
-		"ypos"				"0"
-		"zpos"				"4"
-		"wide"				"125"
-		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"wrap"				"0"
-		"fgcolor"			"White"
+		"ControlName"	"CExLabel"
+		"fieldName"		"StopWatchLabel"
+		"font"			"LightGravity10"
+		"labelText"		"%stopwatchlabel%"
+		"textAlignment"	"center"
+		"xpos"			"c10"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"125"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"fgcolor"		"White"
 		
 		if_comp
 		{
-			"xpos"	"c-62"
-			"ypos"	"31"
+			"xpos"		"c-62"
+			"ypos"		"31"
 		}
 	}
 

@@ -573,7 +573,6 @@
 		"wide"				"500"
 		"tall"				"136"
 		"BgAlpha"			"0"
-
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"

@@ -20,7 +20,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"200 10 20 255"
 	}
-	
+
 	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"

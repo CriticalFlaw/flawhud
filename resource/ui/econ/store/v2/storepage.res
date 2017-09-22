@@ -296,8 +296,8 @@
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
-    	}	
-		
+    	}
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"

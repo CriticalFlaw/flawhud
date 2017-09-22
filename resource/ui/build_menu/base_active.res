@@ -85,9 +85,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
-	
+
 	"CostLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
@@ -104,9 +104,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
-	
+
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"

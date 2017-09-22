@@ -90,7 +90,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"30"
+		"xpos"			"33"
 		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"40"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"30"
+		"xpos"			"33"
 		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"40"

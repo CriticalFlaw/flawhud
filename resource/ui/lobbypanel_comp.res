@@ -569,7 +569,7 @@
 			"wide"		"f0"
 			"tall"		"65"
 			"proportionaltoparent"	"1"
-			
+
 			"PartyLowPriorityImage"
 			{
 				"xpos"			"0"
@@ -578,7 +578,7 @@
 				"tall"			"50"
 				"scaleImage"	"1"
 			}
-			
+
 			"PartyHasLowPriorityLabel"
 			{
 				"font"		"G_FontSmall_2"

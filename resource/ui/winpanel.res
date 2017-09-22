@@ -22,7 +22,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"1"
-			
+
 			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
@@ -496,6 +496,7 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
+
 	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -565,6 +566,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -704,6 +706,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+
+	// KillStreak
 	"KillStreakLeaderLabel"
 	{	
 		"ControlName"	"CExLabel"

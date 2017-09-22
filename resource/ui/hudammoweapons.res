@@ -132,7 +132,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
 	}
-	"LowAmmoBG"	
+	"LowAmmoBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LowAmmoBG"

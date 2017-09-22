@@ -681,6 +681,7 @@
 			"visible"		"0"
 		}
 	}
+
 	"TournamentREDLabel"
 	{	
 		"ControlName"	"Label"

@@ -21,7 +21,7 @@
 		"brighttext"		"0"
 	}
 
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"ClassIcon"
@@ -35,8 +35,8 @@
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_scout_red"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"

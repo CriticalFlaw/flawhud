@@ -166,7 +166,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"PaintBackgroundType" "0"
 			"bgcolor_override"	"White"
 		}
@@ -778,7 +778,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		
+
 		"TipPanelBG"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -836,7 +836,7 @@
 			"wrap"			"1"
 			"fgcolor"		"Black"
 		}
-		
+
 		"NextTipButton"
 		{
 			"ControlName"	"CExButton"

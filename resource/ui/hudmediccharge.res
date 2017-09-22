@@ -121,7 +121,7 @@
 		"brighttext"	"0"
 		"font"			"LightGravity10"
 		"fgcolor"	"150 150 150 255"
-	}	
+	}
 
 	"ChargeMeter"
 	{	
@@ -234,8 +234,8 @@
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
-	}	
-	
+	}
+
 	"ResistIconAnchor"
 	{
 		"ControlName"	"EditablePanel"

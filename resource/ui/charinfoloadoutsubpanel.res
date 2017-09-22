@@ -34,7 +34,7 @@
 		"itemcountcolor"			"200 80 60 255"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"		"ImageButton"
@@ -84,11 +84,11 @@
 		"default"		"0"
 		"paintbackground" "0"
 		"Command"		"loadout scout"
-		
+
 		// default style
 		"defaultBgColor_override"	"DarkGrey"
 		"defaultFgColor_override" 	"White"
-        
+
 		// armed style
 		"armedBgColor_override"		"DarkGrey"
 		"armedFgColor_override" 	"Blue"
@@ -149,21 +149,21 @@
 		"default"		"0"
 		"paintbackground" "0"
 		"Command"		"loadout soldier"
-		
+
 		"fgcolor_override"			"White"
-		
+
 		// default style
 		"defaultBgColor_override"	"DarkGrey"
 		"defaultFgColor_override" 	"White"
-        
+
 		// armed style
 		"armedBgColor_override"		"DarkGrey"
 		"armedFgColor_override" 	"Blue"
-    
+
 		// depressed style    
 		"depressedBgColor_override"	"DarkGrey"
 		"depressedFgColor_override" "Blue"
-		
+
 		"image_drawcolor"	"235 226 202 255"		
 	}
 
@@ -216,24 +216,24 @@
 		"default"		"0"
 		"paintbackground" "0"
 		"Command"		"loadout pyro"
-		
+
 		"fgcolor_override"			"White"
-		
+
 		// default style
 		"defaultBgColor_override"	"DarkGrey"
 		"defaultFgColor_override" 	"White"
-        
+
 		// armed style
 		"armedBgColor_override"		"DarkGrey"
 		"armedFgColor_override" 	"Blue"
-    
+
 		// depressed style    
 		"depressedBgColor_override"	"DarkGrey"
 		"depressedFgColor_override" "Blue"
-		
+
 		"image_drawcolor"	"235 226 202 255"			
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"		"ImageButton"
@@ -283,21 +283,21 @@
 		"default"		"0"
 		"paintbackground" "0"
 		"Command"		"loadout demoman"
-		
+
 		"fgcolor_override"			"White"
-		
+
 		// default style
 		"defaultBgColor_override"	"DarkGrey"
 		"defaultFgColor_override" 	"White"
-        
+
 		// armed style
 		"armedBgColor_override"		"DarkGrey"
 		"armedFgColor_override" 	"Blue"
-    
+
 		// depressed style    
 		"depressedBgColor_override"	"DarkGrey"
 		"depressedFgColor_override" "Blue"
-		
+
 		"image_drawcolor"	"235 226 202 255"			
 	}
 

@@ -194,8 +194,8 @@
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
-    	}	
-		
+    	}
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -546,7 +546,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"HomePageLabelContainer"
 	{
 		"ControlName"	"EditablePanel"

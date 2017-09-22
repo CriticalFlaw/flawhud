@@ -21,7 +21,7 @@
 		"brighttext"		"0"
 	}
 
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"ClassIcon"
@@ -35,7 +35,6 @@
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_scout_red"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,26 +50,25 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"NewNumberLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"LightGravity10"
-		"fgcolor"		"251 82 79 255"
-		"xpos"			"5"
-		"ypos"			"3"
-		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"3"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"NumberLabel"
+		"font"				"LightGravity10"
+		"fgcolor"			"251 82 79 255"
+		"xpos"				"5"
+		"ypos"				"3"
+		"zpos"				"0"
+		"wide"				"15"
+		"tall"				"15"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"labelText"			"3"
+		"textAlignment"		"Center"
+		"dulltext"			"1"
+		"brighttext"		"0"
 	}
 	
 	"NumberLabel"

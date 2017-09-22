@@ -1,33 +1,19 @@
-// enum PinCorner_e 
-// {
-// 	PIN_TOPLEFT = 0,
-// 	PIN_TOPRIGHT,
-// 	PIN_BOTTOMLEFT,
-// 	PIN_BOTTOMRIGHT,
-
-// 	// For sibling pinning
-// 	PIN_CENTER_TOP,
-// 	PIN_CENTER_RIGHT,
-// 	PIN_CENTER_BOTTOM,
-// 	PIN_CENTER_LEFT,
-// };
-
-Resource/UI/HudPasstimePassNotify.res
+"Resource/UI/HudPasstimePassNotify.res"
 {
-	HudPasstimePassNotify
+	"HudPasstimePassNotify"
 	{
-		ControlName 				EditablePanel
-		fieldName 					HudPasstimePassNotify
-		xpos 						0
-		ypos 						16
-		zpos 						0
-		wide 						f0
-		tall 						480
-		visible 					1
-		enabled 					1
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HudPasstimePassNotify"
+		"xpos"				"0"
+		"ypos"				"16"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
-	TextBox
+	"TextBox"
 	{
 		ControlName 				EditablePanel
 		fieldName 					TextBox

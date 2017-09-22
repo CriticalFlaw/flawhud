@@ -643,7 +643,7 @@
 			"defaultFgColor_override" 	"46 43 42 255"
 			"armedFgColor_override" 	"235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 
@@ -705,22 +705,36 @@
 			}
 		}
 	}
- 
+
 	//START OF MENU
+	"TFLogoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogoImage"
+		"xpos"			"18"
+		"ypos"			"130"
+		"wide"			"179"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../logo/new_tf2_logo"
+		"scaleImage"	"1"
+	}
+	
 	"HUDLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDLabel"
-		"font"			"LightGravity40"
+		"font"			"LightGravityHUD"
 		"labelText"		"FlawHUD"
-		"xpos"			"27"
-		"ypos"			"120"
+		"xpos"			"120"
+		"ypos"			"160"
 		"wide"			"170"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"White"
 
 		"border_default"	""
@@ -732,10 +746,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
-		"font"			"LightGravity12"
-		"labelText"		"RC v2017.07.25"
-		"xpos"			"27"
-		"ypos"			"155"
+		"font"			"LightGravity10"
+		"labelText"		"v2017.09.21"
+		"xpos"			"r59"
+		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
 		"autoResize"	"0"
@@ -1145,7 +1159,7 @@
 			"defaultFgColor_override" "White"
 			"armedFgColor_override"   "White"
 			"depressedFgColor_override" "75 125 255 255"
-				
+
 			"image_drawcolor"	"0 0 0 175"
 			"image_armedcolor"	"0 0 0 255"
 			"SubImage"
@@ -1259,15 +1273,15 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"border_default"	""
 			"border_armed"		"MenuBorder"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override"   "White"
 			"depressedFgColor_override" "75 125 255 255"
-				
+
 			"image_drawcolor"	"0 0 0 175"
 			"image_armedcolor"	"0 0 0 255"
 			"SubImage"
@@ -1311,15 +1325,15 @@
 		"Command"		"OpenOptionsDialog"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"border_default"	""
 		"border_armed"		"MenuBorder"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override"   "White"
 		"depressedFgColor_override" "75 125 255 255"
-				
+
 		"image_drawcolor"	"0 0 0 175"
 		"image_armedcolor"	"0 0 0 255"
 		"SubImage"
@@ -1363,15 +1377,15 @@
 		"Command"		"opentf2options"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"border_default"	""
 		"border_armed"		"MenuBorder"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override"   "White"
 		"depressedFgColor_override" "75 125 255 255"
-				
+
 		"image_drawcolor"	"0 0 0 175"
 		"image_armedcolor"	"0 0 0 255"
 		"SubImage"

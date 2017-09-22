@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -30,7 +30,7 @@
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -45,7 +45,7 @@
 		"icon"			"obj_status_sentrygun_1"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,7 +75,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -101,7 +101,7 @@
 			"icon"			""
 			"iconColor"		"255 255 255 255"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -147,7 +147,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -165,7 +165,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"	
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -194,7 +194,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
 			{	
 				"ControlName"	"ContinuousProgressBar"
@@ -203,7 +203,7 @@
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -213,7 +213,7 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -239,7 +239,7 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-						
+
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -258,7 +258,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-					
+
 			"ShellIcon"	
 			{
 				"ControlName"	"ImagePanel"
@@ -274,7 +274,7 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-			
+
 			"Shells"
 			{	
 				"ControlName"	"ContinuousProgressBar"

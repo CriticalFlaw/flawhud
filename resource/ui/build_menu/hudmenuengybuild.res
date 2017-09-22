@@ -11,9 +11,9 @@
 		"tall"				"180"
 		"visible"			"1"
 		"enabled"			"1"
-		"paintbackground" "0"
+		"paintbackground" 	"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,12 +25,12 @@
 		"tall"			"88"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"pipboy_overlay"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -48,7 +48,7 @@
 		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"

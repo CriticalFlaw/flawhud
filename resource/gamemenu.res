@@ -48,6 +48,7 @@
 	{
 		"label"			"6"
 		"command" 		"engine connect XXXXXXXXXXXXXXX"
+        "tooltip" 		"Favorite Server"
 	}
 
 	// BOTTOM ROW BUTTONS

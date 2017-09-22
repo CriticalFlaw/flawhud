@@ -36,7 +36,7 @@
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
 	}
-	
+
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -52,7 +52,7 @@
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -71,8 +71,8 @@
 		"labelText"		""
 		"textAlignment"	"East"	
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -87,7 +87,7 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"

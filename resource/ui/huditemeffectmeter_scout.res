@@ -12,7 +12,7 @@
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -29,7 +29,7 @@
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

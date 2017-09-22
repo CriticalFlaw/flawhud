@@ -34,7 +34,7 @@
 		"wide"				"200"
 		"tall"				"15"
 		"xpos_minmode"		"80"
-		"wide_minmode"		"200"	
+		"wide_minmode"		"200"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"center"
@@ -53,7 +53,7 @@
 		"wide"			"200"
 		"tall"			"15"
 		"xpos_minmode"	"81"
-		"wide_minmode"	"200"		
+		"wide_minmode"	"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"		"center"
@@ -80,6 +80,7 @@
 			"visible"		"1"
 		}
 	}
+
 
 	"SupportLabel"
 	{

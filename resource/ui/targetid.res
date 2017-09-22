@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"TargetIDBG"
 	{
 		"ControlName"	"CTFImagePanel"

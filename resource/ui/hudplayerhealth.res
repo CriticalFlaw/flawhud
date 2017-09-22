@@ -538,7 +538,7 @@
 		"fgcolor"		"TanDark"
 	}
 
-	"HealthBG"	
+	"HealthBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"

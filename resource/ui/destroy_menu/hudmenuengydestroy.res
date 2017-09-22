@@ -13,7 +13,7 @@
 		"enabled"		"0"
 		"paintbackground" "0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,7 +25,7 @@
 		"tall"			"88"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"pipboy_overlay"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
@@ -48,7 +48,7 @@
 		"fillcolor"		"HUDBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -65,8 +65,8 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 	}
-	
-	"DestroyIcon"	
+
+	"DestroyIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
@@ -125,7 +125,7 @@
 	}
 	
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
