@@ -1452,8 +1452,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		"X"
-		"font"			"LightGravity16"
+		"labeltext"		""
+		"font"			""
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1464,27 +1464,28 @@
 		
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "255 0 0 255"
-		"depressedFgColor_override" "White"
+		"defaultFgColor_override" "Blank"
+		"armedFgColor_override" "Blank"
+		"depressedFgColor_override" "Blank"
 		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-		
+		"image_drawcolor"	"White"
+		"image_armedcolor"	"255 0 0 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"close_button"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/buttons/x"
 			"scaleImage"	"1"
-		}				
+			"proportionaltoparent"	"1"
+		}
 	}		
 	
 	"BackButton"

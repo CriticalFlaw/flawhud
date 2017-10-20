@@ -73,7 +73,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"LightGravity20"
+		"font"			"G_FontMedium"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"-3"
 		"ypos"			"31"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"LightGravity20"
+		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-2"
 		"ypos"			"32"

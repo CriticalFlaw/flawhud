@@ -722,7 +722,7 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
-		"font"			"HudFontSmall"
+		"font"			"LightGravity12"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 	}
 
@@ -730,7 +730,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"JoinLateValueLabel"
-		"font"			"HudFontSmall"
+		"font"			"LightGravity12"
 		"textAlignment"	"west"
 		"xpos"		"c+100"
 		"ypos"		"325"

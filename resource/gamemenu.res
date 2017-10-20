@@ -46,7 +46,7 @@
 	}
 	"FavoriteServer"
 	{
-		"label"			"6"
+		"label"			""
 		"command" 		"engine connect XXXXXXXXXXXXXXX"
         "tooltip" 		"Favorite Server"
 	}

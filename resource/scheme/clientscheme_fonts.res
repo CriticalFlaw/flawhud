@@ -2,26 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"SymbolS"
-		{
-			"1"
-			{
-				"name"	"Entypo"
-				"tall"	"25"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"BlocksSharp64"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"64"
-				"additive"	"0"
-				"antialias" "0"
-			}
-		}
 		"LightGravity8"
 		{
 			"1"
@@ -2333,6 +2313,17 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemMeterFontSmall"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"

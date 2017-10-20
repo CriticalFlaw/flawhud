@@ -9,8 +9,8 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible" 			"0"		// Change to "1" to enable
-		"enabled" 			"0"		// Change to "1" to enable
+		"visible" 			"1"		// Change to "1" to enable
+		"enabled" 			"1"		// Change to "1" to enable
 		"labelText"			"i"
 		
 		"controlName"		"CExLabel"
@@ -310,7 +310,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-15"
-		"ypos"					"0"
+		"ypos"					"50"
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
