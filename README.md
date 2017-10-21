@@ -23,3 +23,5 @@ If you're using [CastingEssentials](https://github.com/PazerOP/CastingEssentials
 If you've found a bug, need help or have a suggestion - consider one of the following:
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)
 * [Post on the Steam Group Forums](https://steamcommunity.com/groups/FlawHUD/discussions)
+
+v2017.10.20

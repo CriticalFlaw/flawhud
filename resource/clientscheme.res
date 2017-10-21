@@ -55,23 +55,13 @@ Scheme
 		}
 		"10"
 		{
-			"font"	"resource/fonts/FlawHUDIcons.otf"
-			"name"	"FlawHUDIcons"
-		}
-		"11"
-		{
-			"font"	"resource/fonts/Blocks.ttf"
-			"name"	"Blocks"
-		}
-		"12"
-		{
 			"font"	"resource/fonts/Gravity-Light.otf"
 			"name"	"Gravity-Light"
 		}
-		"13"
+		"11"
 		{
-			"font" "resource/fonts/Entypo.otf"
-			"name"	"Entypo"
+			"font"	"resource/fonts/FlawHUDIcons.otf"
+			"name"	"FlawHUDIcons"
 		}
 	}
 }

@@ -2,26 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"SymbolS"
-		{
-			"1"
-			{
-				"name"	"Entypo"
-				"tall"	"25"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"BlocksSharp64"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"64"
-				"additive"	"0"
-				"antialias" "0"
-			}
-		}
 		"LightGravity8"
 		{
 			"1"
@@ -2338,6 +2318,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"ItemMeterFontSmall"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"6"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 
 		"AchievementTracker_Name"
 		{
@@ -2931,6 +2922,67 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
+			}
+		}
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"7"
+				"weight"		"0"
+				"blur"			"3"
+				"additive"		"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"7"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"10"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"14"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"30"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 	}
