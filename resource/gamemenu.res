@@ -23,13 +23,23 @@
 	}
 	"CharacterSetupButton"
 	{
-		"label"			"Items"
+		"label"			"Inventory"
 		"command"		"engine open_charinfo"
 	}
 	"GeneralStoreButton"
 	{
-		"label" 		"Store"
+		"label" 		"Mann Co. Store"
 		"command" 		"engine open_store"
+	}
+	"SettingsButton"
+	{
+		"label" 		"Options"
+		"command" 		"OpenOptionsDialog"
+	}
+	"TF2SettingsButton"
+	{
+		"label" 		"Adv. Options"
+		"command" 		"opentf2options"
 	}
 	"QuitButton"
 	{

@@ -27,6 +27,7 @@ Scheme
 		"SelectionBG"						"90 84 75 255"
 		"SelectionBG2"						"69 64 57 255"
 		"ListBG"							"39 36 34 0"
+		"Green"								"63 185 73 255"
 	}
 
 	BaseSettings

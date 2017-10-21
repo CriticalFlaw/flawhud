@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"	"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -37,277 +37,57 @@
 		"scaleImage"	"1"
 	}
 
-	"GameModesContainer"
+	"criteria"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"GameModesContainer"
+		//"ControlName"	"CCasualCriteriaPanel"
+		"fieldName"		"criteria"
 		"xpos"			"c-305"
-		"ypos"			"r341"
+		"ypos"			"r343"
 		"zpos"			"100"
 		"wide"			"260"
-		"tall"			"285"
+		"tall"			"290"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"PlaylistBGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PlaylistBGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"p0.98"
-			"tall"			"p1"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"				"WhiteBorder"
-			"bgcolor_override"		"25 25 25 200"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"2"
-			"autoResize"	"1"
-
-			"PlayListDropShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlaylistBGPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"35"
-				"zpos"			"100"
-				"wide"			"p0.95"
-				"tall"			"p0.85"
-				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"border"		"NoBorder"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-			}
-
-			"RestoreCasualSearchCriteria"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"RestoreCasualSearchCriteria"
-				"xpos"			"rs2-10"
-				"ypos"			"8"
-				"zpos"			"100"
-				"wide"			"15"
-				"tall"			"o1"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"0"
-				"Command"		"restore_search_criteria"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"actionsignallevel"	"5"
-				"proportionaltoparent"	"1"
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"Yellow"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"2"
-					"ypos"			"2"
-					"zpos"			"1"
-					"wide"			"11"
-					"tall"			"11"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"button_load"
-					"scaleImage"	"1"
-				}
-			}
-
-			"SaveCasualSearchCriteria"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SaveCasualSearchCriteria"
-				"xpos"			"rs1-5"
-				"ypos"			"8"
-				"zpos"			"100"
-				"wide"			"15"
-				"tall"			"o1"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"0"
-				"Command"		"save_search_criteria"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"actionsignallevel"	"5"
-				"proportionaltoparent"	"1"
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"Yellow"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"2"
-					"ypos"			"2"
-					"zpos"			"1"
-					"wide"			"11"
-					"tall"			"11"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"button_save"
-					"scaleImage"	"1"
-				}
-			}
-
-			"Title"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"Title"
-				"xpos"		"10"
-				"ypos"		"5"
-				"zpos"		"0"
-				"wide"		"f0"
-				"tall"		"20"
-				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_Casual_MapSelection"
-				"textAlignment"	"west"
-				"font"			"G_FontSmall"
-		
-				"mouseinputenabled"	"0"
-			}
-
-			"SelectedCount"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"SelectedCount"
-				"xpos"		"10"
-				"ypos"		"19"
-				"zpos"		"0"
-				"wide"		"f0"
-				"tall"		"20"
-				"proportionaltoparent"	"1"
-				"labeltext"		"%selected_maps_count%"
-				"textAlignment"	"west"
-				"font"			"G_FontSmall_2"
-				"fgcolor_override"	"White"
-		
-				"mouseinputenabled"	"1"
-			}
-
-			"QueueEstimation"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"QueueEstimation"
-				"xpos"		"rs1-5"
-				"ypos"		"18"
-				"zpos"		"0"
-				"wide"		"f0"
-				"tall"		"20"
-				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_Casual_QueueEstimation"
-				"textAlignment"	"east"
-				"font"			"G_FontSmall"
-				"fgcolor_override"	"TanLight"
-				"textinsetx"	"5"
-				"visible"	"0"
-		
-				"mouseinputenabled"	"0"
-			}
-
-			"GameModesList"
-			{
-				"ControlName"	"CScrollableList"
-				"fieldName"		"GameModesList"
-				"xpos"			"cs-0.5"
-				"ypos"			"35"
-				"wide"			"p0.95"
-				"tall"			"p0.85"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"restrict_width" "0"
-				"border"		"NoBorder"
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs0.7-1"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5"
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"TanDark"
-					}
-		
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-		
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-		}
+		"border"		"MainMenuBGBorder"
 	}
+
 
 	"PartyActiveGroupBox"
 	{
-		"xpos"		"c+103"
-		"ypos"		"r341"
+		"xpos"			"c+100"
+		"ypos"		"r340"
 		"tall"		"300"
 		"proportionaltoparent"	"1"
 
 		"PartyGroupBox"
 		{
-			"tall"			"160"
-			"border"		"WhiteBorder"
+			"tall"		"160"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatLog"
 		{
-			"ypos"			"164"
+			"ypos"			"165"
 			"tall"			"100"
-			"border"		"WhiteBorder"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatTextEntry"
 		{
-			"ypos"			"268"
+			"ypos"			"270"
 			"tall"			"16"
-			"border"		"WhiteBorder"
+			"border"		"QuickplayBorder"
 		}
 	}
 
 	"SearchActiveGroupBox"
 	{
-		"xpos"		"c-302"
-		"ypos"		"r341"
+		"xpos"		"c-300"
+		"ypos"		"r340"
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
-		"border"	"WhiteBorder"
 
 		"SearchActiveTitle"
 		{
@@ -317,145 +97,145 @@
 
 		"NearbyColumnHead"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
-		"PlayersInGameTotalNearbyValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-90"
-			"ypos"		"85"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersInGameTotalNearbyValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-90"
+				"ypos"		"85"
+				"proportionaltoparent"	"1"
+			}
 
-		"PlayersInGameTotalWorldwideValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-10"
-			"ypos"		"85"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersInGameTotalWorldwideValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-10"
+				"ypos"		"85"
+				"proportionaltoparent"	"1"
+			}
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
-		"PlayersInGameMatchingNearbyValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-90"
-			"ypos"		"97"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersInGameMatchingNearbyValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-90"
+				"ypos"		"97"
+				"proportionaltoparent"	"1"
+			}
 
-		"PlayersInGameMatchingWorldwideValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-10"
-			"ypos"		"97"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersInGameMatchingWorldwideValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-10"
+				"ypos"		"97"
+				"proportionaltoparent"	"1"
+			}
 
 		"PlayersSearchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
-		"PlayersSearchingTotalNearbyValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-90"
-			"ypos"		"135"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersSearchingTotalNearbyValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-90"
+				"ypos"		"135"
+				"proportionaltoparent"	"1"
+			}
 
-		"PlayersSearchingTotalWorldwideValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-10"
-			"ypos"		"135"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersSearchingTotalWorldwideValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-10"
+				"ypos"		"135"
+				"proportionaltoparent"	"1"
+			}
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
-		"PlayersSearchingMatchingNearbyValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-90"
-			"ypos"		"147"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersSearchingMatchingNearbyValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-90"
+				"ypos"		"147"
+				"proportionaltoparent"	"1"
+			}
 
-		"PlayersSearchingMatchingWorldwideValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-10"
-			"ypos"		"147"
-			"proportionaltoparent"	"1"
-		}
+			"PlayersSearchingMatchingWorldwideValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-10"
+				"ypos"		"147"
+				"proportionaltoparent"	"1"
+			}
 
 		"EmptyGameserversLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
-		"EmptyGameserversMatchingNearbyValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-90"
-			"ypos"		"170"
-			"proportionaltoparent"	"1"
-		}
+			"EmptyGameserversMatchingNearbyValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-90"
+				"ypos"		"170"
+				"proportionaltoparent"	"1"
+			}
 
-		"EmptyGameserversMatchingWorldwideValue"
-		{
-			"font"		"G_FontSmall_2"
-			"xpos"		"rs1-10"
-			"ypos"		"170"
-			"proportionaltoparent"	"1"
-		}
+			"EmptyGameserversMatchingWorldwideValue"
+			{
+				"font"			"HudFontSmallest"
+				"xpos"		"rs1-10"
+				"ypos"		"170"
+				"proportionaltoparent"	"1"
+			}
 
 		"PartyHasLowPriorityGroupBox"
 		{
@@ -476,7 +256,7 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"G_FontSmall_2"
+				"font"		"HudFontSmallest"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -488,7 +268,7 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"G_FontSmall_2"
+				"font"		"HudFontSmallest"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"
