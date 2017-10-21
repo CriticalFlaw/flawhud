@@ -1924,7 +1924,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"100"
+		"xpos"			"95"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
