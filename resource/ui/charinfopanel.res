@@ -111,8 +111,9 @@
 		"tabxindent"		"80"
 		"tabxdelta"			"10"
 		"tabwidth"			"240"
-		"tabheight"			"35"
+		"tabheight"			"20"
 		"transition_time" 	"0"
+		"yoffset"	"14"
 		
 		"HeaderLine"
 		{
@@ -132,7 +133,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"G_FontMedium"
+			"font"				"G_FontMediumSmall"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"

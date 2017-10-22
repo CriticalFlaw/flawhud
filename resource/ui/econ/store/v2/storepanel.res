@@ -110,7 +110,8 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"35"
+		"tabheight"		"20"
+		"yoffset"		"14"
 		"transition_time" "0"
 
 		"HeaderLine"
@@ -132,7 +133,7 @@
 		{
 			"textinsetx"		"6"
 			"textAlignment"		"center"
-			"font"				"G_FontMedium"	//"LightGravity24"
+			"font"				"G_FontMediumSmall"	//"LightGravity24"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"

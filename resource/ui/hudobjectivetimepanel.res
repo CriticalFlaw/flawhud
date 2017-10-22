@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"32"
+		"xpos"			"30"
 		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"40"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"33"
+		"xpos"			"30"
 		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"40"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"33"
+		"xpos"			"30"
 		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"40"

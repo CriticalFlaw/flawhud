@@ -76,13 +76,6 @@
 		"subimage" 		"glyph_tv"
 		"tooltip" 		"Replay"
 	}
-	"TrainingButton"
-	{
-		"label"			""
-		"command" 		"play_training"
-		"subimage" 		"glyph_tutorial"
-		"tooltip" 		"Training"
-	}
 	"CreateServerButton"
 	{
 		"label" 		""

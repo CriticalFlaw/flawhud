@@ -244,7 +244,7 @@
 		}
 
 		"ypos"			"-80"
-		"zpos"			"-1"
+		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
 		"visible"		"1"
@@ -256,10 +256,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-400"
-		"ypos"			"cs-0.5-93"
+		"xpos"			"cs-0.5-350"
+		"ypos"			"cs-0.5-90"
 
-		"zpos"			"1"
+		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
 		"visible"		"1"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-30"
+		"xpos"			"-20"
 		"ypos"			"97"
 		"zpos"			"-52"
 		"wide"			"320"
@@ -342,7 +342,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"LightGravity10"
+			"font"			"LightGravity9"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -362,7 +362,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"LightGravity12"
+			"font"			"LightGravity9"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -814,11 +814,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"30"
-		"ypos"			"185"
+		"xpos"			"40"
+		"ypos"			"175"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"180"
+		"tall"			"250"
 		"visible"		"1"
 
 		"border"		"MainMenuBGBorder"
@@ -847,7 +847,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-15"
+			"ypos"			"rs1-90"
 			"zpos"			"501"
 			"wide"			"f20"
 			"tall"			"135"
@@ -865,7 +865,7 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-15"
+			"ypos"			"rs1-90"
 			"zpos"			"500"
 			"wide"			"f20"
 			"tall"			"135"
@@ -988,7 +988,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2017.1020"
+		"labelText"		"v2017.1022"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
@@ -1239,8 +1239,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"25"
-		"ypos"			"375"
+		"xpos"			"55"
+		"ypos"			"340"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"14"
@@ -1300,8 +1300,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"25"
-		"ypos"			"395"
+		"xpos"			"55"
+		"ypos"			"360"
 		"zpos"			"11"
 		"wide"			"110"
 		"tall"			"14"
@@ -1361,8 +1361,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
-		"xpos"			"25"
-		"ypos"			"415"
+		"xpos"			"55"
+		"ypos"			"380"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"14"
@@ -1421,8 +1421,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"25"
-		"ypos"			"435"
+		"xpos"			"55"
+		"ypos"			"400"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -1744,68 +1744,12 @@
 			}
 		}
 	}
-
-	"TrainingButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TrainingButton"
-		"xpos"			"45"
-		"ypos"			"461"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
-		"proportionaltoparent"	"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"image_drawcolor"	"G_White"
-			"image_armedcolor"	"214 206 200 255"
-			
-			"paintbackground"	"0"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_tf2"
-				"scaleImage"	"1"
-			}
-		}
-	}
 	
 	"CallVoteButton"	//IN-GAME BUTTON
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"65"
+		"xpos"			"50"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1864,7 +1808,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"80"
+		"xpos"			"65"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1924,7 +1868,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"95"
+		"xpos"			"80"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
