@@ -147,6 +147,6 @@
 		"enabled"		"1"
 		"defaultbgcolor_override"	"Blank"
 		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
+        "textinsety" 	"9999"
 	}
 }
