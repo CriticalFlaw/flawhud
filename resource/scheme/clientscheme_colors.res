@@ -31,14 +31,14 @@ Scheme
 		//---------------------------------------------
 		// Gameplay
 		"G_Overheal"				"0 170 127 255"		// HP Buff
-		"G_Heal"					"0 255 127 255"		// Healing Numbers
-		"G_Hit"						"255 255 0 255"		// Damage Numbers
+		"G_Heal"					"0 255 127 255"
+		"G_Hit"						"255 255 0 255"
 		"G_HealthValue"				"243 243 243 255"	// HP
 		"G_LowHealthValue"			"200 45 45 255"		// HP Low
 		"G_AmmoClipValue"			"243 243 243 255"	// Ammo In Clip
 		"G_AmmoReserveValue"		"0 191 255 255"		// Ammo In Reserve
 		"G_AmmoNoClipValue"			"243 243 243 255"	// Ammo No Clip
-		"G_LowAmmo"					"200 45 45 255"		// Low Ammo			"255 45 45 255"
+		"G_LowAmmo"					"200 45 45 255"		// Low Ammo
 		
 		"G_Stickies"				"243 243 243 255"	// Stickies
 		"G_Metal"					"243 243 243 255"	// Metal
@@ -49,8 +49,8 @@ Scheme
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Ubercharge1"				"170 240 45 255"	//"0 255 127 255"
-		"Ubercharge2"				"100 240 45 255"	//"0 210 105 255"
+		"Ubercharge1"				"170 240 45 255"
+		"Ubercharge2"				"100 240 45 255"
 		"ChargePercent"				"243 243 243 255"
 		"Ubercharge Meter"			"0 255 127 255"
 		//---------------------------------------------
@@ -67,8 +67,6 @@ Scheme
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"		"0 255 0 255"
-		"QuestBonusHighlight"			"150 160 255 255"
 		"QuestUncommitted"				"183 147 100 255"
 
 		"QuestMap_Bonus"				"222 217 166 255"

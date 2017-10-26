@@ -267,8 +267,6 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
-
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"

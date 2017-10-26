@@ -1,26 +1,6 @@
 "GameMenu"
 {
 	// MAIN MENU
-	"QuickplayButton"
-	{
-		"label" 		"Casual" 
-		"command" 		"play_casual"
-	}
-	"CompetitiveButton"
-	{
-		"label"			"Competitive" 
-		"command"		"play_competitive"
-	}
-	"PlayPVEButton"
-	{
-		"label"			"Mann vs. Machine" 
-		"command"		"play_mvm"
-	}
-	"ServerBrowserButton"
-	{
-		"label" 		"Community Servers" 
-		"command" 		"OpenServerBrowser"
-	}
 	"CharacterSetupButton"
 	{
 		"label"			"Inventory"
@@ -41,19 +21,6 @@
 		"label" 		"Adv. Options"
 		"command" 		"opentf2options"
 	}
-	"QuitButton"
-	{
-		"label" 		"Quit"
-		"command" 		"engine quit"
-		"OnlyAtMenu" 	"1"
-	}
-	"DisconnectButton"
-	{
-		"label" 		"Disconnect"
-		"command" 		"engine disconnect"
-		"subimage" 		""
-		"OnlyInGame"	"1"
-	}
 	"FavoriteServer"
 	{
 		"label"			""
@@ -69,19 +36,19 @@
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
-	"ReplayButton"
-	{
-		"label" 		""
-		"command" 		"engine replay_reloadbrowser"
-		"subimage" 		"glyph_tv"
-		"tooltip" 		"Replay"
-	}
 	"CreateServerButton"
 	{
 		"label" 		""
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"subimage" 		"glyph_create"
 		"tooltip" 		"Create a Server"
+	}
+	"ReplayButton"
+	{
+		"label" 		""
+		"command" 		"engine replay_reloadbrowser"
+		"subimage" 		"glyph_tv"
+		"tooltip" 		"Replay"
 	}
 	"CallVoteButton"
 	{

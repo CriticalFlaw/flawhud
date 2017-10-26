@@ -665,7 +665,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"LightGravity14"
+		"font"			"G_FontSmall"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -757,7 +757,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"LightGravity14"
+		"font"			"G_FontSmall"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -803,7 +803,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"LightGravity14"
+		"font"			"G_FontSmall"
 		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -851,7 +851,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontSmall"
 		"labelText"		"#PaintkitTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
