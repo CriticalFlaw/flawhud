@@ -4,8 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
+
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
+
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -81,11 +83,6 @@
 				"origin_z"		"0"
 				"spotlight"	"1"
 
-				if_mini
-				{
-					"origin_x"		"55"
-				}
-
 				"animation"
 				{
 					"sequence"	"idle"
@@ -149,7 +146,7 @@
 				}
 			}
 
-			"paintbackground"	"1"
+			"paintbackground"	"1"	
 		}
 
 		"MedalButton"
@@ -175,14 +172,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"170"
 		"tall"			"f40"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"border"		"NoBorder"
+		"bgcolor_override"	"25 25 25 0"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -197,16 +195,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"170"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -220,16 +218,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"65"
-			"ypos"			"20"
-			"wide"			"f0"
+			"xpos"			"0"
+			"ypos"			"13"
+			"wide"			"170"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
 			"labelText"		"%level%"
 			"proportionaltoparent"	"1"
 
@@ -237,6 +235,8 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"f0"
+				"textAlignment"	"north-west"
 			}
 		}
 
@@ -244,9 +244,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"0"
-			"wide"			"f70"
+			"xpos"			"0"
+			"ypos"			"30"
+			"wide"			"170"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -261,11 +261,18 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
-				"wide"			"p1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"170"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
+
+				if_mini
+				{
+					"xpos"			"cs-0.5"
+					"ypos"			"rs1-3"
+					"wide"			"p1"
+				}
 
 				"CurrentXPLabel"
 				{
@@ -276,13 +283,18 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"visible"		"1"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -294,24 +306,36 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"visible"		"1"
+					}
 				}
 
 				"ProgressBarsContainer"
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"0"
-					"ypos"			"rs1-10"
-					"wide"			"p1"
+					"xpos"			"35"
+					"ypos"			"0"
+					"wide"			"100"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"xpos"			"0"
+						"ypos"			"rs1-10"
+						"wide"			"p1"
+					}
 
 					"ProgressBar"
 					{
@@ -382,10 +406,10 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
-					"wide"			"f0"
-					"tall"			"f0"
+					"wide"			"0"
+					"tall"			"0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
+					"border"		"NoBorder"
 				}
 
 
@@ -403,7 +427,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -421,7 +445,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -439,7 +463,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -458,7 +482,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -476,7 +500,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -494,7 +518,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -513,7 +537,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

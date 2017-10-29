@@ -82,16 +82,6 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 			0.0
 }
 //==================================================================================
-// Do not move chat window
-event CompetitiveGame_LowerChatWindow	{ }
-event CompetitiveGame_RestoreChatWindow	{ }
-event HudTournament_MoveChatWindow 		{ }
-
-event HudSpyDisguiseChanged	{ }
-event HudSpyDisguiseHide	{ }
-event HudSpyDisguiseFadeIn	{ }
-event HudSpyDisguiseFadeOut	{ }
-//==================================================================================
 
 event HudMedicCharged
 {
@@ -141,3 +131,14 @@ event MMenu_PlayList_Collapse_Immediate
 {
 	// empty
 }
+
+//==================================================================================
+// Do not move chat window
+event CompetitiveGame_LowerChatWindow	{ }
+event CompetitiveGame_RestoreChatWindow	{ }
+event HudTournament_MoveChatWindow 		{ }
+
+event HudSpyDisguiseChanged	{ }
+event HudSpyDisguiseHide	{ }
+event HudSpyDisguiseFadeIn	{ }
+event HudSpyDisguiseFadeOut	{ }
