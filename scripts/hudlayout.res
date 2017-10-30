@@ -9,8 +9,8 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible" 			"0"		// Change to "1" to enable
-		"enabled" 			"0"		// Change to "1" to enable
+		"visible" 			"0"
+		"enabled" 			"0"
 		"labelText"			"i"
 		
 		"controlName"		"CExLabel"
@@ -20,7 +20,7 @@
 		"ypos" 		 		"c-24"
 		"wide" 		 		"50"
 		"tall" 		 		"50"
-		"font"				"size:26,outline:off"	// size: range 10-50 //outline: on or off
+		"font"				"size:26,outline:off"
 		"textAlignment"		"center"
 		"fgcolor" 			"Crosshair"
 	}	
