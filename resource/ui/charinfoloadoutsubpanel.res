@@ -2508,7 +2508,7 @@
 		"tall"			"f100"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"DarkGrey"
 	}
 		"G_Scout_title"
 		{

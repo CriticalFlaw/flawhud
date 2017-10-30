@@ -47,8 +47,8 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode10"
-		"fgcolor_override"		"ahudWhite"
+		"font"					"LightGravity10"
+		"fgcolor_override"		"White"
 	}
 
 	"ItemEffectMeter"
@@ -87,8 +87,8 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode20"
-		"fgcolor"				"ahudWhite"
+		"font"					"LightGravity20"
+		"fgcolor"				"White"
 	}
 	"ItemEffectMeterCountBackground"
 	{
@@ -107,7 +107,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode20"
+		"font"					"LightGravity20"
 		"fgcolor"				"ShadowBlack"
 	}
 }

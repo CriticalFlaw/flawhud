@@ -21,7 +21,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"6"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"200"

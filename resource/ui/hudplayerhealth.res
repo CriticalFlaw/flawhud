@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"G_FontMedium"
+		"font"			"G_FontTiny"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValueShadow"
@@ -125,7 +125,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"G_FontMedium"
+		"font"			"G_FontTiny"
 		"fgcolor"		"ShadowBlack"
 	}
 	"PlayerStatusBleedImage"

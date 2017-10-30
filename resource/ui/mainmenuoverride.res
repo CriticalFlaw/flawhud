@@ -971,12 +971,35 @@
 		}
 	}
 
+	"TFCharacterImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFCharacterImage"
+		"xpos"			"9999"	//"c-250"
+
+		if_taller
+		{
+			if_operation
+			{
+				"xpos"		"c-300"
+			}
+		}
+
+		"ypos"			"-80"
+		"zpos"			"-99"
+		"wide"			"600"
+		"tall"			"600"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
+	}
+
 	"VersionLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2017.1029"
+		"labelText"		"v2017.1030"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
