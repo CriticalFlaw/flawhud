@@ -1708,7 +1708,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-Bold"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"

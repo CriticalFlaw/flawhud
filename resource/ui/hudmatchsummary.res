@@ -35,7 +35,7 @@
 		"AnimStatsLabelPanel12v12YPos"		"20"
 		"AnimBlueTeamLabel12v12YPos"		"47"
 		"AnimRedTeamLabel12v12YPos"			"47"
-		"AnimStatsContainer12v12YPos"		"-20"
+		"AnimStatsContainer12v12YPos"		"-10"
 	}
 
 	"RankPanel"
@@ -409,17 +409,17 @@
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
-						"spacer"		"s.01"
+						"spacer"		"2"
 						"name_width"	"s.19"
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
 							"tall"			"340"
-							"linegap"		"1"
+							"linegap"		"0"
 						}
 					}
 				}
@@ -679,17 +679,17 @@
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
-						"spacer"		"s.01"
+						"spacer"		"2"
 						"name_width"	"s.19"
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
 							"tall"			"340"
-							"linegap"		"1"
+							"linegap"		"0"
 						}
 					}
 				}

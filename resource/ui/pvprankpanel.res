@@ -83,6 +83,11 @@
 				"origin_z"		"0"
 				"spotlight"	"1"
 
+				if_mini
+				{
+					"origin_x"		"55"
+				}
+
 				"animation"
 				{
 					"sequence"	"idle"
