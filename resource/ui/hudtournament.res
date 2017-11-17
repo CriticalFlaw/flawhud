@@ -4,63 +4,62 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HudTournament"
-
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
 
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"team1_player_base_offset_x"	"-75"
+		"team1_player_base_y"			"0"
+		"team1_player_delta_x"			"-47"
+		"team1_player_delta_y"			"0"
+		"team2_player_base_offset_x"	"25"
+		"team2_player_base_y"			"0"
+		"team2_player_delta_x"			"47"
+		"team2_player_delta_y"			"0"
+		"teams_player_delta_x_comp"		"42"
 
-		"avatar_width"	"63"
-		"spacer"		"5"
-		"name_width"	"57"
-		"horiz_inset"	"2"
+		"avatar_width"			"63"
+		"spacer"				"5"
+		"name_width"			"57"
+		"horiz_inset"			"2"
 
 		if_mvm
 		{
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"480"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team1_player_base_y"		"66"
+			"team2_player_base_y"		"66"
+			"team2_player_delta_x"		"52"
 		}
 		
 		if_competitive
 		{
-			"xpos"							"0"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
+			"team1_player_base_y"		"66"
+			"team2_player_base_y"		"66"
+			"team2_player_base_offset_x" "5"
 		}
 		
 		if_readymode
 		{
-			"xpos"							"0"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
+			"team1_player_base_y"		"66"
+			"team2_player_base_y"		"66"
+			"team2_player_delta_x"		"52"
+			"team2_player_base_offset_x" "5"
 		}
 
 		"ModeImage"
@@ -96,7 +95,6 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
-			
 			if_competitive
 			{
 				"wide"		"40"

@@ -66,7 +66,6 @@
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
 	}
-
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"

@@ -70,7 +70,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"G_FontMedium"
 		"fgcolor"		"G_HealthValue"
@@ -87,7 +87,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
@@ -109,7 +109,7 @@
 		"fgcolor"		"TFOrange"
 	}
 
-	"TargetHealthBG"	
+	"TargetHealthBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHealthBG"

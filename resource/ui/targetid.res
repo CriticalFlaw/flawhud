@@ -52,6 +52,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"Blue"
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
@@ -168,8 +169,8 @@
 		"scaleImage"	"1"
 
 		"pin_to_sibling"		"KillStreakIconAnchor"
-        "pin_corner_to_sibling" "1"
-        "pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"MoveableSubPanel"
@@ -233,7 +234,7 @@
 
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"LightGravity10"
 			"xpos"			"0"

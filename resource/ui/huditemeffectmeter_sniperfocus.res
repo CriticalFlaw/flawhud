@@ -48,7 +48,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode8"
+		"font"					"LightGravity8"
 		"fgcolor_override"		"150 150 150 255"
 	}
 

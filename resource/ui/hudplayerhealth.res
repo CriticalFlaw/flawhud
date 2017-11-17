@@ -49,8 +49,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"	//"82"
-		"ypos"			"9999"	//"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -76,7 +76,6 @@
 		"font"			"G_FontHuge"
 		"fgcolor"		"G_HealthValue"
 	}
-
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -99,13 +98,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"116"
-		"xpos_minmode"	"116"
 		"ypos"			"71"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"G_FontTiny"
@@ -116,18 +114,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
 		"xpos"			"117"
-		"xpos_minmode"	"117"
 		"ypos"			"72"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"G_FontTiny"
 		"fgcolor"		"ShadowBlack"
 	}
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -164,7 +162,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusGasImage"
 		"xpos"			"85"
-		"ypos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"25"
@@ -587,12 +584,12 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}
+
 	"PlayerStatusSlowed"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusSlowed"
 		"xpos"			"85"
-		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"25"

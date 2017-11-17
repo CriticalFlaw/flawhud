@@ -200,7 +200,7 @@
 	}
 	
 	"SelectedItemModelPanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"SelectedItemModelPanel"
 		"xpos"				"c25"

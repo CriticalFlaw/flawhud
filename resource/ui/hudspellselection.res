@@ -78,23 +78,7 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-	
-	"CountTextShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountTextShadow"
-		"font"			"LightGravity20"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"xpos_minmode"	"47"
-		"ypos_minmode"	"38"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"ShadowBlack"
-	}
-	
+
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
@@ -109,5 +93,21 @@
 		"wide"			"20"
 		"tall"			"19"
 		"fgcolor"		"White"
+	}
+
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"LightGravity20"
+		"labelText"		"%counttext%"
+		"textAlignment" "center"
+		"xpos"			"47"
+		"ypos"			"18"
+		"xpos_minmode"	"47"
+		"ypos_minmode"	"38"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"ShadowBlack"
 	}
 }

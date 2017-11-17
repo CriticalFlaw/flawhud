@@ -65,6 +65,28 @@
 				"fgcolor"		"White"
 			}
 			
+			"playernameshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"playernameshadow"
+				"font"			"LightGravity9"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"5"
+				"wide"			"80"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		"ShadowBlack"
+
+				"pin_to_sibling"		"playername"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"

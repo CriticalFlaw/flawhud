@@ -24,9 +24,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-		"image"				"../hud/ammo_blue_bg"
-		"teambg_2"			"../hud/ammo_red_bg"
-		"teambg_3"			"../hud/ammo_blue_bg"
+		"image"			"../hud/ammo_blue_bg"
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_3"		"../hud/ammo_blue_bg"
 	}
 
 	"ItemEffectIcon"
@@ -62,8 +62,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode10"
-		"fgcolor"		"ahudWhite"
+		"font"			"LightGravity10"
+		"fgcolor"		"White"
 	}
 
 	"ItemEffectMeter"

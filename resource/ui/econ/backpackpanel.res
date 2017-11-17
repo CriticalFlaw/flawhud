@@ -260,8 +260,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 
@@ -418,7 +418,7 @@
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"

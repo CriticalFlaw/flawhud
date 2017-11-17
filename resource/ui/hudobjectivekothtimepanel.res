@@ -54,7 +54,6 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"font"			"G_FontSmall"
 				"xpos"			"13"
 				"xpos_minmode"	"13"
@@ -114,7 +113,6 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"font"			"G_FontSmall"
 				"xpos"			"rs1-13"
 				"xpos_minmode"	"rs1-13"

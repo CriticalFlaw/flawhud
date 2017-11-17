@@ -92,10 +92,10 @@
 		"font"					"HudFontMediumSmall"
 	}
 
-	"ItemEffectMeterCountBG"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBG"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"1"
 		"ypos"					"1"
 		"zpos"					"2"

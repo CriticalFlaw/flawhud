@@ -159,10 +159,10 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"Black"
-		"paintbackgroundtype" "2"
-		"font"		"LightGravity10"
+		"fgcolor_override"		"TanLight"
+		"bgcolor_override"		"Black"
+		"paintbackgroundtype" 	"2"
+		"font"					"LightGravity10"
 	}
 	
 	"TopLine"

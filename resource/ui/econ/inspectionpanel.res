@@ -153,10 +153,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"					"TanDark"
+			"defaultFgColor_override" 	"TanDark"
+			"armedFgColor_override" 	"TanDark"
+			"depressedFgColor_override"	"TanDark"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -328,13 +328,13 @@
 			{
 				"visible"	"0"
 			}
-		
-			"fgcolor_override"	"235 226 202 255"
+
+			"fgcolor_override"	"255 255 255 255"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"disabledFgColor_override" "255 255 255 255"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "255 255 255 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -343,7 +343,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"Preview Paint Kit"
+			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"10"
@@ -353,7 +353,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -395,12 +395,12 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"255 255 255 255"
 			"bgcolor_override"	"0 0 0 0"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "255 255 255 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -408,7 +408,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
+			"font"			"G_FontMedium_2"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -423,7 +423,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_item"
 			{
@@ -487,7 +487,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -564,7 +564,10 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"bgcolor_override"	"0 0 0 200"
+			"defaultfgcolor_override"	"White"
+			"defaultbgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
+			"selectedbgcolor_override"	"White"
 			"maxchars"		"18"
 
 			"consume_mode"
@@ -577,7 +580,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"xpos"		"rs1-10"
+			"xpos"			"rs1-10"
 			"ypos"			"75"
 			"fixed_item"
 			{
@@ -587,24 +590,24 @@
 			{
 				"ypos"		"30"
 			}
-			"zpos"		"100"
-			"wide"		"75"
-			"tall"		"20"
-			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
-			"textinsetx"		"0"
+			"zpos"			"100"
+			"wide"			"75"
+			"tall"			"20"
+			"labelText"		"#TF_ItemAd_ViewOnMarket"
+			"font"			"G_FontMedium_2"
+			"textinsetx"	"0"
 			"textAlignment"	"center"
 		
 			"proportionaltoparent"	"1"
-			"paintbackground"	"1"
-			"command"	"market"
-			"actionsignallevel" "2"
-			"RoundedCorners"	"0"
+			"paintbackground"		"1"
+			"command"				"market"
+			"actionsignallevel" 	"2"
+			"RoundedCorners"		"0"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 
-			"border_default"	"NoBorder"
+			"border_default"			"NoBorder"
 
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"

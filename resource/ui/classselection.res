@@ -417,7 +417,7 @@
 		"keyboardinputenabled"	"0"				
 	}
 	
-	"EditLoadoutButton"
+	"EditLoadoutButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
@@ -448,7 +448,7 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
-	"CancelButton"
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -867,6 +867,142 @@
 		"fgcolor"		"White"
 	}
 
+	
+	"MvMUpgradeImageScout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageScout"
+		"xpos"			"c83"
+		"ypos"			"c-63"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSolider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSolider"
+		"xpos"			"c83"
+		"ypos"			"c-49"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImagePyro" 
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImagePyro" 
+		"xpos"			"c83"
+		"ypos"			"c-35"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageDemoman" 
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageDemoman" 
+		"xpos"			"c83"
+		"ypos"			"c-21"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageHeavy"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageHeavy" 
+		"xpos"			"c83"
+		"ypos"			"c-7"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageEngineer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageEngineer"
+		"xpos"			"c83"
+		"ypos"			"c7"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageMedic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageMedic"
+		"xpos"			"c83"
+		"ypos"			"c21"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSniper"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSniper"
+		"xpos"			"c83"
+		"ypos"			"c35"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSpy"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSpy"
+		"xpos"			"c83"
+		"ypos"			"c49"
+		"zpos"			"10"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -907,7 +1043,6 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			"vcd"		"class_select.vcd"						
 		}
 	}
 	

@@ -103,7 +103,7 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"		"EditablePanel"
@@ -137,9 +137,9 @@
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"
-			"paintbackground"	"1"
-			"activeborder_override"	"ButtonDepressedBorder"
-			"normalborder_override" "ButtonDepressedBorder"
+			"paintbackground"			"1"
+			"activeborder_override"		"ButtonDepressedBorder"
+			"normalborder_override" 	"ButtonDepressedBorder"
 
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"DarkGrey"
@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			NormalCode14
+		"font"			"LightGravity14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

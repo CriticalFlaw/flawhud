@@ -72,7 +72,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" 	"2"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"White"
 		
 		if_verbose
@@ -80,7 +80,6 @@
 			"visible"		"1"
 		}
 	}
-
 
 	"SupportLabel"
 	{

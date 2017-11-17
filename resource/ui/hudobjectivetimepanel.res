@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"			"1"	
 		"src_corner_height"		"3"
 		"src_corner_width"		"3"
 		"draw_corner_width"		"0"

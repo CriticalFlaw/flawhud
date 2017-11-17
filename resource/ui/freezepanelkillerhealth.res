@@ -73,7 +73,7 @@
 		"textAlignment"	"center"	
 		"font"			"G_FontMedium"
 		"fgcolor"		"G_HealthValue"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 	}
 
 	"PlayerStatusHealthValueFreezePanelShadow"
@@ -90,7 +90,7 @@
 		"textAlignment"	"center"	
 		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 	}
 
 	"FreezeHealthBG"

@@ -88,6 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"

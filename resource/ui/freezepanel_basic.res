@@ -74,7 +74,7 @@
 		}
 	}	
 	
-	"FreezePanelBase"	[$WIN32]
+	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -137,7 +137,7 @@
 			"wide"			"44"
 			"tall"			"36"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"HealthBonusPosAdj"			"9"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmall"
@@ -168,7 +168,7 @@
 		
 		"AvatarImage"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
 			"xpos"			"32"
 			"ypos"			"9"
@@ -178,8 +178,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
-			"color_outline"		"52 48 45 255"
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
 		}	
 		
 		"NemesisSubPanel"
@@ -268,8 +268,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"c-83"
-		"ypos"			"50"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
@@ -284,8 +284,8 @@
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"38"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/freezecam_black_bg"
 			"scaleImage"	"1"
 		}
@@ -298,8 +298,8 @@
 			"zpos"			"1"
 			"wide"			"36"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_camera"
 			"scaleImage"	"1"	
 		}		
@@ -315,8 +315,8 @@
 			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%text%"
 			"textAlignment"	"west"
 			"dulltext"		"0"
