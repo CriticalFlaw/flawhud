@@ -292,6 +292,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
+		"font"			"LightGravity10"
 		"xpos"			"c-137"
 		"ypos"			"37"
 		"wide"			"90"
@@ -307,7 +308,6 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype" "2"
-		"font"		"LightGravity10"
 	}
 	
 	"SortByComboBox"

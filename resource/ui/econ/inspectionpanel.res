@@ -594,7 +594,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"G_FontMedium_2"
+			"font"			"AdFont_PurchaseButton"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 		
