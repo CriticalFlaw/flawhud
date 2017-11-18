@@ -104,7 +104,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
-
 	
 		if_readymode
 		{
@@ -270,11 +269,8 @@
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
 				"xpos"			"23"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 				"font"			"G_FontSmall"
 			}
 		}	
@@ -293,7 +289,7 @@
 
 		"max_size"	"19"
 
-		"6v6_gap"	"1"
+		"6v6_gap"	"2"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"

@@ -32,7 +32,7 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"PanelBorder"
+			"border"			"WhiteBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
 	}
@@ -53,6 +53,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
 	}
 	
 	"ExplanationLabel"
@@ -90,7 +91,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -116,7 +117,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -145,7 +146,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallest"
+		"font"			"G_FontSmall"
 		"selected_fgcolor_override" "255 0 0 255"
 	}
 }

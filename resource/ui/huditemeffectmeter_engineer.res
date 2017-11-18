@@ -92,10 +92,10 @@
 		"fgcolor"				"White"
 	}
 
-	"ItemEffectMeterCountBackground"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBackground"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"47"
 		"ypos"					"1"
 		"zpos"					"2"

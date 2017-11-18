@@ -53,7 +53,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -75,10 +75,10 @@
 		"fgcolor"				"White"
 	}
 
-	"ItemEffectMeterCountBackground"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBackground"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"47"
 		"ypos"					"1"
 		"zpos"					"2"

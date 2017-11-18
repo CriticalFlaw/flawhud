@@ -1,4 +1,4 @@
-"GameMenu"
+"GameMenu" [$WIN32]
 {
 	// MAIN MENU
 	"CharacterSetupButton"
@@ -25,7 +25,7 @@
 	{
 		"label"			""
 		"command" 		"engine connect XXXXXXXXXXXXXXX"
-        "tooltip" 		"Favorite Server"
+		"tooltip" 		"Favorite Server"
 	}
 
 	// BOTTOM ROW BUTTONS
@@ -54,24 +54,24 @@
 	{
 		"label"			""
 		"command"		"callvote"
+		"OnlyInGame"	"1"
 		"subimage"		"icon_checkbox"
 		"tooltip"		"Call Vote"
-		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
 		"subimage"		"glyph_muted"
 		"tooltip"		"Mute Players"
-		"OnlyInGame"	"1"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
 		"subimage"		"glyph_commentary"
 		"tooltip"		"Report Player"
-		"OnlyInGame"	"1"
 	}
 }

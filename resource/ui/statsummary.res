@@ -241,14 +241,14 @@
 		"NonInteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"	"NonInteractiveHeaders"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"2"
-			"wide"		"f0"
-			"tall"		"480"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"NonInteractiveHeaders"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
 	
 			"BarChartLabelA"
 			{
@@ -2083,7 +2083,7 @@
 		"enabled"		"0"
 		"wrap"			"1"
 	}
-	"NextTipButton"
+	"NextTipButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
@@ -2103,7 +2103,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-	"ResetStatsButton"
+	"ResetStatsButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2123,7 +2123,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
-	"CloseButton"
+	"CloseButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"CloseButton"

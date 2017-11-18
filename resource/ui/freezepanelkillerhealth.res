@@ -71,9 +71,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"LightGravity26"
+		"font"			"G_FontMedium"
 		"fgcolor"		"G_HealthValue"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 	}
 
 	"PlayerStatusHealthValueFreezePanelShadow"
@@ -88,9 +88,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"LightGravity26"
+		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
-		"labelText"		"%Health%"
+		"labeltext"		"%Health%"
 	}
 
 	"FreezeHealthBG"

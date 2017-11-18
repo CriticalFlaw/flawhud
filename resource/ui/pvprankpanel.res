@@ -83,6 +83,11 @@
 				"origin_z"		"0"
 				"spotlight"	"1"
 
+				if_mini
+				{
+					"origin_x"		"55"
+				}
+
 				"animation"
 				{
 					"sequence"	"idle"
@@ -225,7 +230,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"LightGravity10"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 			"labelText"		"%level%"

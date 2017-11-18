@@ -187,9 +187,13 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-		if_operation
+		if_fullmoon
 		{
-			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
+			"image"		"../console/title_fullmoon_widescreen"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011_widescreen"
 		}
 	}
 	
@@ -999,7 +1003,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2017.1030"
+		"labelText"		"v2017.1118"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"

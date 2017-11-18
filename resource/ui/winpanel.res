@@ -497,7 +497,7 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	"Player1Avatar"
+	"Player1Avatar"		[$WIN32]
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
@@ -637,7 +637,7 @@
 		"brighttext"	"0"
 	}
 
-	"Player3Avatar"
+	"Player3Avatar"		[$WIN32]
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
@@ -707,7 +707,6 @@
 		"brighttext"	"0"
 	}
 
-	// KillStreak
 	"KillStreakLeaderLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -764,7 +763,7 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	"KillStreakPlayer1Avatar"
+	"KillStreakPlayer1Avatar"	[$WIN32]
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"KillStreakPlayer1Avatar"

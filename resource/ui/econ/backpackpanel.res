@@ -260,8 +260,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 
@@ -279,7 +279,7 @@
 		"xpos"			"c-167"
 		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"90"
+		"wide"			"30"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -418,7 +418,7 @@
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -579,8 +579,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"

@@ -152,12 +152,10 @@
 		{
 			"visible"	"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -179,7 +177,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"G_FontMedium"
 		"fgcolor"		"White"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -274,7 +272,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"G_FontMedium"
-		"fgcolor"		"ShadowBlack"	
+		"fgcolor"		"ShadowBlack"
 		
 		"if_hybrid"
 		{
@@ -306,7 +304,7 @@
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"

@@ -46,12 +46,13 @@
 		"ypos"			"48"
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"	 		"36"
+		"tall"	 		"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"Blue"
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
@@ -116,7 +117,7 @@
 		"xpos"			"0"
 		"ypos"			"27"
 		"wide"			"44"
-		"tall"			"36"
+		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
 		"HealthBonusPosAdj"			"10"
@@ -146,7 +147,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillStreakIconAnchor"
 		"xpos"			"-4"
-		"ypos"			"38"
+		"ypos"			"28"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"1"
@@ -168,8 +169,8 @@
 		"scaleImage"	"1"
 
 		"pin_to_sibling"		"KillStreakIconAnchor"
-        "pin_corner_to_sibling" "1"
-        "pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	
 	"MoveableSubPanel"
@@ -233,7 +234,7 @@
 
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"LightGravity10"
 			"xpos"			"0"

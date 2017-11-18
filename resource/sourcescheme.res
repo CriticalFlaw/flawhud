@@ -373,7 +373,7 @@ Scheme
 		}
 		"MainMenuFont"
 		{
-			"1"
+			"1"	[$WIN32]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -461,7 +461,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle
+		AchievementItemTitle	[$WIN32]
 		{
 			"1"
 			{

@@ -17,7 +17,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"DarkerGrey"
-		"border"			"WhiteBorder"
 		
 		"BackColor"
     	{
@@ -33,8 +32,8 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"DarkerGrey"
 			"border"			"WhiteBorder"
+			"bgcolor_override"	"DarkerGrey"
     	}
 	}
 	
@@ -54,7 +53,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "255 255 255 255"
 	}
 	
 	"AbandonIcon"
@@ -106,7 +105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -134,7 +133,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
+		"font"			"G_FontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

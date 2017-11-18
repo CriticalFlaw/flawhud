@@ -66,7 +66,7 @@
 
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-320"
 		"ypos"			"0"
@@ -77,13 +77,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
 	
 	"ok"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"c-75"
 		"ypos"			"r30"
@@ -94,12 +94,12 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"labelText"		"Continue (&E)"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
 		"font"			"LightGravity12"
@@ -124,12 +124,12 @@
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
 			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-39"
+			"angles_x"	"0"
+			"angles_y"	"180"
+			"angles_z"	"0"
+			"origin_x"	"290"
+			"origin_y"	"0"
+			"origin_z"	"-39"
 		}
 	}
 	

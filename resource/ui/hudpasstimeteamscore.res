@@ -149,7 +149,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"LightGravity24"
-		"fgcolor"		"ShadowBlack"		
+		"fgcolor"		"ShadowBlack"
 	}
 
 	"PlayingToCluster"
