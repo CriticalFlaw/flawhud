@@ -231,7 +231,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"
+			"font"			"G_FontSmall_2"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -404,8 +404,8 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"33"
-			"ypos"			"80"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"3"
 			"wide"			"6"
 			"tall"			"12"
@@ -436,7 +436,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
+			"font"			"G_FontSmall_2"
 			"xpos"			"32"
 			"ypos"			"79"
 			"zpos"			"5"
@@ -476,7 +476,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"36"
+			"xpos"			"35"
 			"ypos"			"79"
 			"zpos"			"2"
 			"wide"			"8"
