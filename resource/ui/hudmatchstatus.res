@@ -104,7 +104,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
-
 	
 		if_readymode
 		{

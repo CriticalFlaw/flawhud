@@ -90,8 +90,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"30"
-		"ypos"			"14"
+		"xpos"			"33"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"14"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"30"
+		"xpos"			"33"
 		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"40"
@@ -207,12 +207,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"-24"
-		"ypos"			"0"
+		"xpos"			"9999"	"15"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"15"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
@@ -221,13 +221,6 @@
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
 		"fgcolor"		"White"
-		
-		if_match
-		{
-			"xpos"					"c-44"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
@@ -239,13 +232,8 @@
 		"wide"			"39"
 		"tall"			"14"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"fillcolor"	"HudBlack"
-		"PaintBackgroundType"	"0"
-		
-		if_match
-		{
-			"wide"	"0"
-		}	
+		"PaintBackgroundType"	"0"	
 	}
 }
