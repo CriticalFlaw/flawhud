@@ -46,7 +46,7 @@
 		"ypos"			"48"
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"	 		"36"
+		"tall"	 		"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -169,8 +169,8 @@
 		"scaleImage"	"1"
 
 		"pin_to_sibling"		"KillStreakIconAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	
 	"MoveableSubPanel"
