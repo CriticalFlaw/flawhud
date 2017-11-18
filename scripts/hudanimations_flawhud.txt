@@ -1,22 +1,20 @@
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthValue 			FgColor 	"G_HealthValue" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpec 		FgColor 	"G_HealthValue" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpecgui 		FgColor 	"G_HealthValue" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor 	"G_HealthValue" 	Linear 0.0 0.0
-
-	Animate	HealthBG			BgColor		"G_Overheal"	Accel 0.0 0.0
-    Animate	HealthBG			Alpha		"200"			Accel 0.0 0.2
-	Animate	HealthBG			Alpha		"0"				Accel 0.2 0.4
-	Animate	TargetHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
-    Animate	TargetHealthBG		Alpha		"200"			Accel 0.0 0.2
-	Animate	TargetHealthBG		Alpha		"0"				Accel 0.2 0.4
-	Animate	SpecHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
-    Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
-	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
-	Animate	FreezeHealthBG		BgColor		"G_Overheal"	Accel 0.0 0.0
-    Animate	FreezeHealthBG		Alpha		"200"			Accel 0.0 0.2
-	Animate	FreezeHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	HealthBG					BgColor		"G_Overheal"		Accel 0.0 0.0
+    Animate	HealthBG					Alpha		"200"				Accel 0.0 0.2
+	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
+	
+	Animate	TargetHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
+    Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
+	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
+	
+	Animate	SpecHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
+    Animate	SpecHealthBG				Alpha		"200"				Accel 0.0 0.2
+	Animate	SpecHealthBG				Alpha		"0"					Accel 0.2 0.4
+	
+	Animate	FreezeHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
+    Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
+	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -25,41 +23,44 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
-
-	Animate PlayerStatusHealthValue				FgColor "G_HealthValue" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpec			FgColor "G_HealthValue" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpecgui		FgColor "G_HealthValue" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel	FgColor "G_HealthValue" Accel 0.0 0.0
 	
-	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
-	Animate	TargetHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	TargetHealthBG		Alpha		"255"		   Accel 0.0 0.0
-	Animate	SpecHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	SpecHealthBG		Alpha		"255"		   Accel 0.0 0.0
-	Animate	FreezeHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	FreezeHealthBG		Alpha		"255"		   Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"Blank"	     	  	Accel 0.0 0.0
+    Animate	HealthBG					Alpha		"255"		 	 	Accel 0.0 0.0
+	
+	Animate	TargetHealthBG				BgColor		"Blank"	      	 	Accel 0.0 0.0
+    Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.0
+	
+	Animate	SpecHealthBG				BgColor		"Blank"	      		Accel 0.0 0.0
+    Animate	SpecHealthBG				Alpha		"255"		  		Accel 0.0 0.0
+	
+	Animate	FreezeHealthBG				BgColor		"Blank"	      		Accel 0.0 0.0
+    Animate	FreezeHealthBG				Alpha		"255"		  		Accel 0.0 0.0
 }
 //==================================================================================
 
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthValue			FgColor		"G_LowHealthValue"	Linear 0.0 0.0
-	Animate	TargetHealthBG					BgColor		"TeamRed"			Accel 0.0 0.0
-	Animate	TargetHealthBG					Alpha		"200"				Accel 0.0 0.2
-	Animate	TargetHealthBG					Alpha		"0"					Accel 0.2 0.4
+	Animate	HealthBG					BgColor		"G_LowHealthValue"	Accel 0.0 0.0
+    Animate	HealthBG					Alpha		"200"				Accel 0.0 0.2
+	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
+	
+	Animate	TargetHealthBG				BgColor		"G_LowHealthValue"	Accel 0.0 0.0
+	Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
+	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 
-	RunEvent HudHealthDyingPulseLoop		0.4
+	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 event HudHealthDyingPulseStop
 {
-	Animate	PlayerStatusHealthValue			FgColor		"G_HealthValue"		Linear 0.0 0.0
-	Animate	TargetHealthBG					BgColor		"Blank"	       		Accel 0.0 0.0
-	Animate	TargetHealthBG					Alpha		"255"		   		Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"Blank"	      		Accel 0.0 0.0
+    Animate	HealthBG					Alpha		"255"				Accel 0.0 0.0
+	
+	Animate	TargetHealthBG				BgColor		"Blank"	  			Accel 0.0 0.0
+    Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.0
 
-	StopEvent HudHealthDyingPulse 			0.0
-	StopEvent HudHealthDyingPulseLoop 		0.0
+	StopEvent HudHealthDyingPulse 		0.0
+	StopEvent HudHealthDyingPulseLoop 	0.0
 }
 //==================================================================================
 
@@ -74,66 +75,52 @@ event HudLowAmmoPulse
 
 event HudLowAmmoPulseStop
 {
-	Animate AmmoInClip 					FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
-	Animate AmmoInReserve				FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
-	Animate AmmoNoClip					FgColor		"G_AmmoClipValue" 		Linear 0.0 0.0
+	Animate AmmoInClip 					FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
 
-	StopEvent HudLowAmmoPulse 				0.0
-	StopEvent HudLowAmmoPulseLoop 			0.0
+	StopEvent HudLowAmmoPulse 			0.0
+	StopEvent HudLowAmmoPulseLoop 		0.0
 }
 //==================================================================================
 
 event HudMedicCharged
 {
-	Animate ChargeLabel 			FgColor		"ChargePercent"		Linear 0.0 0.0
-	Animate ChargeLabel 			FgColor 	"ChargePercent"		Linear 0.0 0.0
+	Animate ChargeLabel 				FgColor		"ChargePercent"		Linear 0.0 0.0
+	Animate ChargeLabel 				FgColor 	"ChargePercent"		Linear 0.0 0.0
 
-	Animate	ChargeMeter 			FgColor		"Ubercharge1"		Linear 0.0 0.1
-	Animate	ChargeMeter 			FgColor		"Ubercharge2"		Linear 0.3 0.4
+	Animate	ChargeMeter 				FgColor		"Ubercharge1"		Linear 0.0 0.1
+	Animate	ChargeMeter 				FgColor		"Ubercharge2"		Linear 0.3 0.4
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop		0.6
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 		0.0
-	StopEvent HudMedicChargedLoop 	0.0
+	StopEvent HudMedicCharged 			0.0
+	StopEvent HudMedicChargedLoop 		0.0
 
-	Animate	ChargeMeter 			FgColor		"Ubercharge Meter"	Linear 0.0 0.0001
-	Animate ChargeLabel 			FgColor 	"ChargePercent"		Linear 0.0 0.0001
+	Animate	ChargeMeter 				FgColor		"Ubercharge Meter"	Linear 0.0 0.0001
+	Animate ChargeLabel 				FgColor 	"ChargePercent"		Linear 0.0 0.0001
 }
 //==================================================================================
 
 event DamagedPlayer 
 {
-	StopEvent HitMarker 			0.0
-	RunEvent HitMarker 				0.01
+	StopEvent HitMarker 				0.0
+	RunEvent HitMarker 					0.01
 }
 
 event HitMarker
 {
-	Animate KnucklesCrosses	 		FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
-	Animate KnucklesCrosses	 		FgColor 	"Crosshair" 		Linear 0.15 0.0
+	Animate KnucklesCrosses	 			FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
+	Animate KnucklesCrosses	 			FgColor 	"Crosshair" 		Linear 0.15 0.0
 }
 //==================================================================================
+event MMenu_PlayList_Expand { }
+event MMenu_PlayList_Collapse { }
+event MMenu_PlayList_Collapse_Immediate { }
 
-event MMenu_PlayList_Expand
-{
-	// empty
-}
-
-event MMenu_PlayList_Collapse
-{
-	// empty
-}
-
-event MMenu_PlayList_Collapse_Immediate
-{
-	// empty
-}
-
-//==================================================================================
-// Do not move chat window
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
 event HudTournament_MoveChatWindow 		{ }
