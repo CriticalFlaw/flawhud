@@ -62,7 +62,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity10"
+		"font"			"G_FontTiny"
 		"fgcolor"		"White"
 	}
 
