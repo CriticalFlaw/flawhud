@@ -416,7 +416,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"		"20"
+				"xpos"		"9999"
 				"wide"		"5"
 				"tall"		"10"
 			}
@@ -453,7 +453,6 @@
 			
 			"if_multiple_trains"
 			{
-				"font"		"HudFontSmallest"
 				"xpos"		"16"
 				"wide"		"18"
 				"tall"		"10"
