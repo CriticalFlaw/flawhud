@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"30"
+		"xpos"			"32"
 		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"40"
