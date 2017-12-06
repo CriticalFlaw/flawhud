@@ -51,8 +51,8 @@
 			"model_tall"		"55"
 			"model_wide"		"82"
 			"text_ypos"			"0"
-			"text_center"		"0"
 			"text_forcesize"	"2"
+			"text_center"		"0"
 			"text_yoffset"		"2"
 			"inset_eq_y"		"55"
 			"name_only"			"1"
@@ -156,7 +156,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
 		"font"			"HudFontMediumBold"
-
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -164,7 +163,6 @@
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
-
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -203,13 +201,12 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
+		"fov"				"30"
 		"allow_manip"		"1"
 				
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"

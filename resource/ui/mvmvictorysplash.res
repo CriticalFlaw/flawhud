@@ -2,17 +2,17 @@
 {	
 	"SplashContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SplashContainer"
-		"xpos"			"c-150"
-		"ypos"			"c-20"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SplashContainer"
+		"xpos"				"c-150"
+		"ypos"				"c-20"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"1"
 		
 		"SplashBackground"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SplashBackground"
 			"xpos"			"25"
 			"ypos"			"16"

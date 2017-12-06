@@ -867,7 +867,6 @@
 		"fgcolor"		"White"
 	}
 
-	
 	"MvMUpgradeImageScout"
 	{
 		"ControlName"	"ImagePanel"

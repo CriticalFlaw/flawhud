@@ -18,7 +18,7 @@
 		"red_base_y"	"c-119"
 		"red_offset_x"	"0"
 		"red_offset_y"	"18"
-		
+
 		"blu_base_x"	"-2"
 		"blu_base_y"	"c-137"
 		"blu_offset_x"	"0"

@@ -11,27 +11,26 @@
 		"visible"		"1"
 		
 		//"PaintBackgroundType"	"0"
-		//"paintbackground"	"0"
-		//"border"		"MainMenuHighlightBorder"
+		//"paintbackground"		"0"
+		//"border"				"MainMenuHighlightBorder"
 		
 		"StatsBackground"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"SplashBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"530"
-			"tall"			"230"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"Grey"
+			"fieldName"			"SplashBackground"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"530"
+			"tall"				"230"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"Grey"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"src_corner_height"		"22"
+			"src_corner_width"		"22"
+			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -153,7 +152,7 @@
 				"fgcolor"		"White"
 			}
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -169,31 +168,30 @@
 
 	"DoneButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DoneButton"
-		"xpos"			"-8"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"106"
-		"tall"			"20"
-		"autoResize"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"DoneButton"
+		"xpos"				"-8"
+		"ypos"				"10"
+		"zpos"				"100"
+		"wide"				"106"
+		"tall"				"20"
+		"autoResize"		"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#DoneButton"
+		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"235 226 202 255"
-		"Command"		"done"
+		"Command"			"done"
 
-		"pin_to_sibling"               "StatsContainer"
-		"pin_corner_to_sibling"        "1"          
-		"pin_to_sibling_corner"        "3" 
+		"pin_to_sibling"			"StatsContainer"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"3" 
 	}
 }

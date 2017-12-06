@@ -6,7 +6,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"OptionsButton"
-		"visible"	"0"
+		"visible"		"0"
 	}
 
 	"PlayNowButton"
@@ -42,7 +42,7 @@
 		"border_default"	"WhiteBorder"
 		"border_armed"		"WhiteBorder"
 		"paintbackground"	"1"
-			
+
 		"defaultFgColor_override" 	"White"
 		"defaultBgColor_override"	"Black"
 		"armedFgColor_override" 	"Black"

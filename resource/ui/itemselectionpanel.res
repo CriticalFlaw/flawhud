@@ -15,13 +15,13 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"		"DarkGrey"
 		
-		"item_ypos"		"60"
-		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-288"
-		"item_backpack_xdelta"			"4"
-		"item_backpack_ydelta"			"3"
+		"item_ypos"				"60"
+		"item_ydelta"			"80"
+		"item_backpack_offcenter_x"	"-288"
+		"item_backpack_xdelta"	"4"
+		"item_backpack_ydelta"	"3"
 
 		"modelpanels_selection_kv"
 		{
@@ -305,8 +305,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c86"
-		"ypos"			"325"
+		"xpos"			"c-20"
+		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"20"
@@ -406,8 +406,8 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"paintbackground"	"0"
+		"paintborder"			"1"
+		"paintbackground"		"0"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"

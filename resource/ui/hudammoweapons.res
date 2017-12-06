@@ -56,8 +56,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"G_FontHuge"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"2"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"42"
@@ -65,6 +65,10 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
+
+		"pin_to_sibling"	"AmmoInClip"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"AmmoInReserve"
 	{
@@ -88,8 +92,8 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"76"
-		"ypos"			"39"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"42"
 		"tall"			"27"
@@ -97,6 +101,10 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
+
+		"pin_to_sibling"	"AmmoInReserve"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"AmmoNoClip"
@@ -121,8 +129,8 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"G_FontHuge"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"12"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
@@ -130,5 +138,9 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
+
+		"pin_to_sibling"	"AmmoNoClip"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

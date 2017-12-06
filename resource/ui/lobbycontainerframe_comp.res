@@ -4,7 +4,7 @@
 {
 	"StartPartyButton"
 	{
-		//"xpos"			"c+120"
+		//"xpos"		"c+120"
 		"ypos"			"380"
 	}
 

@@ -67,7 +67,7 @@
 		"fieldName"		"OverlayImage"
 		"xpos"			"16"
 		"ypos"			"1"
-		"zpos"			"60"
+		"zpos"			"4"
 		"wide"			"9"
 		"tall"			"9"
 		"visible"		"0"

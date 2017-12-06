@@ -54,8 +54,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
-		"xpos"			"27"
-		"ypos"			"69"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"20"
@@ -70,5 +70,9 @@
 		"brighttext"	"0"
 		"font"			"G_FontMedium"
 		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"AccountValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

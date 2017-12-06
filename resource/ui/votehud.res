@@ -2,14 +2,14 @@
 {	
 	"VotePassed"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VotePassed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"145"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"VotePassed"
+		"xpos"				"10"
+		"ypos"				"r315"
+		"wide"				"145"
+		"tall"				"60"
+		"visible"			"0"
+		"enabled"			"1"
 		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
 				
@@ -63,20 +63,20 @@
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
-			"noshortcutsyntax" "1"
+			"noshortcutsyntax"	"1"
 		}		
 	}
 	
 	"VoteActive"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VoteActive"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"145"
-		"tall"			"144"
-		"visible"		"0"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"VoteActive"
+		"xpos"				"10"
+		"ypos"				"r315"
+		"wide"				"145"
+		"tall"				"144"
+		"visible"			"0"
+		"enabled"			"1"
 		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
 		
@@ -91,9 +91,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%header%"
-			"textAlignment"		"north-west"
+			"textAlignment"	"north-west"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
@@ -115,8 +115,8 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
-			"wrap"			"1"
-			"noshortcutsyntax" "1"
+			"wrap"				"1"
+			"noshortcutsyntax"	"1"
 		}
 
 		"TargetAvatarImage"
@@ -134,7 +134,7 @@
 			"color_outline"	"52 48 45 255"
 		}
 		
-		// divider
+		// Divider
 		"Divider"
 		{
 			"ControlName"	"ImagePanel"
@@ -148,7 +148,6 @@
 		}
 		
 		// Temp UI
-		
 		"LabelOption1"
 		{
 			"ControlName"	"Label"
@@ -401,14 +400,14 @@
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CallVoteFailed"
-		"xpos"			"10"
-		"ypos"			"c-80"
-		"wide"			"145"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"CallVoteFailed"
+		"xpos"				"10"
+		"ypos"				"c-80"
+		"wide"				"145"
+		"tall"				"60"
+		"visible"			"0"
+		"enabled"			"1"
 		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
 				
@@ -468,14 +467,14 @@
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VoteFailed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"67"
-		"visible"		"0"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"VoteFailed"
+		"xpos"				"10"
+		"ypos"				"r315"
+		"wide"				"150"
+		"tall"				"67"
+		"visible"			"0"
+		"enabled"			"1"
 		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
 				
@@ -592,7 +591,6 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			
 			"linespacing"	"16"
 		}
 		
@@ -632,24 +630,24 @@
 		}
 		"ComboBox"
 		{
-			"ControlName"		"ComboBox"
-			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
-			"xpos"				"85"
-			"ypos"				"245"
-			"zpos"				"1"
-			"wide"				"235"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"1"
-			"textHidden"		"0"
-			"editable"			"0"
-			"maxchars"			"-1"
+			"ControlName"	"ComboBox"
+			"fieldName"		"ComboBox"
+			"Font"			"HudFontSmallestBold"
+			"xpos"			"85"
+			"ypos"			"245"
+			"zpos"			"1"
+			"wide"			"235"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"1"
+			"textHidden"	"0"
+			"editable"		"0"
+			"maxchars"		"-1"
 			"NumericInputOnly"	"0"
-			"unicode"			"0"
+			"unicode"		"0"
 			
 			"fgcolor_override"			"White"
 			"bgcolor_override"			"Black"

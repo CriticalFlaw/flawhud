@@ -28,7 +28,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"Hudblack"
+		"fillcolor"		"HudBlack"
 	}
 
 	"MapInfoTitle"
@@ -125,11 +125,11 @@
 		"font"			"Blank"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 	}
 
 	"MapInfoContinue2"
@@ -154,11 +154,11 @@
 		"font"			"LightGravity12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "White"
+		"fgcolor"					"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"White"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"MapInfoWatchIntro"
@@ -183,11 +183,11 @@
 		"font"			"LightGravity12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 	}
 
 	"MapInfoBack"
@@ -211,11 +211,11 @@
 		"font"			"LightGravity12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"MapInfoBack2"
@@ -239,11 +239,11 @@
 		"font"			"LightGravity12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "White"
+		"fgcolor"					"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"White"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"MenuBG"
@@ -265,14 +265,12 @@
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
 			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
-			"origin_y" "0"
-			"origin_z" "-39"
+			"angles_x"	"0"
+			"angles_y"	"180"
+			"angles_z"	"0"
+			"origin_x"	"290"
+			"origin_y" 	"0"
+			"origin_z" 	"-39"
 		}
 	}
 
