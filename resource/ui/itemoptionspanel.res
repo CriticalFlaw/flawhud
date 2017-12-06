@@ -56,7 +56,7 @@
 			"wide"			"140"
 			"tall"			"14"
 			"autoResize"	"0"
-			"RoundedCorners	"15"
+			"RoundedCorners" "15"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
