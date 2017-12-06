@@ -392,8 +392,8 @@
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fgcolor_override"	"White"
 		}
 
@@ -420,7 +420,7 @@
 			"actionsignallevel" "2"
 
 			"Command"		"noti_show"
-			"navActivate"	"<QuickplayButton"
+			"navActivate"	"QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
