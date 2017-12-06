@@ -24,9 +24,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -41,7 +39,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"G_FontMedium"
-			"fgcolor"		"White"
+			"fgcolor"		"HUDBlueTeam"
 			"xpos"			"3"
 			"ypos"			"2"
 			"zpos"			"3"
@@ -57,12 +55,9 @@
 				"proportionaltoparent"	"1"
 				"font"			"G_FontSmall"
 				"xpos"			"13"
-				"xpos_minmode"	"13"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 				"tall"			"15"
 				"wide"			"35"
-				"wide_minmode"	"35"
 			}
 		}
 	}
@@ -83,9 +78,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"xpos"					"cs-0.5"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
@@ -101,7 +94,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"G_FontMedium"
-			"fgcolor"		"White"
+			"fgcolor"		"HUDRedTeam"
 			"xpos"			"3"
 			"ypos"			"2"
 			"zpos"			"3"
@@ -117,12 +110,9 @@
 				"proportionaltoparent"	"1"
 				"font"			"G_FontSmall"
 				"xpos"			"rs1-13"
-				"xpos_minmode"	"rs1-13"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 				"wide"			"35"
 				"tall"			"15"
-				"wide_minmode"	"35"
 			}
 		}
 	}

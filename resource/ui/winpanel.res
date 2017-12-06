@@ -302,7 +302,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Hudblack"
+		"fillcolor"		"0 0 0 255"
 	}
 	"WinningTeamLabel"
 	{	
