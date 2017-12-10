@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"28"
 		"ypos"			"0"
@@ -11,7 +11,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"
+		"fillcolor"			"Black"
 		"scaleImage"			"1"	
 		"src_corner_height"		"3"
 		"src_corner_width"		"3"
@@ -185,8 +185,9 @@
 
 		if_match
 		{
-			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"xpos"				"30"
+			"ypos"				"21"
+			"ypos_minmode"		"21"
 		}
 	}
 	"SetupBG"
