@@ -24,4 +24,4 @@ If you've found a bug, need help or have a suggestion - consider one of the foll
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)
 * [Post on the Steam Group Forums](https://steamcommunity.com/groups/FlawHUD/discussions)
 
-v2017.10.30
+v2017.12.10
