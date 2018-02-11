@@ -17,10 +17,10 @@
 		}
 	}
 
-	"PanelCoverLeft"
+	"PanelCover"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PanelCoverLeft"
+		"fieldName"		"PanelCover"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -98,9 +98,6 @@
 			}
 
 			"medigun-quickfix" {
-				//"ypos"	"0"
-				//"wide"	"17"
-				//"tall"	"17"
 				"image"		"replay/thumbnails/quickfix"
 			}
 
@@ -164,7 +161,7 @@
         "dulltext"		"0"
         "brighttext"	"0"
         "font"			"G_FontTiny"
-        "fgcolor"		"White"	//"89 196 31 255"
+        "fgcolor"		"White"
 
         "medigun-vaccinator" {
             "labelText"	"%charges%"
@@ -221,7 +218,7 @@
         "dulltext"			"0"
         "brighttext"		"0"
         "bgcolor_override"	"ProgressBackground"
-        "fgcolor_override" 	"Brown"	//"ProgressOffWhite"
+        "fgcolor_override" 	"Brown"
         "direction"			"east"
         "variable"			"charge"
 

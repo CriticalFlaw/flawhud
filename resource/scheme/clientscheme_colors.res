@@ -10,19 +10,15 @@ Scheme
 		"DarkBlue"					"46 73 82 255"
 		"Red"						"158 64 61 255"
 		"DarkRed"					"102 48 46 255"
-
 		"Green"						"92 122 90 255"
 		"DarkGreen"					"38 53 36 255"
 		"Yellow"					"170 221 183 255"
 		"BrightYellow"				"218 165 32 255"
-
 		"White"						"242 242 242 255"
 		"DullWhite"					"132 132 132 255"
-
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
-
 		"Black"						"17 17 17 255"
 		"Brown"						"49 44 41 255"
 		"ShadowBlack"				"7 7 7 255"
@@ -49,8 +45,8 @@ Scheme
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Ubercharge1"				"170 240 45 255"
-		"Ubercharge2"				"100 240 45 255"
+		"Ubercharge1"				"0 170 127 255"
+		"Ubercharge2"				"0 120 127 255"
 		"ChargePercent"				"243 243 243 255"
 		"Ubercharge Meter"			"0 255 127 255"
 		//---------------------------------------------
@@ -63,12 +59,12 @@ Scheme
 		"TFOrange"						"145 73 59 255"
 		"Purple"						"137 69 99 255"
 
-		"QuestGold"						"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestUncommitted"				"183 147 100 255"
 
+		"QuestGold"						"208 147 75 255"
+		"QuestUncommitted"				"183 147 100 255"
 		"QuestMap_Bonus"				"222 217 166 255"
 		"QuestMap_ActiveOrange"			"212 127 25 255"
 		"QuestMap_InactiveGrey"			"100 100 100 255"
@@ -89,10 +85,10 @@ Scheme
 		"TransparentYellow"				"251 235 202 140"
 		"BrightYellow"					"251 235 0 255"
 		//"Black"						"0 0 0 255"
-		//Changed black to a NTSC safe color
 		"GreenSolid"		 			"76 107 34 255"
 		
 		"Black"							"46 43 42 255"
+		"Transparent"					"0 0 0 0"
 		"TransparentBlack"				"0 0 0 196"
 		"TransparentLightBlack"			"0 0 0 90"
 		"FooterBGBlack"					"52 48 55 255"
@@ -131,8 +127,8 @@ Scheme
 		// Training
 		"HudTrainingHint"				"212 160 23 255"
 		
-		"TanDark"						"255 255 255 255"	//"132 132 132 255"
-		"TanLight"						"255 255 255 255"	//"242 242 242 255"
+		"TanDark"						"255 255 255 255"
+		"TanLight"						"255 255 255 255"
 		"TanDarker"						"46 43 42 255"
 
 		"StoreDarkTan"					"131 121 104 255"
@@ -144,8 +140,6 @@ Scheme
 		"ProgressBackground"			"250 234 201 51"
 		"HealthBgGrey"					"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
-		
 		"LabelDark"						"48 43 42 255"
 		"LabelTransparent"				"109 96 80 180"
 		
@@ -154,6 +148,7 @@ Scheme
 		"DisguiseMenuIconRed"			"192 56 63 255"
 		"DisguiseMenuIconBlue"			"92 128 166 255"
 
+		"ProgressOffWhiteTransparent"	"251 235 202 128"
  		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
  		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
@@ -252,7 +247,6 @@ Scheme
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-		
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
