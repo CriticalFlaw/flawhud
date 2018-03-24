@@ -50,6 +50,13 @@
 		"subimage" 		"glyph_tv"
 		"tooltip" 		"Replay"
 	}
+	"ConsoleButton"
+	{
+		"label"			""
+		"command"		"engine toggleconsole"
+		"subimage"		"glyph_options"
+		"tooltip"		"Console"
+	}
 	"CallVoteButton"
 	{
 		"label"			""

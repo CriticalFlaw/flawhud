@@ -1423,11 +1423,64 @@
 		}
 	}
 	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"45"
+		"ypos"			"460"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"G_White"
+			"image_armedcolor"	"214 206 200 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_tf2"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
 	"CallVoteButton"	//IN-GAME BUTTON
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"50"
+		"xpos"			"65"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1486,7 +1539,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"65"
+		"xpos"			"80"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1546,7 +1599,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"80"
+		"xpos"			"95"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
