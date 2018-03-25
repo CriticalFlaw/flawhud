@@ -217,14 +217,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-320"
+		"xpos"			"90"
 		"ypos"			"94"
 		"zpos"			"1"
 		"wide"			"o4"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
+		"image"			"../logo/inferno_logo_anim"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
@@ -258,18 +258,15 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-185"
+		"xpos"			"145"
 		"ypos"			"cs-0.5-82"
-
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
-
 		"matchgroup"	"MatchGroup_Casual_12v12"
-
 		"show_progress"	"0"
 	}
 	
@@ -285,10 +282,8 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
-
 		"show_model"	"0"
 	}
 
@@ -938,14 +933,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-355"
+		"xpos"			"55"
 		"ypos"			"40"
 		"zpos"			"-53"
 		"wide"			"o2"
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/jungle_inferno_logo"
+		"image"			"../logo/jungle_inferno_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 		 
@@ -979,16 +974,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"9999"	//"c-250"
-
-		if_taller
-		{
-			if_operation
-			{
-				"xpos"		"c-300"
-			}
-		}
-
+		"xpos"			"9999"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
