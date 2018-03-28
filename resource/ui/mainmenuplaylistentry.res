@@ -15,6 +15,22 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
+	
+	"PlayListDropShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListDropShadow"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"InnerShadowBorderThin"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
 
 	"BGColor"
 	{

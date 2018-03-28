@@ -32,7 +32,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"36"
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"4"
