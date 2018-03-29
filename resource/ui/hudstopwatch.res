@@ -16,9 +16,10 @@
 		"fillcolor"		"HudBlack"
 		if_comp
 		{
-			"xpos"	"c-54"
-			"ypos"	"31"
-			"visible"	"0"
+			"xpos"	"c-40"
+			"ypos"	"22"
+			"visible"	"1"
+			"wide"	"80"
 		}
 	}
 
@@ -51,8 +52,8 @@
 		
 		if_comp
 		{
-			"xpos"			"c-52"
-			"ypos"			"31"
+			"xpos"			"c-50"
+			"ypos"			"24"
 		}
 
 		"TimePanelValue"
@@ -93,7 +94,7 @@
 		if_comp
 		{
 			"xpos"	"c-3"
-			"ypos"	"31"
+			"ypos"	"24"
 		}
 	}
 
@@ -119,7 +120,7 @@
 		if_comp
 		{
 			"xpos"		"c7"
-			"ypos"		"31"
+			"ypos"		"24"
 		}
 	}
 
@@ -145,7 +146,7 @@
 		if_comp
 		{
 			"xpos"		"c-62"
-			"ypos"		"31"
+			"ypos"		"24"
 		}
 	}
 

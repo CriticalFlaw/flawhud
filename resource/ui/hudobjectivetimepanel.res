@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"32"
+		"xpos"			"30"
 		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"40"
@@ -69,7 +69,7 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"wide"					"p1"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -107,8 +107,9 @@
 
 		if_match
 		{
-			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"xpos"			"29"
+			"ypos"			"21"
+			"wide"			"p1"
 		}
 	}
 	"OvertimeBG"
@@ -147,7 +148,7 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"wide"					"p1"
 		}
 	}
 	"SuddenDeathBG"
@@ -185,9 +186,9 @@
 
 		if_match
 		{
-			"xpos"				"30"
+			"xpos"				"29"
 			"ypos"				"21"
-			"ypos_minmode"		"21"
+			"wide"				"p1"
 		}
 	}
 	"SetupBG"
@@ -208,7 +209,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"9999"	"15"
+		"xpos"			"15"
 		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
@@ -222,6 +223,12 @@
 		"wrap"			"0"
 		"font"			"G_FontTiny_2"
 		"fgcolor"		"White"
+
+		if_match
+		{
+			"xpos"		"9999"
+			"wide"		"p1"
+		}
 	}
 	"ServerTimeLimitLabelBG"
 	{

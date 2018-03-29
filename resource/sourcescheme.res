@@ -7,7 +7,6 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		"HudBlack"					"0 0 0 200"
-		"Black"						"17 17 17 255"
 		"Blue"						"72 112 125 255"
 		"DarkBlue"					"46 73 82 255"
 		"Red"						"158 64 61 255"
@@ -21,6 +20,7 @@ Scheme
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
+		"Black"						"17 17 17 255"
 
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
@@ -237,8 +237,6 @@ Scheme
                 "name"			"Georgia" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"			"11" [$POSIX]	// "11"
                 "tall"			"10" 			//good positioning is ... "net_graphpos 183" and "net_graphheight 30" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef" 	"15" 			//"15"
-                "tall_hidef" 	"20" 			//"20" 
                 "weight"     	"0"  			//"0" // This is the thickness, like a bold setting max is about 700. Small fonts will look better as "0".
                 "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         	"480 599"            
@@ -252,9 +250,7 @@ Scheme
                 "name"			"Lucida Console" [$X360]    //"Lucida Console"
                 "name"			"Georgia" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"			"12" [$POSIX]  	// "11"                
-                "tall"			"12" 			//good positioning is ... "net_graphpos 190" and "net_graphheight 45" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef"	"15" 			//"15"
-                "tall_hidef" 	"20" 			//"20"                
+                "tall"			"12" 			//good positioning is ... "net_graphpos 190" and "net_graphheight 45" and ensure you select "antialias"  "1" with all others off with "Georgia" font.             
                 "weight"     	"0"
                 "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         	"600 767"
@@ -268,9 +264,7 @@ Scheme
 				"name"         	"Lucida Console" [$X360]    	//"Lucida Console"
                 "name"         	"Verdana" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         	"13" [$POSIX]  	// "11"                
-                "tall"         	"13"  			//good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.
-                "tall_lodef" 	"15" 			//"15"
-                "tall_hidef" 	"20" 			//"20"                
+                "tall"         	"13"  			//good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.             
                 "weight"     	"0"
                 "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         	"768 1023"
@@ -284,9 +278,7 @@ Scheme
 				"name"         	"Lucida Console" [$X360]    //"Lucida Console"
 				"name"         	"Arial" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         	"19" [$POSIX]  	// "11"                
-                "tall"         	"19"  			// good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" 	"15" 			//"15"
-                "tall_hidef" 	"20" 			//"20"                
+                "tall"         	"19"  			// good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.             
                 "weight"     	"0"
                 "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         	"1024 1199"
@@ -300,9 +292,7 @@ Scheme
                 "name"         	"Lucida Console" [$X360]    //"Lucida Console"
                 "name"         	"Arial" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Arial" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         	"19" [$POSIX]  	// "11"                
-                "tall"         	"19" 			// good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" 	"15" 			//"15"
-                "tall_hidef" 	"20" 			//"20"                
+                "tall"         	"19" 			// good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.              
                 "weight"     	"0"
                 "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         	"1200 6000"
@@ -311,6 +301,7 @@ Scheme
                 "antialias"  	"0"  			//not default added //smoothing the edges.
             }
 		}
+
 		"Gravity35"
 		{
 			"1"
@@ -382,6 +373,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"MenuLarge"
 		{
 			"1"
@@ -459,8 +451,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-				
+			
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -499,7 +490,6 @@ Scheme
 				"antialias"	"1" 			[!$OSX]
 			}
 		}
-
 	}
 	
 	Borders
@@ -515,7 +505,6 @@ Scheme
 		{
 			// rounded corners for frames
 			//"backgroundtype" "2"
-
 			Left
 			{
 				"1"
@@ -524,7 +513,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -533,7 +521,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -542,7 +529,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -564,7 +550,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -573,7 +558,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -582,7 +566,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -620,7 +603,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -629,7 +611,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -638,7 +619,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -661,7 +641,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -670,7 +649,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -679,7 +657,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -693,17 +670,14 @@ Scheme
 		TabBorder
 		{
 			"inset" "1 1 1 1"
-
 			render 
 			{
 				"0" "fill( x0, y0, x1, y1, Black )"
 			}
-
 			render_bg 
 			{
 				"0" "fill( x0, y0, x1, y1, Orange )"
 			}
-
 		}
 
 		TabActiveBorder
@@ -717,7 +691,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -726,7 +699,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -737,7 +709,6 @@ Scheme
 			}
 
 		}
-
 
 		ToolTipBorder
 		{
@@ -750,7 +721,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -759,7 +729,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -768,7 +737,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"

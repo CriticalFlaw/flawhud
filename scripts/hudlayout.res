@@ -85,6 +85,7 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"0"
+		"zpos"				"5"
 		"wide"				"200"
 		"tall"				"200"
 
@@ -180,15 +181,13 @@
 		"ypos"					"0"
 		"tall"					"480"
 		"RightMargin"			"0"
-		"RightMargin_hidef" 	"32"
-		"RightMargin_lodef" 	"38"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"SmallBoxWide"			"72"
 		"SmallBoxTall"			"54"
 		"PlusStyleBoxWide"		"90"
 		"PlusStyleBoxTall"		"63"
-		"PlusStyleExpandSelected""0.3"
+		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide"			"110"
 		"LargeBoxTall"			"77"
 		"BoxGap"				"4"
@@ -459,7 +458,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r635"
-		"ypos"	 				"15"
+		"ypos"	 				"20"
 		"wide"	 				"628"
 		"tall"	 				"468"
 
@@ -572,11 +571,11 @@
 		"ypos"				"247"
 		"wide"				"500"
 		"tall"				"136"
+
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"
-
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"			"0"
 	}
@@ -810,7 +809,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r163"
+		"ypos"			"r154"
 		"wide"			"200"
 		"tall"			"152"
 		"zpos"			"4"
@@ -931,19 +930,6 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	"HudEurekaEffectTeleportMenu"
-	{
-		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-75"
-		"ypos"			"c-35"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"88"
-		"PaintBackgroundType"	"0"
-	}
-
 	"HudMenuEngyDestroy"
 	{
 		"fieldName" 	"HudMenuEngyDestroy"
@@ -953,6 +939,19 @@
 		"ypos"			"c-35"
 		"zpos"			"1"
 		"wide"			"250"
+		"tall"			"88"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-75"
+		"ypos"			"c-35"
+		"zpos"			"1"
+		"wide"			"150"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
@@ -1080,6 +1079,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"70"
 	}

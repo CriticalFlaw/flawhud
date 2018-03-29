@@ -217,14 +217,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-320"
+		"xpos"			"90"
 		"ypos"			"94"
 		"zpos"			"1"
 		"wide"			"o4"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
+		"image"			"../logo/inferno_logo_anim"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
@@ -258,19 +258,87 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-185"
+		"xpos"			"145"
 		"ypos"			"cs-0.5-82"
-
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_progress"	"0"
+	}
+	
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"279"
+		"ypos"			"cs-0.5-99"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+	
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-285"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"			"8"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_progress"	"0"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
 	}
 	
 	"RankPanel"
@@ -282,14 +350,65 @@
 		"zpos"			"-52"
 		"wide"			"170"
 		"tall"			"100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_model"	"0"
+	}
+	
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-99"
+		"wide"			"260"
+		"tall"			"100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
+		"wrap"			"1"
+		"textinsetx"	"40"
+		"textinsety"	"10"
 
-		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"north-west"
+		"use_proportional_insets"	"1"
+	}
 
-		"show_model"	"0"
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"c-285"
+		"ypos"			"107"
+		"zpos"			"-99"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"40"
+		"ypos"			"130"
+		"zpos"			"-55"
+		"wide"			"260"
+		"tall"			"130"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
 	}
 
 	"TooltipPanel"
@@ -938,14 +1057,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-355"
+		"xpos"			"55"
 		"ypos"			"40"
 		"zpos"			"-53"
 		"wide"			"o2"
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/jungle_inferno_logo"
+		"image"			"../logo/jungle_inferno_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 		 
@@ -979,16 +1098,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"9999"	//"c-250"
-
-		if_taller
-		{
-			if_operation
-			{
-				"xpos"		"c-300"
-			}
-		}
-
+		"xpos"			"9999"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
@@ -1003,7 +1113,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2017.1210"
+		"labelText"		"v2018.0328"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
@@ -1423,11 +1533,64 @@
 		}
 	}
 	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"45"
+		"ypos"			"460"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"G_White"
+			"image_armedcolor"	"214 206 200 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_tf2"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
 	"CallVoteButton"	//IN-GAME BUTTON
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"50"
+		"xpos"			"65"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1486,7 +1649,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"65"
+		"xpos"			"80"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
@@ -1546,7 +1709,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"80"
+		"xpos"			"95"
 		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"

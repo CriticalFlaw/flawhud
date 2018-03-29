@@ -540,8 +540,6 @@ Scheme
 				"weight"		"0"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -648,6 +646,7 @@ Scheme
 				"weight"		"800"
 			}
 		}
+
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -673,6 +672,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		HudHintText
 		{
 			"1"
@@ -718,7 +718,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"24"
-				"tall_lodef"	"80"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -728,7 +727,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"32"
-				"tall_hidef"	"120"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -768,7 +766,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"44"
-				"tall_lodef"	"52"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -780,7 +777,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"35"
-				"tall_lodef"	"40"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -792,7 +788,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"36"
-				"tall_hidef"	"48"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -826,7 +821,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"24"
-				"tall_lodef"	"28"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -871,8 +865,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -884,8 +876,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -897,7 +887,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"14"
-				"tall_lodef"	"16"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1045,8 +1034,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1064,6 +1051,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		GameUIButtons
 		{
 			"1"	//[$X360]
@@ -1071,9 +1059,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -1103,9 +1089,7 @@ Scheme
 				"bitmap"		"1"
 				"name"			"ButtonsSC"
 				"scalex"		"0.5"
-				"scalex_lodef"	"0.75"
 				"scaley"		"0.5"
-				"scaley_lodef"	"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1134,8 +1118,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1161,8 +1143,6 @@ Scheme
 			{
 				"name"			"TF2"
 				"tall"			"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1198,8 +1178,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1211,7 +1189,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"8"
-				"tall_hidef"	"7"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1344,7 +1321,6 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
-				"tall_hidef"	"32"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1356,7 +1332,6 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
-				"tall_hidef"	"32"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1369,7 +1344,6 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
-				"tall_hidef"	"32"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1381,7 +1355,6 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
-				"tall_hidef"	"32"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
@@ -1394,7 +1367,6 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"16"
-				"tall_hidef"	"24"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1440,7 +1412,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"11"
-				"tall_lodef"	"14"
 				"antialias" 	"1"
 				"weight"		"500"
 			}
@@ -1462,8 +1433,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"13"
-				"tall_hidef"	"14"
-				"tall_lodef"	"17"
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1476,13 +1445,9 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1491,13 +1456,9 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1506,8 +1467,6 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
 				"antialias" 	"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
@@ -1520,8 +1479,6 @@ Scheme
 				"name"			"TF2 Professor"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
@@ -1545,8 +1502,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"8"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1558,8 +1513,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1595,8 +1548,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias" 	"1"
@@ -1633,8 +1584,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias" 	"1"
@@ -1647,7 +1596,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"36"
-				"tall_hidef"	"48"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1659,7 +1607,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"52"
-				"tall_lodef"	"80"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
 				"yres"			"1 599"
@@ -1669,7 +1616,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"72"
-				"tall_hidef"	"120"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
 				"yres"			"600 767"
@@ -1750,6 +1696,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"ControlPointTimer"
 		{
 			"1"
@@ -1779,8 +1726,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1924,7 +1869,6 @@ Scheme
 			{
 				"name"			"Arial Black"
 				"tall"			"8"
-				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -1936,10 +1880,8 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"14"
-				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
 		}
@@ -1975,8 +1917,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
 				"weight"		"0"
 				"additive"		"1"
 				"antialias" 	"1"
@@ -1988,8 +1928,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2015,7 +1953,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"36"
-				"tall_lodef"	"28"
 				"weight"		"500"
 			}
 		}
@@ -2025,7 +1962,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"30"
-				"tall_lodef"	"22"
 				"weight"		"500"
 			}
 		}
@@ -2035,7 +1971,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"28"
-				"tall_lodef"	"24"
 				"weight"		"500"
 			}
 		}
@@ -2081,7 +2016,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"22"
-				"tall_lodef"	"18"
 				"weight"		"900"
 			}
 		}
@@ -2091,7 +2025,6 @@ Scheme
 			{
 				"name"			"Verdana"
 				"tall"			"18"
-				"tall_lodef"	"18"
 				"weight"		"900"
 			}
 		}
@@ -2117,7 +2050,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"TeamMenu"
 		{
 			"1"
@@ -2472,7 +2404,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-	
 		"QuestLargeText"
 		{
 			"1"
@@ -2807,8 +2738,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2831,8 +2760,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2899,7 +2826,6 @@ Scheme
 				"custom"		"1"
 			}
 		}
-
 		"XPSource_Glow"
 		{
 			"1"
@@ -2912,6 +2838,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"MapVotesPercentage"
 		{
 			"1"
@@ -2937,7 +2864,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Small"
 		{
 			"1"
@@ -2949,7 +2875,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Medium"
 		{
 			"1"
@@ -2961,7 +2886,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Large"
 		{
 			"1"
@@ -2973,7 +2897,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Huge"
 		{
 			"1"
