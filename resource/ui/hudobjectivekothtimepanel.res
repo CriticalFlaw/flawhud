@@ -38,7 +38,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"fgcolor"		"HUDBlueTeam"
 			"xpos"			"3"
 			"ypos"			"2"
@@ -53,7 +53,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"G_FontSmall"
+				"font"			"CodeBold14"
 				"xpos"			"13"
 				"ypos"			"9"
 				"tall"			"15"
@@ -93,7 +93,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"fgcolor"		"HUDRedTeam"
 			"xpos"			"3"
 			"ypos"			"2"
@@ -108,7 +108,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"G_FontSmall"
+				"font"			"CodeBold14"
 				"xpos"			"rs1-13"
 				"ypos"			"9"
 				"wide"			"35"

@@ -39,7 +39,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"MenuShader"
 	}				
 		
 	"PipesPresentPanel"
@@ -71,15 +71,15 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_FontMedium"
-			"fgcolor"		"G_Stickies"
+			"font"			"CodeBold22"
+			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"35"
-			"ypos"			"1"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -92,8 +92,12 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"fgcolor"		"ShadowBlack"
+
+			"pin_to_sibling"		"NumPipesLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}		
 	}
 	
@@ -126,15 +130,15 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_FontMedium"
-			"fgcolor"		"G_Stickies"
+			"font"			"CodeBold22"
+			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"35"
-			"ypos"			"1"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -147,8 +151,12 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"fgcolor"		"ShadowBlack"
+
+			"pin_to_sibling"		"NumPipesLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 	}
 }

@@ -13,7 +13,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 
 	"MenuBG"
@@ -61,14 +61,14 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -88,10 +88,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"
-		"ypos"			"2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"470"
 		"tall"			"22"
@@ -103,6 +103,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"WeaponTauntLabel"
@@ -155,8 +159,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -193,7 +197,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel1"
@@ -227,8 +231,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 
@@ -265,7 +269,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel2"
@@ -299,8 +303,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -337,7 +341,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel3"
@@ -371,8 +375,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -409,7 +413,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel4"
@@ -443,8 +447,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -481,7 +485,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel5"
@@ -515,8 +519,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -553,7 +557,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel6"
@@ -587,8 +591,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -625,7 +629,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel7"
@@ -659,8 +663,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 			
@@ -697,7 +701,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel8"

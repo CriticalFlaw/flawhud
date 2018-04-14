@@ -10,8 +10,8 @@
 		"wide"				"250"
 		"tall"				"300"
 		"visible"			"0"
-		"bgcolor_override"	"0 0 0 0"
-		"noitem_textcolor"	"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"0"
@@ -34,7 +34,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -106,6 +106,7 @@
 		"enabled"			"0"
 		"image"				"loadout_solid_line"
 		"scaleImage"		"1"
+
 		"pin_to_sibling"	"OutterBackground"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"0"
@@ -124,6 +125,7 @@
 		"enabled"			"0"
 		"image"				"loadout_solid_line"
 		"scaleImage"		"1"
+
 		"pin_to_sibling"	"OutterBackground"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"

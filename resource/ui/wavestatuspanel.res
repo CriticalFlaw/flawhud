@@ -15,17 +15,17 @@
 		"enabled"			"0"
 		"image"				"../HUD/tournament_panel_brown"
 
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-		"draw_corner_width"	"0"
-		"draw_corner_height" "0"	
+		"src_corner_height"		"22"
+		"src_corner_width"		"22"
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"	
 	}
 	
 	"WaveCountLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabel"
-		"font"				"G_FontTiny"
+		"font"				"CodeBold12"
 		"fgcolor"			"White"
 		"xpos"				"200"
 		"ypos"				"5"
@@ -42,19 +42,22 @@
 	"WaveCountLabelShadow"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"WaveCountLabel"
-		"font"				"G_FontTiny"
+		"fieldName"			"WaveCountLabelShadow"
+		"font"				"CodeBold12"
 		"fgcolor"			"ShadowBlack"
-		"xpos"				"201"
-		"ypos"				"6"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"3"
 		"wide"				"200"
 		"tall"				"15"
-		"xpos_minmode"		"81"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%wave_count%"
+		
+		"pin_to_sibling"		"WaveCountLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"SeparatorBar"
@@ -73,7 +76,7 @@
 		"bgcolor_override"		"White"
 		
 		if_verbose {
-			"visible"		"1"
+			"visible"			"1"
 		}
 	}
 
@@ -81,7 +84,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportLabel"
-		"font"				"G_FontSmall_2"
+		"font"				"CodeLC10"
 		"fgcolor"			"White"
 		"xpos"				"55"
 		"ypos"				"6"
@@ -94,7 +97,7 @@
 		"labelText"			"#TF_MVM_Support"
 		
 		if_verbose {
-			"visible"		"1"
+			"visible"			"1"
 		}		
 	}
 	
@@ -112,10 +115,10 @@
 		"enabled"			"1"
 		"fillcolor"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-		"draw_corner_width"	"0"
-		"draw_corner_height" "0"	
+		"src_corner_height"		"22"
+		"src_corner_width"		"22"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 
 	"NewProgressBarBG"
@@ -134,6 +137,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
+
 	"ProgressBarBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -147,9 +151,9 @@
 		"enabled"			"0"
 		"image"				"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-		"draw_corner_width"	"0"
-		"draw_corner_height" "0"	
+		"src_corner_height"		"22"
+		"src_corner_width"		"22"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 }

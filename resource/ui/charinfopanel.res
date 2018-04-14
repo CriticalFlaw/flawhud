@@ -23,8 +23,8 @@
 		"title_font"	"LightGravity24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarfgcolor_override"				"HudOffWhite"
+		"titlebardisabledfgcolor_override"		"HudOffWhite"
 		"titlebarbgcolor_override"				"DarkGrey"
 		
 		"clientinsetx_override"			"0"
@@ -59,7 +59,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -103,7 +103,7 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
-
+	
 	"Sheet"
 	{
 		"ControlName"		"EditablePanel"
@@ -133,14 +133,13 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"G_FontMediumSmall"
+			"font"				"CodeBold18"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"
 			"activeborder_override"		"ButtonDepressedBorder"
 			"normalborder_override" 	"ButtonDepressedBorder"
-
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"DarkGrey"
 		}
@@ -160,8 +159,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back (&Q)"
-		"font"			"LightGravity14"
+		"labelText"		"Back"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -170,7 +169,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"

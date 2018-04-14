@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_MannUp"
-		"font"			"LightGravity24"
+		"font"			"CodeBold20"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -46,9 +46,9 @@
 		"defaultFgColor_override" 	"White"
 		"defaultBgColor_override"	"Black"
 		"armedFgColor_override" 	"Black"
-		"armedBgColor_override"		"White"	//"Yellow"
+		"armedBgColor_override"		"White"
 		"depressedFgColor_override" "Black"
-		"depressedBgColor_override" "White"	//"Yellow"
+		"depressedBgColor_override" "White"
 	}
 
 	"PracticeButton"
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_BootCamp"
-		"font"			"LightGravity20"
+		"font"			"CodeBold20"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -87,10 +87,10 @@
 			
 		"defaultFgColor_override"	"White"
 		"defaultBgColor_override"	"Black"
-		"armedFgColor_override"		"Black"	//"White"
-		"armedBgColor_override"		"White"	//"Yellow"
-		"depressedFgColor_override"	"Black"	//"White"
-		"depressedBgColor_override" "White"	//"Yellow"
+		"armedFgColor_override"		"Black"
+		"armedBgColor_override"		"White"
+		"depressedFgColor_override"	"Black"
+		"depressedBgColor_override" "White"
 	}
 
 	"PlayWithFriendsExplanation"

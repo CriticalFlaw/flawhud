@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"ProgressBar"
 	{
 		"ControlName"	"CircularProgressBar"
@@ -29,7 +29,7 @@
 		"fg_image"		"progress_bar_blu"
 		"bg_image"		"progress_bar_blu"
 	}
-
+	
 	"ProgressText"
 	{	
 		"ControlName"	"Label"
@@ -49,7 +49,7 @@
 		"brighttext"	"0"
 		"centerwrap"	"1"
 	}
-
+	
 	"Blocked"
 	{
 		"ControlName"	"CIconPanel"
@@ -63,6 +63,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"cappoint_progressbar_blocked"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 }

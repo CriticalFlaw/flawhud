@@ -175,7 +175,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"
 
 		"if_hybrid"
@@ -198,8 +198,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-79"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
@@ -207,8 +207,12 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"BlueScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 		"if_hybrid"
 		{
@@ -239,7 +243,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"	
 		
 		"if_hybrid"
@@ -262,8 +266,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c6"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
@@ -271,8 +275,12 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"RedScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{

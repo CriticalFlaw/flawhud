@@ -13,14 +13,14 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_bg"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 
 	"TitleLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"G_FontMedium"
+		"font"				"CodeBold22"
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"3"
@@ -34,17 +34,17 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"White"
 	}
 
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"G_FontMedium"
+		"font"				"CodeBold22"
 		"fgcolor"			"ShadowBlack"
-		"xpos"				"1"
-		"ypos"				"2"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"3"
 		"wide"				"198"
 		"tall"				"22"
@@ -56,6 +56,10 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}	
 
 	"ToggleLabel"
@@ -348,14 +352,14 @@
 		"enabled"			"0"
 		"scaleImage"		"0"	
 		"icon"				"ico_key_blank"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 
 	"NumberLabel1"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity20"
+		"font"				"CodeBold20"
 		"fgcolor"			"White"
 		"xpos"				"10"
 		"ypos"				"41"
@@ -385,14 +389,14 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_key_blank"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 
 	"NumberLabel2"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity20"
+		"font"				"CodeBold20"
 		"fgcolor"			"White"
 		"xpos"				"65"
 		"ypos"				"41"
@@ -422,14 +426,14 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"ico_key_blank"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 
 	"NumberLabel3"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity20"
+		"font"				"CodeBold20"
 		"fgcolor"			"White"
 		"xpos"				"133"
 		"ypos"				"41"

@@ -7,12 +7,12 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"1"
-		"ypos"					"r165"
+		"ypos"					"r170"
 		"wide"	 				"210"
 		"tall"	 				"100"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	ChatInputLine
 	{
 		"ControlName"			"EditablePanel"
@@ -25,7 +25,7 @@
 		"tall"					"0"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ChatFiltersButton"
 	{
 		"ControlName"			"Button"
@@ -43,9 +43,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"Default"				"0"		
+		"Default"				"0"
 	}
-
+	
 	"HudChatHistory"
 	{
 		"ControlName"			"RichText"

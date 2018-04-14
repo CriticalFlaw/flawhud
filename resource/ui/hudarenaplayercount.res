@@ -10,7 +10,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+		
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -23,7 +23,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Blue"
-
+			
 			"background2"
 			{
 				"ControlName"	"EditablePanel"
@@ -53,18 +53,18 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
 			"fgcolor"		"White"
-
-			"pin_to_sibling"	"background"
+			
+			"pin_to_sibling"		"background"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}	
 		"countshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
 			"xpos"			"-1"
 			"ypos"			"-1"
@@ -75,19 +75,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
-			"fgcolor"		"Black"
-
-			"pin_to_sibling"	"count"
+			"fgcolor"		"ShadowBlack"
+			
+			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"10"
 			"ypos"			"2"
@@ -100,7 +100,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,7 +111,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+		
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -124,7 +124,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Red"
-
+			
 			"background2"
 			{
 				"ControlName"	"EditablePanel"
@@ -154,15 +154,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"White"
-
-			"pin_to_sibling"	"background"
+			
+			"pin_to_sibling"		"background"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -176,19 +176,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
-			"fgcolor"		"Black"
-
-			"pin_to_sibling"	"count"
+			"fgcolor"		"ShadowBlack"
+			
+			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-	
+		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"32"
 			"ypos"			"2"
@@ -199,6 +199,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}
 	}
 }

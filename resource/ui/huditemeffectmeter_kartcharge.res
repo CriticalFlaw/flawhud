@@ -69,7 +69,7 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"MenuShader"
 	}
 	
 	"ItemEffectMeterCount"
@@ -96,20 +96,24 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"1"
-		"ypos"					"1"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"150"
-		"tall"					"20"	
+		"wide"					"40"
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"LightGravity20"
 		"fgcolor"				"ShadowBlack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

@@ -18,20 +18,15 @@
 		"bgcolor_override"	"DarkGrey"
 		"infocus_bgcolor_override" "DarkGrey"
 		"outoffocus_bgcolor_override" "DarkGrey"
-		
 		"max_cart_model_panels"	"10"
-		
-		"item_ypos"		"70"
-		
+		"item_ypos"				"70"
 		"item_panels"			"15"
 		"item_columns"			"5"
 		"item_offcenter_x"		"-292"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-
 		"show_item_backdrop"				"1"
 		"item_backdrop_color"				"DarkGrey"
 		"item_backdrop_left_margin"			"11"
@@ -39,13 +34,11 @@
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
-		
 		"item_panel_bgcolor"			"Grey"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		
 		"classicon_xdelta"		"5"
-
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -56,10 +49,9 @@
 			"tall"			"62"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -71,10 +63,8 @@
 			"name_only"		"1"
 			"resize_to_text" "0"
 			"name_label_alignment" "3"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 			
@@ -84,8 +74,8 @@
 				"allow_rot"				"0"
 				"inventory_image_type" "1"
 			}
-
-			"use_item_sounds" "1"		
+			
+			"use_item_sounds" "1"
 		}
 		
 		"modelpanel_labels_kv"
@@ -101,7 +91,7 @@
 			"pinCorner"		"0"	
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		
 		"cart_modelpanels_kv"
@@ -114,10 +104,9 @@
 			"tall"			"25"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -125,7 +114,6 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
@@ -135,7 +123,7 @@
 				"allow_rot"				"0"
 			}
 			
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		
 		"cart_labels_kv"
@@ -151,10 +139,10 @@
 			"pinCorner"		"0"	
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 	}
-
+	
 	"NameFilterTextEntry"
 	{
 		"ControlName"	"TextEntry"
@@ -269,8 +257,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -297,7 +285,7 @@
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -312,11 +300,11 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"ClassFilterTooltipLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -332,7 +320,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
@@ -340,7 +328,7 @@
 		"border"		"LoadoutItemPopupBorder"
 		"fgcolor"		"White"
 	}
-
+	
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -356,20 +344,20 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -381,7 +369,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"NextPageButton"
@@ -399,14 +387,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	
 	"PriceLabel"
 	{
@@ -426,7 +414,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
+	}
 	
 	"NameFilterLabel"
 	{
@@ -517,7 +505,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -551,8 +538,8 @@
 			"paintborder"		"0"
 			
 			"image_drawcolor"		"255 255 255 180"
-			"image_armedcolor"		"255 255 255 255"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_armedcolor"		"White"
+			"image_selectedcolor"	"White"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -569,7 +556,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		
 		"Buttons"
@@ -585,7 +572,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_all"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -598,7 +585,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_scout"
-				}				
+				}
 			}
 			"soldier"
 			{
@@ -607,11 +594,11 @@
 				"image_armed"		"class_icons/filter_soldier"
 				"image_selected"	"class_icons/filter_soldier_on"
 				"tooltiptext"		"#TF_Items_Soldier"
-
+				
 				"SubImage"
 				{
 					"image"			"class_icons/filter_soldier"
-				}				
+				}
 			}
 			"pyro"
 			{
@@ -624,7 +611,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_pyro"
-				}				
+				}
 			}
 			"demo"
 			{
@@ -637,7 +624,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_demo"
-				}				
+				}
 			}	
 			"heavy"
 			{
@@ -650,7 +637,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_heavy"
-				}				
+				}
 			}
 			"engineer"
 			{
@@ -663,7 +650,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_engineer"
-				}				
+				}
 			}
 			"medic"
 			{
@@ -676,7 +663,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_medic"
-				}				
+				}
 			}
 			"sniper"
 			{
@@ -689,7 +676,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_sniper"
-				}				
+				}
 			}
 			"spy"
 			{
@@ -702,8 +689,8 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_spy"
-				}				
-			}	
+				}
+			}
 		}
 	}
 	
@@ -711,7 +698,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeLC12"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -729,7 +716,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-300"
@@ -802,7 +789,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
@@ -827,7 +814,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -867,7 +854,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -886,7 +873,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -912,15 +899,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -934,8 +920,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -952,8 +939,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -977,15 +965,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -999,9 +986,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
-	}	
+			}
+		}
+	}
 	
 	"TabsExplanation"
 	{
@@ -1016,7 +1003,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-200"
 		"end_y"			"50"
@@ -1042,7 +1028,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -1061,7 +1047,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1087,15 +1073,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1109,8 +1094,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1134,15 +1120,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1156,8 +1141,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1174,8 +1160,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1199,15 +1186,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1221,9 +1207,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
-	}	
+			}
+		}
+	}
 	
 	"ItemsExplanation"
 	{
@@ -1238,7 +1224,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-190"
 		"end_y"			"0"
@@ -1264,7 +1249,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -1283,7 +1268,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1309,15 +1294,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1331,8 +1315,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1356,15 +1341,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1378,8 +1362,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1403,15 +1388,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1425,8 +1409,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1443,7 +1428,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
 	
@@ -1486,7 +1471,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -1505,7 +1490,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1531,15 +1516,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1553,8 +1537,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1578,15 +1563,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1600,8 +1584,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1625,15 +1610,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1647,8 +1631,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1665,7 +1650,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
 	
@@ -1683,7 +1668,6 @@
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"AddToCartExplanation"
-		
 		"force_close"	"1"
 		"end_x"			"c0"
 		"end_y"			"80"
@@ -1708,7 +1692,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -1727,7 +1711,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1753,15 +1737,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1775,8 +1758,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1800,15 +1784,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1822,8 +1805,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1847,15 +1831,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1869,8 +1852,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1887,10 +1871,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
-
+	
 	"AddToCartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1904,7 +1888,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-260"
 		"end_y"			"200"
@@ -1913,7 +1896,7 @@
 		"callout_inparents_x"	"c90"
 		"callout_inparents_y"	"290"
 		"next_explanation"		"CartStatusExplanation"
-	
+		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1930,7 +1913,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -1949,7 +1932,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1975,15 +1958,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1997,8 +1979,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2022,15 +2005,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2044,8 +2026,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2069,15 +2052,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2091,8 +2073,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2109,10 +2092,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
-	}	
-
+	}
+	
 	"CartStatusExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -2135,7 +2118,7 @@
 		"callout_inparents_x"	"c-230"
 		"callout_inparents_y"	"335"
 		"next_explanation"		"CheckoutExplanation"
-	
+		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2152,7 +2135,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -2171,7 +2154,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -2197,15 +2180,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2219,8 +2201,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2244,15 +2227,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2266,8 +2248,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2291,15 +2274,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2313,8 +2295,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2331,10 +2314,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
-		
+	
 	"CheckoutExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -2349,7 +2332,6 @@
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"HelpExplanation"
-		
 		"force_close"	"1"
 		"end_x"			"c-160"
 		"end_y"			"200"
@@ -2374,7 +2356,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -2393,7 +2375,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -2419,15 +2401,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2441,8 +2422,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2466,15 +2448,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2488,8 +2469,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2513,15 +2495,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2535,8 +2516,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2553,10 +2535,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
-
+	
 	"HelpExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -2570,7 +2552,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -2595,7 +2576,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"TextLabel"
@@ -2614,7 +2595,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -2640,15 +2621,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2662,8 +2642,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2687,15 +2668,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "LightRed"
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2709,9 +2689,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2728,7 +2708,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}
 	}
 	
@@ -2738,7 +2718,7 @@
 		"fieldName"		"Wall"
 		"xpos"			"0"
 		"ypos"			"55"
-		"zpos"			"-5"		
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"255"
 		"autoResize"	"0"
@@ -2746,6 +2726,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
+		"bgcolor_override"	"MenuShader"
 	}
 }

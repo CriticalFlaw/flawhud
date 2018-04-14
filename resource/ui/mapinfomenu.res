@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"G_FontSmall_2"
+		"font"			"CodeLC10"
 		"fgcolor"		"White"
 	}	
 	
@@ -122,14 +122,14 @@
 		"brighttext"	"1"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Blank"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanDark"
 	}
 
 	"MapInfoContinue2"
@@ -151,14 +151,14 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanDark"
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override" 	"White"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MapInfoWatchIntro"
@@ -180,14 +180,14 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanDark"
 	}
 
 	"MapInfoBack"
@@ -208,14 +208,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MapInfoBack2"
@@ -236,14 +236,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanDark"
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override" 	"White"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MenuBG"

@@ -73,15 +73,15 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"G_FontHuge"
-		"fgcolor"		"G_HealthValue"
+		"font"			"CodeBold50"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"66"
-		"ypos"			"30"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
@@ -89,8 +89,12 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"G_FontHuge"
+		"font"			"CodeBold50"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusMaxHealthValue"
@@ -113,8 +117,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
-		"xpos"			"117"
-		"ypos"			"72"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -124,6 +128,10 @@
 		"textAlignment"	"center"	
 		"font"			"G_FontTiny"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"PlayerStatusMaxHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusBleedImage"

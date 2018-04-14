@@ -43,20 +43,6 @@
 			"wide"			"530"
 			"tall"			"100"
 			"visible"		"1"
-
-			"HeaderShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
-				"labelText"		"%headershadow%"
-				"textAlignment" "center"
-				"xpos"			"1"
-				"ypos"			"13"
-				"wide"			"530"
-				"tall"			"40"
-				"fgcolor"		"ShadowBlack"
-			}
 			
 			"HeaderLabel"
 			{
@@ -70,6 +56,24 @@
 				"wide"			"530"
 				"tall"			"40"
 				"fgcolor"		"Orange"
+			}
+
+			"HeaderShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"HeaderShadow"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%headershadow%"
+				"textAlignment" "center"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"wide"			"530"
+				"tall"			"40"
+				"fgcolor"		"ShadowBlack"
+		
+				"pin_to_sibling"		"HeaderLabel"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 		}
 	
@@ -124,20 +128,6 @@
 				"fgcolor"		"White"
 			}
 			
-			"RatingTextShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
-				"labelText"		"%ratingscore%"
-				"textAlignment" "center"
-				"xpos"			"1"
-				"ypos"			"41"
-				"wide"			"180"
-				"tall"			"50"
-				"fgcolor"		"ShadowBlack"
-			}
-			
 			"RatingText"
 			{
 				"ControlName"	"CExLabel"
@@ -150,6 +140,24 @@
 				"wide"			"180"
 				"tall"			"50"
 				"fgcolor"		"White"
+			}
+			
+			"RatingTextShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"RatingTextShadow"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment" "center"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"ShadowBlack"
+		
+				"pin_to_sibling"		"RatingText"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 		}
 
@@ -187,7 +195,7 @@
 		"default"			"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"NeutralWhite"
 		"Command"			"done"
 
 		"pin_to_sibling"			"StatsContainer"

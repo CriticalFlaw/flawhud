@@ -96,8 +96,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"47"
-		"ypos"					"1"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -111,5 +111,9 @@
 		"brighttext"			"0"
 		"font"					"LightGravity20"
 		"fgcolor"				"ShadowBlack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

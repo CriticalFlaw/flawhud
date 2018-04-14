@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/tele_exit_inactive.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"font"				"LightGravity11"
@@ -18,10 +18,10 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 255 0 255"
+		"fgcolor"			"NeonGreen"
 	}
 	
-	"ItemBackground"	
+	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"ItemBackground"
@@ -38,7 +38,7 @@
 	}
 	
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NotBuiltLabel"
 		"font"				"LightGravity8"
@@ -55,11 +55,11 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 255 0 255"
-	}	
-
+		"fgcolor"			"NeonGreen"
+	}
+	
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"UnavailableLabel"
 		"font"				"Default"
@@ -76,9 +76,9 @@
 		"textAlignment"		"Center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 255 0 255"
+		"fgcolor"			"NeonGreen"
 	}
-
+	
 	"NumberBg"	
 	{
 		"ControlName"		"CIconPanel"
@@ -92,15 +92,15 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_key_blank"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
-
+	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"LightGravity11"
-		"fgcolor"			"0 255 0 255"
+		"fgcolor"			"NeonGreen"
 		"xpos"				"-28"
 		"ypos"				"-5"
 		"zpos"				"1"

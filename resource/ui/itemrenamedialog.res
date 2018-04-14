@@ -17,18 +17,18 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"mouseoveritempanel"
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"0"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -47,8 +47,8 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
+			"pinCorner"			"0"
+			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
@@ -68,7 +68,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -121,8 +121,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -170,8 +170,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -225,7 +225,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "TextColor"
 		"paintbackground" "0"
 	}
 	"OldItemNameLabel"
@@ -243,7 +243,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "TextColor"
 		"paintbackground" "0"
 	}
 
@@ -282,7 +282,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "TextColor"
 		"paintbackground" "0"
 	}
 	"CustomNameEntry"
@@ -328,7 +328,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 
 	"CancelButton"

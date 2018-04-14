@@ -9,6 +9,6 @@
 		"PositiveColor"			"G_Overheal"
 		"NegativeColor"			"G_LowHealthValue"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"G_FontMedium"
+		"delta_item_font"		"CodeBold22"
 	}
 }

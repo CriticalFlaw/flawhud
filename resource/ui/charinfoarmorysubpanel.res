@@ -16,14 +16,11 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override" 		"DarkGrey"
 		"outoffocus_bgcolor_override" 	"DarkGrey"
-		
 		"thumbnail_bgcolor"				"Grey"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
-		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
-		
 		"thumbnails_x"			"c-300"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
@@ -37,10 +34,9 @@
 			"tall"			"49"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"			"0"
-
 			"model_xpos"	"7"
 			"model_ypos"	"5"
 			"model_wide"	"58"
@@ -48,7 +44,6 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
@@ -59,7 +54,7 @@
 			}
 		}
 	}
-
+	
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -76,9 +71,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
-
+	
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
@@ -96,13 +91,13 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"FiltersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#Store_FilterLabel"
+		"font"			"CodeLC15"
+		"labelText"		"Filter:"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"32"
@@ -119,7 +114,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"font"				"LightGravity10"
 		"xpos"				"c-240"
 		"ypos"				"32"
 		"zpos"				"1"
@@ -135,7 +130,6 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-
 		"fgcolor_override"				"TanLight"
 		"bgcolor_override"				"Black"
 		"disabledFgColor_override"		"TanLight"
@@ -143,7 +137,7 @@
 		"selectionColor_override"		"Black"
 		"selectionTextColor_override" 		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
-
+		
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
@@ -169,7 +163,7 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"NoBorder"
-
+		
 		"Data_TextRichText"
 		{
 			"ControlName"	"CEconItemDetailsRichText"
@@ -209,10 +203,9 @@
 		"wide"				"260"
 		"tall"				"135"
 		"visible"			"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"0"
 		"paintborder"		"0"
-		
 		"model_hide"		"1"
 		"text_center"		"1"
 		"resize_to_text" 	"1"
@@ -223,7 +216,8 @@
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
+	
 	"SelectedItemImageModelPanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -234,10 +228,9 @@
 		"wide"			"290"
 		"tall"			"140"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
 		"model_ypos"	"10"
 		"model_tall"	"120"
 		"name_only"		"0"
@@ -263,8 +256,8 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -295,8 +288,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-106"
-		"ypos"			"300"
+		"xpos"			"c-300"
+		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -306,7 +299,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -319,27 +312,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"ColdLC12"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
-		"xpos"			"c-80"
-		"ypos"			"300"
+		"xpos"			"c-285"
+		"ypos"			"290"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c-15"
-		"ypos"			"300"
+		"xpos"			"c-250"
+		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -349,15 +342,15 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-		
+	}
+	
 	"WikiButton"
 	{
 		"ControlName"	"CExButton"
@@ -373,7 +366,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Wiki"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -381,7 +374,7 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"ViewSetButton"
 	{
@@ -398,7 +391,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_SetDetails"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -406,14 +399,14 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"StoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-138"
-		"ypos"			"323"
+		"xpos"			"c-197"
+		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"20"
@@ -423,14 +416,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"ReloadSchemeButton"
 	{
@@ -463,7 +456,7 @@
 		"fieldName"		"Wall"
 		"xpos"			"0"
 		"ypos"			"20"
-		"zpos"			"-5"		
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"330"
 		"autoResize"	"0"
@@ -471,6 +464,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
+		"bgcolor_override"	"MenuShader"
 	}
 }

@@ -2,17 +2,17 @@
 {
 	"ItemRenameConfirmationDialog"
 	{
-		"fieldName"				"ItemRenameConfirmationDialog"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"105"
-		"wide"					"400"
-		"tall"					"240"
-		"bgcolor_override"		"DarkerGrey"
+		"fieldName"			"ItemRenameConfirmationDialog"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-200"
+		"ypos"				"105"
+		"wide"				"400"
+		"tall"				"240"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"WhiteBorder"
+		"border"			"WhiteBorder"
 	}
 
 	"TitleLabel"
@@ -63,8 +63,8 @@
 		"wide"				"200"
 		"tall"				"70"
 		"visible"			"1"
-		"bgcolor_override"	"0 0 0 0"
-		"noitem_textcolor"	"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"model_xpos"		"2"
@@ -110,8 +110,8 @@
 		"wide"				"90"
 		"tall"				"70"
 		"visible"			"1"
-		"bgcolor_override"	"0 0 0 0"
-		"noitem_textcolor"	"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"model_xpos"		"2"
@@ -145,7 +145,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"GivenName"
@@ -165,7 +165,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"centerwrap"		"1"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"NeutralWhite"
 	}
 
 	"WarningLabel"
@@ -184,7 +184,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"CancelButton"

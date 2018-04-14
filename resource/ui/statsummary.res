@@ -79,7 +79,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 		}
 
 		"Title"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
-			"font"			"G_FontTiny_2"
+			"font"			"CodeLC8"
 			"labelText"		"%authors%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"G_FontSmall"
+		"font"			"CodeBold14"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -161,25 +161,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"labelText"		"Loading..."
 		"textAlignment"	"west"
 		"xpos"			"10"
-		"ypos"			"0"
+		"ypos"			"455"
 		"zpos"			"0"
 		"wide"			"350"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "White"
 	}	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"G_FontBig"
+		"font"			"CodeBold37"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -197,7 +197,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"G_FontSmall"
+		"font"			"CodeBold14"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -387,7 +387,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 		}
 		"AveragesLabel"
 		{
@@ -1488,7 +1488,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 		}
 		"RecordsLabel1"
 		{

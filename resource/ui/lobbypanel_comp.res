@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"TanDarker"
 		"proportionaltoparent"	"1"
 	}
 
@@ -201,9 +201,9 @@
 					"armedFgColor_override"		"Yellow"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort0"
 					"actionsignallevel"	"4"
@@ -235,9 +235,9 @@
 					"armedFgColor_override"		"Yellow"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort1"
 					"actionsignallevel"	"4"	
@@ -269,9 +269,9 @@
 					"armedFgColor_override"		"Yellow"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort2"
 					"actionsignallevel"	"4"
@@ -301,9 +301,9 @@
 					"armedFgColor_override"		"Yellow"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort3"
 					"actionsignallevel"	"4"
@@ -422,34 +422,34 @@
 
 		"NearbyColumnHead"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
 		"PlayersInGameTotalNearbyValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"ypos"		"85"
 			"proportionaltoparent"	"1"
@@ -457,7 +457,7 @@
 
 		"PlayersInGameTotalWorldwideValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"ypos"		"85"
 			"proportionaltoparent"	"1"
@@ -465,14 +465,14 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
 		"PlayersInGameMatchingNearbyValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"ypos"		"97"
 			"proportionaltoparent"	"1"
@@ -480,7 +480,7 @@
 
 		"PlayersInGameMatchingWorldwideValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"ypos"		"97"
 			"proportionaltoparent"	"1"
@@ -488,21 +488,21 @@
 
 		"PlayersSearchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
 		"PlayersSearchingTotalNearbyValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"ypos"		"135"
 			"proportionaltoparent"	"1"
@@ -510,7 +510,7 @@
 
 		"PlayersSearchingTotalWorldwideValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"ypos"		"135"
 			"proportionaltoparent"	"1"
@@ -518,14 +518,14 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
 		"PlayersSearchingMatchingNearbyValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"ypos"		"147"
 			"proportionaltoparent"	"1"
@@ -533,7 +533,7 @@
 
 		"PlayersSearchingMatchingWorldwideValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"ypos"		"147"
 			"proportionaltoparent"	"1"
@@ -541,14 +541,14 @@
 
 		"EmptyGameserversLabel"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
 		"EmptyGameserversMatchingNearbyValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-90"
 			"ypos"		"170"
 			"proportionaltoparent"	"1"
@@ -556,7 +556,7 @@
 
 		"EmptyGameserversMatchingWorldwideValue"
 		{
-			"font"		"G_FontSmall_2"
+			"font"		"CodeLC10"
 			"xpos"		"rs1-10"
 			"ypos"		"170"
 			"proportionaltoparent"	"1"
@@ -581,7 +581,7 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"G_FontSmall_2"
+				"font"		"CodeLC10"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -593,7 +593,7 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"G_FontSmall_2"
+				"font"		"CodeLC10"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"

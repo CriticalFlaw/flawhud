@@ -57,7 +57,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A TEAM"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -82,8 +82,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
-		"team"			"3"		// team blue
-		"font"			"G_FontMediumSmall"
+		"team"			"3"		// Blue Team
+		"font"			"CodeBold18"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -92,30 +92,30 @@
 	
 	"BlueTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBG"
 		"xpos"			"c-100"
 		"ypos"			"c-23"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Blue"
-	}
+		"bgcolor_override"	"Blue"
 
-	"BlueTeamBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamBG2"
-		"xpos"			"c-100"
-		"ypos"			"c-21"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"DarkBlue"
+		"BlueTeamBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueTeamBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"DarkBlue"
+			"proportionaltoparent"	"1"
+		}	
 	}
 
 	"teambutton1"
@@ -137,40 +137,41 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
-		"team"			"4"		// team red
-		"font"			"G_FontMediumSmall"
+		"team"			"4"		// Red Team
+		"font"			"CodeBold18"
+
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"RedTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamBG"
 		"xpos"			"c0"
 		"ypos"			"c-23"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Red"
-	}
-	
-	"RedTeamBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamBG2"
-		"xpos"			"c0"
-		"ypos"			"c-21"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"DarkRed"
+		"bgcolor_override"	"Red"
+
+		"RedTeamBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedTeamBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"DarkRed"
+			"proportionaltoparent"	"1"
+		}
 	}
 
 	"teambutton2"
@@ -187,17 +188,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1  Auto-join"	[$WIN32]
+		"labelText"		"&1  Auto-Join"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"font"			"LightGravity12"
+
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 	}
 
 	"teambutton3"
@@ -221,10 +223,11 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"LightGravity12"
+
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"teambuttonBG"
@@ -275,7 +278,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"LightGravity12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 
 	"RedCount"
@@ -296,7 +299,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"LightGravity12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 
 	"TeamsFullLabel"
@@ -325,8 +328,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
-		"xpos"			"c-49"
-		"ypos"			"c151"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -339,29 +342,18 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"LightGravity12"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
+		
+		"pin_to_sibling"		"TeamsFullLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"6"
 		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintbackground""0"
-		"command"		"cancelmenu"
 	}
 }

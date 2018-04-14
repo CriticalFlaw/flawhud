@@ -33,8 +33,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"2"
-		"ypos"			"-2"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"32"
@@ -62,7 +62,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"G_FontTiny"
+		"font"			"CodeBold12"
 		"fgcolor"		"White"
 	}
 
@@ -84,7 +84,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"MenuShader"
 	}
 
 	"ItemEffectMeter2"
@@ -105,6 +105,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"MenuShader"
 	}
 }

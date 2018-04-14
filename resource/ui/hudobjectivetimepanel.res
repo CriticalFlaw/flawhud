@@ -63,7 +63,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
+		"font"			"CodeLC8"
 		"fgcolor"		"White"
 
 		if_match
@@ -102,7 +102,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
+		"font"			"CodeLC8"
 		"fgcolor"		"White"
 
 		if_match
@@ -142,7 +142,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
+		"font"			"CodeLC8"
 		"fgcolor"		"White"
 
 		if_match
@@ -181,7 +181,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
+		"font"			"CodeLC8"
 		"fgcolor"		"White"
 
 		if_match
@@ -221,7 +221,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"G_FontTiny_2"
+		"font"			"CodeLC8"
 		"fgcolor"		"White"
 
 		if_match

@@ -160,7 +160,7 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"G_FontTiny"
+        "font"			"CodeBold12"
         "fgcolor"		"White"
 
         "medigun-vaccinator" {
@@ -188,8 +188,8 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"G_FontTiny"
-		"fgcolor_override"	"Black"
+        "font"			"CodeBold12"
+		"fgcolor_override"	"ShadowBlack"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -291,7 +291,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"LightGravity12"
-		"fgcolor_override"		"Black"
+		"fgcolor_override"		"ShadowBlack"
 		"proportionaltoparent"	"1"
 		
 		"pin_to_sibling" 		"MedigunPanelNameLabel"

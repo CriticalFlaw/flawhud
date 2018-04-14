@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PopFileLabel"
-		"font"				"G_FontTiny_2"
+		"font"				"CodeLC8"
 		"labelText"			"%popfile%"
 		"textAlignment"		"East"
 		"xpos"				"-25"
@@ -134,7 +134,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"0"

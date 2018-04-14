@@ -14,9 +14,9 @@
 		"visible"		"0"
 		"enable"		"0"
 		"paintbackground"	"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 	}
-
+	
 	"Stream1"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -30,10 +30,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"border"		"WhiteBorder"
+		"bgcolor_override"	"Transparent"
+		"border"			"WhiteBorder"
 	}
-
+	
 	"Stream2"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -47,10 +47,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"border"		"WhiteBorder"
+		"bgcolor_override"	"Transparent"
+		"border"			"WhiteBorder"
 	}
-
+	
 	"Stream3"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -64,10 +64,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"border"		"WhiteBorder"
+		"bgcolor_override"	"Transparent"
+		"border"			"WhiteBorder"
 	}
-
+	
 	"Stream4"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -81,10 +81,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"border"		"WhiteBorder"
+		"bgcolor_override"	"Transparent"
+		"border"			"WhiteBorder"
 	}
-
+	
 	"Stream5"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -98,9 +98,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"border"		"WhiteBorder"
+		"bgcolor_override"	"Transparent"
+		"border"			"WhiteBorder"
 	}
+	
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
@@ -123,13 +124,12 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"view_more"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
-		
 		"defaultFgColor_override" "235 226 202 255"
 		"armedFgColor_override" "235 226 202 255"
 	}

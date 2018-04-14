@@ -15,7 +15,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
-
+	
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -31,11 +31,13 @@
 		"teambg_2"			"../hud/color_panel_red"
 		"teambg_3"			"../hud/color_panel_blu"
 		"alpha"				"180"
+		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ImagePanel"
@@ -50,11 +52,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"Blue"
+		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
+	
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ImagePanel"
@@ -69,12 +73,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"Red"
+		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-
+	
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"
@@ -89,8 +94,29 @@
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"White"
 	}
+	"TargetNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"TargetNameLabelShadow"
+		"font"			"LightGravity10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"640"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"	"west"
+		"fgcolor_override"		"ShadowBlack"
+		
+		"pin_to_sibling"		"TargetNameLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
 	"TargetDataLabel"
 	{
 		"ControlName"		"Label"
@@ -106,13 +132,13 @@
 		"labelText"			"%targetdata%"
 		"textAlignment"		"west"
 	}
-
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"0"
-		"ypos"				"27"
+		"ypos"				"24"
 		"wide"				"44"
 		"tall"				"40"
 		"visible"			"0"
@@ -123,7 +149,7 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"
 	}
-
+	
 	"AmmoIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -138,19 +164,18 @@
 		"image"				"../hud/leaderboard_class_heavy"
 		"scaleImage"		"1"
     }
-
+	
 	"KillStreakIconAnchor"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"KillStreakIconAnchor"
-		"xpos"				"-4"
+		"xpos"				"-5"
 		"ypos"				"28"
 		"wide"				"8"
 		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"KillStreakIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -164,9 +189,10 @@
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_streak"
 		"scaleImage"		"1"
-		"pin_to_sibling"	"KillStreakIconAnchor"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		
+		"pin_to_sibling"		"KillStreakIconAnchor"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	
 	"MoveableSubPanel"
@@ -248,7 +274,7 @@
 			"brighttext"	"0"
 		}	
 	}
-
+	
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -262,6 +288,6 @@
 		"enabled"			"1"
 		"image"				""
 		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"		"HudTimerProgressInActive"
 	}
 }

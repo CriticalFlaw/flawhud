@@ -17,14 +17,14 @@
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"TestBackground"
+		"fieldName"		"TableBackground"
 		"xpos"			"0"
 		"ypos"			"14"
 		"zpos"			"-1"
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 	}
 	
 	"CreditCollectedTextLabel"
@@ -86,7 +86,7 @@
 	"CreditBonusTextLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedTextLabel"
+		"fieldName"		"CreditBonusTextLabel"
 		"font"			"LightGravity12"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
@@ -100,7 +100,7 @@
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedCountLabel"
+		"fieldName"		"CreditBonusCountLabel"
 		"font"			"LightGravity12"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
@@ -110,25 +110,11 @@
 		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
-		
-	"CreditRatingLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"LightGravity16"
-		"labelText"		"%ratingshadow%"
-		"textAlignment" "center"
-		"xpos"			"67"
-		"ypos"			"-2"
-		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"Black"
-	}
 	
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedTextLabel"
+		"fieldName"		"CreditRatingLabel"
 		"font"			"LightGravity16"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
@@ -137,5 +123,22 @@
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"White"
+	}
+	"CreditRatingLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CreditRatingLabelShadow"
+		"font"			"LightGravity16"
+		"labelText"		"%ratingshadow%"
+		"textAlignment" "center"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"wide"			"70"
+		"tall"			"20"
+		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"CreditRatingLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

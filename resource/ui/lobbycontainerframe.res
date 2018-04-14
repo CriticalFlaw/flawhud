@@ -19,16 +19,16 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"							"#CharInfoAndSetup"
-		"title_font"					"HudFontMediumBold"
-		"titletextinsetX"				"40"
-		"titletextinsetY"				"0"
-		"titlebarfgcolor_override"		"200 187 161 255"
-		"titlebardisabledfgcolor_override"	"200 187 161 255"
-		"titlebarbgcolor_override"		"DarkGrey"
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
-		"NavToRelay"					"BackButton"
+		"title"						"#CharInfoAndSetup"
+		"title_font"				"HudFontMediumBold"
+		"titletextinsetX"			"40"
+		"titletextinsetY"			"0"
+		"titlebarfgcolor_override"	"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"	"DarkGrey"
+		"clientinsetx_override"		"0"
+		"sheetinset_bottom"			"40"
+		"NavToRelay"				"BackButton"
 	}
 	
 	"BackgroundHeader"
@@ -56,7 +56,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"27 27 27 200"
+		"fillcolor"		"DarkGrey"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -84,7 +84,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"27 27 27 200"
+		"fillcolor"		"DarkGrey"
 		"tileImage"		"1"
 	}
 
@@ -131,7 +131,7 @@
 		"tabskv"
 		{
 			"textinsetx"				"40"
-			"font"						"G_FontBig"
+			"font"						"CodeBold37"
 			"selectedcolor"				"White"
 			"unselectedcolor"			"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"
@@ -169,7 +169,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"Black"
+		"image_armedcolor"	"White"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

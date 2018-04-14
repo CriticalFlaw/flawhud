@@ -16,9 +16,8 @@
 		"useparentbg"	"1"
 		"fov"			"54"
 		"start_framed"	"1"
-
 		"disable_manipulation"	"1"
-
+		
 		"model"
 		{
 			"angles_x"		"10"
@@ -26,7 +25,7 @@
 			"angles_z"		"0"
 		}
 	}
-
+	
 	"DisguiseStatusBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -52,13 +51,13 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
-
+	
 	"DisguiseNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"LightGravity12"
-		"xpos"				"45"
+		"xpos"				"47"
 		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"115"
@@ -73,14 +72,14 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"DisguiseNameLabelShadow"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
 		"font"				"LightGravity12"
-		"xpos"				"46"
-		"ypos"				"16"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"1"
 		"wide"				"115"
 		"tall"				"14"
@@ -93,14 +92,18 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+		
+		"pin_to_sibling"		"DisguiseNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
 		"font"				"LightGravity8"
-		"xpos"				"45"
+		"xpos"				"47"
 		"ypos"				"25"
 		"zpos"				"1"
 		"wide"				"115"
@@ -115,40 +118,43 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"WeaponNameLabelShadow"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"LightGravity8"
-		"xpos"			"46"
-		"ypos"			"26"
-		"zpos"			"1"
-		"wide"			"115"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%weaponname%"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"WeaponNameLabelShadow"
+		"font"				"LightGravity8"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"115"
+		"tall"				"12"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%weaponname%"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+		
+		"pin_to_sibling"		"WeaponNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"0"
-		"ypos"				"13"
+		"ypos"				"9"
 		"wide"				"44"
 		"tall"				"30"
 		"visible"			"1"
-		"enabled"			"1"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
+		"enabled"			"1"
+		"HealthDeathWarning"		"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"

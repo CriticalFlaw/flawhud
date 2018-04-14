@@ -80,7 +80,7 @@
 		"selectionTextColor_override" 	"Black"		
 		"labelText"				"%teamname%"
 		"textAlignment"			"west"
-		"font"					"G_FontSmall"
+		"font"					"CodeBold14"
 	}
 
 	"HudTournamentNameBG"

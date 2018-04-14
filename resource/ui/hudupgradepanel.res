@@ -30,8 +30,8 @@
 			"zpos"			"-2"
 			"wide"			"70"
 			"tall"			"50"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
@@ -80,7 +80,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 		
 		"OutterPanelBG"
 		{
@@ -327,7 +327,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -559,7 +559,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			
-			"bgcolor_override"	"52 48 45 255"
+			"bgcolor_override"	"HudTimerProgressInActive"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -657,7 +657,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -675,7 +675,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"G_FontMedium_2"
+			"font"			"CodeLC10"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
@@ -703,7 +703,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
-			"font"			"G_FontSmall_2"
+			"font"			"CodeLC10"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -728,7 +728,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
-			"font"			"G_FontSmall_2"
+			"font"			"CodeLC10"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -753,7 +753,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeRespec"
-			"font"			"G_FontSmall_2"
+			"font"			"CodeLC10"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -777,7 +777,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 
 		"TipPanelBG"
 		{

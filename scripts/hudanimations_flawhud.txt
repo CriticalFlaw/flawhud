@@ -36,8 +36,8 @@ event HudHealthBonusPulseStop
 	Animate	FreezeHealthBG				BgColor		"Blank"	      		Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"255"		  		Accel 0.0 0.0
 	
-	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"White"				Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"White"				Linear 0.0 0.0
 
 	StopEvent HudHealthBonusPulse 		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
@@ -54,8 +54,8 @@ event HudHealthDyingPulse
 	Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
-	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"White"				Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"White"				Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.1
 }
@@ -68,8 +68,8 @@ event HudHealthDyingPulseStop
 	Animate	TargetHealthBG				BgColor		"Blank"	  			Accel 0.0 0.0
     Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.0
 	
-	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"White"				Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"White"				Linear 0.0 0.0
 
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0
@@ -87,9 +87,9 @@ event HudLowAmmoPulse
 
 event HudLowAmmoPulseStop
 {
-	Animate AmmoInClip 					FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
-	Animate AmmoInReserve				FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
-	Animate AmmoNoClip					FgColor		"G_AmmoClipValue" 	Linear 0.0 0.0
+	Animate AmmoInClip 					FgColor		"White" 			Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor		"White" 			Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor		"White" 			Linear 0.0 0.0
 
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
@@ -132,11 +132,9 @@ event HitMarker
 event MMenu_PlayList_Expand { }
 event MMenu_PlayList_Collapse { }
 event MMenu_PlayList_Collapse_Immediate { }
-
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
 event HudTournament_MoveChatWindow 		{ }
-
 event HudSpyDisguiseChanged	{ }
 event HudSpyDisguiseHide	{ }
 event HudSpyDisguiseFadeIn	{ }

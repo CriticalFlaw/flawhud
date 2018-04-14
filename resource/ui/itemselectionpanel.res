@@ -46,9 +46,8 @@
 			"wide"			"54"
 			"tall"			"42"
 			"visible"		"0"
-
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -103,19 +102,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
-		"xpos"			"c-122"
+		"xpos"			"c-142"
 		"ypos"			"17"
 		"zpos"			"1"
-		"wide"			"240"
+		"wide"			"300"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -127,11 +126,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"LightGravity10"
+		"font"			"CodeLC12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+196"
-		"ypos"			"7"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
@@ -146,6 +145,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
+		"font"			"LightGravity10"
 		"xpos"			"c+196"
 		"ypos"			"22"
 		"zpos"			"2"
@@ -162,7 +162,6 @@
 		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Black"
 		"paintbackgroundtype" 	"2"
-		"font"					"LightGravity10"
 	}
 	
 	"TopLine"
@@ -218,11 +217,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
-		"font"			"LightGravity14"
+		"font"			"CodeBold14"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
-		"ypos"			"120"
+		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"600"
 		"tall"			"30"
@@ -230,7 +229,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"CancelButton"
@@ -265,7 +264,7 @@
 		"Font"			"LightGravity10"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
-		"ypos"			"340"
+		"ypos"			"290"
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"25"
@@ -292,7 +291,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Selection_ShowBackpack"
-		"font"			"LightGravity14"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -341,7 +340,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -354,7 +353,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"LightGravity14"
+		"font"			"CodeBold14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -366,7 +365,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"NextPageButton"
@@ -384,7 +383,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -403,8 +402,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"paintbackground"		"0"
@@ -429,7 +428,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -448,6 +447,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
+		"bgcolor_override"	"MenuShader"
 	}
 }

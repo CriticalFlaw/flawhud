@@ -4,10 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -177,7 +175,6 @@
 			"command"	"medal_clicked"
 			"actionsignallevel"	"2"
 			"labeltext"	""
-
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
 		}
@@ -256,9 +253,9 @@
 			
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"LightGravity10"
+				"1"		"LightGravity10"
+				"2"		"LightGravity10"
 			}
 		}
 		
@@ -273,8 +270,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"CodeLC10"
+			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -295,16 +292,16 @@
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"2"		"White"
 			}
 		}
-
+		
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"rs1-5"
 			"wide"			"170"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -321,9 +318,9 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"rs1-2"
 				"wide"			"170"
-				"tall"			"30"
+				"tall"			"35"
 				"proportionaltoparent"	"1"
 
 				if_mini
@@ -337,21 +334,29 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
-					"ypos"			"rs1"
+					"xpos"			"15"
+					"ypos"			"rs1-8"
 					"zpos"			"0"
-					"wide"			"100"
+					"wide"			"140"
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
+					"font"			"CodeBold12Outline"
+					"fgcolor_override"	"255 214 0 255"
+					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 
 					if_mini
 					{
+						"xpos"			"0"
+						"ypos"			"rs1"
+						"zpos"			"0"
+						"wide"			"100"
+						"tall"			"20"
+						"font"			"CodeBold12Outline"
+						"fgcolor_override"	"255 214 0 255"
+						"textAlignment"	"south-west"
 						"visible"		"1"
 					}
 				}
@@ -384,7 +389,7 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"35"
-					"ypos"			"0"
+					"ypos"			"rs1-10"
 					"wide"			"100"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
@@ -471,8 +476,6 @@
 					"border"		"NoBorder"
 				}
 
-
-	
 				// First column
 				"GamesLabel"
 				{

@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
+	// Player Class Data
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -86,9 +86,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"image"			"../hud/character_red_bg_clipped"	
+		"teambg_2"		"../hud/character_red_bg_clipped"
+		"teambg_3"		"../hud/character_blue_bg_clipped"
 	}
 
 	"classmodelpanel"
@@ -104,25 +104,23 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
 				
 		"model"
 		{
-			"force_pos"	"1"
-			"angles_x" "0"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
-		
+			"force_pos"		"1"
+			"angles_x" 		"0"
+			"angles_y" 		"172"
+			"angles_z" 		"0"
+			"origin_x" 		"200"
+			"origin_y" 		"0"
+			"origin_z" 		"-60"
+			"frame_origin_x" "0"
+			"frame_origin_y" "0"
+			"frame_origin_z" "0"
+			"spotlight" 	"1"
 			"modelname"		""
 		}
 

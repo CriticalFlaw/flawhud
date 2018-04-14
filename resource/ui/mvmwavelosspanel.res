@@ -28,20 +28,6 @@
 		"bgcolor_override"		"White"
 	}
 	
-	"WaveFailHeaderShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"WaveFailHeaderShadow"
-		"font"				"HudFontMediumBold"
-		"labelText"			"%waveheader%"
-		"textAlignment"		"center"
-		"xpos"				"c-274"
-		"ypos"				"106"
-		"wide"				"550"
-		"tall"				"30"
-		"fgcolor"			"ShadowBlack"
-	}
-	
 	"WaveFailHeader"
 	{
 		"ControlName"		"CExLabel"
@@ -54,6 +40,24 @@
 		"wide"				"550"
 		"tall"				"30"
 		"fgcolor"			"Orange"
+	}
+	
+	"WaveFailHeaderShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"WaveFailHeaderShadow"
+		"font"				"HudFontMediumBold"
+		"labelText"			"%waveheader%"
+		"textAlignment"		"center"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"wide"				"550"
+		"tall"				"30"
+		"fgcolor"			"ShadowBlack"
+		
+		"pin_to_sibling"		"WaveFailHeader"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"HeaderDivider"
@@ -519,7 +523,7 @@
 		"default"			"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"NeutralWhite"
 		"Command"			"vote_restart"
 	}
 
@@ -544,7 +548,7 @@
 		"default"			"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"NeutralWhite"
 		"Command"			"continue"
 	}
 }

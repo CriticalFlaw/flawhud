@@ -2,21 +2,20 @@
 {
 	"MatchSummary"
 	{
-		"ControlName"	"CTFMatchSummary"
-		"fieldName"		"MatchSummary"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"tabPosition"	"0"
+		"ControlName"		"CTFMatchSummary"
+		"fieldName"			"MatchSummary"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"tabPosition"		"0"
 		"paintbackground"	"0"
-		"zpos"			"20"
-		"visible"		"0"
+		"zpos"				"20"
+		"visible"			"0"
 
-		"AnimBluePlayerListParent"		"p.47"
-		"AnimBlueTeamScore"				"p.46"
-		"AnimBlueTeamScoreDropshadow"	"p.46"
-		"AnimBlueTeamScoreBG"			"p.483"
-		"AnimBluePlayerListBG"			"p.47"
-
+		"AnimBluePlayerListParent"			"p.47"
+		"AnimBlueTeamScore"					"p.46"
+		"AnimBlueTeamScoreDropshadow"		"p.46"
+		"AnimBlueTeamScoreBG"				"p.483"
+		"AnimBluePlayerListBG"				"p.47"
 		"AnimRedTeamScoreBGWide"			"p.483"
 		"AnimRedTeamScoreBGXPos"			"r5-p.483"
 		"AnimRedTeamScoreWide"				"p.46"
@@ -39,8 +38,8 @@
 		
 		if_large
 		{
-			"AnimBlueMedalsYPos"				"50"
-			"AnimRedMedalsYPos"					"50"
+			"AnimBlueMedalsYPos"			"50"
+			"AnimRedMedalsYPos"				"50"
 		}
 	}
 
@@ -76,7 +75,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
-
 		"matchgroup"	"MatchGroup_Ladder_6v6"
 		"show_name"		"0"
 		"show_sources_when_hidden"	"1"
@@ -170,7 +168,7 @@
 
 		"StatsLabelPanel"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsLabelPanel"
 			"xpos"			"c-100"
 			"ypos"			"-20"
@@ -183,11 +181,11 @@
 
 			"StatsAndMedals"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"StatsAndMedals"
 				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"#TF_StatsAndMedals"
-				"textAlignment"		"center"
+				"textAlignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"4"
@@ -201,14 +199,14 @@
 
  			"StatsAndMedalsShadow"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"StatsAndMedalsShadow"
 				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"#TF_StatsAndMedals"
-				"fgcolor"		"Black"
-				"textAlignment"		"center"
-				"xpos"			"1"
-				"ypos"			"1"
+				"fgcolor"		"ShadowBlack"
+				"textAlignment"	"center"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"15"
@@ -216,12 +214,16 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
+
+				"pin_to_sibling"		"StatsAndMedals"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 		}
 
 		"TeamScoresPanel"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"TeamScoresPanel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -233,7 +235,7 @@
 
 			"BlueTeamPanel"
 			{
-	 			"ControlName"		"EditablePanel"
+	 			"ControlName"	"EditablePanel"
 				"fieldName"		"BlueTeamPanel"
 				"xpos"			"-320"
 				"ypos"			"0"
@@ -245,7 +247,7 @@
 
 				"BlueTeamScoreBG"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"BlueTeamScoreBG"
 					"xpos"			"5"
 					"ypos"			"99"
@@ -261,16 +263,16 @@
 
 					if_large
 					{
-						"ypos"			"39"
+						"ypos"		"39"
 					}
 				}
 				"BlueTeamScore"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScore"
 					"font"			"MatchSummaryTeamScores"
 					"labelText"		"%blueteamscore%"
-					"textAlignment"		"east"
+					"textAlignment"	"east"
 					"xpos"			"5"
 					"ypos"			"101"
 					"zpos"			"4"
@@ -283,20 +285,20 @@
 
 					if_large
 					{
-						"ypos"			"41"
+						"ypos"		"41"
 					}
 
 				}
 				"BlueTeamScoreDropshadow"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamscore%"
-					"textAlignment"		"east"
-					"xpos"			"7"
-					"ypos"			"103"
+					"textAlignment"	"east"
+					"xpos"			"-2"
+					"ypos"			"-2"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
@@ -304,19 +306,23 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
+					
+					"pin_to_sibling"		"BlueTeamScore"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"		"43"
 					}
 				}
 				"BlueTeamWinner"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamWinner"
 					"font"			"MatchSummaryWinner"
 					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
+					"textAlignment"	"east"
 					"xpos"			"5"
 					"ypos"			"101"
 					"zpos"			"4"
@@ -329,19 +335,19 @@
 
 					if_large
 					{
-						"ypos"			"41"
+						"ypos"		"41"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
-					"xpos"			"6"
-					"ypos"			"102"
+					"textAlignment"	"east"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
@@ -349,15 +355,19 @@
 					"pinCorner"		"0"
 					"visible"		"0"
 					"enabled"		"0"
+					
+					"pin_to_sibling"		"BlueTeamWinner"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 					if_large
 					{
-						"ypos"			"42"
+						"ypos"		"42"
 					}
 				}
 				"BlueTeamImage"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"BlueTeamImage"
 					"xpos"			"14"
 					"ypos"			"89"
@@ -367,33 +377,33 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"../hud/team_blue"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 
 					if_large
 					{
-						"ypos"			"29"
+						"ypos"		"29"
 					}
 				}
 				"BlueTeamLabel"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamLabel"
 					"font"			"CompMatchStartTeamNames"
 					"labelText"		"%blueteamname%"
-					"textAlignment"		"west"
+					"textAlignment"	"west"
 					"xpos"			"60"
 					"ypos"			"-25"
 					"zpos"			"20"
 					"wide"			"195"
 					"tall"			"20"
-					"autoResize"		"0"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
 				"BlueLeaderAvatar"
 				{
-					"ControlName"		"CAvatarImagePanel"
+					"ControlName"	"CAvatarImagePanel"
 					"fieldName"		"BlueLeaderAvatar"
 					"xpos"			"18"
 					"ypos"			"100"
@@ -404,11 +414,11 @@
 					"enabled"		"1"
 					"image"			""
 					"scaleImage"	"1"	
-					"color_outline"	"52 48 45 255"
+					"color_outline"	"HudTimerProgressInActive"
 
 					if_large
 					{
-						"ypos"			"40"
+						"ypos"		"40"
 					}
 				}
 				"BlueLeaderAvatarBG"
@@ -422,16 +432,16 @@
 					"tall"			"38"
 					"visible"		"1"
 					"PaintBackgroundType"	"2"
-					"bgcolor_override"	"117 107 94 255"
+					"bgcolor_override"	"TextColor"
 
 					if_large
 					{
-						"ypos"			"38"
+						"ypos"		"38"
 					}
 				}
 				"BluePlayerListParent"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"BluePlayerListParent"
 					"xpos"			"12"
 					"ypos"			"137"
@@ -443,8 +453,8 @@
 
 					if_large
 					{
-						"ypos"			"77"
-						"tall"			"340"
+						"ypos"		"77"
+						"tall"		"340"
 					}
 
 					"BluePlayerList"
@@ -475,14 +485,14 @@
 
 						if_large
 						{
-							"tall"			"340"
-							"linegap"		"0"
+							"tall"		"340"
+							"linegap"	"0"
 						}
 					}
 				}
 				"BluePlayerListBG"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"BluePlayerListBG"
 					"xpos"			"9"
 					"ypos"			"117"
@@ -497,14 +507,14 @@
 
 					if_large
 					{
-						"ypos"			"57"
-						"tall"			"360"
+						"ypos"		"57"
+						"tall"		"360"
 					}
 				}
 			}
 			"RedTeamPanel"
 			{
-	 			"ControlName"		"EditablePanel"
+	 			"ControlName"	"EditablePanel"
 				"fieldName"		"RedTeamPanel"
 				"xpos"			"320"
 				"ypos"			"0"
@@ -516,7 +526,7 @@
 
 				"RedTeamScoreBG"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"RedTeamScoreBG"
 					"xpos"			"r5-p.213"
 					"ypos"			"99"
@@ -532,16 +542,16 @@
 
 					if_large
 					{
-						"ypos"			"39"
+						"ypos"		"39"
 					}
 				}						
 				"RedTeamScore"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScore"
 					"font"			"MatchSummaryTeamScores"
 					"labelText"		"%redteamscore%"
-					"textAlignment"		"west"
+					"textAlignment"	"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"101"
 					"zpos"			"4"
@@ -554,39 +564,43 @@
 
 					if_large
 					{
-						"ypos"			"41"
+						"ypos"		"41"
 					}
 				}
 				"RedTeamScoreDropshadow"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamscore%"
-					"textAlignment"		"west"
+					"textAlignment"	"west"
 					"xpos"			"r3-p.19"
-					"ypos"			"103"
-					"zpos"			"3"
+					"ypos"			"-2"
+					"zpos"			"-2"
 					"wide"			"p.19"
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
+					
+					"pin_to_sibling"		"RedTeamScore"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"		"43"
 					}
 				}
 				"RedTeamWinner"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamWinner"
 					"font"			"MatchSummaryWinner"
 					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
+					"textAlignment"	"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"101"
 					"zpos"			"4"
@@ -599,19 +613,19 @@
 
 					if_large
 					{
-						"ypos"			"41"
+						"ypos"		"41"
 					}
 				}
 				"RedTeamWinnerDropshadow"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
-					"xpos"			"r4-p.19"
-					"ypos"			"102"
+					"textAlignment"	"west"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
@@ -619,15 +633,19 @@
 					"pinCorner"		"0"
 					"visible"		"0"
 					"enabled"		"0"
+					
+					"pin_to_sibling"		"RedTeamWinner"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 					if_large
 					{
-						"ypos"			"42"
+						"ypos"		"42"
 					}
 				}
 				"RedTeamImage"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"RedTeamImage"
 					"xpos"			"r68"
 					"ypos"			"80"
@@ -637,33 +655,33 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"../hud/team_red"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 
 					if_large
 					{
-						"ypos"			"20"
+						"ypos"		"20"
 					}
 				}
 				"RedTeamLabel"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamLabel"
 					"font"			"CompMatchStartTeamNames"
 					"labelText"		"%redteamname%"
-					"textAlignment"		"east"
+					"textAlignment"	"east"
 					"xpos"			"r255"
 					"ypos"			"-25"
 					"zpos"			"20"
 					"wide"			"195"
 					"tall"			"20"
-					"autoResize"		"0"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
 				"RedLeaderAvatar"
 				{
-					"ControlName"		"CAvatarImagePanel"
+					"ControlName"	"CAvatarImagePanel"
 					"fieldName"		"RedLeaderAvatar"
 					"xpos"			"r52"
 					"ypos"			"100"
@@ -674,11 +692,11 @@
 					"enabled"		"1"
 					"image"			""
 					"scaleImage"	"1"	
-					"color_outline"	"52 48 45 255"
+					"color_outline"	"HudTimerProgressInActive"
 
 					if_large
 					{
-						"ypos"			"40"
+						"ypos"		"40"
 					}
 				}
 				"RedLeaderAvatarBG"
@@ -692,16 +710,16 @@
 					"tall"			"38"
 					"visible"		"1"
 					"PaintBackgroundType"	"2"
-					"bgcolor_override"	"117 107 94 255"
+					"bgcolor_override"	"TextColor"
 
 					if_large
 					{
-						"ypos"			"38"
+						"ypos"		"38"
 					}
 				}
 				"RedPlayerListParent"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"RedPlayerListParent"
 					"xpos"			"r12-p.193"
 					"ypos"			"137"
@@ -713,8 +731,8 @@
 
 					if_large
 					{
-						"ypos"			"77"
-						"tall"			"340"
+						"ypos"		"77"
+						"tall"		"340"
 					}
 			
 					"RedPlayerList"
@@ -745,14 +763,14 @@
 
 						if_large
 						{
-							"tall"			"340"
-							"linegap"		"0"
+							"tall"		"340"
+							"linegap"	"0"
 						}
 					}
 				}
 				"RedPlayerListBG"
 				{
-					"ControlName"		"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"RedPlayerListBG"
 					"xpos"			"r9-p.2"
 					"ypos"			"117"
@@ -767,14 +785,14 @@
 
 					if_large
 					{
-						"ypos"			"57"
-						"tall"			"360"
+						"ypos"		"57"
+						"tall"		"360"
 					}
 				}
 			}
 			"BlueMedals"
 			{
-	 			"ControlName"		"EditablePanel"
+	 			"ControlName"	"EditablePanel"
 				"fieldName"		"BlueMedals"
 				"xpos"			"c-250"
 				"ypos"			"-20"
@@ -786,12 +804,12 @@
 
 				if_large
 				{
-					"visible"		"0"
+					"visible"	"0"
 				}
 
 				"BlueGoldMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"BlueGoldMedal"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -801,15 +819,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_gold"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"BlueGoldMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueGoldMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%blueteammedals_gold%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"15"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -822,7 +840,7 @@
 				}
 				"BlueSilverMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"BlueSilverMedal"
 					"xpos"			"55"
 					"ypos"			"0"
@@ -832,15 +850,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_silver"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"BlueSilverMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueSilverMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%blueteammedals_silver%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"70"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -853,7 +871,7 @@
 				}
 				"BlueBronzeMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"BlueBronzeMedal"
 					"xpos"			"110"
 					"ypos"			"0"
@@ -863,15 +881,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_bronze"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"BlueBronzeMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"BlueBronzeMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%blueteammedals_bronze%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"125"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -885,7 +903,7 @@
 			}
 			"RedMedals"
 			{
-	 			"ControlName"		"EditablePanel"
+	 			"ControlName"	"EditablePanel"
 				"fieldName"		"RedMedals"
 				"xpos"			"c100"
 				"ypos"			"-20"
@@ -897,12 +915,12 @@
 
 				if_large
 				{
-					"visible"		"0"
+					"visible"	"0"
 				}
 
 				"RedGoldMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"RedGoldMedal"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -912,15 +930,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_gold"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"RedGoldMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedGoldMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%redteammedals_gold%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"15"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -933,7 +951,7 @@
 				}
 				"RedSilverMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"RedSilverMedal"
 					"xpos"			"55"
 					"ypos"			"0"
@@ -943,15 +961,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_silver"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"RedSilverMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedSilverMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%redteammedals_silver%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"70"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -964,7 +982,7 @@
 				}
 				"RedBronzeMedal"
 				{
-					"ControlName"		"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"RedBronzeMedal"
 					"xpos"			"110"
 					"ypos"			"0"
@@ -974,15 +992,15 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_bronze"
-					"scaleImage"		"1"
+					"scaleImage"	"1"
 				}
 				"RedBronzeMedalValue"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RedBronzeMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
 					"labelText"		"%redteammedals_bronze%"
-					"textAlignment"		"center"
+					"textAlignment"	"center"
 					"xpos"			"125"
 					"ypos"			"0"
 					"zpos"			"6"

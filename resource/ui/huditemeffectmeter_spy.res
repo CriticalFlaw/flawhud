@@ -74,7 +74,6 @@
 		"font"					"LightGravity20"
 		"fgcolor"				"White"
 	}
-
 	"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"

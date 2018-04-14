@@ -4,25 +4,23 @@ Scheme
 	{
 		WhiteBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "White"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
 				{
 					"color" "White"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -31,7 +29,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -86,7 +83,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -95,7 +91,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -104,7 +99,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -202,7 +196,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -211,7 +204,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -220,7 +212,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -247,7 +238,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -261,7 +251,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -275,7 +264,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -296,32 +284,31 @@ Scheme
 			"inset" "0 0 0 0"
 			"backgroundtype" "0"
 		}
-
+		
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "0"
 		}
-
+		
 		ButtonBorder
 		{
 			"offset" "0 0"
 			"color" "Blank"
 		}
-
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
+		
 		ButtonKeyFocusBorder
 		{
 			"offset" "0 0"
 			"color" "Blank"
 		}
-
+		
 		ButtonDepressedBorder
 		{
 			"offset" "0 0"
 			"color" "Blank"
 		}
-
+		
 		ComboBoxBorder
 		{
 			"inset" "0 0 1 1"
@@ -333,7 +320,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -342,7 +328,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -351,7 +336,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -361,6 +345,7 @@ Scheme
 				}
 			}
 		}
+		
 		ItemBoxBorder
 		{
 			"inset" "0 0 1 1"
@@ -372,7 +357,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -381,7 +365,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -390,7 +373,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -400,6 +382,7 @@ Scheme
 				}
 			}
 		}
+		
 		DarkComboBoxBorder
 		{
 			"inset" "0 0 1 1"
@@ -411,7 +394,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -420,7 +402,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -429,7 +410,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -439,6 +419,7 @@ Scheme
 				}
 			}
 		}
+		
 		SalePriceBorder
 		{
 			"inset" "0 0 0 0"
@@ -450,7 +431,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -459,7 +439,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -468,7 +447,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -478,7 +456,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 0 0"
@@ -490,7 +468,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -515,18 +492,19 @@ Scheme
 			"backgroundtype"		"0"
 			
 			"image"					"loadout_round_rect_selected"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		OutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"loadout_round_rect"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -536,125 +514,124 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
-			"src_corner_height"		"23"				// pixels inside the image
+			//"image"				"../hud/color_panel_browner"
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"../hud/color_panel_brown_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"
 		}
+		
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"replay/thumbnails/bg_red"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"
 		}
+		
 		TFFatLineBorderRedBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/color_panel_red_more_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"replay/thumbnails/bg_blu"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"
 		}
+		
 		TFFatLineBorderBlueBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/color_panel_blu_more_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
 		TFFatLineBorderBlueBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/color_panel_blu_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		TFFatLineBorderClearBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/color_panel_clear"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		ToolTipBorder
 		{
 			"inset" "0 0 0 0"
@@ -666,7 +643,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -675,7 +651,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -684,7 +659,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -694,13 +668,11 @@ Scheme
 				}
 			}
 		}
+		
 		OptionsCategoryBorder
 		{
 			"inset" "0 0 0 0"
-			
-			// This border is used just to create a horizontal line, so it only has a bottom border
-			
-			Bottom
+			Bottom	// This border is used just to create a horizontal line, so it only has a bottom border
 			{
 				"1"
 				{
@@ -714,21 +686,19 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"loadout_rect"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		StoreFreeTrialBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"loadout_rect_red"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -739,28 +709,28 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"Grey"
-			
 			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+		
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "0"
 		}
+		
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "0"
 		}
-
+		
 		LoadoutItemMouseOverBorder
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -780,14 +750,14 @@ Scheme
 				}
 			}	
 		}
+		
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			"color"					"DarkGrey"
-			
 			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -804,7 +774,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -813,7 +782,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -822,7 +790,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -844,7 +811,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -853,7 +819,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -862,7 +827,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -872,7 +836,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Standard ------------------------------------------------------------------------------------------------		
 		BackpackItemBorder
 		{
@@ -885,7 +849,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -894,7 +857,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -903,7 +865,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -913,6 +874,7 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder
 		{
 			"inset" "0 0 0 0"
@@ -924,7 +886,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -933,7 +894,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -942,7 +902,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -952,6 +911,7 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemSelectedBorder
 		{
 			"inset" "0 0 0 0"
@@ -973,7 +933,6 @@ Scheme
 					"offset" "3 3"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -992,7 +951,6 @@ Scheme
 					"offset" "2 2"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -1011,7 +969,6 @@ Scheme
 					"offset" "2 3"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -1029,7 +986,7 @@ Scheme
 					"color" "185 185 185 255"
 					"offset" "2 3"
 				}
-			}	
+			}
 		}
 		
 		BackpackItemGreyedOutBorder
@@ -1048,7 +1005,6 @@ Scheme
 					"offset" "2 2"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -1062,7 +1018,6 @@ Scheme
 					"offset" "1 1"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -1076,7 +1031,6 @@ Scheme
 					"offset" "1 2"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -1089,9 +1043,9 @@ Scheme
 					"color" "Black"
 					"offset" "1 2"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder
 		{
 			"inset" "0 0 0 0"
@@ -1113,7 +1067,6 @@ Scheme
 					"offset" "3 3"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -1132,7 +1085,6 @@ Scheme
 					"offset" "2 2"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -1151,7 +1103,6 @@ Scheme
 					"offset" "2 3"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -1169,14 +1120,13 @@ Scheme
 					"color" "Black"
 					"offset" "2 3"
 				}
-			}	
+			}
 		}
-
+		
 		// Unique ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Unique
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1194,12 +1144,12 @@ Scheme
 					"color" "DimmQualityColorUnique"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_Unique
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1219,11 +1169,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Unique
 		{
 			"inset" "0 0 0 0"
-			
 			Bottom
 			{
 				"1"
@@ -1243,10 +1192,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_Unique
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1266,12 +1215,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Rarity1 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_1
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1291,10 +1239,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_1
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1312,13 +1260,12 @@ Scheme
 					"color" "QualityColorrarity1"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_1
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1338,10 +1285,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_1
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1361,12 +1308,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Rarity2 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_2
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1384,12 +1330,12 @@ Scheme
 					"color" "DimmQualityColorrarity2"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_2
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1409,11 +1355,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_2
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1433,10 +1378,10 @@ Scheme
 				}
 			}	
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_2
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1456,12 +1401,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Rarity3 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_3
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1479,12 +1423,12 @@ Scheme
 					"color" "DimmQualityColorrarity3"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_3
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1502,13 +1446,12 @@ Scheme
 					"color" "QualityColorrarity3"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_3
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1528,10 +1471,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_3
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1551,12 +1494,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Rarity4 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_4
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1576,10 +1518,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_4
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1599,11 +1541,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_4
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1623,11 +1564,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_4
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1647,12 +1587,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Haunted ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Haunted
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1672,10 +1611,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Haunted
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1695,11 +1634,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Haunted
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1719,11 +1657,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Haunted
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1743,12 +1680,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Vintage ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Vintage
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1768,10 +1704,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Vintage
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1791,11 +1727,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Vintage
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1815,11 +1750,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Vintage
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1839,12 +1773,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Community ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Community
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1864,10 +1797,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Community
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1885,13 +1818,12 @@ Scheme
 					"color" "QualityColorCommunity"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Community
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1911,11 +1843,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Community
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1935,12 +1866,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Developer ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Developer
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1960,10 +1890,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Developer
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -1981,37 +1911,12 @@ Scheme
 					"color" "QualityColorDeveloper"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Developer
 		{
 			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 0"
-					"offset" "1 1"
-				}
-				"2"
-				{
-					"color" "QualityColorDeveloper_GreyedOut"
-					"offset" "1 1"
-				}
-				"3"
-				{
-					"color" "QualityColorDeveloper_GreyedOut"
-					"offset" "1 1"
-				}
-			}	
-		}
-
-		BackpackItemGreyedOutSelectedBorder_Developer
-		{
-			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2031,12 +1936,34 @@ Scheme
 				}
 			}
 		}
-
+		
+		BackpackItemGreyedOutSelectedBorder_Developer
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+		}
+		
 		// SelfMade ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2056,10 +1983,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2079,35 +2006,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 0"
-					"offset" "1 1"
-				}
-				"2"
-				{
-					"color" "QualityColorSelfMade_GreyedOut"
-					"offset" "1 1"
-				}
-				"3"
-				{
-					"color" "QualityColorSelfMade_GreyedOut"
-					"offset" "1 1"
-				}
-			}	
-		}
-
-		BackpackItemGreyedOutSelectedBorder_SelfMade
-		{
-			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2127,12 +2029,34 @@ Scheme
 				}
 			}
 		}
-
+		
+		BackpackItemGreyedOutSelectedBorder_SelfMade
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+		}
+		
 		// Customized ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Customized
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2150,12 +2074,12 @@ Scheme
 					"color" "DimmQualityColorCustomized"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_Customized
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2175,11 +2099,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Customized
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2199,11 +2122,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Customized
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2221,14 +2143,13 @@ Scheme
 					"color" "QualityColorCustomized_GreyedOut"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		// Strange ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Strange
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2246,12 +2167,12 @@ Scheme
 					"color" "DimmQualityColorStrange"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_Strange
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2269,13 +2190,12 @@ Scheme
 					"color" "QualityColorStrange"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Strange
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2295,11 +2215,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Strange
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2319,12 +2238,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Completed ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Completed
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2344,10 +2262,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Completed
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2367,11 +2285,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Completed
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2391,11 +2308,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Completed
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2415,12 +2331,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// PaintkitWeapon ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2440,10 +2355,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2461,37 +2376,12 @@ Scheme
 					"color" "QualityColorPaintkitWeapon"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 0"
-					"offset" "1 1"
-				}
-				"2"
-				{
-					"color" "QualityColorPaintkitWeapon_GreyedOut"
-					"offset" "1 1"
-				}
-				"3"
-				{
-					"color" "QualityColorPaintkitWeapon_GreyedOut"
-					"offset" "1 1"
-				}
-			}	
-		}
-
-		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
-		{
-			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2511,12 +2401,34 @@ Scheme
 				}
 			}
 		}
-
+		
+		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+		}
+		
 		// Collector's ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Collectors
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2536,10 +2448,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_Collectors
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2559,11 +2471,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutBorder_Collectors
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2583,11 +2494,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		BackpackItemGreyedOutSelectedBorder_Collectors
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2607,12 +2517,11 @@ Scheme
 				}
 			}
 		}
-
+		
 		// Rarity Default
 		BackpackItemBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2632,10 +2541,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2655,10 +2564,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2678,10 +2587,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2701,10 +2610,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2724,10 +2633,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2747,10 +2656,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2770,10 +2679,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2793,10 +2702,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2814,12 +2723,12 @@ Scheme
 					"color" "DimmItemRarityUncommon"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2839,10 +2748,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2862,10 +2771,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2885,10 +2794,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2908,10 +2817,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2931,10 +2840,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2952,12 +2861,12 @@ Scheme
 					"color" "ItemRarityRare_GreyedOut"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2975,13 +2884,12 @@ Scheme
 					"color" "ItemRarityRare_GreyedOut"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
-		//******************
+		
 		BackpackItemBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -2999,12 +2907,12 @@ Scheme
 					"color" "DimmItemRarityMythical"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3024,10 +2932,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3045,12 +2953,12 @@ Scheme
 					"color" "ItemRarityMythical_GreyedOut"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3068,13 +2976,13 @@ Scheme
 					"color" "ItemRarityMythical_GreyedOut"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		// ***************************************************
 		BackpackItemBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3094,10 +3002,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3117,33 +3025,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 0"
-					"offset" "1 1"
-				}
-				"2"
-				{
-					"color" "ItemRarityLegendary_GreyedOut"
-					"offset" "1 1"
-				}
-				"3"
-				{
-					"color" "ItemRarityLegendary_GreyedOut"
-					"offset" "1 1"
-				}
-			}	
-		}
-		BackpackItemGreyedOutSelectedBorder_RarityLegendary
-		{
-			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3163,11 +3048,34 @@ Scheme
 				}
 			}
 		}
+		
+		BackpackItemGreyedOutSelectedBorder_RarityLegendary
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+		}
+		
 		//*********************************************
 		BackpackItemBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3187,10 +3095,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemMouseOverBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3208,12 +3116,12 @@ Scheme
 					"color" "ItemRarityAncient"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
+		
 		BackpackItemGreyedOutBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3233,10 +3141,10 @@ Scheme
 				}
 			}
 		}
+		
 		BackpackItemGreyedOutSelectedBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
-
 			Bottom
 			{
 				"1"
@@ -3256,7 +3164,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		StoreItemBorder
 		{
 			"inset" "0 0 0 0"
@@ -3269,7 +3177,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -3278,7 +3185,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -3287,7 +3193,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -3297,6 +3202,7 @@ Scheme
 				}
 			}
 		}
+		
 		StoreItemBorderMouseOver
 		{
 			"inset" "0 0 0 0"
@@ -3309,7 +3215,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -3318,7 +3223,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -3327,7 +3231,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -3337,6 +3240,7 @@ Scheme
 				}
 			}
 		}
+		
 		StoreItemBorderSelected
 		{
 			"inset" "0 0 0 0"
@@ -3349,7 +3253,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -3358,7 +3261,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -3367,7 +3269,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -3377,183 +3278,178 @@ Scheme
 				}
 			}
 		}
-
+		
 		MainMenuButtonGlow
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"178 83 22 255"
-			
 			"image"					"button_glow"
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		MainMenuButtonGlow2
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"238 103 17 255"
-			
 			"image"					"button_glow"
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"alert_rect"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		NotificationHighPriority
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
 			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"
 		}
-
+		
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_depressed"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuButtonDepressedArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_depressed_armed"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
-		}		
+		}
+		
 		MainMenuButtonDefault
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuButtonArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_hover"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuButtonDisabled
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_disabled"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuMiniButtonDefault
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_adv"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuMiniButtonArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_central_adv_hover"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuBGBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/thumbnails/mmbg"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuBGBorderAlpha
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_holder_central_alpha"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuBlogTabBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"blog_tabby"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		MainMenuHighlightBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"callout_bubble"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		TrainingResultsBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
@@ -3565,9 +3461,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/innershadow_border"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -3577,33 +3472,30 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"new_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		StoreHighlightedBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"featured_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		StoreHighlightedBackgroundBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_featured_item_bg01"
-			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_height"		"80"			// pixels inside the image
 			"src_corner_width"		"30"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -3613,65 +3505,63 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"sale_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-
+		
 		StorePreviewBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_inspector_bg_small"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		StoreAddToCart
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_add_to_cart"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		StorePreviewTabSelected
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_tab_selected"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		StorePreviewTabUnselected
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_tab_unselected"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		StorePromotion
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"store/store_coupon_border"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -3681,9 +3571,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"scroll_button_off"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
@@ -3692,13 +3581,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"scroll_well"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		QuickplayBorder
 		{
 			"inset" "0 0 0 0"
@@ -3710,7 +3599,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -3719,7 +3607,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -3728,7 +3615,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -3738,11 +3624,10 @@ Scheme
 				}
 			}
 		}
-
+		
 		SortCategoryBorder
 		{
 			"inset" "0 0 1 1"
-	
 			Right
 			{
 				"1"
@@ -3752,7 +3637,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 0 0"
@@ -3764,7 +3649,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -3773,7 +3657,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -3782,7 +3665,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -3792,159 +3674,156 @@ Scheme
 				}
 			}
 		}
-
+		
 		ReplayFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/fatlineborder_red"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/fatlineborder"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayGrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/graydialogborder"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayOutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/outlinedgreybox"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayOutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/dullgreybox"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayThinLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
-			"src_corner_height"		"23"				// pixels inside the image
+			//"image"				"../hud/color_panel_browner"
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayDefaultBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/panel_scalable_default"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayHighlightBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/panel_scalable_highlight"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayBalloonBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/panel_scalable_balloon"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
+			
 		}
-
+		
 		QuestStatusBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"replay/panel_scalable_transparent"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
-
+		
 		RedWithThinBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/panel_scalable_red"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
-
+		
 		BlueWithThinBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
-
+		
 		InnerShadowBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-
+		
 		InnerShadowBorderThin
 		{
 			"bordertype"			"scalable_image"
@@ -3956,24 +3835,22 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-
+		
 		OuterShadowBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"outer_shadow_border"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
-
+		
 		OuterShadowBorderThin
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"outer_shadow_border"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
@@ -3985,62 +3862,57 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"cyoa/cyoa_map_screen_border"
-			"src_corner_height"		"63"				// pixels inside the image
+			"src_corner_height"		"63"			// pixels inside the image
 			"src_corner_width"		"63"
-			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"26"	
+			"draw_corner_width"		"26"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"26"
 		}
-
+		
 		CYOANodeViewBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"cyoa/node_view_border"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
-
+		
 		CYOANodeViewBorder_Active
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"cyoa/node_view_border_active"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
-
+		
 		CYOANodeViewBorder_Inactive
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"cyoa/node_view_border_inactive"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
-
+		
 		CYOANodeViewBorder_TurnIn
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"cyoa/node_view_border_turnin"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
-
+		
 		CYOAPopupBorder
 		{
 			"inset" "0 0 1 1"
@@ -4057,7 +3929,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -4071,7 +3942,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -4085,7 +3955,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -4100,7 +3969,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		FriendHighlightBorder
 		{
 			"inset" "0 0 1 1"
@@ -4111,9 +3980,7 @@ Scheme
 					"color" "CreditsGreen"
 					"offset" "0 1"
 				}
-
 			}
-
 			Right
 			{
 				"1"
@@ -4122,7 +3989,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -4131,7 +3997,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -4141,7 +4006,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		FriendHighlightBorderThick
 		{
 			"inset" "0 0 1 1"
@@ -4158,7 +4023,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -4172,7 +4036,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -4186,7 +4049,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"

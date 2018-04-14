@@ -179,7 +179,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"HudTimerProgressInActive"
 		}	
 		
 		"NemesisSubPanel"

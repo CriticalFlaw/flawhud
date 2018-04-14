@@ -64,8 +64,8 @@
 		"wide"				"200"
 		"tall"				"70"
 		"visible"			"1"
-		"bgcolor_override"	"0 0 0 0"
-		"noitem_textcolor"	"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"model_xpos"		"2"
@@ -111,8 +111,8 @@
 		"wide"				"90"
 		"tall"				"70"
 		"visible"			"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"model_xpos"		"2"
@@ -146,7 +146,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 	
 	"GivenName"
@@ -165,7 +165,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"NeutralWhite"
 	}
 
 	"WarningLabel"
@@ -184,7 +184,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 
 	"BackFromInvalidButton"

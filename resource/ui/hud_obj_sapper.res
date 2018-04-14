@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"Icon"
@@ -43,7 +43,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -174,7 +174,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"White"
 			}
 			
 			"TargetHealth"

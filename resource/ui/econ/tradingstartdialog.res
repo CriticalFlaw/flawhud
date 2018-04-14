@@ -20,7 +20,7 @@
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-				
+			
 			"button"
 			{
 				"xpos"			"0"
@@ -57,7 +57,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"HudTimerProgressInActive"
 			}
 		}
 	}
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -90,7 +90,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"TextColor"
 		"bgcolor_override"	"0 0 0 64"
 		
 		"PlayerList"
@@ -104,7 +104,7 @@
 			"visible"		"1"
 		}
 	}
-
+	
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -116,7 +116,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -133,9 +133,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
-
+			"fgcolor_override" "HudOffWhite"
+		}
+		
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -151,7 +151,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -177,7 +177,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -203,7 +203,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -215,6 +215,7 @@
 			"border_armed"		"WhiteBorder"
 		}
 	}
+	
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -226,7 +227,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -242,8 +243,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -263,9 +264,10 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 	}
+	
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -277,7 +279,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -294,8 +296,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -315,9 +317,10 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 	}
+	
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -329,7 +332,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -346,8 +349,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"URLHelpLabel"
 		{
@@ -368,8 +371,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "White"
-		}	
-		
+		}
 		"URLFailLabel"
 		{
 			"ControlName"	"Label"
@@ -388,7 +390,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}	
 		"URLSearchingLabel"
 		{
@@ -408,9 +410,8 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
-		}	
-		
+			"fgcolor_override" "LightRed"
+		}
 		"URLEntry"
 		{
 			"ControlName"		"TextEntry"
@@ -481,7 +482,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

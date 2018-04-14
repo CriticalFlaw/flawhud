@@ -100,11 +100,14 @@
 		"font"			"LightGravity20"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"ypos_minmode"	"38"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"		"CountText"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

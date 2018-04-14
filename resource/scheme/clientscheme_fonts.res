@@ -2,251 +2,53 @@ Scheme
 {
 	Fonts
 	{
-		"LightGravity8"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity9"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity10"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity11"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity12"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity14"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity16"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity18"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity20"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity20Outline"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"LightGravity24"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity24Outline"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"LightGravity26"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity34"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"34"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity40"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"40"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity55"
-		{
-			"1"
-			{
-				"name"			"Gravity-Light"
-				"tall"			"55"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"LightGravityHUD"
-		{
-			"1"
-			{
-				"name"		"Gravity-Light"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias" "1"
-				"italic"	"1"
-			}
-		}
-		"DefaultOutline"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"900"
-				"range"			"0x0000 0x017F"
-				"outline"		"1"
-			}
-		}
-
-		"G_MenuArrowBig"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"26"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_MenuArrowSmall"	// Small arrows used in various menus
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"15"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"ClassIcons"		// Class Icons found in the "Items" Page
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"62"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"G_FontTargetIDHealth"	// Target ID Font
+		// CUSTOM
+		"CodeBold50"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"14"
+				"tall"			"50"
 				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"SymbolS"			// Miscellaneous symbols
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"25"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-
-		"G_FontDamage"		// Font for Damage Numbers
+		"CodeBold37"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"37"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CodeBold22Outline"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"CodeBold22"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CodeBold20Outline"
 		{
 			"1"
 			{
@@ -258,104 +60,18 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		
-		"G_FontCritDamage"	// Font for "Critical Hit" Damage Numbers
+		"CodeBold20"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"22"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
-		"G_HeadsIcon"		// Icons for weapons that "store" crits, kills etc.
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"12"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_Stickys"			// Sticky Counter Icons (don't work atm)
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"60"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"G_ChargeLabel"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"22"
-				"additive"		"0"
-				"antialias" 	"1"
-				"outline"		"1"
-			}
-		}
-		
-		"G_FontNumberButton" // Key Button Text
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"9"
-				"weight"		"500"
-				"antialias" 	"1"
-			}
-		}
-
-		"G_FontHuge"		// Primary Font
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"52"
+				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		
-		"G_FontBig"			// Primary Font
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"37"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"G_FontMedium"		// Primary Font
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"22"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"G_FontMediumSmall"	// Primary Font
+		"CodeBold18"
 		{
 			"1"
 			{
@@ -366,8 +82,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"G_FontSmall"		// Primary Font
+		"CodeBold14"
 		{
 			"1"
 			{
@@ -378,8 +93,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"G_FontTiny"		// Primary Font
+		"CodeBold12"
 		{
 			"1"
 			{
@@ -390,44 +104,42 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		"G_FontHuge_2"		// Secondary Font
+		"CodeBold12Outline"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
+		
+		"CodeLC15"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"23"
+				"tall"			"15"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
-		"G_FontBig_2"		// Secondary Font
+		"CodeLC12"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"16"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
-		"G_FontMedium_2"	// Secondary Font
-		{
-			"1"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"13"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_FontSmall_2"		// Secondary Font
+		"CodeLC10"
 		{
 			"1"
 			{
@@ -438,8 +150,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"G_FontTiny_2"		// Secondary Font
+		"CodeLC8"
 		{
 			"1"
 			{
@@ -451,7 +162,133 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
+		
+		"LightGravity24"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity20"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity18"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity16"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity14"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity12"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity11"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"11"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity10"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightGravity9"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"9"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"LightGravity8"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"MenuArrows"	// Small arrows used in various menus
+		{
+			"1"
+			{
+				"name"			"FlawHUDIcons"
+				"tall"			"15"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ClassIcons"	// Class Icons found in the "Items" Page
+		{
+			"1"
+			{
+				"name"			"FlawHUDIcons"
+				"tall"			"62"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 
+		// DEFAULT
 		"Default"
 		{
 			"1"
@@ -463,17 +300,28 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Arial"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
+			}
+		}
+		"DefaultOutline"
+		{
+			"1"
+			{
+				"name"			"Gravity-Light"
+				"tall"			"10"
+				"weight"		"900"
+				"range"			"0x0000 0x017F"
+				"outline"		"1"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"500"
 				"underline" 	"1"
@@ -481,7 +329,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Arial"
+				"name"			"Gravity-Light"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -491,7 +339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -499,7 +347,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -507,7 +355,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -516,7 +364,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -525,7 +373,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -534,7 +382,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Arial"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -544,7 +392,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -552,7 +400,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -560,7 +408,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -569,7 +417,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -578,7 +426,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -590,7 +438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -598,7 +446,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -606,7 +454,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -615,7 +463,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -624,7 +472,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -633,23 +481,22 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"Arial"
+				"name"			"Gravity-Light"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
 		}
-
+		
 		CenterPrintText
 		{
-			// note that this scales with the screen resolution
 			"1"
 			{
 				"name"			"Trebuchet MS" [!$OSX]
@@ -660,7 +507,7 @@ Scheme
 				"additive"		"1"
 			}
 		}
-
+		
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -672,12 +519,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		HudHintText
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Verdana"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -712,6 +559,7 @@ Scheme
 				"yres"			"1200 10000"
 			}
 		}
+		
 		"HudFontGiant"
 		{
 			"1"
@@ -814,7 +662,7 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -960,7 +808,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -972,7 +820,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -983,7 +831,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"FontCartPrice"
 		{
 			"1"
@@ -1039,7 +887,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"TextTooltipFont"
 		{
 			"1"
@@ -1051,35 +899,35 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		GameUIButtons
 		{
 			"1"	//[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scaley"		"0.5"
 			}
 		}
 		GameUIButtonsSmall
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scaley"		"0.5"
 			}
 		}
 		GameUIButtonsSmallest
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.4"
+				"scaley"		"0.4"
 			}
 		}
 		GameUIButtonsSteamController
@@ -1123,20 +971,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		"HudClassHealth"
-		{
-			"1"
-			{
-				"name"			"Gravity-Light"
-				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
+		
 		"HudClassHealth"
 		{
 			"1"
@@ -1148,7 +983,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -1160,7 +995,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"ClockSubText"
 		{
 			"1"
@@ -1194,7 +1029,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"HudSelectionText"
 		{
 			"1"
@@ -1245,7 +1080,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-
+		
 		DebugOverlay
 		{
 			"1"
@@ -1257,7 +1092,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-
+		
 		TFTypeDeath
 		{
 			"1"
@@ -1281,7 +1116,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"BetaFont"
 		{
 			"1"
@@ -1294,7 +1129,7 @@ Scheme
 				"additive"		"0"
 			}
 		}
-
+		
 		HudNumbers
 		{
 			"1"
@@ -1314,7 +1149,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1372,7 +1207,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-
+		
 		"Marlett"
 		{
 			"1"
@@ -1395,7 +1230,7 @@ Scheme
 				"range"			"0x0000 0x007F"
 			}
 		}
-
+		
 		"MenuMainTitle"
 		{
 			"1"
@@ -1431,14 +1266,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"13"
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}		
-
+		}
+		
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1484,7 +1319,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-
+		
 		"ScoreboardSmallest"
 		{
 			"1"
@@ -1649,7 +1484,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -1666,7 +1501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1677,31 +1512,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1712,14 +1547,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"Link"
 		{
 			"1"
@@ -1731,7 +1566,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"TargetID"
 		{
 			"1"
@@ -1775,12 +1610,12 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
-
+		
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Verdana"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1862,7 +1697,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-
+		
 		MenuSmallestFont
 		{
 			"1"
@@ -1885,7 +1720,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		CapPlayerFont
 		{
 			"1"
@@ -1910,7 +1745,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		TFFontSmall
 		{
 			"1"
@@ -1933,7 +1768,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		InstructionalText
 		{
 			"1"
@@ -1978,7 +1813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Gravity-Light"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1987,11 +1822,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -2014,7 +1849,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -2023,22 +1858,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"18"
 				"weight"		"900"
 			}
 		}
-
+		
 		RankingDialogHeaders
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Gravity-Light"
 				"tall"			"15"
 				"weight"		"900"
 			}
 		}
-
+		
 		"TeamMenuBold"
 		{
 			"1"
@@ -2061,7 +1896,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2073,7 +1908,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"AchievementNotification"
 		{
 			"1"
@@ -2084,7 +1919,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"ImportToolSmallestBold"
 		{
 			"1"
@@ -2107,7 +1942,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"SpectatorVerySmall"
 		{
 			"1"
@@ -2119,7 +1954,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -2157,7 +1992,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-Bold"
-				"tall"			"10"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2261,12 +2096,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Verdana"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2277,13 +2112,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Verdana"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
-				"custom"		"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2297,7 +2131,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
@@ -2329,10 +2163,9 @@ Scheme
 				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
-				"custom"		"1"
 			}
 		}
-
+		
 		"ItemTrackerScore_InGame"
 		{
 			"1"
@@ -2343,7 +2176,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"QuestFlavorText"
 		{
 			"1"
@@ -2541,7 +2374,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"AdFont_ItemName"
 		{
 			"1"
@@ -2574,7 +2407,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"TradeUp_Text"
 		{
 			"1"
@@ -2598,7 +2431,7 @@ Scheme
 				"italic"		"1"
 			}
 		}
-
+		
 		//////////////////// REPLAY FONTS //////////////////////////////
 		"ReplayVerySmall"
 		{
@@ -2765,7 +2598,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		//////////////////// ECON FONTS //////////////////////////////
 		"EconFontSmall"
 		{
@@ -2789,7 +2622,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		ControllerHintText
 		{
 			"1"
@@ -2802,7 +2635,7 @@ Scheme
 				"additive"		"0"
 			}
 		}
-
+		
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -2814,12 +2647,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"XPSource"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2830,7 +2663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"blur"			"3"
@@ -2838,12 +2671,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"

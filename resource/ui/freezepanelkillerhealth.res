@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
-
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +28,7 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
 	}
-
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}
-
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}
-
+	
 	"PlayerStatusHealthValueFreezePanel"
 	{
 		"ControlName"	"CExLabel"
@@ -70,44 +70,48 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"G_FontMedium"
-		"fgcolor"		"G_HealthValue"
+		"textAlignment"	"center"
+		"font"			"CodeBold22"
+		"fgcolor"		"White"
 		"labeltext"		"%Health%"
 	}
-
 	"PlayerStatusHealthValueFreezePanelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFreezePanelShadow"
-		"xpos"			"1"
-		"ypos"			"6"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"44"
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"G_FontMedium"
+		"textAlignment"	"center"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
+		
+		"pin_to_sibling"		"PlayerStatusHealthValueFreezePanel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"FreezeHealthBG"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezeHealthBG"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
+		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
+		
+		"pin_to_sibling"		"PlayerStatusHealthValueFreezePanel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

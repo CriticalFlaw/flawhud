@@ -4,7 +4,7 @@
 {
 	"StartPartyButton"
 	{
-	//	"xpos"			"c+120"
+		//"xpos"		"c+120"
 		"ypos"			"380"
 	}
 
@@ -21,7 +21,6 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 	}
 
 	"SearchStatus"
@@ -56,7 +55,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationTitle"
-			"font"			"G_FontMediumSmall"
+			"font"			"CodeBold18"
 			"labelText"		"#TF_Matchmaking_PlayWithFriends"
 			"textAlignment"	"center"
 			"xpos"			"cs-0.5"
@@ -87,7 +86,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationLabel"
-			"font"			"G_FontMedium_2"
+			"font"			"CodeLC12"
 			"labelText"		"#TF_Casual_PlayWithFriendsExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"

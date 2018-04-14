@@ -18,38 +18,30 @@
 		"bgcolor_override"	"DarkGrey"
 		"infocus_bgcolor_override" "DarkGrey"
 		"outoffocus_bgcolor_override" "DarkGrey"
-		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-		
 		"max_cart_model_panels"	"8"
-		
 		"item_ypos"		"70"
 		"item_mod_wide"	"40"
-		
 		"item_panels"			"12"
 		"item_columns"			"4"
 		"item_offcenter_x"		"-230"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"27 27 27 255"
+		"item_backdrop_color"				"DarkGrey"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
-
 		"item_backdrop_zpos"				"1"
-		
 		"item_panel_bgcolor"			"Grey"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		
 		"classicon_xdelta"		"5"
-
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -60,10 +52,10 @@
 			"tall"			"62"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-						
+			
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -85,7 +77,7 @@
 				"allow_rot"				"0"
 				"inventory_image_type" "1"
 			}
-
+			
 			"use_item_sounds" "1"		
 		}
 		
@@ -116,7 +108,7 @@
 			"tall"			"25"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
@@ -167,8 +159,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -195,7 +187,7 @@
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
     	}
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -210,11 +202,11 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"SaxtonBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -226,7 +218,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-	
+		
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -242,7 +234,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"StoreBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -255,7 +247,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"proportiontoparent"	"1"
-
+		
 		"StoreBackgroundImage"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -272,7 +264,7 @@
 			"proportiontoparent"	"1"
 		}
 	}
-
+	
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -311,7 +303,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -330,9 +321,9 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"				"G_FontMedium_2"
+			"font"				"CodeLC12"
+			"fgcolor"			"TanDark"
 			
-			"fgcolor"					"TanDark"
 			"defaultBgColor_override"	"Grey"
 			"defaultFgColor_override"	"TanDark"
 			"armedBgColor_override"		"Grey"
@@ -346,8 +337,7 @@
 			
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			
-			"border"				"ButtonBorder"
+			"border"			"ButtonBorder"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -369,20 +359,20 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"LightGravity14"
+		"font"			"CodeBold14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c160"
@@ -394,7 +384,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"NextPageButton"
@@ -412,7 +402,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"G_MenuArrowSmall"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -425,7 +415,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeLC12"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-237"
@@ -443,7 +433,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-238"
@@ -455,9 +445,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
-		
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -476,7 +464,7 @@
 		"image"			"store_cart"
 		"scaleImage"	"1"
 	}
-
+	
 	"BrowseTheStoreButton"
 	{
 		"ControlName"	"CExButton"
@@ -492,7 +480,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Browse The Store"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -517,7 +505,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Community Marketplace"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -546,7 +534,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"HomePageLabelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -558,7 +546,7 @@
 		"tall"			"160"
 		"mouseinputenabled"	"0"
 		"visible"		"0"
-
+		
 		"CaseLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -576,7 +564,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-
+		
 		"KeyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -594,7 +582,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-
+		
 		"TauntLabel"
 		{
 			"ControlName"	"CExLabel"

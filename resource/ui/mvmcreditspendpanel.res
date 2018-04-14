@@ -24,7 +24,7 @@
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 	}
 	
 	"UpgradesLabel"

@@ -91,8 +91,6 @@
 
 	"BlueProgressEnd"
 	{
-		// tells the code where the end of the progress bar is since the image
-		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-152"
@@ -102,8 +100,6 @@
 
 	"RedProgressEnd"
 	{
-		// tells the code where the end of the progress bar is since the image
-		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c152"
@@ -316,18 +312,13 @@
 
 		"BallPowerMeterFinalSectionContainer"
 		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BallPowerMeterFinalSectionContainer"
-			"xpos"			"c-85"
-			"ypos"			"16"
-			"zpos"			"3"
-			"wide"			"168"
-			"tall"			"18"
+			"xpos"				"c-85"
+			"ypos"				"16"
+			"zpos"				"3"
+			"wide"				"168"
+			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -352,11 +343,6 @@
 
 		"BallPowerMeterFillContainer"
 		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BallPowerMeterFillContainer"
 			"xpos"				"c-85"

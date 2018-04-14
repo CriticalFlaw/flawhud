@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"east"
-		"font"			"G_FontMedium_2"
+		"font"			"CodeLC15"
 	}
 
 	"BuyBackLabel"
@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"G_FontSmall"
+		"font"			"CodeBold14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -194,6 +194,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -216,6 +217,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type"	"1"
 		}
 
 		"ItemBG"

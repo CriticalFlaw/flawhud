@@ -12,7 +12,6 @@
 		"visible" 			"0"
 		"enabled" 			"0"
 		"labelText"			"i"
-		
 		"controlName"		"CExLabel"
 		"fieldName"	 		"KnucklesCrosses"
 		"zpos"				"0"
@@ -409,10 +408,8 @@
 		"tall"  				"50"
 		"visible" 				"1"
 		"enabled" 				"1"
-
 		"PaintBackgroundType"		"2"
 		"BackgroundOverrideColor"	"0 0 0 128"
-
 		"bar_xpos"				"50"
 		"bar_ypos"				"20"
 		"bar_height"			"8"
@@ -421,13 +418,11 @@
 		"speaker_ypos"			"8"
 		"count_xpos_from_right"	"10"
 		"count_ypos"			"8"
-
 		"icon_texture"			"vgui/hud/icon_commentary"
 		"icon_xpos"				"0"
 		"icon_ypos"				"0"		
 		"icon_width"			"40"
 		"icon_height"			"40"
-
 		"use_script_bgcolor"	"1"
 	}
 
@@ -461,14 +456,12 @@
 		"ypos"	 				"20"
 		"wide"	 				"628"
 		"tall"	 				"468"
-
 		"MaxDeathNotices" 		"4"
 		"IconScale"				"0.35"
 		"LineHeight"			"12"
 		"LineSpacing"			"0"
 		"CornerRadius"			"0"
 		"RightJustify"			"1"
-
 		"TextFont"				"AdFont_AdText"
 		"TeamBlue"				"Blue"
 		"TeamRed"				"Red"
@@ -540,7 +533,6 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"zpos" 				"1"
-
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -556,7 +548,6 @@
 		"zpos" 				"2"
 		"xpos"				"232"
 		"ypos"				"r88"
-
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -571,7 +562,6 @@
 		"ypos"				"247"
 		"wide"				"500"
 		"tall"				"136"
-
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
@@ -707,20 +697,17 @@
 		"wide" 				"145"
 		"tall" 				"400"
 		"item_wide"			"135"
-
 		"show_avatar"		"0"
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-
 		"text_xpos"			"33"
 	}
 
@@ -809,7 +796,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r154"
+		"ypos"			"r152"
 		"wide"			"200"
 		"tall"			"152"
 		"zpos"			"4"
@@ -1181,10 +1168,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"xpos"			"r200"
-		"ypos"			"300"
+		"ypos"			"rs1"
 		"zpos"			"10"
 		"wide"			"270"
-		"tall"			"180"
+		"tall"			"f0"
 	}
 
 	HudTFCrosshair

@@ -12,6 +12,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
 	}
+	
 	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -298,13 +299,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"G_MenuShader"
+			"bgcolor_override"	"MenuShader"
 		}
 		"AveragesLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"G_FontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -388,7 +389,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
@@ -406,7 +407,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
@@ -509,7 +510,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
@@ -527,7 +528,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
@@ -630,7 +631,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
@@ -646,12 +647,12 @@
 		}				
 		"ClassBarLabel3B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel3B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"264"
 			"zpos"			"6"
@@ -664,11 +665,11 @@
 		}				
 		"ClassLabel3"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel3"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class3%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"264"
 			"zpos"			"5"
@@ -681,7 +682,7 @@
 		}				
 		"ClassBarBG4A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG4A"
 			"xpos"			"c-285"
 			"ypos"			"284"
@@ -698,7 +699,7 @@
 		}
 		"ClassBarBG4B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG4B"
 			"xpos"			"c+30"
 			"ypos"			"284"
@@ -715,7 +716,7 @@
 		}
 		"ClassBar4A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar4A"
 			"xpos"			"c-282"
 			"ypos"			"286"
@@ -732,7 +733,7 @@
 		}	
 		"ClassBar4B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar4B"
 			"xpos"			"c-127"
 			"ypos"			"286"
@@ -749,12 +750,12 @@
 		}	
 		"ClassBarLabel4A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel4A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"282"
 			"zpos"			"6"
@@ -767,12 +768,12 @@
 		}				
 		"ClassBarLabel4B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel4B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"282"
 			"zpos"			"6"
@@ -785,11 +786,11 @@
 		}				
 		"ClassLabel4"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel4"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class4%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"282"
 			"zpos"			"5"
@@ -802,7 +803,7 @@
 		}				
 		"ClassBarBG5A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG5A"
 			"xpos"			"c-285"
 			"ypos"			"302"
@@ -870,12 +871,12 @@
 		}	
 		"ClassBarLabel5A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel5A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"300"
 			"zpos"			"6"
@@ -888,12 +889,12 @@
 		}				
 		"ClassBarLabel5B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel5B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"300"
 			"zpos"			"6"
@@ -993,7 +994,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
@@ -1011,7 +1012,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
@@ -1114,7 +1115,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
@@ -1132,7 +1133,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
@@ -1235,7 +1236,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
@@ -1253,7 +1254,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
@@ -1356,7 +1357,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
@@ -1374,7 +1375,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
@@ -1417,13 +1418,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"G_MenuShader"
+			"bgcolor_override"		"MenuShader"
 		}
 		"RecordsLabel1"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"G_FontSmall"
+			"font"			"CodeBold14"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"

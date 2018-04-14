@@ -37,47 +37,51 @@
 		"border"		"DarkBlueTeamBorder"
 		"bgcolor_override"	"Blue"
 		
-		"WinningTeamLabelDropshadow"
-		{	
-			"ControlName"		"CExLabel"
-			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
-			"fgcolor"		"ShadowBlack"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"300"
-			"tall"			"31"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Winpanel_PVE_Evil_Wins"
-			"textAlignment"		"Center"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			
-			// blue Background
-			"PaintBackgroundType" "0"
-			"fgcolor_override"	"ShadowBlack"		
-			"bgcolor_override"	"0 0 0"
-		}
-		
 		"WinningTeamLabel"
 		{	
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"WinningTeamLabel"
 			"font"			"HudFontMediumSmallBold"
 			"xpos"			"2"
 			"ypos"			"-1"
 			"wide"			"295"
 			"tall"			"30"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
-			"textAlignment"		"Center"
+			"textAlignment"	"Center"
 			"fgcolor"		"White"
+		}
+		
+		"WinningTeamLabelDropshadow"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"WinningTeamLabelDropshadow"
+			"font"			"HudFontMediumSmallBold"
+			"fgcolor"		"ShadowBlack"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"wide"			"300"
+			"tall"			"31"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#Winpanel_PVE_Evil_Wins"
+			"textAlignment"	"Center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			
+			// blue Background
+			"PaintBackgroundType" "0"
+			"fgcolor_override"	"ShadowBlack"		
+			"bgcolor_override"	"0 0 0"
+		
+			"pin_to_sibling"		"WinningTeamLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 	

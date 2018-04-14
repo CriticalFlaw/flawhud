@@ -13,8 +13,6 @@
 		"enabled"		"1"
 		"progress_xpos"	"79"
 		"progress_wide"	"270"
-		"paintbackground"	"1"
-		"bgcolor_override"	"0 255 0 0"
 		
 		"if_multiple_trains"
 		{
@@ -66,7 +64,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"MenuShader"
 		
 		"if_multiple_trains"
 		{
@@ -231,7 +229,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"G_FontSmall_2"
+			"font"			"CodeLC10"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -436,7 +434,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"G_FontSmall_2"
+			"font"			"CodeLC10"
 			"xpos"			"32"
 			"ypos"			"79"
 			"zpos"			"5"
@@ -540,7 +538,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"cappoint_progressbar_teardrop"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"White"
 				
 				"if_multiple_trains" { }
 			}
@@ -587,7 +585,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"cappoint_progressbar_blocked"
-				"iconColor"		"255 255 255 255"	
+				"iconColor"		"White"	
 				
 				"if_multiple_trains"
 				{

@@ -18,7 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"200 10 20 255"
+		"fgcolor"			"NeonRed"
 	}
 	
 	"DestroyIcon"	
@@ -50,7 +50,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"obj_status_tele_exit"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 		
 	"NumberBg"	
@@ -66,7 +66,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_key_blank"
-		"iconColor"			"255 255 255 255"
+		"iconColor"			"White"
 	}
 	
 	"NumberLabel"
@@ -74,7 +74,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"LightGravity11"
-		"fgcolor"			"200 10 20 255"
+		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"49"
 		"zpos"				"1"

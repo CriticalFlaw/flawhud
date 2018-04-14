@@ -64,7 +64,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"0"
-		"ypos"			"4"
+		"ypos"			"7"
 		"zpos"			"5"
 		"wide"			"44"
 		"tall"			"22"
@@ -72,16 +72,16 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
-		"fgcolor"		"G_HealthValue"
+		"font"			"CodeBold22"
+		"fgcolor"		"White"
 	}
 
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"1"
-		"ypos"			"5"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"44"
 		"tall"			"22"
@@ -89,8 +89,12 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusPlayerLevel"
@@ -117,7 +121,7 @@
 		"ypos"			"9"
 		"zpos"			"1"
 		"wide"			"44"
-		"tall"			"13"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

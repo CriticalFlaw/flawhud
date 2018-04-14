@@ -41,7 +41,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A CLASS"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -69,9 +69,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -106,9 +106,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -143,9 +143,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -180,9 +180,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -217,9 +217,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -253,9 +253,9 @@
 		"font"				"LightGravity12"
 		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -290,9 +290,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -327,9 +327,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -365,9 +365,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -402,9 +402,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -439,9 +439,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -470,9 +470,9 @@
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"255 255 255 255"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1102,7 +1102,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"ClassHighlightText"
@@ -1121,7 +1121,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1150,12 +1150,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "NeutralWhite"
+			"depressedFgColor_override" "TanDarker"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

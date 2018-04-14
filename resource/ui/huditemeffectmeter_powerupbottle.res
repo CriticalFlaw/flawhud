@@ -120,7 +120,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"G_FontMedium"
+		"font"					"CodeBold22"
 		"fgcolor"				"Yellow"
 	}
 }

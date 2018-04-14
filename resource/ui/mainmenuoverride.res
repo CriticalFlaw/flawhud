@@ -129,8 +129,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
@@ -155,7 +155,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -202,7 +202,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainMenuSideBG"
 		"xpos"			"40"
-		"ypos"			"130"
+		"ypos"			"140"
 		"zpos"			"-55"
 		"wide"			"260"
 		"tall"			"130"
@@ -218,7 +218,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"JungleInfernoImage"
 		"xpos"			"90"
-		"ypos"			"94"
+		"ypos"			"104"
 		"zpos"			"1"
 		"wide"			"o4"
 		"tall"			"32"
@@ -259,7 +259,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"145"
-		"ypos"			"cs-0.5-82"
+		"ypos"			"cs-0.5-72"
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
@@ -275,7 +275,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"279"
-		"ypos"			"cs-0.5-99"
+		"ypos"			"cs-0.5-89"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -301,8 +301,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_drawcolor"	"NeutralWhite"
+		"image_armedcolor"	"White"
 
 		"SubImage"
 		{
@@ -346,7 +346,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"45"
-		"ypos"			"cs-0.5-55"
+		"ypos"			"cs-0.5-45"
 		"zpos"			"-52"
 		"wide"			"170"
 		"tall"			"100"
@@ -401,7 +401,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"40"
-		"ypos"			"130"
+		"ypos"			"140"
 		"zpos"			"-55"
 		"wide"			"260"
 		"tall"			"130"
@@ -441,7 +441,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"TextColor"
 			"wrap"			"1"
 		}
 		
@@ -562,7 +562,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/alert"
+				"image"			"replay/thumbnails/alert"
 			}
 		}
 	}
@@ -634,7 +634,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/contracts"
+				"image"			"replay/thumbnails/contracts"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -698,7 +698,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/heart"
+				"image"			"replay/thumbnails/heart"
 			}
 		}
 	}
@@ -770,7 +770,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/twitch"
+				"image"			"replay/thumbnails/twitch"
 			}
 		}
 	}
@@ -848,12 +848,12 @@
 
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" 	"46 43 42 255"
-			"armedFgColor_override" 	"235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" 	"TanDarker"
+			"armedFgColor_override" 	"NeutralWhite"
+			"depressedFgColor_override" "TanDarker"
 
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 
 			"SubImage"
 			{
@@ -886,7 +886,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"TanDarker"
 			"wrap"			"1"
 		}
 		
@@ -899,7 +899,7 @@
 			"wide"			"210"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"TextColor"
 			
 			"Notifications_Control"
 			{
@@ -931,7 +931,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"40"
-		"ypos"			"259"
+		"ypos"			"269"
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"170"
@@ -944,7 +944,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"
@@ -956,7 +956,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textinsetx"	"0"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 		}
 
 		"InnerShadow"
@@ -1049,7 +1049,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 100"
+			"bgcolor_override"	"MenuShader"
 		}
 	}
 
@@ -1058,7 +1058,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"55"
-		"ypos"			"40"
+		"ypos"			"50"
 		"zpos"			"-53"
 		"wide"			"o2"
 		"tall"			"105"
@@ -1113,7 +1113,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2018.0328"
+		"labelText"		"v2018.0414"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
@@ -1130,7 +1130,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"55"
-		"ypos"			"180"
+		"ypos"			"190"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"14"
@@ -1149,7 +1149,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"CodeBold14"
 			"textAlignment"	"west"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
@@ -1190,7 +1190,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"55"
-		"ypos"			"200"
+		"ypos"			"210"
 		"zpos"			"11"
 		"wide"			"110"
 		"tall"			"14"
@@ -1211,7 +1211,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"G_FontSmall"
+			"font"			"CodeBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1250,7 +1250,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"55"
-		"ypos"			"220"
+		"ypos"			"230"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"14"
@@ -1271,7 +1271,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"G_FontSmall"
+			"font"			"CodeBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1310,7 +1310,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"55"
-		"ypos"			"240"
+		"ypos"			"250"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -1331,7 +1331,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"G_FontSmall"
+			"font"			"CodeBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1621,9 +1621,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "TanDarker"
+			"depressedFgColor_override" "TanDarker"
 
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
@@ -1635,8 +1635,8 @@
 				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"10"
+				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -1681,9 +1681,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "TanDarker"
+			"depressedFgColor_override" "TanDarker"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
@@ -1746,9 +1746,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "TanDarker"
+			"depressedFgColor_override" "TanDarker"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"

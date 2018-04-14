@@ -105,8 +105,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-89"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -116,6 +116,10 @@
 		"labelText"		"%bluescore%"
 		"font"			"LightGravity24"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"BlueScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}	
 
 	"RedScore"
@@ -139,8 +143,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c41"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -150,6 +154,10 @@
 		"labelText"		"%redscore%"
 		"font"			"LightGravity24"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"RedScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"PlayingToCluster"

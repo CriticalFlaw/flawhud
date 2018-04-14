@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MainBackground"
@@ -13,24 +13,24 @@
 		"enabled"			"1"
 		"paintbackground" 	"0"
 	}
-
+	
 	"ItemBackground"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"250"
-		"tall"			"88"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemBackground"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"250"
+		"tall"				"88"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"pipboy_overlay"
+		"tileImage"			"1"
+		"drawcolor"			"192 192 192 255"
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -48,22 +48,22 @@
 		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"BackgroundEngineer"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"BackgroundEngineer"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"2"
+		"wide"				"18"
+		"tall"				"18"
+		"visible"			"0"
+		"enabled"			"0"
+		"scaleImage"		"1"	
+		"image"				"pipboy_engineer"
+		"tileImage"			"0"
+		"tileVertically" 	"0"
 	}
 	
 	"BuildIcon"	
@@ -79,14 +79,14 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_build"
-		"iconColor"			"0 255 0 255"
+		"iconColor"			"NeonGreen"
 	}
 	
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"G_FontMedium"
+		"font"				"CodeBold22"
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"4"
@@ -100,17 +100,17 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 255 0 255"
+		"fgcolor"			"NeonGreen"
 	}
 	
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"G_FontMedium"
+		"font"				"CodeBold22"
 		"fgcolor"			"ShadowBlack"
-		"xpos"				"1"
-		"ypos"				"2"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"4"
 		"wide"				"250"
 		"tall"				"22"
@@ -122,6 +122,10 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
+		
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"
@@ -142,7 +146,7 @@
 		"textAlignment"		"East"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 255 0 255"
+		"fgcolor"			"NeonGreen"
 	}
 	
 	"active_item_1"
@@ -155,7 +159,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"1"
-	}	
+	}
 	
 	"active_item_2"
 	{
@@ -167,7 +171,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"1"
-	}	
+	}
 	
 	"active_item_3"
 	{
@@ -179,7 +183,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"1"
-	}	
+	}
 	
 	"active_item_4"
 	{
@@ -203,7 +207,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"already_built_item_2"
 	{
@@ -215,7 +219,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"already_built_item_3"
 	{
@@ -227,7 +231,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"already_built_item_4"
 	{
@@ -251,7 +255,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"cant_afford_item_2"
 	{
@@ -263,7 +267,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"cant_afford_item_3"
 	{
@@ -275,7 +279,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"cant_afford_item_4"
 	{
@@ -288,7 +292,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-
+	
 	"unavailable_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -299,7 +303,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"unavailable_item_2"
 	{
@@ -311,7 +315,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"unavailable_item_3"
 	{
@@ -323,7 +327,7 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 	
 	"unavailable_item_4"
 	{
@@ -335,5 +339,5 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
-	}	
+	}
 }

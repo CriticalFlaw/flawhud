@@ -21,7 +21,8 @@ Scheme
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
 		"Black"						"17 17 17 255"
-
+	    "Blank"						"0 0 0 0"
+		
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
@@ -37,12 +38,10 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
 	    "TFMediumBrown"				"69 64 58 255"
-
+		
 	    "QuickListBGDeselected"		"0 0 0 0"
 	    "QuickListBGSelected"       "169 123 53 255"
-
-	    "Blank"						"0 0 0 0"
-	    
+		
 	    // background colors
 		"ControlBG"					"76 88 68 255"		// background color of controls
 		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
@@ -51,14 +50,14 @@ Scheme
 		"SelectionBG2"				"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"					"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
-
+	
 	BaseSettings
 	{
-		// scheme-specific colors
+		// Scheme-Specific Colors
 		Border.Bright					"Blank"			// the lit side of a control
 		Border.Dark						"Blank"			// the dark/unlit side of a control
 		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
-
+		
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"White"
@@ -77,7 +76,7 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
 		CheckButton.DisabledBgColor	    "Blank"
-
+		
 		ToggleButton.SelectedTextColor	"White"
 		
 		ComboBoxButton.ArrowColor		"DullWhite"
@@ -128,7 +127,7 @@ Scheme
 		ScrollBarButton.ArmedBgColor		"White"
 		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"White"
-
+		
 		ScrollBarSlider.BgColor				"Black"		// this isn't really used
 		ScrollBarSlider.FgColor				"White"		// handle with which the slider is grabbed
 		
@@ -301,8 +300,8 @@ Scheme
                 "antialias"  	"0"  			//not default added //smoothing the edges.
             }
 		}
-
-		"Gravity35"
+		
+		"CodeBold35"
 		{
 			"1"
 			{
@@ -312,47 +311,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"LightGravity16"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity18"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity19"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"LightGravity20"
+		"CodeLC20"
 		{
 			"1"
 			{
@@ -362,6 +321,47 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"CodeLC19"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CodeLC18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CodeLC17"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"17"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CodeLC16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -373,7 +373,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"MenuLarge"
 		{
 			"1"
@@ -384,7 +384,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		
 		"ServerBrowserTitle"
 		{
 			"1"
@@ -394,7 +394,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"Default" [$OSX]
 		{
 			"1"
@@ -404,7 +404,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-
+		
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -451,7 +451,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-			
+		
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -538,7 +538,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		DepressedBorder
 		{
 			"inset" "0 0 0 0"
@@ -575,22 +575,22 @@ Scheme
 				}
 			}
 		}
-
+		
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
 		}
-
+		
 		TitleButtonDisabledBorder
 		{
 			"backgroundtype" "0"
 		}
-
+		
 		TitleButtonDepressedBorder
 		{
 			"backgroundtype" "0"
 		}
-
+		
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0" [!$OSX]
@@ -666,7 +666,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		TabBorder
 		{
 			"inset" "1 1 1 1"
@@ -679,7 +679,7 @@ Scheme
 				"0" "fill( x0, y0, x1, y1, Orange )"
 			}
 		}
-
+		
 		TabActiveBorder
 		{
 			"inset" "1 1 1 1"
@@ -707,9 +707,8 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 		}
-
+		
 		ToolTipBorder
 		{
 			"inset" "0 0 1 0"
@@ -745,7 +744,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}		
+		}
 	}
 	
 	CustomFontFiles

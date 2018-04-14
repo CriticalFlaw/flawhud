@@ -77,7 +77,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"StopWatchScoreToBeat"
-		"font"				"G_FontSmall"
+		"font"				"CodeBold14"
 		"labelText"			"%scoretobeat%"
 		"textAlignment"		"west"
 		"xpos"				"c68"
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"LightGravity10"
+		"font"			"LightGravity8"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"center"
 		"xpos"			"c10"

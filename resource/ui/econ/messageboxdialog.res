@@ -3,20 +3,20 @@
 	"ConfirmDialog"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-150"
-		"ypos"			"140"
-		"wide"			"300"
-		"tall"			"230"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"fieldName"			"ConfirmDialog"
+		"xpos"				"c-150"
+		"ypos"				"140"
+		"wide"				"300"
+		"tall"				"230"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"DarkerGrey"
+		"bgcolor_override"		"DarkerGrey"
 		
 		"BackColor"
     	{
@@ -29,19 +29,19 @@
 			"tall"				"230"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
+			"pinCorner"			"0"
+			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
-			"border"			"PanelBorder"
-			"bgcolor_override"	"DarkerGrey"
+			"border"				"PanelBorder"
+			"bgcolor_override"		"DarkerGrey"
     	}
 	}
 	
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -72,9 +72,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "255 255 255 255"
+		"fgcolor_override" "White"
 	}
-
+	
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"G_FontMediumSmall"
+		"font"			"CodeBold18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
