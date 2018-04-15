@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunInfo"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"20"
 		"wide"			"164"
 		"tall"			"480"
 		"autoResize"	"0"

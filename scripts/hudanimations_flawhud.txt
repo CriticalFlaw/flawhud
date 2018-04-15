@@ -8,10 +8,6 @@ event HudHealthBonusPulse
     Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
-	Animate	SpecHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
-    Animate	SpecHealthBG				Alpha		"200"				Accel 0.0 0.2
-	Animate	SpecHealthBG				Alpha		"0"					Accel 0.2 0.4
-	
 	Animate	FreezeHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4

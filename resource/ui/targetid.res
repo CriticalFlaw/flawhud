@@ -132,26 +132,6 @@
 		"labelText"			"%targetdata%"
 		"textAlignment"		"west"
 	}
-	"TargetDataLabelShadow"
-	{
-		"ControlName"		"Label"
-		"fieldName"			"TargetDataLabel"
-		"font"				"LightGravity8"
-		"xpos"				"40"
-		"ypos"				"16"
-		"zpos"				"1"
-		"wide"				"640"
-		"tall"				"25"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%targetdata%"
-		"textAlignment"		"west"
-		"fgcolor_override"	"ShadowBlack"
-		
-		"pin_to_sibling"		"TargetDataLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
 	
 	"SpectatorGUIHealth"
 	{

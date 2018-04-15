@@ -9,13 +9,13 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-
+		
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_x"			"-140"
 		"team1_player_base_y"			"160"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"22"
-
+		
 		"team2_player_base_offset_x"	"268"
 		//"team2_player_base_x"			"698"
 		"team2_player_base_y"			"160"
@@ -30,7 +30,7 @@
 			"zpos"				"1"
 			"paintborder" 		"0"
 			"paintbackground"	"0"
-
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -62,7 +62,7 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
-
+			
 			"LoadoutIconsActiveItemRed"
 			{
 				"ControlName"	"ImagePanel"
@@ -110,7 +110,7 @@
 				"textAlignment"	"west"
 				"textinsetx"	"6"
 				"proportionaltoparent"	"1"
-
+				
 				"pin_to_sibling" 	"classimagebg"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -131,7 +131,7 @@
 				"textinsetx"	"6"
 				"textAlignment"	"west"
 				"proportionaltoparent"	"1"
-
+				
 				"pin_to_sibling" 	"BluePlayerName"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -152,7 +152,7 @@
 				"textinsetx"	"6"
 				"textAlignment"	"east"
 				"proportionaltoparent"	"1"
-
+				
 				"pin_to_sibling" 	"classimagebg"
 				"pin_corner_to_sibling" "PIN_TOPRIGHT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -173,7 +173,7 @@
 				"textinsetx"	"6"
 				"textAlignment"	"east"
 				"proportionaltoparent"	"1"
-
+				
 				"pin_to_sibling" 		"RedPlayerName"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -234,20 +234,6 @@
 				"bgcolor_override"	"89 24 23 255"
 				"fgcolor_override"	"157 49 47 255"
 			}
-			"PlayerHealthOverhealRed"
-			{
-				"ControlName"		"ContinuousProgressBar"
-				"fieldName"			"PlayerHealthOverhealRed"
-				"xpos"				"60"
-				"ypos"				"0"
-				"zpos"				"2"
-				"wide"				"80"
-				"tall"				"18"
-				"progress"			"0"
-				"direction"			"west"
-				"bgcolor_override"	"Transparent"
-				"fgcolor_override"	"G_Overheal"
-			}
 			"PlayerHealthBlue"
 			{
 				"ControlName"		"ContinuousProgressBar"
@@ -262,21 +248,7 @@
 				"bgcolor_override"	"38 55 63 255"
 				"fgcolor_override"	"57 92 120 255"
 			}
-			"PlayerHealthOverhealBlue"
-			{
-				"ControlName"		"ContinuousProgressBar"
-				"fieldName"			"PlayerHealthOverhealBlue"
-				"xpos"				"160"
-				"ypos"				"0"
-				"zpos"				"2"
-				"wide"				"80"
-				"tall"				"18"
-				"progress"			"0"
-				"direction"			"east"
-				"bgcolor_override"	"Transparent"
-				"fgcolor_override"	"G_Overheal"
-			}
-
+			
 			"BlueRespawnTime"
 			{
 				"ControlName"		"CExLabel"
@@ -313,41 +285,71 @@
 				"textAlignment"		"east"
 				"textinsetx"		"8"
 				"visible"			"1"
-
+				
 				"proportionaltoparent"	"1"
 				"pin_to_sibling"		"RedPlayerName"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
-
+			
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"			"ReadyBG"
 				"visible"			"0"
 			}
-
+			
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"ReadyImage"
 				"visible"			"0"
 			}
-
+			
 			"specindex"
 			{
 				"fieldName"			"specindex"
 				"visible"			"0"
 			}
-
+			
 			"chargeamount"
-			{				
-				"fieldName"			"chargeamount"
-				//"visible"			"0"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount"
+				"font"			"CodeBold12Outline"
+				"xpos"			"7"
+				"ypos"			"4"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor_override"		"Yellow"
+			}
+			
+			"RedChargeAmount"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"RedChargeAmount"
+				"font"			"CodeBold12Outline"
+				"xpos"			"268"
+				"ypos"			"4"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"west"
+				"fgcolor_override"		"Yellow"
 			}
 		}
 	}
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -396,13 +398,13 @@
 		"fgcolor"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+		
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
