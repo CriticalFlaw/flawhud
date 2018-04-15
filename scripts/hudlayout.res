@@ -796,7 +796,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r152"
+		"ypos"			"260"
 		"wide"			"200"
 		"tall"			"152"
 		"zpos"			"4"
