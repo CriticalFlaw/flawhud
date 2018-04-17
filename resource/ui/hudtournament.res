@@ -902,7 +902,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeBold22"
+		"font"			"CodeBold22Outline"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -930,46 +930,6 @@
 		if_readymode
 		{
 			"xpos"			"c-20"
-			"ypos"			"130"
-		}
-	}
-	
-	"CountdownLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"CodeBold22"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
-		if_mvm
-		{
-			"xpos"			"c-19"
-		}
-		if_competitive
-		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-		}
-		if_readymode
-		{
-			"xpos"			"c-19"
 			"ypos"			"130"
 		}
 	}
