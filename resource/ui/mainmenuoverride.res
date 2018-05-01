@@ -187,14 +187,6 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon_widescreen"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
 	}
 	
 	"MainMenuSideBG"
@@ -202,7 +194,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainMenuSideBG"
 		"xpos"			"40"
-		"ypos"			"140"
+		"ypos"			"120"
 		"zpos"			"-55"
 		"wide"			"260"
 		"tall"			"130"
@@ -213,53 +205,12 @@
 		"fillcolor"		"HudBlack"
 	}
 
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"90"
-		"ypos"			"104"
-		"zpos"			"1"
-		"wide"			"o4"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../logo/inferno_logo_anim"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-
-		if_halloween_0
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-	}	
-
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"145"
-		"ypos"			"cs-0.5-72"
+		"ypos"			"cs-0.5-90"
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
@@ -275,7 +226,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"279"
-		"ypos"			"cs-0.5-89"
+		"ypos"			"cs-0.5-109"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -346,7 +297,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"45"
-		"ypos"			"cs-0.5-45"
+		"ypos"			"cs-0.5-65"
 		"zpos"			"-52"
 		"wide"			"170"
 		"tall"			"100"
@@ -361,9 +312,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
-		"ypos"			"94"
-		"zpos"			"-99"
+		"xpos"			"33"
+		"ypos"			"122"
+		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"100"
 		"visible"		"1"
@@ -384,9 +335,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
+		"xpos"			"255"
+		"ypos"			"150"
+		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -931,10 +882,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"40"
-		"ypos"			"269"
+		"ypos"			"249"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"170"
+		"tall"			"190"
 		"visible"		"1"
 
 		"border"		"NoBorder"
@@ -964,10 +915,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-15"
 			"zpos"			"501"
 			"wide"			"f20"
-			"tall"			"135"
+			"tall"			"150"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -982,10 +933,10 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-15"
 			"zpos"			"500"
 			"wide"			"f20"
-			"tall"			"135"
+			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -1040,10 +991,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-15"
 			"zpos"			"499"
 			"wide"			"f20"
-			"tall"			"135"
+			"tall"			"150"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1057,41 +1008,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"55"
-		"ypos"			"50"
-		"zpos"			"-53"
-		"wide"			"o2"
-		"tall"			"105"
+		"xpos"			"40"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/jungle_inferno_logo"
+		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-		 
-		if_halloween_0
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
 	}
 
 	"TFCharacterImage"
@@ -1107,14 +1033,14 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 	}
-
+	
 	"VersionLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"v2018.0415"
-		"xpos"			"r55"
+		"labelText"		"FlawHUD v2018.0430"
+		"xpos"			"r80"
 		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
@@ -1130,7 +1056,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"55"
-		"ypos"			"190"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"14"
@@ -1190,7 +1116,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"55"
-		"ypos"			"210"
+		"ypos"			"195"
 		"zpos"			"11"
 		"wide"			"110"
 		"tall"			"14"
@@ -1250,7 +1176,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"55"
-		"ypos"			"230"
+		"ypos"			"215"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"14"
@@ -1310,7 +1236,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"55"
-		"ypos"			"250"
+		"ypos"			"235"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -1591,7 +1517,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"65"
-		"ypos"			"465"
+		"ypos"			"463"
 		"zpos"			"12"
 		"wide"			"14"
 		"tall"			"14"

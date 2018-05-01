@@ -84,7 +84,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportLabel"
-		"font"				"CodeLC10"
+		"font"				"CodeBold12"
 		"fgcolor"			"White"
 		"xpos"				"55"
 		"ypos"				"6"

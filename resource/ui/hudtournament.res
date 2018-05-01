@@ -834,7 +834,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"CodeLC12"
+		"font"			"CodeBold12"
 		"xpos"			"c-125"
 		"ypos"			"30"
 		"wide"			"250"
@@ -857,6 +857,29 @@
 		{
 			"ypos"			"36"
 		}
+	}
+	"TournamentInstructionsLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentInstructionsLabelShadow"
+		"font"			"CodeBold12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"wide"			"250"
+		"tall"			"12"
+		"zpos"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%readylabel%"
+		"textAlignment"	"center"
+		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"TournamentInstructionsLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TournamentReadyHintIcon"

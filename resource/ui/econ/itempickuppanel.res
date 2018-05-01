@@ -120,7 +120,7 @@
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
-		"ypos"			"120"
+		"ypos"			"110"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
