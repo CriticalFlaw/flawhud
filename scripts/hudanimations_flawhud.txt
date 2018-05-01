@@ -5,7 +5,7 @@ event HudHealthBonusPulse
 	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
 	
 	Animate	TargetHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
-    Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
+    Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
 	Animate	FreezeHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
@@ -47,7 +47,7 @@ event HudHealthDyingPulse
 	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
 	
 	Animate	TargetHealthBG				BgColor		"G_LowHealthValue"	Accel 0.0 0.0
-	Animate	TargetHealthBG				Alpha		"200"				Accel 0.0 0.2
+	Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
 	Animate RedPlayerHealth				FgColor		"White"				Linear 0.0 0.0

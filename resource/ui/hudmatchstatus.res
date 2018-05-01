@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"ItemFontNameLarger"
+		"font"			"CodeBold22Outline"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -84,37 +84,6 @@
 			"ypos"			"130"
 		}
 	}
-	
-	"CountdownLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"ItemFontNameLarger"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}	
 
 	"FrontParticlePanel"
 	{
