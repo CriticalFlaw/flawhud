@@ -70,7 +70,6 @@
 			}
 
 			"paintbackground"	"0"
-
 			"render_texture"	"0"
 		
 			"model"
@@ -120,7 +119,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-
 			"paintbackground"	"0"
 			
 			if_mini
@@ -301,7 +299,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"rs1-5"
+			"ypos"			"0"
 			"wide"			"170"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -318,7 +316,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-2"
+				"ypos"			"rs1-8"
 				"wide"			"170"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
@@ -336,26 +334,26 @@
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"15"
 					"ypos"			"rs1-8"
-					"zpos"			"0"
+					"zpos"			"10"
 					"wide"			"140"
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"CodeBold12Outline"
-					"fgcolor_override"	"255 214 0 255"
+					"fgcolor_override"	"255 255 255 255"
 					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 
 					if_mini
 					{
-						"xpos"			"0"
+						"xpos"			"50"
 						"ypos"			"rs1"
 						"zpos"			"0"
 						"wide"			"100"
 						"tall"			"20"
-						"font"			"CodeBold12Outline"
-						"fgcolor_override"	"255 214 0 255"
+						"font"			"ItemFontAttribSmall"
+						"fgcolor_override"	"255 255 255 255"
 						"textAlignment"	"south-west"
 						"visible"		"1"
 					}
