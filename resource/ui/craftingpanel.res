@@ -16,7 +16,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override" 		"DarkGrey"
 		"outoffocus_bgcolor_override" 	"DarkGrey"
 		
@@ -40,17 +40,17 @@
 			"bgcolor_override"	"Transparent"
 			"noitem_textcolor"	"TextColor"
 			"PaintBackgroundType"	"2"
-			"paintborder"		"1"
+			"paintborder"			"1"
 			
-			"model_ypos"		"5"
-			"model_tall"		"35"
-			"text_center"		"1"
-			"name_only"			"1"
-			"text_forcesize"	 "3"
-			"noitem_use_fullpanel" "1"
+			"model_ypos"			"5"
+			"model_tall"			"35"
+			"text_center"			"1"
+			"name_only"				"1"
+			"text_forcesize"	 	"3"
+			"noitem_use_fullpanel" 	"1"
 			
-			"inset_eq_x"		"2"
-			"inset_eq_y"		"2"
+			"inset_eq_x"			"2"
+			"inset_eq_y"			"2"
 			
 			"MainContentsContainer"
 			{
@@ -66,6 +66,7 @@
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
+					"inventory_image_type"	"1"
 					"allow_rot"				"0"
 				}
 				
@@ -459,24 +460,10 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ShowExplanationsButton"
-		"xpos"				"c275"
-		"ypos"				"10"
-		"zpos"				"100"
-		"wide"				"20"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		"xpos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"?"
-		"font"				"HudFontSmallBold"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"default"			"1"
-		"Command"			"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"enabled"			"0"
 	}
 }

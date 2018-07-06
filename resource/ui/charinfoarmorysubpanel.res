@@ -33,7 +33,7 @@
 			"wide"			"70"
 			"tall"			"49"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"HudBlack"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"			"0"
@@ -59,19 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "LightRed"
 	}
 	
 	"ArmoryLabel"
@@ -312,7 +300,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"ColdLC12"
+		"font"			"CodeLC12"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-285"

@@ -87,7 +87,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatData"
 		"xpos"			"0"
-		"ypos"			"-130"
+		"ypos"			"-110"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -160,40 +160,40 @@
 		"InteractiveHeaders"	
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"	"InteractiveHeaders"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"2"
-			"wide"		"f0"
-			"tall"		"480"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"InteractiveHeaders"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
 
 			"BarChartComboA"
 			{
-				"ControlName"		"ComboBox"
+				"ControlName"	"ComboBox"
 				"fieldName"		"BarChartComboA"
-				"xpos"		"c-285"
-				"ypos"		"212"
-				"zpos"		"10"
-				"wide"		"154"
-				"tall"		"14"
-				"autoResize"		"0"
+				"xpos"			"c-285"
+				"ypos"			"212"
+				"zpos"			"10"
+				"wide"			"154"
+				"tall"			"14"
+				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"1"
-				"textHidden"		"0"
+				"tabPosition"	"1"
+				"textHidden"	"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"NumericInputOnly"	"0"
+				"unicode"			"0"
 				
-				"fgcolor_override"	"White"
-				"bgcolor_override"	"Black"
-				"disabledFgColor_override" "White"
-				"disabledBgColor_override" "Black"
-				"selectionColor_override" "Black"
+				"fgcolor_override"			"White"
+				"bgcolor_override"			"Black"
+				"disabledFgColor_override" 	"White"
+				"disabledBgColor_override" 	"Black"
+				"selectionColor_override" 	"Black"
 				"selectionTextColor_override" "White"
 				"defaultSelectionBG2Color_override" "Black"
 		
@@ -203,36 +203,36 @@
 					"defaultBgColor_override"	"Black"
 					"selectedFgColor_override"	"Black"
 					"selectedBgColor_override"	"White"
-					"armedFgColor_override"	"Black"
-					"armedBgColor_override"	"White"
-					"paintbackgroundtype"	"0"
+					"armedFgColor_override"		"Black"
+					"armedBgColor_override"		"White"
+					"paintbackgroundtype"		"0"
 				}
 			}
 			"BarChartComboB"
 			{
-				"ControlName"		"ComboBox"
+				"ControlName"	"ComboBox"
 				"fieldName"		"BarChartComboB"
-				"xpos"		"c-127"
-				"ypos"		"212"
-				"zpos"		"10"
-				"wide"		"154"
-				"tall"		"14"
-				"autoResize"		"0"
+				"xpos"			"c-127"
+				"ypos"			"212"
+				"zpos"			"10"
+				"wide"			"154"
+				"tall"			"14"
+				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"1"
-				"textHidden"		"0"
+				"tabPosition"	"1"
+				"textHidden"	"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
+				"NumericInputOnly"	"0"
 				"unicode"		"0"
 				
-				"fgcolor_override"	"White"
-				"bgcolor_override"	"Black"
-				"disabledFgColor_override" "White"
-				"disabledBgColor_override" "Black"
-				"selectionColor_override" "Black"
+				"fgcolor_override"			"White"
+				"bgcolor_override"			"Black"
+				"disabledFgColor_override" 	"White"
+				"disabledBgColor_override" 	"Black"
+				"selectionColor_override" 	"Black"
 				"selectionTextColor_override" "White"
 				"defaultSelectionBG2Color_override" "Black"
 		
@@ -242,29 +242,29 @@
 					"defaultBgColor_override"	"Black"
 					"selectedFgColor_override"	"Black"
 					"selectedBgColor_override"	"White"
-					"armedFgColor_override"	"Black"
-					"armedBgColor_override"	"White"
-					"paintbackgroundtype"	"0"
+					"armedFgColor_override"		"Black"
+					"armedBgColor_override"		"White"
+					"paintbackgroundtype"		"0"
 				}
 			}
 			"ClassCombo"
 			{
-				"ControlName"		"ComboBox"
+				"ControlName"	"ComboBox"
 				"fieldName"		"ClassCombo"
-				"xpos"		"c+124"
-				"ypos"		"212"
-				"zpos"		"10"
-				"wide"		"167"
-				"tall"		"14"
-				"autoResize"		"0"
+				"xpos"			"c+124"
+				"ypos"			"212"
+				"zpos"			"10"
+				"wide"			"167"
+				"tall"			"14"
+				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"1"
-				"textHidden"		"0"
+				"tabPosition"	"1"
+				"textHidden"	"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
+				"NumericInputOnly"	"0"
 				"unicode"		"0"
 				
 				"fgcolor_override"	"White"
@@ -679,7 +679,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG4A"
 		{
 			"ControlName"	"ImagePanel"
@@ -820,7 +820,7 @@
 		}
 		"ClassBarBG5B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG5B"
 			"xpos"			"c+30"
 			"ypos"			"302"
@@ -837,7 +837,7 @@
 		}
 		"ClassBar5A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar5A"
 			"xpos"			"c-282"
 			"ypos"			"304"
@@ -854,7 +854,7 @@
 		}	
 		"ClassBar5B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar5B"
 			"xpos"			"c-127"
 			"ypos"			"304"
@@ -907,11 +907,11 @@
 		}				
 		"ClassLabel5"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel5"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class5%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"300"
 			"zpos"			"5"
@@ -924,7 +924,7 @@
 		}				
 		"ClassBarBG6A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG6A"
 			"xpos"			"c-285"
 			"ypos"			"320"
@@ -941,7 +941,7 @@
 		}
 		"ClassBarBG6B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG6B"
 			"xpos"			"c+30"
 			"ypos"			"320"
@@ -958,7 +958,7 @@
 		}
 		"ClassBar6A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar6A"
 			"xpos"			"c-282"
 			"ypos"			"322"
@@ -975,7 +975,7 @@
 		}	
 		"ClassBar6B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar6B"
 			"xpos"			"c-127"
 			"ypos"			"322"
@@ -992,7 +992,7 @@
 		}	
 		"ClassBarLabel6A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
@@ -1010,12 +1010,12 @@
 		}				
 		"ClassBarLabel6B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel6B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"318"
 			"zpos"			"6"
@@ -1028,11 +1028,11 @@
 		}				
 		"ClassLabel6"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel6"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class6%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"318"
 			"zpos"			"5"
@@ -1045,7 +1045,7 @@
 		}				
 		"ClassBarBG7A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG7A"
 			"xpos"			"c-285"
 			"ypos"			"338"
@@ -1062,7 +1062,7 @@
 		}
 		"ClassBarBG7B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG7B"
 			"xpos"			"c+30"
 			"ypos"			"338"
@@ -1079,7 +1079,7 @@
 		}
 		"ClassBar7A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar7A"
 			"xpos"			"c-282"
 			"ypos"			"340"
@@ -1096,7 +1096,7 @@
 		}	
 		"ClassBar7B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar7B"
 			"xpos"			"c-127"
 			"ypos"			"340"
@@ -1113,12 +1113,12 @@
 		}	
 		"ClassBarLabel7A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"336"
 			"zpos"			"6"
@@ -1131,12 +1131,12 @@
 		}				
 		"ClassBarLabel7B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"336"
 			"zpos"			"6"
@@ -1149,11 +1149,11 @@
 		}				
 		"ClassLabel7"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel7"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class7%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"336"
 			"zpos"			"5"
@@ -1166,7 +1166,7 @@
 		}		
 		"ClassBarBG8A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG8A"
 			"xpos"			"c-285"
 			"ypos"			"356"
@@ -1183,7 +1183,7 @@
 		}
 		"ClassBarBG8B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG8B"
 			"xpos"			"c+30"
 			"ypos"			"356"
@@ -1200,7 +1200,7 @@
 		}
 		"ClassBar8A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar8A"
 			"xpos"			"c-282"
 			"ypos"			"358"
@@ -1217,7 +1217,7 @@
 		}	
 		"ClassBar8B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar8B"
 			"xpos"			"c-127"
 			"ypos"			"358"
@@ -1234,12 +1234,12 @@
 		}	
 		"ClassBarLabel8A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"354"
 			"zpos"			"6"
@@ -1252,12 +1252,12 @@
 		}				
 		"ClassBarLabel8B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"354"
 			"zpos"			"6"
@@ -1270,11 +1270,11 @@
 		}				
 		"ClassLabel8"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel8"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class8%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"354"
 			"zpos"			"5"
@@ -1287,7 +1287,7 @@
 		}		
 		"ClassBarBG9A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG9A"
 			"xpos"			"c-285"
 			"ypos"			"374"
@@ -1304,7 +1304,7 @@
 		}
 		"ClassBarBG9B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBarBG9B"
 			"xpos"			"c+30"
 			"ypos"			"374"
@@ -1321,7 +1321,7 @@
 		}
 		"ClassBar9A"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar9A"
 			"xpos"			"c-282"
 			"ypos"			"376"
@@ -1338,7 +1338,7 @@
 		}	
 		"ClassBar9B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar9B"
 			"xpos"			"c-127"
 			"ypos"			"376"
@@ -1355,12 +1355,12 @@
 		}	
 		"ClassBarLabel9A"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"372"
 			"zpos"			"6"
@@ -1373,12 +1373,12 @@
 		}				
 		"ClassBarLabel9B"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
 			"font"			"CodeLC8"
 			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9B%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-127"
 			"ypos"			"372"
 			"zpos"			"6"
@@ -1391,11 +1391,11 @@
 		}				
 		"ClassLabel9"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ClassLabel9"
 			"font"			"ScoreboardSmall"
 			"labelText"		"%class9%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+34"
 			"ypos"			"372"
 			"zpos"			"5"
@@ -1408,7 +1408,7 @@
 		}		
 		"RecordsBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RecordsBG"
 			"xpos"			"c+115"
 			"ypos"			"165"
@@ -1418,7 +1418,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"MenuShader"
+			"bgcolor_override"	"MenuShader"
 		}
 		"RecordsLabel1"
 		{
@@ -1438,7 +1438,7 @@
 		}							
 		"RecordsSubBG1"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RecordsSubBG1"
 			"xpos"			"c+124"
 			"ypos"			"230"
@@ -1455,11 +1455,11 @@
 		}
 		"RecordsLabel"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel"
 			"font"			"ScoreboardMedium"
 			"labelText"		"#StatSummary_Records"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-265"
 			"ypos"			"232"
 			"zpos"			"5"
@@ -1472,11 +1472,11 @@
 		}	
 		"OverallRecord1Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord1label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"229"
 			"zpos"			"5"
@@ -1489,11 +1489,11 @@
 		}							
 		"OverallRecord1Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord1value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"229"
 			"zpos"			"5"
@@ -1506,11 +1506,11 @@
 		}							
 		"OverallRecord2Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord2label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"239"
 			"zpos"			"5"
@@ -1523,11 +1523,11 @@
 		}							
 		"OverallRecord2Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord2value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"239"
 			"zpos"			"5"
@@ -1540,11 +1540,11 @@
 		}							
 		"OverallRecord3Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord3label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"249"
 			"zpos"			"5"
@@ -1557,11 +1557,11 @@
 		}							
 		"OverallRecord3Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord3value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"249"
 			"zpos"			"5"
@@ -1574,11 +1574,11 @@
 		}							
 		"OverallRecord4Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord4label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"259"
 			"zpos"			"5"
@@ -1591,11 +1591,11 @@
 		}							
 		"OverallRecord4Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord4value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"259"
 			"zpos"			"5"
@@ -1608,11 +1608,11 @@
 		}							
 		"OverallRecord5Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord5label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"269"
 			"zpos"			"5"
@@ -1625,11 +1625,11 @@
 		}							
 		"OverallRecord5Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord5value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"269"
 			"zpos"			"5"
@@ -1642,11 +1642,11 @@
 		}							
 		"OverallRecord6Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord6label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"279"
 			"zpos"			"5"
@@ -1659,11 +1659,11 @@
 		}							
 		"OverallRecord6Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord6value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"279"
 			"zpos"			"5"
@@ -1676,11 +1676,11 @@
 		}							
 		"OverallRecord7Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord7label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"289"
 			"zpos"			"5"
@@ -1693,11 +1693,11 @@
 		}							
 		"OverallRecord7Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord7value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"289"
 			"zpos"			"5"
@@ -1710,11 +1710,11 @@
 		}							
 		"OverallRecord8Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord8label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"299"
 			"zpos"			"5"
@@ -1727,11 +1727,11 @@
 		}							
 		"OverallRecord8Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord8value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"299"
 			"zpos"			"5"
@@ -1744,11 +1744,11 @@
 		}
 		"OverallRecord9Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord9label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"309"
 			"zpos"			"5"
@@ -1761,11 +1761,11 @@
 		}							
 		"OverallRecord9Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord9value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"309"
 			"zpos"			"5"
@@ -1778,11 +1778,11 @@
 		}
 		"OverallRecord10Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord10label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"319"
 			"zpos"			"5"
@@ -1795,11 +1795,11 @@
 		}							
 		"OverallRecord10Value"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Value"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord10value%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"319"
 			"zpos"			"5"
@@ -1812,11 +1812,11 @@
 		}
 		"OverallRecord11Label"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"OverallRecord11Label"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%classrecord11label%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"329"
 			"zpos"			"5"
@@ -1829,11 +1829,11 @@
 		}							
 		"OverallRecord11Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord11Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord11value%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord11Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord11value%"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"329"
 			"zpos"			"5"
@@ -1846,11 +1846,11 @@
 		}
 		"OverallRecord12Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord12Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord12label%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord12Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord12label%"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"339"
 			"zpos"			"5"
@@ -1863,11 +1863,11 @@
 		}							
 		"OverallRecord12Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord12Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord12value%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord12Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord12value%"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"339"
 			"zpos"			"5"
@@ -1880,11 +1880,11 @@
 		}
 		"OverallRecord13Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord13Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord13label%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord13Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord13label%"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"349"
 			"zpos"			"5"
@@ -1897,11 +1897,11 @@
 		}							
 		"OverallRecord13Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord13Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord13value%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord13Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord13value%"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"349"
 			"zpos"			"5"
@@ -1914,11 +1914,11 @@
 		}
 		"OverallRecord14Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord14Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord14label%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord14Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord14label%"
+			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"359"
 			"zpos"			"5"
@@ -1931,11 +1931,11 @@
 		}							
 		"OverallRecord14Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord14Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord14value%"
-			"textAlignment"		"west"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord14Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord14value%"
+			"textAlignment"	"west"
 			"xpos"			"c+210"
 			"ypos"			"359"
 			"zpos"			"5"
@@ -2020,14 +2020,14 @@
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
 		"xpos"			"9999"
-		"ypos"			"9999"
+		"ypos"			"310"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_NextTip"
 		"textAlignment"	"center"
@@ -2041,7 +2041,7 @@
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
 		"xpos"			"9999"
-		"ypos"			"9999"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"

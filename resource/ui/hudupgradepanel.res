@@ -16,10 +16,10 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		
-		"itempanel_xpos"	"15"
-		"itempanel_ypos"	"10"
-		"itempanel_xdelta"	"5"
-		"itempanel_ydelta"	"5"
+		"itempanel_xpos"		"15"
+		"itempanel_ypos"		"10"
+		"itempanel_xdelta"		"5"
+		"itempanel_ydelta"		"5"
 		
 		"upgradebuypanel_xpos"	"160"
 		"upgradebuypanel_ypos"	"65"
@@ -27,24 +27,25 @@
 		
 		"modelpanels_kv"
 		{
-			"zpos"			"-2"
-			"wide"			"70"
-			"tall"			"50"
-			"bgcolor_override"		"Transparent"
-			"noitem_textcolor"		"TextColor"
+			"zpos"				"-2"
+			"wide"				"70"
+			"tall"				"50"
+			"bgcolor_override"	"Transparent"
+			"noitem_textcolor"	"TextColor"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+			"paintborder"			"0"
 			
-			"model_ypos"	"5"
-			"model_tall"	"32"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_ypos"		"5"
+			"model_tall"		"32"
+			"text_ypos"			"60"
+			"text_center"		"1"
+			"name_only"			"1"
 			"text_forcesize"	"3"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -54,16 +55,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGGrayoutPanel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"zpos"		"-1"
-		"autoResize"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"zpos"			"-1"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
 	}
 	
@@ -141,17 +142,6 @@
 			"ControlName"	"Panel"
 			"fieldName"		"InnerPanelRim"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"-1"
-			"wide"			"480"
-			"tall"			"230"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			
-			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
 		}
 		"TopBorder"
 		{
@@ -461,17 +451,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InactiveSeparatorPanel"
-			"xpos"			"10"
-			"ypos"			"48"
-			"zpos"			"-4"
-			"wide"			"480"
-			"tall"			"5"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 128"
+			"xpos"			"9999"
 		}
 
 		"GreyedOutLabel"
@@ -769,93 +749,5 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TipPanel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"10"
-		"wide"			"500"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"Transparent"
-
-		"TipPanelBG"
-		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"TipPanelBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"-3"
-			"wide"			"500"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
-		}
-
-		"RealTipPanelBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"RealTipPanelBG"
-			"xpos"			"10"
-			"ypos"			"0"
-			"zpos"			"-3"
-			"wide"			"480"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"White"
-		}
-		
-		"TipText"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
-			"labelText"		"%tiptext%"
-			"textAlignment" "west"
-			"xpos"			"20"
-			"ypos"			"0"
-			"zpos"			"11"
-			"wide"			"440"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor"		"Black"
-		}
-
-		"NextTipButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"NextTipButton"
-			"xpos"			"460"
-			"ypos"			"12"
-			"zpos"			"12"
-			"wide"			"20"
-			"tall"			"17"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		" > "
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"nexttip"
-		}
 	}
 }
