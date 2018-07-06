@@ -21,6 +21,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"CodeBold22"
+		"fgcolor"			"White"
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"3"
@@ -34,7 +35,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 
 	"TitleLabelDropshadow"
@@ -66,9 +66,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToggleLabel"
-		"font"				"LightGravity9"
+		"font"				"LightGravity8"
 		"xpos"				"0"
-		"ypos"				"76"
+		"ypos"				"77"
 		"zpos"				"2"
 		"wide"				"198"
 		"tall"				"11"
