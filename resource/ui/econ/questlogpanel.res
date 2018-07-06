@@ -189,7 +189,7 @@
 				"tall"			"9"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/buttons/x"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
