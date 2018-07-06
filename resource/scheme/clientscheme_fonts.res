@@ -263,30 +263,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"MenuArrows"	// Small arrows used in various menus
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"15"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"ClassIcons"	// Class Icons found in the "Items" Page
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"62"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 
 		// DEFAULT
 		"Default"
@@ -2740,6 +2716,47 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
+		}
+	}
+	
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font"	"resource/TF2.ttf"
+			"name"	"TF2"
+		}
+		"4" 
+		{
+			"font"	"resource/TF2Secondary.ttf"
+			"name"	"TF2 Secondary"
+		}
+		"5" 
+		{
+			"font"	"resource/TF2Professor.ttf"
+			"name"	"TF2 Professor"
+		}	
+		"6" 
+		{
+			"font"	"resource/TF2Build.ttf"
+			"name"	"TF2 Build"
+		}
+		"7"
+		{
+			"font"	"resource/fonts/CodeProBold.otf"
+			"name"	"Code-Pro-Bold"
+		}
+		"8"
+		{
+			"font"	"resource/fonts/CodeProLC.otf"
+			"name"	"Code-Pro-LC"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Gravity-Light.otf"
+			"name"	"Gravity-Light"
 		}
 	}
 }
