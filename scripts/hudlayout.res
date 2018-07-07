@@ -1043,7 +1043,7 @@
 		"enabled"		"1"
 		"xpos"			"c-125"
 		"ypos"			"5"
-		"zpos"			"2"
+		"zpos"			"12"
 		"wide"			"250"
 		"tall"			"80"
 	}

@@ -544,7 +544,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"border"				"WhiteBorder"
-		"bgcolor_override"		"30 30 30 200"
+		"bgcolor_override"		"30 30 30 255"
 		"PaintBackground"		"1"
 		
 		"header_font"				"ItemFontNameLarge"
@@ -559,7 +559,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"HudFontMediumBold"
+			"font"				"CodeBold18"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"0"
@@ -611,7 +611,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"ComboLabel"
-			"font"				"HudFontSmallestBold"
+			"font"				"CodeLC8"
 			"labelText"			"%combo_label%"
 			"textAlignment"		"east"
 			"xpos"				"5"
@@ -629,7 +629,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"CodeLC10"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -674,7 +674,7 @@
 			"brighttext"		"0"
 			"Command"			"CallVote"
 			"Default"			"0"
-			"font"				"HudFontSmallBold"
+			"font"				"CodeBold12"
 		}
 		"Button1"
 		{
@@ -695,7 +695,7 @@
 			"brighttext"		"0"
 			"Command"			"Close"
 			"Default"			"0"
-			"font"				"HudFontSmallBold"
+			"font"				"CodeBold12"
 		}
 	}
 }

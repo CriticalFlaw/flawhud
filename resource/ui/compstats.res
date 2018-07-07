@@ -65,7 +65,7 @@
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
-			"font"			"HudFontSmallestBold"
+			"font"			"CodeBold12"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -87,7 +87,7 @@
 			"actionsignallevel"		"2"
 			"command"				"show_match_history"
 			"labeltext"				"#TF_Competitive_ViewMatches"
-			"font"					"HudFontSmallestBold"
+			"font"					"CodeBold12"
 			"fgcolor_override"		"TanLight"
 			"textAlignment"			"center"
 

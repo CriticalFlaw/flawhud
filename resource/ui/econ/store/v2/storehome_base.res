@@ -296,7 +296,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ItemCategoryTabs"
 		"xpos"				"c-230"
-		"ypos"				"38"
+		"ypos"				"30"
 		"zpos"				"0"
 		"wide"				"430"
 		"tall"				"25"
@@ -601,5 +601,22 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
+	}
+	
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"55"
+		"zpos"			"-5"
+		"wide"			"f0"
+		"tall"			"255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"MenuShader"
 	}
 }

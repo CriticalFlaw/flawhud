@@ -85,7 +85,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"LightGravity10"
+		"font"			"CodeBold12"
 		"fgcolor"		"Red"
 
 		"defaultBgColor_override"	"Blank"
@@ -115,7 +115,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"LightGravity10"
+		"font"			"CodeBold12"
 		"fgcolor"		"FooterBGBlack"
 
 		"defaultBgColor_override"	"Blank"

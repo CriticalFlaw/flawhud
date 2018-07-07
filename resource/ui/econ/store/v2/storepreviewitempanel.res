@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -341,7 +341,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HudFontSmallestBold"
+					"font"			"CodeBold12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -1420,7 +1420,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1428,7 +1428,7 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"			"White"
 	}
 	
 	"TryItOutButton"
@@ -1460,7 +1460,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c25"
+		"xpos"			"c40"
 		"ypos"			"c103"
 		"zpos"			"2"
 		"wide"			"160"
@@ -1470,7 +1470,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1478,10 +1478,7 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"fgcolor"			"White"
 	}
 	
 	"mouseoveritempanel"
