@@ -1051,7 +1051,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"FlawHUD v2018.0706"
+		"labelText"		"FlawHUD v2018.0707"
 		"xpos"			"r80"
 		"ypos"			"r13"
 		"wide"			"80"
