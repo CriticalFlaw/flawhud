@@ -10,8 +10,7 @@
 		"wide"			"42"
 		"tall"			"29"
 		"MeterFG"		"TanLight"
-		"MeterBG"		"Gray"
-		"bgcolor_override"	"DarkGrey"
+		"MeterBG"		"DarkGrey"
 	}
 	
 	"PowerupBG"
@@ -111,7 +110,7 @@
 		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"16"
-		"tall"					"19"	
+		"tall"					"19"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

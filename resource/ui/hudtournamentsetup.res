@@ -20,38 +20,14 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"	"west"
 	}
 
 	"TournamentTeamNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"75"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wrap"			"0"
-		"labelText"		"Name"
-		"textAlignment"	"east"
 	}
 
 	"TournamentNameEdit"
@@ -88,16 +64,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"83"
-		"tall"			"13"
-		"zpos"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"0 0 0 255"
-		"scaleImage"	"1"
 	}
 
 	"TournamentNotReadyButton"
@@ -119,7 +85,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"LightGravity10"
+		"font"			"CodeBold12"
 		"fgcolor"		"Red"
 
 		"defaultBgColor_override"	"Blank"
@@ -149,7 +115,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"LightGravity10"
+		"font"			"CodeBold12"
 		"fgcolor"		"FooterBGBlack"
 
 		"defaultBgColor_override"	"Blank"

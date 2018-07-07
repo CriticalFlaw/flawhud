@@ -4,31 +4,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
-		"ypos"			"10"
-		"wide"			"80"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
+		"xpos"			"9999"
 	}
 	
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"56"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"xpos"			"9999"	
 	}
 	
 	"SpellIcon"

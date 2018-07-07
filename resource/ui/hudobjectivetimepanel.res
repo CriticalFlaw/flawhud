@@ -74,16 +74,9 @@
 	}
 	"WaitingForPlayersBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
 	}
 
 	"OvertimeLabel"
@@ -114,16 +107,9 @@
 	}
 	"OvertimeBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"38"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
 	}
 
 	"SuddenDeathLabel"
@@ -156,13 +142,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_/_suddendeath"
 	}
 
 	"SetupLabel"
@@ -193,26 +172,19 @@
 	}
 	"SetupBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
 	}
 
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"15"
-		"ypos"			"16"
-		"zpos"			"5"
-		"wide"			"78"
+		"xpos"			"24"
+		"ypos"			"22"
+		"zpos" 			"3"
+		"wide" 			"50"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -223,25 +195,16 @@
 		"wrap"			"0"
 		"font"			"CodeLC8"
 		"fgcolor"		"White"
-
-		if_match
+		
+		if_mvm
 		{
-			"xpos"		"9999"
-			"wide"		"p1"
+			"visible"	"0"
 		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"39"
-		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"	"HudBlack"
-		"PaintBackgroundType"	"0"	
 	}
 }

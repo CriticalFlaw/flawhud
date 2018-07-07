@@ -24,7 +24,7 @@
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"Transparent"
+		"bgcolor_override"	"Transparent"
 	}
 	
 	"CreditCollectedTextLabel"

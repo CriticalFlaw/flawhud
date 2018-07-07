@@ -13,14 +13,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 255"	
+		"bgcolor_override"		"0 0 0 255"	
 	}
 	
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeLC10"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

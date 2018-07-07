@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -164,7 +164,6 @@
 				"skip_autoresize"	"1"
 				"autoresize"		"0"
 				
-				// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file
 				"ItemLevelInfoLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -342,7 +341,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HudFontSmallestBold"
+					"font"			"CodeBold12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -520,58 +519,6 @@
 			"frame_origin_z"	"0"
 			"spotlight" "1"
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 	
@@ -652,6 +599,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -703,6 +651,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -754,6 +703,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -805,6 +755,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -856,6 +807,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -1366,8 +1318,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
-	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
+
 	"PaintNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1449,7 +1400,7 @@
 			"tall"			"9"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/buttons/x"
+			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -1469,7 +1420,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1477,7 +1428,7 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"			"White"
 	}
 	
 	"TryItOutButton"
@@ -1509,7 +1460,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c25"
+		"xpos"			"c40"
 		"ypos"			"c103"
 		"zpos"			"2"
 		"wide"			"160"
@@ -1519,7 +1470,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1527,10 +1478,7 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"fgcolor"			"White"
 	}
 	
 	"mouseoveritempanel"

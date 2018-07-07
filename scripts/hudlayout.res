@@ -97,10 +97,10 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c93"
-		"wide"				"150"
-		"tall"				"40"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
@@ -248,7 +248,7 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"105"
+		"xpos"					"90"
 		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"38"
@@ -308,7 +308,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-15"
-		"ypos"					"50"
+		"ypos"					"80"
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -958,15 +958,15 @@
 
 	HudDemomanPipes
 	{
-		"fieldName"		"HudItemEffectMeter"
+		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c75"
-		"ypos"			"c137"
-		"wide"			"150"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"xpos"			"0"
+		"ypos"			"0"
+		"xpos_minmode"	"r110"
+		"ypos_minmode"	"r30"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 
 	HudTeamGoal
@@ -1043,7 +1043,7 @@
 		"enabled"		"1"
 		"xpos"			"c-125"
 		"ypos"			"5"
-		"zpos"			"2"
+		"zpos"			"12"
 		"wide"			"250"
 		"tall"			"80"
 	}

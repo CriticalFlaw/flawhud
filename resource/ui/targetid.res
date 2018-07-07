@@ -138,9 +138,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"0"
-		"ypos"				"24"
+		"ypos"				"34"
 		"wide"				"44"
-		"tall"				"40"
+		"tall"				"28"
 		"visible"			"0"
 		"enabled"			"0"
 		"HealthBonusPosAdj"			"10"
@@ -165,10 +165,10 @@
 		"scaleImage"		"1"
     }
 	
-	"KillStreakIconAnchor"
+	"KillStreakAnchor"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"KillStreakIconAnchor"
+		"fieldName"			"KillStreakAnchor"
 		"xpos"				"-5"
 		"ypos"				"28"
 		"wide"				"8"
@@ -176,6 +176,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
+
 	"KillStreakIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -190,7 +191,7 @@
 		"image"				"../hud/leaderboard_streak"
 		"scaleImage"		"1"
 		
-		"pin_to_sibling"		"KillStreakIconAnchor"
+		"pin_to_sibling"		"KillStreakAnchor"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}

@@ -89,7 +89,7 @@
 	}
 	
 	"CostLabelShadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabelShadow"
 		"font"				"CodeBold22"

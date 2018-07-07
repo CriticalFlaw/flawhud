@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold12"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -454,7 +454,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

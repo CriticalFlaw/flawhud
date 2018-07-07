@@ -343,114 +343,26 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:41,outline:off"
+		"size:10,outline:on"
 		{
 			"1"
 			{
 				"name"		"KnucklesCrosses"
-				"tall"		"41"
-				"antialias" "1"
+				"tall"		"10"
+				"antialias" "0"
 				"additive"	"0"
-				"outline"	"0"
+				"outline"	"1"
 			}
 		}
-		"size:42,outline:off"
+		"size:11,outline:on"
 		{
 			"1"
 			{
 				"name"		"KnucklesCrosses"
-				"tall"		"42"
-				"antialias" "1"
+				"tall"		"11"
+				"antialias" "0"
 				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:43,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"43"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:44,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"44"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:45,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"45"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:46,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"46"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:47,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"47"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:48,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"48"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:49,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"49"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"size:50,outline:off"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"50"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"outline"	"1"
 			}
 		}
 		"size:12,outline:on"
@@ -772,115 +684,14 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:41,outline:on"
+	}
+	
+	CustomFontFiles
+	{
+		"110"
 		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"41"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:42,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"42"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:43,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"43"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:44,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"44"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:45,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"45"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:46,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"46"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:47,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"47"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:48,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"48"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:49,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"49"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size:50,outline:on"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"50"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
+			"font"	"resource/fonts/KnucklesCrosses.ttf"
+			"name"	"KnucklesCrosses"
 		}
 	}
 }

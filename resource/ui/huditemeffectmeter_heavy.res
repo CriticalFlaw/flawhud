@@ -1,57 +1,16 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
-{
-	HudItemEffectMeter
-	{
-		"fieldName"			"HudItemEffectMeter"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c113"
-		"wide"				"150"
-		"tall"				"8"
-		"MeterFG"			"TanLight"
-		"MeterBG"			"Gray"
-	}
+#base "huditemeffectmeter.res"
 
-	"ItemEffectMeterLabel"
+"Resource/UI/HudItemEffectMeter_Scout.res"
+{
+	"MeterAnchor"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"150"
-		"tall"					"8"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"LightGravity8"
-		"fgcolor_override"		"150 150 150 255"
 	}
 
 	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"15"
-		"ypos"					"1"
-		"zpos"					"2"
-		"wide"					"120"
-		"tall"					"6"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"MenuShader"
+	{
+		"ypos"					"3"
+		"pin_to_sibling" 		"MeterAnchor"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

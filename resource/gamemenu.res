@@ -36,13 +36,6 @@
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
-	"CreateServerButton"
-	{
-		"label" 		""
-		"command" 		"OpenCreateMultiplayerGameDialog"
-		"subimage" 		"glyph_create"
-		"tooltip" 		"Create a Server"
-	}
 	"ReplayButton"
 	{
 		"label" 		""
@@ -56,6 +49,13 @@
 		"command"		"engine toggleconsole"
 		"subimage"		"glyph_options"
 		"tooltip"		"Console"
+	}
+	"ReportBugButton"
+	{
+		"label"			""
+		"command"		"engine bug"
+		"subimage"		"glyph_bug"
+		"tooltip"		"Report a Bug"
 	}
 	"CallVoteButton"
 	{

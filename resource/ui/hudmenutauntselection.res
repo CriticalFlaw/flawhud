@@ -39,13 +39,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"456"
-		"tall"			"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 222 208 255"
 	}
 
 	"IcoReelIcon"
@@ -53,15 +46,6 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"IcoReelIcon"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"White"
 	}
 	
 	"TitleLabel"
@@ -115,18 +99,6 @@
 		"fieldName"		"WeaponTauntLabel"
 		"font"			"Default"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"350"
-		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#Hud_Menu_Taunt_Weapon"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -180,6 +152,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -252,6 +225,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -324,6 +298,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -468,6 +443,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -540,6 +516,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -612,6 +589,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -684,6 +662,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}

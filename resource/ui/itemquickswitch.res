@@ -49,56 +49,30 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
 	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"LightGravity18"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"LightGravity12"
-		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"center"
-		"xpos"			"80"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 	
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"xpos"			"9999"
+	}
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -157,25 +131,6 @@
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}
-	}
-	
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
-		"font"			"ItemFontNameSmallest"
-		"labelText"		"#NoItemsToEquip"
-		"textAlignment"	"center"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"220"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"loadout_preset_panel"
