@@ -963,8 +963,6 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
-		"xpos_minmode"	"r110"
-		"ypos_minmode"	"r30"
 		"wide"			"f0"
 		"tall"			"480"
 	}
