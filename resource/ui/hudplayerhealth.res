@@ -1,5 +1,6 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+	// Player Health Data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -102,10 +103,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"85"
+		"xpos"			"15"
 		"ypos"			"30"
-		"wide"			"27"
-		"tall"			"27"
+		"wide"			"23"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 	}
