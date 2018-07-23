@@ -57,6 +57,13 @@
 		"subimage"		"glyph_bug"
 		"tooltip"		"Report a Bug"
 	}
+	"SteamWorkshopButton"
+	{
+		"label" 		""
+		"command" 		"engine OpenSteamWorkshopDialog"
+		"subimage" 		"glyph_steamworkshop"
+		"tooltip" 		"Steam Workshop"
+	}
 	"CallVoteButton"
 	{
 		"label"			""
