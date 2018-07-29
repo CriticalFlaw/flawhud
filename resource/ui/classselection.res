@@ -1050,15 +1050,20 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"7"
-		"wide"			"235"
-		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
+	}
+	
+	"localPlayerImage" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"9999"
+	}
+	
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
+		"xpos"			"9999"
 	}
 	
 	"ClassHighlightPanel"
