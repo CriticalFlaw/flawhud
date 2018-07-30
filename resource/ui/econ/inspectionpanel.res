@@ -397,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeLC12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
