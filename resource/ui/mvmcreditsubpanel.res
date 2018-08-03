@@ -124,21 +124,4 @@
 		"tall"			"20"
 		"fgcolor"		"White"
 	}
-	"CreditRatingLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"LightGravity16"
-		"labelText"		"%ratingshadow%"
-		"textAlignment" "center"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"ShadowBlack"
-		
-		"pin_to_sibling"		"CreditRatingLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
 }

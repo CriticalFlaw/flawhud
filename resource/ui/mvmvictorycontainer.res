@@ -55,25 +55,6 @@
 			"tall"			"35"
 			"fgcolor"		"White"
 		}
-		
-		"BannerTextDropShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"BannerTextDropShadow"
-			"font"			"CodeBold37"
-			"labelText"		"#TF_MVM_Victory_Complete"
-			"textAlignment" "center"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"ypos"			"-2"
-			"wide"			"530"
-			"tall"			"35"
-			"fgcolor"		"ShadowBlack"
-		
-			"pin_to_sibling"		"BannerText"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}
 	}
 	
 	"VictoryPanelNormal"

@@ -52,7 +52,7 @@
 			"tall"			"50"
 			"fgcolor"		"ShadowBlack"
 		
-			"pin_to_sibling"		"WaveFailHeader"
+			"pin_to_sibling"		"SplashLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}

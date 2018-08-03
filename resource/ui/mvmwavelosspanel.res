@@ -32,7 +32,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HeaderLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"CodeBold20"
 		"labelText"			"%waveheader%"
 		"textAlignment"	 	"center"
 		"xpos"				"c-275"
@@ -40,24 +40,6 @@
 		"wide"				"550"
 		"tall"				"30"
 		"fgcolor"			"Orange"
-	}
-	
-	"WaveFailHeaderShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"WaveFailHeaderShadow"
-		"font"				"HudFontMediumBold"
-		"labelText"			"%waveheader%"
-		"textAlignment"		"center"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"wide"				"550"
-		"tall"				"30"
-		"fgcolor"			"ShadowBlack"
-		
-		"pin_to_sibling"		"WaveFailHeader"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"HeaderDivider"
