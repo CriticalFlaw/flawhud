@@ -303,7 +303,7 @@
 		"font"			"CodeLC12"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
-		"xpos"			"c-285"
+		"xpos"			"c-280"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"40"
@@ -312,14 +312,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "LightRed"
+		"fgcolor_override" "White"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c-250"
+		"xpos"			"c-240"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"

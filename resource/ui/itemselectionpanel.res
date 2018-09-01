@@ -249,7 +249,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"OnlyAllowUniqueQuality"
 		"labelText"		"#OnlyAllowUniqueQuality"
-		"Font"			"LightGravity10"
+		"font"			"CodeBold12"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
 		"ypos"			"290"
@@ -353,7 +353,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "LightRed"
+		"fgcolor_override" "White"
 	}
 	
 	"NextPageButton"

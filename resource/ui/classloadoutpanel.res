@@ -133,6 +133,13 @@
 		"fieldName"		"TauntLabel"
 		"xpos"			"9999"
 	}
+
+	"CurrentlyEquippedLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrentlyEquippedLabel"
+		"xpos"			"9999"
+	}
 	
 	"TopLine"
 	{
@@ -291,6 +298,41 @@
 		"xpos"			"9999"
 	}
 	
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c29"
+		"ypos"				"c90"
+		"zpos"				"12"	
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"R"
+		"textAlignment"		"center"
+		"font"				"CodeBold22"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"defaultFgColor_override"	"Red"
+		"armedFgColor_override"		"White"
+		"armedBgColor_override"		"Red"
+		"depressedFgColor_override"	"White"
+		"depressedBgColor_override"	"Red"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"keyboardinputenabled"	"0"
+		"paintbackground"	"1"
+		"border_default"			""
+		"border_armed"				""
+		"border_depressed"			""
+	}
+
 	"BlueButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -402,48 +444,11 @@
 			"image"			"../vgui/replay/thumbnails/reel"
 		}
 	}
-	
-	"RedButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-		"xpos"				"c29"
-		"ypos"				"c90"
-		"zpos"				"12"	
-		"wide"				"25"
-		"tall"				"25"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"R"
-		"textAlignment"		"center"
-		"font"				"CodeBold22"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 0"
-		
-		"defaultFgColor_override"	"Red"
-		"armedFgColor_override"		"White"
-		"armedBgColor_override"		"Red"
-		"depressedFgColor_override"	"White"
-		"depressedBgColor_override"	"Red"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"keyboardinputenabled"	"0"
-		"paintbackground"	"1"
-		"border_default"			""
-		"border_armed"				""
-		"border_depressed"			""
-	}
 
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"TauntsExplanation"
 		"xpos"			"9999"
-		"wide"			"250"
-		"tall"			"160"
 	}
 }

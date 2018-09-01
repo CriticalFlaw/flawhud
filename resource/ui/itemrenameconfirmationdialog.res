@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"CodeBold14"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"HudFontSmall"
+		"font"				"CodeLC15"
 		"labelText"			"#CraftAskNameConfirm"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -145,14 +145,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "LightRed"
+		"fgcolor_override" 	"White"
 	}
 	
 	"GivenName"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"HudFontMediumSecondary"
+		"font"				"CodeBold14"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -172,7 +172,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WarningLabel"
-		"font"				"HudFontSmall"
+		"font"				"CodeLC15"
 		"labelText"			"#CraftAskNameWarning"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -184,7 +184,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"LightRed"
+		"fgcolor_override"	"White"
 	}
 
 	"CancelButton"
@@ -202,7 +202,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"HudFontSmallBold"
+		"font"				"CodeBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -227,7 +227,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"HudFontSmallBold"
+		"font"				"CodeBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

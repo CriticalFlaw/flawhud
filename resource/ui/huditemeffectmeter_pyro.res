@@ -1,7 +1,5 @@
 #base "huditemeffectmeter.res"
 
-// Phlog
-
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {	
 	"MeterAnchor"

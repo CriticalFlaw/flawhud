@@ -173,7 +173,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
+		"font"			"CodeLC12"
 		"labelText"		"#ToolPaintConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -185,7 +185,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 
 	"paint_model"

@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -216,10 +216,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameDescLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"labelText"		"#ToolItemRenameOldItemName"
-		"textAlignment"	"east"
-		"xpos"			"10"
+		"textAlignment"	"west"
+		"xpos"			"25"
 		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"185"
@@ -228,7 +228,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TextColor"
+		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
 
@@ -236,18 +236,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeLC10"
 		"labelText"		"%oldname%"
 		"textAlignment"	"west"
-		"xpos"			"200"
+		"xpos"			"140"
 		"ypos"			"94"
-		"wide"			"180"
+		"wide"			"240"
 		"tall"			"24"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TextColor"
+		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
 
@@ -275,10 +275,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NewItemNameDescLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"labelText"		"#ToolItemRenameNewItemName"
-		"textAlignment"	"east"
-		"xpos"			"10"
+		"textAlignment"	"west"
+		"xpos"			"25"
 		"ypos"			"130"
 		"zpos"			"0"
 		"wide"			"185"
@@ -287,7 +287,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TextColor"
+		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
 
@@ -295,9 +295,9 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"CustomNameEntry"
-		"xpos"				"200"
+		"xpos"				"140"
 		"ypos"				"134"
-		"wide"				"180"
+		"wide"				"240"
 		"tall"				"24"
 		"autoResize"		"1"
 		"pinCorner"			"0"
@@ -314,7 +314,7 @@
 		"bgcolor_override"	"Grey"
 		"paintbackgroundtype" "0"
 		"labelText"			""
-		"font"				"HudFontSmall"
+		"font"				"CodeLC10"
 		"textAlignment"		"west"
 	}
 	
@@ -322,7 +322,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
+		"font"			"CodeLC10"
 		"labelText"		"#ToolConfirmWarning"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -334,7 +334,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "LightRed"
+		"fgcolor_override" "White"
 	}
 
 	"CancelButton"
@@ -352,7 +352,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -377,7 +377,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameOk"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

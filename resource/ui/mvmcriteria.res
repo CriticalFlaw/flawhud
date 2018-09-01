@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeBold10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 			"xpos"			"189"
@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"CodeBold20"
+			"font"			"CodeBold10"
 			"labelText"		"Completed"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
@@ -64,7 +64,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"CodeBold20"
+			"font"			"CodeBold8"
 			"labelText"		"#TF_MvM_TourNumber"
 			"textAlignment"	"south-west"
 			"xpos"			"345"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold18"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -185,7 +185,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeLC12"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"

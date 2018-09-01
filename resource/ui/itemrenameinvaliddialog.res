@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"CodeBold14"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -136,7 +136,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"HudFontSmall"
+		"font"				"CodeLC15"
 		"labelText"			"#CraftInvalidName"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -148,14 +148,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"LightRed"
+		"fgcolor_override"	"White"
 	}
 	
 	"GivenName"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"HudFontMediumSecondary"
+		"font"				"CodeBold14"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -174,7 +174,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WarningLabel"
-		"font"				"HudFontSmall"
+		"font"				"CodeLC15"
 		"labelText"			"#CraftInvalidNameDetail"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -186,7 +186,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "LightRed"
+		"fgcolor_override" 	"White"
 	}
 
 	"BackFromInvalidButton"
@@ -204,7 +204,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_OK"
-		"font"				"HudFontSmallBold"
+		"font"				"CodeBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

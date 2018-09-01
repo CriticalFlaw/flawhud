@@ -207,7 +207,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"CodeBold14"
+		"font"				"CodeLC12"
 		"labelText"			"%confirm_text%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -219,14 +219,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" 	"White"
 	}
 
 	"OptionalAppendLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OptionalAppendLabel"
-		"font"				"HudFontSmall"
+		"font"				"CodeLC12"
 		"labelText"			"%optional_append%"
 		"textAlignment"		"center"
 		"xpos"				"20"

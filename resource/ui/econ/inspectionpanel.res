@@ -223,6 +223,7 @@
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"fixed_item"
 		{
@@ -254,7 +255,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -292,7 +293,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"HudFontSmallest"
+			"Font"				"CodeLC10"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -330,7 +331,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"HudFontSmallest"
+			"font"			"CodeLC10"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -353,7 +354,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"HudFontSmallest"
+			"Font"				"CodeLC10"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -397,8 +398,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TF_ItemPreview_ItemPreview"
+			"font"			"CodeLC10"
+			"labelText"		"Choose Item:"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"30"
@@ -465,7 +466,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"CodeLC10"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -499,6 +500,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
+			"font"			"CodeLC10"
 			"xpos"			"8"
 			"ypos"			"75"
 			
@@ -596,7 +598,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
+			"font"			"CodeLC10"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"
@@ -605,11 +607,10 @@
 			"actionsignallevel" 	"2"
 			"RoundedCorners"		"0"
 			
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"border_default"			"NoBorder"
-			"defaultBgColor_override"	"72 103 32 255"
-			"armedBgColor_override"		"72 133 32 255"
+			"defaultfgcolor_override"	"White"
+			"defaultbgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
+			"selectedbgcolor_override"	"White"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

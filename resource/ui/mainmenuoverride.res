@@ -433,7 +433,7 @@
 		"pinCorner"			"3"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"Transparent"
 
 		"SubImage"
 		{
@@ -773,15 +773,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"40"
+		"xpos"			"c180"
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"		"0"
-		"border"				"MainMenuHighlightBorder"
+		"paintbackground"		"1"
+		"border"				"WhiteBorder"
+		"bgcolor_override"		"0 0 0 255"
 		
 		"Notifications_CloseButton"
 		{
@@ -790,8 +791,8 @@
 			"xpos"			"186"
 			"ypos"			"8"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"12"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -804,21 +805,15 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
-
 			"Command"		"noti_hide"
-			"navActivate"	"<QuickplayButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" 	"TanDarker"
-			"armedFgColor_override" 	"NeutralWhite"
-			"depressedFgColor_override" "TanDarker"
-
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
+			"paintbackground"	"0"	
+			"defaultFgColor_override" 	"Black"
+			"armedFgColor_override" 	"Black"
+			"depressedFgColor_override" "Black"
+			"image_drawcolor"			"Black"
+			"image_armedcolor"			"255 0 0 255"
 
 			"SubImage"
 			{
@@ -827,11 +822,11 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"12"
+				"tall"			"12"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -840,7 +835,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"LightGravity12"
+			"font"			"CodeBold12"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -851,7 +846,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanDarker"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 		}
 		
@@ -1038,7 +1033,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"200"	//"999"
+		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
@@ -1053,7 +1048,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"FlawHUD v2018.0722"
+		"labelText"		"FlawHUD v2018.0901"
 		"xpos"			"r80"
 		"ypos"			"r13"
 		"wide"			"80"

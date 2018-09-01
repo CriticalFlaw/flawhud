@@ -116,6 +116,28 @@ Scheme
 				"outline"		"1"
 			}
 		}
+		"CodeBold10"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"10"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"CodeBold8"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"8"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"CodeLC15"
 		{
@@ -754,7 +776,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -765,7 +787,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -777,7 +799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Gravity-Light"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"

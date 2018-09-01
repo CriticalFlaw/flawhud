@@ -21,6 +21,7 @@
 		"team2_player_base_y"			"160"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"22"
+		"team2_player_base_offset_x_minmode"	"141"
 		
 		"playerpanels_kv"
 		{
