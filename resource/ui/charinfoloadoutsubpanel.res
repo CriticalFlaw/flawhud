@@ -877,7 +877,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
 		"font"			"CodeBold14"
-		"labelText"		"#Armory"
+		"labelText"		"Catalog"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
