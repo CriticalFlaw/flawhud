@@ -14,15 +14,10 @@ To change the crosshair style, in the same node change the letter to the right o
 This heart shaped button is located on the top right section of the main menu, above the Twitch button. To add your favorite server, go to `resource\gamemenu.res` and under `FavoriteServer` replace the Xs with the server IP and password.
 
 #### Transparent Viewmodels
-While the necessary files and entry in hudslayout.res (disabled by default) are included, the config necessary to use Transparent Viewmodels will not be included. This is due to a number of users experiencing issues relating to their own graphical setup, therefore you're responsible for acquiring and modifying your configs accordingly. For more information, visit the TF.TV thread [here](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
+Due to number of users experiencing issues relating to their own graphical setup, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudslayout.res (disabled by default) are included, so you're responsible for acquiring and modifying your config accordingly. For more information, visit the TeamFortress.TV thread [here](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
 
 #### CastingEssentials
-There are several features that require [CastingEssentials](https://github.com/PazerOP/CastingEssentials/releases), including MediGun and Team Score panels - both used in the Tournament Spectator, either in demo or SourceTV. For information on how to enable them go to the [CastingEssentials wiki](https://github.com/PazerOP/CastingEssentials/wiki).
-
-#### Credits/Thank You
-* [Class Portraits]() by [unknown]()
-* [Team Scores](https://github.com/CriticalFlaw/flawhud/blob/master/resource/ui/teamscorepanel.res) Panel by [Wiethoofd](https://github.com/Wiethoofd)
-* [CastingEssentials](https://github.com/PazerOP/CastingEssentials) by [pazer](https://github.com/PazerOP)
+Features available in the latest [CastingEssentials](https://github.com/PazerOP/CastingEssentials/releases) like the Team Scores and MediGun panels work straight away with FlawHUD when enabled in console. For information check out the [CastingEssentials wiki](https://github.com/PazerOP/CastingEssentials/wiki).
 
 #### Help/Support
 If you've found a bug, need help or have a suggestion - consider one of the following:
