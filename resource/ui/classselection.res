@@ -98,7 +98,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2   Soldier"
+		"labelText"			"2  Soldier"
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
