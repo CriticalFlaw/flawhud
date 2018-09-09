@@ -60,8 +60,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c92"
-		"ypos"				"c65"
+		"xpos"				"c93"
+		"ypos"				"c63"
 		"wide"				"150"
 		"tall"				"125"
 	}
@@ -223,7 +223,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-181"
-		"ypos"					"267"
+		"ypos"					"227"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"

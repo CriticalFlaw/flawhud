@@ -74,19 +74,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"-3"
-		"ypos"			"0"
-		"wide"			"320"
-		"tall"			"30"
+		"xpos"			"c-190"
+		"ypos"			"95"
+		"wide"			"380"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
+		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"CodeBold14"
+		"font"			"LightGravity12"
+		"fgcolor"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 
 	"MapLabel"

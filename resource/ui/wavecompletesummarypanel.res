@@ -49,31 +49,6 @@
 			"enabled"			"1"
 			"fgcolor"			"White"
 		}
-		
-		"WaveCompleteLabelShadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"WaveCompleteLabelShadow"
-			"font"				"HudFontMediumSmallBold"
-			"textAlignment"		"center"
-			"labelText"			"%titletext%"
-			"xpos"				"-1"
-			"ypos"				"-1"
-			"wide"				"244"
-			"tall"				"30"
-			"visible"			"1"
-			"enabled"			"1"
-			"fgcolor"			"ShadowBlack"
-			
-			"pin_to_sibling"		"WaveCompleteLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-			
-			// Red Background
-			"PaintBackgroundType" 	"0"
-			"fgcolor_override"		"ShadowBlack"
-			"bgcolor_override"		"Transparent"
-		}
 	}
 	
 	"CreditContainer"
@@ -209,24 +184,6 @@
 			"wide"				"115"
 			"tall"				"30"
 			"fgcolor"			"White"
-		}
-		
-		"RatingTextShadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"RatingTextShadow"
-			"font"				"LightGravity12"
-			"labelText"			"%ratingscore%"
-			"textAlignment"		"center"
-			"xpos"				"-1"
-			"ypos"				"-1"
-			"wide"				"115"
-			"tall"				"30"
-			"fgcolor"			"ShadowBlack"
-			
-			"pin_to_sibling"		"RatingText"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 	
