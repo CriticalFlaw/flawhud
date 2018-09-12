@@ -24,7 +24,7 @@
 	"FavoriteServer"
 	{
 		"label"			""
-		"command" 		"engine connect XXXXXXXXXXXXXXX"
+		"command" 		"engine itemtest"
 		"tooltip" 		"Favorite Server"
 	}
 

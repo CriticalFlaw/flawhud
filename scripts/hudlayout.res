@@ -453,7 +453,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r635"
-		"ypos"	 				"20"
+		"ypos"	 				"25"
 		"wide"	 				"628"
 		"tall"	 				"468"
 		"MaxDeathNotices" 		"4"
