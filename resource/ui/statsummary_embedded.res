@@ -2040,8 +2040,8 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"9999"
-		"ypos"			"-1"
+		"xpos"			"c124"
+		"ypos"			"285"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
