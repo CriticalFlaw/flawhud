@@ -11,6 +11,9 @@ event HudHealthBonusPulse
 	Animate	FreezeHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4
+	
+	Animate RedPlayerHealth				FgColor		"0 200 127 255"		Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"0 200 127 255"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -25,6 +28,9 @@ event HudHealthBonusPulseStop
 	
 	Animate	FreezeHealthBG				BgColor		"Blank"	      		Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"255"		  		Accel 0.0 0.0
+	
+	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
 
 	StopEvent HudHealthBonusPulse 		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
@@ -44,6 +50,9 @@ event HudHealthDyingPulse
 	Animate	FreezeHealthBG				BgColor		"G_LowHealthValue"	Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4
+	
+	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.1
 }
@@ -58,6 +67,9 @@ event HudHealthDyingPulseStop
 	
 	Animate	FreezeHealthBG				BgColor		"Blank"	  			Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"255"				Accel 0.0 0.0
+	
+	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
 
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0

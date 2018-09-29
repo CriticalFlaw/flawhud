@@ -151,20 +151,20 @@
     {
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
-        "xpos"			"95"
-        "ypos"			"3"
+        "xpos"			"98"
+        "ypos"			"2"
         "zpos"			"2"
         "wide"			"28"
         "tall"			"14"
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
-        "labelText"		"%charge%%"
+        "labelText"		"%charge%"
         "tabPosition"	"0"
-        "textAlignment"	"east"
+        "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"CodeBold12"
+        "font"			"CodeBold14"
         "fgcolor"		"White"
 
         "medigun-vaccinator" {
@@ -175,7 +175,7 @@
             "visible"	"0"
         }
 		"team-red" {
-			"xpos"		"5"
+			"xpos"		"4"
 			"textAlignment"	"west"
 		}
     }
@@ -191,12 +191,12 @@
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
-        "labelText"		"%charge%%"
+        "labelText"		"%charge%"
         "tabPosition"	"0"
-        "textAlignment"	"east"
+        "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"CodeBold12"
+        "font"			"CodeBold14"
 		"fgcolor_override"	"ShadowBlack"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -216,11 +216,11 @@
         "ControlName"		"ImageProgressBar"
         "fieldName"			"MedigunPanelChargeMeter"
         "font"				"Default"
-        "xpos"				"22"
-        "ypos"				"2"
+        "xpos"				"20"
+        "ypos"				"0"
         "zpos"				"2"
-        "wide"				"102"
-        "tall"				"15"
+        "wide"				"105"
+        "tall"				"16"
         "autoResize"		"0"
         "pinCorner"			"0"
         "visible"			"1"
@@ -228,8 +228,8 @@
         "textAlignment"		"Left"
         "dulltext"			"0"
         "brighttext"		"0"
-        "bgcolor_override"	"ProgressBackground"
-        "fgcolor_override" 	"Brown"
+		"bgcolor_override"	"38 55 63 255"
+		"fgcolor_override"	"57 92 120 255"
         "direction"			"east"
         "variable"			"charge"
 
@@ -241,8 +241,10 @@
             "visible"       "0"
         }
 		"team-red" {
-			"xpos"			"2"
-			"direction"		"west"
+			"xpos"				"0"
+			"direction"			"west"
+			"bgcolor_override"	"89 24 23 255"
+			"fgcolor_override"	"157 49 47 255"
 		}
     }
 
