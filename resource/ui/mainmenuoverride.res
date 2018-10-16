@@ -189,6 +189,11 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
+		
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon_widescreen"
+		}
 	}
 	
 	"MainMenuSideBG"
@@ -1048,7 +1053,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"FlawHUD v2018.0905"
+		"labelText"		"FlawHUD v2018.1015"
 		"xpos"			"r80"
 		"ypos"			"r13"
 		"wide"			"80"
