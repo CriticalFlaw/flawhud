@@ -190,6 +190,30 @@
 			"tall"			"f0"
 		}
 		
+		if_halloween_0
+		{
+			"image"		"../console/title_team_halloween2011_widescreen"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012_widescreen"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013_widescreen"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		if_halloween_4
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
@@ -1054,7 +1078,7 @@
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
 		"labelText"		"FlawHUD v2018.1015"
-		"xpos"			"r80"
+		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
@@ -1062,6 +1086,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"textAlignment"		"east"
 		"fgcolor_override"	"White"
 	}
 
@@ -1252,7 +1277,7 @@
 		"xpos"			"55"
 		"ypos"			"235"
 		"zpos"			"11"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"14"
 		"PaintBackgroundType"	"2"
 
@@ -1262,7 +1287,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"100"
+			"wide"			"110"
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"3"
