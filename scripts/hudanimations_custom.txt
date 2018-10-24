@@ -129,13 +129,21 @@ event HitMarker
 	Animate KnucklesCrosses	 			FgColor 	"Crosshair" 		Linear 0.15 0.0
 }
 //==================================================================================
-event MMenu_PlayList_Expand { }
-event MMenu_PlayList_Collapse { }
-event MMenu_PlayList_Collapse_Immediate { }
+
+event HudSpyDisguiseFadeIn
+{
+	//RunEvent HudSpyDisguiseChanged	0.0
+	//Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	//Animate PlayerStatusClassImage	Alpha		"255"				Linear 0.0	0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	//RunEvent HudSpyDisguiseChanged	0.0
+	//Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	//Animate PlayerStatusClassImage	Alpha		"0"					Linear 0.0	0.0
+}
+//==================================================================================
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
 event HudTournament_MoveChatWindow 		{ }
-event HudSpyDisguiseChanged	{ }
-event HudSpyDisguiseHide	{ }
-event HudSpyDisguiseFadeIn	{ }
-event HudSpyDisguiseFadeOut	{ }
