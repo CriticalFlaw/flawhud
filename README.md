@@ -10,6 +10,9 @@ Custom crosshairs are disabled by default - to turn them on; go to `flawhud\scri
 
 To change the crosshair style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the KnucklesCrosses.png image file (located in the `scripts` folder).
 
+#### Font Styles
+This version has the Code Pro fonts enabled by default. For those wanting to use the TF2 fonts (improving macOS compatability), either download flawhud from [huds.tf](https://huds.tf/forum/showthread.php?tid=252) or go to `flawhud/resource/clientscheme.res` and follow the instructions in the file to enable the alternate fonts.
+
 #### Favorite Server
 This heart shaped button is located on the top right section of the main menu, above the Twitch button. To add your favorite server, go to `resource\gamemenu.res` and under `FavoriteServer` replace the Xs with the server IP and password.
 
