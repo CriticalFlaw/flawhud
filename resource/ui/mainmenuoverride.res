@@ -802,7 +802,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c180"
+		"xpos"			"c60"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"210"
@@ -1077,7 +1077,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"LightGravity10"
-		"labelText"		"FlawHUD v2018.1015"
+		"labelText"		"FlawHUD v2018.1025"
 		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
