@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"c-250"
-		"ypos"			"50"
+		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"500"
 		"tall"			"50"
@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"HudBlack"	
+		"bgcolor_override"		"HudBlack"
 	}
 	
 	"SplashLabel"

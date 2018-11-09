@@ -14,7 +14,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../HUD/tournament_panel_brown"
-
+		
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
@@ -58,7 +58,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"SeparatorBar"
 	{
 		"ControlName"		"Panel"
@@ -75,10 +75,10 @@
 		"bgcolor_override"		"White"
 		
 		if_verbose {
-			"visible"			"1"
+			"visible"		"1"
 		}
 	}
-
+	
 	"SupportLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -96,7 +96,7 @@
 		"labelText"			"#TF_MVM_Support"
 		
 		if_verbose {
-			"visible"			"1"
+			"visible"		"1"
 		}		
 	}
 	
@@ -134,7 +134,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
-
+	
 	"ProgressBarBG"
 	{
 		"ControlName"		"ScalableImagePanel"

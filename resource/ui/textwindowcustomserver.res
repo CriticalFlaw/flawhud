@@ -20,17 +20,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TFMessageTitle"
-		"xpos"				"c-184"
+		"xpos"				"0"
 		"ypos"				"95"
 		"zpos"				"1"
-		"wide"				"420"
+		"wide"				"f0"
 		"tall"				"24"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#TF_WELCOME"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"ChalkboardTitle"
@@ -107,7 +107,7 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override" 	"White"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"White"
 	}
@@ -129,14 +129,14 @@
 		
 		"model"
 		{
-			"modelname"			"models/vgui/UI_welcome01_screen.mdl"
-			"skin"				"0"
-			"angles_x"			"0"
-			"angles_y"			"180"
-			"angles_z"			"0"
-			"origin_x"			"290"
-			"origin_y"			"0"
-			"origin_z"			"-39"
+			"modelname"		"models/vgui/UI_welcome01_screen.mdl"
+			"skin"			"0"
+			"angles_x"		"0"
+			"angles_y"		"180"
+			"angles_z"		"0"
+			"origin_x"		"290"
+			"origin_y"		"0"
+			"origin_z"		"-39"
 		}
 	}
 	

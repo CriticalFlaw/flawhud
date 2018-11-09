@@ -95,21 +95,22 @@
 		"textAlignment"		"west"
 		"fgcolor_override"	"White"
 	}
+	
 	"TargetNameLabelShadow"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"TargetNameLabelShadow"
-		"font"			"LightGravity10"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"13"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"textAlignment"	"west"
-		"fgcolor_override"		"ShadowBlack"
+		"ControlName"		"Label"
+		"fieldName"			"TargetNameLabelShadow"
+		"font"				"LightGravity10"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"640"
+		"tall"				"13"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%targetname%"
+		"textAlignment"		"west"
+		"fgcolor_override"	"ShadowBlack"
 		
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -162,7 +163,7 @@
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_class_heavy"
 		"scaleImage"		"1"
-    }
+	}
 	
 	"KillStreakAnchor"
 	{
@@ -272,7 +273,7 @@
 			"textAlignment"	"North"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}	
+		}
 	}
 	
 	"AvatarImage"
@@ -280,7 +281,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"AvatarImage"
 		"xpos"				"0"
-		"ypos"				"25"
+		"ypos"				"36"
 		"zpos"				"99"
 		"wide"				"12"
 		"tall"				"12"

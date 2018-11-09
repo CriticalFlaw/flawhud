@@ -36,10 +36,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TFMessageTitle"
-		"xpos"				"c-170"
+		"xpos"				"0"
 		"ypos"				"c-130"
 		"zpos"				"1"
-		"wide"				"340"
+		"wide"				"f0"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -122,7 +122,7 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
@@ -148,11 +148,11 @@
 		"PaintBackgroundType"	"0"
 		"fillcolor"				"HudBlack"
 	}
-
+	
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
 		"xpos"				"9999"
-	}		
+	}
 }

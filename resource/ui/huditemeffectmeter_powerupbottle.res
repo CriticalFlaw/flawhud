@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-235"
+		"xpos"			"192"
 		"ypos"			"r33"
 		"wide"			"42"
 		"tall"			"29"
@@ -26,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGrey"
+		"fillcolor"		"HudBlack"
 	}
 
 	"ItemEffectIcon"
