@@ -127,8 +127,7 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
 		}
-
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -229,7 +228,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -287,7 +286,7 @@
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
-					"tall"			"5"				
+					"tall"			"5"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -295,7 +294,7 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}	
+				}
 			}
 			
 			"FullyChargedPanel"
@@ -307,7 +306,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-								
+				
 				"TimesUsedLabel"
 				{	
 					"ControlName"	"CExLabel"
@@ -327,7 +326,7 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}	
+			}
 			"UpgradeLabel"
 			{	
 				"ControlName"	"CExLabel"

@@ -20,15 +20,15 @@
 		"infocus_bgcolor_override" 		"DarkGrey"
 		"outoffocus_bgcolor_override" 	"DarkGrey"
 		
-		"item_ypos"				"85"
-		"output_item_ypos"		"255"
+		"item_ypos"						"85"
+		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
-		"item_backpack_xdelta"	"2"
-		"item_backpack_ydelta"	"4"
+		"item_backpack_xdelta"			"2"
+		"item_backpack_ydelta"			"4"
 		
-		"button_xpos_offcenter"	"175"
-		"button_ypos"			"85"
-		"button_ydelta"			"80"
+		"button_xpos_offcenter"			"175"
+		"button_ypos"					"85"
+		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
 		
 		"modelpanels_kv"
@@ -111,8 +111,8 @@
 			"defaultBgColor_override" 	"Transparent"
 			"armedFgColor_override" 	"White"
 			"armedBgColor_override" 	"Transparent"
-			"depressedFgColor_override" "Orange"
-			"depressedBgColor_override" "Transparent"
+			"depressedFgColor_override"	"Orange"
+			"depressedBgColor_override"	"Transparent"
 		}
 		
 		"filter_xoffset"	"-290"
@@ -122,20 +122,20 @@
 		
 		"recipefilterbuttons_kv"
 		{
-			"zpos"			"2"
-			"wide"			"30"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"textAlignment"	"south-west"
-			"Command"		""
-			"Default"		"0"
-			"font"			"MenuKeys"
-			"scaleImage"	"1"
+			"zpos"				"2"
+			"wide"				"30"
+			"tall"				"30"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			""
+			"textAlignment"		"south-west"
+			"Command"			""
+			"Default"			"0"
+			"font"				"MenuKeys"
+			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -170,7 +170,7 @@
 		"wide"				"300"
 		"tall"				"350"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
+		"bgcolor_override"		"200 187 161 0"
 		
 		"RecipeTitle"
 		{
@@ -351,7 +351,7 @@
 		"wide"				"280"
 		"tall"				"245"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
+		"bgcolor_override"		"200 187 161 0"
 	}
 	
 	"mouseoveritempanel"
@@ -416,7 +416,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"allow_rot"		"0"
+			"allow_rot"				"0"
 		}
 	}
 	

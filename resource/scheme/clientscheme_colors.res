@@ -90,7 +90,7 @@ Scheme
 		"Yellow"								"251 235 202 255"
 		"TransparentYellow"						"251 235 202 140"
 		"BrightYellow"							"251 235 0 255"
-		"GreenSolid"		 					"76 107 34 255"
+		"GreenSolid"							"76 107 34 255"
 		
 		"Black"									"46 43 42 255"
 		"Transparent"							"0 0 0 0"
@@ -109,7 +109,7 @@ Scheme
 		//"HudBlack"							"65 65 65 255"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
-
+		
 		"Gray"									"178 178 178 255"
 		"Blank"									"0 0 0 0"
 		"ForTesting"							"255 0 0 32"
@@ -135,7 +135,7 @@ Scheme
 		"TanDark"								"242 242 242 125"
 		"TanLight"								"255 255 255 255"
 		"TanDarker"								"46 43 42 255"
-
+		
 		"StoreDarkTan"							"131 121 104 255"
 		"StoreGreen"							"76 107 34 255"
 		

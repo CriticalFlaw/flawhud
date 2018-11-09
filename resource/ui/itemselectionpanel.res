@@ -17,11 +17,11 @@
 		"settitlebarvisible"	"0"
 		"bgcolor_override"		"DarkGrey"
 		
-		"item_ypos"				"60"
-		"item_ydelta"			"80"
+		"item_ypos"					"60"
+		"item_ydelta"				"80"
 		"item_backpack_offcenter_x"	"-288"
-		"item_backpack_xdelta"	"4"
-		"item_backpack_ydelta"	"3"
+		"item_backpack_xdelta"		"4"
+		"item_backpack_ydelta"		"3"
 
 		"modelpanels_selection_kv"
 		{
@@ -243,7 +243,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"	"CheckButton"
@@ -263,7 +263,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"ShowBackpack"
 	{
 		"ControlName"	"CExButton"

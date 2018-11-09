@@ -50,9 +50,9 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"DarkerGrey"
-    	}			
+			"border"				"NoBorder"
+			"bgcolor_override"		"DarkerGrey"
+		}
 		
 		"attriblabel"
 		{

@@ -25,7 +25,6 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"matchgroup"	"MatchGroup_Ladder_6v6"
 		}
 	
@@ -165,7 +164,6 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"mouseinputenabled"	"0"
-			
 					"labeltext"			"6"
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
@@ -186,8 +184,7 @@
 					"proportionaltoparent"	"1"
 					"visible"				"1"
 					"paintbackground"		"0"
-					"border_default"		"SortCategoryBorder"	
-			
+					"border_default"		"SortCategoryBorder"
 					"labeltext"				"#TF_Competitive_Result"
 					"font"					"HudFontSmallest"
 					"fgcolor_override"		"141 63 63 255"
@@ -221,7 +218,6 @@
 					"visible"			"1"
 					"paintbackground"	"0"	
 					"border_default"	"SortCategoryBorder"
-			
 					"labeltext"			"#TF_Competitive_Date"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
@@ -255,7 +251,6 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
-			
 					"labeltext"			"#TF_Competitive_Map"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
@@ -288,7 +283,6 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-			
 					"labeltext"			"#TF_Competitive_KDR"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"

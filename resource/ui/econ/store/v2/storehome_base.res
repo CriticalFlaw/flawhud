@@ -13,24 +13,24 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"DarkGrey"
-		"infocus_bgcolor_override" "DarkGrey"
+		"settitlebarvisible"		"0"
+		"PaintBackgroundType"		"0"
+		"bgcolor_override"			"DarkGrey"
+		"infocus_bgcolor_override" 	"DarkGrey"
 		"outoffocus_bgcolor_override" "DarkGrey"
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 		"max_cart_model_panels"	"8"
-		"item_ypos"		"70"
-		"item_mod_wide"	"40"
+		"item_ypos"				"70"
+		"item_mod_wide"			"40"
 		"item_panels"			"12"
 		"item_columns"			"4"
 		"item_offcenter_x"		"-230"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		"item_backdrop_zpos"				"1"
-		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"DarkGrey"
+		"item_backdrop_zpos"	"1"
+		"show_item_backdrop"	"1"
+		"item_backdrop_color"	"DarkGrey"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -40,7 +40,7 @@
 		"item_panel_bgcolor"			"Grey"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		"classicon_xdelta"		"5"
+		"classicon_xdelta"				"5"
 		
 		"modelpanels_kv"
 		{
@@ -55,7 +55,6 @@
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -75,7 +74,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" "1"
+				"inventory_image_type"	"1"
 			}
 			
 			"use_item_sounds" "1"		
@@ -182,12 +181,12 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
+			"pinCorner"			"0"
+			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
-    	}
+		}
 		
 		"attriblabel"
 		{

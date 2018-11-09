@@ -38,11 +38,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"pin_to_sibling"               "WaveStatusPanel"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		"pin_to_sibling"			"WaveStatusPanel"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-
+	
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -66,33 +66,33 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-
+	
 	"WarningSwoop"
 	{
-		"ControlName"	"CWarningSwoop"
-		"fieldName"		"WarningSwoop"
-		"xpos"			"c-12"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"24"
-		"tall"			"220"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/warning_highlight"
-		"scaleImage"	"1"
-		"time"			"0.3"		
+		"ControlName"		"CWarningSwoop"
+		"fieldName"			"WarningSwoop"
+		"xpos"				"c-12"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"24"
+		"tall"				"220"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/warning_highlight"
+		"scaleImage"		"1"
+		"time"				"0.3"		
 	}
 	
 	"UpgradeLevelContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"UpgradeLevelContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"0"
-					
+		"ControlName"		"EditablePanel"
+		"fieldName"			"UpgradeLevelContainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"640"
+		"tall"				"480"
+		"visible"			"0"
+		
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -187,35 +187,35 @@
 	
 	"VictoryPanelContainer"
 	{
-		"ControlName"	"CMvMVictoryPanelContainer"
-		"fieldName"		"VictoryPanelContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"CMvMVictoryPanelContainer"
+		"fieldName"			"VictoryPanelContainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 	}
 	
 	"WaveLossPanel"
 	{
-		"ControlName"	"CMvMWaveLossPanel"
-		"fieldName"		"WaveLossPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"CMvMWaveLossPanel"
+		"fieldName"			"WaveLossPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 	}
 	
 	"ServerChangeMessage"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerChangeMessage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ServerChangeMessage"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 		
 		"Background"
 		{

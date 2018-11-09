@@ -2,17 +2,17 @@
 {
 	"ComboBoxBackpackOverlayDialogBase"
 	{
-		"fieldName"				"ComboBoxBackpackOverlayDialogBase"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-140"
-		"ypos"					"105"
-		"wide"					"280"
-		"tall"					"240"
-		"bgcolor_override"		"DarkerGrey"
+		"fieldName"			"ComboBoxBackpackOverlayDialogBase"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-140"
+		"ypos"				"105"
+		"wide"				"280"
+		"tall"				"240"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"PanelBorder"
+		"border"			"PanelBorder"
 	}
 	
 	"TitleLabel"

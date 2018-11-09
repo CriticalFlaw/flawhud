@@ -80,7 +80,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"bgcolor_override"	"Transparent"
 		
 		"OutterPanelBG"
@@ -108,7 +108,7 @@
 
 		"OutPanelBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"OutPanelBG"
 			"xpos"			"10"
 			"ypos"			"5"
@@ -282,7 +282,7 @@
 			
 			"scaleImage"	"1"	
 
-			"image"		"../hud/eng_build_sentry"
+			"image"			"../hud/eng_build_sentry"
 		}
 		
 		"ActiveTabPanel"

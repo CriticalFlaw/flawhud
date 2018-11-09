@@ -2,17 +2,17 @@
 {
 	"ConfirmApplyDecodeDialog"
 	{
-		"fieldName"				"ConfirmApplyDecodeDialog"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"c-200"
-		"wide"					"400"
-		"tall"					"240"
-		"bgcolor_override"		"DarkerGrey"
+		"fieldName"			"ConfirmApplyDecodeDialog"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-200"
+		"ypos"				"c-200"
+		"wide"				"400"
+		"tall"				"240"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"WhiteBorder"
+		"border"			"WhiteBorder"
 	}
 
 	"mouseoveritempanel"
@@ -127,7 +127,7 @@
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"54"
-		"text_ypos"			"100"		// Hide it off the bottom
+		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
@@ -171,7 +171,7 @@
 		"enabled"			"1"
 		"image"				"backpack_jewel_modify_target_b_g"
 		"tileImage"			"0"
-		"tileVertically" 	"0"
+		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}	
 	"subject_modelpanel"
@@ -201,7 +201,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{

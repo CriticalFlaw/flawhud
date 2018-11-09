@@ -28,7 +28,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -168,7 +168,7 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{

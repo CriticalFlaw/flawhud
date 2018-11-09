@@ -19,7 +19,6 @@
 		"paintborder"		"1"
 		"paintbackground"	"1"
 		"border"			"WhiteBorder"
-		
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -149,5 +148,5 @@
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}
-	}	
+	}
 }

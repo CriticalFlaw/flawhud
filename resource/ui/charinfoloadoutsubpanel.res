@@ -794,8 +794,8 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling"			"ShowBackpackButton"
-		"pin_corner_to_sibling"		"4"          
-		"pin_to_sibling_corner"		"6"  
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
 	
 	"ShowCraftingButton"
@@ -842,8 +842,8 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling"			"ShowCraftingButton"
-		"pin_corner_to_sibling"		"4"          
-		"pin_to_sibling_corner"		"6"  
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
 	
 	"ShowArmoryButton"
@@ -890,8 +890,8 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling"			"ShowArmoryButton"
-		"pin_corner_to_sibling"		"4"          
-		"pin_to_sibling_corner"		"6" 
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
 	
 	"ShowTradeButton"
@@ -987,7 +987,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		
-		"pin_to_sibling"               "ShowPaintkitsButton"
+		"pin_to_sibling"               "ShowTradeButton"
 		"pin_corner_to_sibling"        "4"
 		"pin_to_sibling_corner"        "6"
 	}
@@ -1108,26 +1108,26 @@
 	
 	"class_loadout_panel"
 	{
-		"ControlName"		"CClassLoadoutPanel"
-		"fieldName"			"class_loadout_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"	"CClassLoadoutPanel"
+		"fieldName"		"class_loadout_panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"400"
+		"zpos"			"500"
+		"visible"		"0"
 	}
 	
 	"backpack_panel"
 	{
-		"ControlName"		"CBackpackPanel"
-		"fieldName"			"backpack_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"	"CBackpackPanel"
+		"fieldName"		"backpack_panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"400"
+		"zpos"			"500"
+		"visible"		"0"
 	}
 	
 	"ShowExplanationsButton"
@@ -1410,7 +1410,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"	
+			"Command"		"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -1457,7 +1457,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"	
+			"Command"		"prevexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -1860,9 +1860,9 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "NeutralWhite"
 			"depressedFgColor_override" "TanDarker"
-			
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"Yellow"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2123,7 +2123,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"	
+			"Command"		"prevexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -2542,6 +2542,7 @@
 				"scaleImage"	"1"
 			}
 		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2588,6 +2589,7 @@
 				"scaleImage"	"1"
 			}
 		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"

@@ -3,7 +3,7 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c102"	
+		"xpos"			"c102"
 		"ypos"			"374"
 		"wide"			"100"
 		"tall"			"30"
@@ -54,7 +54,7 @@
 		"ypos"			"19"
 		"zpos"			"2"
 		"wide"			"20"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

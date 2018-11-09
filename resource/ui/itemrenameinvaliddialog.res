@@ -2,19 +2,19 @@
 {
 	"ItemRenameConfirmationDialog"
 	{
-		"fieldName"				"ItemRenameConfirmationDialog"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"105"
-		"wide"					"400"
-		"tall"					"240"
-		"bgcolor_override"		"DarkerGrey"
+		"fieldName"			"ItemRenameConfirmationDialog"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-200"
+		"ypos"				"105"
+		"wide"				"400"
+		"tall"				"240"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"WhiteBorder"
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -53,8 +53,9 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"tool_modelpanel"
 		"xpos"				"10"
@@ -81,7 +82,7 @@
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 
 	"SubjectBG"
 	{
@@ -102,8 +103,9 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"subject_modelpanel"
 		"xpos"				"300"
@@ -112,8 +114,8 @@
 		"wide"				"90"
 		"tall"				"70"
 		"visible"			"1"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"TextColor"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"0"
 		"model_xpos"		"2"

@@ -12,7 +12,7 @@
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -25,11 +25,11 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../hud/misc_ammo_area_blue"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"teambg_2"			"../hud/misc_ammo_area_red"
 		"teambg_3"			"../hud/misc_ammo_area_blue"			
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -61,7 +61,7 @@
 		"ypos"				"23"
 		"zpos"				"2"
 		"wide"				"40"
-		"tall"				"6"				
+		"tall"				"6"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"0"
@@ -91,7 +91,7 @@
 		"font"				"CodeBold22"
 		"fgcolor"			"White"
 	}
-
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -113,7 +113,7 @@
 		"fgcolor"			"ShadowBlack"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

@@ -22,9 +22,9 @@
 		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"HudOffWhite"
-		"titlebardisabledfgcolor_override"		"HudOffWhite"
-		"titlebarbgcolor_override"				"DarkGrey"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}	
+	}
 	"BackgroundFooter2"
 	{
 		"ControlName"	"ImagePanel"

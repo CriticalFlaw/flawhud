@@ -2,20 +2,20 @@
 {
 	"armory_panel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"armory_panel"
-		"wide"			"f0"
-		"zpos"			"501"
-		"visible"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"		"Frame"
+		"fieldName"			"armory_panel"
+		"wide"				"f0"
+		"zpos"				"501"
+		"visible"			"1"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"enabled"			"1"
+		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override" 		"DarkGrey"
-		"outoffocus_bgcolor_override" 	"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		"thumbnail_bgcolor"				"Grey"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
@@ -36,7 +36,7 @@
 			"bgcolor_override"		"HudBlack"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
+			"paintborder"	"0"
 			"model_xpos"	"7"
 			"model_ypos"	"5"
 			"model_wide"	"58"
@@ -207,7 +207,7 @@
 	}
 	
 	"SelectedItemImageModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
 		"xpos"			"c-280"		// Slightly right of center, because the photo background is
@@ -232,7 +232,7 @@
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"mouseoveritempanel"
 	{
@@ -294,7 +294,7 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"CurPageLabel"
 	{

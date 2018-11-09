@@ -68,6 +68,7 @@
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
+		"enabled"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"

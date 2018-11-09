@@ -249,7 +249,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"DarkGrey"
+		"bgcolor_override"	"DarkGrey"
 		
 		"HeaderLine"
 		{

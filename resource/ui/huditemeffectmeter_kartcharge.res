@@ -91,7 +91,7 @@
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
 	}
-
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"

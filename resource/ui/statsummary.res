@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
 	}
-
+	
 	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,7 +25,7 @@
 		"enabled"		"0"
 		"image"			"../console/background_upward"
 		"scaleImage"	"1"
-	}	
+	}
 
 	"MainBG"
 	{
@@ -40,7 +40,7 @@
 		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 	}
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -69,16 +69,16 @@
 		
 		"InfoBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"InfoBG"
-			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"0"
-			"tall"				"0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"InfoBG"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"bgcolor_override"	"Transparent"
 		}
 
@@ -300,9 +300,9 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-			}				
+			}
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InteractiveHeaders"
@@ -391,19 +391,19 @@
 		}
 		"AveragesLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"AveragesLabel"
-			"font"			"LightGravity24"
-			"labelText"		"#StatSummary_Label_PerformanceReport"
-			"textAlignment"	"west"
-			"xpos"			"c-285"
-			"ypos"			"185"
-			"wide"			"300"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"ControlName"		"Label"
+			"fieldName"			"AveragesLabel"
+			"font"				"LightGravity24"
+			"labelText"			"#StatSummary_Label_PerformanceReport"
+			"textAlignment"		"west"
+			"xpos"				"c-285"
+			"ypos"				"185"
+			"wide"				"300"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		"ClassBarBG1A"
 		{
@@ -608,7 +608,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"	"Label"
@@ -727,7 +727,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"	"Label"

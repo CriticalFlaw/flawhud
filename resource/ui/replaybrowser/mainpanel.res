@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#Replay_Replay"
-		"title_font"	"CodeBold37"
+		"title"				"#Replay_Replay"
+		"title_font"		"CodeBold37"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"

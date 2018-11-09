@@ -283,7 +283,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
 		"paintborder"		"0"
-		
 		"image_drawcolor"	"White"
 		"image_armedcolor"	"214 206 200 255"
 
@@ -377,7 +376,7 @@
 		"image"			"gc_dc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-	}	
+	}
 
 	"RankBorder"
 	{
@@ -530,10 +529,10 @@
 			"brighttext"		"0"
 			"default"			"1"
 			"actionsignallevel" "2"
-
+			
 			"Command"			"noti_show"
 			"navActivate"		"QuickplayButton"
-
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
@@ -560,7 +559,7 @@
 			}
 		}
 	}
-
+	
 	"QuestLogButtonNew"
 	{
 		"ControlName"	"EditablePanel"
@@ -696,7 +695,7 @@
 			}
 		}
 	}
-
+	
 	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -768,7 +767,7 @@
 			}
 		}
 	}
-
+	
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
@@ -782,7 +781,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
 	}
-
+	
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -797,7 +796,7 @@
 		"paintbackground"		"0"
 		"border"				""
 	}
-
+	
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -857,9 +856,9 @@
 				"enabled"		"1"
 				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
-			}				
-		}		
-	
+			}
+		}
+		
 		"Notifications_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -914,7 +913,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-
+	
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -925,7 +924,6 @@
 		"wide"			"260"
 		"tall"			"180"
 		"visible"		"1"
-
 		"border"			"NoBorder"
 		"bgcolor_override"	"HudBlack"
 
@@ -1037,11 +1035,10 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"bgcolor_override"	"MenuShader"
 		}
 	}
-
+	
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -1057,7 +1054,7 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
-
+	
 	"TFCharacterImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -1089,7 +1086,7 @@
 		"textAlignment"		"east"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"CharacterSetupButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1149,7 +1146,7 @@
 			}
 		}
 	}
-
+	
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1209,7 +1206,7 @@
 			}
 		}
 	}
-
+	
 	"SettingsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1220,7 +1217,7 @@
 		"wide"			"70"
 		"tall"			"14"
 		"PaintBackgroundType"	"2"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1243,17 +1240,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	""
 			"border_armed"		"MenuBorder"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "White"
 			"armedFgColor_override"   "White"
 			"depressedFgColor_override" "75 125 255 255"
 
 			"image_drawcolor"	"0 0 0 175"
 			"image_armedcolor"	"0 0 0 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1280,7 +1278,7 @@
 		"wide"			"110"
 		"tall"			"14"
 		"PaintBackgroundType"	"2"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1303,7 +1301,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	""
 			"border_armed"		"MenuBorder"
 			"paintbackground"	"0"
@@ -1314,6 +1312,7 @@
 
 			"image_drawcolor"	"0 0 0 175"
 			"image_armedcolor"	"0 0 0 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1329,7 +1328,7 @@
 			}
 		}
 	}
-
+	
 	"AchievementsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1385,7 +1384,7 @@
 			}
 		}
 	}
-
+	
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1497,7 +1496,7 @@
 			}
 		}
 	}
-
+	
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1610,7 +1609,7 @@
 		}
 	}
 	
-	"CallVoteButton"	//IN-GAME BUTTON
+	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
@@ -1666,7 +1665,7 @@
 		}
 	}
 
-	"MutePlayersButton"		//IN-GAME BUTTON
+	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
@@ -1722,7 +1721,7 @@
 		}
 	}
 
-	"ReportPlayerButton"	//IN-GAME BUTTON
+	"ReportPlayerButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"

@@ -8,14 +8,14 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-
+	
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -119,7 +119,7 @@
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -165,7 +165,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}	
+	}
 
 	"RoundCounter"
 	{
@@ -177,7 +177,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 
 	"BGFrame"
 	{
@@ -188,7 +188,6 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
-
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
 	}
@@ -293,6 +292,7 @@
 			}
 		}	
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -383,7 +383,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
-				"font"			"Default"				
+				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"19"
 				"zpos"			"5"
@@ -400,7 +400,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"overhealbar"
 				"font"			"Default"
@@ -430,12 +430,12 @@
 				"wide"			"32"
 				"tall"			"32"
 				"visible"		"0"
-				"enabled"		"1"	
-				"HealthBonusPosAdj"		"10"
-				"HealthDeathWarning"	"0.49"
-				"TFFont"				"HudFontSmallest"
+				"enabled"		"1"
+				"HealthBonusPosAdj"			"10"
+				"HealthDeathWarning"		"0.49"
+				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"				"HudOffWhite"
+				"TextColor"					"HudOffWhite"
 			}
 			"ReadyBG"
 			{
@@ -558,20 +558,20 @@
 
 	"BlueTeamPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-155"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"0"
-		"enabled"		"1"
-
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BlueTeamPanel"
+		"xpos"				"-155"
+		"ypos"				"125"
+		"zpos"				"50"
+		"wide"				"150"
+		"tall"				"260"
+		"visible"			"0"
+		"enabled"			"1"
+		
 		if_large
 		{
-			"ypos"		"65"
-			"tall"		"385"
+			"ypos"			"65"
+			"tall"			"385"
 		}
 
 		"BlueTeamBG"
@@ -667,7 +667,7 @@
 			"linespacing"	"25"
 			"linegap"		"0"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"		"315"
@@ -687,7 +687,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"		"325"
@@ -697,20 +697,20 @@
 
 	"RedTeamPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RedTeamPanel"
-		"xpos"			"r-5"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
-
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RedTeamPanel"
+		"xpos"				"r-5"
+		"ypos"				"125"
+		"zpos"				"50"
+		"wide"				"150"
+		"tall"				"260"
+		"visible"			"1"
+		"enabled"			"1"
+		
 		if_large
 		{
-			"ypos"		"65"
-			"tall"		"385"
+			"ypos"			"65"
+			"tall"			"385"
 		}
 
 		"RedTeamBG"
@@ -806,7 +806,7 @@
 			"linespacing"	"25"
 			"linegap"		"0"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"		"315"
@@ -826,7 +826,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"		"325"

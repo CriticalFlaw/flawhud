@@ -15,7 +15,7 @@
 		"expanded_height"		"30"
 		"resize_time"			"0.2"
 	}
-
+	
 	"TopBar"
 	{
 		"ControlName"		"EditablePanel"
@@ -29,7 +29,7 @@
 		"pinCorner"			"2"
 		"autoResize"		"1"
 		"proportionaltoparent"	"1"
-
+		
 		"Gradient"
 		{
 			"ControlName"	"ImagePanel"
@@ -295,7 +295,7 @@
 				"border"		"PanelBorder"
 				"bgcolor_override"	"DarkGrey"
 			}
-
+			
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
@@ -400,13 +400,12 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"

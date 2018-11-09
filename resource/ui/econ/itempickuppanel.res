@@ -23,16 +23,18 @@
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
-
+		
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
-			"bgcolor_override"		"Grey"	
+			"bgcolor_override"		"Grey"
+			
 			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
-			"model_wide"	"240"	
+			"model_wide"	"240"
+			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
@@ -129,7 +131,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -171,7 +173,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -220,7 +222,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -271,7 +273,7 @@
 		"defaultBgColor_override" "TextColor"
 		"armedBgColor_override" "TFOrange"
 		"depressedBgColor_override" "TextColor"
-		"image_drawcolor"	"White"		
+		"image_drawcolor"	"White"	
 		"image_armedcolor"	"White"		
 		
 		"SubImage"
@@ -291,7 +293,7 @@
 			"proportionaltoparent"	"1"
 		}				
 	}		
-
+	
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -327,7 +329,7 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"DiscardedLabel"
 	{
 		"ControlName"	"CExLabel"

@@ -372,6 +372,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "White"
 		}
+		
 		"URLFailLabel"
 		{
 			"ControlName"	"Label"
@@ -412,6 +413,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "LightRed"
 		}
+		
 		"URLEntry"
 		{
 			"ControlName"		"TextEntry"

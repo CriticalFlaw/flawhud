@@ -8,7 +8,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -17,7 +17,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -35,7 +35,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 		"font"			"CodeBold20"
 		"fgcolor"		"White"
 	}
-
+	
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -73,7 +73,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
@@ -82,7 +82,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"TargetHealthBG"
 	{
 		"ControlName"	"CExImageButton"

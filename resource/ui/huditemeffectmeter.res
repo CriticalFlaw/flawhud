@@ -12,7 +12,7 @@
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -36,14 +36,14 @@
 	
 	"MeterAnchor"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MeterAnchor"
-		"xpos"			"c-40"
-		"ypos"			"c108"
-		"wide"			"80"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MeterAnchor"
+		"xpos"				"c-40"
+		"ypos"				"c108"
+		"wide"				"80"
+		"tall"				"2"
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
 	"ItemEffectMeter"

@@ -31,7 +31,7 @@
 			"tall"		"380"
 		}
 	}
-
+	
 	"BlueLine"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -2244,7 +2244,7 @@
 			}
 		}
 	}
-
+	
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"

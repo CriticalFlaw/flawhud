@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-
+	
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -32,7 +32,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"Currency"
 	}
-
+	
 	"Currency"
 	{
 		"ControlName"	"CExLabel"

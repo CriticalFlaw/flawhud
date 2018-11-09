@@ -79,12 +79,11 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_competitive
-			{
+			if_competitive {
 				"visible"		"1"
 			}
 		}
-
+		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -298,7 +297,7 @@
 				{
 					"visible"		"1"
 				}
-
+				
 				if_competitive
 				{
 					"xpos"			"26"
@@ -350,8 +349,8 @@
 				"fgcolor"		"0 255 0 255"
 				
 				if_mvm
-				{	
-					"visible"		"0"
+				{
+					"visible"	"0"
 				}
 			}
 			
@@ -443,6 +442,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"HudTournamentBLUEBG2"
 	{
 		"ControlName"	"ImagePanel"

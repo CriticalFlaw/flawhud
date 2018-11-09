@@ -46,7 +46,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
-	
+			
 			"src_corner_height"	"23"			// pixels inside the image
 			"src_corner_width"	"23"
 			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional

@@ -14,6 +14,7 @@
 		"image"			"../effects/speech_mediccall_hud"
 		"scaleImage"	"1"	
 	}
+	
 	"CallerBurning"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -27,7 +28,8 @@
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_fire"
 		"scaleImage"	"1"	
-	}	
+	}
+	
 	"CallerHealth"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -42,6 +44,7 @@
 		"image"			"../effects/speech_mediccall_hurt"
 		"scaleImage"	"1"	
 	}
+	
 	"CallerBleeding"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -56,6 +59,7 @@
 		"image"			"../effects/speech_mediccall_bleed"
 		"scaleImage"	"1"	
 	}
+	
 	"CallerAuto"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -69,7 +73,8 @@
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_attention"
 		"scaleImage"	"1"	
-	}	
+	}
+	
 	"CallerReviveEasy"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -84,6 +89,7 @@
 		"image"			"../effects/speech_mediccall_tombstone_noz"
 		"scaleImage"	"1"
 	}
+	
 	"CallerReviveMedium"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -98,10 +104,11 @@
 		"image"			"../effects/speech_mediccall_tombstone_1_noz"
 		"scaleImage"	"1"
 	}
+	
 	"CallerReviveHard"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"CallerReviveEasy"
+		"fieldName"		"CallerReviveHard"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"

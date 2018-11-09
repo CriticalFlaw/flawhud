@@ -157,7 +157,7 @@
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"White"
 		}
-
+		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"

@@ -28,7 +28,7 @@
 		"tall"			"38"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"PlayerStatusHealthImageBG"
@@ -88,7 +88,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -110,7 +110,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -129,7 +129,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -262,7 +262,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -319,7 +319,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -395,7 +395,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
@@ -414,7 +414,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -433,7 +433,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
@@ -559,7 +559,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"		"PlayerStatusAnchor"
@@ -695,7 +695,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"9999"
+		"PaintBackgroundType"		"0"
+        "textinsety" 				"9999"
 	}
 }

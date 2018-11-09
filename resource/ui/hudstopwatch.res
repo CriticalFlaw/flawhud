@@ -17,9 +17,9 @@
 
 		if_comp
 		{
-			"xpos"	"c-40"
-			"ypos"	"22"
-			"wide"	"80"
+			"xpos"		"c-40"
+			"ypos"		"22"
+			"wide"		"80"
 			"fillcolor"	"HudBlack"
 		}
 	}
@@ -33,22 +33,22 @@
 
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c21"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"110"
-		"tall"				"150"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ObjectiveStatusTimePanel"
+		"xpos"			"c21"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"150"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		if_comp
 		{
 			"xpos"			"c-50"
 			"ypos"			"24"
 		}
-
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -69,31 +69,31 @@
 				"xpos"		"3"
 				"ypos"		"-1"
 			}
-		}	
+		}
 	}
 
 	"StopWatchScoreToBeat"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StopWatchScoreToBeat"
-		"font"				"CodeBold14"
-		"labelText"			"%scoretobeat%"
-		"textAlignment"		"west"
-		"xpos"				"c68"
-		"ypos"				"1"
-		"zpos"				"4"
-		"wide"				"93"
-		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"fgcolor"			"White"
+		"ControlName"	"CExLabel"
+		"fieldName"		"StopWatchScoreToBeat"
+		"font"			"CodeBold14"
+		"labelText"		"%scoretobeat%"
+		"textAlignment"	"west"
+		"xpos"			"c68"
+		"ypos"			"1"
+		"zpos"			"4"
+		"wide"			"93"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor"		"White"
 		
 		if_comp
 		{
-			"xpos"	"c-3"
-			"ypos"	"24"
+			"xpos"		"c-3"
+			"ypos"		"24"
 		}
 	}
 

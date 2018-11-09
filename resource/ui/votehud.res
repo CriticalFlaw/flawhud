@@ -386,7 +386,7 @@
 			"tall"				"18"
 			"zpos"				"2"
 			"visible"			"1"
-			"enabled"			"1"	
+			"enabled"			"1"
 			"box_size"			"16"
 			"spacer"			"6"
 			"box_inset"			"1"
@@ -549,7 +549,7 @@
 		
 		"header_font"				"ItemFontNameLarge"
 		"header_fgcolor"			"White"
-		"issue_width"				"180"		
+		"issue_width"				"180"
 		"issue_font"				"ItemFontNameSmall"
 		"issue_fgcolor"				"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
@@ -646,12 +646,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"				"White"
-			"bgcolor_override"				"Black"
-			"disabledFgColor_override"		"White"
-			"disabledBgColor_override"		"Black"
-			"selectionColor_override" 		"Black"
-			"selectionTextColor_override" 	"White"
+			"fgcolor_override"					"White"
+			"bgcolor_override"					"Black"
+			"disabledFgColor_override"			"White"
+			"disabledBgColor_override"			"Black"
+			"selectionColor_override"			"Black"
+			"selectionTextColor_override"		"White"
 			"defaultSelectionBG2Color_override" "White"
 		}
 		

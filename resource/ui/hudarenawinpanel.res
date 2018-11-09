@@ -9,7 +9,7 @@
 		"wide"			"360"
 		"tall"			"40"
 		"visible"		"1"
-
+		
 		"BlueScoreBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -198,7 +198,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}		
-
+		
 		"ArenaStreaksBG"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -315,7 +315,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"LightGravity10"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -355,7 +354,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"LightGravity10"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"51"
 		"zpos"			"1"
@@ -411,7 +409,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -431,7 +428,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"200"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -451,7 +447,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"245"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -471,7 +466,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"285"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -491,7 +485,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"325"
 		"ypos"			"64"
 		"zpos"			"3"

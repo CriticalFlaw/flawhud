@@ -2,22 +2,21 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ObjectiveStatusFlagPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"if_hybrid"
-		{
-			"zpos"			"-1"
+		"if_hybrid" {
+			"zpos"		"-1"
 		}
 	}
-
+	
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -31,18 +30,15 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -60,22 +56,19 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkBlue"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
-
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -89,18 +82,15 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -118,18 +108,15 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkRed"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -240,7 +227,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -291,14 +278,14 @@
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}
-
+	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
 	}
-
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -331,8 +318,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -361,7 +348,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -462,7 +449,7 @@
 			"ypos"		"r100"
 		}
 	}
-
+	
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"

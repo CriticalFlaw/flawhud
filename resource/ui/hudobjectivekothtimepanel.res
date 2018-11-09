@@ -4,10 +4,10 @@
 	{
 		if_match
 		{
-			"zpos"		"5"
+			"zpos"			"5"
 		}
 	}
-
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -36,19 +36,19 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"CodeBold22"
-			"fgcolor"		"HUDBlueTeam"
-			"xpos"			"3"
-			"ypos"			"2"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"
-			"labelText"		"0:00"
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"CodeBold22"
+			"fgcolor"				"HUDBlueTeam"
+			"xpos"					"3"
+			"ypos"					"2"
+			"zpos"					"3"
+			"wide"					"100"
+			"tall"					"15"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
 			
 			if_match
 			{

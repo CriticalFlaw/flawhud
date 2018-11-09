@@ -11,9 +11,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
+	
 	"specgui" { }
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -28,6 +28,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -39,6 +40,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -53,6 +55,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -179,14 +182,6 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-			"inventory_image_type"	"1"
-		}
-
 		"ItemBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -202,9 +197,17 @@
 			"enabled"		"1"
 			"fillcolor"		"Hudblack"
 		}
-
+		
+		"itemmodelpanel"
+		{
+			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
+			"useparentbg"	"1"
+			"inventory_image_type"	"1"
+		}
+		
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"

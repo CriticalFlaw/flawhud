@@ -13,33 +13,33 @@
 	}
 	"SettingsButton"
 	{
-		"label" 		"Options"
-		"command" 		"OpenOptionsDialog"
+		"label"			"Options"
+		"command"		"OpenOptionsDialog"
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"Adv. Options"
-		"command" 		"opentf2options"
+		"label"			"Adv. Options"
+		"command"		"opentf2options"
 	}
 	"FavoriteServer"
 	{
 		"label"			""
-		"command" 		"engine itemtest"
-		"tooltip" 		"Favorite Server"
+		"command"		"engine itemtest"
+		"tooltip"		"Favorite Server"
 	}
 
 	// BOTTOM ROW BUTTONS
 	"AchievementsButton"
 	{
-		"label" 		""
-		"command" 		"OpenAchievementsDialog"
+		"label"			""
+		"command"		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
 	"ReplayButton"
 	{
-		"label" 		""
-		"command" 		"engine replay_reloadbrowser"
+		"label"			""
+		"command"		"engine replay_reloadbrowser"
 		"subimage" 		"glyph_tv"
 		"tooltip" 		"Replay"
 	}

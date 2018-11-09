@@ -18,6 +18,7 @@
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
+	
 	"SwitchLabel"
 	{	
 		"ControlName"	"Label"
@@ -34,8 +35,9 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_teamswitch_attackers"
-		"textAlignment"		"North"
+		"textAlignment"	"North"
 	}
+	
 	"GoalLabel"
 	{	
 		"ControlName"	"Label"
@@ -52,8 +54,9 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"		"North"
+		"textAlignment"	"North"
 	}
+	
 	"GoalImage"
 	{
 		"ControlName"	"CTFImagePanel"

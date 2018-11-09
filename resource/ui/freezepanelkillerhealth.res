@@ -51,7 +51,7 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"CodeBold22"
 		"fgcolor"		"White"
 		"labeltext"		"%Health%"

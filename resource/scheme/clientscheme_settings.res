@@ -45,7 +45,7 @@ Scheme
 		CheckButton.TextColor					"White"
 		CheckButton.SelectedTextColor			"White"
 		CheckButton.BgColor						"TransparentBlack"
-		CheckButton.Border1  					"White" 	// the left checkbutton border
+		CheckButton.Border1  					"White"		// the left checkbutton border
 		CheckButton.Border2  					"White"		// the right checkbutton border
 		CheckButton.Check						"White"		// color of the check itself
 		CheckButton.HighlightFgColor			"White"
@@ -144,8 +144,8 @@ Scheme
 		SectionedListPanel.TextColor			"Orange"
 		SectionedListPanel.BrightTextColor		"Orange"
 		SectionedListPanel.BgColor				"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor	"Black"
-		SectionedListPanel.SelectedBgColor		"Red"
+		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 		
@@ -217,7 +217,7 @@ Scheme
 		
 		// Hint Message Colors
 		"HintMessageFg"							"255 255 255 255"
-		"HintMessageBg" 						"0 0 0 60"
+		"HintMessageBg"							"0 0 0 60"
 		
 		"ProgressBarFg"							"255 30 13 255"
 		

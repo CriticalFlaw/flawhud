@@ -157,7 +157,7 @@
 				"enabled"			"1"
 			}				
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InteractiveHeaders"
@@ -226,7 +226,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
-				"unicode"		"0"
+				"unicode"			"0"
 				
 				"fgcolor_override"			"White"
 				"bgcolor_override"			"Black"
@@ -265,7 +265,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
-				"unicode"		"0"
+				"unicode"			"0"
 				
 				"fgcolor_override"	"White"
 				"bgcolor_override"	"Black"
@@ -370,7 +370,7 @@
 		}
 		"ClassBar1B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar1B"
 			"xpos"			"c-127"
 			"ypos"			"232"
@@ -384,7 +384,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"White"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel1A"
 		{
 			"ControlName"	"Label"
@@ -420,7 +420,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel1"
 		{
 			"ControlName"	"Label"
@@ -437,7 +437,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG2A"
 		{
 			"ControlName"	"ImagePanel"
@@ -662,7 +662,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel3"
 		{
 			"ControlName"	"Label"

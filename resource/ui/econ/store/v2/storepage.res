@@ -279,11 +279,11 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
+			"pinCorner"			"0"
+			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"DarkerGrey"
+			"border"				"NoBorder"
+			"bgcolor_override"		"DarkerGrey"
     	}
 		
 		"attriblabel"

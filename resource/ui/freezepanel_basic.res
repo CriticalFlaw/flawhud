@@ -73,7 +73,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	
 	"FreezePanelBase"
 	{
@@ -84,7 +84,7 @@
 		"wide"			"190"
 		"tall"			"32"
 		"visible"		"1"
-
+		
 		"FreezePanelBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -144,7 +144,7 @@
 			"TFFont"					"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
-		}	
+		}
 
 		"FreezeLabelKiller"
 		{	
@@ -193,7 +193,7 @@
 			"enabled"		"0"
 		}
 	}
-		
+	
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -202,5 +202,5 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 }

@@ -14,14 +14,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"		"HudBlack"
+		"itempanel_xpos"		"0"
+		"itempanel_ydelta"		"0"
 		
-		"itempanel_xpos"	"0"
-		"itempanel_ydelta"	"0"
-		
-		"itemskv"	
+		"itemskv"
 		{
 			"wide"			"205"
 			"tall"			"35"
@@ -30,24 +28,21 @@
 			"paintbackground"	"0" 			
 			"paintborder"	"0"
 			"text_forcesize" "2"
-			
 			"model_xpos"	"0"
 			"model_ypos"	"0"
-			"model_wide"	"58"		
+			"model_wide"	"58"
 			"model_tall"	"34"
-			
 			"text_center"	"1"
 			"text_xpos"		"50"
 			"text_wide"		"160"
 			"name_only"		"1"
-			
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
@@ -61,7 +56,7 @@
 
 	"ItemSlotLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"xpos"			"9999"
 	}
@@ -72,7 +67,7 @@
 		"fieldName"		"NoItemsLabel"
 		"xpos"			"9999"
 	}
-
+	
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"

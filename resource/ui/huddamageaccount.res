@@ -29,7 +29,7 @@
 		"font"				"CodeBold22"
 		"fgcolor"			"255 255 0 255"
 	}
-
+	
 	"DamageAccountValueShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -45,9 +45,9 @@
 		"textAlignment"		"west"
 		"font"				"CodeBold22"
 		"fgcolor"			"ShadowBlack"
-
+		
 		"pin_to_sibling"		"DamageAccountValue"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

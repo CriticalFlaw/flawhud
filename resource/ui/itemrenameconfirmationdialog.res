@@ -54,7 +54,7 @@
 		"border"			"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"tool_modelpanel"
 		"xpos"				"10"

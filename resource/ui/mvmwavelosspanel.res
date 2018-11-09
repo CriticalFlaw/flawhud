@@ -25,7 +25,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"WhiteBorder"
-		"bgcolor_override"		"White"
+		"bgcolor_override"		"HudBlack"
 	}
 	
 	"WaveFailHeader"
@@ -65,7 +65,7 @@
 		"ypos"				"135"
 		"wide"				"550"
 		"tall"				"30"
-		"fgcolor"			"Black"
+		"fgcolor"			"White"
 	}
 	
 	"CollectionContainer"
@@ -88,7 +88,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	
 		"CollectedLabel"
@@ -190,7 +190,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	
 		"YouLabel"

@@ -12,7 +12,7 @@
 		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"			"PanelBorder"
+		"border"				"PanelBorder"
 	}
 	
 	"CenterPositioner"
@@ -44,7 +44,7 @@
 	}
 	
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"TitleLabel"
 		"font"				"CodeBold14"
@@ -89,9 +89,9 @@
 		"fgcolor_override"	"LightRed"
 		"bgcolor_override"	"Transparent"
 		
-		"pin_to_sibling"        	"TitleLabel"
-        "pin_corner_to_sibling"   	"0"
-        "pin_to_sibling_corner"  	"1"
+		"pin_to_sibling"               "TitleLabel"
+        "pin_corner_to_sibling"        "0"
+        "pin_to_sibling_corner"        "1"
 	}
 	
 	"CloseButton"

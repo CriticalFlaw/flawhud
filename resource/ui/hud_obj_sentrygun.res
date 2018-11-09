@@ -56,7 +56,7 @@
 		"iconColor"		"228 228 242 255"
 		"alpha"			"125"
 	}
-
+	
 	"Icon_Sentry_3"
 	{
 		"ControlName"	"CIconPanel"
@@ -127,7 +127,7 @@
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"White"
 		}
-
+		
 		"Icon_Upgrade_2"
 		{
 			"ControlName"	"CIconPanel"
@@ -143,7 +143,7 @@
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"White"
 		}
-
+		
 		"Icon_Upgrade_3"
 		{
 			"ControlName"	"CIconPanel"
@@ -208,7 +208,7 @@
 		}
 		
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -234,7 +234,7 @@
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -262,7 +262,7 @@
 				"xpos"			"12"
 				"ypos"			"29"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -283,7 +283,7 @@
 			"tall"			"60"
 			"visible"		"0"
 			
-			"KillIcon"	
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -298,7 +298,7 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-						
+			
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -317,7 +317,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-					
+			
 			"ShellIcon"	
 			{
 				"ControlName"	"ImagePanel"
@@ -342,7 +342,7 @@
 				"xpos"			"12"
 				"ypos"			"26"
 				"wide"			"38"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -352,7 +352,7 @@
 				"brighttext"	"0"
 			}
 			
-			"RocketIcon"	
+			"RocketIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"RocketIcon"
@@ -385,7 +385,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-
+			
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"
@@ -400,7 +400,7 @@
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
-			}			
+			}
 			
 			"Upgrade"
 			{	

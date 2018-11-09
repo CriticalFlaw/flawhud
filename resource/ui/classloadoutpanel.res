@@ -204,7 +204,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -300,11 +300,11 @@
 	
 	"RedButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
 		"xpos"				"c29"
 		"ypos"				"c90"
-		"zpos"				"12"	
+		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
 		"autoResize"		"1"
@@ -332,7 +332,7 @@
 		"border_armed"				""
 		"border_depressed"			""
 	}
-
+	
 	"BlueButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -363,10 +363,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
-		"paintbackground"	"1"
-		"border_default"			""
-		"border_armed"				""
-		"border_depressed"			""
+		"paintbackground"		"1"
+		"border_default"		""
+		"border_armed"			""
+		"border_depressed"		""
 	}
 	
 	"CharacterLoadoutButton"

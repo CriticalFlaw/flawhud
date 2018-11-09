@@ -15,7 +15,7 @@
 		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
 	}
-
+	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"HTML"

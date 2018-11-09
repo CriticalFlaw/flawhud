@@ -3071,7 +3071,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		//*********************************************
 		BackpackItemBorder_RarityAncient
 		{
@@ -3095,7 +3095,6 @@ Scheme
 				}
 			}
 		}
-		
 		BackpackItemMouseOverBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
@@ -3118,7 +3117,6 @@ Scheme
 				}
 			}
 		}
-		
 		BackpackItemGreyedOutBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
@@ -3141,7 +3139,6 @@ Scheme
 				}
 			}
 		}
-		
 		BackpackItemGreyedOutSelectedBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
@@ -3202,7 +3199,6 @@ Scheme
 				}
 			}
 		}
-		
 		StoreItemBorderMouseOver
 		{
 			"inset" "0 0 0 0"
@@ -3240,7 +3236,6 @@ Scheme
 				}
 			}
 		}
-		
 		StoreItemBorderSelected
 		{
 			"inset" "0 0 0 0"
@@ -3279,30 +3274,6 @@ Scheme
 			}
 		}
 		
-		MainMenuButtonGlow
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"178 83 22 255"
-			"image"					"button_glow"
-			"src_corner_height"		"4"				// pixels inside the image
-			"src_corner_width"		"4"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-		
-		MainMenuButtonGlow2
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"238 103 17 255"
-			"image"					"button_glow"
-			"src_corner_height"		"4"				// pixels inside the image
-			"src_corner_width"		"4"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -3325,6 +3296,28 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
@@ -3335,7 +3328,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuButtonDepressedArmed
 		{
 			"bordertype"			"scalable_image"
@@ -3346,7 +3338,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuButtonDefault
 		{
 			"bordertype"			"scalable_image"
@@ -3357,7 +3348,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuButtonArmed
 		{
 			"bordertype"			"scalable_image"
@@ -3368,7 +3358,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuButtonDisabled
 		{
 			"bordertype"			"scalable_image"
@@ -3379,7 +3368,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuMiniButtonDefault
 		{
 			"bordertype"			"scalable_image"
@@ -3390,7 +3378,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuMiniButtonArmed
 		{
 			"bordertype"			"scalable_image"
@@ -3401,7 +3388,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuBGBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3412,7 +3398,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuBGBorderAlpha
 		{
 			"bordertype"			"scalable_image"
@@ -3423,7 +3408,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuBlogTabBG
 		{
 			"bordertype"			"scalable_image"
@@ -3434,7 +3418,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		MainMenuHighlightBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3467,7 +3450,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StoreNewBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3478,7 +3460,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StoreHighlightedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3489,7 +3470,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StoreHighlightedBackgroundBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3500,7 +3480,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StoreDiscountBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3511,7 +3490,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StorePreviewBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3522,7 +3500,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StoreAddToCart
 		{
 			"bordertype"			"scalable_image"
@@ -3533,7 +3510,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StorePreviewTabSelected
 		{
 			"bordertype"			"scalable_image"
@@ -3544,7 +3520,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StorePreviewTabUnselected
 		{
 			"bordertype"			"scalable_image"
@@ -3555,7 +3530,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		StorePromotion
 		{
 			"bordertype"			"scalable_image"
@@ -3685,7 +3659,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -3696,7 +3669,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayGrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3707,7 +3679,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayOutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
@@ -3718,7 +3689,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayOutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
@@ -3729,7 +3699,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayThinLineBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3741,7 +3710,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayDefaultBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3752,7 +3720,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayHighlightBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3763,7 +3730,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayBalloonBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3774,7 +3740,6 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 			
@@ -3823,12 +3788,10 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-		
 		InnerShadowBorderThin
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
@@ -3868,7 +3831,6 @@ Scheme
 			"draw_corner_width"		"26"			// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"26"
 		}
-		
 		CYOANodeViewBorder
 		{
 			"bordertype"			"scalable_image"
@@ -3879,7 +3841,6 @@ Scheme
 			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"24"
 		}
-		
 		CYOANodeViewBorder_Active
 		{
 			"bordertype"			"scalable_image"
@@ -3890,7 +3851,6 @@ Scheme
 			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"24"
 		}
-		
 		CYOANodeViewBorder_Inactive
 		{
 			"bordertype"			"scalable_image"
@@ -3901,7 +3861,6 @@ Scheme
 			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"24"
 		}
-		
 		CYOANodeViewBorder_TurnIn
 		{
 			"bordertype"			"scalable_image"
@@ -3912,7 +3871,6 @@ Scheme
 			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"24"
 		}
-		
 		CYOAPopupBorder
 		{
 			"inset" "0 0 1 1"
@@ -4006,7 +3964,6 @@ Scheme
 				}
 			}
 		}
-		
 		FriendHighlightBorderThick
 		{
 			"inset" "0 0 1 1"

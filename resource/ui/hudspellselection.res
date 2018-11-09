@@ -11,7 +11,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"9999"	
+		"xpos"			"9999"
 	}
 	
 	"SpellIcon"
@@ -59,7 +59,7 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-
+	
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
@@ -74,7 +74,7 @@
 		"tall"			"19"
 		"fgcolor"		"White"
 	}
-
+	
 	"CountTextShadow"
 	{
 		"ControlName"	"CExLabel"

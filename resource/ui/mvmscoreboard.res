@@ -121,7 +121,7 @@
 			"wide"			"275"
 			"tall"			"132"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"

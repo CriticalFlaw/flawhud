@@ -36,7 +36,7 @@
 			"useparentbg"			"1"
 			"inventory_image_type"	"1"
 		}
-
+		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"

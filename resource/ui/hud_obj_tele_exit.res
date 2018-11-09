@@ -157,7 +157,7 @@
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"White"
 		}
-
+		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -173,7 +173,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"White"
 		}
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"

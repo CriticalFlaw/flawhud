@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -177,7 +177,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -186,7 +186,7 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 200"
 	}
-
+	
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -200,14 +200,14 @@
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 	}
-
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}		
-		
+	}
+	
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"

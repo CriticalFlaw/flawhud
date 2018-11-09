@@ -133,7 +133,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"1"
-				"fgcolor_override"		"White"
+				"fgcolor_override"	"White"
 			}
 
 			"LearnMoreButton"
@@ -266,7 +266,7 @@
 				"Command"		"prevpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
+			}
 			
 			"CurPageLabel"
 			{
@@ -377,7 +377,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 
 			"ViewButton"
@@ -421,7 +421,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 
 			"DeleteButton"
@@ -465,7 +465,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_delete"
-				}		
+				}
 			}
 		}
 
@@ -533,7 +533,7 @@
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}		
+		}
 
 		"LearnMore2Button"
 		{
@@ -605,6 +605,6 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
+		}
 	}
 }

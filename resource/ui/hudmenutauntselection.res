@@ -15,7 +15,7 @@
 		"icon"			"hud_menu_bg"
 		"iconColor"		"White"
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,7 +33,7 @@
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -142,7 +142,7 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"

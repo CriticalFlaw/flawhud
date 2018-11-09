@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"fillcolor"		"HudBlack"
 	}
-
+	
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"

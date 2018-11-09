@@ -25,12 +25,12 @@
 		"item_mod_wide"			"40"
 		
 		"item_backpack_offcenter_x"	"-288"
-		"item_backpack_xdelta"	"4"
-		"item_backpack_ydelta"	"3"
+		"item_backpack_xdelta"		"4"
+		"item_backpack_ydelta"		"3"
 		
-		"button_xpos_offcenter"	"175"
-		"button_ypos"			"85"
-		"button_ydelta"			"80"
+		"button_xpos_offcenter"		"175"
+		"button_ypos"				"85"
+		"button_ydelta"				"80"
 		"button_override_delete_xpos" "0"
 		
 		"page_button_y"			"288"
@@ -81,15 +81,15 @@
 				"tall"				"f-3"
 				"textinsetx"		"8"
 				"autoResize"		"1"
-				"pinCorner"			"0"	
+				"pinCorner"			"0"
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"#Store_Price_New"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"border"			"StoreNewBorder"
-				"fgcolor"			"10 10 10 255"
+				"border"				"StoreNewBorder"
+				"fgcolor"				"10 10 10 255"
 			}
 		}
 		
@@ -131,13 +131,14 @@
 				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
+				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"25"
 				"tall"			"12"
 				"textinsetx"	"8"
 				"autoResize"	"0"
 				"skip_autoresize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -168,7 +169,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor_override" 	"LightRed"
+		"fgcolor_override"	"LightRed"
 	}
 	
 	"ClassLabel"
@@ -758,7 +759,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-250"
 		"end_y"			"130"
