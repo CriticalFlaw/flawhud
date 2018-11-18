@@ -64,10 +64,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"LightGravity20"
+		"font"			"CodeBold20"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
+		"xpos"			"42"
 		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"20"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"LightGravity20"
+		"font"			"CodeBold20"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"-1"

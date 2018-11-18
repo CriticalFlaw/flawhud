@@ -25,6 +25,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"CodeBold27"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"27"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CodeBold22Outline"
 		{
 			"1"
