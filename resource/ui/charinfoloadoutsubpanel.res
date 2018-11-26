@@ -987,7 +987,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		
-		"pin_to_sibling"               "ShowTradeButton"
+		"pin_to_sibling"               "ShowPaintkitsButton"
 		"pin_corner_to_sibling"        "4"
 		"pin_to_sibling_corner"        "6"
 	}
