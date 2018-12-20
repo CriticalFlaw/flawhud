@@ -333,43 +333,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Verdana"
 				"tall"			"12"
+				"weight"		"700"
 				"yres"			"480 599"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"dropshadow"	"1"
 			}
+			
 			"2"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Verdana"
 				"tall"			"14"
+				"weight"		"700"
 				"yres"			"600 767"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"dropshadow"	"1"
 			}
+			
 			"3"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Verdana"
 				"tall"			"15"
+				"weight"		"700"
 				"yres"			"768 1023"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"dropshadow"	"1"
 			}
+			
 			"4"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Verdana"
 				"tall"			"17"
+				"weight"		"700"
 				"yres"			"1024 1199"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"dropshadow"	"1"
 			}
+			
 			"5"
 			{
-				"name"			"Code-Pro-LC"
+				"name"			"Verdana"
 				"tall"			"22"
+				"weight"		"700"
 				"yres"			"1200 10000"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"dropshadow"	"1"
 			}
 		}
 		
@@ -791,11 +795,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"	
-		"3"
-		{
-			"font"	"resource/fonts/CodeProLC.otf"
-			"name"	"Code-Pro-LC"
-		}	
+		"2"		"resource/HL2EP2.ttf"
 	}
 }
