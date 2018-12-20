@@ -35,10 +35,14 @@
 		"fgcolor"		"White"
 	}
 
-	"ItemEffectMeter"
+	"MeterAnchor"
 	{
 		"xpos"			"28"
 		"ypos"			"19"
+	}
+	
+	"ItemEffectMeter"
+	{
 		"wide"			"20"
 		"tall"			"6"
 		"textAlignment"	"center"
