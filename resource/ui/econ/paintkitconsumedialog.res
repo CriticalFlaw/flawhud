@@ -37,7 +37,7 @@
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"r60"
 		"zpos"			"10"
 		"wide"			"f20"
 		"tall"			"30"
@@ -86,7 +86,7 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
+		"border"		"WhiteBorder"
 		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
@@ -133,8 +133,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
 		{
@@ -180,8 +180,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
 		{
