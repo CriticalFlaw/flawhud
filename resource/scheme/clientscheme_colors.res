@@ -43,7 +43,7 @@ Scheme
 		"Ubercharge1"				"0 170 127 255"
 		"Ubercharge2"				"0 120 127 255"
 		"ChargePercent"				"243 243 243 255"
-		"Ubercharge Meter"			"0 255 127 255"
+		"Ubercharge Meter"			"0 170 127 255"
 		//---------------------------------------------
 		// Loadout Gradient
 		"LOGScout"					"75 112 130 255"
