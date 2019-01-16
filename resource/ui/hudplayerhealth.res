@@ -39,18 +39,41 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 
+	"HealthBG"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"HealthBG"
+		"xpos"			"64"
+		"ypos"			"29"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"43"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"PaintBackgroundType"		"0"
+        "textinsety" 				"9999"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"82"
+		"ypos"			"20"
+		"zpos"			"3"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""	//"../hud/health_over_bg"
+		"scaleImage"	"1"
 	}
-
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -679,23 +702,5 @@
 		"pin_to_sibling"		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-	}
-
-	"HealthBG"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBG"
-		"xpos"			"64"
-		"ypos"			"29"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"		"0"
-        "textinsety" 				"9999"
 	}
 }
