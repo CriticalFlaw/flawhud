@@ -134,14 +134,12 @@ event HudSpyDisguiseFadeIn
 {
 	//RunEvent HudSpyDisguiseChanged	0.0
 	//Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
-	//Animate PlayerStatusClassImage	Alpha		"255"				Linear 0.0	0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	//RunEvent HudSpyDisguiseChanged	0.0
 	//Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
-	//Animate PlayerStatusClassImage	Alpha		"0"					Linear 0.0	0.0
 }
 //==================================================================================
 event CompetitiveGame_LowerChatWindow	{ }
