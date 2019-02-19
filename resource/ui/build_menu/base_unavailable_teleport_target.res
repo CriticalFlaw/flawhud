@@ -18,7 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 	}
 	
 	"ItemBackground"
@@ -42,7 +42,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
 		"font"				"LightGravity8"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 		"xpos"				"0"
 		"ypos"				"30"
 		"zpos"				"2"

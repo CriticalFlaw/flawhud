@@ -18,7 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 	}
 	
 	"ItemBackground"
@@ -50,7 +50,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_sentry_build"
-		"iconColor"			"NeonGreen"
+		"iconColor"			"White"
 	}
 	
 	"MetalIcon"	
@@ -66,7 +66,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_metal"
-		"iconColor"			"NeonGreen"
+		"iconColor"			"White"
 	}
 	
 	"CostLabel"
@@ -74,7 +74,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
 		"font"				"CodeBold22"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 		"xpos"				"-3"
 		"ypos"				"31"
 		"zpos"				"4"
@@ -151,7 +151,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"LightGravity11"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 		"xpos"				"0"
 		"ypos"				"52"
 		"zpos"				"1"

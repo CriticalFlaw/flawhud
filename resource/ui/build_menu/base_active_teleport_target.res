@@ -18,7 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 	}
 	
 	"ItemBackground"
@@ -50,7 +50,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_sentry_build"
-		"iconColor"			"NeonGreen"
+		"iconColor"			"White"
 	}
 	
 	"ModeLabel"
@@ -93,7 +93,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"LightGravity11"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 		"xpos"				"24"
 		"ypos"				"58"
 		"zpos"				"1"

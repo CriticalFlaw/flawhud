@@ -15,23 +15,6 @@
 		"paintbackground"	"0"
 	}
 	
-	"ItemBackground"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ItemBackground"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"150"
-		"tall"				"88"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"pipboy_overlay"
-		"tileImage"			"1"
-		"drawcolor"			"192 192 192 255"
-	}
-	
 	"MenuBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -80,7 +63,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"ico_build"
-		"iconColor"			"NeonGreen"
+		"iconColor"			"White"
 	}
 	
 	"TitleLabel"
@@ -101,7 +84,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 	}
 	
 	"TitleLabelDropshadow"
@@ -147,7 +130,7 @@
 		"textAlignment"		"East"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"White"
 	}
 	
 	"available_target_1"
