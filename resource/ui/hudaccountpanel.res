@@ -34,7 +34,6 @@
 		"fieldName"		"MetalIcon"
 		"xpos"			"15"
 		"ypos"			"0"
-		"ypos_minmode"	"70"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
