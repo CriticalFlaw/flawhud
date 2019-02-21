@@ -478,7 +478,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox2"
 		{
@@ -498,7 +498,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox3"
 		{
@@ -518,7 +518,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox4"
 		{
@@ -538,7 +538,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox5"
 		{
@@ -558,7 +558,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox6"
 		{
@@ -578,7 +578,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox7"
 		{
@@ -598,7 +598,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox8"
 		{
@@ -618,7 +618,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox9"
 		{
@@ -638,7 +638,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}	
 
 		"TagCheckbox_Headgear"
@@ -659,7 +659,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_Weapon"
 		{
@@ -679,7 +679,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_Misc"
 		{
@@ -699,7 +699,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_SoundDevice"
 		{
@@ -719,7 +719,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_Halloween"
 		{
@@ -739,7 +739,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_Taunt"
 		{
@@ -759,7 +759,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_UnusualEffect"
 		{
@@ -779,7 +779,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_WarPaint"
 		{
@@ -799,7 +799,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"TagCheckbox_Jungle"
 		{
@@ -819,7 +819,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 
 		"MapsCheckBox_CTF"
@@ -840,7 +840,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_CP"
 		{
@@ -860,7 +860,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Escort"
 		{
@@ -880,7 +880,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_EscortRace"
 		{
@@ -900,7 +900,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_RobotDestruction"
 		{
@@ -920,7 +920,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Koth"
 		{
@@ -940,7 +940,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_AttackDefense"
 		{
@@ -960,7 +960,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_SD"
 		{
@@ -980,7 +980,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_MVM"
 		{
@@ -1000,7 +1000,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Arena"
 		{
@@ -1020,7 +1020,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Powerup"
 		{
@@ -1040,7 +1040,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Medieval"
 		{
@@ -1060,7 +1060,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_PassTime"
 		{
@@ -1080,7 +1080,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Specialty"
 		{
@@ -1100,7 +1100,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckBox_Halloween"
 		{
@@ -1120,7 +1120,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckbox_Smissmas"
 		{
@@ -1140,7 +1140,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckbox_Night"
 		{
@@ -1160,7 +1160,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"MapsCheckbox_Jungle"
 		{
@@ -1180,7 +1180,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 	}
 

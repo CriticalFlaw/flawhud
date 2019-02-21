@@ -188,25 +188,6 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
-				"fgcolor_override"			"White"
-				"bgcolor_override"			"Black"
-				"disabledFgColor_override" 	"White"
-				"disabledBgColor_override" 	"Black"
-				"selectionColor_override" 	"Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"		"Black"
-					"armedBgColor_override"		"White"
-					"paintbackgroundtype"		"0"
-				}
 			}
 			"BarChartComboB"
 			{
@@ -227,25 +208,6 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
-				"fgcolor_override"			"White"
-				"bgcolor_override"			"Black"
-				"disabledFgColor_override" 	"White"
-				"disabledBgColor_override" 	"Black"
-				"selectionColor_override" 	"Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"		"Black"
-					"armedBgColor_override"		"White"
-					"paintbackgroundtype"		"0"
-				}
 			}
 			"ClassCombo"
 			{
@@ -266,25 +228,6 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
-				"fgcolor_override"	"White"
-				"bgcolor_override"	"Black"
-				"disabledFgColor_override" "White"
-				"disabledBgColor_override" "Black"
-				"selectionColor_override" "Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"	"Black"
-					"armedBgColor_override"	"White"
-					"paintbackgroundtype"	"0"
-				}
 			}
 		}
 		"AveragesBG"

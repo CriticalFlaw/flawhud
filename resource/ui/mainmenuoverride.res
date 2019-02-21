@@ -574,9 +574,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"SubButton"
 		{
@@ -600,12 +597,10 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
@@ -710,9 +705,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"SubButton"
 		{
@@ -1045,7 +1037,6 @@
 		"fieldName"		"TFLogoImage"
 		"xpos"			"40"
 		"ypos"			"60"
-		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
@@ -1752,6 +1743,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"border_default"	""

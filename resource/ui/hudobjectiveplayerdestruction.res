@@ -36,7 +36,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"AutoResize" "0"
@@ -127,7 +127,7 @@
 		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 	
 		"CarriedImage"
 		{
@@ -687,7 +687,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"Score"
@@ -742,7 +742,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"Score"
@@ -797,7 +797,7 @@
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"IntelImage"
@@ -827,7 +827,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				
 				"proportionalToParent"	"1"
 
@@ -863,7 +863,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				"proportionalToParent"	"1"
 			}
 
@@ -897,7 +897,7 @@
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"IntelImage"
@@ -927,7 +927,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				
 				"proportionalToParent"	"1"
 
@@ -963,7 +963,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				"proportionalToParent"	"1"
 			}
 

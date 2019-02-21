@@ -3,9 +3,9 @@
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use. Change labelText to the corr-
-	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
-	// values if not perfectly centered.
+	// Set visible and enabled to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in KnucklesCrosses.png.
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
@@ -801,8 +801,6 @@
 		"ypos"			"r160"
 		"wide"			"200"
 		"tall"			"152"
-		"zpos"			"4"
-		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -913,7 +911,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c155"
-		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
@@ -926,7 +923,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c155"
-		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
@@ -939,7 +935,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-75"
 		"ypos"			"c155"
-		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
@@ -952,7 +947,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-99"
 		"ypos"			"c-35"
-		"zpos"			"1"
 		"wide"			"198"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"

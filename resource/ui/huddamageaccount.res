@@ -36,7 +36,7 @@
 		"fieldName"			"DamageAccountValueShadow"
 		"xpos"				"-1"
 		"ypos"				"-1"
-		"zpos"				"2"
+		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"26"
 		"visible"			"1"

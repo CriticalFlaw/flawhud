@@ -21,7 +21,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"CodeBold22"
-		"fgcolor"			"White"
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"3"
@@ -80,7 +79,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 
 	"CancelLabel"
@@ -101,7 +99,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 
 	"ShadedBar"

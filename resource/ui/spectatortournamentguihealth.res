@@ -38,20 +38,6 @@
 		"image"			""
 	}
 	
-	"BottomBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"FieldName"		"BottomBorder"
-		"xpos"			"0"
-		"ypos"			"r0"
-		"zpos"			"6"
-		"wide"			"f0"
-		"tall"			"0"
-		"visible"		"1"
-		"bgcolor_override"	"Black"
-		"proportionaltoparent"	"1"
-	}
-	
 	"RedPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -138,5 +124,19 @@
 		"pin_to_sibling"		"BluePlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
+	"BottomBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"FieldName"		"BottomBorder"
+		"xpos"			"0"
+		"ypos"			"r0"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"0"
+		"visible"		"1"
+		"bgcolor_override"	"Black"
+		"proportionaltoparent"	"1"
 	}
 }

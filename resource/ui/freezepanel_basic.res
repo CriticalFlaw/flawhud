@@ -58,7 +58,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"LightGravity9"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 			"xpos"			"5"
 			"ypos"			"5"
 			"zpos"			"1"

@@ -16,24 +16,6 @@
 		"iconColor"		"White"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"470"
-		"tall"			"88"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"HudBlack"
-		"PaintBackgroundType"	"0"
-	}
-	
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -702,5 +684,23 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"470"
+		"tall"			"88"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"HudBlack"
+		"PaintBackgroundType"	"0"
 	}
 }

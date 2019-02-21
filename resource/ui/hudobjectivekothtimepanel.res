@@ -79,7 +79,6 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"0"
-			"xpos"					"cs-0.5"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"

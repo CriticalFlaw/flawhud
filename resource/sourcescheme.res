@@ -22,6 +22,8 @@ Scheme
 		"DarkerGrey"				"22 22 22 255"
 		"Black"						"17 17 17 255"
 		
+		// BASE COLORS
+		//---------------------------------------------
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
@@ -47,7 +49,6 @@ Scheme
 
 	    "Blank"						"0 0 0 0"
 		
-	    // background colors
 		"ControlBG"					"76 88 68 255"		// background color of controls
 		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"					"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
@@ -59,16 +60,16 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"Blank"			// the lit side of a control
-		Border.Dark						"Blank"			// the dark/unlit side of a control
-		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
+		Border.Bright					"Blank"
+		Border.Dark						"Blank"
+		Border.Selection				"Blank"
 		
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Yellow"
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Yellow"	
+		Button.DepressedBgColor			"Yellow"
 		Button.FocusBorderColor			"Blank"
 		
 		CheckButton.TextColor			"DullWhite"
@@ -77,9 +78,9 @@ Scheme
 		CheckButton.HighlightFgColor	"Yellow"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.Border1  			"Border.Dark"
+		CheckButton.Border2  			"Border.Bright"
+		CheckButton.Check				"White"
 		CheckButton.DisabledBgColor	    "Blank"
 		
 		ToggleButton.SelectedTextColor	"White"
@@ -98,7 +99,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
-		FrameTitleBar.Font				"UiBold"	[$WIN32]
+		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.DisabledTextColor	"DullWhite"
 		
@@ -115,8 +116,8 @@ Scheme
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 		
-		MainMenu.TextColor					"DullWhite"	[$WIN32]
-		MainMenu.ArmedTextColor				"White"		[$WIN32]
+		MainMenu.TextColor					"DullWhite"
+		MainMenu.ArmedTextColor				"White"
 		MainMenu.Inset						"32"
 		
 		Menu.TextInset						"6"
@@ -133,10 +134,10 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"White"
 		
-		ScrollBarSlider.BgColor				"Black"		// this isn't really used
-		ScrollBarSlider.FgColor				"White"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"Black"
+		ScrollBarSlider.FgColor				"White"
 		
-		Slider.NobColor						"TFTanLight"		
+		Slider.NobColor						"TFTanLight"
 		Slider.TextColor					"White"
 		Slider.TrackColor					"HudBlack"
 		Slider.DisabledTextColor1			"TFTextMediumDark"

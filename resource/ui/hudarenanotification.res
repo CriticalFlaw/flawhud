@@ -29,15 +29,13 @@
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
-		"wide"			"230"	[$WIN32]
-		"tall"			"55"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"!"
-		"textAlignment"	"north"
+		"textAlignment"	"center"
 	}
 	
 	"BalanceLabel"
@@ -47,8 +45,6 @@
 		"font"			"CodeBold20"
 		"xpos"			"75"
 		"ypos"			"30"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"
 		"tall"			"55"
@@ -68,10 +64,8 @@
 		"font"			"CodeLC10"
 		"xpos"			"75"
 		"ypos"			"75"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
+		"wide"			"230"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"

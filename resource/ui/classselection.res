@@ -30,10 +30,10 @@
 		"tabPosition"	"0"
 	}
 	
-	"SelectAClassLabel"
+	"SelectClassLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"SelectAClassLabel"
+		"fieldName"		"SelectClassLabel"
 		"xpos"			"c-150"
 		"ypos"			"c-130"
 		"zpos"			"1"
@@ -66,6 +66,7 @@
 		"Command"			"select 1"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -76,8 +77,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -103,6 +102,7 @@
 		"Command"			"select 3"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -113,8 +113,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -140,6 +138,7 @@
 		"Command"			"select 7"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -150,8 +149,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -177,6 +174,7 @@
 		"Command"			"select 4"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -187,8 +185,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -214,6 +210,7 @@
 		"Command"			"select 6"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -224,8 +221,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -251,6 +246,7 @@
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -260,8 +256,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -287,6 +281,7 @@
 		"Command"			"select 5"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -297,8 +292,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -324,6 +317,7 @@
 		"Command"			"select 2"
 		"Default"			"0"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -334,8 +328,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -362,6 +354,7 @@
 		"Default"			"0"
 		"font"				"LightGravity12"
 		"scaleImage"		"1"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -372,8 +365,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -399,6 +390,7 @@
 		"Command"			"select 12"
 		"Default"			"1"
 		"font"				"LightGravity12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -409,8 +401,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -431,11 +421,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintbackground"	"0"
 		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"LightGravity12"
-		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"

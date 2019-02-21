@@ -394,7 +394,6 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
 		"font"			"LightGravity12"
-		"fgcolor"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"
 		

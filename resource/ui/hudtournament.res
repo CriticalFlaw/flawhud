@@ -851,11 +851,13 @@
 		{
 			"xpos"			"c-20"
 		}
+
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 		}
+
 		if_readymode
 		{
 			"xpos"			"c-20"

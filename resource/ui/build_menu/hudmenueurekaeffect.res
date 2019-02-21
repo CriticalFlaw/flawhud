@@ -15,41 +15,6 @@
 		"paintbackground"	"0"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"150"
-		"tall"				"88"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"	
-		"fillcolor"			"HudBlack"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"BackgroundEngineer"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"BackgroundEngineer"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"18"
-		"tall"				"18"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"	
-		"image"				"pipboy_engineer"
-		"tileImage"			"0"
-		"tileVertically"	"0"
-	}
-	
 	"BuildIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -71,7 +36,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"CodeBold22"
-		"xpos"				"0"			// align me to the left edge of the first selection
+		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"2"
 		"wide"				"150"
@@ -84,7 +49,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"TitleLabelDropshadow"
@@ -130,7 +94,6 @@
 		"textAlignment"		"East"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"available_target_1"
@@ -179,5 +142,23 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"150"
+		"tall"				"88"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"	
+		"fillcolor"			"HudBlack"
+		"PaintBackgroundType"	"0"
 	}
 }

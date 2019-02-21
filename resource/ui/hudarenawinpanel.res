@@ -226,7 +226,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
 			"font"			"HudFontSmallest"
-			"fgcolor"		"white"
+			"fgcolor"		"White"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"zpos"			"3"
@@ -269,12 +269,12 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudBlack"
 	}
+
 	"WinningTeamLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"LightGravity10"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -313,7 +313,7 @@
 	"LosingTeamLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"WinningTeamLabel"
+		"fieldName"		"LosingTeamLabel"
 		"font"			"LightGravity10"
 		"xpos"			"10"
 		"ypos"			"41"
@@ -332,7 +332,7 @@
 	"LosingTeamLabelDropshadow"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
+		"fieldName"		"LosingTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"9999"

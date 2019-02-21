@@ -143,7 +143,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox4"
 		{
@@ -163,7 +163,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox5"
 		{
@@ -183,7 +183,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox6"
 		{
@@ -203,7 +203,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox7"
 		{
@@ -223,7 +223,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox8"
 		{
@@ -243,7 +243,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		"ClassCheckBox9"
 		{
@@ -263,7 +263,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}	
 	}
 	
@@ -683,7 +683,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}	
 		
 		"BotsOnBlueTeamCheckBox"
@@ -704,7 +704,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TextColor"
 		}
 		
 		"AddBotButton"
@@ -757,7 +757,7 @@
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
 			"disabledBgColor_override" "251 235 202 0"
-			"selectionColor_override" "0 0 0 0"
+			"selectionColor_override" "Transparent"
 			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}

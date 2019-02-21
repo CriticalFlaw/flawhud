@@ -46,10 +46,10 @@
 		"tabPosition"	"0"
 	}
 
-	"SelectATeamLabel"
+	"SelectTeamLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"SelectAClassLabel"
+		"fieldName"		"SelectTeamLabel"
 		"xpos"			"c-150"
 		"ypos"			"c-130"
 		"zpos"			"1"

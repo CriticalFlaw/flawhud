@@ -94,7 +94,6 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"CodeLC8"
-		"fgcolor"			"White"
 		
 		if_match
 		{

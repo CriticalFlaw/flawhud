@@ -494,7 +494,6 @@
 			"visible"		"0"
 		}
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -526,7 +525,6 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"0"
-		"xpos_lodef"	"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
@@ -1396,6 +1394,7 @@
 				"visible"		"0"
 			}
 		}
+		
 		"DefensesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1530,7 +1529,6 @@
 				"visible"	"0"
 			}
 		}
-
 		"DominationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1553,7 +1551,6 @@
 				"visible"		"0"
 			}
 		}
-
 		"Domination"
 		{
 			"ControlName"	"CExLabel"
@@ -1597,7 +1594,6 @@
 				"visible"	"0"
 			}
 		}
-
 		"Revenge"
 		{
 			"ControlName"	"CExLabel"
@@ -1641,7 +1637,6 @@
 				"visible"		"0"
 			}
 		}
-		
 		"HealingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1745,7 +1740,6 @@
 				"textAlignment"	"west"
 			}
 		}
-
 		"Invuln"
 		{
 			"ControlName"	"CExLabel"
@@ -2193,7 +2187,6 @@
 				"textAlignment"	"west"
 			}
 		}
-
 		"Damage"
 		{
 			"ControlName"	"CExLabel"

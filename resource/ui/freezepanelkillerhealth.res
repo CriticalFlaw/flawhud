@@ -53,7 +53,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"CodeBold22"
-		"fgcolor"		"White"
 		"labeltext"		"%Health%"
 	}
 

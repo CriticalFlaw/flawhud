@@ -14,41 +14,6 @@
 		"paintbackground" 	"0"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"250"
-		"tall"				"88"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"	
-		"fillcolor"			"HudBlack"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"BackgroundEngineer"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"BackgroundEngineer"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"18"
-		"tall"				"18"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"	
-		"image"				"pipboy_engineer"
-		"tileImage"			"0"
-		"tileVertically" 	"0"
-	}
-	
 	"BuildIcon"	
 	{
 		"ControlName"		"CIconPanel"
@@ -71,7 +36,7 @@
 		"font"				"CodeBold22"
 		"xpos"				"0"
 		"ypos"				"1"
-		"zpos"				"4"
+		"zpos"				"2"
 		"wide"				"250"
 		"tall"				"22"
 		"autoResize"		"0"
@@ -92,7 +57,7 @@
 		"fgcolor"			"ShadowBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
-		"zpos"				"4"
+		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"22"
 		"autoResize"		"0"
@@ -319,5 +284,23 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"0"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"250"
+		"tall"				"88"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"	
+		"fillcolor"			"HudBlack"
+		"PaintBackgroundType"	"0"
 	}
 }

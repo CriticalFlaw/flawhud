@@ -37,8 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"228 228 242 255"
-		"alpha"			"125"
+		"iconColor"		"228 228 242 125"
 	}
 	
 	"Icon_Sentry_2"
@@ -53,8 +52,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"228 228 242 255"
-		"alpha"			"125"
+		"iconColor"		"228 228 242 125"
 	}
 	
 	"Icon_Sentry_3"
@@ -69,8 +67,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"228 228 242 255"
-		"alpha"			"125"
+		"iconColor"		"228 228 242 125"
 	}
 	
 	"NotBuiltPanel"

@@ -150,7 +150,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
 			"font"				"CodeBold37"
-			"fgcolor"			"White"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"53"
@@ -262,7 +261,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
 			"font"				"CodeBold37"
-			"fgcolor"			"White"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -353,8 +351,6 @@
 		"zpos"			"-3"
 		"wide"			"200"
 		"tall"			"123"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HUDBlack"
@@ -364,7 +360,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"LightGravity10"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"43"
 		"zpos"			"1"
@@ -469,7 +464,7 @@
 		"xpos"			"9999"
 	}
 	
-	"Player1Avatar"		[$WIN32]
+	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
@@ -609,7 +604,7 @@
 		"brighttext"	"0"
 	}
 	
-	"Player3Avatar"		[$WIN32]
+	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"

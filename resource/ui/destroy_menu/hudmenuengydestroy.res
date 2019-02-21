@@ -14,41 +14,6 @@
 		"paintbackground"	"0"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"250"
-		"tall"				"88"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"	
-		"fillcolor"			"HUDBlack"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"BackgroundEngineer"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"BackgroundEngineer"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"18"
-		"tall"				"18"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"	
-		"image"				"pipboy_engineer"
-		"tileImage"			"0"
-		"tileVertically"	"0"
-	}
-	
 	"DestroyIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -83,7 +48,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"TitleLabelDropshadow"
@@ -129,7 +93,6 @@
 		"textAlignment"		"East"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"active_item_1"
@@ -274,5 +237,23 @@
 		"wide"				"100"
 		"tall"				"124"
 		"visible"			"1"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"250"
+		"tall"				"88"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"	
+		"fillcolor"			"HUDBlack"
+		"PaintBackgroundType"	"0"
 	}
 }

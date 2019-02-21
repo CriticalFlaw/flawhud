@@ -29,7 +29,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fillcolor"			"Hudblack"
+		"fillcolor"			"HudBlack"
 	}
 	
 	"TFMessageTitle"

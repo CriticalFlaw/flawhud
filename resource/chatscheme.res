@@ -339,7 +339,6 @@ Scheme
 				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
-			
 			"2"
 			{
 				"name"			"Verdana"
@@ -348,7 +347,6 @@ Scheme
 				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
-			
 			"3"
 			{
 				"name"			"Verdana"
@@ -357,7 +355,6 @@ Scheme
 				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
-			
 			"4"
 			{
 				"name"			"Verdana"
@@ -366,7 +363,6 @@ Scheme
 				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
-			
 			"5"
 			{
 				"name"			"Verdana"

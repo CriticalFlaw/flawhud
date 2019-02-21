@@ -13,10 +13,10 @@
 		"bgcolor_override"	"DarkGrey"
 	}
 	
-	"MainBackground"
+	"BGImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBackground"
+		"fieldName"		"BGImage"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"0"
@@ -27,7 +27,7 @@
 		"scaleImage"	"1"
 	}
 
-	"MainBG"
+	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"

@@ -340,7 +340,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"CodeBold12Outline"
-					"fgcolor_override"	"255 255 255 255"
+					"fgcolor_override"	"White"
 					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -353,7 +353,7 @@
 						"wide"			"100"
 						"tall"			"20"
 						"font"			"ItemFontAttribSmall"
-						"fgcolor_override"	"255 255 255 255"
+						"fgcolor_override"	"White"
 						"textAlignment"	"south-west"
 						"visible"		"1"
 					}
@@ -412,7 +412,7 @@
 						"progress"		"1"
 
 						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"bgcolor_override"	"Transparent"
 					}
 
 					"ContinuousProgressBar"

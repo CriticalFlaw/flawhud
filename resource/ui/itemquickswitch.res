@@ -36,7 +36,7 @@
 			"text_xpos"		"50"
 			"text_wide"		"160"
 			"name_only"		"1"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 		}
 	}
 	
@@ -124,7 +124,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override" "200 80 60 255"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 		}
 	}
 	

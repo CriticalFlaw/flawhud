@@ -405,7 +405,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
@@ -557,23 +556,6 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"320"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"MenuShader"
 	}
 	
 	"ShowExplanationsButton"
@@ -1598,5 +1580,22 @@
 			"enabled"		"1"
 			"fgcolor_override" "LightRed"
 		}
+	}
+	
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"-5"
+		"wide"			"f0"
+		"tall"			"320"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"MenuShader"
 	}
 }

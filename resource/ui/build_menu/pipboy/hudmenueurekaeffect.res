@@ -1,4 +1,4 @@
-#base "../hudmenueurekaeffect.res"
+#base "../HudMenuEurekaEffect.res"
 
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {

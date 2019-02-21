@@ -34,7 +34,7 @@
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
 		"fgcolor_override" 	"255 255 255 255"
-		"bgcolor_override" 	"0 0 0 0"
+		"bgcolor_override" 	"Transparent"
 	}
 
 	"EllipsesLabel"
@@ -54,7 +54,7 @@
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "Transparent"
 	}
 
 	"DurationLabel"
@@ -74,7 +74,7 @@
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "Transparent"
 	}
 	
 	"CloseButton"

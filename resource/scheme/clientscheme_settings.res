@@ -29,9 +29,9 @@ Scheme
 		Econ.Button.Border.Default				"White"
 		Econ.Button.Border.Armed				"Black"
 		
-		Border.Bright							"Blank"		// the lit side of a control
-		Border.Dark								"Black"		// the dark/unlit side of a control
-		Border.Selection						"Gray"		// the additional border color for displaying the default/selected button
+		Border.Bright							"Blank"
+		Border.Dark								"Black"
+		Border.Selection						"Gray"
 		
 		Button.TextColor						"White"
 		Button.BgColor							"Black"

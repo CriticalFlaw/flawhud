@@ -18,7 +18,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"ItemBackground"
@@ -55,7 +54,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"UnavailableLabel"
@@ -76,7 +74,6 @@
 		"textAlignment"		"Center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 	
 	"NumberBg"	
