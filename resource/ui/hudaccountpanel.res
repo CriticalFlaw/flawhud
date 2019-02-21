@@ -2,7 +2,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"35"
+		"delta_item_x"			"30"
 		"delta_item_start_y"	"54"
 		"delta_item_end_y"		"34"
 		"PositiveColor"			"G_Overheal"
@@ -28,12 +28,47 @@
 		"teambg_3"			"../hud/misc_ammo_area_blue"
 	}
 	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"15"
+		"ypos"			"0"
+		"ypos_minmode"	"70"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+	}
+	"MetalIconBackground"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIconBackground"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"ShadowBlack"
+
+		"pin_to_sibling"		"MetalIcon"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
 	"AccountValue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValue"
 		"xpos"				"26"
-		"ypos"				"68"
+		"ypos"				"65"
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"20"
@@ -47,7 +82,6 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"CodeBold22"
-		"fgcolor"			"White"
 	}
 	
 	"AccountValueShadow"

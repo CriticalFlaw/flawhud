@@ -295,6 +295,34 @@
 				"border"		"PanelBorder"
 				"bgcolor_override"	"DarkGrey"
 			}
+
+			"QueueLogoButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"QueueLogoButton"
+				"xpos"			"0"
+				"ypos"			"1"
+				"zpos"			"10"
+				"wide"			"o1"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"queue_logo_clicked"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+				"button_activation_type"	"1"
+				"paintbackground"	"0"
+				"paintborder"		"0"				
+			}
 			
 			"CTFLogoPanel"
 			{
