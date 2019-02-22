@@ -55,7 +55,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"c-12"
-			"ypos"			"c96"
+			"ypos"			"c94"
 			"zpos"			"2"
 			"wide"			"24"
 			"tall"			"14"
