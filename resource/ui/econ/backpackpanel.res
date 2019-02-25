@@ -538,7 +538,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
 		"xpos"			"c-288"
-		"ypos"			"307"
+		"ypos"			"327"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
