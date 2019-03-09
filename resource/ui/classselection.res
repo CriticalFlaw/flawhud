@@ -39,9 +39,9 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"25"
-		"labelText"		"SELECT A CLASS"
+		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -63,9 +63,9 @@
 		"tabPosition"		"0"
 		"labelText"			"1   Scout"
 		"textAlignment"		"west"
-		"Command"			"select 1"
+		"Command"			"joinclass scout"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -99,9 +99,9 @@
 		"tabPosition"		"0"
 		"labelText"			"2  Soldier"
 		"textAlignment"		"west"
-		"Command"			"select 3"
+		"Command"			"joinclass soldier"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -135,9 +135,9 @@
 		"tabPosition"		"0"
 		"labelText"			"3   Pyro"
 		"textAlignment"		"west"
-		"Command"			"select 7"
+		"Command"			"joinclass pyro"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -171,9 +171,9 @@
 		"tabPosition"		"0"
 		"labelText"			"4   Demoman"
 		"textAlignment"		"west"
-		"Command"			"select 4"
+		"Command"			"joinclass demoman"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -207,9 +207,9 @@
 		"tabPosition"		"0"
 		"labelText"			"5   Heavy"
 		"textAlignment"		"west"
-		"Command"			"select 6"
+		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -243,9 +243,9 @@
 		"tabPosition"		"0"
 		"labelText"			"6   Engineer"
 		"textAlignment"		"west"
-		"Command"			"select 9"
+		"Command"			"joinclass engineer"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -278,9 +278,9 @@
 		"tabPosition"		"0"
 		"labelText"			"7   Medic"
 		"textAlignment"		"west"
-		"Command"			"select 5"
+		"Command"			"joinclass medic"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -314,9 +314,9 @@
 		"tabPosition"		"0"
 		"labelText"			"8   Sniper"
 		"textAlignment"		"west"
-		"Command"			"select 2"
+		"Command"			"joinclass sniper"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -350,9 +350,9 @@
 		"tabPosition"		"0"
 		"labelText"			"9   Spy"
 		"textAlignment"		"west"
-		"Command"			"select 8"
+		"Command"			"joinclass spy"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -387,9 +387,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&R   Random"
 		"textAlignment"		"west"
-		"Command"			"select 12"
+		"Command"			"joinclass random"
 		"Default"			"1"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -425,7 +425,7 @@
 		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -455,7 +455,7 @@
 		"labelText"		"&C  Cancel"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
@@ -693,7 +693,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -713,7 +713,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -733,7 +733,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -753,7 +753,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -773,7 +773,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -793,7 +793,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -813,7 +813,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -833,7 +833,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -853,7 +853,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 	
@@ -1154,7 +1154,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}

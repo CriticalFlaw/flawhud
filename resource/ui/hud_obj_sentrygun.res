@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"228 228 242 125"
+		"iconColor"		"White"
 	}
 	
 	"Icon_Sentry_2"
@@ -84,7 +84,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"LightGravity10"
+			"font"			"FontRegular10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -92,7 +92,6 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -169,7 +168,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
-			"icon"			"obj_status_alert_background"
+			"icon"			"obj_status_alert_background_tall"
 		}
 		
 		"WrenchIcon"
@@ -236,7 +235,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"LightGravity10"
+				"font"			"FontRegular10"
 				"xpos"			"12"
 				"ypos"			"18"
 				"wide"			"200"
@@ -300,7 +299,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"LightGravity10"
+				"font"			"FontRegular10"
 				"xpos"			"12"
 				"ypos"			"13"
 				"wide"			"200"

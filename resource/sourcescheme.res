@@ -94,8 +94,8 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 		RadioButton.ArmedTextColor		"TFTextMedium"
 		
-		Frame.BgColor					"DarkGrey"
-		Frame.OutOfFocusBgColor			"27 27 27 100"
+		Frame.BgColor					"27 27 27 250"
+		Frame.OutOfFocusBgColor			"27 27 27 250"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
