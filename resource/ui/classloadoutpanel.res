@@ -20,17 +20,17 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"60"
-		"item_ydelta"	"75"
-		"item_mod_wide"	"40"
+		"item_ypos"				"60"
+		"item_ydelta"			"75"
+		"item_mod_wide"			"40"
 		
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 		
 		"button_xpos_offcenter"	"175"
-		"button_ypos"	"85"
-		"button_ydelta"	"80"
+		"button_ypos"			"85"
+		"button_ydelta"			"80"
 		"button_override_delete_xpos" "0"
 		
 		"modelpanels_kv"
@@ -353,7 +353,7 @@
 		"defaultFgColor_override"	"Blue"
 		"armedFgColor_override"		"White"
 		"armedBgColor_override"		"Blue"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override"	"White"
 		"depressedBgColor_override"	"Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

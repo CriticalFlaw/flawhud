@@ -75,7 +75,7 @@
 	}
 	
 	"CancelLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"font"				"SpectatorKeyHints"

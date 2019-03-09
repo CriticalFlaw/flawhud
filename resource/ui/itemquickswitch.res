@@ -25,7 +25,7 @@
 			"tall"			"35"
 			"bgcolor_override"		"Black"
 			"PaintBackgroundType"	"0"
-			"paintbackground"	"0" 			
+			"paintbackground"	"0"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			"model_xpos"	"0"

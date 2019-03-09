@@ -171,7 +171,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -244,7 +244,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -317,7 +317,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -389,7 +389,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -462,7 +462,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -535,7 +535,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -597,7 +597,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
 		"xpos"			"366"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -608,7 +607,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -681,7 +680,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}

@@ -127,7 +127,7 @@
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-
+	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -143,7 +143,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"White"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -179,7 +179,7 @@
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -210,7 +210,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"	
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -399,7 +399,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"

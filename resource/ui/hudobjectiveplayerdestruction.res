@@ -18,8 +18,6 @@
 		"robot_y_offset"		"47"
 		"robot_x_step"			"23"
 		"robot_y_step"			"0"
-		
-
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
 

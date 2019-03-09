@@ -39,14 +39,14 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"FontBold22"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"scout"
 	{
 		"ControlName"		"CExButton"
@@ -61,15 +61,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1   Scout"
+		"labelText"			"1  Scout"
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -104,8 +104,8 @@
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -133,15 +133,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3   Pyro"
+		"labelText"			"3  Pyro"
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -169,15 +169,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4   Demoman"
+		"labelText"			"4  Demoman"
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -205,15 +205,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5   Heavy"
+		"labelText"			"5  Heavy"
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -224,9 +224,9 @@
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"		
+		"keyboardinputenabled"	"0"
 	}
-
+	
 	"engineer"
 	{
 		"ControlName"		"CExButton"
@@ -241,13 +241,14 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6   Engineer"
+		"labelText"			"6  Engineer"
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
+		"fgcolor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -259,9 +260,9 @@
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"				
+		"keyboardinputenabled"	"0"
 	}
-
+	
 	"medic"
 	{
 		"ControlName"		"CExButton"
@@ -276,15 +277,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7   Medic"
+		"labelText"			"7  Medic"
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -312,15 +313,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8   Sniper"
+		"labelText"			"8  Sniper"
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -348,7 +349,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9   Spy"
+		"labelText"			"9  Spy"
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
@@ -356,8 +357,8 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -385,15 +386,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&R   Random"
+		"labelText"			"&R  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
 		"Default"			"1"
 		"font"				"FontRegular12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"fgcolor"					"255 255 255 128"
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
@@ -404,7 +405,7 @@
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"				
+		"keyboardinputenabled"	"0"
 	}
 	
 	"EditLoadoutButton" [$WIN32]
@@ -421,8 +422,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"paintbackground"	"0"
-		"labelText"		"&E   Edit Loadout"
+		"paintbackground" "0"
+		"labelText"		"&E  Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"FontRegular12"
@@ -437,7 +438,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-
+	
 	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -456,7 +457,7 @@
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
 		"font"			"FontRegular12"
-		"paintbackground"	"0"
+		"paintbackground" "0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -468,7 +469,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -496,7 +497,7 @@
 			"origin_z" "-40"
 		}
 	}
-
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -522,9 +523,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage1" [$WIN32]
@@ -537,9 +538,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage2" [$WIN32]
@@ -552,9 +553,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage3" [$WIN32]
@@ -567,9 +568,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage4" [$WIN32]
@@ -582,9 +583,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage5" [$WIN32]
@@ -597,9 +598,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage6" [$WIN32]
@@ -612,9 +613,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage7" [$WIN32]
@@ -627,9 +628,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage8" [$WIN32]
@@ -642,9 +643,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage9" [$WIN32]
@@ -657,9 +658,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage10" [$WIN32]
@@ -672,11 +673,11 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
 	}
-
+	
 	"numScout"
 	{
 		"ControlName"	"CExLabel"
@@ -991,7 +992,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-
+	
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

@@ -109,7 +109,7 @@
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"9999"
 	}
-
+	
 	"MapInfoContinue2"
 	{
 		"ControlName"	"CExButton"
@@ -134,7 +134,7 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
@@ -145,7 +145,7 @@
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
 	}
-
+	
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -169,7 +169,7 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}

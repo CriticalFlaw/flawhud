@@ -11,14 +11,14 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NotificationDefault"
+		"paintborder"			"1"
+		"paintbackground"		"0"
+		"PaintBackgroundType"	"0"
+		"border"				"NotificationDefault"
 		"if_high_priority"
 		{
 			"border"		"NotificationHighPriority"
 		}
-		"paintborder"			"1"
-		"paintbackground"		"0"
-		"PaintBackgroundType"	"0"
 	}
 
 	"DeleteButton"

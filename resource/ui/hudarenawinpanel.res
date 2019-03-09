@@ -22,7 +22,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Blue"
-
+			
 			"BlueScoreBG2"
 			{
 				"ControlName"	"EditablePanel"
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Red"
-
+			
 			"RedScoreBG2"
 			{
 				"ControlName"	"EditablePanel"
@@ -85,7 +85,7 @@
 			"pin_to_sibling"	"BlueScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -128,7 +128,7 @@
 			"pin_to_sibling"		"BlueTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}							
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -150,7 +150,7 @@
 			"pin_to_sibling"		"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -193,7 +193,7 @@
 			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}		
+		}
 		
 		"ArenaStreaksBG"
 		{
@@ -210,7 +210,7 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"	"1"
-	
+			
 			"src_corner_height"	"23"
 			"src_corner_width"	"23"
 			"draw_corner_width"	"6"
@@ -265,7 +265,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudBlack"
 	}
-
+	
 	"WinningTeamLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -512,7 +512,7 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ArenaWinPanelWinnersPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -523,7 +523,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"zpos"			"3"
-
+		
 		"Player1Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"

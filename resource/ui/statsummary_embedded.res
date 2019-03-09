@@ -25,7 +25,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
-		"bgcolor_override"		"200 200 200 255"
+		"bgcolor_override"	"200 200 200 255"
 	}
 
 	"OnYourWayLabel"
@@ -155,7 +155,7 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
-			}				
+			}
 		}
 		"InteractiveHeaders"
 		{
@@ -667,7 +667,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar4B"
 		{
 			"ControlName"	"ImagePanel"
@@ -684,7 +684,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel4A"
 		{
 			"ControlName"	"Label"
@@ -701,7 +701,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel4B"
 		{
 			"ControlName"	"Label"
@@ -718,7 +718,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel4"
 		{
 			"ControlName"	"Label"
@@ -735,7 +735,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG5A"
 		{
 			"ControlName"	"ImagePanel"
@@ -820,7 +820,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel5B"
 		{
 			"ControlName"	"Label"
@@ -837,7 +837,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel5"
 		{
 			"ControlName"	"Label"
@@ -854,7 +854,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG6A"
 		{
 			"ControlName"	"ImagePanel"
@@ -929,7 +929,7 @@
 			"fieldName"		"ClassBarLabel6A"
 			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"318"
 			"zpos"			"6"
@@ -1092,7 +1092,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG8A"
 		{
 			"ControlName"	"ImagePanel"
@@ -1177,7 +1177,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel8B"
 		{
 			"ControlName"	"Label"
@@ -1194,7 +1194,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel8"
 		{
 			"ControlName"	"Label"
@@ -1211,7 +1211,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG9A"
 		{
 			"ControlName"	"ImagePanel"
@@ -1279,7 +1279,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel9A"
 		{
 			"ControlName"	"Label"
@@ -1296,7 +1296,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel9B"
 		{
 			"ControlName"	"Label"
@@ -1313,7 +1313,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel9"
 		{
 			"ControlName"	"Label"
@@ -1330,7 +1330,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"RecordsBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -1411,7 +1411,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord1Value"
 		{
 			"ControlName"	"Label"
@@ -1428,7 +1428,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Label"
 		{
 			"ControlName"	"Label"
@@ -1445,7 +1445,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Value"
 		{
 			"ControlName"	"Label"
@@ -1462,7 +1462,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Label"
 		{
 			"ControlName"	"Label"
@@ -1479,7 +1479,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Value"
 		{
 			"ControlName"	"Label"
@@ -1496,7 +1496,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Label"
 		{
 			"ControlName"	"Label"
@@ -1513,7 +1513,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Value"
 		{
 			"ControlName"	"Label"
@@ -1530,7 +1530,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Label"
 		{
 			"ControlName"	"Label"
@@ -1547,7 +1547,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Value"
 		{
 			"ControlName"	"Label"
@@ -1564,7 +1564,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord6Label"
 		{
 			"ControlName"	"Label"
@@ -1581,7 +1581,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord6Value"
 		{
 			"ControlName"	"Label"
@@ -1598,7 +1598,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Label"
 		{
 			"ControlName"	"Label"
@@ -1615,7 +1615,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Value"
 		{
 			"ControlName"	"Label"
@@ -1632,7 +1632,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Label"
 		{
 			"ControlName"	"Label"
@@ -1649,7 +1649,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Value"
 		{
 			"ControlName"	"Label"
@@ -1683,7 +1683,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord9Value"
 		{
 			"ControlName"	"Label"
@@ -1717,7 +1717,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord10Value"
 		{
 			"ControlName"	"Label"
@@ -1751,7 +1751,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord11Value"
 		{
 			"ControlName"	"Label"
@@ -1785,7 +1785,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord12Value"
 		{
 			"ControlName"	"Label"
@@ -1819,7 +1819,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord13Value"
 		{
 			"ControlName"	"Label"
@@ -1853,7 +1853,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord14Value"
 		{
 			"ControlName"	"Label"
@@ -1873,37 +1873,37 @@
 		}
 		"OverallRecord15Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15label%"
-			"textAlignment"		"west"
-			"xpos"				"c+128"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-		}							
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15label%"
+			"textAlignment"	"west"
+			"xpos"			"c+128"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"OverallRecord15Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15value%"
-			"textAlignment"		"west"
-			"xpos"				"c+210"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15value%"
+			"textAlignment"	"west"
+			"xpos"			"c+210"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 	}
 
@@ -1939,7 +1939,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-
+	
 	"NextTipButton"
 	{
 		"ControlName"	"Button"
@@ -1960,7 +1960,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-
+	
 	"ResetStatsButton"
 	{
 		"ControlName"	"Button"
@@ -1981,7 +1981,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
-
+	
 	"CloseButton"
 	{
 		"ControlName"	"Button"

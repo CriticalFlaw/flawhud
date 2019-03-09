@@ -118,11 +118,11 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"fgcolor_override"				"TanLight"
-		"bgcolor_override"				"Black"
-		"disabledFgColor_override"		"TanLight"
-		"disabledBgColor_override"		"Black"
-		"selectionColor_override"		"Black"
+		"fgcolor_override"					"TanLight"
+		"bgcolor_override"					"Black"
+		"disabledFgColor_override"			"TanLight"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
 		"selectionTextColor_override" 		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 	}
@@ -199,7 +199,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
-		"xpos"			"c-280"		// Slightly right of center, because the photo background is
+		"xpos"			"c-280"
 		"ypos"			"160"
 		"zpos"			"1"
 		"wide"			"290"
@@ -236,7 +236,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -245,10 +245,10 @@
 		"padding_height"	"15"
 		"name_only"			"1"
 		
-		"model_ypos"	"40"
-		"model_xpos"	"50"
-		"model_wide"	"156"
-		"model_tall"	"100"
+		"model_ypos"		"40"
+		"model_xpos"		"50"
+		"model_wide"		"156"
+		"model_tall"		"100"
 		
 		"text_forcesize"	"1"
 		"is_mouseover"		"1"

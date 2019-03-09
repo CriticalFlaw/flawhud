@@ -157,7 +157,7 @@
 		"wrap"				"0"
 		"font"				"FontRegular8"
 		"fgcolor"			"White"
-
+		
 		if_match
 		{
 			"xpos"			"29"
@@ -178,8 +178,8 @@
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"24"
 		"ypos"				"22"
-		"zpos" 				"3"
-		"wide" 				"50"
+		"zpos"				"3"
+		"wide"				"50"
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"

@@ -12,9 +12,9 @@
 		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"			"WhiteBorder"
+		"border"				"WhiteBorder"
 	}
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -53,7 +53,7 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -72,7 +72,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
+	
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -107,9 +107,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"tool_modelpanel"
 		"xpos"				"10"
@@ -137,7 +137,7 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -172,9 +172,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
-	}	
+	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"subject_modelpanel"
 		"xpos"				"300"
@@ -219,9 +219,9 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"White"
+		"fgcolor_override"	"White"
 	}
-
+	
 	"OptionalAppendLabel"
 	{
 		"ControlName"		"CExLabel"

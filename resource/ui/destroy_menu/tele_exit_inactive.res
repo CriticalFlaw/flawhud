@@ -14,7 +14,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"#TF_Object_tele_exit_360"
+		"labelText"			"#TF_Object_Tele_Exit_360"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -108,7 +108,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"4"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}

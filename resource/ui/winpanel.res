@@ -2,13 +2,13 @@
 {
 	"TeamScoresPanel"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"TeamScoresPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"200"
-		"tall"					"40"
-		"visible"				"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TeamScoresPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"200"
+		"tall"				"40"
+		"visible"			"1"
 
 		"BlueScoreBG"
 		{
@@ -322,7 +322,7 @@
 			"tall"				"39"
 			"visible"			"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"DarkRed"
+			"bgcolor_override"		"DarkRed"
 		}
 	}
 	

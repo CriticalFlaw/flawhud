@@ -26,7 +26,7 @@
 		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 	}
-
+	
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -52,7 +52,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
-
+		
 		"MainBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -173,7 +173,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -285,7 +285,7 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
-			}				
+			}
 		}
 		
 		"AveragesBG"
@@ -521,7 +521,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"	"Label"
@@ -555,7 +555,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG3A"
 		{
 			"ControlName"	"ImagePanel"
@@ -640,7 +640,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"	"Label"
@@ -987,7 +987,7 @@
 			"fieldName"		"ClassBarLabel6A"
 			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"318"
 			"zpos"			"6"
@@ -1931,37 +1931,37 @@
 		}
 		"OverallRecord15Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15label%"
-			"textAlignment"		"west"
-			"xpos"				"c+128"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15label%"
+			"textAlignment"	"west"
+			"xpos"			"c+128"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}							
 		"OverallRecord15Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15value%"
-			"textAlignment"		"west"
-			"xpos"				"c+210"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15value%"
+			"textAlignment"	"west"
+			"xpos"			"c+210"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 	}
 	"TipImage"

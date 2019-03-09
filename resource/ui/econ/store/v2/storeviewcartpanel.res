@@ -19,13 +19,13 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title"				"#StoreTitle"
+		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"HudOffWhite"
-		"titlebardisabledfgcolor_override"		"HudOffWhite"
-		"titlebarbgcolor_override"				"DarkGrey"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"

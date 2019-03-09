@@ -14,7 +14,7 @@
 		"settitlebarvisible" "0"
 		"border"			"WhiteBorder"
 	}
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -53,7 +53,7 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
-
+	
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"
@@ -93,7 +93,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -142,7 +142,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -162,13 +162,13 @@
 		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{
@@ -188,7 +188,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "White"
 	}
-
+	
 	"ConfirmLabelStrange"
 	{
 		"ControlName"	"CExLabel"
@@ -207,7 +207,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "LightRed"
 	}
-
+	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

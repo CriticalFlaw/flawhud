@@ -9,10 +9,10 @@
 		"ypos"				"105"
 		"wide"				"400"
 		"tall"				"240"
-		"bgcolor_override"	"DarkerGrey"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"			"WhiteBorder"
+		"border"				"WhiteBorder"
 	}
 
 	"TitleLabel"
@@ -101,7 +101,7 @@
 		"border"			"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"subject_modelpanel"
 		"xpos"				"300"

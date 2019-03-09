@@ -40,7 +40,7 @@
 		"bgcolor_override"	"Black"
 		"Font"				"FontBold14"
 	}
-
+	
 	"ReplayList"
 	{
 		"ControlName"		"PanelListPanel"

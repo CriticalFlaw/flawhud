@@ -71,7 +71,6 @@
 		"scaleImage"		"0"	
 		"icon"				"ico_metal"
 		"iconColor"			"189 189 189 255"
-		"textAlignment"		"center"
 	}
 	
 	"CostLabel"
@@ -144,7 +143,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"1"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}

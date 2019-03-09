@@ -98,7 +98,7 @@
 		"wide"			"f20"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"	
 		"showtooltipswhenmousedisabled"	"1"

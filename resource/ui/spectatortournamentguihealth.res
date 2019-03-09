@@ -16,9 +16,9 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"visible"	"0"
-		"xpos"		"r0"
-		"ypos"		"r0"
+		"visible"		"0"
+		"xpos"			"r0"
+		"ypos"			"r0"
 	}
 	
 	"PlayerStatusHealthBonusImage"

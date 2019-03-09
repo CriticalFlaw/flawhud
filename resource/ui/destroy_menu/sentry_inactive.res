@@ -108,7 +108,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"1"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}

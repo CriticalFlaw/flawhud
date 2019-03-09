@@ -25,8 +25,8 @@
 		"titlebarfgcolor_override"			"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"			"DarkGrey"
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"clientinsetx_override"				"0"
+		"sheetinset_bottom"					"40"
 	}
 	
 	"BackgroundHeader"

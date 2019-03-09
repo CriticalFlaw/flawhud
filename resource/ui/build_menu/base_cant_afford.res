@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"font"				"FontRegular11"

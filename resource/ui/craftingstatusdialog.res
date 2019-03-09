@@ -71,7 +71,7 @@
 	}
 	
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"EllipsesLabel"
 		"font"				"FontBold14"

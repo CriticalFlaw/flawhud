@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"DarkGrey"
-		"infocus_bgcolor_override" "DarkGrey"
-		"outoffocus_bgcolor_override" "DarkGrey"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		"max_cart_model_panels"	"10"
 		"item_ypos"				"70"
 		"item_panels"			"15"
@@ -188,21 +188,21 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
-		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "Black"
-		"selectionColor_override" "Black"
-		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "Black"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"Black"
+		"disabledFgColor_override"			"White"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
+		"selectionTextColor_override"		"White"
+		"defaultSelectionBG2Color_override"	"Black"
 		
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
 			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"	"Black"
-			"armedBgColor_override"	"251 235 202 255"
-			"paintbackgroundtype"	"0"
+			"armedFgColor_override"		"Black"
+			"armedBgColor_override"		"251 235 202 255"
+			"paintbackgroundtype"		"0"
 		}
 	}
 	
@@ -229,21 +229,21 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
-		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "Black"
-		"selectionColor_override" "Black"
-		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "Black"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"Black"
+		"disabledFgColor_override"			"White"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
+		"selectionTextColor_override"		"White"
+		"defaultSelectionBG2Color_override"	"Black"
 		
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
 			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"	"Black"
-			"armedBgColor_override"	"251 235 202 255"
-			"paintbackgroundtype"	"0"
+			"armedFgColor_override"		"Black"
+			"armedBgColor_override"		"251 235 202 255"
+			"paintbackgroundtype"		"0"
 		}
 	}
 	

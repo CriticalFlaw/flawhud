@@ -144,8 +144,8 @@ Scheme
 		SectionedListPanel.TextColor			"Orange"
 		SectionedListPanel.BrightTextColor		"Orange"
 		SectionedListPanel.BgColor				"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Red"
+		SectionedListPanel.SelectedTextColor	"Black"
+		SectionedListPanel.SelectedBgColor		"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 		

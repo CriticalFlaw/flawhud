@@ -53,7 +53,6 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
-	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -103,7 +102,6 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
-	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -188,7 +186,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"White"
+		"fgcolor_override"	"White"
 	}
 
 	"BackFromInvalidButton"

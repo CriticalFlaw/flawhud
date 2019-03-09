@@ -368,7 +368,7 @@
 				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
-				"image_disabledcolor" 	"Black"
+				"image_disabledcolor"	"Black"
 
 				"SubImage"
 				{
@@ -409,8 +409,8 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
-				"command"			"view"	
-				"border_default"	"WhiteBorder"			
+				"command"			"view"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"

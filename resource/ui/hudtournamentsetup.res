@@ -50,13 +50,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"White"
-		"bgcolor_override"		"0 0 0 255"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"0 0 0 255"
+		"labelText"			"%teamname%"
+		"textAlignment"		"west"
+		"font"				"FontBold14"
 		"selectionColor_override" 		"White"
-		"selectionTextColor_override" 	"Black"		
-		"labelText"				"%teamname%"
-		"textAlignment"			"west"
-		"font"					"FontBold14"
+		"selectionTextColor_override" 	"Black"
 	}
 
 	"HudTournamentNameBG"
@@ -87,7 +87,7 @@
 		"default"		"1"
 		"font"			"FontBold12"
 		"fgcolor"		"Red"
-
+		
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"
 		"armedBgColor_override"		"Blank"
@@ -117,7 +117,7 @@
 		"default"		"1"
 		"font"			"FontBold12"
 		"fgcolor"		"FooterBGBlack"
-
+		
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"
 		"armedBgColor_override"		"Blank"

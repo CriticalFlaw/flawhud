@@ -203,7 +203,7 @@
 		"enabled"			"1"
 		"image"				"backpack_jewel_modify_target_b_g"
 		"tileImage"			"0"
-		"tileVertically"	 "0"
+		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
 	
@@ -229,12 +229,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"				"White"
-		"bgcolor_override"				"Black"
-		"disabledFgColor_override"		"White"
-		"disabledBgColor_override"		"Black"
-		"selectionColor_override"		"Black"
-		"selectionTextColor_override" 	"White"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"Black"
+		"disabledFgColor_override"			"White"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
+		"selectionTextColor_override"		"White"
 		"defaultSelectionBG2Color_override" "Black"
 	}	
 	
@@ -323,7 +323,7 @@
 		
 		"fgcolor_override"				"White"
 		"bgcolor_override"				"Black"
-		"disabledFgColor_override" 		"White"
+		"disabledFgColor_override"		"White"
 		"disabledBgColor_override"		"Black"
 		"selectionColor_override" 		"Black"
 		"selectionTextColor_override" 	"White"
@@ -628,7 +628,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -802,12 +802,12 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"	
+			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"LightRed"
 			
@@ -849,7 +849,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"
+			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -915,7 +915,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"nextexplanation"
+			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -954,7 +954,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1024,7 +1023,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -1071,14 +1070,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"
+			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override"		"LightRed"
+			"depressedFgColor_override"	"TanDarker"
+			"image_drawcolor"			"NeutralWhite"
+			"image_armedcolor"			"White"
 			
 			"SubImage"
 			{
@@ -1118,14 +1117,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"nextexplanation"
+			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"	
-			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override"		"LightRed"
+			"depressedFgColor_override"	"TanDarker"
+			"image_drawcolor"			"NeutralWhite"
+			"image_armedcolor"			"White"
 			
 			"SubImage"
 			{
@@ -1690,14 +1689,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override"		"LightRed"
+			"depressedFgColor_override"	"TanDarker"
+			"image_drawcolor"			"TextColor"
+			"image_armedcolor"			"LightRed"
 			
 			"SubImage"
 			{
@@ -1737,14 +1736,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"
+			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override"	"TanDarker"
+			"image_drawcolor"			"NeutralWhite"
+			"image_armedcolor"			"White"
 			
 			"SubImage"
 			{
@@ -1784,14 +1783,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"nextexplanation"
+			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_drawcolor"			"NeutralWhite"
+			"image_armedcolor"			"White"
 			
 			"SubImage"
 			{
@@ -1911,14 +1910,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
+			"defaultFgColor_override"	"TanDarker"
+			"armedFgColor_override"		"LightRed"
+			"depressedFgColor_override"	"TanDarker"
+			"image_drawcolor"			"TextColor"
+			"image_armedcolor"			"LightRed"
 			
 			"SubImage"
 			{
@@ -1958,14 +1957,14 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"
+			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
+			"defaultFgColor_override" 	"TanDarker"
+			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_drawcolor"			"NeutralWhite"
+			"image_armedcolor"			"White"
 			
 			"SubImage"
 			{

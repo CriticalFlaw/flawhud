@@ -490,7 +490,6 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -502,7 +501,6 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"loadout_round_rect"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -672,7 +670,7 @@ Scheme
 		OptionsCategoryBorder
 		{
 			"inset" "0 0 0 0"
-			Bottom	// This border is used just to create a horizontal line, so it only has a bottom border
+			Bottom
 			{
 				"1"
 				{
@@ -708,8 +706,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Grey"
 			"image"					"backpack_rect_mouseover_color"
+			"color"					"Grey"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -748,7 +746,7 @@ Scheme
 					"color" "60 54 53 255"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
 		
 		LoadoutItemPopupBorder
@@ -837,7 +835,7 @@ Scheme
 			}
 		}
 		
-		// Standard ------------------------------------------------------------------------------------------------		
+		// Standard ------------------------------------------------------------------------------------------------
 		BackpackItemBorder
 		{
 			"inset" "0 0 0 0"
@@ -3071,7 +3069,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		//*********************************************
 		BackpackItemBorder_RarityAncient
 		{
@@ -3569,32 +3567,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -3606,8 +3604,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"TanDark"
-					"offset" 	"1 0"
+					"color"		"TanDark"
+					"offset"	"1 0"
 				}
 			}
 		}
@@ -3619,15 +3617,15 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3635,7 +3633,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3643,7 +3641,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3764,7 +3762,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		
 		BlueWithThinBorder
@@ -3775,7 +3773,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		
 		InnerShadowBorder

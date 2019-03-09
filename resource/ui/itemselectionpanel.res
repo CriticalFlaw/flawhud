@@ -147,9 +147,9 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"		"TanLight"
-		"bgcolor_override"		"Black"
-		"paintbackgroundtype" 	"2"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"Black"
+		"paintbackgroundtype" "2"
 	}
 	
 	"TopLine"
@@ -427,7 +427,7 @@
 		"fieldName"		"Wall"
 		"xpos"			"0"
 		"ypos"			"50"
-		"zpos"			"-5"		
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"280"
 		"autoResize"	"0"

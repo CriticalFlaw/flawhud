@@ -109,12 +109,12 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"170 221 183 255"
 
 			"armedBgColor_override"		"Transparent"
 			"defaultBgColor_override"	"Transparent"
-
-			"image_drawcolor"			"TanLight"
-			"image_armedcolor"			"170 221 183 255"
 
 			"SubImage"
 			{
@@ -453,7 +453,7 @@
 					"image"			"replay/thumbnails/close"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
-				}			
+				}
 			}		
 		}
 
@@ -574,7 +574,7 @@
 			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"Command"		"Quit"
+			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"mouseinputenabled"	"1"
@@ -626,7 +626,6 @@
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"
@@ -636,15 +635,15 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-
+			"textinsetx"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" 	"White"
-			"armedFgColor_override" 	"White"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
 			"image_drawcolor"			"White"
 			"image_armedcolor"			"White"
 
@@ -692,15 +691,14 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"170 221 183 155"
 			"defaultBgColor_override"	"170 221 183 55"
 
-			"defaultFgColor_override" 	"White"
-			"armedFgColor_override" 	"White"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
 			"image_drawcolor"			"White"
 			"image_armedcolor"			"White"
 
@@ -747,16 +745,15 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-			"textinsetx"	"0"
-
+			"textinsetx"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" 	"White"
-			"armedFgColor_override" 	"White"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
 			"image_drawcolor"			"White"
 			"image_armedcolor"			"White"
 

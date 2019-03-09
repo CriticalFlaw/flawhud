@@ -17,8 +17,9 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override" 		"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
+		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
@@ -30,16 +31,16 @@
 			"paintborder"			"1"
 			"bgcolor_override"		"Grey"
 			
-			"model_xpos"	"0"
+			"model_xpos"		"0"
 			"model_center_y"	"1"
-			"model_tall"	"160"
-			"model_wide"	"240"
+			"model_tall"		"160"
+			"model_wide"		"240"
 			
 			"text_forcesize"	"1"
-			"text_xpos"		"250"
-			"text_wide"		"225"
-			"text_center"	"1"
-			"is_mouseover"	"1"
+			"text_xpos"			"250"
+			"text_wide"			"225"
+			"text_center"		"1"
+			"is_mouseover"		"1"
 			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
@@ -273,7 +274,7 @@
 		"defaultBgColor_override" "TextColor"
 		"armedBgColor_override" "TFOrange"
 		"depressedBgColor_override" "TextColor"
-		"image_drawcolor"	"White"	
+		"image_drawcolor"	"White"
 		"image_armedcolor"	"White"		
 		
 		"SubImage"

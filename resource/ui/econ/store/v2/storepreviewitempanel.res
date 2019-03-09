@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
@@ -93,9 +93,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"		"PanelBorder"
+		"border"			"PanelBorder"
 		"bgcolor_override"	"DarkGrey"
-		"PaintBorder"	"1"
+		"PaintBorder"		"1"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"

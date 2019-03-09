@@ -26,6 +26,7 @@
 		"stats_width"		"30"
 		"killstreak_width"	"20"
 		"killstreak_image_width" "15"
+		
 		if_mvm
 		{
 			"tall"		"380"
@@ -45,16 +46,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../hud/color_panel_blu"
 		"src_corner_height"		"12"
 		"src_corner_width"		"12"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
-	
+		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	
@@ -215,10 +216,10 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 255"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedScoreBG"
 	{
@@ -237,12 +238,12 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 200"
 		
-	 	if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
-
+	
 	"RedTeamName"
 	{
 		"ControlName"		"CExLabel"
@@ -289,7 +290,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"RedTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -314,17 +315,17 @@
 	}
 	"ServerBackground"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerBackground"
-		"xpos"			"5"
-		"ypos"			"66"
-		"zpos"			"-1"
-		"wide"			"290"
-		"tall"			"11"
-		"visible"		"1"
-		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ServerBackground"
+		"xpos"				"5"
+		"ypos"				"66"
+		"zpos"				"-1"
+		"wide"				"290"
+		"tall"				"11"
+		"visible"			"1"
+		"enabled"			"1"
+		"pinCorner"			"0"
+		"autoResize"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"40 40 40 255"
@@ -334,7 +335,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"ServerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -357,7 +358,7 @@
 			"ypos"			"74"
 			"zpos"			"5"
 			"visible"		"1"
-			"textAlignment"		"West"
+			"textAlignment"	"West"
 		}
 	}
 	"TimeBackground"
@@ -444,10 +445,10 @@
 		"linespacing"	"15"
 		"textcolor"		"red"
 		
- 		if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Spectators"
 	{
@@ -471,7 +472,7 @@
 			"ypos"		"428"
 		}
 	}
-
+	
 	"SpectatorsInQueue"
 	{
 		"ControlName"	"CExLabel"
@@ -496,7 +497,7 @@
 	}
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"5"
 		"ypos"			"280"
@@ -522,7 +523,7 @@
 	
 	"ClassImage"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -532,7 +533,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 		
 		if_mvm
 		{
@@ -544,7 +545,6 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
@@ -554,7 +554,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
@@ -683,7 +682,7 @@
 	}
 	"PlayerNameBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerNameBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -703,11 +702,11 @@
 	}
 	"PlayerNameLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
 		"font"			"FontRegular10"
 		"labelText"		"%playername%"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -723,13 +722,14 @@
 			"visible"		"1"
 		}
 	}
+	
 	"ServerLabelNew"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabelNew"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -762,7 +762,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-			
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -770,7 +770,7 @@
 	}
 	"HorizontalLine"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -1024,38 +1024,38 @@
 		}
 	}
 	
-		"Separator"
+	"Separator"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Sepataror"
+		"font"			"FontBold37"
+		"labelText"		":"
+		"textAlignment"	"center"
+		"xpos"			"58"
+		"ypos"			"286"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		
+		if_mvm
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Sepataror"
-			"font"			"FontBold37"
-			"labelText"		":"
-			"textAlignment"	"center"
-			"xpos"			"58"
-			"ypos"			"286"
-			"zpos"			"3"
-			"wide"			"20"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
-					
-			if_mvm
-			{
-				"visible"		"1"
-				"enabled"		"1"
-				"xpos"			"290"
-				"ypos"			"245"
-				"wide"			"270"
-				"tall"			"40"
-			}
+			"xpos"			"290"
+			"ypos"			"245"
+			"wide"			"270"
+			"tall"			"40"
 		}
+	}
 
 	"LocalPlayerStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"282"
@@ -1074,7 +1074,7 @@
 			"wide"			"270"
 			"tall"			"132"
 		}
-
+		
 		"KillsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1139,10 +1139,9 @@
 				"ypos"			"0"
 				"wide"			"130"
 				"tall"			"40"
-
 			}
 		}
-
+		
 		"DeathsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1301,8 +1300,8 @@
 				"wide"			"115"
 				"textAlignment"	"east"
 			}
-		}	
-
+		}
+		
 		"DestructionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1370,7 +1369,7 @@
 				"visible"		"0"
 			}
 		}
-
+		
 		"CapturesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1438,7 +1437,7 @@
 				"visible"		"0"
 			}
 		}
-
+		
 		"DefensesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1565,6 +1564,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
 			if_mvm
 			{
 				"visible"	"0"
@@ -1587,6 +1587,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
 			if_mvm
 			{
 				"visible"		"0"
@@ -1630,6 +1631,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
 			if_mvm
 			{
 				"visible"		"0"
@@ -1651,6 +1653,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
 			if_mvm
 			{
 				"font"			"FontRegular12"
@@ -2149,7 +2152,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
+			
 			if_mvm
 			{
 				"font"			"FontRegular12"

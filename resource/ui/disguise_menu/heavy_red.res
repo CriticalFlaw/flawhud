@@ -35,7 +35,7 @@
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_scout_red"
 	}
-
+	
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,7 +51,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-
+	
 	"NewNumberLabel"
 	{	
 		"ControlName"		"CExLabel"

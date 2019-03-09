@@ -82,10 +82,11 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectate"
 		"font"			"FontBold18"
-		"defaultFgColor_override" 	"255 255 255 128"
+		
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"White"
 	}
 	
 	"BlueTeamBG"
@@ -136,11 +137,11 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"FontBold18"
-
-		"defaultFgColor_override" 	"255 255 255 128"
+		
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"White"
 	}
 	
 	"RedTeamBG"

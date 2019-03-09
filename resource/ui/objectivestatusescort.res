@@ -95,7 +95,7 @@
 	"ProgressBar"
 	{
 		"ControlName"		"CTFHudEscortProgressBar"
-		"fieldName"			"ProgressBar"	
+		"fieldName"			"ProgressBar"
 		"xpos"				"c-60"
 		"ypos"				"131"
 		"zpos"				"10"
@@ -541,7 +541,6 @@
 				
 				"if_multiple_trains"
 				{
-					
 				}
 			}
 

@@ -7,7 +7,7 @@
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"#TF_Class_Name_Sniper"
 	}
-
+	
 	"NewNumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"

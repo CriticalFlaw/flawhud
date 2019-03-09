@@ -45,7 +45,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-
+	
 	"SelectTeamLabel"
 	{
 		"ControlName"	"Label"
@@ -115,9 +115,9 @@
 			"enabled"		"1"
 			"bgcolor_override"	"DarkBlue"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
-
+	
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -139,7 +139,7 @@
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"FontBold18"
-
+		
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -173,7 +173,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-
+	
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -201,7 +201,7 @@
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
 	}
-
+	
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -236,14 +236,14 @@
 		"fieldName"		"teambuttonBG"
 		"xpos"			"c-100"
 		"ypos"			"c0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -259,7 +259,7 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 7"
 	}
-
+	
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -280,7 +280,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-
+	
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -301,7 +301,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-
+	
 	"TeamsFullLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -323,7 +323,7 @@
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
-
+	
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -349,7 +349,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

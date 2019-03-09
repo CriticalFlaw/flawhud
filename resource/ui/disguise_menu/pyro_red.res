@@ -6,7 +6,7 @@
 	{
 		"labelText"			"#TF_Class_Name_Pyro"
 	}
-
+	
 	"NewNumberLabel"
 	{
 		"labelText"			"3"

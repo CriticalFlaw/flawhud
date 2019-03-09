@@ -48,7 +48,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Center"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}

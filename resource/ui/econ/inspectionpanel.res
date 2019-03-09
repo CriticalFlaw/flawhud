@@ -606,10 +606,10 @@
 			"actionsignallevel" 	"2"
 			"RoundedCorners"		"0"
 			
-			"defaultfgcolor_override"	"White"
-			"defaultbgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
-			"selectedbgcolor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

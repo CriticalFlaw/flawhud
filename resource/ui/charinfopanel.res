@@ -135,11 +135,11 @@
 			"textinsetx"		"40"
 			"font"				"FontBold18"
 			"selectedcolor"		"White"
-			"unselectedcolor"	"TanDark"	
+			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"
 			"activeborder_override"		"ButtonDepressedBorder"
-			"normalborder_override" 	"ButtonDepressedBorder"
+			"normalborder_override"		"ButtonDepressedBorder"
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"DarkGrey"
 		}
