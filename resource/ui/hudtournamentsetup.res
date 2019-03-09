@@ -56,7 +56,7 @@
 		"selectionTextColor_override" 	"Black"		
 		"labelText"				"%teamname%"
 		"textAlignment"			"west"
-		"font"					"CodeBold14"
+		"font"					"FontBold14"
 	}
 
 	"HudTournamentNameBG"
@@ -85,7 +85,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"fgcolor"		"Red"
 
 		"defaultBgColor_override"	"Blank"
@@ -115,7 +115,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"fgcolor"		"FooterBGBlack"
 
 		"defaultBgColor_override"	"Blank"

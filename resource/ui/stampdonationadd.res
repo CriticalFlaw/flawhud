@@ -25,7 +25,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold18"
+		"font"				"FontBold18"
 		"labelText"			"#ConfirmTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -56,7 +56,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"ExplanationLabel2"
@@ -76,7 +76,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"ItemImagePanel"
@@ -125,7 +125,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_Nope"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -150,7 +150,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_AddToCart"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -164,7 +164,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PriceLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"labelText"			"%price%"
 		"textAlignment"		"north-east"
 		"xpos"				"345"

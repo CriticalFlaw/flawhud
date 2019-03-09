@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeBold22Outline"
+		"font"			"FontBold22"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -77,6 +77,33 @@
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"FontBold22"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
+		"fgcolor"		"ShadowBlack"
+		"proportionaltoparent"	"1"
 
 		if_readymode
 		{
@@ -255,7 +282,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"CodeBold22"
+		"delta_item_font"		"FontBold22"
 
 		if_match
 		{
@@ -265,14 +292,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"CodeBold14"
+			"delta_item_font"		"FontBold14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"fgcolor"		"White"
 			"xpos"			"27"
 			"ypos"			"2"
@@ -288,7 +315,7 @@
 			{
 				"xpos"			"23"
 				"ypos"			"9"
-				"font"			"CodeBold14"
+				"font"			"FontBold14"
 			}
 		}	
 	}

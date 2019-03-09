@@ -35,7 +35,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CodeBold22Outline"
+		"font"				"FontBold22Outline"
 		"fgcolor"			"ChargePercent"
 	}
 	
@@ -75,7 +75,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"fgcolor"			"150 150 150 255"
 	}
 	

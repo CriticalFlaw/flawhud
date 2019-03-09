@@ -123,7 +123,7 @@
 			"tall"			"35"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override"	"Transparent"
 		}
 	}

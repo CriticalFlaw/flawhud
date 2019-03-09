@@ -63,7 +63,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -107,7 +107,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -158,7 +158,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"textAlignment"	"west"
-			"font"			"LightGravity10"
+			"font"			"FontRegular10"
 			"mouseinputenabled"	"0"
 		}
 
@@ -174,7 +174,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"CodeLC12"
+			"font"			"FontRegular12"
 			"fgcolor_override"	"TanDark"
 			"mouseinputenabled"	"1"
 		}

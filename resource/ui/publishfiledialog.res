@@ -83,7 +83,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 	}
 
 	"LabelPreview"	
@@ -104,7 +104,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 
 	"PreviewImageBorder"
@@ -141,7 +141,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"wrap"			"1"
-			"font"			"CodeBold12"
+			"font"			"FontRegular12"
 		}
 	}
 
@@ -176,7 +176,8 @@
 		"wrap"				"0"
 		"Command"			"PreviewBrowse"
 		"Default"			"1"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
+		"border_default"	"WhiteBorder"
 	}
 
 	"LabelTitle"
@@ -197,7 +198,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 
 	"FileTitle"
@@ -221,7 +222,7 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype" 	"2"
-		"font"					"CodeBold12"
+		"font"					"FontBold12"
 	}
 		
 	"LabelDesc"
@@ -242,7 +243,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 	"FileDesc"
 	{
@@ -265,7 +266,7 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype" 	"2"
-		"font"					"CodeBold12"
+		"font"					"FontBold12"
 	}
 
 	"LabelSourceFile"
@@ -286,7 +287,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 	
 	"SourceFile"
@@ -308,7 +309,7 @@
 		"maxchars"			"256"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 
 	"ButtonSourceCosmetics"
@@ -331,7 +332,7 @@
 		"wrap"				"0"
 		"Command"			"MainFileCosmetics"
 		"Default"			"1"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 
 		"SubImage"
 		{
@@ -367,7 +368,8 @@
 		"wrap"				"0"
 		"Command"			"MainFileOther"
 		"Default"			"1"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
+		"border_default"	"WhiteBorder"
 	}
 
 	"ButtonSourceMaps"
@@ -390,7 +392,8 @@
 		"wrap"				"0"
 		"Command"			"MainFileMaps"
 		"Default"			"1"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
+		"border_default"	"WhiteBorder"
 
 		"SubImage"
 		{
@@ -424,7 +427,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"1"
-		"font"				"CodeLC10"
+		"font"				"FontRegular10"
 		"fgcolor_override"	"White"
 	}
 
@@ -446,7 +449,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 	}
 
 	"ClassUsagePanel"
@@ -1204,7 +1207,8 @@
 		"wrap"				"0"
 		"Command"			"Close"
 		"Default"			"0"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
+		"border_default"	"WhiteBorder"
 	}
 
 	"ButtonPublish"
@@ -1227,6 +1231,7 @@
 		"wrap"				"0"
 		"Command"			"Publish"
 		"Default"			"1"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
+		"border_default"	"WhiteBorder"
 	}
 }

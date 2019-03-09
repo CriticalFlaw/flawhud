@@ -56,7 +56,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"LightGravity14"
+		"font"			"FontRegular14"
 		"dropshadow"	"1"
 		"xpos"			"0"
 		"ypos"			"0"

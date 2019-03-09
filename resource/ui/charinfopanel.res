@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"27 27 27 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"LightGravity24"
+		"title_font"	"FontRegular24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"HudOffWhite"
@@ -133,7 +133,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"CodeBold18"
+			"font"				"FontBold18"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"DarkGrey"
@@ -160,7 +160,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

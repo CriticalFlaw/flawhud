@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"CodeLC8"
+		"font"			"FontRegular8"
 		"labelText"		"%display_name%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -114,7 +114,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabelShadow"
-		"font"			"CodeLC8"
+		"font"			"FontRegular8"
 		"labelText"		"%display_name%"
 		"textAlignment"	"center"
 		"textinsety"	"-1"

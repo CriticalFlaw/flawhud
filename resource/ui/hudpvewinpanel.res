@@ -41,7 +41,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"xpos"			"2"
 			"ypos"			"-1"
 			"wide"			"295"

@@ -12,7 +12,6 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -29,10 +28,10 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"ItemBG"
+		"ItemBackground"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
+			"fieldName"		"ItemBackground"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
@@ -57,8 +56,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"LightGravity9"
-			"fgcolor"		"White"
+			"font"			"FontRegular9"
 			"xpos"			"5"
 			"ypos"			"5"
 			"zpos"			"1"
@@ -111,8 +109,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"LightGravity10"
-			"fgcolor"		"White"
+			"font"			"FontRegular10"
 			"xpos"			"48"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -150,8 +147,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"LightGravity10"
-			"fgcolor"		"White"
+			"font"			"FontRegular10"
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"5"

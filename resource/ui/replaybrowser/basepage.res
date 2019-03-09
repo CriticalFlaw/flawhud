@@ -38,7 +38,7 @@
 		"tabPosition"		"0"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
-		"Font"				"CodeBold14"
+		"Font"				"FontBold14"
 	}
 
 	"ReplayList"
@@ -53,7 +53,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 		"autohide_scrollbar" "1"
 	}
 }

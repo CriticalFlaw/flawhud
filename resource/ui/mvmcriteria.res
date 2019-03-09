@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"labelText"		"#TF_MvM_TourOfDuty"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"DifficultyLabel"
-			"font"			"CodeBold10"
+			"font"			"FontBold10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 			"xpos"			"189"
@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"CodeBold10"
+			"font"			"FontBold10"
 			"labelText"		"Completed"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
@@ -64,7 +64,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"CodeBold8"
+			"font"			"FontBold8"
 			"labelText"		"#TF_MvM_TourNumber"
 			"textAlignment"	"south-west"
 			"xpos"			"345"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootTitle"
-			"font"			"CodeBold18"
+			"font"			"FontBold18"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -185,7 +185,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"CodeLC12"
+			"font"			"FontRegular12"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"InventoryTitleLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
 			"xpos"			"8"
@@ -259,7 +259,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -302,7 +302,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -331,7 +331,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"labelText"		"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"	"south-west"
 			"wrap"			"1"
@@ -442,7 +442,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MissingTicketsLabel"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"	"south-west"
@@ -562,7 +562,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"labelText"		"%tour_name%"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -577,7 +577,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
 			"xpos"			"270"
@@ -608,7 +608,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"CodeBold18"
+			"font"			"FontBold18"
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
 			"xpos"			"357"

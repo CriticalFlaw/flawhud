@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"CodeLC15"
+		"font"				"HudFontSmall"
 		"labelText"			"#CraftAskNameConfirm"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -152,7 +152,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -172,7 +172,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WarningLabel"
-		"font"				"CodeLC15"
+		"font"				"HudFontSmall"
 		"labelText"			"#CraftAskNameWarning"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -202,7 +202,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -227,7 +227,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

@@ -32,7 +32,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HeaderLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"labelText"			"%waveheader%"
 		"textAlignment"	 	"center"
 		"xpos"				"c-275"

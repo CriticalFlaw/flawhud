@@ -25,7 +25,6 @@
 	{
 		"label"			""
 		"command"		"engine itemtest"
-		"tooltip"		"Favorite Server"
 	}
 
 	// BOTTOM ROW BUTTONS

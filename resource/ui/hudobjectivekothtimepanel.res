@@ -31,14 +31,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"LightGravity14"
+			"delta_item_font"		"FontRegular14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TimePanelValue"
-			"font"					"CodeBold22"
+			"font"					"FontBold22"
 			"fgcolor"				"HUDBlueTeam"
 			"xpos"					"3"
 			"ypos"					"2"
@@ -53,7 +53,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"CodeBold14"
+				"font"			"FontBold14"
 				"xpos"			"13"
 				"ypos"			"9"
 				"tall"			"15"
@@ -85,14 +85,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"LightGravity14"
+			"delta_item_font"		"FontRegular14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"fgcolor"		"HUDRedTeam"
 			"xpos"			"3"
 			"ypos"			"2"
@@ -107,7 +107,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"CodeBold14"
+				"font"			"FontBold14"
 				"xpos"			"rs1-13"
 				"ypos"			"9"
 				"wide"			"35"

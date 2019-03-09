@@ -61,8 +61,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeLC8"
-		"fgcolor"			"White"
+		"font"				"FontRegular8"
 		
 		if_match
 		{
@@ -93,7 +92,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeLC8"
+		"font"				"FontRegular8"
 		
 		if_match
 		{
@@ -125,8 +124,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeLC8"
-		"fgcolor"			"White"
+		"font"				"FontRegular8"
 		
 		if_match
 		{
@@ -157,7 +155,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeLC8"
+		"font"				"FontRegular8"
 		"fgcolor"			"White"
 
 		if_match
@@ -190,8 +188,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CodeLC8"
-		"fgcolor"			"White"
+		"font"				"FontRegular8"
 		
 		if_mvm
 		{

@@ -68,8 +68,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"LightGravity20"
-			"fgcolor"		"White"
+			"font"			"FontRegular20"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"-6"
@@ -91,8 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"CodeBold22"
-			"fgcolor"		"White"
+			"font"			"FontBold22"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"-6"
@@ -113,7 +111,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
@@ -135,8 +133,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"LightGravity20"
-			"fgcolor"		"White"
+			"font"			"FontRegular20"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"-6"
@@ -158,8 +155,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"CodeBold22"
-			"fgcolor"		"White"
+			"font"			"FontBold22"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"-6"
@@ -180,7 +176,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
@@ -274,7 +270,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"xpos"			"10"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -314,7 +310,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"LosingTeamLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"xpos"			"10"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -353,7 +349,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"xpos"			"10"
 		"ypos"			"51"
 		"zpos"			"1"
@@ -408,7 +404,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"10"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -427,7 +423,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"200"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -446,7 +442,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"245"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -465,7 +461,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"285"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -484,7 +480,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"325"
 		"ypos"			"64"
 		"zpos"			"3"

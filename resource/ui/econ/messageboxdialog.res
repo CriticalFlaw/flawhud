@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"CodeBold18"
+		"font"			"FontBold18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

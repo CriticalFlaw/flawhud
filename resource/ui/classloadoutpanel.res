@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-120"
@@ -234,7 +234,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -314,7 +314,7 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
@@ -328,9 +328,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"keyboardinputenabled"	"0"
 		"paintbackground"	"1"
-		"border_default"			""
-		"border_armed"				""
-		"border_depressed"			""
 	}
 	
 	"BlueButton"
@@ -349,7 +346,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
@@ -364,9 +361,6 @@
 		
 		"keyboardinputenabled"	"0"
 		"paintbackground"		"1"
-		"border_default"		""
-		"border_armed"			""
-		"border_depressed"		""
 	}
 	
 	"CharacterLoadoutButton"

@@ -4,21 +4,21 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NotBuiltLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"UnavailableLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 }

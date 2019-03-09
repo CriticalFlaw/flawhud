@@ -21,16 +21,16 @@
 	
 	"DestroyIcon"
 	{
-		"iconColor"			"NeonGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"CancelLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 }

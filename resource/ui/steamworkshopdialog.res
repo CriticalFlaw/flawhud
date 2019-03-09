@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
+		"border"			"WhiteBorder"
 	}
 
 	"Container"
@@ -57,7 +58,7 @@
 			"ypos"			"12"
 			"zpos"			"0"
 			"wide"			"575"
-			"tall"			"275"
+			"tall"			"293"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"workshop_branding"
@@ -101,7 +102,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"CodeBold22"
+				"font"			"FontBold22"
 				"labelText"		"#TF_SteamWorkshop_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -151,11 +152,13 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_LearnHow"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"Command"		"learn_more"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
+				"border_armed"		"WhiteBorder"
 			}
 		}
 
@@ -175,7 +178,8 @@
 			"tabPosition"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"				"WhiteBorder"
+			"paintborder"			"0"
+			"border"				"NoBorder"
 
 			"TitleLabel"
 			{
@@ -259,7 +263,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"<"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -272,7 +276,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"labelText"		"%page%"
 				"textAlignment"	"center"
 				"xpos"			"460"
@@ -284,7 +288,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "200 80 60 255"
+				"fgcolor_override" "LightRed"
 			}
 			
 			"NextPageButton"
@@ -302,7 +306,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -326,7 +330,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_ViewPublished"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"textinsetx"	"50"
 				"dulltext"		"0"
@@ -334,6 +338,7 @@
 				"Command"		"view_files"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
 			}
 		
 			"EditButton"
@@ -351,7 +356,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -360,6 +365,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"
@@ -395,7 +401,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -403,7 +409,8 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
-				"command"			"view"				
+				"command"			"view"	
+				"border_default"	"WhiteBorder"			
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"
@@ -439,7 +446,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -448,6 +455,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"
@@ -484,11 +492,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"LoadTestMapButton"
@@ -506,11 +515,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Test"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"Command"		"itemtest"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"PublishButton"
@@ -528,11 +538,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Publish"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"LearnMore2Button"
@@ -550,11 +561,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Instructions"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"ViewLegalAgreementButton"
@@ -572,7 +584,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Legal"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -580,6 +592,7 @@
 			"Command"		"view_legal_agreement"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"CancelButton"
@@ -597,7 +610,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"Close"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -605,6 +618,7 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 	}
 }

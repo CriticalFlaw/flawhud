@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -151,7 +151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"CodeLC14"
+			"font"			"FontRegular14"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -191,6 +191,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	
 		"OkButton"
@@ -217,6 +219,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	}
 }

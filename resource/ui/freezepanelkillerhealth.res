@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labeltext"		"%Health%"
 	}
 
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}

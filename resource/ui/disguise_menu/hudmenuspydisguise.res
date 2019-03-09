@@ -20,7 +20,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"3"
@@ -40,7 +40,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -65,7 +65,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToggleLabel"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"xpos"				"0"
 		"ypos"				"77"
 		"zpos"				"2"
@@ -85,7 +85,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
-		"font"				"LightGravity9"
+		"font"				"FontRegular9"
 		"xpos"				"9999"
 		"ypos"				"9999"
 		"zpos"				"2"
@@ -356,7 +356,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"fgcolor"			"White"
 		"xpos"				"10"
 		"ypos"				"41"
@@ -393,7 +393,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"fgcolor"			"White"
 		"xpos"				"65"
 		"ypos"				"41"
@@ -430,7 +430,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"fgcolor"			"White"
 		"xpos"				"133"
 		"ypos"				"41"

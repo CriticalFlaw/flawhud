@@ -12,14 +12,14 @@
 		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"			"PanelBorder"
+		"border"				"WhiteBorder"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"#TF_Item_SelectStyle"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -112,7 +112,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -120,6 +120,8 @@
 		"Command"			"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"OkButton"
@@ -137,7 +139,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_OK"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -145,5 +147,7 @@
 		"Command"			"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 }

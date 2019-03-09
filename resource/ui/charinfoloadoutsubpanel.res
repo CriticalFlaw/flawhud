@@ -94,7 +94,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleScout"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Scout"
 		"textAlignment"	"center"
 		"xpos"			"c-315"
@@ -174,7 +174,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleSoldier"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Soldier"
 		"textAlignment"	"center"
 		"xpos"			"c-245"
@@ -254,7 +254,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitlePyro"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Pyro"
 		"textAlignment"	"center"
 		"xpos"			"c-175"
@@ -334,7 +334,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleDemoman"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Demoman"
 		"textAlignment"	"center"
 		"xpos"			"c-105"
@@ -414,7 +414,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleHeavy"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Heavy"
 		"textAlignment"	"center"
 		"xpos"			"c-35"
@@ -494,7 +494,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleEngineer"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Engineer"
 		"textAlignment"	"center"
 		"xpos"			"c35"
@@ -574,7 +574,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleMedic"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Medic"
 		"textAlignment"	"center"
 		"xpos"			"c105"
@@ -654,7 +654,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleSniper"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Sniper"
 		"textAlignment"	"center"
 		"xpos"			"c175"
@@ -734,7 +734,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleSpy"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"Spy"
 		"textAlignment"	"center"
 		"xpos"			"c245"
@@ -780,8 +780,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"CodeBold14"
-		"labelText"		"#BackpackTitle"
+		"font"			"FontBold14"
+		"labelText"		"BACKPACK"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -828,8 +828,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"CodeBold14"
-		"labelText"		"#CraftingExplanation_Title"
+		"font"			"FontBold14"
+		"labelText"		"CRAFTING"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -876,8 +876,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"CodeBold14"
-		"labelText"		"Catalog"
+		"font"			"FontBold14"
+		"labelText"		"CATALOG"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -924,8 +924,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"CodeBold14"
-		"labelText"		"#TradingExplanation_Title"
+		"font"			"FontBold14"
+		"labelText"		"TRADING"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -973,7 +973,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"#PaintkitTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -996,7 +996,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"LightGravity14"
+		"font"			"FontRegular14"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"9999"
@@ -1014,7 +1014,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1034,7 +1034,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoSteamLabel"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"labelText"		"#NoSteamNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1053,7 +1053,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoGCLabel"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"labelText"		"#NoGCNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1072,7 +1072,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -1091,7 +1091,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1257,7 +1257,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -1430,7 +1430,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -1651,7 +1651,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -1874,7 +1874,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -2096,7 +2096,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -2318,7 +2318,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}
@@ -2538,7 +2538,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}

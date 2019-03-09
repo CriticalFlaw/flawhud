@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -174,7 +174,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"CodeLC12"
+		"font"			"FontRegular12"
 		"labelText"		"#ToolGiftWrapConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -205,7 +205,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 
 	"CancelButton"
@@ -223,7 +223,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -248,7 +248,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

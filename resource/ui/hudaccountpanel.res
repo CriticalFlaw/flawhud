@@ -8,7 +8,7 @@
 		"PositiveColor"			"G_Overheal"
 		"NegativeColor"			"G_LowAmmo"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"CodeBold22"
+		"delta_item_font"		"FontBold22"
 	}
 	
 	"AccountBG"
@@ -80,7 +80,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 	}
 	
 	"AccountValueShadow"
@@ -101,7 +101,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
 
 		"pin_to_sibling"		"AccountValue"

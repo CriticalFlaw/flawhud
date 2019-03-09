@@ -19,7 +19,6 @@
 		"paintborder"			"1"
 		"paintbackground"		"0"
 		"PaintBackgroundType"	"0"
-		"defaultbgcolor_override"		"208 193 162 255"
 	}
 
 	"DeleteButton"
@@ -56,7 +55,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 
 		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"LightRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -111,7 +110,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"LightRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -166,7 +165,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"LightRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -217,7 +216,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 
 		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"LightRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

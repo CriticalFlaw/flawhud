@@ -48,7 +48,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 	}
 
 	"ItemEffectMeter"
@@ -87,8 +87,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CodeBold22"
-		"fgcolor"			"White"
+		"font"				"FontBold22"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -108,7 +107,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"

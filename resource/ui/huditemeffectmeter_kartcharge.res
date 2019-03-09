@@ -92,7 +92,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
-		"font"					"LightGravity20"
+		"font"					"FontRegular20"
 		"fgcolor"				"ShadowBlack"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"

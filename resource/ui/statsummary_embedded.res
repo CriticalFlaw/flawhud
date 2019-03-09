@@ -248,7 +248,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -332,7 +332,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -349,7 +349,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -451,7 +451,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -468,7 +468,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -570,7 +570,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -587,7 +587,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -689,7 +689,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -706,7 +706,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -808,7 +808,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -825,7 +825,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -927,7 +927,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -944,7 +944,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1046,7 +1046,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1165,7 +1165,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1182,7 +1182,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1284,7 +1284,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1301,7 +1301,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1349,7 +1349,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"

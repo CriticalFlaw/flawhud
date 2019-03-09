@@ -55,9 +55,9 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"25"
-		"labelText"		"SELECT A TEAM"
+		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -83,7 +83,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"CodeBold18"
+		"font"			"FontBold18"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -138,7 +138,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"CodeBold18"
+		"font"			"FontBold18"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -188,13 +188,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1  Auto-Join"	[$WIN32]
+		"labelText"		"&1  Auto-Join"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -222,7 +222,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -277,7 +277,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 
@@ -298,7 +298,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 
@@ -319,7 +319,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
@@ -341,7 +341,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 		

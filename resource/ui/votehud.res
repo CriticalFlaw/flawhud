@@ -559,7 +559,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"CodeBold18"
+			"font"				"FontBold18"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"0"
@@ -611,7 +611,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"ComboLabel"
-			"font"				"CodeLC8"
+			"font"				"FontRegular8"
 			"labelText"			"%combo_label%"
 			"textAlignment"		"east"
 			"xpos"				"5"
@@ -629,7 +629,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"CodeLC10"
+			"Font"				"FontRegular10"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -674,7 +674,7 @@
 			"brighttext"		"0"
 			"Command"			"CallVote"
 			"Default"			"0"
-			"font"				"CodeBold12"
+			"font"				"FontBold12"
 		}
 		"Button1"
 		{
@@ -695,7 +695,7 @@
 			"brighttext"		"0"
 			"Command"			"Close"
 			"Default"			"0"
-			"font"				"CodeBold12"
+			"font"				"FontBold12"
 		}
 	}
 }

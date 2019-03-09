@@ -42,7 +42,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"CodeBold20"
+		"font"			"FontBold20"
 		"xpos"			"75"
 		"ypos"			"30"
 		"zpos"			"1"
@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"xpos"			"75"
 		"ypos"			"75"
 		"zpos"			"1"

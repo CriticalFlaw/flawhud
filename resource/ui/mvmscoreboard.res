@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PopFileLabel"
-		"font"				"CodeLC8"
+		"font"				"FontRegular8"
 		"labelText"			"%popfile%"
 		"textAlignment"		"East"
 		"xpos"				"-25"
@@ -134,7 +134,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -203,7 +203,7 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"TanLight"
 		}
 	}
 }

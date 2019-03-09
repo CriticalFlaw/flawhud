@@ -357,7 +357,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -698,7 +698,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"CodeLC12"
+		"font"			"FontRegular12"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -716,7 +716,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-300"

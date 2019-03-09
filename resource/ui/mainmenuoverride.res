@@ -42,7 +42,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"0"
 				"use_proportional_insets" "1"
-				"font"			"LightGravity12"
+				"font"			"FontRegular12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -268,7 +268,7 @@
 		"textinsetx"	"25"
 		"labelText"		""
 		"use_proportional_insets" "1"
-		"font"			"CodeLC8"
+		"font"			"FontRegular8"
 		"command"		"open_rank_type_menu"
 		"textAlignment"	"west"
 		"dulltext"		"0"
@@ -411,7 +411,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"LightGravity9"
+			"font"			"FontRegular9"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -431,7 +431,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"LightGravity9"
+			"font"			"FontRegular9"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -493,7 +493,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Notifications_CountLabel"
-			"font"				"LightGravity10"
+			"font"				"FontRegular10"
 			"labelText"			"%noticount%"
 			"textAlignment"		"center"
 			"xpos"				"11"
@@ -529,9 +529,7 @@
 			"brighttext"		"0"
 			"default"			"1"
 			"actionsignallevel" "2"
-			
 			"Command"			"noti_show"
-			"navActivate"		"QuickplayButton"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -729,11 +727,9 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"actionsignallevel" "2"
+			
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
@@ -793,7 +789,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c60"
+		"xpos"			"c180"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"210"
@@ -819,7 +815,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"LightGravity12"
+			"font"			"FontRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -855,7 +851,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -923,7 +919,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"
@@ -1043,7 +1039,7 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
+		"command"		"engine play vo/heavy_battlecry02.mp3"
 	}
 	
 	"TFCharacterImage"
@@ -1064,9 +1060,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"labelText"		"FlawHUD v2018.0220"
-		"xpos"			"r82"
+		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
@@ -1074,7 +1070,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"		"east"
 		"fgcolor_override"	"White"
 	}
 	
@@ -1102,7 +1097,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"textAlignment"	"west"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
@@ -1117,7 +1112,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
+			"armedFgColor_override"   "HoverWhite"
 			"depressedFgColor_override" "75 125 255 255"
 
 			"image_drawcolor"	"0 0 0 175"
@@ -1164,7 +1159,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1177,7 +1172,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
+			"armedFgColor_override"   "HoverWhite"
 			"depressedFgColor_override" "75 125 255 255"
 
 			"image_drawcolor"	"0 0 0 175"
@@ -1224,7 +1219,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1237,7 +1232,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
+			"armedFgColor_override"   "HoverWhite"
 			"depressedFgColor_override" "75 125 255 255"
 
 			"image_drawcolor"	"0 0 0 175"
@@ -1285,7 +1280,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"10"
 			"use_proportional_insets" "1"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1298,7 +1293,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
+			"armedFgColor_override"   "HoverWhite"
 			"depressedFgColor_override" "75 125 255 255"
 
 			"image_drawcolor"	"0 0 0 175"

@@ -229,7 +229,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -434,7 +434,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"xpos"			"32"
 			"ypos"			"79"
 			"zpos"			"5"
@@ -455,7 +455,6 @@
 				"wide"		"18"
 				"tall"		"10"
 				"textinsetx"	"-10"
-				"textAlignment"	"center"
 			}			
 			
 			"if_multiple_trains_top"
