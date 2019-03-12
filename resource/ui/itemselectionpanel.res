@@ -303,7 +303,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Selection_ShowSelection"
-		"font"			"FontRegular14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

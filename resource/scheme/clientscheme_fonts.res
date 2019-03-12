@@ -2074,7 +2074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"

@@ -2074,7 +2074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"TF2 Secondary"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"

@@ -235,7 +235,13 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-
+	
+	"DashboardDimmer"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
