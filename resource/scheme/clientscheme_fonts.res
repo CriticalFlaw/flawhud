@@ -1723,7 +1723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"weight"		"0"
 				"additive"		"1"
@@ -1734,7 +1734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"

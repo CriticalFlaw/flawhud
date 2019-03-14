@@ -133,6 +133,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
+			"textAlignment"		"center"
 			"font"				"FontBold18"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"

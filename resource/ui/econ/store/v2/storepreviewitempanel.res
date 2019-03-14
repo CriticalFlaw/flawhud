@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"			"PanelBorder"
+		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBorder"		"1"
 		
@@ -1428,7 +1428,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"TryItOutButton"
@@ -1453,7 +1454,8 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"AddToCartButton"
@@ -1478,7 +1480,8 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"mouseoveritempanel"

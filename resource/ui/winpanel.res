@@ -377,7 +377,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
+		"font"			"FontRegular10"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"

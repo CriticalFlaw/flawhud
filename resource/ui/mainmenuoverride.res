@@ -740,7 +740,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"border"				"WhiteBorder"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"27 27 27 250"
 		
 		"Notifications_CloseButton"
 		{

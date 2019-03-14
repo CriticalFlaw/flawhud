@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"FontBold22"
+		"font"			"FontBold20"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-142"
@@ -252,7 +252,7 @@
 		"font"			"FontBold12"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
-		"ypos"			"290"
+		"ypos"			"288"
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"25"
