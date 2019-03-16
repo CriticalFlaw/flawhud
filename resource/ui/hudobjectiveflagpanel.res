@@ -283,7 +283,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"9999"
+		"xpos"			"cs-0.5"
+		"ypos"			"r72"
+		"zpos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+		
+		"if_specialdelivery"
+		{
+			"ypos"		"r82"
+		}
 	}
 	
 	"PlayingTo"
