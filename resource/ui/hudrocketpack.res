@@ -30,6 +30,7 @@
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
 		"scaleImage"	"1"	
+		"visible_minmode"	"0"
 	}
 
 	"ItemEffectMeterLabel"
@@ -52,6 +53,7 @@
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"8"
+		"wide_minmode"	"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -66,11 +68,13 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
-		"xpos"			"55"
+		"xpos"			"40"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"8"
+		"wide_minmode"	"40"
+		"tall_minmode"	"4"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -1005,7 +1005,7 @@
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular10"
 		"labelText"		"FlawHUD v2018.0220"
-		"xpos"			"r55"
+		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
@@ -1013,7 +1013,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"White"
 	}
 	
 	"CharacterSetupButton"
