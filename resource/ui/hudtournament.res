@@ -835,7 +835,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"FontBold22Outline"
+		"font"			"FontBold22"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -865,6 +865,44 @@
 		{
 			"xpos"			"c-20"
 			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"FontBold22"
+		"xpos"			"229"
+		"ypos"			"r54"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"	"center"
+		"fgcolor"		"ShadowBlack"
+		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"xpos"			"c-19"
+		}
+		
+		if_competitive
+		{
+			"xpos"			"cs-0.49"
+			"ypos"			"cs-0.09"
+		}
+
+		if_readymode
+		{
+			"xpos"			"c-19"
+			"ypos"			"129"
 		}
 	}
 }

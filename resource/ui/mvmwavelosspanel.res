@@ -127,7 +127,6 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"MissedCount"
@@ -153,7 +152,6 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BonusCount"
@@ -203,7 +201,6 @@
 			"xpos"			"120"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"TeamLabel"
@@ -216,7 +213,6 @@
 			"xpos"			"175"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackLabel"
@@ -229,7 +225,6 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackCountYou"
@@ -242,7 +237,6 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackCountTeam"
@@ -255,7 +249,6 @@
 			"xpos"			"175"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleLabel"
@@ -268,7 +261,6 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleCountYou"
@@ -281,7 +273,6 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleCountTeam"
@@ -294,7 +285,6 @@
 			"xpos"			"175"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"InactiveLabel"
@@ -307,7 +297,6 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
 		}
 		
 		"InactiveCountYou"
