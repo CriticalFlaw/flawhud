@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"HudBlack"
 
 		if_comp
 		{
@@ -47,6 +47,14 @@
 		{
 			"xpos"			"c-50"
 			"ypos"			"24"
+		}
+		
+		"TimePanelBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimePanelBG"
+			"tall"			"0"
+			"visible"		"0"
 		}
 		
 		"TimePanelValue"
