@@ -810,7 +810,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-180"
-		"ypos"				"r143"
+		"ypos"				"r125"
 		"wide"				"360"
 		"tall"				"132"
 	}
