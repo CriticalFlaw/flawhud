@@ -74,9 +74,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"titleShadow"
-		"xpos"			"c-199"
+		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"-1"
+		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"20"
 		"autoResize"	"0"

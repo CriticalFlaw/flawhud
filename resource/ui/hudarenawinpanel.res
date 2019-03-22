@@ -876,7 +876,7 @@
 	"ArenaWinPanelLosersPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ArenaWinPanelWinnersPanel"
+		"fieldName"		"ArenaWinPanelLosersPanel"
 		"xpos"			"10"
 		"ypos"			"76"
 		"wide"			"340"
