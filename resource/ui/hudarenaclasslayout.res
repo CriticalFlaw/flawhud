@@ -44,7 +44,6 @@
 		"teambg_2"		"../hud/color_panel_brown"
 		"teambg_3"		"../hud/color_panel_brown"
 		"paintborder"	"0"
-		"border"		"WhiteBorder"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -76,8 +75,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"titleShadow"
 		"xpos"			"c-199"
-		"ypos"			"8"
-		"zpos"			"5"
+		"ypos"			"-1"
+		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -88,6 +87,10 @@
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"		"title"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"changeLabel"
@@ -112,8 +115,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"changeLabelShadow"
-		"xpos"			"-1
-		"ypos"			"-1
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"440"
 		"tall"			"20"
