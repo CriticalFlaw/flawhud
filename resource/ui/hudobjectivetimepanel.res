@@ -65,8 +65,8 @@
 		
 		if_match
 		{
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -96,9 +96,8 @@
 		
 		if_match
 		{
-			"xpos"			"29"
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"OvertimeBG"
@@ -128,8 +127,8 @@
 		
 		if_match
 		{
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"SuddenDeathBG"
@@ -145,10 +144,10 @@
 		"fieldName"			"SetupLabel"
 		"xpos"				"28"
 		"ypos"				"16"
-		"zpos"				"5"
+		"zpos"				"15"
 		"wide"				"50"
 		"tall"				"15"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_Setup"
 		"textAlignment"		"center"
@@ -160,9 +159,8 @@
 		
 		if_match
 		{
-			"xpos"			"29"
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"SetupBG"

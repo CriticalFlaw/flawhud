@@ -313,8 +313,10 @@
 
 			if_match
 			{
-				"xpos"			"23"
+				"xpos"			"25"
 				"ypos"			"9"
+				"wide"			"50"
+				"tall"			"14"
 				"font"			"FontBold14"
 			}
 		}	
