@@ -142,6 +142,18 @@ event HudSpyDisguiseFadeOut
 	//Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 }
 //==================================================================================
+
+event HudSnapShotReminderIn
+{
+    RunEvent	DefaultAnimHudSnapShotReminderIn	0.0
+
+    RunEvent	HudHealthDyingPulseStop		0.0
+    RunEvent	HudHealthBonusPulseStop		0.0
+    RunEvent	HudLowAmmoPulseStop		0.0
+    RunEvent	HudMedicChargedStop			0.0
+}
+//==================================================================================
+
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
 event HudTournament_MoveChatWindow 		{ }

@@ -60,7 +60,7 @@
 		"wrap"				"1"
 		"labelText"			"%avatartext%"
 		"textAlignment"		"West"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 	}
 	
 	"TextLabel"
@@ -80,6 +80,6 @@
 		"wrap"				"1"
 		"labelText"			"%text%"
 		"textAlignment"		"West"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 	}
 }
