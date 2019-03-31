@@ -186,7 +186,13 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
+		
+		if_match
+		{
+			"xpos"			"25"
+			"ypos"			"20"
+		}
 		
 		if_mvm
 		{

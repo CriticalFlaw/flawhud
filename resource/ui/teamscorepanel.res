@@ -47,7 +47,7 @@
 		"textAlignment"			"east"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"HUDBlueTeam"
+		"fgcolor_override"		"Blue"
 		
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -195,7 +195,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"west"
 		"visible"				"1"
-		"fgcolor_override"		"HUDRedTeam"
+		"fgcolor_override"		"Red"
 		"auto_wide_tocontents"	"1"
 		
 		"pin_to_sibling"		"TeamScoreRedBG"
