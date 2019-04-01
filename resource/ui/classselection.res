@@ -1007,7 +1007,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"25"
-		"allow_rot"		"0"
+		"allow_rot"		"1"
 		"paintbackground"	"1"
 		"render_texture"	"0"
 		"paintbackgroundenabled" "1"

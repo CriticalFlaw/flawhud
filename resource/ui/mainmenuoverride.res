@@ -1004,7 +1004,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular10"
-		"labelText"		"FlawHUD v2018.0220"
+		"labelText"		"FlawHUD v2019.0401"
 		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
