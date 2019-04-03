@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
-		"xpos"			"40"
+		"xpos"			"55"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"55"
