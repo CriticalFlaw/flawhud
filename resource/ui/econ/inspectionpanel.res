@@ -292,7 +292,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"FontRegular10"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -330,7 +330,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"FontRegular10"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -353,7 +353,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"FontRegular10"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -465,7 +465,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"FontRegular10"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -499,7 +499,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"FontRegular10"
+			"font"			"HudFontSmallest"
 			"xpos"			"8"
 			"ypos"			"75"
 			
@@ -606,10 +606,10 @@
 			"actionsignallevel" 	"2"
 			"RoundedCorners"		"0"
 			
-			"defaultfgcolor_override"	"White"
-			"defaultbgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
-			"selectedbgcolor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

@@ -12,7 +12,7 @@
 		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"			"PanelBorder"
+		"border"				"WhiteBorder"
 	}
 	
 	"TitleLabel"
@@ -33,7 +33,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
+	
 	"preview_model"
 	{		
 		"ControlName"		"CItemModelPanel"
@@ -66,7 +66,7 @@
 			"inventory_image_type" 	"1"
 		}
 	}
-
+	
 	"ComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -96,7 +96,7 @@
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Black"
 	}
-		
+	
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -120,6 +120,8 @@
 		"Command"			"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"OkButton"
@@ -145,5 +147,7 @@
 		"Command"			"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 }

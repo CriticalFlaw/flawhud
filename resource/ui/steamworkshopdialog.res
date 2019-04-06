@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
+		"border"			"WhiteBorder"
 	}
 
 	"Container"
@@ -57,7 +58,7 @@
 			"ypos"			"12"
 			"zpos"			"0"
 			"wide"			"575"
-			"tall"			"275"
+			"tall"			"293"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"workshop_branding"
@@ -156,6 +157,8 @@
 				"Command"		"learn_more"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
+				"border_armed"		"WhiteBorder"
 			}
 		}
 
@@ -175,7 +178,8 @@
 			"tabPosition"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"				"WhiteBorder"
+			"paintborder"			"0"
+			"border"				"NoBorder"
 
 			"TitleLabel"
 			{
@@ -284,7 +288,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "200 80 60 255"
+				"fgcolor_override" "LightRed"
 			}
 			
 			"NextPageButton"
@@ -334,6 +338,7 @@
 				"Command"		"view_files"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
 			}
 		
 			"EditButton"
@@ -360,9 +365,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
-				"image_disabledcolor" 	"Black"
+				"image_disabledcolor"	"Black"
 
 				"SubImage"
 				{
@@ -403,7 +409,8 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
-				"command"			"view"				
+				"command"			"view"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"
@@ -448,6 +455,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
+				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
 				"image_disabledcolor" 	"Black"
@@ -489,6 +497,7 @@
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"LoadTestMapButton"
@@ -511,6 +520,7 @@
 			"Command"		"itemtest"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"PublishButton"
@@ -533,6 +543,7 @@
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"LearnMore2Button"
@@ -555,6 +566,7 @@
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"ViewLegalAgreementButton"
@@ -580,6 +592,7 @@
 			"Command"		"view_legal_agreement"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 
 		"CancelButton"
@@ -605,6 +618,7 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
 		}
 	}
 }
