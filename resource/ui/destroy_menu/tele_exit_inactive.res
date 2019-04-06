@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"LightGravity11"
+		"font"				"FontRegular11"
 		"xpos"				"0"
 		"ypos"				"4"
 		"zpos"				"1"
@@ -14,7 +14,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"#TF_Object_tele_exit_360"
+		"labelText"			"#TF_Object_Tele_Exit_360"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NotBuiltLabel"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"xpos"				"0"
 		"ypos"				"28"
 		"zpos"				"2"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity11"
+		"font"				"FontRegular11"
 		"fgcolor"			"White"
 		"xpos"				"-28"
 		"ypos"				"-5"
@@ -108,7 +108,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"4"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}

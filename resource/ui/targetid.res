@@ -83,7 +83,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"xpos"				"40"
 		"ypos"				"36"
 		"zpos"				"1"
@@ -93,14 +93,13 @@
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"	"White"
 	}
 	
 	"TargetNameLabelShadow"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabelShadow"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -121,7 +120,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"xpos"				"40"
 		"ypos"				"19"
 		"zpos"				"1"
@@ -143,7 +142,7 @@
 		"tall"				"28"
 		"visible"			"0"
 		"enabled"			"0"
-		"HealthBonusPosAdj"			"10"
+		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"		"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -259,7 +258,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"LightGravity10"
+			"font"			"FontRegular10"
 			"xpos"			"0"
 			"ypos"			"35"
 			"zpos"			"1"

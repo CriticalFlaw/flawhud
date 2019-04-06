@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -151,7 +151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"CodeLC14"
+			"font"			"FontRegular14"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"

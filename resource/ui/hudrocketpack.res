@@ -40,7 +40,7 @@
 		"tall"			"8"	
 		"visible"		"0"
 		"labelText"		"#TF_RocketPack_Disabled"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 	}
 
 	"ItemEffectMeter"

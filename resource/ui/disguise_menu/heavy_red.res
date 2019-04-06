@@ -4,7 +4,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -35,7 +35,7 @@
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_scout_red"
 	}
-
+	
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,12 +51,12 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-
+	
 	"NewNumberLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"
@@ -77,7 +77,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"

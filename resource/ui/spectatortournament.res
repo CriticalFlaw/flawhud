@@ -103,7 +103,7 @@
 				"wide"		"78"
 				"tall"		"f0"
 				"visible"	"1"
-				"font"		"LightGravity10"
+				"font"		"FontRegular10"
 				"fgcolor"	"245 245 245 200"
 				"labelText"	"%playername%"
 				"textAlignment"	"west"
@@ -124,7 +124,7 @@
 				"wide"			"78"
 				"tall"			"f0"
 				"visible"		"1"
-				"font"			"LightGravity10"
+				"font"			"FontRegular10"
 				"fgcolor"		"ShadowBlack"
 				"labelText"		"%playername%"
 				"textinsetx"	"6"
@@ -145,7 +145,7 @@
 				"wide"		"78"
 				"tall"		"f0"
 				"visible"	"1"
-				"font"		"LightGravity10"
+				"font"		"FontRegular10"
 				"fgcolor"	"245 245 245 200"
 				"labelText"	"%playername%"
 				"textinsetx"	"6"
@@ -166,7 +166,7 @@
 				"wide"			"78"
 				"tall"			"f0"
 				"visible"		"1"
-				"font"			"LightGravity10"
+				"font"			"FontRegular10"
 				"fgcolor"		"ShadowBlack"
 				"labelText"		"%playername%"
 				"textinsetx"	"6"
@@ -203,7 +203,7 @@
 				"zpos"				"0"
 				"wide"				"230"
 				"tall"				"22"
-				"fillcolor"			"0 0 0 230"
+				"fillcolor"			"HudBlack"
 				"proportionaltoparent"	"1"
 			}
 			
@@ -315,7 +315,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"CodeBold12Outline"
+				"font"			"FontBold12Outline"
 				"xpos"			"7"
 				"ypos"			"4"
 				"zpos"			"6"
@@ -333,7 +333,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RedChargeAmount"
-				"font"			"CodeBold12Outline"
+				"font"			"FontBold12Outline"
 				"xpos"			"268"
 				"ypos"			"4"
 				"zpos"			"6"
@@ -377,7 +377,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"east"
-		"font"			"CodeLC15"
+		"font"			"FontRegular15"
 	}
 	"BuyBackLabel"
 	{
@@ -393,13 +393,13 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"wrap"			"1"
 		"centerwrap"	"1"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"	"1"
 		}
 	}
 	

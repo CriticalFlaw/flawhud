@@ -19,13 +19,13 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"				"#Replay_Replay"
-		"title_font"		"CodeBold37"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"DarkGrey"
+		"title"							"#Replay_Replay"
+		"title_font"					"FontBold37"
+		"titletextinsetX"				"40"
+		"titletextinsetY"				"0"
+		"titlebarfgcolor_override"		"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"		"DarkGrey"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}			
+	}
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}	
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}					
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -98,7 +98,7 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}							
+	}
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -123,13 +123,13 @@
 			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}						
+		}
 		
 		"tabskv"
 		{
 			"textinsetx"		"0"
 			"textinsety"		"-6"
-			"font"				"CodeBold20"
+			"font"				"FontBold20"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"DullWhite"	
 			"defaultBgColor_override"	"Blank"
@@ -153,7 +153,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -161,5 +161,5 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 }

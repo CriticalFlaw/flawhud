@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"LightGravity24"
+		"font"			"FontRegular24"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
-		"font"			"CodeLC15"
+		"font"			"FontRegular15"
 		"labelText"		"Filter:"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"font"				"LightGravity10"
+		"font"				"FontRegular10"
 		"xpos"				"c-240"
 		"ypos"				"32"
 		"zpos"				"1"
@@ -118,24 +118,13 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"fgcolor_override"				"TanLight"
-		"bgcolor_override"				"Black"
-		"disabledFgColor_override"		"TanLight"
-		"disabledBgColor_override"		"Black"
-		"selectionColor_override"		"Black"
+		"fgcolor_override"					"TanLight"
+		"bgcolor_override"					"Black"
+		"disabledFgColor_override"			"TanLight"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
 		"selectionTextColor_override" 		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
-		
-		"Button"
-		{
-			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"Black"
-			"selectedFgColor_override"	"Black"
-			"selectedBgColor_override"	"White"
-			"armedFgColor_override"		"Black"
-			"armedBgColor_override"		"White"
-			"paintbackgroundtype"		"0"
-		}
 	}
 	
 	"DataPanel"
@@ -210,7 +199,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
-		"xpos"			"c-280"		// Slightly right of center, because the photo background is
+		"xpos"			"c-280"
 		"ypos"			"160"
 		"zpos"			"1"
 		"wide"			"290"
@@ -247,7 +236,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -256,10 +245,10 @@
 		"padding_height"	"15"
 		"name_only"			"1"
 		
-		"model_ypos"	"40"
-		"model_xpos"	"50"
-		"model_wide"	"156"
-		"model_tall"	"100"
+		"model_ypos"		"40"
+		"model_xpos"		"50"
+		"model_wide"		"156"
+		"model_tall"		"100"
 		
 		"text_forcesize"	"1"
 		"is_mouseover"		"1"
@@ -300,7 +289,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"CodeLC12"
+		"font"			"FontRegular12"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-280"
@@ -354,7 +343,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Wiki"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -379,7 +368,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_SetDetails"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -404,7 +393,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

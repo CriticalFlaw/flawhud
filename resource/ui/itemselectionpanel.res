@@ -74,7 +74,7 @@
 		}
 		"duplicatelabels_kv"
 		{
-			"font"			"LightGravity8"
+			"font"			"FontRegular8"
 			"textAlignment"	"center"
 			"wide"			"20"
 			"tall"			"15"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-142"
@@ -114,7 +114,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"CodeLC12"
+		"font"			"FontRegular12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+196"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"xpos"			"c+196"
 		"ypos"			"22"
 		"zpos"			"2"
@@ -187,7 +187,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"LightGravity24"
+		"font"			"FontRegular24"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
 		"xpos"			"c-55"
@@ -205,7 +205,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
@@ -235,7 +235,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"LightGravity14"
+		"font"			"FontRegular14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -249,7 +249,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"OnlyAllowUniqueQuality"
 		"labelText"		"#OnlyAllowUniqueQuality"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
 		"ypos"			"290"
@@ -279,7 +279,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Selection_ShowBackpack"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -303,7 +303,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Selection_ShowSelection"
-		"font"			"LightGravity14"
+		"font"			"FontRegular14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -341,7 +341,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"

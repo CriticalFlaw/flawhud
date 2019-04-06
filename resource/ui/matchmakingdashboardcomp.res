@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"CodeBold20"
+		"font"			"FontBold20"
 		"fgcolor_override"	"White"
 		"mouseinputenabled"	"0"
 	}
@@ -98,7 +98,7 @@
 		"wide"			"f20"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"	
 		"showtooltipswhenmousedisabled"	"1"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"CodeBold18"
+		"font"			"FontBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -135,5 +135,8 @@
 
 		"armedBgColor_override"		"White"
 		"defaultBgColor_override"	"Black"
+		
+		"border_default"			"WhiteBorder"
+		"border_armed"				"WhiteBorder"
 	}
 }

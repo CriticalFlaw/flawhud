@@ -66,7 +66,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditCollectedTextLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"#TF_PVE_CurrencyCollected"
 			"textAlignment"		"north-east"
 			"xpos"				"0"
@@ -80,7 +80,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditCollectedCountLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"%creditscollected%"
 			"textAlignment"		"north-east"
 			"xpos"				"115"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditMissedTextLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"#TF_PVE_Missed"
 			"textAlignment"		"north-east"
 			"xpos"				"0"
@@ -108,7 +108,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditMissedCountLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"%creditsmissed%"
 			"textAlignment"		"north-east"
 			"xpos"				"115"
@@ -122,7 +122,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditBonusTextLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"#TF_PVE_Bonus"
 			"textAlignment"		"north-east"
 			"xpos"				"0"
@@ -136,7 +136,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CreditBonusCountLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"%creditbonus%"
 			"textAlignment"		"north-east"
 			"xpos"				"115"
@@ -162,7 +162,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RatingLabel"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"%ratinglabel%"
 			"textAlignment"		"center"
 			"xpos"				"0"
@@ -176,7 +176,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RatingText"
-			"font"				"LightGravity12"
+			"font"				"FontRegular12"
 			"labelText"			"%ratingscore%"
 			"textAlignment"		"center"
 			"xpos"				"0"

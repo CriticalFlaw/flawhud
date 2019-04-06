@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"CodeBold37"
+			"font"			"FontBold37"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"

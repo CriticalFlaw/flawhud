@@ -1,10 +1,10 @@
 "Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"LightGravity11"
+		"font"				"FontRegular11"
 		"xpos"				"0"
 		"ypos"				"4"
 		"zpos"				"1"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"30"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"NeonRed"
 		"xpos"				"-3"
 		"ypos"				"31"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabelShadow"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -170,7 +170,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"LightGravity11"
+		"font"				"FontRegular11"
 		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"52"

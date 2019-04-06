@@ -97,7 +97,7 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"textAlignment"	"east"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
@@ -126,7 +126,7 @@
 		"command"		"nav_to"
 		"labelText"		"<"
 		"textAlignment"	"west"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
@@ -151,7 +151,7 @@
 		"tall"			"f-20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"border"			"TeamMenuBorder"
+		"border"		"TeamMenuBorder"
 		"bgcolor_override"	"DarkGrey"
 	}
 }

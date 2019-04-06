@@ -11,7 +11,6 @@
 		"tall"					"100"
 		"visible"				"0"
 		"bgcolor_override"		"HudBlack"
-		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"			"10"

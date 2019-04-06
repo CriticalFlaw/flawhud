@@ -126,7 +126,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"LightGravity8"
+				"font"			"FontRegular8"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
@@ -484,7 +484,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -523,7 +523,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"CodeLC8"
+		"font"			"FontRegular8"
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"1"
@@ -624,7 +624,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -661,7 +661,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"CodeLC8"
+		"font"			"FontRegular8"
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"1"
@@ -697,7 +697,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"fgcolor"		"TanLight"
 		"xpos"			"c-125"
 		"ypos"			"17"
@@ -765,7 +765,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"xpos"			"c-125"
 		"ypos"			"30"
 		"wide"			"250"
@@ -793,7 +793,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"wide"			"250"
@@ -831,7 +831,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeBold22Outline"
+		"font"			"FontBold22Outline"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"

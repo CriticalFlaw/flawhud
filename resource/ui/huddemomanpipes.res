@@ -68,7 +68,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -89,7 +89,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"ShadowBlack"
 
 			"pin_to_sibling"		"NumPipesLabel"
@@ -127,7 +127,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -148,7 +148,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"ShadowBlack"
 
 			"pin_to_sibling"		"NumPipesLabel"

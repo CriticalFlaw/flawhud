@@ -61,6 +61,7 @@
 		"fillcolor"				"HudBlack"
 		"scaleimage"			"1"
 	}
+	
 	"BlueTeamBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -87,6 +88,7 @@
 		"fillcolor"				"DarkBlue"
 		"scaleimage"			"1"
 	}
+	
 	"RedTeamBackground"
 	{
 		"ControlName"	"ImagePanel"

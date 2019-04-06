@@ -20,7 +20,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"CodeBold22"
+		"font"					"FontBold22"
 		"labelText"				"#IT_Title"
 		"textAlignment"			"north"
 		"xpos"					"0"
@@ -330,7 +330,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override" "24 24 24 128"
 		}
 		"TestItemButton0"
@@ -414,7 +414,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override" "24 24 24 128"
 		}
 		"TestItemButton1"
@@ -498,7 +498,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override" "24 24 24 128"
 		}
 		"TestItemButton2"
@@ -582,7 +582,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override" "24 24 24 128"
 		}
 		"TestItemButton3"

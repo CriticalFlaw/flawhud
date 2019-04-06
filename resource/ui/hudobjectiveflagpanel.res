@@ -141,7 +141,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"White"
 
 		"if_hybrid"
@@ -173,7 +173,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		
 		"pin_to_sibling"		"BlueScore"
@@ -209,7 +209,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"White"	
 		
 		"if_hybrid"
@@ -241,7 +241,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		
 		"pin_to_sibling"		"RedScore"
@@ -301,7 +301,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 		
 		"if_hybrid"

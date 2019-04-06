@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeBold22Outline"
+		"font"			"FontBold22Outline"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -255,7 +255,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"CodeBold22"
+		"delta_item_font"		"FontBold22"
 
 		if_match
 		{
@@ -265,14 +265,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"CodeBold14"
+			"delta_item_font"		"FontBold14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"fgcolor"		"White"
 			"xpos"			"27"
 			"ypos"			"2"
@@ -288,7 +288,7 @@
 			{
 				"xpos"			"23"
 				"ypos"			"9"
-				"font"			"CodeBold14"
+				"font"			"FontBold14"
 			}
 		}	
 	}

@@ -6,7 +6,7 @@
 		"fieldName"		"itemmodelpanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"autoResize"	"0"
@@ -24,32 +24,6 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
-	}
-	
-	"DisguiseStatusBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
-		"ypos"			"36"
-		"zpos"			"-1"
-		"wide"			"640"
-		"tall"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../hud/color_panel_brown"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
-		"paintborder"		"1"
-		"border"			"G_TargetBorder"
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
 	}
 	
 	"ShadedBar"
@@ -88,8 +62,6 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
@@ -97,10 +69,10 @@
 	}
 	
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"xpos"				"47"
 		"ypos"				"15"
 		"zpos"				"1"
@@ -114,14 +86,13 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
 	}
 	
 	"DisguiseNameLabelShadow"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
-		"font"				"LightGravity12"
+		"font"				"FontRegular12"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -146,7 +117,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"xpos"				"47"
 		"ypos"				"25"
 		"zpos"				"1"
@@ -160,14 +131,13 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
 	}
 	
 	"WeaponNameLabelShadow"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabelShadow"
-		"font"				"LightGravity8"
+		"font"				"FontRegular8"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"

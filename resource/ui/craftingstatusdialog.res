@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -71,10 +71,10 @@
 	}
 	
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"EllipsesLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -109,7 +109,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#GameUI_Ok"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

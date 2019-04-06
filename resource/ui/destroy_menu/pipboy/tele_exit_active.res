@@ -2,5 +2,4 @@
 
 "Resource/UI/destroy_menu/tele_exit_active.res"
 {
-	
 }

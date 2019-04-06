@@ -14,6 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
+		"border"		"WhiteBorder"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
@@ -42,7 +43,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"CodeBold20"
+		"font"			"FontBold20"
 		"xpos"			"75"
 		"ypos"			"30"
 		"zpos"			"1"
@@ -61,7 +62,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"xpos"			"75"
 		"ypos"			"75"
 		"zpos"			"1"

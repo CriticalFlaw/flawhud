@@ -4,26 +4,26 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"BuildingIcon"	
 	{
-		"iconColor"			"NeonGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"MetalIcon"	
 	{
-		"iconColor"			"NeonGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"CostLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"			"NeonGreen"
+		"fgcolor"			"ColorGreen"
 	}
 }

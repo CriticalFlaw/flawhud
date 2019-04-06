@@ -16,9 +16,9 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"visible"	"0"
-		"xpos"		"r0"
-		"ypos"		"r0"
+		"visible"		"0"
+		"xpos"			"r0"
+		"ypos"			"r0"
 	}
 	
 	"PlayerStatusHealthBonusImage"
@@ -49,7 +49,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
@@ -69,7 +69,7 @@
 		"zpos"			"6"
 		"wide"			"28"
 		"tall"			"f0"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
@@ -93,7 +93,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
@@ -113,7 +113,7 @@
 		"zpos"			"6"
 		"wide"			"28"
 		"tall"			"f0"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"

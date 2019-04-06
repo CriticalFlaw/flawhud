@@ -26,7 +26,7 @@
 		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 	}
-
+	
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -52,7 +52,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
-
+		
 		"MainBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%authors%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -123,7 +123,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapLeaderboardTitle"
-			"font"			"LightGravity24"
+			"font"			"FontRegular24"
 			"labelText"		"%map_leaderboard_title%"
 			"textAlignment"	"north"
 			"xpos"			"9999"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -161,7 +161,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labelText"		"Loading..."
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -173,13 +173,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "White"
-	}	
+	}
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"CodeBold37"
+		"font"			"FontBold37"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -197,7 +196,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -286,7 +285,7 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
-			}				
+			}
 		}
 		
 		"AveragesBG"
@@ -307,7 +306,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"CodeBold22"
+			"font"			"FontBold22"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -391,7 +390,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -408,7 +407,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -510,7 +509,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -522,12 +521,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -556,7 +555,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG3A"
 		{
 			"ControlName"	"ImagePanel"
@@ -629,7 +628,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -641,12 +640,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -748,7 +747,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -765,7 +764,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -867,7 +866,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -884,7 +883,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -986,9 +985,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6A%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c-282"
 			"ypos"			"318"
 			"zpos"			"6"
@@ -1003,7 +1002,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1105,7 +1104,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1122,7 +1121,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1224,7 +1223,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1241,7 +1240,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1343,7 +1342,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1360,7 +1359,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"CodeLC8"
+			"font"			"FontRegular8"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1408,7 +1407,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"
@@ -1932,37 +1931,37 @@
 		}
 		"OverallRecord15Label"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Label"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15label%"
-			"textAlignment"		"west"
-			"xpos"				"c+128"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15label%"
+			"textAlignment"	"west"
+			"xpos"			"c+128"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}							
 		"OverallRecord15Value"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OverallRecord15Value"
-			"font"				"ScoreboardVerySmall"
-			"labelText"			"%classrecord15value%"
-			"textAlignment"		"west"
-			"xpos"				"c+210"
-			"ypos"				"369"
-			"zpos"				"5"
-			"wide"				"200"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15value%"
+			"textAlignment"	"west"
+			"xpos"			"c+210"
+			"ypos"			"369"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 	}
 	"TipImage"

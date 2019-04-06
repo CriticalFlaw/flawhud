@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"HudBlack"
 
 		if_comp
 		{
@@ -49,11 +49,19 @@
 			"ypos"			"24"
 		}
 		
+		"TimePanelBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimePanelBG"
+			"tall"			"0"
+			"visible"		"0"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"LightGravity14"
+			"font"			"FontRegular14"
 			"fgcolor"		"White"
 			"xpos"			"2"
 			"ypos"			"0"
@@ -76,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"west"
 		"xpos"			"c68"
@@ -88,7 +96,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"White"
 		
 		if_comp
 		{
@@ -101,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"labelText"		"%pointslabel%"
 		"textAlignment"	"west"
 		"xpos"			"c79"
@@ -114,7 +121,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"		"White"
 		
 		if_comp
 		{
@@ -127,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"LightGravity8"
+		"font"			"FontRegular8"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"center"
 		"xpos"			"c10"
@@ -140,7 +146,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"		"White"
 		
 		if_comp
 		{

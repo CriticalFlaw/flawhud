@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CodeBold50"
+		"font"			"FontBold50"
 		"fgcolor"		"White"
 	}
 	
@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CodeBold50"
+		"font"			"FontBold50"
 		"fgcolor"		"ShadowBlack"
 		
 		"pin_to_sibling"		"PlayerStatusHealthValue"
@@ -430,7 +430,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			""
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"		"PlayerStatusAnchor"
@@ -449,7 +449,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			""
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"		"PlayerStatusAnchor"

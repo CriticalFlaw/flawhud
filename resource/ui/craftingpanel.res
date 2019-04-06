@@ -94,7 +94,7 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"CodeLC12"
+			"font"			"FontRegular12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -107,10 +107,10 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" 	"DullWhite"
-			"defaultBgColor_override" 	"Transparent"
-			"armedFgColor_override" 	"White"
-			"armedBgColor_override" 	"Transparent"
+			"defaultFgColor_override"	"DullWhite"
+			"defaultBgColor_override"	"Transparent"
+			"armedFgColor_override"		"White"
+			"armedBgColor_override"		"Transparent"
 			"depressedFgColor_override"	"Orange"
 			"depressedBgColor_override"	"Transparent"
 		}
@@ -145,7 +145,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"#CraftStep1"
 		"textAlignment"		"north-west"
 		"xpos"				"c-290"
@@ -176,7 +176,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -216,7 +216,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -235,7 +235,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -265,7 +265,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"

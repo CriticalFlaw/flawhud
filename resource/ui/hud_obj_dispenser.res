@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"228 228 242 125"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"LightGravity10"
+			"font"			"FontRegular10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -205,7 +205,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"LightGravity10"
+				"font"			"FontRegular10"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

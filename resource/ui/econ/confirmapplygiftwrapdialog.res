@@ -14,7 +14,7 @@
 		"settitlebarvisible" "0"
 		"border"			"WhiteBorder"
 	}
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -53,12 +53,12 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
-
+	
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"
@@ -93,7 +93,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -142,7 +142,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -162,19 +162,19 @@
 		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"CodeLC12"
+		"font"			"FontRegular12"
 		"labelText"		"#ToolGiftWrapConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -188,7 +188,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "White"
 	}
-
+	
 	"ConfirmLabelStrange"
 	{
 		"ControlName"	"CExLabel"
@@ -205,9 +205,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
-
+	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -223,7 +223,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -248,7 +248,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

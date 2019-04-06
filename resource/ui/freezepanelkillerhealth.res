@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"labeltext"		"%Health%"
 	}
 
@@ -67,12 +67,12 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"CodeBold22"
+		"textAlignment"	"center"
+		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}
-
+	
 	"FreezeHealthBG"
 	{
 		"ControlName"	"CExImageButton"
@@ -87,7 +87,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
+		"PaintBackgroundType"		"0"
+        "textinsety" 				"99"
 	}
 }

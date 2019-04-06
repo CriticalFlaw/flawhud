@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyLabel"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"fgcolor"		"White"
 		"xpos"			"4"
 		"ypos"			"0"
@@ -29,7 +29,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Currency"
 	}
 	
@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"47"
 		"ypos"			"0"

@@ -254,7 +254,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"CodeBold12"
+			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -292,7 +292,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"CodeLC10"
+			"Font"				"FontRegular10"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -330,7 +330,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -353,7 +353,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"CodeLC10"
+			"Font"				"FontRegular10"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -397,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"labelText"		"Choose Item:"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -465,7 +465,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -499,7 +499,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"xpos"			"8"
 			"ypos"			"75"
 			
@@ -597,7 +597,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"

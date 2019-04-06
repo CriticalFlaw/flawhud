@@ -12,27 +12,26 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"170"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"ItemBG"
+		"ItemBackground"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
+			"fieldName"		"ItemBackground"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
@@ -49,7 +48,7 @@
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"useparentbg"			"1"
 			"inventory_image_type"	"1"
 		}
 		
@@ -57,8 +56,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"LightGravity9"
-			"fgcolor"		"White"
+			"font"			"FontRegular9"
 			"xpos"			"5"
 			"ypos"			"5"
 			"zpos"			"1"
@@ -111,8 +109,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"LightGravity10"
-			"fgcolor"		"White"
+			"font"			"FontRegular10"
 			"xpos"			"48"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -150,8 +147,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"LightGravity10"
-			"fgcolor"		"White"
+			"font"			"FontRegular10"
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"5"
@@ -162,10 +158,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"textinsetx"	"14"
             "use_proportional_insets" "1"
-		}	
+		}
 		
 		"AvatarImage"
 		{

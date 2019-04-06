@@ -25,7 +25,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold18"
+		"font"				"FontBold18"
 		"labelText"			"#ConfirmTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -56,9 +56,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
-
+	
 	"ExplanationLabel2"
 	{
 		"ControlName"		"CExLabel"
@@ -76,9 +76,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
-
+	
 	"ItemImagePanel"
 	{
 		"ControlName"		"ImagePanel"
@@ -94,7 +94,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-
+	
 	"ItemImagePanel2"
 	{
 		"ControlName"		"ImagePanel"
@@ -110,7 +110,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-
+	
 	"Nope"
 	{
 		"ControlName"		"CExButton"
@@ -125,7 +125,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_Nope"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -133,8 +133,10 @@
 		"Command"			"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
-
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
+	}
+	
 	"ConfirmButton"
 	{
 		"ControlName"		"CExButton"
@@ -150,7 +152,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_AddToCart"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -158,13 +160,15 @@
 		"Command"			"add_stamp_to_cart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
-
+	
 	"PriceLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PriceLabel"
-		"font"				"CodeBold20"
+		"font"				"FontBold20"
 		"labelText"			"%price%"
 		"textAlignment"		"north-east"
 		"xpos"				"345"

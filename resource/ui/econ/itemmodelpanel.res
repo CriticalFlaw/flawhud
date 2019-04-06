@@ -78,7 +78,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"CodeBold14"
+			"font"			"FontBold14"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"

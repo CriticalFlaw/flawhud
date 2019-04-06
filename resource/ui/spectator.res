@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
-		"font"			"CodeLC15"
+		"font"			"FontRegular15"
 	}
 
 	"BuyBackLabel"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"LightGravity12"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"

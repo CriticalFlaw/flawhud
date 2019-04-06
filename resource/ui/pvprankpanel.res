@@ -212,7 +212,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"LightGravity14"
+			"font"			"FontRegular14"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 			"labelText"		"%name%"
@@ -235,7 +235,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"LightGravity10"
+			"font"			"FontRegular10"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 			"labelText"		"%desc1%"
@@ -251,9 +251,9 @@
 			
 			"fonts"
 			{
-				"0"		"LightGravity10"
-				"1"		"LightGravity10"
-				"2"		"LightGravity10"
+				"0"		"FontRegular10"
+				"1"		"FontRegular10"
+				"2"		"FontRegular10"
 			}
 		}
 		
@@ -268,7 +268,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"CodeLC10"
+			"font"			"FontRegular10"
 			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
@@ -339,7 +339,7 @@
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
-					"font"			"CodeBold12Outline"
+					"font"			"FontBold12Outline"
 					"fgcolor_override"	"White"
 					"textAlignment"	"center"
 					"labelText"		"%current_xp%"

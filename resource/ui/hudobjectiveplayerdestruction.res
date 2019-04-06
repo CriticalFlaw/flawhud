@@ -18,8 +18,6 @@
 		"robot_y_offset"		"47"
 		"robot_x_step"			"23"
 		"robot_y_step"			"0"
-		
-
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
 
@@ -48,13 +46,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r27"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"c-70"
+		"ypos"			"r27"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -62,7 +57,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -85,19 +80,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"xpos"			"c-75"
+		"ypos"			"r31"
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"150"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -312,7 +302,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"CodeBold20"
+				"font"			"FontBold20"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}
@@ -330,7 +320,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"CodeBold20"
+				"font"			"FontBold20"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -364,7 +354,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"CodeBold20"
+				"font"			"FontBold20"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}
@@ -382,7 +372,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"CodeBold20"
+				"font"			"FontBold20"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -703,9 +693,7 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"CodeBold27"
-				"font_hidef"	"CodeBold22"
-				"font_lodef"	"CodeBold22"
+				"font"			"FontBold27"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -723,9 +711,7 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"CodeBold27"
-				"font_hidef"	"CodeBold22"
-				"font_lodef"	"CodeBold22"
+				"font"			"FontBold27"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -758,9 +744,7 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"CodeBold27"
-				"font_hidef"	"CodeBold22"
-				"font_lodef"	"CodeBold22"
+				"font"			"FontBold27"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
 			}	
@@ -778,9 +762,7 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"CodeBold27"
-				"font_hidef"	"CodeBold22"
-				"font_lodef"	"CodeBold22"
+				"font"			"FontBold27"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -1046,7 +1028,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"TanLight"		
 			"proportionalToParent"	"1"
 		}
@@ -1064,7 +1046,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"CodeBold20"
+			"font"			"FontBold20"
 			"fgcolor"		"Black"		
 			"proportionalToParent"	"1"
 		}

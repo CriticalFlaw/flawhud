@@ -31,7 +31,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity10"
+		"font"					"FontRegular10"
 	}
 	
 	"ItemEffectMeter"
@@ -48,7 +48,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Center"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
@@ -70,7 +70,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity20"
+		"font"					"FontRegular20"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -90,7 +90,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity20"
+		"font"					"FontRegular20"
 		"fgcolor"				"ShadowBlack"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"

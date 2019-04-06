@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"PanelBorder"
+			"border"		"WhiteBorder"
 			"bgcolor_override"	"DarkGrey"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
@@ -74,7 +74,7 @@
 
 				"fonts"
 				{
-					"0"		"CodeBold12"
+					"0"		"FontBold12"
 					"1"		"StorePromotionsTitle"
 					"2"		"FontStorePrice"
 				}
@@ -91,7 +91,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeLC12"
+				"font"			"FontRegular12"
 				"fgcolor_override"	"White"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
@@ -114,7 +114,7 @@
 
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -151,7 +151,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -164,6 +164,8 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
+				"border_armed"		"WhiteBorder"
 			}
 
 			"WideJoinButton"
@@ -181,7 +183,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -194,6 +196,8 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"WhiteBorder"
+				"border_armed"		"WhiteBorder"
 			}
 
 			"JoiningLabel"
@@ -207,7 +211,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeBold12"
+				"font"			"FontBold12"
 				"fgcolor_override"	"White"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"

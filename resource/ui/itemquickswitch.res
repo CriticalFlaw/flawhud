@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"HudBlack"
+		"bgcolor_override"		"DarkGrey"
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
 		
@@ -25,7 +25,7 @@
 			"tall"			"35"
 			"bgcolor_override"		"Black"
 			"PaintBackgroundType"	"0"
-			"paintbackground"	"0" 			
+			"paintbackground"	"0"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			"model_xpos"	"0"
@@ -123,7 +123,7 @@
 			"tall"			"35"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 			"bgcolor_override"	"Transparent"
 		}
 	}

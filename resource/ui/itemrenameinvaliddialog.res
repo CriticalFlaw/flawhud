@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -53,7 +53,6 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
-	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -103,7 +102,6 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
-	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -138,7 +136,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"CodeLC15"
+		"font"				"FontRegular15"
 		"labelText"			"#CraftInvalidName"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -157,7 +155,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -176,7 +174,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WarningLabel"
-		"font"				"CodeLC15"
+		"font"				"FontRegular15"
 		"labelText"			"#CraftInvalidNameDetail"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -188,7 +186,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"White"
+		"fgcolor_override"	"White"
 	}
 
 	"BackFromInvalidButton"
@@ -206,7 +204,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_OK"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

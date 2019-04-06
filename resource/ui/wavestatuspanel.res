@@ -25,7 +25,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabel"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"fgcolor"			"White"
 		"xpos"				"200"
 		"ypos"				"0"
@@ -37,12 +37,12 @@
 		"textAlignment"		"center"
 		"labelText"			"%wave_count%"
 	}
-
+	
 	"WaveCountLabelShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabelShadow"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"fgcolor"			"ShadowBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportLabel"
-		"font"				"CodeBold12"
+		"font"				"FontBold12"
 		"fgcolor"			"White"
 		"xpos"				"55"
 		"ypos"				"6"
@@ -118,7 +118,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
-
+	
 	"NewProgressBarBG"
 	{
 		"ControlName"		"ImagePanel"

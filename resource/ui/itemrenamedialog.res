@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -216,7 +216,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameDescLabel"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"#ToolItemRenameOldItemName"
 		"textAlignment"	"west"
 		"xpos"			"25"
@@ -236,7 +236,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameLabel"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"labelText"		"%oldname%"
 		"textAlignment"	"west"
 		"xpos"			"150"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NewItemNameDescLabel"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"labelText"		"#ToolItemRenameNewItemName"
 		"textAlignment"	"west"
 		"xpos"			"25"
@@ -314,7 +314,7 @@
 		"bgcolor_override"	"Grey"
 		"paintbackgroundtype" "0"
 		"labelText"			""
-		"font"				"CodeLC10"
+		"font"				"FontRegular10"
 		"textAlignment"		"west"
 	}
 	
@@ -322,7 +322,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"CodeLC10"
+		"font"			"FontRegular10"
 		"labelText"		"#ToolConfirmWarning"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -352,7 +352,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -377,7 +377,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameOk"
-		"font"			"CodeBold12"
+		"font"			"FontBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

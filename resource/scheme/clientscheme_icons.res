@@ -84,7 +84,7 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"111"
+		"121"
 		{
 			"font"	"resource/fonts/FlawHUDIcons.otf"
 			"name"	"FlawHUDIcons"

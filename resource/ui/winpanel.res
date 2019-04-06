@@ -2,13 +2,13 @@
 {
 	"TeamScoresPanel"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"TeamScoresPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"200"
-		"tall"					"40"
-		"visible"				"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TeamScoresPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"200"
+		"tall"				"40"
+		"visible"			"1"
 
 		"BlueScoreBG"
 		{
@@ -108,7 +108,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabel"
-			"font"				"CodeBold18"
+			"font"				"FontBold18"
 			"fgcolor"			"White"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
@@ -126,7 +126,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabelShadow"
-			"font"				"CodeBold18"
+			"font"				"FontBold18"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
@@ -149,7 +149,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"CodeBold37"
+			"font"				"FontBold37"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"53"
@@ -166,7 +166,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"CodeBold37"
+			"font"				"FontBold37"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
@@ -219,8 +219,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabel"
-			"font"				"CodeBold18"
-			"fgcolor"			"White"
+			"font"				"FontBold18"
 			"labelText"			"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"				"138"
@@ -237,7 +236,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabelShadow"
-			"font"				"CodeBold18"
+			"font"				"FontBold18"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%redteamname%"
 			"textAlignment"		"east"
@@ -260,7 +259,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"CodeBold37"
+			"font"				"FontBold37"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -277,7 +276,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"CodeBold37"
+			"font"				"FontBold37"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"-2"
@@ -323,7 +322,7 @@
 			"tall"				"39"
 			"visible"			"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"DarkRed"
+			"bgcolor_override"		"DarkRed"
 		}
 	}
 	
@@ -359,7 +358,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"LightGravity10"
+		"font"			"FontRegular10"
 		"xpos"			"10"
 		"ypos"			"43"
 		"zpos"			"1"
@@ -378,16 +377,31 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
+		"font"			"FontRegular10"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"9999"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"185"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%WinningTeamLabel%"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		
+		"pin_to_sibling"		"WinningTeamLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"AdvancingTeamLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"LightGravity10"
-		"fgcolor"		"White"
+		"font"			"FontRegular10"
 		"xpos"			"10"
 		"ypos"			"43"
 		"zpos"			"1"
@@ -408,7 +422,23 @@
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"ScoreboardMedium"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"9999"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"185"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%AdvancingTeamLabel%"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		
+		"pin_to_sibling"		"AdvancingTeamLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"WinReasonLabel"
 	{	
@@ -421,7 +451,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"10"
 		"ypos"			"53"
 		"zpos"			"1"
@@ -678,7 +708,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"LightGravity9"
+		"font"			"FontRegular9"
 		"xpos"			"0"
 		"ypos"			"117"
 		"zpos"			"3"
@@ -707,7 +737,7 @@
 		"xpos"			"9999"
 	}
 	
-	"KillStreakPlayer1Avatar"	[$WIN32]
+	"KillStreakPlayer1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"KillStreakPlayer1Avatar"

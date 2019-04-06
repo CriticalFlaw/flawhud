@@ -128,7 +128,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"CodeBold18"
+			"font"			"FontBold18"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

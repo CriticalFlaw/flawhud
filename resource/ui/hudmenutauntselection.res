@@ -34,7 +34,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -54,7 +54,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"CodeBold22"
+		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -159,7 +159,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"31"
 		"ypos"			"68"
@@ -171,7 +171,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -232,7 +232,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"87"
 		"ypos"			"68"
@@ -244,7 +244,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -305,7 +305,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"142"
 		"ypos"			"68"
@@ -317,7 +317,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -377,7 +377,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"199"
 		"ypos"			"68"
@@ -389,7 +389,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -450,7 +450,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"255"
 		"ypos"			"68"
@@ -462,7 +462,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -523,7 +523,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"311"
 		"ypos"			"68"
@@ -535,7 +535,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -596,8 +596,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
-		"font"			"CodeBold14"
-		"fgcolor"		"White"
+		"font"			"FontBold14"
 		"xpos"			"366"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -608,7 +607,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -669,7 +668,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"CodeBold14"
+		"font"			"FontBold14"
 		"fgcolor"		"White"
 		"xpos"			"424"
 		"ypos"			"68"
@@ -681,7 +680,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}

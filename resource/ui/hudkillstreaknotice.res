@@ -1,5 +1,5 @@
 "Resource/UI/HudKillStreakNotice.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font_override"	"CodeLC10"
+		"font_override"	"FontRegular10"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

@@ -9,8 +9,8 @@
 		"PositiveColor"			"G_Heal"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"CodeBold20Outline"
-		"delta_item_font_big"	"CodeBold22Outline"
+		"delta_item_font"		"FontBold20Outline"
+		"delta_item_font_big"	"FontBold22Outline"
 	}
 	
 	"DamageAccountValue"
@@ -26,7 +26,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"west"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"255 255 0 255"
 	}
 	
@@ -43,7 +43,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"west"
-		"font"				"CodeBold22"
+		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
 		
 		"pin_to_sibling"		"DamageAccountValue"

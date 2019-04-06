@@ -12,9 +12,9 @@
 		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"			"WhiteBorder"
+		"border"				"WhiteBorder"
 	}
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -53,12 +53,12 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"95"
@@ -72,7 +72,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
+	
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -107,9 +107,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"tool_modelpanel"
 		"xpos"				"10"
@@ -137,7 +137,7 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -172,9 +172,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
-	}	
+	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"subject_modelpanel"
 		"xpos"				"300"
@@ -207,7 +207,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
-		"font"				"CodeLC12"
+		"font"				"FontRegular12"
 		"labelText"			"%confirm_text%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -219,14 +219,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"White"
+		"fgcolor_override"	"White"
 	}
-
+	
 	"OptionalAppendLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OptionalAppendLabel"
-		"font"				"CodeLC12"
+		"font"				"FontRegular12"
 		"labelText"			"%optional_append%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -238,7 +238,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"200 80 60 255"
+		"fgcolor_override" 	"LightRed"
 	}
 	
 	"CancelButton"
@@ -256,7 +256,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -281,7 +281,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"CodeBold14"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
