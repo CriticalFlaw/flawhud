@@ -490,7 +490,6 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -502,7 +501,6 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
 			"image"					"loadout_round_rect"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -672,7 +670,7 @@ Scheme
 		OptionsCategoryBorder
 		{
 			"inset" "0 0 0 0"
-			Bottom	// This border is used just to create a horizontal line, so it only has a bottom border
+			Bottom
 			{
 				"1"
 				{
@@ -708,8 +706,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Grey"
 			"image"					"backpack_rect_mouseover_color"
+			"color"					"Grey"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -731,6 +729,60 @@ Scheme
 		LoadoutItemMouseOverBorder
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "60 54 53 255"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -748,7 +800,7 @@ Scheme
 					"color" "60 54 53 255"
 					"offset" "1 1"
 				}
-			}	
+			}
 		}
 		
 		LoadoutItemPopupBorder
@@ -837,7 +889,7 @@ Scheme
 			}
 		}
 		
-		// Standard ------------------------------------------------------------------------------------------------		
+		// Standard ------------------------------------------------------------------------------------------------
 		BackpackItemBorder
 		{
 			"inset" "0 0 0 0"
@@ -1126,7 +1178,62 @@ Scheme
 		// Unique ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Unique
 		{
-			"inset" "0 0 0 0"
+			"inset" "0 0 0 0"	
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+			}
+			
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorUnique"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1150,6 +1257,60 @@ Scheme
 		BackpackItemMouseOverBorder_Unique
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1173,6 +1334,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Unique
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1196,6 +1411,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Unique
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorUnique_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1220,6 +1489,60 @@ Scheme
 		BackpackItemBorder_1
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1243,6 +1566,60 @@ Scheme
 		BackpackItemMouseOverBorder_1
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1266,6 +1643,60 @@ Scheme
 		BackpackItemGreyedOutBorder_1
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1289,6 +1720,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_1
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity1_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1313,6 +1798,60 @@ Scheme
 		BackpackItemBorder_2
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1336,6 +1875,60 @@ Scheme
 		BackpackItemMouseOverBorder_2
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1359,6 +1952,60 @@ Scheme
 		BackpackItemGreyedOutBorder_2
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1382,6 +2029,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_2
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity2_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1406,6 +2107,60 @@ Scheme
 		BackpackItemBorder_3
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1429,6 +2184,60 @@ Scheme
 		BackpackItemMouseOverBorder_3
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1452,6 +2261,60 @@ Scheme
 		BackpackItemGreyedOutBorder_3
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1475,6 +2338,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_3
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity3_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1499,6 +2416,60 @@ Scheme
 		BackpackItemBorder_4
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1522,6 +2493,60 @@ Scheme
 		BackpackItemMouseOverBorder_4
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1545,6 +2570,60 @@ Scheme
 		BackpackItemGreyedOutBorder_4
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1568,6 +2647,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_4
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorrarity4_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1592,6 +2725,60 @@ Scheme
 		BackpackItemBorder_Haunted
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1615,6 +2802,60 @@ Scheme
 		BackpackItemMouseOverBorder_Haunted
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1638,6 +2879,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Haunted
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1661,6 +2956,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Haunted
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorHaunted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1685,6 +3034,60 @@ Scheme
 		BackpackItemBorder_Vintage
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorVintage"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1708,6 +3111,60 @@ Scheme
 		BackpackItemMouseOverBorder_Vintage
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1731,6 +3188,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Vintage
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1754,6 +3265,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Vintage
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorVintage_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1778,6 +3343,60 @@ Scheme
 		BackpackItemBorder_Community
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1801,6 +3420,60 @@ Scheme
 		BackpackItemMouseOverBorder_Community
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1824,6 +3497,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Community
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1847,6 +3574,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Community
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCommunity_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1871,6 +3652,60 @@ Scheme
 		BackpackItemBorder_Developer
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1894,6 +3729,60 @@ Scheme
 		BackpackItemMouseOverBorder_Developer
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1917,6 +3806,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Developer
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1940,6 +3883,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Developer
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorDeveloper_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1964,6 +3961,60 @@ Scheme
 		BackpackItemBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -1987,6 +4038,60 @@ Scheme
 		BackpackItemMouseOverBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2010,6 +4115,60 @@ Scheme
 		BackpackItemGreyedOutBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2033,6 +4192,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_SelfMade
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorSelfMade_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2057,6 +4270,60 @@ Scheme
 		BackpackItemBorder_Customized
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2080,6 +4347,60 @@ Scheme
 		BackpackItemMouseOverBorder_Customized
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2103,6 +4424,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Customized
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2126,6 +4501,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Customized
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCustomized_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2150,6 +4579,60 @@ Scheme
 		BackpackItemBorder_Strange
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorStrange"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2173,6 +4656,60 @@ Scheme
 		BackpackItemMouseOverBorder_Strange
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2196,6 +4733,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Strange
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2219,6 +4810,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Strange
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorStrange_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2243,6 +4888,60 @@ Scheme
 		BackpackItemBorder_Completed
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2266,6 +4965,60 @@ Scheme
 		BackpackItemMouseOverBorder_Completed
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2289,6 +5042,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Completed
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2312,6 +5119,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Completed
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCompleted_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2336,6 +5197,60 @@ Scheme
 		BackpackItemBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2359,6 +5274,60 @@ Scheme
 		BackpackItemMouseOverBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2382,6 +5351,60 @@ Scheme
 		BackpackItemGreyedOutBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2405,6 +5428,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorPaintkitWeapon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2429,6 +5506,60 @@ Scheme
 		BackpackItemBorder_Collectors
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmQualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2452,6 +5583,60 @@ Scheme
 		BackpackItemMouseOverBorder_Collectors
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2475,6 +5660,60 @@ Scheme
 		BackpackItemGreyedOutBorder_Collectors
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2498,6 +5737,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_Collectors
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorCollectors_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2522,6 +5815,60 @@ Scheme
 		BackpackItemBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2545,6 +5892,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2568,6 +5969,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2591,6 +6046,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityDefault
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityDefault_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2614,6 +6123,60 @@ Scheme
 		BackpackItemBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2637,6 +6200,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2660,6 +6277,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2683,6 +6354,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityCommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityCommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2706,6 +6431,60 @@ Scheme
 		BackpackItemBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2729,6 +6508,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2752,6 +6585,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2775,6 +6662,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityUncommon
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityUncommon_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2798,6 +6739,60 @@ Scheme
 		BackpackItemBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityRare"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2821,6 +6816,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2844,6 +6893,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2867,6 +6970,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityRare
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityRare_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2890,6 +7047,60 @@ Scheme
 		BackpackItemBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2913,6 +7124,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2936,6 +7201,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2959,6 +7278,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityMythical
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityMythical_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -2983,6 +7356,60 @@ Scheme
 		BackpackItemBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3006,6 +7433,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3029,6 +7510,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3052,6 +7587,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityLegendary
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityLegendary_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3071,11 +7660,65 @@ Scheme
 				}
 			}
 		}
-
+		
 		//*********************************************
 		BackpackItemBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DimmItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3098,6 +7741,60 @@ Scheme
 		BackpackItemMouseOverBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3120,6 +7817,60 @@ Scheme
 		BackpackItemGreyedOutBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3142,6 +7893,60 @@ Scheme
 		BackpackItemGreyedOutSelectedBorder_RarityAncient
 		{
 			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "ItemRarityAncient_GreyedOut"
+					"offset" "1 1"
+				}
+			}
 			Bottom
 			{
 				"1"
@@ -3569,32 +8374,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -3606,8 +8411,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"TanDark"
-					"offset" 	"1 0"
+					"color"		"TanDark"
+					"offset"	"1 0"
 				}
 			}
 		}
@@ -3619,15 +8424,15 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3635,7 +8440,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3643,7 +8448,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
+					"color"		"Blank"
 					"offset" 	"0 0"
 				}
 			}
@@ -3764,7 +8569,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		
 		BlueWithThinBorder
@@ -3775,7 +8580,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		
 		InnerShadowBorder
