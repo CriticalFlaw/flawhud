@@ -11,7 +11,7 @@
 		"tall"				"18"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillcolor"			"HudBlack"
 		"scaleImage"		"1"
 		"src_corner_height"	"3"
 		"src_corner_width"	"3"
@@ -49,11 +49,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"30"
-		"ypos"				"14"
+		"xpos"				"28"
+		"ypos"				"16"
 		"zpos"				"5"
-		"wide"				"40"
-		"tall"				"19"
+		"wide"				"50"
+		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_WaitingForPlayers"
@@ -62,12 +62,11 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular8"
-		"fgcolor"			"White"
 		
 		if_match
 		{
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -81,11 +80,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"33"
+		"xpos"				"28"
 		"ypos"				"16"
 		"zpos"				"5"
-		"wide"				"40"
-		"tall"				"14"
+		"wide"				"50"
+		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_Overtime"
@@ -97,9 +96,8 @@
 		
 		if_match
 		{
-			"xpos"			"29"
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"OvertimeBG"
@@ -113,11 +111,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
-		"xpos"				"20"
-		"ypos"				"13"
+		"xpos"				"28"
+		"ypos"				"16"
 		"zpos"				"5"
-		"wide"				"60"
-		"tall"				"18"
+		"wide"				"50"
+		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_SuddenDeath"
@@ -126,12 +124,11 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular8"
-		"fgcolor"			"White"
 		
 		if_match
 		{
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"SuddenDeathBG"
@@ -145,12 +142,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"33"
-		"ypos"				"15"
-		"zpos"				"5"
-		"wide"				"40"
+		"xpos"				"28"
+		"ypos"				"16"
+		"zpos"				"15"
+		"wide"				"50"
 		"tall"				"15"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_Setup"
 		"textAlignment"		"center"
@@ -159,12 +156,11 @@
 		"wrap"				"0"
 		"font"				"FontRegular8"
 		"fgcolor"			"White"
-
+		
 		if_match
 		{
-			"xpos"			"29"
-			"ypos"			"21"
-			"wide"			"p1"
+			"xpos"			"25"
+			"ypos"			"20"
 		}
 	}
 	"SetupBG"
@@ -178,10 +174,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
-		"xpos"				"24"
-		"ypos"				"22"
-		"zpos" 				"3"
-		"wide" 				"50"
+		"xpos"				"28"
+		"ypos"				"16"
+		"zpos"				"5"
+		"wide"				"50"
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
@@ -190,8 +186,13 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
-		"fgcolor"			"White"
+		"font"				"FontRegular10"
+		
+		if_match
+		{
+			"xpos"			"25"
+			"ypos"			"20"
+		}
 		
 		if_mvm
 		{
