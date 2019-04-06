@@ -31,7 +31,7 @@
 			"src_corner_height"		"22"
 			"src_corner_width"		"22"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"
 		}
 		
 		"HeaderContainer"
@@ -48,7 +48,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"FontBold20"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -56,24 +56,6 @@
 				"wide"			"530"
 				"tall"			"40"
 				"fgcolor"		"Orange"
-			}
-
-			"HeaderShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
-				"labelText"		"%headershadow%"
-				"textAlignment" "center"
-				"xpos"			"-1"
-				"ypos"			"-1"
-				"wide"			"530"
-				"tall"			"40"
-				"fgcolor"		"ShadowBlack"
-		
-				"pin_to_sibling"		"HeaderLabel"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 		}
 	
@@ -118,7 +100,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"FontBold20"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -141,26 +123,8 @@
 				"tall"			"50"
 				"fgcolor"		"White"
 			}
-			
-			"RatingTextShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
-				"labelText"		"%ratingscore%"
-				"textAlignment" "center"
-				"xpos"			"-1"
-				"ypos"			"-1"
-				"wide"			"180"
-				"tall"			"50"
-				"fgcolor"		"ShadowBlack"
-		
-				"pin_to_sibling"		"RatingText"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPLEFT"
-			}
 		}
-
+		
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -200,6 +164,6 @@
 
 		"pin_to_sibling"			"StatsContainer"
 		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3" 
+		"pin_to_sibling_corner"		"3"
 	}
 }

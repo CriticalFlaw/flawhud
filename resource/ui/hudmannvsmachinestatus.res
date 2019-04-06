@@ -48,7 +48,7 @@
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"90"
-		"ypos"				"r35"
+		"ypos"				"r59"
 		"wide"				"100"
 		"tall"				"16"
 		"visible" 			"1"
@@ -60,7 +60,7 @@
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"90"
-		"ypos"				"r20"
+		"ypos"				"r44"
 		"wide"				"100"
 		"tall"				"16"
 		"visible" 			"1"
@@ -80,7 +80,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/warning_highlight"
 		"scaleImage"		"1"
-		"time"				"0.3"		
+		"time"				"0.3"
 	}
 	
 	"UpgradeLevelContainer"
@@ -182,7 +182,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
+		"enabled"			"1"
 	}
 	
 	"VictoryPanelContainer"
@@ -246,7 +246,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"		
+			"fgcolor"		"White"
 		}
 	}
 }
