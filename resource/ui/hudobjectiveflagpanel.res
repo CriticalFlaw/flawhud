@@ -127,7 +127,7 @@
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-
+	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -143,7 +143,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"White"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -179,7 +179,7 @@
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -210,7 +210,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"	
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -283,7 +283,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"9999"
+		"xpos"			"cs-0.5"
+		"ypos"			"r72"
+		"zpos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+		
+		"if_specialdelivery"
+		{
+			"ypos"		"r82"
+		}
 	}
 	
 	"PlayingTo"
@@ -331,7 +344,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Hudblack"
+		"fillcolor"		"HudBlack"
 		
 		"if_hybrid"
 		{
@@ -399,7 +412,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"

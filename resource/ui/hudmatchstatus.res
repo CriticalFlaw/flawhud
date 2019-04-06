@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"FontBold22Outline"
+		"font"			"FontBold22"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -77,6 +77,33 @@
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"FontBold22"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
+		"fgcolor"		"ShadowBlack"
+		"proportionaltoparent"	"1"
 
 		if_readymode
 		{
@@ -255,7 +282,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"FontBold22"
+		"delta_item_font"		"CodeBold14"
 
 		if_match
 		{
@@ -272,13 +299,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"FontBold22"
+			"font"			"FontBold18"
 			"fgcolor"		"White"
-			"xpos"			"27"
-			"ypos"			"2"
+			"xpos"			"28"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"55"
-			"tall"			"15"
+			"wide"			"50"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -286,8 +313,10 @@
 
 			if_match
 			{
-				"xpos"			"23"
+				"xpos"			"25"
 				"ypos"			"9"
+				"wide"			"50"
+				"tall"			"14"
 				"font"			"FontBold14"
 			}
 		}	
@@ -388,7 +417,7 @@
 				"ypos"			"19"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"2"				
+				"tall"			"3"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -408,7 +437,7 @@
 				"ypos"			"19"
 				"zpos"			"6"
 				"wide"			"f0"
-				"tall"			"2"				
+				"tall"			"3"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -477,7 +506,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"FontRegular8"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

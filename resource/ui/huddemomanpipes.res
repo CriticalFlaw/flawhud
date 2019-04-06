@@ -6,6 +6,7 @@
 		"fieldName"			"ChargeLabel"
 		"xpos"				"c40"
 		"ypos"				"c100"
+		"ypos_minmode"		"9999"
 		"zpos"				"2"
 		"wide"				"40"
 		"tall"				"8"
@@ -27,9 +28,13 @@
 		"fieldName"			"ChargeMeter"
 		"xpos"				"c-75"
 		"ypos"				"c100"
+		"xpos_minmode"		"c-40"
+		"ypos_minmode"		"c110"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"8"
+		"wide_minmode"		"80"
+		"tall_minmode"		"4"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -69,7 +74,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FontBold20"
-			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -95,7 +99,7 @@
 			"pin_to_sibling"		"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}		
+		}
 	}
 	
 	"NoPipesPresentPanel"

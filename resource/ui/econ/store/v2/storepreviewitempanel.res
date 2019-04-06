@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
@@ -93,9 +93,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"		"PanelBorder"
+		"border"			"WhiteBorder"
 		"bgcolor_override"	"DarkGrey"
-		"PaintBorder"	"1"
+		"PaintBorder"		"1"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -1428,7 +1428,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"TryItOutButton"
@@ -1445,7 +1446,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Try It Out"
-		"font"			"HudFontSmallBold"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1453,15 +1454,16 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c40"
-		"ypos"			"c103"
+		"xpos"			"c0"
+		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"20"
@@ -1478,7 +1480,8 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 	
 	"mouseoveritempanel"

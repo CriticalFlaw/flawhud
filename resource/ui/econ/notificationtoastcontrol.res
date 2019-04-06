@@ -11,15 +11,16 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NotificationDefault"
+		"border"		"WhiteBorder"	//"ButtonBorder"
 		"if_high_priority"
 		{
-			"border"		"NotificationHighPriority"
+			"border"	"NotificationHighPriority"
 		}
 		"paintborder"			"1"
-		"paintbackground"		"0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
-		"defaultbgcolor_override"		"208 193 162 255"
+		"defaultbgcolor_override"	"TanLight"
+		"bgcolor_override"			"TanLight"
 	}
 
 	"DeleteButton"
@@ -37,26 +38,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"TFFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"delete"
-
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"Command"			"delete"
+		"armedBgColor_override"	"LightRed"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -68,9 +59,9 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_close_X"
+			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
-		}
+		}				
 	}
 
 	"TriggerButton"
@@ -80,7 +71,7 @@
 		"xpos"			"144"
 		"if_one_button"
 		{
-			"xpos"	"165"
+			"xpos"		"165"
 		}
 		"ypos"			"5"
 		"zpos"			"10"
@@ -92,26 +83,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallestBold"
+		"font"			"TFFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"trigger"
-
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultBgColor_override"	"0 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"Command"			"trigger"
+		"armedBgColor_override"	"CreditsGreen"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -125,8 +106,8 @@
 			"enabled"		"1"
 			"image"			"glyph_view"
 			"scaleImage"	"1"
-		}
-	}
+		}				
+	}		
 
 	"AcceptButton"
 	{
@@ -135,7 +116,7 @@
 		"xpos"			"144"
 		"if_one_button"
 		{
-			"xpos"	"165"
+			"xpos"		"165"
 		}
 		"ypos"			"5"
 		"zpos"			"10"
@@ -147,26 +128,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallestBold"
+		"font"			"TFFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"accept"
-
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"Command"			"accept"
+		"armedBgColor_override"	"CreditsGreen"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -180,8 +151,8 @@
 			"enabled"		"1"
 			"image"			"glyph_view"
 			"scaleImage"	"1"
-		}
-	}
+		}	
+	}		
 
 	"DeclineButton"
 	{
@@ -198,26 +169,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallestBold"
+		"font"			"TFFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"decline"
-
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"Command"			"decline"
+		"armedBgColor_override"	"LightRed"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -229,8 +190,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_close_X"
+			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
-		}
+		}				
 	}
 }
