@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/2YFHa7X.png)
 
-A custom Heads-Up Display (HUD) for Team Fortress 2
+Custom Heads-Up Display (HUD) for Team Fortress 2. [Click here for screenshots](https://imgur.com/a/0whDjXr).
 
 #### Installation
 Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf\custom`
