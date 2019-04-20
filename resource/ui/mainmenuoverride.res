@@ -1001,7 +1001,7 @@
 	
 	"VersionLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular10"
 		"labelText"		"FlawHUD v2019.0406"
@@ -1013,6 +1013,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"sound_depressed"	""
+		"sound_released"	"UI/homie.wav"
 	}
 	
 	"CharacterSetupButton"

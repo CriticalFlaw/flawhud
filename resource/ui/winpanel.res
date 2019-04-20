@@ -420,7 +420,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"ScoreboardMedium"
+		"font"			"FontRegular10"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
