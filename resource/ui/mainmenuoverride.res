@@ -1004,7 +1004,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular10"
-		"labelText"		"FlawHUD v2019.0406"
+		"labelText"		"FlawHUD v2019.0427"
 		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
@@ -1016,6 +1016,9 @@
 		"paintbackground"	"0"
 		"sound_depressed"	""
 		"sound_released"	"UI/homie.wav"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 	}
 	
 	"CharacterSetupButton"
