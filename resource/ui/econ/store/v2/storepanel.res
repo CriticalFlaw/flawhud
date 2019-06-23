@@ -159,7 +159,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Exit Store"
+		"labelText"			"Exit Store (&Q)"
 		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
