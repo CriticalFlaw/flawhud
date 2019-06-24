@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
-		"border"			"WhiteBorder"
+		"border"			"NoBorder"
 	}
 
 	"Container"
