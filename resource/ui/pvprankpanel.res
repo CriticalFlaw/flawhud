@@ -1,3 +1,5 @@
+#base	"..\..\stream\pvprankpanel.res"
+
 "Resource/UI/PvPRankPanel.res"
 {
 	"ModelContainer"

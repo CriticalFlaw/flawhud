@@ -1,3 +1,5 @@
+#base	"..\..\stream\mvmscoreboard.res"
+
 "Resource/UI/MvMScoreboard.res"
 {
 	"WaveStatusPanel"

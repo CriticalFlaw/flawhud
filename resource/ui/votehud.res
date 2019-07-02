@@ -1,3 +1,5 @@
+#base	"..\..\stream\votehud.res"
+
 "Resource/UI/VoteHud.res"
 {
 	"VotePassed"

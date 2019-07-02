@@ -1,3 +1,5 @@
+#base	"..\..\stream\hudarenawinpanel.res"
+
 "Resource/UI/arenawinpanel.res"
 {
 	"ArenaWinPanelScores"

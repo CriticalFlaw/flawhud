@@ -1,3 +1,5 @@
+#base	"..\..\stream\hudinspectpanel.res"
+
 "Resource/UI/HudInspectPanel.res"
 {	
 	"itempanel"

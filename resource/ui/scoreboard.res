@@ -1,3 +1,5 @@
+#base	"..\..\stream\scoreboard.res"
+
 "Resource/UI/Scoreboard.res"
 {
 	"scores"

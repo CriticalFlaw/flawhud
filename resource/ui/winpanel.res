@@ -1,3 +1,5 @@
+#base	"..\..\stream\winpanel.res"
+
 "Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"

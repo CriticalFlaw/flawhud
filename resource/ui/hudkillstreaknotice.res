@@ -1,3 +1,5 @@
+#base	"..\..\stream\hudkillstreaknotice.res"
+
 "Resource/UI/HudKillStreakNotice.res"
 {
 	"Background"

@@ -1,3 +1,5 @@
+#base	"..\..\stream\targetid.res"
+
 "Resource/UI/TargetID.res"
 {
 	"TargetBG"

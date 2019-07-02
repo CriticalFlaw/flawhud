@@ -1,3 +1,5 @@
+#base	"..\..\stream\hudmatchsummary.res"
+
 "Resource/UI/HudMatchSummary.res"
 {
 	"MatchSummary"

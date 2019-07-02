@@ -1,3 +1,5 @@
+#base	"..\..\stream\hudtournament.res"
+
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
