@@ -1,5 +1,3 @@
-#base	"..\stream\scripts\hudlayout.res"
-
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------

@@ -1,5 +1,4 @@
-#base	"..\..\resource\preload.res"
-#base	"..\..\stream\resource\ui\mainmenuoverride.res"
+#base "../../resource/preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

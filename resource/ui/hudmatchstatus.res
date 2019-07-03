@@ -1,5 +1,3 @@
-#base	"..\..\stream\resource\ui\hudmatchstatus.res"
-
 "Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
