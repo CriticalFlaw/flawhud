@@ -1,4 +1,4 @@
-#base	"..\..\stream\disguisestatuspanel.res"
+#base	"..\..\stream\resource\ui\disguisestatuspanel.res"
 
 "Resource/UI/ItemModelPanel.res"
 {

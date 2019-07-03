@@ -1,4 +1,4 @@
-#base	"..\..\stream\scoreboard.res"
+#base	"..\..\stream\resource\ui\scoreboard.res"
 
 "Resource/UI/Scoreboard.res"
 {

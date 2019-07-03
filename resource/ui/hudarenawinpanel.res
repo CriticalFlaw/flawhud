@@ -1,4 +1,4 @@
-#base	"..\..\stream\hudarenawinpanel.res"
+#base	"..\..\stream\resource\ui\hudarenawinpanel.res"
 
 "Resource/UI/arenawinpanel.res"
 {

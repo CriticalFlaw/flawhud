@@ -1,4 +1,4 @@
-#base	"..\..\stream\spectator.res"
+#base	"..\..\stream\resource\ui\spectator.res"
 
 "Resource/UI/Spectator.res"
 {

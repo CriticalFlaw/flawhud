@@ -1,4 +1,4 @@
-#base	"..\..\stream\votehud.res"
+#base	"..\..\stream\resource\ui\votehud.res"
 
 "Resource/UI/VoteHud.res"
 {

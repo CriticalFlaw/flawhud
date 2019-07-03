@@ -1,4 +1,4 @@
-#base	"..\..\stream\targetid.res"
+#base	"..\..\stream\resource\ui\targetid.res"
 
 "Resource/UI/TargetID.res"
 {

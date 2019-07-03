@@ -1,4 +1,4 @@
-#base	"..\..\stream\mvmscoreboard.res"
+#base	"..\..\stream\resource\ui\mvmscoreboard.res"
 
 "Resource/UI/MvMScoreboard.res"
 {

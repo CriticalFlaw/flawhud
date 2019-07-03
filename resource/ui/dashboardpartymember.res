@@ -1,3 +1,5 @@
+#base	"..\..\stream\resource\ui\dashboardpartymember.res"
+
 "Resource/UI/DashboardPartyMember.res"
 {
 	"avatar"
@@ -7,8 +9,8 @@
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"101"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f2"
+		"tall"			"f2"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"

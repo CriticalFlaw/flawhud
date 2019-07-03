@@ -1,4 +1,4 @@
-#base	"..\..\stream\hudtournament.res"
+#base	"..\..\stream\resource\ui\hudtournament.res"
 
 "Resource/UI/HudTournament.res"
 {
