@@ -234,7 +234,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&Q #Cancel"
+		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
