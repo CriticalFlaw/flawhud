@@ -14,6 +14,24 @@
 		"xpos"			"9999"
 	}
 	
+	"AmmoBG"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"AmmoBG"
+		"xpos"			"4"
+		"ypos"			"29"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"43"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"PaintBackgroundType"		"0"
+        "textinsety" 				"9999"
+	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
