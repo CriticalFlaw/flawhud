@@ -142,7 +142,7 @@
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"c-124"
+		"ypos"			"c-129"
 		"wide"			"260"
 		"tall"			"33"
 		"autoResize"	"1"
