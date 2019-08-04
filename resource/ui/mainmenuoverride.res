@@ -1004,7 +1004,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular10"
-		"labelText"		"FlawHUD v2019.0427"
+		"labelText"		"FlawHUD v2019.0804"
 		"xpos"			"r82"
 		"ypos"			"r13"
 		"wide"			"80"
