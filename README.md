@@ -11,9 +11,6 @@ KnucklesCrosses are disabled by default, to enable them open `flawhud\scripts\hu
 #### Font Styles
 To enable the Code Pro fonts, open `flawhud/resource/clientscheme.res` and remove the tf suffix as instructed in the file.
 
-#### Favorite Server
-By default the heart shaped button on the main menu leads to the item test page. To assign a server address to it, open `flawhud/resource/gamemenu.res` and under `FavoriteServer` replace the Xs with the server IP and password.
-
 #### Transparent Viewmodels
 Due to users experiencing issues relating to their own graphics settings, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudslayout.res (disabled by default) are included, so you're responsible for acquiring and modifying your config accordingly. For more information, visit the TeamFortress.TV [thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
 
