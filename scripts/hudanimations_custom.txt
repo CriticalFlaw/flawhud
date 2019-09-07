@@ -162,6 +162,13 @@ event HudSnapShotReminderIn
 }
 //==================================================================================
 
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining	Position		"c-160 r167"		Linear 0 0
+	Animate ObjectiveStatusTraining	Position		"c-160 r107"		Bounce 0.0 2.0
+}
+//==================================================================================
+
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
 event HudTournament_MoveChatWindow 		{ }
