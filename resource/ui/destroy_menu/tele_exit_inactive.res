@@ -18,6 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"NeonRed"
 	}
 	
 	"ItemBackground"
@@ -33,7 +34,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_item_bg_outline"
-		"iconColor"			"ProgressOffWhiteTransparent"
+		"iconColor"			"0 0 0 196"
 	}
 	
 	"NotBuiltLabel"
@@ -41,6 +42,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NotBuiltLabel"
 		"font"				"FontRegular8"
+		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"28"
 		"zpos"				"2"
@@ -52,8 +54,6 @@
 		"enabled"			"1"
 		"labelText"			"#TF_NotBuilt"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 	
 	"UnavailableLabel"
@@ -61,8 +61,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"UnavailableLabel"
 		"font"				"Default"
-		"xpos"				"10"
-		"ypos"				"48"
+		"fgcolor"			"NeonRed"
+		"xpos"				"-10"
+		"ypos"				"30"
 		"zpos"				"2"
 		"wide"				"80"
 		"tall"				"18"
