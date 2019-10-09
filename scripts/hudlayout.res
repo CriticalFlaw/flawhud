@@ -775,7 +775,7 @@
 		"tall"				"200"
 		"visible"			"1"
 		"enabled"			"1"
-		"separator_width"	"1"
+		"separator_width"	"2"
 		"separator_height"	"7"
 		"height_offset"		"2"
 	}
