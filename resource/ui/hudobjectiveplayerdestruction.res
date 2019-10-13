@@ -162,7 +162,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontSmallBold"
+			"font"			"FontBold14"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -180,7 +180,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontSmallBold"
+			"font"			"FontBold14"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
