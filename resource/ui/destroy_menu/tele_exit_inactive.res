@@ -32,7 +32,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"0 0 0 196"
 	}
@@ -61,7 +61,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"UnavailableLabel"
 		"font"				"Default"
-		"fgcolor"			"NeonRed"
 		"xpos"				"-10"
 		"ypos"				"30"
 		"zpos"				"2"
@@ -75,6 +74,7 @@
 		"textAlignment"		"Center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"NeonRed"
 	}
 	
 	"NumberBg"	
@@ -88,7 +88,7 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

@@ -214,7 +214,7 @@
 			"src_corner_height"	"23"
 			"src_corner_width"	"23"
 			"draw_corner_width"	"6"
-			"draw_corner_height" 	"6"	
+			"draw_corner_height" "6"
 		}	
 
 		"ArenaStreakLabel"
@@ -250,7 +250,7 @@
 		"tall"			"174"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"WinPanelBG2"
 	{
@@ -1011,7 +1011,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"HudTimerProgressInActive"
 		}
 		"Player2Name"
@@ -1127,7 +1127,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"HudTimerProgressInActive"
 		}
 		"Player3Name"

@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 	}
-
+	
 	"LeftSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,7 +54,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 	}
-
+	
 	"RightSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,7 +100,7 @@
 		"font"			"FontBold27"
 		"fgcolor"		"White"
 	}
-
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -112,7 +112,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold27"
 		"fgcolor"		"ShadowBlack"
@@ -121,7 +121,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}	
-
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -136,9 +136,9 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"FontBold27"
-		"fgcolor"		"White"	
+		"fgcolor"		"White"
 	}
-
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -150,7 +150,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"FontBold27"
 		"fgcolor"		"ShadowBlack"

@@ -107,10 +107,10 @@
 		}
 		"ClassCheckBox2"
 		{
-			"ControlName"			"CheckButton"
-			"fieldName"				"ClassCheckBox2"
-			"labelText"				"#TF_Class_Name_Sniper"
-			"Font"					"ItemFontAttribSmall"
+			"ControlName"	"CheckButton"
+			"fieldName"		"ClassCheckBox2"
+			"labelText"		"#TF_Class_Name_Sniper"
+			"Font"			"ItemFontAttribSmall"
 			"textAlignment"	"west"
 			"xpos"			"220"
 			"ypos"			"15"

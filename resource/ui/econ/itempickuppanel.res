@@ -279,7 +279,7 @@
 		"armedBgColor_override" "TFOrange"
 		"depressedBgColor_override" "TextColor"
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"White"		
+		"image_armedcolor"	"White"
 		
 		"SubImage"
 		{

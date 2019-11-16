@@ -413,7 +413,7 @@
 				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
-				"image_disabledcolor" 	"Black"
+				"image_disabledcolor"	"Black"
 
 				"SubImage"
 				{
@@ -458,7 +458,7 @@
 				"border_default"	"WhiteBorder"
 				
 				"image_drawcolor"		"White"
-				"image_disabledcolor" 	"Black"
+				"image_disabledcolor"	"Black"
 
 				"SubImage"
 				{

@@ -205,7 +205,7 @@
 		"wide"				"32"
 		"tall"				"36"
 		"visible"			"1"
-		"enabled"			"1"	
+		"enabled"			"1"
 		
 		"MoveableIconBG"
 		{

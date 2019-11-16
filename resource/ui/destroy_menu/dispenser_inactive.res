@@ -32,7 +32,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"0 0 0 196"
 	}
@@ -88,7 +88,7 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"255 255 255 128"
 	}

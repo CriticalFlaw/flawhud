@@ -71,8 +71,8 @@
 		"fgcolor"					"255 255 255 128"
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -107,8 +107,8 @@
 		"fgcolor"					"255 255 255 128"
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -190,7 +190,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-
+	
 	"heavyweapons"
 	{
 		"ControlName"		"CExButton"
@@ -298,7 +298,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-
+	
 	"sniper"
 	{
 		"ControlName"		"CExButton"
@@ -408,37 +408,6 @@
 		"keyboardinputenabled"	"0"
 	}
 	
-	"EditLoadoutButton" [$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c100"
-		"ypos"			"c92"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"paintbackground" "0"
-		"labelText"		"&E  Edit Loadout"
-		"textAlignment"	"west"
-		"Command"		"openloadout"
-		"font"			"FontRegular12"
-		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-	}
-	
 	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -458,6 +427,37 @@
 		"Command"		"vguicancel"
 		"font"			"FontRegular12"
 		"paintbackground" "0"
+		
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"White"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	}
+	
+	"EditLoadoutButton" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutButton"
+		"xpos"			"c100"
+		"ypos"			"c92"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"paintbackground" "0"
+		"labelText"		"&E  Edit Loadout"
+		"textAlignment"	"west"
+		"Command"		"openloadout"
+		"font"			"FontRegular12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -1006,10 +1006,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"render_texture" "0"
 		"fov"			"25"
 		"allow_rot"		"1"
 		"paintbackground"	"1"
-		"render_texture"	"0"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
 		

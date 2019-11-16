@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -94,7 +94,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RightSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -111,11 +111,11 @@
 		"if_hybrid" {
 			"visible"	"0"
 		}
-
+		
 		"if_mvm" {
 			"visible"	"0"
 		}
-
+		
 		"if_specialdelivery" {
 			"visible"	"0"
 		}
@@ -171,7 +171,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
@@ -195,7 +195,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -263,7 +263,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -400,7 +400,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -439,7 +439,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"

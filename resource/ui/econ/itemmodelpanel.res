@@ -305,7 +305,6 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
 			"use_item_sounds"	"1"
 		}
 	}

@@ -103,7 +103,7 @@
 			"ypos"		"24"
 		}
 	}
-
+	
 	"StopWatchPointsLabel"
 	{
 		"ControlName"	"CExLabel"

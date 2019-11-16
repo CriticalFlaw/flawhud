@@ -98,12 +98,12 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 200"
 		
-		 if_mvm
+		if_mvm
  		{
  			"visible"		"0"
  		}
 	}
-
+	
 	"BlueTeamName"
 	{
 		"ControlName"	"CExLabel"
@@ -126,6 +126,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"BlueTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -149,6 +150,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -168,10 +170,10 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
-
+	
 	"RedLine"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -209,7 +211,7 @@
 		"wide"			"290"
 		"tall"			"35"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
@@ -231,7 +233,7 @@
 		"wide"			"290"
 		"tall"			"200"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
@@ -266,7 +268,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -371,7 +373,7 @@
 		"wide"			"290"
 		"tall"			"11"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
@@ -387,8 +389,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"FontRegular8"
 		"labelText"		"%servertimeleft%"
+		"font"			"FontRegular8"
 		"textAlignment"	"east"
 		"xpos"			"311"
 		"ypos"			"61"
@@ -533,7 +535,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		
 		if_mvm
 		{
@@ -547,7 +549,7 @@
 		"fieldName"		"classmodelpanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"autoResize"	"0"
@@ -781,7 +783,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
@@ -790,6 +792,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"PlayerScoreLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -877,7 +880,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+			
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -903,11 +906,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"HudTimerProgressInActive"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -956,7 +959,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+			
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -982,11 +985,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"HudTimerProgressInActive"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"

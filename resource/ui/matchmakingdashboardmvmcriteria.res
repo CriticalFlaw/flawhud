@@ -116,7 +116,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"		"0"	
+		"eatmouseinput"		"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}

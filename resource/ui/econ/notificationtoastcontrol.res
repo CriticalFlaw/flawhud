@@ -11,7 +11,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"WhiteBorder"	//"ButtonBorder"
+		"border"		"WhiteBorder"
 		"if_high_priority"
 		{
 			"border"	"NotificationHighPriority"
@@ -61,7 +61,7 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"TriggerButton"
@@ -106,8 +106,8 @@
 			"enabled"		"1"
 			"image"			"glyph_view"
 			"scaleImage"	"1"
-		}				
-	}		
+		}
+	}
 
 	"AcceptButton"
 	{
@@ -151,8 +151,8 @@
 			"enabled"		"1"
 			"image"			"glyph_view"
 			"scaleImage"	"1"
-		}	
-	}		
+		}
+	}
 
 	"DeclineButton"
 	{
@@ -192,6 +192,6 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 }

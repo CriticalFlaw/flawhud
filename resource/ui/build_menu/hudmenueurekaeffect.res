@@ -11,7 +11,7 @@
 		"tall"				"170"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"paintbackground"	"0"
 	}
 	
@@ -26,7 +26,7 @@
 		"tall"				"48"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_build"
 		"iconColor"			"White"
 	}

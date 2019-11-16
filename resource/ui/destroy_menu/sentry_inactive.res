@@ -42,7 +42,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NotBuiltLabel"
 		"font"				"FontRegular8"
-		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"28"
 		"zpos"				"2"
@@ -54,6 +53,7 @@
 		"enabled"			"1"
 		"labelText"			"#TF_NotBuilt"
 		"textAlignment"		"center"
+		"fgcolor"			"NeonRed"
 	}
 	
 	"UnavailableLabel"
@@ -88,13 +88,13 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"255 255 255 128"
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontRegular11"

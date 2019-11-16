@@ -18,6 +18,7 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
+		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 		"max_cart_model_panels"	"8"
@@ -76,7 +77,6 @@
 				"allow_rot"				"0"
 				"inventory_image_type"	"1"
 			}
-			
 			"use_item_sounds" "1"		
 		}
 		

@@ -488,9 +488,9 @@
 		"render_texture" "0"
 		"fov"			"40"
 		"allow_rot"		"1"
-		"paintbackground" 		"1"		
+		"paintbackground"		"1"
 		"paintbackgroundenabled" "1"
-		"bgcolor_override" 		"255 255 255 0"
+		"bgcolor_override"		"255 255 255 0"
 		
 		"model"
 		{
@@ -571,9 +571,9 @@
 		
 		"itempanel"
 		{
-			"fieldName"		"itempanel"		
+			"fieldName"		"itempanel"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"	
+			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -834,7 +834,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"options"
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
 		
@@ -869,8 +869,8 @@
 		"enabled"			"1"
 		"auto_scale"		"1"
 		"auto_layout"		"1"
-		"selected_button_default"	  "0"
-		"auto_layout_vertical_buffer" "-4"
+		"selected_button_default"		"0"
+		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"1"
 		"align"					"west"
 		

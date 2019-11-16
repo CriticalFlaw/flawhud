@@ -174,6 +174,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -245,8 +246,8 @@
 				"xpos"				"c-282"
 				"ypos"				"212"
 				"zpos"				"5"
-				"tall"				"20"
 				"wide"				"150"
+				"tall"				"20"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"1"
@@ -606,7 +607,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar3"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar3B"
 		{
 			"ControlName"	"ImagePanel"
@@ -725,7 +726,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar4B"
 		{
 			"ControlName"	"ImagePanel"
@@ -742,7 +743,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel4A"
 		{
 			"ControlName"	"Label"
@@ -759,7 +760,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel4B"
 		{
 			"ControlName"	"Label"
@@ -776,7 +777,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel4"
 		{
 			"ControlName"	"Label"
@@ -793,7 +794,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG5A"
 		{
 			"ControlName"	"ImagePanel"
@@ -878,7 +879,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel5B"
 		{
 			"ControlName"	"Label"
@@ -895,7 +896,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel5"
 		{
 			"ControlName"	"Label"
@@ -912,7 +913,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG6A"
 		{
 			"ControlName"	"ImagePanel"
@@ -1150,7 +1151,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG8A"
 		{
 			"ControlName"	"ImagePanel"
@@ -1235,7 +1236,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel8B"
 		{
 			"ControlName"	"Label"
@@ -1252,7 +1253,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel8"
 		{
 			"ControlName"	"Label"
@@ -1269,7 +1270,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG9A"
 		{
 			"ControlName"	"ImagePanel"
@@ -1337,7 +1338,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel9A"
 		{
 			"ControlName"	"Label"
@@ -1371,7 +1372,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel9"
 		{
 			"ControlName"	"Label"
@@ -1388,7 +1389,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"RecordsBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -1469,7 +1470,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord1Value"
 		{
 			"ControlName"	"Label"
@@ -1486,7 +1487,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Label"
 		{
 			"ControlName"	"Label"
@@ -1503,7 +1504,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Value"
 		{
 			"ControlName"	"Label"
@@ -1520,7 +1521,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Label"
 		{
 			"ControlName"	"Label"
@@ -1537,7 +1538,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Value"
 		{
 			"ControlName"	"Label"
@@ -1554,7 +1555,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Label"
 		{
 			"ControlName"	"Label"
@@ -1571,7 +1572,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Value"
 		{
 			"ControlName"	"Label"
@@ -1588,7 +1589,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Label"
 		{
 			"ControlName"	"Label"
@@ -1605,7 +1606,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Value"
 		{
 			"ControlName"	"Label"
@@ -1622,7 +1623,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord6Label"
 		{
 			"ControlName"	"Label"
@@ -1656,7 +1657,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Label"
 		{
 			"ControlName"	"Label"
@@ -1673,7 +1674,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Value"
 		{
 			"ControlName"	"Label"
@@ -1690,7 +1691,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Label"
 		{
 			"ControlName"	"Label"
@@ -1707,7 +1708,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Value"
 		{
 			"ControlName"	"Label"
@@ -1741,7 +1742,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord9Value"
 		{
 			"ControlName"	"Label"
@@ -1775,7 +1776,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord10Value"
 		{
 			"ControlName"	"Label"
@@ -1809,7 +1810,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord11Value"
 		{
 			"ControlName"	"Label"
@@ -1843,7 +1844,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord12Value"
 		{
 			"ControlName"	"Label"
@@ -1877,7 +1878,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord13Value"
 		{
 			"ControlName"	"Label"
@@ -1911,7 +1912,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord14Value"
 		{
 			"ControlName"	"Label"
@@ -1945,7 +1946,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord15Value"
 		{
 			"ControlName"	"Label"
@@ -1964,6 +1965,7 @@
 			"enabled"		"1"
 		}
 	}
+	
 	"TipImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1996,6 +1998,7 @@
 		"enabled"		"0"
 		"wrap"			"1"
 	}
+	
 	"NextTipButton" [$WIN32]
 	{
 		"ControlName"	"Button"
@@ -2016,6 +2019,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
+	
 	"ResetStatsButton" [$WIN32]
 	{
 		"ControlName"	"Button"
@@ -2036,6 +2040,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
+	
 	"CloseButton" [$WIN32]
 	{
 		"ControlName"	"Button"

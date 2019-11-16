@@ -90,8 +90,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"FontBold22"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -104,12 +104,10 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
 		"proportionaltoparent"	"1"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
+		
+		"pin_to_sibling"		"CountdownLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"FrontParticlePanel"
@@ -333,7 +331,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"max_size"		"19"
 		"6v6_gap"		"2"
 		"12v12_gap"		"1"
@@ -342,7 +340,7 @@
 		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" 	"east"
+		"team2_grow_dir"	"east"
 		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
@@ -353,7 +351,7 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"Red"
+			"color_portrait_bg_red"		"Red"
 			"color_portrait_bg_blue"	"Blue"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
@@ -409,7 +407,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"healthbar"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
 				"font"			"Default"
@@ -417,7 +415,7 @@
 				"ypos"			"19"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"3"				
+				"tall"			"3"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -437,7 +435,7 @@
 				"ypos"			"19"
 				"zpos"			"6"
 				"wide"			"f0"
-				"tall"			"3"				
+				"tall"			"3"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -480,7 +478,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-
+				
 				"src_corner_height"	"22"
 				"src_corner_width"	"22"
 				"draw_corner_width"	"3"
@@ -578,7 +576,7 @@
 				"tall"			"p0.15"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"	
+				"image"			"../HUD/comp_player_status_skull"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
 			}

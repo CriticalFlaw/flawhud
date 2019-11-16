@@ -31,7 +31,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"ProgressOffWhiteTransparent"
 	}
@@ -68,7 +68,7 @@
 		"tall"				"7"
 		"visible"			"1"
 		"enabled"			"0"
-		"scaleImage"		"0"	
+		"scaleImage"		"0"
 		"icon"				"ico_metal"
 		"iconColor"			"189 189 189 255"
 	}
@@ -89,7 +89,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"%metal%"
-		"textAlignment"		"center"	
+		"textAlignment"		"center"
 	}
 	
 	"ModeLabel"
@@ -122,7 +122,7 @@
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

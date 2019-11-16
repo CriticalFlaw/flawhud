@@ -114,7 +114,7 @@
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"

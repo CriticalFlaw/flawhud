@@ -200,7 +200,7 @@
 			"scaleImage"		"1"	
 			"color_outline"		"DarkBlue"
 		}
-
+		
 		"BlueLeaderAvatarBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -232,6 +232,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
+		
 		"RedTeamLabelShadow"
 		{
 			"ControlName"		"CExLabel"
@@ -254,7 +255,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-
+		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -277,6 +278,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
 			"font"				"FontBold37"
+			"fgcolor"			"ShadowBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"-2"
@@ -288,7 +290,6 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"ShadowBlack"
 			
 			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -307,10 +308,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"DarkRed"
 		}
-
+		
 		"RedLeaderAvatarBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -337,7 +338,7 @@
 		"tall"			"185"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
@@ -493,7 +494,6 @@
 		"fieldName"		"HorizontalLine"
 		"xpos"			"9999"
 	}
-	
 	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -576,7 +576,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"Player2Name"
@@ -646,7 +646,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"Player3Name"
@@ -718,7 +718,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Highest Killstreak"
+		"labelText"		"#Winpanel_KillStreakLeader"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -736,7 +736,6 @@
 		"fieldName"		"HorizontalLine2"
 		"xpos"			"9999"
 	}
-	
 	"KillStreakPlayer1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"

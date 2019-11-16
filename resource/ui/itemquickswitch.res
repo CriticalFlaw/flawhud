@@ -16,6 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"DarkGrey"
+		
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
 		
@@ -46,7 +47,7 @@
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
-
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"

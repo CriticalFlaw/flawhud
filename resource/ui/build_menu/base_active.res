@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"font"				"FontRegular11"
@@ -31,7 +31,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"Black"
 	}
@@ -47,7 +47,7 @@
 		"tall"				"34"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
@@ -63,13 +63,13 @@
 		"tall"				"10"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_metal"
 		"iconColor"			"White"
 	}
 	
 	"CostLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
 		"font"				"FontBold22"
@@ -111,7 +111,7 @@
 	}
 	
 	"ModeLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"font"				"DefaultSmall"
@@ -140,13 +140,13 @@
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontRegular11"

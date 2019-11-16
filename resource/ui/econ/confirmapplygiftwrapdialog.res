@@ -2,17 +2,17 @@
 {
 	"ConfirmApplyGiftWrapDialog"
 	{
-		"fieldName"			"ConfirmApplyGiftWrapDialog"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-200"
-		"ypos"				"c-200"
-		"wide"				"400"
-		"tall"				"240"
-		"bgcolor_override"	"DarkerGrey"
-		"paintbackgroundtype" "0"
-		"settitlebarvisible" "0"
-		"border"			"WhiteBorder"
+		"fieldName"				"ConfirmApplyGiftWrapDialog"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-200"
+		"ypos"					"c-200"
+		"wide"					"400"
+		"tall"					"240"
+		"bgcolor_override"		"DarkerGrey"
+		"paintbackgroundtype"	"0"
+		"settitlebarvisible"	"0"
+		"border"				"WhiteBorder"
 	}
 	
 	"mouseoveritempanel"

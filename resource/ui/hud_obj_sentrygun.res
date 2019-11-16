@@ -314,7 +314,7 @@
 				"brighttext"	"0"
 			}
 			
-			"ShellIcon"	
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"

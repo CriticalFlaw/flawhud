@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3 BLU"	[$WIN32]
+		"labelText"		"&3 BLU"
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -132,14 +132,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&4 RED"	[$WIN32]
+		"labelText"		"&4 RED"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"FontBold18"
-		
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -216,7 +215,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2  Spectate"	[$WIN32]
+		"labelText"		"&2  Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

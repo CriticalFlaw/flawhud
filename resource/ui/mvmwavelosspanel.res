@@ -34,7 +34,7 @@
 		"fieldName"			"HeaderLabel"
 		"font"				"FontBold20"
 		"labelText"			"%waveheader%"
-		"textAlignment"	 	"center"
+		"textAlignment"		"center"
 		"xpos"				"c-275"
 		"ypos"				"105"
 		"wide"				"550"
@@ -353,7 +353,7 @@
 			"src_corner_height"		"22"
 			"src_corner_width"		"22"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		
 		"Header"
@@ -427,7 +427,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		
 		"Hint1"
 		{
 			"ControlName"	"CExLabel"
@@ -442,7 +442,7 @@
 			"fgcolor"		"White"
 			"wrap"			"1"
 		}
-
+		
 		"HintImage2"
 		{
 			"ControlName"	"ImagePanel"
@@ -456,7 +456,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		
 		"Hint2"
 		{
 			"ControlName"	"CExLabel"
@@ -472,7 +472,7 @@
 			"wrap"			"1"
 		}
 	}
-
+	
 	"VoteButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -497,7 +497,7 @@
 		"image_drawcolor"	"NeutralWhite"
 		"Command"			"vote_restart"
 	}
-
+	
 	"ContinueButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -511,7 +511,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Continue"
+		"labelText"			"#ConfirmButtonText"
 		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"dulltext"			"0"

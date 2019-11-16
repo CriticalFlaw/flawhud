@@ -221,7 +221,7 @@
 		"unicode"			"1"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
-		"paintbackgroundtype" 	"2"
+		"paintbackgroundtype"	"2"
 		"font"					"FontBold12"
 	}
 		
@@ -265,7 +265,7 @@
 		"unicode"			"1"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
-		"paintbackgroundtype" 	"2"
+		"paintbackgroundtype"	"2"
 		"font"					"FontBold12"
 	}
 

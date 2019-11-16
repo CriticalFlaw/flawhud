@@ -186,8 +186,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"centerwrap"	"1"
 		"fgcolor_override" "White"
+		"centerwrap"	"1"
 	}
 
 	"CancelButton"

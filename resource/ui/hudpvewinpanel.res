@@ -2,7 +2,7 @@
 {
 	"WinPanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -58,7 +58,7 @@
 	
 	"WinReasonLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"0"
@@ -66,19 +66,19 @@
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 
 	"DetailsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"15"
@@ -86,14 +86,14 @@
 		"zpos"			"1"
 		"wide"			"265"
 		"tall"			"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}

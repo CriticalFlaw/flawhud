@@ -246,11 +246,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultBgColor_override" 	"0 0 0 235"
-		"armedBgColor_override"		"Transparent"
-		"depressedBgColor_override" "Transparent"
-		
 		"border_default"	"0 0 0 235"
 		"border_armed"		"0 0 0 235"
+		
+		"defaultBgColor_override"	"0 0 0 235"
+		"armedBgColor_override"		"Transparent"
+		"depressedBgColor_override" "Transparent"
 	}
 }

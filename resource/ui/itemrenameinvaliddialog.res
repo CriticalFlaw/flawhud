@@ -82,7 +82,7 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"

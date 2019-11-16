@@ -92,7 +92,7 @@
 			"zpos"			"1"
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"ShadowBlack"
-
+			
 			if_competitive
 			{
 				"wide"		"40"
@@ -259,7 +259,7 @@
 				{
 					"visible"		"1"
 				}
-
+				
 				if_competitive
 				{
 					"xpos"			"24"
@@ -477,7 +477,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentBLUELabel"
 	{	
 		"ControlName"	"Label"
@@ -516,7 +516,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentBLUEStateLabel"
 	{	
 		"ControlName"	"Label"
@@ -602,7 +602,7 @@
 		"src_corner_height"	"15"
 		"src_corner_width"	"15"
 		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"	
+		"draw_corner_height"	"0"
 		
 		if_mvm
 		{
@@ -612,12 +612,13 @@
 		{
 			"visible"		"0"
 		}
+		
 		if_readymode
 		{
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentREDLabel"
 	{	
 		"ControlName"	"Label"
@@ -656,7 +657,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentREDStateLabel"
 	{	
 		"ControlName"	"Label"
@@ -694,7 +695,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentConditionLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -718,6 +719,7 @@
 		{
 			"visible"		"0"
 		}
+		
 		if_competitive
 		{
 			"ypos"			"25"
@@ -725,7 +727,7 @@
 	}
 
 	"TournamentConditionLabelBG"
-	{	
+	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TournamentConditionLabelBG"
 		"xpos"			"0"
@@ -793,6 +795,7 @@
 			"ypos"			"36"
 		}
 	}
+	
 	"TournamentInstructionsLabelShadow"
 	{
 		"ControlName"	"CExLabel"

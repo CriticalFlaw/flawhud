@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/statsummary.res"
 {
 	"TFStatsSummary"
 	{
@@ -27,7 +27,7 @@
 		"scaleImage"	"1"
 		"bgcolor_override"	"200 200 200 255"
 	}
-
+	
 	"OnYourWayLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -45,7 +45,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -63,7 +63,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -81,7 +81,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -230,6 +230,7 @@
 				"unicode"			"0"
 			}
 		}
+		
 		"AveragesBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -463,7 +464,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"	"Label"
@@ -497,7 +498,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG3A"
 		{
 			"ControlName"	"ImagePanel"
@@ -582,7 +583,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"	"Label"
@@ -1906,7 +1907,7 @@
 			"enabled"		"1"
 		}
 	}
-
+	
 	"TipImage"
 	{
 		"ControlName"	"CTFImagePanel"

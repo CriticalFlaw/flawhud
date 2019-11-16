@@ -11,13 +11,13 @@
 		"tall"				"170"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_bg"
 		"iconColor"			"White"
 	}
 	
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"FontBold22"
@@ -332,7 +332,6 @@
 		"zpos"				"2"
 		"wide"				"75"
 		"tall"				"16"
-		"tall"				"16"
 		"visible"			"1"
 	}
 
@@ -347,7 +346,7 @@
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"0"	
+		"scaleImage"		"0"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
@@ -384,7 +383,7 @@
 		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
@@ -421,7 +420,7 @@
 		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

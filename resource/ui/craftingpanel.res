@@ -17,8 +17,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override" 		"DarkGrey"
-		"outoffocus_bgcolor_override" 	"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"

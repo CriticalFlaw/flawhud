@@ -55,6 +55,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"FontBold22"
+		"fgcolor"			"ShadowBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"2"
@@ -68,7 +69,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"ShadowBlack"
 		
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

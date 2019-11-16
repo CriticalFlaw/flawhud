@@ -116,7 +116,7 @@
 			"proportionaltoparent"	"1"
 		}	
 	}
-
+	
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -171,7 +171,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"

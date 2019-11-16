@@ -550,7 +550,7 @@ Scheme
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"600 767"
 			}
 			"3"
@@ -559,7 +559,7 @@ Scheme
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"768 1023"
 			}
 			"4"
@@ -622,7 +622,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}	
 		"HudFontMediumBigBold"
@@ -801,7 +801,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2021,7 +2021,7 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"8"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"weight"		"500"
 			}
 		}
@@ -2358,7 +2358,7 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"AdFont_AdText"
 		{
 			"1"
@@ -2604,7 +2604,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"additive"		"0"
 			}
 		}

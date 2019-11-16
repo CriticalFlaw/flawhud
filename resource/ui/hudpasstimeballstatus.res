@@ -19,8 +19,8 @@
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
 		"font"			"HudFontBiggerBold"
-		"xpos"			0
-		"ypos"			c-98
+		"xpos"			"0"
+		"ypos"			"c-98"
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"
@@ -163,7 +163,7 @@
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
 	}
-
+	
 	"GoalRed0"
 	{
 		"ControlName"	"ImagePanel"
@@ -201,7 +201,7 @@
 		"image"			"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"	"1"	
 	}
-
+	
 	"GoalRed2"
 	{
 		"ControlName"	"ImagePanel"
@@ -278,7 +278,7 @@
 		pin_corner_to_sibling	"4"
 		pin_to_sibling_corner	"6"
 	}
-
+	
 	"BallPowerCluster" 
 	{
 		"ControlName" "EditablePanel"
@@ -340,7 +340,7 @@
 				"scaleImage"	"1"					
 			}
 		}
-
+		
 		"BallPowerMeterFillContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -372,7 +372,7 @@
 			}
 		}
 	}
-
+	
 	"playericon0"
 	{
 		"ControlName"	"ImagePanel"

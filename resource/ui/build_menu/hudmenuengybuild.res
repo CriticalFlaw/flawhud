@@ -25,7 +25,7 @@
 		"tall"				"48"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_build"
 	}
 	

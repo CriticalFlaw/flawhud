@@ -32,7 +32,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"ProgressOffWhite"
 	}
@@ -48,7 +48,7 @@
 		"tall"				"34"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_demolish"
 		"iconColor"			"255 0 0 255"
 	}
@@ -64,7 +64,7 @@
 		"tall"				"34"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"obj_status_tele_entrance"
 		"iconColor"			"White"
 	}
@@ -80,7 +80,7 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

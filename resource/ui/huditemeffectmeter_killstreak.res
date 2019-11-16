@@ -27,7 +27,7 @@
 		"image"				"../hud/misc_ammo_area_blue"
 		"scaleImage"		"1"
 		"teambg_2"			"../hud/misc_ammo_area_red"
-		"teambg_3"			"../hud/misc_ammo_area_blue"			
+		"teambg_3"			"../hud/misc_ammo_area_blue"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -77,7 +77,7 @@
 		"xpos"				"2"
 		"ypos"				"15"
 		"zpos"				"2"
-		"wide"				"30"
+		"wide"				"35"
 		"tall"				"20"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -97,7 +97,7 @@
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
-		"wide"				"30"
+		"wide"				"35"
 		"tall"				"20"
 		"pinCorner"			"2"
 		"visible"			"1"

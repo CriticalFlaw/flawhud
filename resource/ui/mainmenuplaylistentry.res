@@ -47,7 +47,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
-
+	
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -203,14 +203,14 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
 		"defaultFgColor_override" "TanDarker"
 		"armedFgColor_override" "NeutralWhite"
 		"depressedFgColor_override" "TanDarker"
 		"defaultBgColor_override" "Transparent"
 		"armedBgColor_override" "Transparent"
 		"depressedBgColor_override" "Transparent"
-
+		
 		"image_drawcolor"	"TextColor"
 		"image_armedcolor"	"NeutralWhite"
 		"SubImage"

@@ -24,7 +24,7 @@
 	"LevelBar"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"LevelBar"	
+		"fieldName"			"LevelBar"
 		"xpos"				"c-60"
 		"ypos"				"130"
 		"zpos"				"0"
@@ -51,7 +51,7 @@
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 	}
-
+	
 	"BarBg"
 	{
 		"ControlName"	"EditablePanel"

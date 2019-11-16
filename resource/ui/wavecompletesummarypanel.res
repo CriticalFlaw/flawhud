@@ -17,7 +17,7 @@
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
+		"draw_corner_height"	"0"
 	}
 	
 	"WaveCompleteContainer"
@@ -176,7 +176,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RatingText"
-			"font"				"FontRegular12"
+			"font"				"FontBold20"
 			"labelText"			"%ratingscore%"
 			"textAlignment"		"center"
 			"xpos"				"0"
@@ -204,7 +204,7 @@
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height"	"0"
 	}
 	
 	"RespecContainer"
@@ -216,7 +216,7 @@
 		"wide"				"250"
 		"tall"				"25"
 		"visible"			"1"
-		"PaintBackgroundType" 	"0"
+		"PaintBackgroundType"	"0"
 		
 		"RespecTextLabelWin"
 		{
@@ -231,7 +231,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-
+		
 		"RespecCountLabel"
 		{
 			"ControlName"		"CExLabel"

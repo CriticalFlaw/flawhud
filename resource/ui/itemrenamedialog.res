@@ -211,7 +211,7 @@
 		"bgcolor_override" "Black"
 		"paintbackgroundtype" "0"
 	}
-
+	
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -231,7 +231,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-
+	
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -270,7 +270,7 @@
 		"bgcolor_override" "Black"
 		"paintbackgroundtype" "0"
 	}
-
+	
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -290,7 +290,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-
+	
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"

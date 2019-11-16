@@ -190,8 +190,8 @@
 		"LargeBoxWide"			"110"
 		"LargeBoxTall"			"77"
 		"BoxGap"				"4"
-		"SelectionNumberXPos" 	"12"
-		"SelectionNumberYPos" 	"4"
+		"SelectionNumberXPos"	"12"
+		"SelectionNumberYPos"	"4"
 		"IconXPos"				"8"
 		"IconYPos"				"0"
 		"TextYPos"				"70"
@@ -261,8 +261,8 @@
 		"enabled" 				"1"
 		"xpos"					"c-126"
 		"ypos"					"240"
-		"wide"	 				"200"
-		"tall"	 				"50"
+		"wide"					"200"
+		"tall"					"50"
 		"priority"				"40"
 	}
 	
@@ -273,8 +273,8 @@
 		"enabled" 				"1"
 		"xpos"					"c-126"
 		"ypos"					"319"
-		"wide"	 				"200"
-		"tall"	 				"50"
+		"wide"					"200"
+		"tall"					"50"
 		"priority"				"40"
 	}
 	
@@ -342,7 +342,7 @@
 	
 	HudRoundTimer
 	{
-		"fieldName" 			"HudRoundTimer"
+		"fieldName"				"HudRoundTimer"
 		"xpos"					"c-25"
 		"ypos"					"440"
 		"wide"					"f0"
@@ -420,7 +420,7 @@
 		"count_ypos"			"8"
 		"icon_texture"			"vgui/hud/icon_commentary"
 		"icon_xpos"				"0"
-		"icon_ypos"				"0"		
+		"icon_ypos"				"0"
 		"icon_width"			"40"
 		"icon_height"			"40"
 		"use_script_bgcolor"	"1"
@@ -902,7 +902,7 @@
 		"ypos"				"255"
 		"wide"	 			"320"
 		"tall"	 			"120"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"HudMenuEngyBuild"
@@ -915,7 +915,7 @@
 		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"88"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -928,7 +928,7 @@
 		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"88"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudEurekaEffectTeleportMenu"
@@ -941,7 +941,7 @@
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"88"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -954,7 +954,7 @@
 		"zpos"				"1"
 		"wide"				"198"
 		"tall"				"88"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudDemomanPipes

@@ -67,7 +67,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -359,7 +359,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -425,7 +425,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"nextexplanation"
+			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -648,7 +648,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"nextexplanation"
+			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -756,7 +756,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"Command"			"close"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
@@ -803,7 +803,7 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"prevexplanation"
+			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"

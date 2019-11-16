@@ -23,7 +23,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-
+		
 		"BannerImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -36,6 +36,7 @@
 			"enabled"		"1"
 			"fillcolor"		"Red"
 			"scaleImage"    "1"
+			
 			"src_corner_height"		"40"
 			"src_corner_width"		"40"
 			"draw_corner_width"		"0"

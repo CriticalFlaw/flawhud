@@ -68,7 +68,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"labelText"			"Metal Required"
+		"labelText"			"#Hud_Menu_Build_Cant_Afford"
 		"textAlignment"		"center"
 	}
 	
@@ -83,7 +83,7 @@
 		"tall"				"7"
 		"visible"			"1"
 		"enabled"			"0"
-		"scaleImage"		"0"	
+		"scaleImage"		"0"
 		"icon"				"ico_metal"
 		"iconColor"			"NeonRed"
 		"textAlignment"		"center"
@@ -161,7 +161,7 @@
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"NeonRed"
 	}

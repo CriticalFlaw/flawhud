@@ -42,10 +42,11 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 	}
-	"MetalIconBackground"	
+	
+	"MetalIconShadow"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIconBackground"
+		"fieldName"		"MetalIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"

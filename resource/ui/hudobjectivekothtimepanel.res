@@ -53,11 +53,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"FontBold14"
 				"xpos"			"13"
 				"ypos"			"9"
 				"tall"			"15"
 				"wide"			"35"
+				"font"			"FontBold14"
 			}
 		}
 	}
@@ -107,11 +107,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"FontBold14"
 				"xpos"			"rs1-13"
 				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"15"
+				"font"			"FontBold14"
 			}
 		}
 	}

@@ -44,7 +44,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -75,7 +75,7 @@
 		"fieldName"			"WaitingForPlayersBG"
 		"xpos"				"9999"
 	}
-
+	
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -106,7 +106,7 @@
 		"fieldName"			"OvertimeBG"
 		"xpos"				"9999"
 	}
-
+	
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -137,7 +137,7 @@
 		"fieldName"			"SuddenDeathBG"
 		"xpos"				"9999"
 	}
-
+	
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -169,7 +169,7 @@
 		"fieldName"			"SetupBG"
 		"xpos"				"9999"
 	}
-
+	
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -199,6 +199,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"

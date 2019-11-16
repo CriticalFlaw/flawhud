@@ -19,7 +19,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -75,7 +75,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 	}
-
+	
 	"OutterBackground"
 	{
 		"ControlName"		"Panel"
@@ -107,7 +107,7 @@
 		"image"				"loadout_solid_line"
 		"scaleImage"		"1"
 
-		"pin_to_sibling"	"OutterBackground"
+		"pin_to_sibling"		"OutterBackground"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"0"
 	}	
@@ -126,7 +126,7 @@
 		"image"				"loadout_solid_line"
 		"scaleImage"		"1"
 
-		"pin_to_sibling"	"OutterBackground"
+		"pin_to_sibling"		"OutterBackground"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}	
@@ -143,8 +143,7 @@
 		"tall"				"40"
 		"visible"			"1"
 		"proportionalToParent"	"1"
-
-
+		
 		"PlayerTab1"
 		{
 			"ControlName"	"CMvMVictoryMannUpPlayerTab"
@@ -157,8 +156,8 @@
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"DarkGrey"
+			"tabPosition"		"0"
+			"bgcolor_override"	"DarkGrey"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -176,8 +175,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"77 72 68 255"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -195,8 +194,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"77 72 68 255"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -214,8 +213,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"77 72 68 255"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -233,8 +232,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"77 72 68 255"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -252,8 +251,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"77 72 68 255"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -269,7 +268,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-
+		
 		"NoItemServerContainer"
 		{
 			"ControlName"	"EditablePanel"

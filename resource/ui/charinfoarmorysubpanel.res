@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override" 		"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 		"thumbnail_bgcolor"				"Grey"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
@@ -85,7 +85,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
 		"font"			"FontRegular15"
-		"labelText"		"Filter:"
+		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"32"
@@ -118,12 +118,13 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
+		
 		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"TanLight"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"
-		"selectionTextColor_override" 		"TanLight"
+		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 	}
 	

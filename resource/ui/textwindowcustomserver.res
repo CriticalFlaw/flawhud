@@ -153,7 +153,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"	
+		"tabPosition"		"0"
 		"fillcolor"			"DarkGrey"
 		"tileImage"			"1"
 		"PaintBackgroundType"	"0"

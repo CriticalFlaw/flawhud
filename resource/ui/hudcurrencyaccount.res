@@ -1,5 +1,22 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
+	"Currency"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Currency"
+		"font"			"FontBold12"
+		"fgcolor"		"CreditsGreen"
+		"xpos"			"47"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"
+		"labelText"		"%currency%"
+	}
+	
 	"CurrencyBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -31,22 +48,5 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"Currency"
-	}
-	
-	"Currency"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Currency"
-		"font"			"FontBold12"
-		"fgcolor"		"CreditsGreen"
-		"xpos"			"47"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"50"
-		"tall"			"19"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%currency%"
 	}
 }

@@ -70,21 +70,13 @@
 		"subimage" 		"glyph_commentary"
 		"tooltip" 		"Coach a Player"
 	}
-	"RequestCoachButton"
-	{
-		"label" 		""
-		"command" 		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" 		"glyph_tutorial"
-		"tooltip" 		"Request a Coach"
-	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage"		"icon_checkbox"
-		"tooltip"		"Call Vote"
+		"tooltip"		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -92,7 +84,15 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_muted"
-		"tooltip"		"Mute Players"
+		"tooltip"		"#MMenu_MutePlayers"
+	}
+	"RequestCoachButton"
+	{
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_tutorial"
+		"tooltip"		"#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
@@ -100,6 +100,6 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_quest_icon"
-		"tooltip"		"Report Player"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

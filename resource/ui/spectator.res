@@ -72,7 +72,7 @@
 		"textAlignment"	"center"
 		"font"			"FontRegular15"
 	}
-
+	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -94,7 +94,7 @@
 			"visible"		"1"
 		}
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -223,7 +223,7 @@
 			"brighttext"	"0"
 		}
 	}
-
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

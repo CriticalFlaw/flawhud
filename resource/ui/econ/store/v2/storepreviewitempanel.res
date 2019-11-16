@@ -555,7 +555,7 @@
 	"ItemIcon1"
 	{
 		"ControlName"	"CStorePreviewItemIcon"
-		"fieldName"		"ItemIcon1"	
+		"fieldName"		"ItemIcon1"
 		"xpos"			"c-215"
 		"ypos"			"c56"
 		"zpos"			"13"
@@ -586,7 +586,7 @@
 		{
 			"fieldName"		"itempanel"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"	
+			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -636,7 +636,7 @@
 		
 		"itempanel"
 		{
-			"fieldName"		"itempanel"	
+			"fieldName"		"itempanel"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"model_xpos"	"1"
@@ -1133,8 +1133,8 @@
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"zoom_toggle"
-		"paintbackground"	"0"	
+		"Command"			"zoom_toggle"
+		"paintbackground"	"0"
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
 		
@@ -1167,13 +1167,12 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"1"
-		"align"				"west"
+		"align"					"west"
 		
 		"ButtonSettings"
 		{

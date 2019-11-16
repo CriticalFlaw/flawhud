@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
 	"PlayerStatusClassImage"
 	{
@@ -60,14 +60,14 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"
 	}
-
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		"xpos"			"15"
 		"ypos"			"r200"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"200"
 		"autoResize"	"0"
