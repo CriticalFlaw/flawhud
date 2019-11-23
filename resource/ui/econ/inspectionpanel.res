@@ -318,9 +318,9 @@
 			}
 			
 			"fgcolor_override"	"White"
-			"bgcolor_override"	"Transparent"
+			"bgcolor_override"	"DarkGrey"
 			"disabledFgColor_override" "White"
-			"disabledBgColor_override" "Transparent"
+			"disabledBgColor_override" "DarkGrey"
 			"selectionColor_override" "Transparent"
 			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "Transparent"
@@ -377,17 +377,17 @@
 			"unicode"			"0"
 			"default"			"0"
 			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 			
 			"fixed_item"
 			{
 				"visible"	"0"
 			}
 			
-			"proportionaltoparent"	"1"
 			"fgcolor_override"	"White"
-			"bgcolor_override"	"Transparent"
-			"disabledFgColor_override" "TanDark"
-			"disabledBgColor_override" "Transparent"
+			"bgcolor_override"	"DarkGrey"
+			"disabledFgColor_override" "White"
+			"disabledBgColor_override" "DarkGrey"
 			"selectionColor_override" "Transparent"
 			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "Transparent"
@@ -397,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"FontRegular10"
+			"font"			"HudFontSmallest"
 			"labelText"		"Choose Item:"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -565,8 +565,8 @@
 			"default"		"1"
 			"NumericInputOnly"	"1"
 			"defaultfgcolor_override"	"White"
-			"defaultbgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
+			"defaultbgcolor_override"	"DarkGrey"
+			"selectedfgcolor_override"	"DarkGrey"
 			"selectedbgcolor_override"	"White"
 			"maxchars"		"18"
 			
@@ -607,8 +607,8 @@
 			"RoundedCorners"		"0"
 			
 			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"Black"
-			"selectedFgColor_override"	"Black"
+			"defaultBgColor_override"	"DarkGrey"
+			"selectedFgColor_override"	"DarkGrey"
 			"selectedBgColor_override"	"White"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"

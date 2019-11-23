@@ -1,30 +1,12 @@
 "GameMenu"
 {
 	// MAIN MENU
-	"CharacterSetupButton"
-	{
-		"label"			"Inventory"
-		"command"		"engine open_charinfo"
-	}
-	"GeneralStoreButton"
-	{
-		"label" 		"Mann Co. Store"
-		"command" 		"engine open_store"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" 		"Steam Workshop"
-		"command" 		"engine OpenSteamWorkshopDialog"
-	}
-	"SettingsButton"
-	{
-		"label"			"Options"
-		"command"		"OpenOptionsDialog"
-	}
 	"TF2SettingsButton"
 	{
-		"label"			"Adv. Options"
+		"label" 		""
 		"command"		"opentf2options"
+		"subimage" 		"glyph_steamworkshop"
+		"tooltip" 		"Advanced Options"
 	}
 
 	// BOTTOM ROW BUTTONS

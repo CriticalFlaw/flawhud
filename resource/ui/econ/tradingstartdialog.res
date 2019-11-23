@@ -159,8 +159,8 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
+			"border_default"	"DarkGrey"
+			"border_armed"		"DarkGrey"
 		}
 		"subbutton1"
 		{
@@ -185,8 +185,8 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
+			"border_default"	"DarkGrey"
+			"border_armed"		"DarkGrey"
 		}
 		"subbutton2"
 		{
@@ -211,8 +211,8 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
+			"border_default"	"DarkGrey"
+			"border_armed"		"DarkGrey"
 		}
 	}
 	
@@ -464,8 +464,8 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
+			"border_default"	"DarkGrey"
+			"border_armed"		"DarkGrey"
 		}
 	}
 	
@@ -492,7 +492,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
+		"border_default"	"DarkGrey"
+		"border_armed"		"DarkGrey"
 	}
 }
