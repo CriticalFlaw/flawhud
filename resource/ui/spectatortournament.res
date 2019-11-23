@@ -326,7 +326,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor_override"		"Yellow"
+				"fgcolor_override"	"255 215 0 255"
 			}
 			
 			"RedChargeAmount"
@@ -344,7 +344,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"west"
-				"fgcolor_override"		"Yellow"
+				"fgcolor_override"	"255 215 0 255"
 			}
 		}
 	}

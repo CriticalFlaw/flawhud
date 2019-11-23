@@ -11,4 +11,9 @@
 	{
 		"iconColor"			"ColorGreen"
 	}
+	
+	"NumberLabel"
+	{
+		"fgcolor"			"ColorGreen"
+	}
 }

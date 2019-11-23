@@ -4,7 +4,6 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c-75"
 		"ypos"			"c120"
 		"wide"			"200"
 		"tall"			"500"

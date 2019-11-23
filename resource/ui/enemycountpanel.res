@@ -75,4 +75,21 @@
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
 	}
+	
+	"EnemyCountShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"EnemyCount"
+		"font"			"FontBold12"
+		"fgcolor"		"ShadowBlack"
+		"xpos"			"1"
+		"ypos"			"18"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%enemy_count%"
+	}
 }

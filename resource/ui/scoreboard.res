@@ -751,7 +751,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"FontRegular10"
+		"font"			"FontBold10"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"3"

@@ -96,10 +96,10 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"		"Ubercharge Meter"
+		"fgcolor_override"		"Ubercharge1"
 		"bgcolor_override"		"MenuShader"
 		"paintborder"			"1"
-		"border"				"WhiteBorder"
+		"border"				"PanelBorder"
 
 		"pin_to_sibling"		"ChargeLabel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"

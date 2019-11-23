@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"WhiteBorder"
+			"border"		"QuickplayBorder"
 			"bgcolor_override"	"DarkGrey"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"

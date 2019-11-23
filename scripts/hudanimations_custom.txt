@@ -1,14 +1,14 @@
 event HudHealthBonusPulse
 {
-	Animate	HealthBG					BgColor		"G_Overheal"		Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
     Animate	HealthBG					Alpha		"200"				Accel 0.0 0.2
 	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
 	
-	Animate	TargetHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
+	Animate	TargetHealthBG				BgColor		"Overheal"			Accel 0.0 0.0
     Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
-	Animate	FreezeHealthBG				BgColor		"G_Overheal"		Accel 0.0 0.0
+	Animate	FreezeHealthBG				BgColor		"Overheal"			Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
@@ -39,15 +39,15 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
-	Animate	HealthBG					BgColor		"G_LowHealthValue"	Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
     Animate	HealthBG					Alpha		"200"				Accel 0.0 0.2
 	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
 	
-	Animate	TargetHealthBG				BgColor		"G_LowHealthValue"	Accel 0.0 0.0
+	Animate	TargetHealthBG				BgColor		"LowHealth"			Accel 0.0 0.0
 	Animate	TargetHealthBG				Alpha		"255"				Accel 0.0 0.2
 	Animate	TargetHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
-	Animate	FreezeHealthBG				BgColor		"G_LowHealthValue"	Accel 0.0 0.0
+	Animate	FreezeHealthBG				BgColor		"LowHealth"			Accel 0.0 0.0
     Animate	FreezeHealthBG				Alpha		"200"				Accel 0.0 0.2
 	Animate	FreezeHealthBG				Alpha		"0"					Accel 0.2 0.4
 	
@@ -78,7 +78,7 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoBG						BgColor		"G_LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.0
     Animate	AmmoBG						Alpha		"200"				Accel 0.0 0.2
 	Animate	AmmoBG						Alpha		"0"					Accel 0.2 0.4
 
@@ -120,7 +120,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 			0.0
 	StopEvent HudMedicChargedLoop 		0.0
 
-	Animate	ChargeMeter 				FgColor		"Ubercharge Meter"	Linear 0.0 0.0001
+	Animate	ChargeMeter 				FgColor		"Ubercharge1"		Linear 0.0 0.0001
 	Animate ChargeLabel 				FgColor 	"ChargePercent"		Linear 0.0 0.0001
 }
 //==================================================================================

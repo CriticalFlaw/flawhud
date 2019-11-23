@@ -26,10 +26,10 @@ Scheme
 		"HoverWhite"				"214 206 200 255"
 		//---------------------------------------------
 		// Gameplay
-		"G_Overheal"				"0 170 127 255"		// HP Buff
-		"G_Heal"					"0 255 127 255"		// HP Healing
-		"G_LowHealthValue"			"190 20 20 255"		// HP Low
-		"G_LowAmmo"					"190 20 20 255"		// Low Ammo
+		"Overheal"					"0 170 127 255"		// HP Buff
+		"Healing"					"0 255 127 255"		// HP Healing
+		"LowHealth"					"190 20 20 255"		// HP Low
+		"LowAmmo"					"190 20 20 255"		// Low Ammo
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
@@ -39,7 +39,6 @@ Scheme
 		"Ubercharge1"				"0 170 127 255"
 		"Ubercharge2"				"0 120 127 255"
 		"ChargePercent"				"243 243 243 255"
-		"Ubercharge Meter"			"0 170 127 255"
 		//---------------------------------------------
 		// Loadout Gradient
 		"LOGScout"					"75 112 130 255"
