@@ -6,7 +6,7 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
+		"wide"			"140"
 		"tall"			"31"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
+		"xpos"			"21"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -61,8 +61,8 @@
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_enter_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
@@ -178,8 +178,8 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
-			"ypos"			"3"
+			"xpos"			"10"
+			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"24"
 			"autoResize"	"0"
@@ -358,5 +358,23 @@
 				"brighttext"	"0"
 			}
 		}
+	}
+	
+	"BuildingBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BuildingBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-100"
+		"wide"				"150"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"	
+		"fillcolor"			"Transparent"
+		"PaintBackgroundType"	"0"
 	}
 }
