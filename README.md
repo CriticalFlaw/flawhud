@@ -9,7 +9,7 @@ Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf
 KnucklesCrosses are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `KnucklesCrosses` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the KnucklesCrosses.png image file (located in the `scripts` folder).
 
 #### Font Styles
-To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the \_tf suffix as instructed in the file.
+To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the suffix as instructed in the file.
 
 #### Transparent Viewmodels
 Due to users experiencing issues relating to their own graphics settings, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudlayout.res (disabled by default) are included, so you're responsible for acquiring and modifying your config accordingly. For more information, visit the TeamFortress.TV [thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
