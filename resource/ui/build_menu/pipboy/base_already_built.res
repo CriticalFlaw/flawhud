@@ -7,6 +7,11 @@
 		"fgcolor"			"ColorGreen"
 	}
 	
+	"MetalIcon"	
+	{
+		"iconColor"			"ColorGreen"
+	}
+	
 	"CantBuildReason"
 	{
 		"fgcolor"			"ColorGreen"

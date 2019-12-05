@@ -26,10 +26,11 @@ Scheme
 		"HoverWhite"				"214 206 200 255"
 		//---------------------------------------------
 		// Gameplay
-		"Overheal"					"0 170 127 255"		// HP Buff
-		"Healing"					"0 255 127 255"		// HP Healing
-		"LowHealth"					"190 20 20 255"		// HP Low
-		"LowAmmo"					"190 20 20 255"		// Low Ammo
+		"Overheal"					"0 170 127 255"
+		"Healing"					"0 255 127 255"
+		"LowValue"					"190 20 20 255"
+		"OverhealPulse"				"0 170 127 200"
+		"LowValuePulse"				"190 20 20 200"
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"

@@ -77,8 +77,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3 BLU"
-		"textAlignment"	"east"
+		"labelText"		"BLU"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
@@ -132,8 +132,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&4 RED"
-		"textAlignment"	"west"
+		"labelText"		"RED"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
@@ -187,7 +187,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1  Auto-Join"
+		"labelText"		"Auto-Join"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -215,7 +215,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2  Spectate"
+		"labelText"		"Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -354,5 +354,55 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"wide"			"0"
+	}
+	
+	"teambutton0SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton0SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&3"
+		"command"		"jointeam blue"
+		"team"			"3"
+	}
+	
+	"teambutton1SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton1SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&4"
+		"command"		"jointeam red"
+		"team"			"4"
+	}
+	
+	"teambutton2SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton2SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&1"
+		"command"		"jointeam auto"
+	}
+	
+	"teambutton3SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton3SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&2"
+		"command"		"jointeam spectate"
 	}
 }

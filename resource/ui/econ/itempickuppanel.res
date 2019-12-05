@@ -29,7 +29,7 @@
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
-			"bgcolor_override"		"Grey"
+			"bgcolor_override"		"DarkGrey"
 			
 			"model_xpos"		"0"
 			"model_center_y"	"1"
@@ -275,11 +275,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "TextColor"
-		"armedBgColor_override" "TFOrange"
-		"depressedBgColor_override" "TextColor"
+		"defaultBgColor_override" "Transparent"
+		"armedBgColor_override" "Transparent"
+		"depressedBgColor_override" "Transparent"
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"White"
+		"image_armedcolor"	"TanDarker"
 		
 		"SubImage"
 		{

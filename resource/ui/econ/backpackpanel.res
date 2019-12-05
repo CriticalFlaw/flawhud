@@ -1562,10 +1562,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Wall"
-		"xpos"			"0"		//"c-340"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"-5"
-		"wide"			"f0"	//"680"
+		"wide"			"f0"
 		"tall"			"325"
 		"autoResize"	"0"
 		"pinCorner"		"0"

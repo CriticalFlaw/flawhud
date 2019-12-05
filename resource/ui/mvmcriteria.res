@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMTourOfDutyGroupBox"
-		"xpos"		"0"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"225"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"-1"
+		"wide"			"400"
+		"tall"			"225"
 
 		"NavToRelay"	"TourlistGroupBox"
 		"NavUp"			"MvMSelectChallengeGroupBox"
