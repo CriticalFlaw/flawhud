@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"DullWhite"
+			"fgcolor_override"		"DullWhite"
 		}
 		
 		"UpButton"

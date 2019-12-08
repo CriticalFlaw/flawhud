@@ -1,6 +1,5 @@
 "GameMenu"
 {
-	// MAIN MENU
 	"TF2SettingsButton"
 	{
 		"label" 		""
@@ -8,8 +7,6 @@
 		"subimage" 		"glyph_steamworkshop"
 		"tooltip" 		"Advanced Options"
 	}
-
-	// BOTTOM ROW BUTTONS
 	"AchievementsButton"
 	{
 		"label"			""

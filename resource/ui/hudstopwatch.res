@@ -14,14 +14,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
-
-		if_comp
-		{
-			"xpos"		"c-40"
-			"ypos"		"22"
-			"wide"		"80"
-			"fillcolor"	"HudBlack"
-		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -42,12 +34,6 @@
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_comp
-		{
-			"xpos"			"c-50"
-			"ypos"			"24"
-		}
 		
 		"TimePanelBG"
 		{
@@ -71,12 +57,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
-			
-			if_comp
-			{
-				"xpos"		"3"
-				"ypos"		"-1"
-			}
 		}
 	}
 
@@ -96,12 +76,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_comp
-		{
-			"xpos"		"c-3"
-			"ypos"		"24"
-		}
 	}
 	
 	"StopWatchPointsLabel"
@@ -121,12 +95,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		
-		if_comp
-		{
-			"xpos"		"c7"
-			"ypos"		"24"
-		}
 	}
 
 	"StopWatchLabel"
@@ -146,12 +114,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		
-		if_comp
-		{
-			"xpos"		"c-62"
-			"ypos"		"24"
-		}
 	}
 
 	"HudStopWatchDescriptionBG"

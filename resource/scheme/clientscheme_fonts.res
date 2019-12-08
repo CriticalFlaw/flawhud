@@ -90,7 +90,7 @@ Scheme
 				"tall"			"18"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold14"
@@ -101,7 +101,7 @@ Scheme
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold12"
@@ -112,7 +112,7 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold12Outline"
@@ -123,7 +123,7 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"outline"		"1"
 			}
 		}
@@ -135,7 +135,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold8"
@@ -146,7 +146,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
@@ -157,7 +157,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular20"
@@ -167,7 +167,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"20"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular18"
@@ -177,7 +177,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular16"
@@ -187,7 +187,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular15"
@@ -197,7 +197,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"15"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular14"
@@ -207,7 +207,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular12"
@@ -217,7 +217,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular11"
@@ -227,7 +227,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"11"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular10"
@@ -237,7 +237,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular9"
@@ -269,7 +269,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 			"2"
 			{
@@ -297,7 +297,7 @@ Scheme
 				"name"			"Gravity-Light"
 				"tall"			"12"
 				"weight"		"500"
-				"underline" 	"1"
+				"underline"		"1"
 				"range"			"0x0000 0x017F"
 			}
 			"2"
@@ -476,7 +476,7 @@ Scheme
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"additive"		"1"
 			}
 		}
@@ -624,7 +624,7 @@ Scheme
 				"additive"		"0"
 				"antialias"		"1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -633,7 +633,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMedium"
@@ -790,7 +790,7 @@ Scheme
 				"tall"			"4"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
@@ -1253,7 +1253,7 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"28"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
@@ -1513,7 +1513,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -1729,7 +1729,7 @@ Scheme
 				"additive"		"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -2078,7 +2078,7 @@ Scheme
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2546,7 +2546,7 @@ Scheme
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayBrowserTab"

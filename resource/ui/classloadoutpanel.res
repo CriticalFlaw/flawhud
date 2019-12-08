@@ -329,7 +329,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"keyboardinputenabled"	"0"
-		"paintbackground"	"1"
+		"paintbackground"		"1"
 	}
 	
 	"BlueButton"

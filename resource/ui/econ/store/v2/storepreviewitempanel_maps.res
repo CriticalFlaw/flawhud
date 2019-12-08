@@ -504,7 +504,7 @@
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
+		"Command"			"close"
 		"paintbackground"	"0"
 		
 		"image_drawcolor"	"White"

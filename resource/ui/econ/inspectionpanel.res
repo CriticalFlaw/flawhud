@@ -398,7 +398,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"Choose Item:"
+			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"30"

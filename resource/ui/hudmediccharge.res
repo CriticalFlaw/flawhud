@@ -60,7 +60,7 @@
 	"ChargeMeterLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"ChargeLabel"
+		"fieldName"			"ChargeMeterLabel"
 		"xpos"				"c-60"
 		"ypos"				"44"
 		"zpos"				"3"

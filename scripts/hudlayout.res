@@ -111,7 +111,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"c65"
+		"ypos"				"c54"
 		"wide"				"f0"
 		"tall"				"300"
 	}
@@ -260,7 +260,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"276"
+		"ypos"					"265"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"40"
