@@ -20,15 +20,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MainBG"
-		"xpos"				"c-180"
-		"ypos"				"c-120"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"-1"
-		"wide"				"360"
-		"tall"				"240"
+		"wide"				"f0"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
 	
@@ -138,15 +138,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
-		"PaintBackgroundType"	"0"
-		"fillcolor"				"HudBlack"
+		"xpos"				"9999"
 	}
 	
 	"MessageTitle"

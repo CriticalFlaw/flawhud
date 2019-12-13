@@ -88,8 +88,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"Default"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"10"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -98,7 +98,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Taunt_Cancel"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -687,19 +687,16 @@
 	
 	"MenuBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"470"
 		"tall"			"88"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"fillcolor"		"HudBlack"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

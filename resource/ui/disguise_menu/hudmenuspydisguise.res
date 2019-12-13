@@ -67,7 +67,7 @@
 		"fieldName"			"ToggleLabel"
 		"font"				"FontRegular8"
 		"xpos"				"0"
-		"ypos"				"77"
+		"ypos"				"72"
 		"zpos"				"2"
 		"wide"				"198"
 		"tall"				"11"
@@ -103,19 +103,16 @@
 
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"198"
 		"tall"				"88"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"	
-		"fillcolor"			"HUDBlack"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
 	

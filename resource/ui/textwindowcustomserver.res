@@ -13,7 +13,23 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"settitlebarvisible"	"0"
+		"settitlebarvisible" "0"
+	}
+	
+	"MainBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MainBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"HudBlack"
 	}
 	
 	"TFMessageTitle"
@@ -21,10 +37,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TFMessageTitle"
 		"xpos"				"0"
-		"ypos"				"95"
+		"ypos"				"c-130"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"				"24"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -33,7 +49,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"ChalkboardTitle"
+		"font"				"FontBold22"
 		"fgcolor"			"White"
 	}
 	
@@ -41,38 +57,37 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 	
 	"TFTextMessage"
 	{
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
-		"font"				"ChalkboardText"
-		"xpos"				"c-184"
-		"ypos"				"125"
+		"font"				"FontRegular10"
+		"xpos"				"c-170"
+		"ypos"				"c-90"
 		"zpos"				"1"
-		"wide"				"415"
-		"tall"				"240"
+		"wide"				"340"
+		"tall"				"180"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"northwest"
-		"fgcolor"			"Gray"
+		"fgcolor"			"White"
 	}
 	
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
 		"fieldName"			"HTMLMessage"
-		"xpos"				"c-320"
-		"ypos"				"0"
+		"xpos"				"c-170"
+		"ypos"				"c-110"
 		"zpos"				"1"
-		"wide"				"640"
-		"tall"				"451"
+		"wide"				"340"
+		"tall"				"194"
 		"autoResize"		"1"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -85,11 +100,11 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ok"
-		"xpos"				"c-75"
-		"ypos"				"r30"
+		"xpos"				"c-45"
+		"ypos"				"c100"
 		"zpos"				"6"
-		"wide"				"150"
-		"tall"				"30"
+		"wide"				"90"
+		"tall"				"14"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -106,64 +121,30 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fov"				"20"
-		
-		"model"
-		{
-			"modelname"		"models/vgui/UI_welcome01_screen.mdl"
-			"skin"			"0"
-			"angles_x"		"0"
-			"angles_y"		"180"
-			"angles_z"		"0"
-			"origin_x"		"290"
-			"origin_y"		"0"
-			"origin_z"		"-39"
-		}
+		"xpos"				"9999"
 	}
 	
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
-		"xpos"				"0"
-		"ypos"				"r30"
-		"zpos"				"5"
-		"wide"				"f0"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"fillcolor"			"DarkGrey"
-		"tileImage"			"1"
-		"PaintBackgroundType"	"0"
+		"xpos"				"9999"
 	}
 	
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 }

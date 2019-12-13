@@ -17,9 +17,9 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 	
-	Animate	HealthBG					BgColor		"Blank"	     	  	Linear 0.0 0.0
+	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
 	
-	Animate	TargetHealthBG				BgColor		"Blank"	     	  	Linear 0.0 0.0
+	Animate	TargetHealthBG				BgColor		"Blank"				Linear 0.0 0.0
 	
 	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
@@ -45,9 +45,9 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0
 	
-	Animate	HealthBG					BgColor		"Blank"	     	  	Linear 0.0 0.0
+	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
 	
-	Animate	TargetHealthBG				BgColor		"Blank"	     	  	Linear 0.0 0.0
+	Animate	TargetHealthBG				BgColor		"Blank"				Linear 0.0 0.0
 	
 	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
@@ -67,7 +67,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
 	
-	Animate	AmmoBG						BgColor		"Blank"	     	  	Linear 0.0 0.0
+	Animate	AmmoBG						BgColor		"Blank"				Linear 0.0 0.0
 }
 //==================================================================================
 

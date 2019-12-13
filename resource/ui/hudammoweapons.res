@@ -16,20 +16,17 @@
 	
 	"AmmoBG"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"AmmoBG"
 		"xpos"			"9"
 		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"		"0"
-        "textinsety" 				"9999"
+		"defaultbgcolor_override"	"HudBlack"
+		"PaintBackgroundType"		"2"
 	}
 	
 	"AmmoInClip"
