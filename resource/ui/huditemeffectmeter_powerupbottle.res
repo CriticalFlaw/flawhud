@@ -6,9 +6,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"192"
-		"ypos"				"r57"
+		"ypos"				"r60"
 		"wide"				"42"
-		"tall"				"29"
+		"tall"				"30"
 		"MeterFG"			"TanLight"
 		"MeterBG"			"DarkGrey"
 	}
