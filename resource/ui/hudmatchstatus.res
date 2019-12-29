@@ -75,8 +75,8 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
+		"proportionaltoparent"	"1"
 
 		if_readymode
 		{
