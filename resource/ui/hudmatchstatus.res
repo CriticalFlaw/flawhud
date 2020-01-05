@@ -77,12 +77,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
 	}
 	
 	"CountdownLabelShadow"
@@ -90,8 +84,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"FontBold22"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.48"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -104,10 +98,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
 		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"FrontParticlePanel"

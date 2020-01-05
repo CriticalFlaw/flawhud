@@ -95,8 +95,8 @@
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Cancel"
 		"textAlignment"	"west"
 		"dulltext"		"0"
@@ -696,7 +696,7 @@
 		"tall"			"88"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"ShadowBlack"
 		"PaintBackgroundType"	"2"
 	}
 }
