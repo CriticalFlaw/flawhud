@@ -205,8 +205,8 @@ Scheme
 		
 		// CHudMenu
 		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"								"233 208 173 255"
-		"MenuBoxBg"								"0 0 0 100"
+		"MenuColor"								"255 255 255 255"
+		"MenuBoxBg"								"HudBlack"
 		
 		// Weapon Selection Colors
 		"SelectionNumberFg"						"251 235 202 255"
