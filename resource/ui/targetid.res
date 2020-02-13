@@ -2,17 +2,16 @@
 {
 	"TargetBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetBG"
 		"xpos"				"0"
 		"ypos"				"33"
 		"zpos"				"0"
-		"wide"				"210"
+		"wide"				"640"
 		"tall"				"17"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
-		"PaintBackgroundType"	"2"
+		"fillcolor"			"HudBlack"
 	}
 	
 	"TargetIDBG"
@@ -169,7 +168,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"KillStreakAnchor"
 		"xpos"				"0"
-		"ypos"				"26"
+		"ypos"				"24"
 		"wide"				"8"
 		"tall"				"8"
 		"visible"			"1"
