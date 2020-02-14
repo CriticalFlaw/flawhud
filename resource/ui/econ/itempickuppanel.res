@@ -222,8 +222,8 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
+		"border_default"	"PanelBorder"
+		"border_armed"		"PanelBorder"
 	}
 	
 	"OpenLoadoutButton"
@@ -248,8 +248,8 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
+		"border_default"	"PanelBorder"
+		"border_armed"		"PanelBorder"
 	}
 	
 	"DiscardButton"
