@@ -162,7 +162,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
 		"font"			"FontBold22"
-		"labelText"		"Loading..."
+		"labelText"		"#LoadingMap"
 		"textAlignment"	"west"
 		"xpos"			"10"
 		"ypos"			"455"

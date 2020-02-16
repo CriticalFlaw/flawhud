@@ -558,7 +558,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"labelText"		"progress"
+				"labelText"		"#Questlog_Progress"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"centerwrap"	"1"

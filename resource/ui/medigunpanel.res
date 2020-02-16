@@ -258,7 +258,7 @@
 		"wide"			"200"
 		"tall"			"f0"
 		"autoResize"	"1"
-		"labelText"		"Medi Gun"
+		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -270,19 +270,19 @@
 		"proportionaltoparent"	"1"
 
 		"medigun-medigun" {
-			"labelText"	"Medi Gun"
+			"labelText"	"#TF_Weapon_Medigun"
 		}
 
 		"medigun-kritzkrieg" {
-			"labelText"	"Kritzkrieg"
+			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
 
 		"medigun-quickfix" {
-			"labelText"	"Quick-Fix"
+			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
 
 		"medigun-vaccinator" {
-			"labelText"	"Vaccinator"
+			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
 
 		"player-dead" {
@@ -303,7 +303,7 @@
 		"wide"			"200"
 		"tall"			"f0"
 		"autoResize"	"1"
-		"labelText"		"Medi Gun"
+		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -319,19 +319,19 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"medigun-medigun" {
-			"labelText"	"Medi Gun"
+			"labelText"	"TF_Weapon_Medigun"
 		}
 
 		"medigun-kritzkrieg" {
-			"labelText"	"Kritzkrieg"
+			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
 
 		"medigun-quickfix" {
-			"labelText"	"Quick-Fix"
+			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
 
 		"medigun-vaccinator" {
-			"labelText"	"Vaccinator"
+			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
 
 		"player-dead" {

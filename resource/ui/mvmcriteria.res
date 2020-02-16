@@ -50,7 +50,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
 			"font"			"FontBold10"
-			"labelText"		"Completed"
+			"labelText"		"#TR_ProgressDone"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
 			"ypos"			"0"

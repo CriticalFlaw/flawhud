@@ -80,7 +80,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"textAlignment"		"west"
-		"labelText"			"Powerups"
+		"labelText"			"#TF_Spell_Athletic"
 	}
 	
 	"ItemEffectMeter"

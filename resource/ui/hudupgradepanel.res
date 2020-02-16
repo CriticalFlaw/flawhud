@@ -241,7 +241,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"PLAYER"
+			"labelText"		"#TF_Bot_Generic_ClassName"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

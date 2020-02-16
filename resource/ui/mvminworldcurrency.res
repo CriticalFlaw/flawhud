@@ -30,7 +30,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"west"
-		"labelText"			"Remaining"
+		"labelText"			"#TF_PVE_Missed"
 	}
 	
 	"CurrencyGood"

@@ -5,21 +5,21 @@
 		"label" 		""
 		"command"		"opentf2options"
 		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"Advanced Options"
+		"tooltip" 		"#MMenu_Tooltip_AdvOptions"
 	}
 	"AchievementsButton"
 	{
 		"label"			""
 		"command"		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
-		"tooltip" 		"Achievements"
+		"tooltip" 		"#Achievements"
 	}
 	"ReplayButton"
 	{
 		"label"			""
 		"command"		"engine replay_reloadbrowser"
 		"subimage" 		"glyph_tv"
-		"tooltip" 		"Replay"
+		"tooltip" 		"#MMenu_Tooltip_Replay"
 	}
 	"ConsoleButton"
 	{
@@ -33,21 +33,21 @@
 		"label"			""
 		"command"		"engine bug"
 		"subimage"		"glyph_bug"
-		"tooltip"		"Report a Bug"
+		"tooltip"		"#MMenu_Tooltip_ReportBug"
 	}
 	"ItemTestButton"
 	{
 		"label" 		""
 		"command" 		"engine itemtest"
 		"subimage" 		"glyph_items"
-		"tooltip" 		"Item Testing"
+		"tooltip" 		"#IT_Title"
 	}
 	"CoachPlayersButton"
 	{
 		"label" 		""
 		"command" 		"engine cl_coach_toggle"
 		"subimage" 		"glyph_commentary"
-		"tooltip" 		"Coach a Player"
+		"tooltip" 		"#MMenu_Tooltip_Coach"
 	}
 	"CallVoteButton"
 	{

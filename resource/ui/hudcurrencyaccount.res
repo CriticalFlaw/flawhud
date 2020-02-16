@@ -46,6 +46,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
-		"labelText"		"Currency"
+		"labelText"		"#TF_PVE_Currency"
 	}
 }

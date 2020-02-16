@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"White"
+		"fgcolor_override"	"White"
 	}
 
 	"EventBonusLabel"
