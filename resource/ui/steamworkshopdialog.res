@@ -14,7 +14,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
-		"border"			"NoBorder"
 	}
 
 	"Container"
@@ -32,7 +31,7 @@
 		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"WhiteBorder"
+		"border"				"SteamWorkshopBorder"
 
 		"Background"
 		{
@@ -47,18 +46,18 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"DarkerGrey"
+			"bgcolor_override"	"0 0 0 255"
 		}
 
 		"WorkshopBranding"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"WorkshopBranding"
-			"xpos"			"12"
-			"ypos"			"12"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"575"
-			"tall"			"293"
+			"wide"			"600"
+			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"workshop_branding"
@@ -78,7 +77,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"DarkerGrey"
+			"bgcolor_override"	"0 0 0 255"
 		}
 
 		"NoItemsContainer"
