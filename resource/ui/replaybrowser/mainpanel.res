@@ -15,20 +15,22 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"27 27 27 0"
+		"infocus_bgcolor_override"		"27 27 27 0"
+		"outoffocus_bgcolor_override"	"27 27 27 0"
 		
 		"title"							"#Replay_Replay"
-		"title_font"					"FontBold37"
+		"title_font"					"FontRegular24"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"
 		"titlebarfgcolor_override"		"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"		"DarkGrey"
+		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -57,6 +59,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -77,7 +80,7 @@
 		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
@@ -85,6 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -99,16 +103,17 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
+	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"15"
+		"tabxindent"	"80"
 		"tabxdelta"		"10"
-		"tabwidth"		"150"
+		"tabwidth"		"240"
 		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset"		"15"
+		"yoffset"		"14"
 		
 		"HeaderLine"
 		{
@@ -127,17 +132,20 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"0"
-			"textinsety"		"-6"
-			"font"				"FontBold20"
+			"textinsetx"		"40"
+			"textAlignment"		"center"
+			"font"				"FontBold18"
 			"selectedcolor"		"White"
-			"unselectedcolor"	"DullWhite"	
-			"defaultBgColor_override"	"Blank"
-			"paintbackground"	"0"
-			"activeborder_override"	"NoBorder"
-			"normalborder_override" "NoBorder"
+			"unselectedcolor"	"TanDark"
+			"defaultBgColor_override"	"DarkGrey"
+			"paintbackground"			"1"
+			"activeborder_override"		"ButtonDepressedBorder"
+			"normalborder_override"		"ButtonDepressedBorder"
+			"armedBgColor_override"		"37 37 37 255"
+			"selectedBgColor_override"	"DarkGrey"
 		}
 	}
+	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"

@@ -85,15 +85,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"FontBold14"
+		"font"			"FontRegular10"
 		"textAlignment"	"west"
 		"zpos"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "White"
 		"wrap"			"1"
+		"fgcolor_override" "White"
 	}
 	
 	"Line"
