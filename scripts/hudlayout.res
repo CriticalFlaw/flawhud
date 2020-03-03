@@ -28,7 +28,7 @@
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
 	//--------------------------------------------------------------
-	"TransparentViewmodel"
+	TransparentViewmodel
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
@@ -39,7 +39,7 @@
 		"tall"				"480"
 		"visible"			"0"		// Change to "1" to enable
 		"enabled"			"0"		// Change to "1" to enable
-		"image"				"replay/thumbnails/transparent"
+		"image"				"replay/thumbnails/REFRACTnormal_transparent"
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
