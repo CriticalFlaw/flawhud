@@ -104,6 +104,18 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"FontBold12Outline"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		"FontBold12"
 		{
 			"1"
@@ -115,12 +127,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"FontBold12Outline"
+		"FontBold10Outline"
 		{
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"

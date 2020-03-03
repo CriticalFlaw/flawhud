@@ -96,7 +96,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"		"ProgressOffWhite"
+		"fgcolor_override"		"Overheal"
 		"bgcolor_override"		"ProgressBackground"
 		"paintborder"			"1"
 		"border"				"NoBorder"

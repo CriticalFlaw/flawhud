@@ -1418,7 +1418,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back"
+		"labelText"		"#TF_BackCarat"
 		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1427,8 +1427,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	
 	"TryItOutButton"
@@ -1444,7 +1442,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Try It Out"
+		"labelText"		"#Store_TryItOut"
 		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1453,8 +1451,6 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	
 	"AddToCartButton"
@@ -1479,8 +1475,6 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	
 	"mouseoveritempanel"

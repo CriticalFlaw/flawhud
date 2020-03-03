@@ -265,7 +265,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FontRegular11"
+		"font"			"FontBold10Outline"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
 
@@ -289,7 +289,7 @@
 			"visible"	"0"
 		}
 		"team-red" {
-			"xpos"		"63"
+			"xpos"		"53"
 		}
 	}
 	
@@ -304,13 +304,13 @@
 		"tall"			"f0"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FontRegular11"
+		"font"			"FontBold10Outline"
 		"fgcolor_override"		"ShadowBlack"
 		"proportionaltoparent"	"1"
 		

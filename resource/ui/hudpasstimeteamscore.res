@@ -105,8 +105,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -143,8 +143,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"

@@ -160,7 +160,7 @@
 		if_match
 		{
 			"xpos"			"25"
-			"ypos"			"20"
+			"ypos"			"16"
 		}
 	}
 	"SetupBG"

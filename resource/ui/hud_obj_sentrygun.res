@@ -162,7 +162,7 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"113"
+			"xpos"			"133"
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
@@ -175,7 +175,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
+			"xpos"			"141"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"19"
@@ -191,7 +191,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
+			"xpos"			"137"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"25"
