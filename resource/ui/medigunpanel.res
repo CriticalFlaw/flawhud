@@ -305,7 +305,7 @@
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"textAlignment"	"west"
 		"dulltext"		"0"
