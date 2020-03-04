@@ -13,7 +13,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
+		"update_url"	"http://store.steampowered.com/news/?appids=440&appgroupname=Team+Fortress+2&feed=steam_updates"
 		"blog_url"		"http://www.teamfortress.com/"
 		
 		"button_x_offset"	"-285"
