@@ -39,7 +39,7 @@
 		"tall"				"480"
 		"visible"			"0"		// Change to "1" to enable
 		"enabled"			"0"		// Change to "1" to enable
-		"image"				"replay/thumbnails/transparency"
+		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
