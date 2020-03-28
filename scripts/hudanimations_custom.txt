@@ -28,11 +28,11 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
-	Animate	HealthBG					BgColor		"LowValue"			Accel 0.0 0.2
-	Animate	HealthBG					BgColor		"LowValuePulse"		Accel 0.2 0.4
+	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.2
+	Animate	HealthBG					BgColor		"LowHealthPulse"	Accel 0.2 0.4
 	
-	Animate	TargetHealthBG				BgColor		"LowValue"			Accel 0.0 0.2
-	Animate	TargetHealthBG				BgColor		"LowValuePulse"		Accel 0.2 0.4
+	Animate	TargetHealthBG				BgColor		"LowHealth"			Accel 0.0 0.2
+	Animate	TargetHealthBG				BgColor		"LowHealthPulse"	Accel 0.2 0.4
 	
 	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
@@ -56,8 +56,8 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoBG						BgColor		"LowValue"			Accel 0.0 0.2
-	Animate	AmmoBG						BgColor		"LowValuePulse"		Accel 0.2 0.4
+	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.2
+	Animate	AmmoBG						BgColor		"LowAmmoPulse"		Accel 0.2 0.4
 
 	RunEvent HudLowAmmoPulseLoop		0.4
 }
@@ -73,11 +73,8 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate ChargeLabel 				FgColor		"ChargePercent"		Linear 0.0 0.0
-	Animate ChargeLabel 				FgColor		"ChargePercent"		Linear 0.0 0.0
-
-	Animate	ChargeMeter 				FgColor		"Ubercharge1"		Linear 0.0 0.1
-	Animate	ChargeMeter 				FgColor		"Ubercharge2"		Linear 0.3 0.4
+	Animate	ChargeMeter 				FgColor		"UberCharged1"		Linear 0.0 0.1
+	Animate	ChargeMeter 				FgColor		"UberCharged2"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop		0.6
 }
@@ -87,8 +84,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 			0.0
 	StopEvent HudMedicChargedLoop		0.0
 
-	Animate	ChargeMeter 				FgColor		"Ubercharge1"		Linear 0.0 0.0001
-	Animate ChargeLabel 				FgColor		"ChargePercent"		Linear 0.0 0.0001
+	Animate	ChargeMeter 				FgColor		"UberCharged1"		Linear 0.0 0.0001
 }
 //==================================================================================
 
@@ -107,14 +103,14 @@ event HitMarker
 
 event HudSpyDisguiseFadeIn
 {
-	//RunEvent HudSpyDisguiseChanged	0.0
-	//Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+//	RunEvent HudSpyDisguiseChanged	0.0
+//	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-	//RunEvent HudSpyDisguiseChanged	0.0
-	//Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+//	RunEvent HudSpyDisguiseChanged	0.0
+//	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 }
 //==================================================================================
 

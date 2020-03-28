@@ -27,19 +27,20 @@ Scheme
 		//---------------------------------------------
 		// Gameplay
 		"Overheal"					"0 170 127 255"
-		"Healing"					"0 255 127 255"
-		"LowValue"					"190 20 20 255"
 		"OverhealPulse"				"0 170 127 200"
-		"LowValuePulse"				"190 20 20 200"
+		"LowHealth"					"190 20 20 255"
+		"LowHealthPulse"			"190 20 20 200"
+		"LowAmmo"					"190 20 20 255"
+		"LowAmmoPulse"				"190 20 20 200"
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Ubercharge1"				"0 170 127 255"
-		"Ubercharge2"				"0 120 127 255"
-		"ChargePercent"				"243 243 243 255"
+		"UberCharged1"				"0 170 127 255"
+		"UberCharged2"				"0 120 127 255"
+		"UberCharging"				"0 170 127 255"
 		//---------------------------------------------
 		// Loadout Gradient
 		"LOGScout"					"75 112 130 255"

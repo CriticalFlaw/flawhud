@@ -36,7 +36,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontBold22Outline"
-		"fgcolor"			"ChargePercent"
+		"fgcolor"			"243 243 243 255"
 	}
 	
 	"IndividualChargesLabel"
@@ -96,7 +96,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"		"Overheal"
+		"fgcolor_override"		"UberCharging"
 		"bgcolor_override"		"ProgressBackground"
 		"paintborder"			"1"
 		"border"				"NoBorder"
