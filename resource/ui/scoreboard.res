@@ -416,7 +416,7 @@
 		"ypos"			"78"
 		"zpos"			"20"
 		"wide"			"288"
-		"tall"			"195"
+		"tall"			"200"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -438,7 +438,7 @@
 		"ypos"			"78"
 		"zpos"			"20"
 		"wide"			"288"
-		"tall"			"195"
+		"tall"			"200"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1026,35 +1026,6 @@
 			}
 		}
 	}
-	
-	"Separator"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Sepataror"
-		"font"			"FontBold37"
-		"labelText"		":"
-		"textAlignment"	"center"
-		"xpos"			"58"
-		"ypos"			"286"
-		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"White"
-		
-		if_mvm
-		{
-			"visible"		"1"
-			"enabled"		"1"
-			"xpos"			"290"
-			"ypos"			"245"
-			"wide"			"270"
-			"tall"			"40"
-		}
-	}
 
 	"LocalPlayerStatsPanel"
 	{
@@ -1082,18 +1053,27 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"FontRegular10"
-			"labelText"		"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"	"0"
-			"xpos"			"0"
+			"font"			"FontBold37"
+			"labelText"		":"
+			"textAlignment"	"center"
+			"xpos"			"58"
 			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
+			"zpos"			"3"
+			"wide"			"20"
+			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			
+			if_mvm
+			{
+				"xpos"			"55"
+				"ypos"			"0"
+				"wide"			"130"
+				"tall"			"40"
+			}
 		}
 		"Kills"
 		{

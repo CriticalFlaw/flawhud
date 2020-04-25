@@ -68,7 +68,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"FontRegular20"
+			"font"			"FontBold18"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"-6"
@@ -82,7 +82,30 @@
 			"enabled"		"1"
 			"AllCaps"		"1"
 
-			"pin_to_sibling"	"BlueScoreBG"
+			"pin_to_sibling"		"BlueScoreBG"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		}
+		"BlueTeamLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"BlueTeamLabelShadow"
+			"font"			"FontBold18"
+			"fgcolor"		"ShadowBlack"
+			"labelText"		"%blueteamname%"
+			"textAlignment"	"west"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"2"
+			"wide"			"116"
+			"tall"			"23"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"AllCaps"		"1"
+
+			"pin_to_sibling"		"BlueTeamLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
@@ -133,7 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"FontRegular20"
+			"font"			"FontBold18"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"-6"
@@ -150,6 +173,29 @@
 			"pin_to_sibling"		"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		}
+		"RedTeamLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RedTeamLabelShadow"
+			"font"			"FontBold18"
+			"fgcolor"		"ShadowBlack"
+			"labelText"		"%redteamname%"
+			"textAlignment"	"east"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"2"
+			"wide"			"116"
+			"tall"			"23"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"AllCaps"		"1"
+
+			"pin_to_sibling"		"RedTeamLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"RedTeamScore"
 		{

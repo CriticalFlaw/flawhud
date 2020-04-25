@@ -93,8 +93,6 @@
 		"Command"		"select_model"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	"ExistingItemToTestPanel"
 	{
@@ -574,8 +572,6 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	"OkButton"
 	{
@@ -600,8 +596,6 @@
 		"Command"		"ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"WhiteBorder"
-		"border_armed"		"WhiteBorder"
 	}
 	
 	"ReloadSchemeButton"

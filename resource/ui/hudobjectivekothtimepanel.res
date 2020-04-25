@@ -118,15 +118,16 @@
 	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"18"
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
-		"tall"				"2"
+		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"White"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

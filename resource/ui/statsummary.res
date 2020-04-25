@@ -302,6 +302,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"HudBlack"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -1403,6 +1404,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"HudBlack"
+			"PaintBackgroundType"	"2"
 		}
 		"RecordsLabel1"
 		{

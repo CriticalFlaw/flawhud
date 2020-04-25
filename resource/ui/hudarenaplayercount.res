@@ -66,8 +66,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -167,8 +167,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"

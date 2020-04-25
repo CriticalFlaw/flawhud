@@ -353,7 +353,7 @@
 		"tall"			"123"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlack"
+		"fillcolor"		"ShadowBlack"
 	}
 	"WinningTeamLabel"
 	{	

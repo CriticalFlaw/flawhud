@@ -2,18 +2,17 @@
 {
 	"HudStopWatchBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudStopWatchBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"80"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 	}
 
 	"StopWatchImageCaptureTime"

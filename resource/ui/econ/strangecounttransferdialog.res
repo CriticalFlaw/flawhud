@@ -191,8 +191,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
 		}
 	
 		"OkButton"
@@ -219,8 +217,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
-			"border_default"	"WhiteBorder"
-			"border_armed"		"WhiteBorder"
 		}
 	}
 }

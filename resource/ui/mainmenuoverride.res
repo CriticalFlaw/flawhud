@@ -1244,6 +1244,7 @@
 		"visible"		"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"			"BGPanel3"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
@@ -2155,7 +2156,7 @@
 	
 	"BGPanel1"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel1"
 		"xpos"			"75"
 		"ypos"			"130"
@@ -2163,12 +2164,13 @@
 		"wide"			"260"
 		"tall"			"66"
 		"visible"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"BGPanel2"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel2"
 		"xpos"			"0"
 		"ypos"			"70"
@@ -2176,7 +2178,8 @@
 		"wide"			"260"
 		"tall"			"66"
 		"visible"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"			"BGPanel1"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
@@ -2185,7 +2188,7 @@
 	
 	"BGPanel3"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel3"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -2193,7 +2196,8 @@
 		"wide"			"260"
 		"tall"			"22"
 		"visible"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"			"BGPanel2"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"

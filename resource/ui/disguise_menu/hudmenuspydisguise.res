@@ -82,7 +82,7 @@
 	}
 	
 	"CancelLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"font"				"FontRegular9"
@@ -99,21 +99,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-	}
-
-	"ShadedBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ShadedBar"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"198"
-		"tall"				"88"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"class_item_red_1"
@@ -441,5 +426,20 @@
 		"textAlignment"		"Center"
 		"dulltext"			"1"
 		"brighttext"		"0"
+	}
+
+	"MenuBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"198"
+		"tall"				"88"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"ShadowBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

@@ -63,7 +63,7 @@
 				"paintborder"		"1"
 				"textAlignment"		"center"
 				"labelText"			"%page%"
-				"font"				"FontBold8"
+				"font"				"FontBold10"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}

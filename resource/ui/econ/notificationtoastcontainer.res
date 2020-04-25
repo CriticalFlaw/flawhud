@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
-		"border"		"WhiteBorder"
+		"border"			"WhiteBorder"
 	}
 	
 	"HelpTextLabel"

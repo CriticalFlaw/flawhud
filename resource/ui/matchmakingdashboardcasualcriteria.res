@@ -92,8 +92,5 @@
 
 		"armedBgColor_override"		"White"
 		"defaultBgColor_override"	"Black"
-		
-		"border_default"			"WhiteBorder"
-		"border_armed"				"WhiteBorder"
 	}
 }

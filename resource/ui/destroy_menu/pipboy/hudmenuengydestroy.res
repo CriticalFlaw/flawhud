@@ -8,7 +8,7 @@
 		"fieldName"			"ItemBackground"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"-2"
+		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"88"
 		"visible"			"1"

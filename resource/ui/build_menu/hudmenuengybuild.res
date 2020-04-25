@@ -35,7 +35,7 @@
 		"fieldName"			"TitleLabel"
 		"font"				"FontBold22"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"3"
 		"zpos"				"2"
 		"wide"				"250"
 		"tall"				"22"
@@ -57,7 +57,7 @@
 		"fgcolor"			"ShadowBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
-		"zpos"				"1"
+		"zpos"				"2"
 		"wide"				"250"
 		"tall"				"22"
 		"autoResize"		"0"
@@ -297,7 +297,7 @@
 		"tall"				"88"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"ShadowBlack"
 		"PaintBackgroundType"	"2"
 	}
 }

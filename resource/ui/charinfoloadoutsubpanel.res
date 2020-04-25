@@ -882,7 +882,7 @@
 		"xpos"				"0"
 		"ypos"				"5"
 		"zpos"				"7"
-		"wide"				"120"
+		"wide"				"130"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"

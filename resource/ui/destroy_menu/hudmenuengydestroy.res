@@ -37,7 +37,7 @@
 		"font"				"FontBold22"
 		"xpos"				"0"
 		"ypos"				"1"
-		"zpos"				"2"
+		"zpos"				"3"
 		"wide"				"250"
 		"tall"				"22"
 		"autoResize"		"0"
@@ -250,7 +250,7 @@
 		"tall"				"88"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"ShadowBlack"
 		"PaintBackgroundType"	"2"
 	}
 }

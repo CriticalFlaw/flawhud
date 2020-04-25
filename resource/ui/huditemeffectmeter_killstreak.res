@@ -22,7 +22,6 @@
 		"wide"				"36"
 		"tall"				"36"
 		"textAlignment"		"center"
-		"font"				"FontBold22"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -30,6 +29,5 @@
 		"wide"				"36"
 		"tall"				"36"
 		"textAlignment"		"center"
-		"font"				"FontBold22"
 	}
 }

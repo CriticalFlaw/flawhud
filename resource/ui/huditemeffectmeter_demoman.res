@@ -70,15 +70,15 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontRegular20"
+		"font"					"FontBold22"
 	}
 	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -90,7 +90,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontRegular20"
+		"font"					"FontBold22"
 		"fgcolor"				"ShadowBlack"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"

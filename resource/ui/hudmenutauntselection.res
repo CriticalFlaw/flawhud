@@ -116,7 +116,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -189,7 +189,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -262,7 +262,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -335,7 +335,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -408,7 +408,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -481,7 +481,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -554,7 +554,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"
@@ -626,7 +626,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 			
 		"model_ypos"	"5"
 		"model_tall"	"38"

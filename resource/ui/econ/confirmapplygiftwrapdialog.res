@@ -92,6 +92,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -141,6 +142,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -167,6 +169,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 	

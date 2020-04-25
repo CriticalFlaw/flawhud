@@ -47,8 +47,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIconShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -88,8 +88,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValueShadow"
-		"xpos"				"-1"
-		"ypos"				"-1"
+		"xpos"				"-2"
+		"ypos"				"-2"
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"20"
