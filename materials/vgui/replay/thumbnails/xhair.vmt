@@ -1,0 +1,39 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"vgui\replay\thumbnails\xhair"
+	"$startAngle"		"0"
+	"$rotateSpeedDir"	"100"
+	"$rotateSpeed"		"0"
+	"$multiplier"		"-1"
+	"$angle"			"0"
+	"$translate"		"[0.0 0.0]"
+	"$center"			"[0.5 0.5]"
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$translucent"		"1"
+	
+	"Proxies"
+	{
+		"Multiply"
+		{
+			"srcVar1"		"$rotateSpeedDir"
+			"srcVar2"		"$multiplier"
+			"resultVar"		"$rotateSpeed"
+		}
+		"LinearRamp"
+		{
+			"rate"			"$rotateSpeed"
+			"initialValue"	"$startAngle"
+			"resultVar"		"$angle"
+		}
+		"TextureTransform"
+		{
+			"translateVar"	"$translate"
+			"rotateVar"		"$angle"
+			"centerVar"		"$center"
+			"resultVar"		"$basetexturetransform"
+		}
+	}
+}

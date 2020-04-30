@@ -1243,7 +1243,7 @@
 		"tall"			"150"
 		"visible"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"Transparent"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"			"BGPanel3"
@@ -2200,6 +2200,24 @@
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"			"BGPanel2"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+	}
+	
+	"BGPanel4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"BGPanel4"
+		"xpos"			"0"
+		"ypos"			"153"
+		"zpos"			"-1"
+		"wide"			"260"
+		"tall"			"150"
+		"visible"		"1"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"			"BGPanel3"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
