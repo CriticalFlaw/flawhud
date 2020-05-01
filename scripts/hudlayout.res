@@ -9,14 +9,14 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible" 			"0"
-		"enabled" 			"0"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"i"
 		"controlName"		"CExLabel"
 		"fieldName"	 		"KnucklesCrosses"
 		"zpos"				"0"
-		"xpos" 		 		"c-25"
-		"ypos" 		 		"c-24"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
 		"wide" 		 		"50"
 		"tall" 		 		"50"
 		"font"				"size:26,outline:off"

@@ -21,7 +21,7 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"70"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
