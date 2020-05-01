@@ -25,7 +25,7 @@
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"FontBold20"
 		"fgcolor_override"	"White"
 		
@@ -40,7 +40,7 @@
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f73"
+		"tall"			"f68"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
