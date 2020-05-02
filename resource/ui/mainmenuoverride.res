@@ -204,6 +204,27 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+		"image"			"../console/characters/soldier"
+	}
+	
+	"SoldierTribute"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldname"		"SoldierTribute"
+		"xpos"			"c110"
+		"ypos"			"80"
+		"zpos"			"11"
+		"wide"			"160"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		""
+		"command" 		"engine play ui/soldier.mp3"
+		"font"			"FontRegular14"
+		"textAlignment"	"center"
+		"sound_depressed"	""
+		"sound_released"	""
+		"paintbackground"	"0"
 	}
 	
 	"DashboardDimmer"
@@ -1364,7 +1385,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular12"
-		"labelText"		"FlawHUD v2020.0302"
+		"labelText"		"FlawHUD v2020.0502"
 		"xpos"			"r130"
 		"ypos"			"r13"
 		"wide"			"130"
