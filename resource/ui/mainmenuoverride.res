@@ -227,12 +227,6 @@
 		"paintbackground"	"0"
 	}
 	
-	"DashboardDimmer"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}
-	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
