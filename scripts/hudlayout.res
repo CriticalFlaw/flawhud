@@ -1045,10 +1045,10 @@
 		"fieldName"			"HudArenaNotification"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-160"
+		"xpos"				"c-140"
 		"ypos"				"75"
-		"wide"				"320"
-		"tall"				"150"
+		"wide"				"280"
+		"tall"				"75"
 	}
 	
 	HudArenaCapPointCountdown
@@ -1148,7 +1148,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"r300"
+		"ypos"				"r135"
 		"wide"				"f0"
 		"tall"				"320"
 	}

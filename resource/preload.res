@@ -139,4 +139,144 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
 	}
+	
+	"cartblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_blue"
+	}
+	
+	"cartpointblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_blue"
+	}
+	
+	"cartpointblueo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointblueo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_blue_opaque"
+	}
+	
+	"cartpointneutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointneutral"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_neutral"
+	}
+	
+	"cartpointneutralo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointneutralo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_neutral_opaque"
+	}
+	
+	"cartpointred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_red"
+	}
+	
+	"cartpointredo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartpointredo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_red_opaque"
+	}
+	
+	"cartred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cartred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_red"
+	}
+	
+	"carttrackblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_blue"
+	}
+	
+	"carttrackblueo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackblueo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_blue_opaque"
+	}
+	
+	"carttrackneutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackneutral"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_neutral"
+	}
+	
+	"carttrackneutralo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackneutralo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_neutral_opaque"
+	}
+	
+	"carttrackred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_red"
+	}
+	
+	"carttrackredo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackredo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_red_opaque"
+	}
 }
