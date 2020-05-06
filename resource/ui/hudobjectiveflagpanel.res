@@ -23,7 +23,7 @@
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-40"
 		"ypos"			"r24"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"22"
 		"visible"		"1"
@@ -49,7 +49,7 @@
 		"fieldName"		"LeftSideBG2"
 		"xpos"			"c-40"
 		"ypos"			"r21"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"21"
 		"visible"		"1"
@@ -75,7 +75,7 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c1"
 		"ypos"			"r24"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"22"
 		"visible"		"1"
@@ -101,7 +101,7 @@
 		"fieldName"		"RightSideBG2"
 		"xpos"			"c1"
 		"ypos"			"r21"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"23"
 		"visible"		"1"
@@ -335,16 +335,17 @@
 	
 	"PlayingToBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-40"
 		"ypos"			"r38"
-		"zpos"			"3"
+		"zpos"			"0"
 		"wide"			"80"
-		"tall"			"14"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 		
 		"if_hybrid"
 		{
@@ -392,7 +393,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 		
 		"if_no_flags"

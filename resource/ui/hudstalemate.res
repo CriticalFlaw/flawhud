@@ -2,23 +2,23 @@
 {
 	"HudStalemateBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudStalemateBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"320"
 		"tall"			"150"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_black_bg"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 	}
 	"StalemateLabel"
-	{	
-		"ControlName"		"Label"
+	{
+		"ControlName"	"Label"
 		"fieldName"		"StalemateLabel"
 		"font"			"HudFontMedium"
 		"xpos"			"25"
@@ -26,17 +26,17 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"35"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
-		"textAlignment"		"northwest"
+		"textAlignment"	"northwest"
 	}
 	"ReasonLabel"
-	{	
-		"ControlName"		"Label"
+	{
+		"ControlName"	"Label"
 		"fieldName"		"ReasonLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"25"
@@ -44,12 +44,12 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"55"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"		"northwest"
+		"textAlignment"	"northwest"
 	}
 }

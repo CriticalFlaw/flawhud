@@ -353,7 +353,7 @@
 		"tall"			"123"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ShadowBlack"
+		"fillcolor"		"HudBlack"
 	}
 	"WinningTeamLabel"
 	{	
@@ -387,8 +387,8 @@
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"	"Center"
 		"dulltext"		"0"

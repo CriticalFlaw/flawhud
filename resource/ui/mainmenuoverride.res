@@ -1134,7 +1134,7 @@
 		"fieldName"		"Notifications_Panel"
 		"xpos"			"r240"
 		"ypos"			"60"
-		"zpos"			"1"
+		"zpos"			"100"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
