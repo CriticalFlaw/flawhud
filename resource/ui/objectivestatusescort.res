@@ -20,7 +20,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"LevelBar"
 		"xpos"				"0"
-		"ypos"				"r15"
+		"ypos"				"r18"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"10"
