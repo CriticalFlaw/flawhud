@@ -1,0 +1,55 @@
+"Resource/UI/loadingtippanel.res"
+{
+	"loadingtippanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"loadingtippanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"320"
+		"tall"			"80"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"PaintBackgroundType"	"2"
+	}
+
+	"TipTitle"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"TipTitle"
+		"xpos"				"20"
+		"ypos"				"4"
+		"wide"				"320"
+		"tall"				"16"
+		"wrap"				"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#StatSummary_Label_TIP"
+		"textAlignment"		"north-west"
+		"font"				"DefaultBold"
+		"zpos"				"40"
+	}
+
+	"TipToeText"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"TipToeText"
+		"xpos"				"20"
+		"ypos"				"20"
+		"wide"				"320"
+		"tall"				"36"
+		"wrap"				"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%TipText%"
+		"textAlignment"		"north-west"
+		"font"				"DefaultSmall"
+//		"fgcolor_override"	"164 164 164 255"
+		"zpos"				"40"
+	}
+}

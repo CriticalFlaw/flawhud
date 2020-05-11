@@ -6,7 +6,7 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"140"
+		"wide"			"150"
 		"tall"			"31"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -19,17 +19,23 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_background_disabled"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"21"
+		"xpos"			"24"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -37,7 +43,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"White"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -54,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"FontRegular10"
+			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -93,7 +99,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"White"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -109,7 +115,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"White"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -125,9 +131,10 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"White"
+			"iconColor"		"255 255 255 255"
 		}
-		
+
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -154,7 +161,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"iconColor"		"255 255 255 255"
 		}
 		
 		"SapperIcon"
@@ -170,7 +177,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
@@ -178,8 +185,8 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"10"
-			"ypos"			"6"
+			"xpos"			"13"
+			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"
 			"autoResize"	"0"
@@ -205,7 +212,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"FontRegular10"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -228,7 +235,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"8"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -286,7 +293,7 @@
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
-					"tall"			"5"
+					"tall"			"5"				
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -294,7 +301,7 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}
+				}	
 			}
 			
 			"FullyChargedPanel"
@@ -306,7 +313,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+								
 				"TimesUsedLabel"
 				{	
 					"ControlName"	"CExLabel"
@@ -321,11 +328,12 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
+					"labelText_lodef"		"#Building_hud_tele_times_used_360"
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}
+			}	
 			"UpgradeLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -363,23 +371,5 @@
 				"brighttext"	"0"
 			}
 		}
-	}
-	
-	"BuildingBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BuildingBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-100"
-		"wide"				"150"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"	
-		"fillcolor"			"Transparent"
-		"PaintBackgroundType"	"0"
 	}
 }

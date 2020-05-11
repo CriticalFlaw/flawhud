@@ -1,84 +1,52 @@
 "GameMenu"
 {
-	"TF2SettingsButton"
+	"1"
 	{
-		"label" 		""
-		"command"		"opentf2options"
-		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"#MMenu_Tooltip_AdvOptions"
+		"label" "#GameUI_GameMenu_ResumeGame"
+		"command" "ResumeGame"
+		"OnlyInGame" "1"
 	}
-	"AchievementsButton"
+	"2"
 	{
-		"label"			""
-		"command"		"OpenAchievementsDialog"
-		"subimage" 		"glyph_achievements"
-		"tooltip" 		"#Achievements"
+		"label" "#GameUI_GameMenu_Disconnect"
+		"command" "Disconnect"
+		"OnlyInGame" "1"
 	}
-	"ReplayButton"
+	"3"
 	{
-		"label"			""
-		"command"		"engine replay_reloadbrowser"
-		"subimage" 		"glyph_tv"
-		"tooltip" 		"#MMenu_Tooltip_Replay"
+		"label" "#GameUI_GameMenu_PlayerList"
+		"command" "OpenPlayerListDialog"
+		"OnlyInGame" "1"
+	} 
+	"4"
+	{
+		"label" "#GameUI_GameMenu_FindServers" 
+		"command" "OpenServerBrowser"
+	} 
+	"5"
+	{
+		"label" "#GameUI_GameMenu_CreateServer"
+		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"ConsoleButton"
+	"6"
 	{
-		"label"			""
-		"command"		"engine toggleconsole"
-		"subimage"		"glyph_options"
-		"tooltip"		"Console"
+		"label" "#GameUI_Customization"
+		"command" "engine showloadoutdialog"
 	}
-	"ReportBugButton"
+	"7"
 	{
-		"label"			""
-		"command"		"engine bug"
-		"subimage"		"glyph_bug"
-		"tooltip"		"#MMenu_Tooltip_ReportBug"
+		"label" "#GameUI_Controller"
+		"command" "OpenControllerDialog"
+		"ConsoleOnly" "1"
 	}
-	"ItemTestButton"
+	"8"
 	{
-		"label" 		""
-		"command" 		"engine itemtest"
-		"subimage" 		"glyph_items"
-		"tooltip" 		"#IT_Title"
+		"label" "#GameUI_GameMenu_Options"
+		"command" "OpenOptionsDialog"
 	}
-	"CoachPlayersButton"
+	"9"
 	{
-		"label" 		""
-		"command" 		"engine cl_coach_toggle"
-		"subimage" 		"glyph_commentary"
-		"tooltip" 		"#MMenu_Tooltip_Coach"
-	}
-	"CallVoteButton"
-	{
-		"label"			""
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage"		"icon_checkbox"
-		"tooltip"		"#MMenu_CallVote"
-	}
-	"MutePlayersButton"
-	{
-		"label"			""
-		"command"		"OpenPlayerListDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_muted"
-		"tooltip"		"#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_tutorial"
-		"tooltip"		"#MMenu_RequestCoach"
-	}
-	"ReportPlayerButton"
-	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_quest_icon"
-		"tooltip"		"#MMenu_ReportPlayer"
+		"label" "#GameUI_GameMenu_Quit"
+		"command" "Quit"
 	}
 }

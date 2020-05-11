@@ -4,195 +4,275 @@ Scheme
 {
 	Colors
 	{
-		// HUD COLORS
-		//---------------------------------------------
-		"HudBlack"					"0 0 0 200"
-		"Blue"						"72 112 125 255"
-		"DarkBlue"					"46 73 82 255"
-		"Red"						"158 64 61 255"
-		"DarkRed"					"102 48 46 255"
-		"Green"						"92 122 90 255"
-		"DarkGreen"					"38 53 36 255"
-		"Yellow"					"169 123 53 255"
-		"BrightYellow"				"218 165 32 255"
-		"White"						"242 242 242 255"
-		"DullWhite"					"132 132 132 255"
-		"Grey"						"51 47 46 255"
-		"DarkGrey"					"27 27 27 255"
-		"DarkerGrey"				"22 22 22 255"
-		"Black"						"17 17 17 255"
+		"Purple"			"64 24 124 255"
+		"TransparentPurple" "64 24 124 128"
 		
-		// BASE COLORS
-		//---------------------------------------------
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
-	    "TFTanMedium"               "131 121 104 150"
+		"Gray"					"70 70 70 255"
+		"TransparentGray"		"70 70 70 156"
+
+		"DarkGray"				"52 52 52 255"
+		"TransparentDarkGray" 	"52 52 52 156"
 		
-	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
-		
-	    "TFOrangeBright"            "156 82 33 255"
-		
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
-	    "TFTextMediumDark"          "104 96 83 255"
-	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
-		
-	    "TFMediumBrown"				"69 64 58 255"
-		
-	    "QuickListBGDeselected"		"0 0 0 0"
-	    "QuickListBGSelected"		"169 123 53 255"
-		
-	    "Blank"						"0 0 0 0"
-		
-		"ControlBG"					"76 88 68 255"		// background color of controls
-		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"					"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"				"90 84 75 255"		// background color of any selected text or menu item
-		"SelectionBG2"				"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"					"39 36 34 255"		// background of server browser, buddy list, etc.
+		"TFWhite"			"224 224 224 255"
+		"TransparentTFWhite" "224 224 224 156"	
 	}
 	
 	BaseSettings
-	{
+	{		
+		// vgui_controls color specifications
+		Frame.BgColor					"DarkGray"
+		Frame.OutOfFocusBgColor			"TransparentGray"
+		
+		CheckButton.TextColor			"TFWhite" // was orange
+		CheckButton.SelectedTextColor	"TFWhite" // was orange
+		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
+		CheckButton.Check				"TFWhite"			// color of the check itself		
+		
+		// Server browser
+		ListPanel.TextColor					"TFWhite"
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.BgColor					"TransparentBlack"
+		ListPanel.SelectedTextColor			"TFWhite"
+		ListPanel.SelectedBgColor			"Purple"
+		ListPanel.SelectedOutOfFocusBgColor	"TransparentPurple"
+		ListPanel.EmptyListInfoTextColor	"TFWhite"
+
+		// Menu ( not to be confused with MainMenu ) 
+		// controlls the dropdowns and similar ( ex. Console Dropdown )
+		Menu.TextColor					"TFWhite"
+		Menu.BgColor					"Gray"
+		Menu.ArmedTextColor				"TFWhite"
+		Menu.ArmedBgColor				"Purple"
+		Menu.TextInset					"6"
+		
+		// Rich text is the console text
+		// Its seperate from the console WRITING text
+		RichText.TextColor				"TFWhite"
+		RichText.BgColor				"TransparentGray"
+		RichText.SelectedTextColor		"TFWhite"
+		RichText.SelectedBgColor		"Purple"
+		
+		SectionedListPanel.HeaderTextColor	"TFWhite"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"TFWhite"
+		SectionedListPanel.TextColor		"TFWhite"
+		SectionedListPanel.BrightTextColor	"TFWhite"
+		SectionedListPanel.BgColor			"TransparentBlack"
+		SectionedListPanel.SelectedTextColor			"TFWhite"
+		SectionedListPanel.SelectedBgColor				"Purple"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"TFWhite"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentPurple"
+		
+		TextEntry.SelectedBgColor						"TFWhite"
+		TextEntry.OutOfFocusSelectedBgColor				"TransparentTFWhite"
+		
+		Tooltip.TextColor		"TFWhite"
+		Tooltip.BgColor			"DarkGray"
+		
+		NewGame.SelectionColor	"Purple"
+		
 		// scheme-specific colors
-		Border.Bright					"Blank"
-		Border.Dark						"Blank"
-		Border.Selection				"Blank"
-		
-		Button.TextColor				"White"
-		Button.BgColor					"Black"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Yellow"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Yellow"
-		Button.FocusBorderColor			"Blank"
-		
-		CheckButton.TextColor			"DullWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"Black"
-		CheckButton.HighlightFgColor	"Yellow"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor	"Blank"
-		CheckButton.Border1  			"Border.Dark"
-		CheckButton.Border2  			"Border.Bright"
-		CheckButton.Check				"White"
-		CheckButton.DisabledBgColor		"Blank"
-		
-		ToggleButton.SelectedTextColor	"White"
-		
-		ComboBoxButton.ArrowColor		"DullWhite"
-		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
-		
-		RadioButton.TextColor			"DullWhite"
-		RadioButton.SelectedTextColor	"White"
-		RadioButton.ArmedTextColor		"TFTextMedium"
-		
-		Frame.BgColor					"DarkGrey"
-		Frame.OutOfFocusBgColor			"DarkGrey"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"White"
-		FrameTitleButton.FgColor		"White"
-		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.DisabledTextColor	"DullWhite"
-		
-		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"White"
-		Label.TextBrightColor			"White"
-		Label.SelectedTextColor			"White"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"DullWhite"
-		Label.DisabledFgColor2			"Blank"	
-		
-		ListPanel.TextColor					"White"
-		ListPanel.BgColor					"HudBlack"
-		ListPanel.SelectedBgColor			"White"
-		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
-		
-		MainMenu.TextColor					"DullWhite"
-		MainMenu.ArmedTextColor				"White"
-		MainMenu.Inset						"32"
-		
-		Menu.TextInset						"6"
-		Menu.FgColor						"White"
-		Menu.BgColor						"HudBlack"
-		Menu.ArmedFgColor					"Black"
-		Menu.ArmedBgColor					"White"
-		Menu.DividerColor					"Border.Dark"
-		
-		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.BgColor				"Black"
-		ScrollBarButton.ArmedFgColor		"Black"
-		ScrollBarButton.ArmedBgColor		"White"
-		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"White"
-		
-		ScrollBarSlider.BgColor				"Black"
-		ScrollBarSlider.FgColor				"White"
-		
-		Slider.NobColor						"TFTanLight"
-		Slider.TextColor					"White"
-		Slider.TrackColor					"HudBlack"
-		Slider.DisabledTextColor1			"TFTextMediumDark"
-		Slider.DisabledTextColor2			"Blank"
-		
-		TextEntry.TextColor					"White"
-		TextEntry.DisabledTextColor	        "DullWhite"
-		TextEntry.SelectedBgColor			"White"
+		MainMenu.TextColor			"TFWhite"
+		MainMenu.ArmedTextColor		"Purple"
+		MainMenu.Inset				"32"		
 	}
 	
+	//////////////////////// FONTS /////////////////////////////
+	//
+	// describes all the fonts
 	Fonts
 	{
-		"MainMenuFont"
+		// fonts are used in order that they are listed
+		// fonts listed later in the order will only be used if they fulfill a range not already filled
+		// if a font fails to load then the subsequent fonts will replace
+		// fonts are used in order that they are listed
+		"DebugFixed"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		// fonts are used in order that they are listed
+		"DebugFixedSmall"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"7"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultFixedOutline"
+		{
+			"1"
+			{
+				"name"		 "Lucida Console"
+				"tall"		 "10"
+				"tall_lodef" "15"
+				"tall_hidef" "20"
+				"weight"	 "0"
+				"outline"	 "1"
+				"antialias" "1"
+			}
+		}
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultBold"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"16"
+				"weight"	"100"
+				"antialias"	"1"
+			}
+		}
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"500"
+				"underline" "1"
+				"antialias" "1"
+				
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+		"DefaultSmallDropShadow"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"13"
+				"weight"	"0"
+				"dropshadow" "1"
+				"antialias" "1"
+			}
+		}
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+		"UiBold"
 		{
 			"1"	[$WIN32]
 			{
-				"name"			"TF2 Build"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"weight"	"2000"
+				"outline"	"1"
+				"antialias" "1"
 			}
 		}
-		
+		"ChapterTitle"	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Tahoma"
+				"tall"			"20"
+				"tall_hidef"	"28"
+				"weight"		"2000"
+				"outline"		"1"
+				"antialias" "1"
+			}
+		}
+		"ChapterTitleBlur"	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Tahoma"
+				"tall"			"20"
+				"tall_hidef"	"28"
+				"weight"		"2000"
+				"blur"			"3"
+				"blur_hidef"	"5"
+				"antialias" "1"
+			}
+		}
 		"MenuLarge"
 		{
-			"1"	[disabled]
+			"1"	[$X360]
 			{
-				"tall_disabled"		"24"
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"600"
+				"antialias" "1"
+			}
+			"1"	[$WIN32]
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"tall_hidef"		"24"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
 			}
 		}
-		
-		"ServerBrowserTitle"
+		"MainMenuButton"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}	
+		"HudFontMediumBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"35"
-				"tall_disabled"	"40"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		
-		"Default" [disabled]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
-		
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -201,7 +281,8 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -209,7 +290,8 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
+				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -217,7 +299,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
+				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -226,7 +308,7 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
+				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -235,187 +317,324 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
-		
-		AchievementItemTitle	[$WIN32]
+		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
-				"weight"	"1500"
-				"tall"		"16" [!$OSX]
-				"tall"		"18" [disabled]
+				"name"		"TF2 Build"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		GameUIButtons
+		{
+			"1"	[$WIN32]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.63"
+				"scaley"	"0.63"
+				"scalex_hidef"	"1.0"
+				"scaley_hidef"	"1.0"
+				"scalex_lodef"	"0.75"
+				"scaley_lodef"	"0.75"
+			}
+		}
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"name"		 "Verdana" [$POSIX]
+				"tall"		"12"
+				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		
-		AchievementItemTitleLarge	[$WIN32]
+
+		// this is the symbol font
+		"Marlett"
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
-				"weight"	"1500"
-				"tall"		"18" [!$OSX]
-				"tall"		"19" [disabled]
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"antialias" "1"
+			}
+		}
+
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+
+		// HUD numbers
+		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
+		"HUDNumber"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"40"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber1"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"41"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber2"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"42"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber3"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"43"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber4"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"44"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber5"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"45"
+				"weight"	"900"
+			}
+		}
+		"DefaultFixed"
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"0"
+				"antialias" "1"
+			}
+//			"1"
+//			{
+//				"name"		"FixedSys"
+//				"tall"		"20"
+//				"weight"	"0"
+//			}
+		}
+
+		"DefaultFixedDropShadow"
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"0"
+				"dropshadow" "1"
+				"antialias" "1"
+			}
+//			"1"
+//			{
+//				"name"		"FixedSys"
+//				"tall"		"20"
+//				"weight"	"0"
+//			}
+		}
+
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"500"
+				"italic"	"1"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"900"
+				"italic"	"1"
+				"antialias" "1"
+			}
+		}
+
+		TitleFont
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"72"
+				"weight"	"400"
 				"antialias"	"1"
+				"custom"	"1"
 			}
 		}
-		
-		AchievementItemDescription	[$WIN32]
+
+		TitleFont2
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [disabled]
-				"weight"	"1000"
-				"tall"		"14" [!$OSX]
-				"tall"		"12" [disabled]
-				"antialias"	"1" [!$OSX]
+				"name"		"HalfLife2"
+				"tall"		"120"
+				"weight"	"400"
+				"antialias"	"1"
+				"custom"	"1"
+			}
+		}
+
+		AppchooserGameTitleFont	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS"
+				"tall"			"16"
+				"tall_hidef"	"24"
+				"weight"		"900"
+				"antialias"		"1"
+			}
+		}
+
+		AppchooserGameTitleFontBlur	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS"
+				"tall"			"16"
+				"tall_hidef"	"24"
+				"weight"		"900"
+				"blur"			"3"
+				"blur_hidef"	"5"
+				"antialias"		"1"
 			}
 		}
 		
-		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
+		"MainMenuFont"
 		{
-            "1" //For screen heights between 480 and 599 (eg 4:3 aspect Width 640x480 High, Width 720x576 High. 16:10 aspect Width 720x480 High)
-            {
-                "name"			"Arial" [$WINDOWS] 			// Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"			"Lucida Console" [$X360]    //"Lucida Console"
-                "name"			"Georgia" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"			"11" [$POSIX]	// "11"
-                "tall"			"10" 			//good positioning is ... "net_graphpos 183" and "net_graphheight 30" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "weight"     	"0"  			//"0" // This is the thickness, like a bold setting max is about 700. Small fonts will look better as "0".
-                "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         	"480 599"            
-                "outline"     	"0"  			//"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     	"0"  			//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  	"1"  			//not default added //smoothing the edges.                
-            }
-            "2" //For screen heights between 600 and 767 (eg 4:3 aspect Width 800X600 High, ... 16:9 aspect Width 1152x648 High.)
-            {
-                "name"			"Arial" [$WINDOWS] 			// Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"			"Lucida Console" [$X360]    //"Lucida Console"
-                "name"			"Georgia" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"			"12" [$POSIX]  	// "11"                
-                "tall"			"12" 			//good positioning is ... "net_graphpos 190" and "net_graphheight 45" and ensure you select "antialias"  "1" with all others off with "Georgia" font.             
-                "weight"     	"0"
-                "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         	"600 767"
-                "outline"     	"0"  			//"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     	"0"  			//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  	"1"  			//not default added //smoothing the edges.                
-            }
-            "3" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
-            {
-                "name"         	"Arial" [$WINDOWS] 			// Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-				"name"         	"Lucida Console" [$X360]    	//"Lucida Console"
-                "name"         	"Verdana" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         	"13" [$POSIX]  	// "11"                
-                "tall"         	"13"  			//good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.             
-                "weight"     	"0"
-                "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         	"768 1023"
-                "outline"     	"1"  			//"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     	"0"  			//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  	"0"  			//not default added //smoothing the edges.
-            }
-            "4" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
-            {
-                "name"         	"Arial" [$WINDOWS] 			// Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-				"name"         	"Lucida Console" [$X360]    //"Lucida Console"
-				"name"         	"Arial" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         	"19" [$POSIX]  	// "11"                
-                "tall"         	"19"  			// good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.             
-                "weight"     	"0"
-                "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         	"1024 1199"
-                "outline"     	"1"  			//"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     	"0"  			//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  	"0"  			//not default added //smoothing the edges.
-            }
-            "5" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
-            {
-                "name"         	"Arial" [$WINDOWS] 			// Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         	"Lucida Console" [$X360]    //"Lucida Console"
-                "name"         	"Arial" [$POSIX] 			// Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Arial" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         	"19" [$POSIX]  	// "11"                
-                "tall"         	"19" 			// good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.              
-                "weight"     	"0"
-                "range"         "0x0000 0x017F" //Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         	"1200 6000"
-                "outline"     	"1"  			//"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     	"0"  			//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  	"0"  			//not default added //smoothing the edges.
-            }
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MainMenuFontBIG"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"25"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}
 	}
 	
 	CustomFontFiles
 	{
-		"6"
+		"9"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
 			"russian"
 			{
-				"range" "0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 	}
 }
+

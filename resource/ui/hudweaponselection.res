@@ -1,111 +1,23 @@
 "Resource/UI/HudWeaponSelection.res"
 {
-	"modelpanel0"
+	"ActiveWeapon"
 	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel0"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
-	}
-	"modelpanel1"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel1"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
-	}
-	"modelpanel2"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel2"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
-	}
-	"modelpanel3"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel3"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
-	}
-	"modelpanel4"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel4"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
-	}
-	"modelpanel5"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"modelpanel5"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
-		"paintborder"			"1"
-		"name_only"				"1"
-		"model_ypos"			"5"
-		"standard_text_color"	"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type"	"1"
-			"allow_rot"				"0"
-		}
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ActiveWeapon"
+		"xpos"			"0"
+		"ypos"			"-40"
+		"zpos"			"0"		
+		"wide"			"80"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"		
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
+		"teambg_4"		"../hud/ammo_custom_bg"
+		"teambg_4_lodef"	"../hud/ammo_custom_bg"
 	}
 }

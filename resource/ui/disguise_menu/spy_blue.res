@@ -1,22 +1,74 @@
-#base "heavy_red.res"
-
 "Resource/UI/disguise_menu/spy_blue.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"			"HUDBlueTeamSolid"
-		"labelText"			"#TF_Class_Name_Spy"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemName"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_Class_Name_Spy"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}
-	
-	"NewNumberLabel"
+
+	"ClassIcon"	
 	{
-		"fgcolor"			"HUDBlueTeamSolid"
-		"labelText"			"3"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ClassIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_spy_blu"
+	}
+		
+	"NumberBg"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_key_blank"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
-	{
-		"fgcolor"			"HUDBlueTeamSolid"
-		"labelText"			"9"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"Default"
+		"fgcolor"		"Black"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 }
