@@ -15,5 +15,5 @@
 		"enabled"		"1"
 		"bg_image"		"../hud/empty"
 		"fg_image"		""
-	}	
+	}
 }

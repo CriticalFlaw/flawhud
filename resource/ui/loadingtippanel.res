@@ -3,19 +3,19 @@
 	"loadingtippanel"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"loadingtippanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"320"
-		"tall"			"80"
+		"fieldName"			"loadingtippanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"320"
+		"tall"				"80"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"2"
 	}
-
+	
 	"TipTitle"
 	{
 		"ControlName"		"Label"
@@ -30,10 +30,10 @@
 		"enabled"			"1"
 		"labelText"			"#StatSummary_Label_TIP"
 		"textAlignment"		"north-west"
-		"font"				"DefaultBold"
+		"font"				"FontBold22"
 		"zpos"				"40"
 	}
-
+	
 	"TipToeText"
 	{
 		"ControlName"		"Label"
@@ -48,8 +48,8 @@
 		"enabled"			"1"
 		"labelText"			"%TipText%"
 		"textAlignment"		"north-west"
-		"font"				"DefaultSmall"
-//		"fgcolor_override"	"164 164 164 255"
+		"font"				"FontBold14"
+		//"fgcolor_override"	"164 164 164 255"
 		"zpos"				"40"
 	}
 }

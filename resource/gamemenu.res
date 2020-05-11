@@ -17,12 +17,12 @@
 		"label" "#GameUI_GameMenu_PlayerList"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
-	} 
+	}
 	"4"
 	{
 		"label" "#GameUI_GameMenu_FindServers" 
 		"command" "OpenServerBrowser"
-	} 
+	}
 	"5"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"

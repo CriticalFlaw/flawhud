@@ -1,0 +1,56 @@
+event HudHealthBonusPulse
+{
+	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.2
+	Animate	HealthBG					BgColor		"OverhealPulse"		Accel 0.2 0.4
+
+	RunEvent HudHealthBonusPulseLoop	0.7
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
+	
+	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
+}
+//==================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.2
+	Animate	HealthBG					BgColor		"LowHealthPulse"	Accel 0.2 0.4
+
+	RunEvent HudHealthDyingPulseLoop	0.4
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 		0.0
+	StopEvent HudHealthDyingPulseLoop 	0.0
+	
+	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
+}
+//==================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.2
+	Animate	AmmoBG						BgColor		"LowAmmoPulse"		Accel 0.2 0.4
+	
+	RunEvent HudLowAmmoPulseLoop		0.4
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 			0.0
+	StopEvent HudLowAmmoPulseLoop 		0.0
+	
+	Animate	AmmoBG						BgColor		"Blank"				Linear 0.0 0.0
+}
+//==================================================================================
+
+event DamagedPlayer 
+{
+	StopEvent HitMarker 				0.0
+	RunEvent HitMarker 					0.01
+}

@@ -14,11 +14,8 @@
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"		
 		"teambg_4"		"../hud/misc_ammo_area_purple"
-		"teambg_4_lodef"	"../hud/misc_ammo_area_purple_lodef"		
 	}
 	
 	"TextDescription"
@@ -33,7 +30,6 @@
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%description%"
@@ -41,5 +37,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"TFFontSmall"
-	}				
+	}
 }

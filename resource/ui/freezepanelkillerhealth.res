@@ -11,8 +11,9 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,8 +26,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -39,8 +41,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -53,12 +56,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"SpectatorKeyHints"
 		"fgcolor_override"		"117 107 94 255"
-	}	
+	}
+	
 	"FortniteHealthBar"
-	{	
+	{
 		"ControlName"	"CTExProgressBar"
 		"fieldName"		"FortniteHealthBar"
 		"font"			"Default"
@@ -66,7 +70,7 @@
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"189"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -75,6 +79,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"1"
+		
 		"if_class_jonesy"
 		{
 			"visible"		"1"
@@ -83,7 +88,7 @@
 	}
 	
 	"FortniteShieldBar"
-	{	
+	{
 		"ControlName"	"CTExProgressBar"
 		"fieldName"		"FortniteShieldBar"
 		"font"			"Default"
@@ -91,7 +96,7 @@
 		"ypos"			"55"
 		"zpos"			"2"
 		"wide"			"0"
-		"tall"			"0"				
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -101,12 +106,13 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"1"
+		
 		"if_class_jonesy"
 		{
 			"visible"		"1"
 			"enabled"		"1"
 			"wide"			"189"
-			"tall"			"12"	
+			"tall"			"12"
 		}
 	}
 }

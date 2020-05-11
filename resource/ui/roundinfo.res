@@ -27,7 +27,7 @@
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 	}
 	
 	"Title"
@@ -72,16 +72,12 @@
 		"fgcolor"		"white"
 	}
 	
-	"RoundContinue" [$WIN32]
+	"RoundContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RoundContinue"
 		"xpos"			"r190"
-		"xpos_lodef"			"r222"
-		"xpos_hidef"			"r232"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -95,7 +91,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"FontBold18"
 		"fgcolor"		"Black"
 	}
 	
@@ -110,52 +106,33 @@
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"xpos"			"c-280"
+		"ypos"			"c-170"
+		"zpos"			"0"
+		"wide"			"560"
+		"tall"			"320"
 		"visible"		"1"
 		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
-	}					
-
+		"bgcolor_override"	"ShadowBlack"
+		"PaintBackgroundType"	"2"
+	}
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -163,30 +140,5 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}	
-	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
+	}
 }
