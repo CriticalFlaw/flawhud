@@ -1,6 +1,29 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
+	// KNUCKLESCROSSES
+	//--------------------------------------------------------------
+	// Set visible and enabled to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in KnucklesCrosses.png.
+	//--------------------------------------------------------------
+	KnucklesCrosses
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"labelText"			"i"
+		"controlName"		"CExLabel"
+		"fieldName"	 		"KnucklesCrosses"
+		"zpos"				"0"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
+		"wide" 		 		"50"
+		"tall" 		 		"50"
+		"font"				"size:26,outline:off"
+		"textAlignment"		"center"
+		"fgcolor" 			"Crosshair"
+	}
+	//--------------------------------------------------------------
 	// ROTATING CROSSHAIR
 	//--------------------------------------------------------------
 	// Set visible and enabled of both nodes to 1 to use.
