@@ -50,7 +50,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"ChalkboardText"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}
 	
 	"MapInfoText"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}
 	
 	"MapImage"

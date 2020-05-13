@@ -72,7 +72,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"FontRegular10"
-			"xpos"			"0"
+			"xpos"			"35"
 			"ypos"			"10"
 			"zpos"			"5"
 			"wide"			"160"

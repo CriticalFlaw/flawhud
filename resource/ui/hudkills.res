@@ -34,41 +34,35 @@
 	
 	"ShadedBarP1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ShadedBarP1"
 		"xpos"				"11"
 		"ypos"				"10"
 		"zpos"				"2"
 		"wide"				"180"
 		"tall"				"22"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"tabPosition"		"0"	
-		"fillcolor"			"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"0 0 0 153"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"ShadedBarP2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ShadedBarP2"
 		"xpos"				"11"
 		"ypos"				"37"
 		"zpos"				"2"
 		"wide"				"180"
 		"tall"				"22"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"tabPosition"		"0"	
-		"fillcolor"			"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"0 0 0 153"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"PlayingToLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayingToLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"FontBold10"
 		"labelText"			"%PlayingToLabel%"
 		"textAlignment"		"center"
 		"xpos"				"c-210"
@@ -83,11 +77,11 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"AvatarImage"
-		"xpos"				"12"
-		"ypos"				"38"
+		"xpos"				"13"
+		"ypos"				"39"
 		"zpos"				"3"
-		"wide"				"20"
-		"tall"				"20"
+		"wide"				"18"
+		"tall"				"18"
 		"image"				""
 		"scaleImage"		"1"	
 		//"color_outline"	"52 48 45 255"
@@ -97,10 +91,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerNameLabel"
-		"font"				"ScoreboardMediumSmall"
+		"font"				"FontRegular12"
 		"labelText"			"%playername%"
 		"textAlignment"		"west"
-		"xpos"				"32"
+		"xpos"				"35"
 		"ypos"				"24"	[$WIN32]
 		"zpos"				"3"
 		"wide"				"140"	[$WIN32]
@@ -113,7 +107,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"KillsLabel"
-		"font"				"ScoreboardMediumSmall"
+		"font"				"FontBold20"
 		"labelText"			"%Kills%"
 		"textAlignment"		"east"
 		"xpos"				"45"
@@ -129,11 +123,11 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"TopAvatarImage"
-		"xpos"				"12"
-		"ypos"				"11"
+		"xpos"				"13"
+		"ypos"				"12"
 		"zpos"				"10"
-		"wide"				"20"
-		"tall"				"20"
+		"wide"				"18"
+		"tall"				"18"
 		"image"				""
 		"scaleImage"		"1"	
 	}
@@ -142,7 +136,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TopPlayerNameLabel"
-		"font"				"ScoreboardMediumSmall"
+		"font"				"FontRegular12"
 		"labelText"			"%topplayername%"
 		"textAlignment"		"west"
 		"xpos"				"35"
@@ -158,7 +152,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TopKillsLabel"
-		"font"				"ScoreboardMediumSmall"
+		"font"				"FontBold20"
 		"labelText"			"%TopKills%"
 		"textAlignment"		"east"
 		"xpos"				"45"

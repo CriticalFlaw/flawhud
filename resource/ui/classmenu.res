@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"OffensePanel"
-		"xpos"			"c50"
+		"xpos"			"100"
 		"ypos"			"c-63"
 		"zpos"			"5"
 		"wide"			"100"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DefensePanel"
-		"xpos"			"c50"
+		"xpos"			"100"
 		"ypos"			"c-21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -317,7 +317,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SupportPanel"
-		"xpos"			"c50"
+		"xpos"			"100"
 		"ypos"			"c21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -449,7 +449,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MiscPanel"
-		"xpos"			"c50"
+		"xpos"			"100"
 		"ypos"			"c64"
 		"zpos"			"5"
 		"wide"			"100"
@@ -843,7 +843,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c-63"
 		"zpos"			"5"
 		"wide"			"100"
@@ -863,7 +863,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c-49"
 		"zpos"			"5"
 		"wide"			"100"
@@ -883,7 +883,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c-35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -903,7 +903,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c-21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -923,7 +923,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c-7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -943,7 +943,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -963,7 +963,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -983,7 +983,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1003,7 +1003,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c150"
+		"xpos"			"200"
 		"ypos"			"c49"
 		"zpos"			"5"
 		"wide"			"100"

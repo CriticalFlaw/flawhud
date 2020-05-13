@@ -32,7 +32,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageColor"
 		"xpos"			"25"
-		"ypos"			"r88"
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"

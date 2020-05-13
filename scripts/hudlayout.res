@@ -1,5 +1,45 @@
 "Resource/HudLayout.res"
 {
+	//--------------------------------------------------------------
+	// ROTATING CROSSHAIR
+	//--------------------------------------------------------------
+	// Set visible and enabled of both nodes to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change drawcolor of CrosshairPulse to desired hitmarker color.
+	//--------------------------------------------------------------
+	Crosshair
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"replay/thumbnails/xhair"
+		"scaleImage"		"1"
+		"fgcolor_override"	"Crosshair"
+		"Alpha"				"255"
+	}
+	CrosshairPulse
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"CrosshairPulse"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"replay/thumbnails/xhair"
+		"scaleImage"		"1"
+		"fgcolor_override"	"CrosshairDamage"
+		"Alpha"				"0"
+	}
+	//--------------------------------------------------------------
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -17,7 +57,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c93"
-		"ypos"				"c63"
+		"ypos"				"c163"
 		"wide"				"150"
 		"tall"				"125"
 	}
@@ -46,13 +86,13 @@
 	
 	HudDemomanCharge
 	{
-		"fieldName"			"HudItemEffectMeter"
+		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-74"
+		"ypos"				"c180"
 		"wide"				"150"
-		"tall"				"500"
+		"tall"				"8"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -98,7 +138,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c87"
+		"ypos"					"c127"
 		"wide"					"100"
 		"tall"  				"100"
 		"visible" 				"1"
@@ -324,10 +364,11 @@
 		"LineSpacing"			"0"
 		"CornerRadius"			"3"
 		"RightJustify"			"1"
-		"TextFont"				"AdFont_AdText"
+		"TextFont"				"FontRegular10"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"White"
+		"LocalPlayerColor"		"Black"
 		"BaseBackgroundColor"	"HudBlack"
 		"LocalBackgroundColor"	"White"
 	}
@@ -754,7 +795,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c150"
-		"ypos"				"c140"
+		"ypos"				"c170"
 		"wide"				"100"
 		"tall"				"50"
 	}
@@ -863,7 +904,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-74"
-		"ypos"			"c120"
+		"ypos"			"c180"
 		"wide"			"150"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -875,10 +916,10 @@
 		"fieldName"		"HudLungeMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r234"
-		"ypos"			"r62"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c-74"
+		"ypos"			"c180"
+		"wide"			"150"
+		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

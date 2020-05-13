@@ -1,9 +1,9 @@
-"Resource/UI/Spectator.res"
+"Resource/UI/SpectatorGUI.res"
 {
-	"Spectator"
+	"SpectatorGUI"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"Spectator"
+		"fieldName"		"SpectatorGUI"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
