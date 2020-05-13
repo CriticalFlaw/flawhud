@@ -29,10 +29,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"DMBG"
-		"xpos"				"75"
+		"xpos"				"70"
 		"ypos"				"84"
 		"wide"				"450"
-		"tall"				"71"
+		"tall"				"75"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -44,19 +44,27 @@
 	
 	"MainBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"MainBG"
 		"xpos"				"75"
 		"ypos"				"138"
 		"zpos"				"0"
 		"wide"				"450"
-		"tall"				"570"
-		"autoResize"		"1"
-		"pinCorner"			"1"
+		"tall"				"360"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/score_panel_black_bg"
-		"scaleImage"		"1"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
+	}
+	
+	BlueScoreBG
+	{
+		"wide"				"0"
+	}
+	
+	RedScoreBG
+	{
+		"wide"				"0"
 	}
 	
 	"MercenaryTeamPlayerCount"
@@ -66,8 +74,8 @@
 		"font"				"HudFontSmallest"
 		"labelText"			"%mercenaryteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"				"110"
-		"ypos"				"117"
+		"xpos"				"90"
+		"ypos"				"119"
 		"wide"				"300"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -82,11 +90,11 @@
 		"fieldName"			"ServerLabel"
 		"font"				"HudFontSmallest"
 		"labelText"			"%server%"
-		"textAlignment"		"center"
-		"xpos"				"170"
-		"ypos"				"112"
+		"textAlignment"		"east"
+		"xpos"				"253"
+		"ypos"				"119"
 		"wide"				"250"
-		"tall"				"30"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -96,8 +104,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HudKillsLabel2"
-		"font"				"HudFontMediumBold"
-		"fgcolor"			"Black"
+		"font"				"FontBold27"
+		"fgcolor"			"ShadowBlack"
 		"textAlignment"		"center"
 		"xpos"				"72"
 		"ypos"				"101"
@@ -113,7 +121,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HudKillsLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"FontBold27"
 		"fgcolor"			"TanLight"
 		"textAlignment"		"center"
 		"xpos"				"70"
@@ -135,7 +143,7 @@
 		"ypos"				"145"
 		"zpos"				"2"
 		"wide"				"390"
-		"tall"				"260"
+		"tall"				"250"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -162,7 +170,7 @@
 	
 	"ClassImage"
 	{
-		"xpos"				"106"
+		"xpos"				"96"
 		"ypos"				"407"
 		"wide"				"82"
 		"tall"				"82"
@@ -171,7 +179,7 @@
 	
 	"ClassImageColorless"
 	{
-		"xpos"				"106"
+		"xpos"				"96"
 		"ypos"				"407"
 		"wide"				"82"
 	}
@@ -180,6 +188,8 @@
 		"xpos"				"90"
 		"ypos"				"418"
 		"wide"				"420"
+		"tall"				"70"
+		"bgcolor_override"	"Black"
 	}
 	"PlayerNameLabel"
 	{
@@ -203,43 +213,19 @@
 		"labelText"			"#TF_Scoreboard_ScoreLabel"
 		"xpos"				"3000"
 		"wide"				"160"
-	}
-	
-	"KillsLabel"
-	{
-		"wide"				"0"
-	}
-	"KillsCount"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"KillsCount"
-		"font"				"HudFontMediumBold"
-		"labelText"			"%kills%"
-		"textAlignment"		"east"
-		"xpos"				"4000"
-		"ypos"				"347"
-		"zpos"				"3"
-		"wide"				"140"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-	}
-	"Kills"
-	{
-		"wide"				"0"
 	}
 	
 	"PointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PointsLabel"
-		"font"				"ScoreboardVerySmall"
+		"font"				"FontBold14"
 		"labelText"			"Frags:"
-		"textAlignment"		"east"
-		"xpos"				"130"
-		"ypos"				"442"
+		"textAlignment"		"west"
+		"xpos"				"-100"
+		"ypos"				"-10"
 		"zpos"				"3"
 		"wide"				"95"
 		"tall"				"20"
@@ -247,6 +233,10 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		"pin_to_sibling"		"ShadedBar"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"Points"
 	{
@@ -255,151 +245,226 @@
 		"font"				"ScoreboardVerySmall"
 		"labelText"			"%playerscore%"
 		"textAlignment"		"west"
-		"xpos"				"227"
-		"ypos"				"442"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"95"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"0"
+		
+		"pin_to_sibling"		"PointsLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
+	"KillsLabel"
+	{
+		"wide"				"0"
+	}
+	"Kills"
+	{
+		"wide"				"0"
+	}
+	"KillsCount"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"KillsCount"
+		"font"				"FontBold27"
+		"labelText"			"%kills%"
+		"textAlignment"		"center"
+		"xpos"				"0"
+		"ypos"				"-20"
+		"zpos"				"3"
+		"wide"				"40"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		"pin_to_sibling"		"PointsLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"DeathsLabel"
 	{
-		"xpos"				"130"
-		"ypos"				"452"
+		"ControlName"	"CExLabel"
+		"fieldName"		"DeathsLabel"
+		"font"			"FontRegular12"
+		"labelText"		"#TF_ScoreBoard_DeathsLabel"
+		"textAlignment"	"west"
+		"xpos"			"-130"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"ShadedBar"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"Deaths"
 	{
-		"xpos"				"227"
-		"ypos"				"452"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"70"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"DeathsLabel"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"AssistsLabel"
 	{
-		"xpos"				"130"
-		"ypos"				"462"
+		"xpos"				"0"
+		"ypos"				"15"
+		
+		"pin_to_sibling"		"DeathsLabel"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 	"Assists"
 	{
-		"xpos"				"227"
-		"ypos"				"462"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"DestructionLabel"
 	{
-		"xpos"				"130"
-		"ypos"				"472"
+		"xpos"				"0"
+		"ypos"				"9999"
 	}
 	"Destruction"
 	{
-		"xpos"				"227"
-		"ypos"				"472"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"CapturesLabel"
 	{
-		"xpos"				"208"
-		"ypos"				"442"
-		"visible"			"0"
+		"xpos"				"0"
+		"ypos"				"9999"
 	}
 	"Captures"
 	{
-		"xpos"				"310"
-		"ypos"				"442"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"DefensesLabel"
 	{
-		"xpos"				"208"
-		"ypos"				"452"
+		"xpos"				"0"
+		"ypos"				"9999"
 	}
 	"Defenses"
 	{
-		"xpos"				"310"
-		"ypos"				"452"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"DominationLabel"
 	{
-		"xpos"				"208"
-		"ypos"				"462"
+		"xpos"				"0"
+		"ypos"				"15"
+		
+		"pin_to_sibling"		"AssistsLabel"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 	"Domination"
 	{
-		"xpos"				"310"
-		"ypos"				"462"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"RevengeLabel"
 	{
-		"xpos"				"208"
-		"ypos"				"472"
+		"xpos"				"0"
+		"ypos"				"15"
+		
+		"pin_to_sibling"		"DominationLabel"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 	"Revenge"
 	{
-		"xpos"				"310"
-		"ypos"				"472"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"HealingLabel"
 	{
-		"xpos"				"304"
-		"ypos"				"472"
+		"xpos"				"120"
+		"ypos"				"0"
+		
+		"pin_to_sibling"		"DeathsLabel"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
+	
 	"Healing"
 	{
-		"xpos"				"400"
-		"ypos"				"472"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"InvulnLabel"
 	{
-		"xpos"				"304"
-		"ypos"				"442"
+		"xpos"				"0"
+		"ypos"				"15"
 	}
 	"Invuln"
 	{
-		"xpos"				"400"
-		"ypos"				"442"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"TeleportsLabel"
 	{
-		"xpos"				"304"
-		"ypos"				"462"
+		"xpos"				"0"
+		"ypos"				"15"
 	}
 	"Teleports"
 	{
-		"xpos"				"400"
-		"ypos"				"462"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"HeadshotsLabel"
 	{
-		"xpos"				"304"
-		"ypos"				"452"
+		"xpos"				"0"
+		"ypos"				"15"
 	}
 	"Headshots"
 	{
-		"xpos"				"400"
-		"ypos"				"452"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 	
 	"BackstabsLabel"
 	{
-		"textAlignment"		"east"
-		"xpos"				"385"
-		"ypos"				"442"
-		"wide"				"95"
-		"tall"				"20"
+		"xpos"				"0"
+		"ypos"				"9999"
 	}
 	"Backstabs"
 	{
-		"textAlignment"		"west"
-		"xpos"				"482"
-		"ypos"				"442"
+		"xpos"				"70"
+		"ypos"				"0"
 	}
 }
