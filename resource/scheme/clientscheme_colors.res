@@ -45,17 +45,6 @@ Scheme
 		"UberCharged2"				"0 120 127 255"
 		"UberCharging"				"0 170 127 255"
 		//---------------------------------------------
-		// Loadout Gradient
-		"LOGScout"					"75 112 130 255"
-		"LOGSoldier"				"80 105 120 255"
-		"LOGPyro"					"95 100 110 255"
-		"LOGDemoman"				"100 95 100 255"
-		"LOGHeavy"					"110 90 90 255"
-		"LOGEngineer"				"120 80 80 255"
-		"LOGMedic"					"130 75 75 255"
-		"LOGSniper"					"140 70 70 255"
-		"LOGSpy"					"158 65 65 255"
-		//---------------------------------------------
 		// Player Stats
 		"StatBar1"					"100 15 140 255"
 		"StatBar2"					"92 15 123 255"

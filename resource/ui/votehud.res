@@ -6,13 +6,14 @@
 		"fieldName"		"VotePassed"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"150"
+		"wide"			"130"
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"bgcolor_override"	"HudBlack"
-				
+		"PaintBackgroundType"	"2"
+		
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -73,12 +74,13 @@
 		"fieldName"		"VoteActive"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"144"
+		"wide"			"130"
+		"tall"			"130"
 		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
 		
 		"Header"
 		{
@@ -405,13 +407,14 @@
 		"fieldName"		"CallVoteFailed"
 		"xpos"			"10"
 		"ypos"			"c-80"
-		"wide"			"150"
+		"wide"			"130"
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"bgcolor_override"	"HudBlack"
-				
+		"PaintBackgroundType"	"2"
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -472,12 +475,14 @@
 		"fieldName"		"VoteFailed"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"150"
+		"wide"			"130"
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"paintborder"	"0"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -576,7 +581,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 		}
-									
+		
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
