@@ -57,6 +57,9 @@ event DamagedPlayer
 
 event HitMarker
 {
+	Animate KnucklesCrosses	 			FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
+	Animate KnucklesCrosses	 			FgColor 	"Crosshair" 		Linear 0.15 0.0
+	
 	Animate	Crosshair					Alpha		"0"					Linear 0.0 0.0
 	Animate	Crosshair					Alpha		"255"				Linear 0.15 0.0
 	Animate	CrosshairPulse				Alpha		"255"				Linear 0.0 0.0

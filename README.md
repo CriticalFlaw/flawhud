@@ -5,6 +5,11 @@ Custom Heads-Up Display (HUD) for Open Fortress. [Click here for screenshots](ht
 #### Installation
 Extract the zipped file contents into `Steam\steamapps\sourcemods\open_fortress\custom`
 
+#### Custom Crosshairs
+KnucklesCrosses are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `KnucklesCrosses` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the KnucklesCrosses.png image file (located in the `scripts` folder).
+
+To change the crosshair colors, open `flawhud\resource\scheme\clientscheme_colors.res` and change for the RGB values for `Crosshair` (base color) and `CrosshairDamage` (hitmarker) for the desired effect.
+
 #### Font Styles
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the `_tf` suffix as instructed in the file.
 
