@@ -20,7 +20,7 @@
 		"fieldName"		"Title"
 		"xpos"			"8"
 		"ypos"			"23"
-		"zpos"			"99"
+		"zpos"			"101"
 		"wide"			"f0"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
@@ -28,6 +28,7 @@
 		"textAlignment"	"center"
 		"font"			"FontBold20"
 		"fgcolor_override"	"White"
+		"bgcolor_override"	"DarkGrey"
 		"mouseinputenabled"	"0"
 	}
 
@@ -83,7 +84,7 @@
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"305"
-		"tall"			"f80"
+		"tall"			"500"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -109,10 +110,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"xpos"			"cs-0.51"
+		"ypos"			"rs1-7"
 		"zpos"			"100"
-		"wide"			"f20"
+		"wide"			"f19"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"

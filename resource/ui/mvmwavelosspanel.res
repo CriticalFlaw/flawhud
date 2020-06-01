@@ -22,10 +22,8 @@
 		"wide"				"550"
 		"tall"				"350"
 		"visible"			"1"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"border"				"WhiteBorder"
-		"bgcolor_override"		"HudBlack"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"WaveFailHeader"
@@ -101,7 +99,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"CollectedCount"
@@ -348,7 +346,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"DarkGrey"
+			"fillcolor"		"DarkerGrey"
 
 			"src_corner_height"		"22"
 			"src_corner_width"		"22"

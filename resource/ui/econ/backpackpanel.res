@@ -1562,16 +1562,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Wall"
-		"xpos"			"0"
+		"xpos"			"c-340"
 		"ypos"			"20"
-		"zpos"			"-5"
-		"wide"			"f0"
+		"zpos"			"-10"
+		"wide"			"680"
 		"tall"			"325"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"14 14 14 100"
+		"bgcolor_override"	"DarkerGrey"
+		"PaintBackgroundType"	"2"
 	}
 }

@@ -14,7 +14,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"				"WhiteBorder"
+		"border"				"NoBorder"
 	}
 
 	"Background"
@@ -222,9 +222,9 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
-		"font"					"FontBold12"
+		"font"					"FontRegular12"
 	}
-		
+	
 	"LabelDesc"
 	{
 		"ControlName"		"Label"
@@ -252,7 +252,7 @@
 		"xpos"				"175"
 		"ypos"				"120"
 		"wide"				"250"
-		"tall"				"125"
+		"tall"				"185"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -266,15 +266,15 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
-		"font"					"FontBold12"
+		"font"					"FontRegular12"
 	}
 
 	"LabelSourceFile"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"LabelSourceFile"
-		"xpos"				"175"
-		"ypos"				"250"
+		"xpos"				"185"
+		"ypos"				"310"
 		"wide"				"250"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -294,8 +294,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"SourceFile"
-		"xpos"				"225"
-		"ypos"				"250"
+		"xpos"				"230"
+		"ypos"				"310"
 		"wide"				"275"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -316,9 +316,9 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ButtonSourceCosmetics"
-		"xpos"				"85"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"250"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -352,9 +352,9 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ButtonSourceOther"
-		"xpos"				"230"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"280"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -376,9 +376,9 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ButtonSourceMaps"
-		"xpos"				"375"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"310"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -413,8 +413,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"BrowseDescription"
-		"xpos"				"175"
-		"ypos"				"300"
+		"xpos"				"330"
+		"ypos"				"0"
 		"wide"				"270"
 		"tall"				"55"
 		"autoResize"		"0"
@@ -423,7 +423,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_PublishFile_BrowseDesc"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"1"

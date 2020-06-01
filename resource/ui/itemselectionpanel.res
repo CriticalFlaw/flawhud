@@ -117,7 +117,7 @@
 		"font"			"FontRegular12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c+196"
+		"xpos"			"c+176"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"90"
@@ -134,10 +134,10 @@
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"font"			"FontRegular10"
-		"xpos"			"c+196"
+		"xpos"			"c+176"
 		"ypos"			"22"
 		"zpos"			"2"
-		"wide"			"90"
+		"wide"			"120"
 		"tall"			"19"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -148,7 +148,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype" "2"
 	}
 	
@@ -435,6 +435,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"MenuShader"
+		"bgcolor_override"	"DarkerGrey"
 	}
 }

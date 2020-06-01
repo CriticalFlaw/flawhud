@@ -204,27 +204,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../console/characters/soldier"
-	}
-	
-	"SoldierTribute"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldname"		"SoldierTribute"
-		"xpos"			"c110"
-		"ypos"			"80"
-		"zpos"			"11"
-		"wide"			"160"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		""
-		"command" 		"engine play ui/soldier.mp3"
-		"font"			"FontRegular14"
-		"textAlignment"	"center"
-		"sound_depressed"	""
-		"sound_released"	""
-		"paintbackground"	"0"
 	}
 	
 	"RankModelPanel"
@@ -318,17 +297,21 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"70"	//"cs-0.5-236"
-		"ypos"			"cs-0.5-54"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"170"
-		"tall"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
 		"show_model"	"0"
+		
+		"pin_to_sibling"			"BGPanel1"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 	}
 	
 	"NoGCMessage"
@@ -444,7 +427,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
 		"xpos"				"r28"
-		"ypos"				"40"
+		"ypos"				"35"
 		"zpos"				"1"
 		"wide"				"24"
 		"tall"				"20"

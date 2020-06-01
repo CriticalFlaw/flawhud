@@ -218,11 +218,12 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
-		"mouseinputenabled"	"1"
-		"proportionaltoparent"	"1"
-		"visible"		"0"
+		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
+		"PaintBackgroundType"	"2"
+		"mouseinputenabled"		"1"
+		"proportionaltoparent"	"1"
+		"paintborder"			"0"
 		
 		"fixed_item"
 		{

@@ -238,7 +238,7 @@
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"FontRegular10"
 		"xpos"			"c-135"
-		"ypos"			"130"
+		"ypos"			"125"
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
@@ -439,6 +439,25 @@
 			"scaleImage"	"1"
 			"image"			"../vgui/replay/thumbnails/reel"
 		}
+	}
+	
+	"SecretButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldname"		"SecretButton"
+		"xpos"			"r30"
+		"ypos"			"c100"
+		"zpos"			"11"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"?"
+		"font"			"FontBold8"
+		"textAlignment"	"center"
+		"sound_depressed"	"ui/menu.mp3"
+		"sound_released"	"ui/menu.mp3"
+		"paintbackground"	"0"
 	}
 
 	"TauntsExplanation"

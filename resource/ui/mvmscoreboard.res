@@ -58,11 +58,8 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"pinCorner"			"0"
-		"autoResize"		"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 200"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"MvMPlayerList"
@@ -88,8 +85,8 @@
 		"fieldName"			"CreditStatsContainer"
 		"xpos"				"25"
 		"ypos"				"245"
-		"wide"				"400"
-		"tall"				"205"
+		"wide"				"275"
+		"tall"				"132"
 		"visible"			"1"
 		
 		"CreditStatsBackground"
@@ -122,11 +119,8 @@
 			"tall"			"132"
 			"visible"		"1"
 			"enabled"		"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
 			"bgcolor_override"		"25 25 25 200"
+			"PaintBackgroundType"	"2"
 
 		}
 		

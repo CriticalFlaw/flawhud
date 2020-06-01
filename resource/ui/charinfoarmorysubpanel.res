@@ -436,10 +436,9 @@
 		"ypos"			"20"
 		"wide"			"618"
 		"tall"			"305"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"14 14 14 100"
+		"bgcolor_override"	"DarkerGrey"
+		"PaintBackgroundType"	"2"
 	}
 }
