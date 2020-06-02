@@ -47,7 +47,7 @@
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"0"
 		"ypos"			"36"
-		"zpos"			"0"
+		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"4"
 		"autoResize"	"0"

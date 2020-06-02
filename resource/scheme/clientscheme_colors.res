@@ -95,6 +95,7 @@ Scheme
 		"Red"									"192 28 0 140"
 		"RedSolid"								"192 28 0 255"
 		"Blue"									"0 28 162 140"
+		"BlueSolid"								"0 28 162 255"
 		"Yellow"								"251 235 202 255"
 		"TransparentYellow"						"251 235 202 140"
 		"BrightYellow"							"251 235 0 255"

@@ -112,7 +112,7 @@ Scheme
 		Label.DisabledFgColor2			"Blank"	
 		
 		ListPanel.TextColor					"White"
-		ListPanel.BgColor					"DarkGrey"
+		ListPanel.BgColor					"HudBlack"
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 		
@@ -122,7 +122,7 @@ Scheme
 		
 		Menu.TextInset						"6"
 		Menu.FgColor						"White"
-		Menu.BgColor						"DarkGrey"
+		Menu.BgColor						"HudBlack"
 		Menu.ArmedFgColor					"Black"
 		Menu.ArmedBgColor					"White"
 		Menu.DividerColor					"Border.Dark"
@@ -139,7 +139,7 @@ Scheme
 		
 		Slider.NobColor						"TFTanLight"
 		Slider.TextColor					"White"
-		Slider.TrackColor					"DarkGrey"
+		Slider.TrackColor					"HudBlack"
 		Slider.DisabledTextColor1			"TFTextMediumDark"
 		Slider.DisabledTextColor2			"Blank"
 		
