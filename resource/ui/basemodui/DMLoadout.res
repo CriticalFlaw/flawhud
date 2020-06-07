@@ -1,17 +1,40 @@
-"Resource/UI/Loadout.res"
+"Resource\UI\basemodui\DMLoadout.res"
 {
-	"TFLoadout"
+	"DMLoadout"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"TFLoadout"
+		"ControlName"		"Frame"
+		"fieldName"			"DMLoadout"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"autoResize"		"1"
 	}
+	
+	"CloseButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"			"CloseButton"
+		"xpos"				"r219"
+		"ypos"				"r37"
+		"zpos"				"5"
+		"wide"				"160"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#OF_Loadout_Return"
+		"font"				"HudFontMediumBold"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"Command"			"Back"
+		"proportionalToParent"	"1"
+	}
+	
 	"LoadoutBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -57,27 +80,24 @@
 		"tileImage"			"1"
 		"proportionalToParent"	"1"
 	}
-	"CloseButton"
+	
+	"BtnCancel" [$WIN32]
 	{
-		"ControlName"		"Button"
-		"fieldName"			"CloseButton"
-		"xpos"				"r219"
-		"ypos"				"r37"
-		"zpos"				"5"
-		"wide"				"160"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"		"CNB_Button"
+		"fieldName"			"BtnCancel"
+		"xpos"				"c-127"
+		"ypos"				"r23"
+		"wide"				"117"
+		"tall"				"27"
+		"zpos"				"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"#OF_Loadout_Return"
-		"font"				"HudFontMediumBold"
+		"labelText"			"#L4D360UI_Cancel_Caps"
+		"command"			"Cancel"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"Command"			"vguicancel"
-		"proportionalToParent"	"1"
+		"font"				"DefaultMedium"
+		"fgcolor_override"	"113 142 181 255"
 	}
 	
 	"CosmeticPanelToggle"
@@ -95,10 +115,10 @@
 		"enabled"			"1"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"proportionalToParent"	"1"
 		"panel"				"CosmeticPanel"
 		"XAdjustment" 		"30"
 		"YAdjustment" 		"0"
-		"proportionalToParent"	"1"
 		
 		"border_idle"		"LoadoutPanelToggleBorder"
 		"border_hover" 		"LoadoutPanelToggleBorder"
@@ -198,9 +218,9 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"panel"				"VisualPanel"
+		"proportionalToParent"	"1"
 		"XAdjustment" 		"30"
 		"YAdjustment" 		"0"
-		"proportionalToParent"	"1"
 		
 		"border_idle"		"LoadoutPanelToggleBorder"
 		"border_hover" 		"LoadoutPanelToggleBorder"
@@ -284,8 +304,8 @@
 				"tall"				"16"
 				"visible"			"0"
 				"enabled"			"0"
-				"fgcolor"			"255 255 255 255"
 				"proportionalToParent"	"1"
+				"fgcolor"			"255 255 255 255"
 				
 				"Slider"
 				{
@@ -316,9 +336,9 @@
 				"tall"				"20"
 				"visible"			"1"
 				"enabled"			"1"
+				"proportionalToParent"	"1"
 				"border"			"LoadoutThickBorderSharp"
 				"fgcolor"			"255 255 255 255"
-				"proportionalToParent"	"1"
 			}
 		}
 		"ListTemplate"
@@ -344,8 +364,8 @@
 				"tall"				"315"
 				"visible"			"0"
 				"enabled"			"0"
-				"fgcolor"			"255 255 255 255"
 				"proportionalToParent"	"1"
+				"fgcolor"			"255 255 255 255"
 			}
 			
 			"ItemTemplate"
@@ -736,8 +756,8 @@
 				"tall"				"225"
 				"visible"			"1"
 				"enabled"			"1"
-				"fgcolor"			"255 255 255 255"
 				"proportionalToParent"	"1"
+				"fgcolor"			"255 255 255 255"
 			}
 		}
 		"AnnouncerLable"
@@ -817,8 +837,8 @@
 				"font"				"HudFontSmallestBold"
 				"labelText"			"#OF_Loadout_UseRGB"
 				"fgcolor"			"TFWhite"
-				"tooltiptext" 		"#OF_Loadout_UseRGB_Desc"
 				"proportionalToParent"	"1"
+				"tooltiptext" 		"#OF_Loadout_UseRGB_Desc"
 			}
 			"HexLabel"
 			{
@@ -885,6 +905,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
+			
 			"HueLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -899,6 +920,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
+			
 			"Hue"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -942,6 +964,7 @@
 				"pin_corner_to_sibling"		"0"
 				"pin_to_sibling_corner"		"0"
 			}
+			
 			"SaturationLabel"
 			{	
 				"ControlName"		"CExLabel"
@@ -956,6 +979,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
+			
 			"Saturation"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -999,6 +1023,7 @@
 				"pin_corner_to_sibling"		"0"
 				"pin_to_sibling_corner"		"0"
 			}
+			
 			"BrightnessLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1013,6 +1038,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
+			
 			"Brightness"
 			{
 				"ControlName"	 	"CTFColorSlider"
@@ -1055,6 +1081,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
+			
 			"RedLabel"
 			{	
 				"ControlName"		"CExLabel"
@@ -1070,6 +1097,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
+			
 			"Red"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -1113,6 +1141,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
+			
 			"GreenLabel"
 			{	
 				"ControlName"		"CExLabel"
@@ -1128,6 +1157,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
+			
 			"Green"
 			{
 				"ControlName"	 	"CTFColorSlider"
@@ -1171,6 +1201,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
+			
 			"BlueLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1186,6 +1217,7 @@
 				"visible"			"0"
 				"proportionalToParent"	"1"
 			}
+			
 			"Blue"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -1258,7 +1290,7 @@
 	
 	"classmodelpanel"
 	{
-		"ControlName"		"CTFModelPanel"
+		"ControlName"		"DMModelPanel"
 		"fieldName"			"classmodelpanel"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -1294,12 +1326,6 @@
 			{
 				"modelname"		"models/weapons/w_models/w_supershotgun.mdl"
 				"skin"			"0"
-			}
-			
-			"attached_model"
-			{
-				"modelname"		"models/player/items/mercenary/pith/pith_helmet.mdl"
-				"skin"			"2"
 			}
 			
 			"animation"

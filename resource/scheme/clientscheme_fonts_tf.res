@@ -642,17 +642,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"HudFontBigBold"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"36"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 		"HudFontBig"
 		{
 			"1"
@@ -662,6 +651,17 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
+			}
+		}
+		"HudFontBigBold"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"36"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMediumBig"
@@ -708,22 +708,22 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"HudFontMediumSmallBold"
+		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"TF2"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		"HudFontMediumSmall"
+		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"TF2 Build"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -783,6 +783,40 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
+			}
+		}
+		"HudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"MainMenuFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MainMenuFontBIG"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"25"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		
@@ -1581,61 +1615,9 @@ Scheme
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
-		"3"
-		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4" 
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5" 
-		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}	
-		"6" 
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
+		"3"		"resource/TF2.ttf"
+		"4"		"resource/TF2Secondary.ttf"
+		"5"		"resource/TF2Professor.ttf"
+		"6"		"resource/TF2Build.ttf"
 	}
 }

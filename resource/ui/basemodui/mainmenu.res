@@ -20,7 +20,7 @@
 	
 	"PnlBackground"
 	{
-		"ControlName"			"Panel"
+		"ControlName"			"ImagePanel"
 		"fieldName"				"PnlBackground"
 		"xpos"					"9999"
 		"ypos"					"0"
@@ -49,7 +49,72 @@
 		"scaleImage"			"1"
 		"image"					"..\logo\tf2_logo"
 		"frame"					"0"
-	}	
+	}
+	
+	"LoadoutBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"LoadoutBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-15"
+		"wide"					"f0"
+		"tall"					"480"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"..\console\background02_widescreen"
+		"scaleImage"			"1"
+		"proportionalToParent"	"1"
+	}
+	
+	"classmodelpanel"
+	{
+		"ControlName"			"DMModelPanel"
+		"fieldName"				"classmodelpanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"render_texture"		"0"
+		"fov"					"25"
+		"allow_rot"				"0"
+		"use_particle"			"1"
+		
+		"model"
+		{
+			"force_pos"			"1"
+			"skin"				"4"
+			"angles_x"			"0"
+			"angles_y"			"210"
+			"angles_z"			"0"
+			"origin_x"			"350"
+			"origin_y"			"-50"
+			"origin_z"			"-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight"			"1"
+			"modelname"			"models/player/mercenary.mdl"
+			
+			"attached_model"
+			{
+				"modelname"		"models/weapons/w_models/w_supershotgun.mdl"
+				"skin"			"0"
+			}
+			
+			"animation"
+			{
+				"name"			"PRIMARY"
+				"activity"		"ACT_MERC_LOADOUT"
+				"default"		"1"
+			}
+		}
+	}
 	
 	"BtnServerBrowser"
 	{
@@ -154,33 +219,6 @@
 		"ActivationType"		"1"
 		
 		"pin_to_sibling"				"BtnLoadout"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-	}
-
-	"BtnStats"
-	{
-		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnStats"
-		"xpos"					"0"
-		"ypos"					"-25"
-		"wide"					"260"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"tabPosition"			"0"
-		"navUp"					"BtnOptions"
-		"navDown"				"BtnQuit"
-		"labelText"				"#GameUI_Stats"
-		"tooltiptext"			"#GameUI_Stats_Tip"
-		"style"					"MainMenuButton"
-		"Font"					"MainMenuFont"
-		"command"				"showstatsdlg"
-		"ActivationType"		"1"
-		
-		"pin_to_sibling"				"BtnOptions"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}

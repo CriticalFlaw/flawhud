@@ -96,6 +96,32 @@
 		"tall"				"480"
 	}
 	
+	HudCloakMeter
+	{
+		"fieldName"		"HudCloakMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-74"
+		"ypos"			"c150"
+		"wide"			"150"
+		"tall"			"8"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}	
+	
+	HudLungeMeter
+	{
+		"fieldName"		"HudLungeMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-74"
+		"ypos"			"c150"
+		"wide"			"150"
+		"tall"			"8"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+	
 	HudMedicCharge
 	{
 		"fieldName"			"HudMedicCharge"
@@ -117,20 +143,6 @@
 		"wide"				"150"
 		"tall"				"8"
 		"MeterFG"			"White"
-		"MeterBG"			"Gray"
-	}
-	
-	HudBossHealth
-	{
-		"fieldName"			"HudBossHealth"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"42"
-		"zpos"				"0"
-		"wide"				"200"
-		"tall"				"50"
-		"MeterFG"			"Red"
 		"MeterBG"			"Gray"
 	}
 	
@@ -716,6 +728,15 @@
 		"tall"				"152"
 	}
 	
+	WinPanelDM
+	{
+		"fieldName"				"WinPanelDM"
+		"visible"				"1"
+		"enabled"				"1"
+		"wide"	 				"800"
+		"tall"	 				"480"
+	}
+	
 	StatPanel
 	{
 		"fieldName"			"StatPanel"
@@ -805,7 +826,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-99"
-		"ypos"				"r85"
+		"ypos"				"c0"
 		"zpos"				"1"
 		"wide"				"198"
 		"tall"				"88"
@@ -891,11 +912,32 @@
 		"PaintBackgroundType" "0" // rounded corners
 	}
 	
-	HUDAutoAim			{ }
-	HudHDRDemo			{ }
-	HudMoney			{ }
-	HudCredits			{ }
+	"DevDisplay"
+	{
+		"fieldName"		"DevDisplay"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c0"
+		"ypos"			"r52"
+		"wide"			"100"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
 	
+	HudBossHealth
+	{
+		"fieldName"			"HudBossHealth"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-100"
+		"ypos"				"42"
+		"zpos"				"0"
+		"wide"				"200"
+		"tall"				"50"
+		"MeterFG"			"Red"
+		"MeterBG"			"Gray"
+	}
 	
 	"HudTDM"
 	{
@@ -921,89 +963,8 @@
 		"tall"	"480"
 	}
 	
-	HudCloakMeter
-	{
-		"fieldName"		"HudCloakMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-74"
-		"ypos"			"c150"
-		"wide"			"150"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}	
-	
-	HudLungeMeter
-	{
-		"fieldName"		"HudLungeMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-74"
-		"ypos"			"c150"
-		"wide"			"150"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-
-//	HudWeaponSelection
-//	{
-//		"fieldName" "HudWeaponSelection"
-//		"xpos"	"0"
-//		"wide"	"f0"
-//		"ypos" 	"0"
-//		"tall"	"480"
-//		"RightMargin" "0"
-//		"RightMargin_hidef" "32"
-//		"RightMargin_lodef" "38"
-//		"visible" "1"
-//		"enabled" "1"
-//		"SmallBoxWide" "60"
-//		"SmallBoxTall" "45"
-//		"PlusStyleBoxWide" "90"
-//		"PlusStyleBoxTall" "63"
-//		"PlusStyleExpandSelected"	"0.3"
-//		"LargeBoxWide" "100"
-//		"LargeBoxTall" "70"
-//		"BoxGap" "10"
-//		"SelectionNumberXPos" "12"
-//		"SelectionNumberYPos" "4"
-//		"IconXPos" "8"
-//		"IconYPos" "0"
-//		"TextYPos" "70"
-//		"ErrorYPos" "48"
-//		"TextColor" "SelectionTextFg"
-//		"MaxSlots"	"6"
-//		"PlaySelectSounds"	"1"
-//		"Alpha" "220"
-//		"SelectionAlpha" "220"
-//		"BoxColor" "0 0 0 220"
-//		"SelectedBoxClor" "0 0 0 220"
-//		"SelectionNumberFg"	"200 187 161 255"
-//		"NumberFont" "HudSelectionText"
-//	}
-	
-	WinPanelDM
-	{
-		"fieldName"				"WinPanelDM"
-		"visible"				"1"
-		"enabled"				"1"
-		"wide"	 				"800"
-		"tall"	 				"480"
-	}	
-	
-	"DevDisplay"
-	{
-		"fieldName"		"DevDisplay"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c0"
-		"ypos"			"r52"
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
+	HUDAutoAim			{ }
+	HudHDRDemo			{ }
+	HudMoney			{ }
+	HudCredits			{ }
 }
