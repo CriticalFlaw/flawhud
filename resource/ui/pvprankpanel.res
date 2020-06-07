@@ -186,7 +186,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"86"
+		"tall"			"92"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
@@ -228,31 +228,22 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"180"
-			"ypos"			"62"
-			"wide"			"100"
+			"xpos"			"15"
+			"ypos"			"22"
+			"wide"			"140"
+			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
-				"wide"	"f0"
-				"textAlignment"	"north-west"
-			}
-			
-			"fonts"
-			{
-				"0"		"HudFontSmallest"
-				"1"		"HudFontSmallest"
-				"2"		"HudFontSmallest"
+				"visible"	"0"
 			}
 		}
 		
@@ -298,7 +289,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -315,7 +306,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-40"
+				"ypos"			"rs1-45"
 				"wide"			"170"
 				"tall"			"35"
 				"proportionaltoparent"	"1"

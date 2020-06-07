@@ -301,7 +301,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"170"
-		"tall"			"45"
+		"tall"			"55"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -1362,7 +1362,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular12"
-		"labelText"		"FlawHUD v2020.0506"
+		"labelText"		"FlawHUD v2020.0607"
 		"xpos"			"r130"
 		"ypos"			"r13"
 		"wide"			"130"
@@ -1478,12 +1478,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
-		"xpos"			"85"
-		"ypos"			"270"
+		"xpos"			"-5"
+		"ypos"			"-2"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
+		
+		"pin_to_sibling"			"BGPanel3"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 		
 		"SubButton"
 		{
