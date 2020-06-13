@@ -5,6 +5,7 @@
 	HudItemEffectMeter
 	{
 		"ypos"			"c120"
+		"ypos_minmode"	"c115"
 		"wide"			"200"
 		"tall"			"500"
 	}
@@ -68,6 +69,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"xpos"			"55"
+		"xpos_minmode"	"40"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"55"
