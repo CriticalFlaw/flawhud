@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunPanel"
 		"wide"			"125"
-		"tall"			"18"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -24,19 +24,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"18"
+		"wide"			"f0"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"30 30 30 255"
+		"fillcolor"		"HudBlack"
 
 		"player-dead" {
 			//"visible"	"0"
 		}
 		"team-red"  {
-			"xpos"			"105"
+			"xpos"		"0"
 		}
 	}
 
@@ -51,8 +51,8 @@
 		"tall" 			"20"
 		"autoResize" 	"0"
 		"pinCorner"		"0"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"visible" 		"0"
+		"enabled" 		"0"
 		"proportionaltoparent"	"1"
 		"image"			"../HUD/color_panel_brown"
 
@@ -80,15 +80,15 @@
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"14"
-		"tall"			"14"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/uber"
 		
 		"team-red" {
-			"xpos"		"109"
+			"xpos"		"108"
 			"drawcolor"	"188 66 66 255"
 		}
 		"team-blu" {
@@ -151,11 +151,11 @@
     {
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
-        "xpos"			"98"
-        "ypos"			"2"
+        "xpos"			"101"
+        "ypos"			"0"
         "zpos"			"2"
-        "wide"			"28"
-        "tall"			"14"
+        "wide"			"24"
+		"tall"			"18"
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
@@ -164,7 +164,7 @@
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"FontBold14"
+        "font"			"FontBold12"
         "fgcolor"		"White"
 
         "medigun-vaccinator" {
@@ -175,8 +175,7 @@
             "visible"	"0"
         }
 		"team-red" {
-			"xpos"		"4"
-			"textAlignment"	"west"
+			"xpos"		"1"
 		}
     }
 	"MedigunPanelChargeLabelShadow"
@@ -186,17 +185,17 @@
 		"xpos"			"-1"
         "ypos"			"-1"
         "zpos"			"2"
-        "wide"			"28"
-        "tall"			"14"
+        "wide"			"24"
+		"tall"			"18"
         "autoResize"	"1"
-        "visible"		"1"
-        "enabled"		"1"
+        "visible"		"0"
+        "enabled"		"0"
         "labelText"		"%charge%"
         "tabPosition"	"0"
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"FontBold14"
+        "font"			"FontBold12"
 		"fgcolor_override"	"ShadowBlack"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -216,11 +215,11 @@
         "ControlName"		"ImageProgressBar"
         "fieldName"			"MedigunPanelChargeMeter"
         "font"				"Default"
-        "xpos"				"20"
+        "xpos"				"21"
         "ypos"				"0"
         "zpos"				"2"
-        "wide"				"105"
-        "tall"				"16"
+		"wide"				"80"
+		"tall"				"18"
         "autoResize"		"0"
         "pinCorner"			"0"
         "visible"			"1"
@@ -241,7 +240,7 @@
             "visible"       "0"
         }
 		"team-red" {
-			"xpos"				"0"
+			"xpos"				"26"
 			"direction"			"west"
 			"bgcolor_override"	"89 24 23 255"
 			"fgcolor_override"	"157 49 47 255"
@@ -252,11 +251,11 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabel"
-		"xpos"			"24"
+		"xpos"			"21"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"200"
-		"tall"			"f0"
+		"wide"			"80"
+		"tall"			"18"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"1"
@@ -265,7 +264,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FontBold10Outline"
+		"textinsetx"	"6"
+		"font"			"FontRegular10"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
 
@@ -289,7 +289,8 @@
 			"visible"	"0"
 		}
 		"team-red" {
-			"xpos"		"53"
+			"xpos"		"26"
+			"textAlignment"	"east"
 		}
 	}
 	
@@ -300,17 +301,18 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"3"
-		"wide"			"200"
-		"tall"			"f0"
+		"wide"			"80"
+		"tall"			"18"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FontBold10Outline"
+		"textinsetx"	"6"
+		"font"			"FontRegular10"
 		"fgcolor_override"		"ShadowBlack"
 		"proportionaltoparent"	"1"
 		

@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentNotReadyButton"
-		"xpos"			"52"
+		"xpos"			"85"
 		"ypos"			"14"
 		"wide"			"41"
 		"tall"			"14"
@@ -87,7 +87,7 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"FontBold10"
-		"fgcolor"		"Red"
+		"fgcolor"		"ColorRed"
 		
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"			"93"
+		"xpos"			"45"
 		"ypos"			"14"
 		"wide"			"41"
 		"tall"			"14"
@@ -117,7 +117,7 @@
 		"command"		"teamready" 
 		"default"		"1"
 		"font"			"FontBold10"
-		"fgcolor"		"FooterBGBlack"
+		"fgcolor"		"ColorGreen"
 		
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"

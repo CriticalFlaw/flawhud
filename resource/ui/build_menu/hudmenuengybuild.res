@@ -35,7 +35,7 @@
 		"fieldName"			"TitleLabel"
 		"font"				"FontBold22"
 		"xpos"				"0"
-		"ypos"				"3"
+		"ypos"				"1"
 		"zpos"				"2"
 		"wide"				"250"
 		"tall"				"22"

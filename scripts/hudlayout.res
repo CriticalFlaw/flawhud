@@ -76,8 +76,8 @@
 		"zpos"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"		// Change to "1" to enable
-		"enabled"			"0"		// Change to "1" to enable
+		"visible"			"0"
+		"enabled"			"0"
 		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
 	}
@@ -88,7 +88,7 @@
 		"fieldName"			"HudPlayerStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-15"
+		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
@@ -99,10 +99,10 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c93"
-		"ypos"				"c63"
-		"wide"				"150"
-		"tall"				"125"
+		"xpos"				"c80"
+		"ypos"				"c93"
+		"wide"				"110"
+		"tall"				"43"
 	}
 	
 	HudObjectiveStatus
@@ -492,7 +492,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r635"
-		"ypos"	 				"25"
+		"ypos"	 				"20"
 		"wide"	 				"628"
 		"tall"	 				"468"
 		"MaxDeathNotices" 		"4"
@@ -1102,10 +1102,10 @@
 		"fieldName"			"HudStopWatch"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-80"
-		"ypos"				"28"
+		"xpos"				"c-40"
+		"ypos"				"30"
 		"zpos"				"0"
-		"wide"				"80"
+		"wide"				"82"
 		"tall"				"15"
 	}
 	

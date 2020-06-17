@@ -91,7 +91,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"FontRegular11"
+		"font"				"FontBold10"
 		"fgcolor"			"White"
 		"xpos"				"24"
 		"ypos"				"58"
