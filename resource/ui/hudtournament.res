@@ -770,7 +770,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"FontBold12"
+		"font"			"FontRegular10"
 		"xpos"			"c-125"
 		"ypos"			"30"
 		"wide"			"250"
@@ -800,9 +800,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"FontBold12"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"font"			"FontRegular10"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"250"
 		"tall"			"12"
 		"zpos"			"1"

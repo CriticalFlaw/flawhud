@@ -455,8 +455,8 @@
 		"labeltext"		"?"
 		"font"			"FontBold8"
 		"textAlignment"	"center"
-		"sound_depressed"	"ui/menu.mp3"
-		"sound_released"	"ui/menu.mp3"
+		"sound_depressed"	""
+		"sound_released"	"ui/secret.wav"
 		"paintbackground"	"0"
 	}
 
