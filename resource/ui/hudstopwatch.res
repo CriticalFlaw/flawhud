@@ -81,10 +81,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"FontRegular12"
+		"font"			"FontRegular14"
 		"labelText"		"%pointslabel%"
 		"textAlignment"	"west"
-		"xpos"			"22"
+		"xpos"			"19"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"80"

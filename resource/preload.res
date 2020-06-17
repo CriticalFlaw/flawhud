@@ -510,6 +510,16 @@
 		"image"			"../hud/cart_track_blue_opaque"
 	}
 	
+	"carttrackneutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"carttrackneutral"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_track_neutral"
+	}
+	
 	"carttrackneutralo"
 	{
 		"ControlName"	"ImagePanel"
