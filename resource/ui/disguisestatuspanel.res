@@ -166,7 +166,7 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"		"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"

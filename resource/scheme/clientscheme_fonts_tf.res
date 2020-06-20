@@ -2752,8 +2752,8 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
+			"font"	"resource/TF2.ttf"
+			"name"	"TF2"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2765,8 +2765,8 @@ Scheme
 		}
 		"4" 
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font"	"resource/TF2Secondary.ttf"
+			"name"	"TF2 Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2778,8 +2778,8 @@ Scheme
 		}
 		"5" 
 		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
+			"font"	"resource/TF2Professor.ttf"
+			"name"	"TF2 Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -2791,8 +2791,8 @@ Scheme
 		}	
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"font"	"resource/TF2Build.ttf"
+			"name"	"TF2 Build"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2805,6 +2805,6 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}		
+		}
 	}
 }
