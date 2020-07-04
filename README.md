@@ -6,9 +6,9 @@ Custom Heads-Up Display (HUD) for Team Fortress 2. [Click here for screenshots](
 Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf\custom`
 
 #### Custom Crosshairs
-KnucklesCrosses are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `KnucklesCrosses` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the KnucklesCrosses.png image file (located in the `scripts` folder).
+Custom crosshairs are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `CustomCrosshair` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the TF2Crosshairs.png image file (located in the `scripts` folder).
 
-#### Font Styles
+#### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the `_tf` suffix as instructed in the file.
 
 #### Transparent Viewmodels
@@ -21,6 +21,7 @@ Features available in the latest [CastingEssentials](https://github.com/PazerOP/
 * **HUD Development Help**: N0kk and Wiethoofd
 * **Playtesting**: Yotts, Cat, SleepingBear and Strife
 * **Main Menu Background**: sevin
+* **Crosshair Pack**: Hypnootize
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 
