@@ -10,8 +10,8 @@
 	CustomCrosshair
 	{
 		"visible"			"0"
-		"enabled"			"1"
-		"labelText"			"<"
+		"enabled"			"0"
+		"labelText"			"i"
 		"controlName"		"CExLabel"
 		"fieldName"			"CustomCrosshair"
 		"zpos"				"2"
