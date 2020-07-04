@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
-		"xpos"				"c-75"
+		"xpos"				"c-74"
 		"ypos"				"c110"
 		"xpos_minmode"		"c-40"
 		"ypos_minmode"		"c115"

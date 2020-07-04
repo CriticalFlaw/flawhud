@@ -369,7 +369,7 @@
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"r158"
 		"ypos"			"1"
-		"wide"			"150"
+		"wide"			"200"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"

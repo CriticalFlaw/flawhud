@@ -109,21 +109,15 @@ event HudMedicChargedStop
 }
 //==================================================================================
 
-event DamagedPlayer 
+event DamagedPlayer
 {
-	StopEvent HitMarker 				0.0
-	RunEvent HitMarker 					0.01
-}
-
-event HitMarker
-{
-	Animate KnucklesCrosses	 			FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
-	Animate KnucklesCrosses	 			FgColor 	"Crosshair" 		Linear 0.15 0.0
+	Animate	CustomCrosshair				FgColor		"CrosshairDamage"	Linear 0.0	0.00001
+	Animate	CustomCrosshair				FgColor		"Crosshair"			Linear 0.10	0.10001
 	
-	Animate	Crosshair					Alpha		"0"					Linear 0.0 0.0
-	Animate	Crosshair					Alpha		"255"				Linear 0.15 0.0
-	Animate	CrosshairPulse				Alpha		"255"				Linear 0.0 0.0
-	Animate	CrosshairPulse				Alpha		"0"					Linear 0.15 0.0
+	Animate	Crosshair					Alpha		"0"					Linear 0.0 	0.0
+	Animate	Crosshair					Alpha		"255"				Linear 0.15	0.0
+	Animate	CrosshairPulse				Alpha		"255"				Linear 0.0	0.0
+	Animate	CrosshairPulse				Alpha		"0"					Linear 0.15	0.0
 }
 //==================================================================================
 

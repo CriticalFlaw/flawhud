@@ -1,27 +1,27 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// KNUCKLESCROSSES
+	// HUD CROSSHAIR
 	//--------------------------------------------------------------
 	// Set visible and enabled to 1 to use.
 	// Change xpos and ypos values if not perfectly centered.
-	// Change labelText to the corresponding crosshair in KnucklesCrosses.png.
+	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
 	//--------------------------------------------------------------
-	KnucklesCrosses
+	CustomCrosshair
 	{
 		"visible"			"0"
-		"enabled"			"0"
-		"labelText"			"i"
+		"enabled"			"1"
+		"labelText"			"<"
 		"controlName"		"CExLabel"
-		"fieldName"	 		"KnucklesCrosses"
-		"zpos"				"0"
-		"xpos"				"c-25"
-		"ypos"				"c-24"
-		"wide" 		 		"50"
-		"tall" 		 		"50"
-		"font"				"size:26,outline:off"
+		"fieldName"			"CustomCrosshair"
+		"zpos"				"2"
+		"xpos"				"c-50"
+		"ypos"				"c-49"
+		"wide"				"100"
+		"tall"				"100"
+		"font"				"Size:18 | Outline:OFF"
 		"textAlignment"		"center"
-		"fgcolor" 			"Crosshair"
+		"fgcolor"			"Crosshair"
 	}
 	//--------------------------------------------------------------
 	// ROTATING CROSSHAIR
@@ -311,7 +311,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"355"
+		"ypos"					"365"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"40"
@@ -323,7 +323,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"360"
+		"ypos"					"350"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"35"
