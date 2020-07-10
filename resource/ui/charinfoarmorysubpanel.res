@@ -186,7 +186,7 @@
 		"paintborder"		"0"
 		"model_hide"		"1"
 		"text_center"		"1"
-		"resize_to_text" 	"1"
+		"resize_to_text" 	"0"
 		
 		"itemmodelpanel"
 		{
