@@ -1,4 +1,4 @@
-![alt text](https://i.imgur.com/2YFHa7X.png)
+![alt text](https://i.imgur.com/u7nNNN9.png)
 
 Custom Heads-Up Display (HUD) for Team Fortress 2. [Click here for screenshots](https://imgur.com/a/0whDjXr).
 
