@@ -989,7 +989,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-99"
-		"ypos"				"r110"
+		"ypos"				"c155"
 		"zpos"				"1"
 		"wide"				"198"
 		"tall"				"88"
