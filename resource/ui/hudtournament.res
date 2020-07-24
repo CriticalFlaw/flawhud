@@ -5,7 +5,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HudTournament"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"25"
 		"wide"					"f0"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
@@ -40,7 +40,7 @@
 		if_competitive
 		{
 			"xpos"						"0"
-			"ypos"						"0"
+			"ypos"						"25"
 			"wide"						"f0"
 			"tall"						"480"
 
@@ -52,7 +52,7 @@
 		if_readymode
 		{
 			"xpos"						"0"
-			"ypos"						"0"
+			"ypos"						"25"
 			"wide"						"f0"
 			"tall"						"480"
 
@@ -521,7 +521,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"FontRegular8"
+		"font"			"FontRegular10"
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"1"
@@ -662,7 +662,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"FontRegular8"
+		"font"			"FontRegular10"
 		"xpos"			"-5"
 		"ypos"			"-3"
 		"zpos"			"1"

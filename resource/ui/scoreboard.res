@@ -364,7 +364,7 @@
 		"tall"				"11"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -414,7 +414,7 @@
 		"tall"				"11"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"RedBG"

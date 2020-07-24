@@ -87,7 +87,7 @@
 
 				if_mini
 				{
-					"origin_x"		"55"
+					"origin_x"		"70"
 				}
 
 				"animation"
@@ -338,14 +338,10 @@
 					if_mini
 					{
 						"xpos"			"50"
-						"ypos"			"rs1"
 						"zpos"			"0"
 						"wide"			"100"
 						"tall"			"20"
-						"font"			"ItemFontAttribSmall"
-						"fgcolor_override"	"White"
 						"textAlignment"	"south-west"
-						"visible"		"1"
 					}
 				}
 
@@ -365,11 +361,6 @@
 					"textAlignment"	"east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
-
-					if_mini
-					{
-						"visible"		"1"
-					}
 				}
 
 				"ProgressBarsContainer"
