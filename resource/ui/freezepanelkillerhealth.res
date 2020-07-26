@@ -40,10 +40,10 @@
 		"enabled"		"0"
 	}
 	
-	"PlayerStatusHealthValueFreezePanel"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezePanel"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"5"
@@ -56,10 +56,10 @@
 		"labeltext"		"%Health%"
 	}
 	
-	"PlayerStatusHealthValueFreezePanelShadow"
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezePanelShadow"
+		"fieldName"		"GuiPlayerHealthShadow"
 		"xpos"			"1"
 		"ypos"			"6"
 		"zpos"			"5"
@@ -71,23 +71,5 @@
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
-	}
-	
-	"FreezeHealthBG"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"FreezeHealthBG"
-		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"1"
-		"wide"			"44"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"		"0"
-        "textinsety" 				"99"
 	}
 }

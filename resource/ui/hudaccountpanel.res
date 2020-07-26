@@ -5,8 +5,8 @@
 		"delta_item_x"			"30"
 		"delta_item_start_y"	"13"
 		"delta_item_end_y"		"34"
-		"PositiveColor"			"Overheal"
-		"NegativeColor"			"LowAmmo"
+		"PositiveColor"			"PositiveColor"
+		"NegativeColor"			"NegativeColor"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"FontBold22"
 	}
