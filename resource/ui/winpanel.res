@@ -344,7 +344,7 @@
 	}
 	"WinPanelBG2"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"WinPanelBG2"
 		"xpos"			"0"
 		"ypos"			"38"
@@ -353,7 +353,9 @@
 		"tall"			"123"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"paintborder"	"0"
+		"bgcolor_override"		"HudBlack"
+		"PaintBackgroundType"	"2"
 	}
 	"WinningTeamLabel"
 	{	

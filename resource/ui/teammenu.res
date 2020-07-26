@@ -215,7 +215,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"#TF_Spectators"
+		"labelText"		"#TF_Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

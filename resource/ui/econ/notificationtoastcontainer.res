@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"DarkGrey"
-		"border"			"WhiteBorder"
+		"bgcolor_override"	"HudBlack"
+		"border"			"NoBorder"
 	}
 	
 	"HelpTextLabel"
@@ -32,7 +32,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
+		"font"			"FontRegular10"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

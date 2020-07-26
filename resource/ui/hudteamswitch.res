@@ -28,7 +28,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"SwitchLabel"
-		"font"				"DefaultSmall"
+		"font"				"FontRegular12"
 		"xpos"				"31"
 		"ypos"				"3"
 		"zpos"				"1"
@@ -48,7 +48,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"BalanceLabel"
-		"font"				"DefaultVerySmall"
+		"font"				"FontRegular12"
 		"xpos"				"31"
 		"ypos"				"13"
 		"zpos"				"1"

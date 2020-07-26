@@ -11,7 +11,7 @@
 	{
 		"visible"			"0"
 		"enabled"			"0"
-		"labelText"			"i"
+		"labelText"			"<"
 		"controlName"		"CExLabel"
 		"fieldName"			"CustomCrosshair"
 		"zpos"				"2"
@@ -323,7 +323,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"350"
+		"ypos"					"355"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"35"

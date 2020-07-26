@@ -36,10 +36,10 @@
 		"tall"			"0"
 	}
 	
-	"PlayerStatusHealthValue"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -53,10 +53,10 @@
 		"fgcolor"		"White"
 	}
 	
-	"PlayerStatusHealthValueShadow"
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
+		"fieldName"		"GuiPlayerHealthShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"
@@ -69,7 +69,7 @@
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
 		
-		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_to_sibling"		"GuiPlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
@@ -81,23 +81,5 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
-	}
-	
-	"TargetHealthBG"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TargetHealthBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"44"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
 	}
 }

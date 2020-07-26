@@ -243,7 +243,8 @@
 
 			if_mini
 			{
-				"visible"	"0"
+				"xpos"			"50"
+				"ypos"			"r35"
 			}
 		}
 		
@@ -337,7 +338,7 @@
 
 					if_mini
 					{
-						"xpos"			"50"
+						"xpos"			"40"
 						"zpos"			"0"
 						"wide"			"100"
 						"tall"			"20"

@@ -1252,7 +1252,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular12"
-		"labelText"		"FlawHUD v2020.0704"
+		"labelText"		"FlawHUD v2020.0726"
 		"xpos"			"r130"
 		"ypos"			"r13"
 		"wide"			"130"

@@ -27,11 +27,11 @@ Scheme
 		//---------------------------------------------
 		// Gameplay
 		"Overheal"					"0 170 127 255"
-		"OverhealPulse"				"0 170 127 200"
+		"OverhealPulse"				"0 220 127 255"
 		"LowHealth"					"190 20 20 255"
-		"LowHealthPulse"			"190 20 20 200"
+		"LowHealthPulse"			"240 50 35 200"
 		"LowAmmo"					"190 20 20 255"
-		"LowAmmoPulse"				"190 20 20 200"
+		"LowAmmoPulse"				"240 20 20 200"
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
