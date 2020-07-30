@@ -6,7 +6,7 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"fgcolor"			"ColorGreen"

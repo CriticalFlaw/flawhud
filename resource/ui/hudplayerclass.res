@@ -46,21 +46,21 @@
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"
-	}		
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"
 	}
-	
+
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -77,7 +77,7 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-		
+
 		"model"
 		{
 			"force_pos"		"1"
@@ -98,7 +98,7 @@
 		{
 			"undefined"
 			{
-				
+
 			}
 			"Scout"
 			{

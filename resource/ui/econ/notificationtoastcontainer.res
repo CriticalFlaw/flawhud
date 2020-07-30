@@ -14,9 +14,9 @@
 		"bgcolor_override"	"HudBlack"
 		"border"			"NoBorder"
 	}
-	
+
 	"HelpTextLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HelpTextLabel"
 		"fgcolor"		"RedSolid"

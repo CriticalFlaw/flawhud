@@ -7,7 +7,7 @@
 			"zpos"			"5"
 		}
 	}
-	
+
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -19,7 +19,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_match
 		{
 			"proportionaltoparent"	"1"
@@ -33,7 +33,7 @@
 			"delta_lifetime"		"2"
 			"delta_item_font"		"FontRegular14"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -49,7 +49,7 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
-			
+
 			if_match
 			{
 				"proportionaltoparent"	"1"
@@ -73,7 +73,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_match
 		{
 			"proportionaltoparent"	"1"
@@ -87,7 +87,7 @@
 			"delta_lifetime"		"2"
 			"delta_item_font"		"FontRegular14"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -103,7 +103,7 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
-			
+
 			if_match
 			{
 				"proportionaltoparent"	"1"
@@ -115,7 +115,7 @@
 			}
 		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"EditablePanel"

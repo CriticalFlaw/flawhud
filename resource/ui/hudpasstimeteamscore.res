@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 	}
-	
+
 	"LeftSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,7 +54,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 	}
-	
+
 	"RightSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -81,9 +81,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -100,7 +100,7 @@
 		"font"			"FontBold27"
 		"fgcolor"		"White"
 	}
-	
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -116,12 +116,12 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold27"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -138,7 +138,7 @@
 		"font"			"FontBold27"
 		"fgcolor"		"White"
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -154,7 +154,7 @@
 		"labelText"		"%redscore%"
 		"font"			"FontBold27"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -189,8 +189,8 @@
 			"brighttext"	"0"
 			"font"			"FontRegular12"
 			"fgcolor"		"White"
-		}	
-				
+		}
+
 		"PlayingToBG"
 		{
 			"ControlName"	"ImagePanel"

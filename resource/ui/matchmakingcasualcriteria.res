@@ -30,7 +30,7 @@
 			"mouseinputenabled"	"0"
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
@@ -76,7 +76,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -120,7 +120,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -244,14 +244,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"

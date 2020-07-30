@@ -13,7 +13,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ClassIcons"
 		{
 			"1"
@@ -25,7 +25,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons"
 		{
 			"1"
@@ -37,7 +37,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"121"

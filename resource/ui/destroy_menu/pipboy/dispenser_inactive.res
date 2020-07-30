@@ -7,7 +7,7 @@
 		"labelText"			"#TF_Object_Dispenser"
 		"fgcolor_override"	"NeonRed"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor_override"	"NeonRed"

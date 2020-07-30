@@ -62,7 +62,7 @@
 		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height"	"0"
 
-		"player-alive" 
+		"player-alive"
 		{
 			"team-red"  {
 				"image"		"../HUD/color_panel_red"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/uber"
-		
+
 		"team-red" {
 			"xpos"		"108"
 			"drawcolor"	"188 66 66 255"
@@ -111,7 +111,7 @@
 				"tall"		"17"
 				"drawcolor_override"	""
 
-				"team-red" 
+				"team-red"
 				{
 					"resist-bullet" {
 						"image" "../HUD/defense_buff_bullet_red"
@@ -293,7 +293,7 @@
 			"textAlignment"	"east"
 		}
 	}
-	
+
 	"MedigunPanelNameLabelShadow"
 	{
 		"ControlName"	"VariableLabel"
@@ -315,7 +315,7 @@
 		"font"			"FontRegular10"
 		"fgcolor_override"		"ShadowBlack"
 		"proportionaltoparent"	"1"
-		
+
 		"pin_to_sibling" 		"MedigunPanelNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"

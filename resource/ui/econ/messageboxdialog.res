@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"DarkerGrey"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -36,7 +36,7 @@
 			"bgcolor_override"		"DarkerGrey"
     	}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -54,7 +54,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -74,7 +74,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "White"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
@@ -104,5 +104,5 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}			
+	}
 }

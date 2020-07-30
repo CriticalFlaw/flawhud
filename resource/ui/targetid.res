@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
-	
+
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -30,13 +30,13 @@
 		"teambg_1"			"../hud/color_panel_brown"
 		"teambg_2"			"../hud/color_panel_red"
 		"teambg_3"			"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ImagePanel"
@@ -49,13 +49,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"Blue"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ImagePanel"
@@ -68,13 +68,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"Red"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-	
+
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"
@@ -90,7 +90,7 @@
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 	}
-	
+
 	"TargetNameLabelShadow"
 	{
 		"ControlName"		"Label"
@@ -106,12 +106,12 @@
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor_override"	"ShadowBlack"
-		
+
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"TargetDataLabel"
 	{
 		"ControlName"		"Label"
@@ -127,7 +127,7 @@
 		"labelText"			"%targetdata%"
 		"textAlignment"		"west"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -145,7 +145,7 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"
 	}
-	
+
 	"AmmoIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -160,7 +160,7 @@
 		"image"				"../hud/leaderboard_class_heavy"
 		"scaleImage"		"1"
 	}
-	
+
 	"KillStreakAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -186,12 +186,12 @@
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_streak"
 		"scaleImage"		"1"
-		
+
 		"pin_to_sibling"		"KillStreakAnchor"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -203,7 +203,7 @@
 		"tall"				"36"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -219,7 +219,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -252,7 +252,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"FontRegular10"
@@ -271,7 +271,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -284,7 +284,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"HudTimerProgressInActive"
 	}
 }

@@ -8,7 +8,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -17,7 +17,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -35,7 +35,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 		"font"			"FontBold20"
 		"fgcolor"		"White"
 	}
-	
+
 	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -68,12 +68,12 @@
 		"textAlignment"	"center"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"GuiPlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

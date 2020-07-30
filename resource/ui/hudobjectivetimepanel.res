@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
-		
+
 		if_match {
 			"visible"		"0"
 		}
@@ -24,7 +24,7 @@
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
 		"ypos"				"16"
-		"zpos"				"4"	
+		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"0"
@@ -35,12 +35,12 @@
 		"color_inactive"	"TimerProgress.InActive"
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
-		
+
 		if_match {
 			"visible"		"0"
 		}
 	}
-	
+
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -58,7 +58,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular8"
-		
+
 		if_match
 		{
 			"xpos"			"25"
@@ -71,7 +71,7 @@
 		"fieldName"			"WaitingForPlayersBG"
 		"xpos"				"9999"
 	}
-	
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -89,7 +89,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular8"
-		
+
 		if_match
 		{
 			"xpos"			"25"
@@ -102,7 +102,7 @@
 		"fieldName"			"OvertimeBG"
 		"xpos"				"9999"
 	}
-	
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -120,7 +120,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular8"
-		
+
 		if_match
 		{
 			"xpos"			"25"
@@ -133,7 +133,7 @@
 		"fieldName"			"SuddenDeathBG"
 		"xpos"				"9999"
 	}
-	
+
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -152,7 +152,7 @@
 		"wrap"				"0"
 		"font"				"FontRegular8"
 		"fgcolor"			"White"
-		
+
 		if_match
 		{
 			"xpos"			"25"
@@ -165,7 +165,7 @@
 		"fieldName"			"SetupBG"
 		"xpos"				"9999"
 	}
-	
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -183,19 +183,19 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular10"
-		
+
 		if_match
 		{
 			"xpos"			"25"
 			"ypos"			"20"
 		}
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"

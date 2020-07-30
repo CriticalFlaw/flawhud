@@ -13,13 +13,13 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
-		
+
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-	
+
 	"WaveCompleteContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -33,7 +33,7 @@
 		"border"			"DarkRedTeamBorder"
 		"PaintBackgroundType" 	"0"
 		"bgcolor_override"		"Red"
-		
+
 		"WaveCompleteLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -50,7 +50,7 @@
 			"fgcolor"			"White"
 		}
 	}
-	
+
 	"CreditContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -61,7 +61,7 @@
 		"tall"				"400"
 		"autoResize"		"1"
 		"visible"			"1"
-		
+
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -75,7 +75,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-		
+
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -89,7 +89,7 @@
 			"tall"				"20"
 			"fgcolor"			"CreditsGreen"
 		}
-		
+
 		"CreditMissedTextLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -103,7 +103,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-		
+
 		"CreditMissedCountLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -117,7 +117,7 @@
 			"tall"				"20"
 			"fgcolor"			"RedSolid"
 		}
-		
+
 		"CreditBonusTextLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -131,7 +131,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-		
+
 		"CreditBonusCountLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -146,7 +146,7 @@
 			"fgcolor"			"CreditsGreen"
 		}
 	}
-	
+
 	"RatingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -157,7 +157,7 @@
 		"tall"				"400"
 		"autoResize"		"1"
 		"visible"			"1"
-		
+
 		"RatingLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -171,7 +171,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-		
+
 		"RatingText"
 		{
 			"ControlName"		"CExLabel"
@@ -186,7 +186,7 @@
 			"fgcolor"			"White"
 		}
 	}
-	
+
 	"RespecBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -200,13 +200,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../HUD/tournament_panel_brown"
-		
+
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-	
+
 	"RespecContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -217,7 +217,7 @@
 		"tall"				"25"
 		"visible"			"1"
 		"PaintBackgroundType"	"0"
-		
+
 		"RespecTextLabelWin"
 		{
 			"ControlName"		"CExLabel"
@@ -231,7 +231,7 @@
 			"tall"				"20"
 			"fgcolor"			"White"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"		"CExLabel"

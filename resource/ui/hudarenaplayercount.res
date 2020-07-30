@@ -10,7 +10,7 @@
 		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
-		
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -23,7 +23,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Blue"
-			
+
 			"background2"
 			{
 				"ControlName"	"EditablePanel"
@@ -39,7 +39,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -57,7 +57,7 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
 			"fgcolor"		"White"
-			
+
 			"pin_to_sibling"		"background"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -79,12 +79,12 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
 			"fgcolor"		"ShadowBlack"
-			
+
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"
@@ -100,7 +100,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,7 +111,7 @@
 		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
-		
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -124,7 +124,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"Red"
-			
+
 			"background2"
 			{
 				"ControlName"	"EditablePanel"
@@ -140,7 +140,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -158,7 +158,7 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"White"
-			
+
 			"pin_to_sibling"		"background"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -180,12 +180,12 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"ShadowBlack"
-			
+
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"

@@ -96,7 +96,7 @@
 			"textAlignment"		"center"
 			"labelText"			"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
 			"fgcolor_override"	"White"
-		}	
+		}
 	}
 
 	"PassLockIndicator"

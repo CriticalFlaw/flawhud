@@ -28,7 +28,7 @@
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -87,7 +87,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -102,7 +102,7 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -113,7 +113,7 @@
 		"tabheight"		"20"
 		"yoffset"		"14"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -128,7 +128,7 @@
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"6"
@@ -144,7 +144,7 @@
 			"selectedBgColor_override"	"DarkGrey"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"		"CExButton"
@@ -169,7 +169,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -181,7 +181,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"		"CNotificationsPresentPanel"
@@ -194,7 +194,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -208,7 +208,7 @@
 		"labelText"			""
 		"visible"			"0"
 	}
-	
+
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -224,7 +224,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"		"CExButton"

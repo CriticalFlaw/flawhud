@@ -16,7 +16,7 @@
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-	
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,7 +55,7 @@
 		"defaultbgcolor_override"	"HudBlack"
 		"PaintBackgroundType"		"2"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -70,7 +70,7 @@
 		"image"			""	//"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}
-	
+
 	"PlayerHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -85,12 +85,12 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"FontBold50"
-		
+
 		"pin_to_sibling"		"HealthBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -106,12 +106,12 @@
 		"textAlignment"	"center"
 		"font"			"FontBold50"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"PlayerHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -133,7 +133,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -152,7 +152,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -171,7 +171,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatusGasImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -190,7 +190,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -209,7 +209,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -228,7 +228,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -247,7 +247,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -266,7 +266,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -285,7 +285,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -304,7 +304,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -323,7 +323,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -342,7 +342,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -418,7 +418,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
@@ -437,7 +437,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -456,7 +456,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
@@ -475,7 +475,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"	"ImagePanel"
@@ -494,7 +494,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"	"ImagePanel"
@@ -513,7 +513,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"	"ImagePanel"
@@ -532,7 +532,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"	"ImagePanel"
@@ -551,7 +551,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
@@ -570,7 +570,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
@@ -589,7 +589,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"	"ImagePanel"
@@ -608,7 +608,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
@@ -627,7 +627,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RuneKing"
 	{
 		"ControlName"	"ImagePanel"
@@ -646,7 +646,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"	"ImagePanel"
@@ -684,7 +684,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-	
+
 	"PlayerStatusSlowed"
 	{
 		"ControlName"	"ImagePanel"

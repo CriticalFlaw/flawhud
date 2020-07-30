@@ -1,6 +1,6 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MainBackground"
@@ -15,7 +15,7 @@
 		"icon"				"hud_menu_bg"
 		"iconColor"			"White"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -35,9 +35,9 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"FontBold22"
@@ -55,14 +55,14 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"ToggleLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToggleLabel"
 		"font"				"FontRegular8"
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -100,7 +100,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -112,7 +112,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -124,7 +124,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -136,7 +136,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -148,7 +148,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -160,7 +160,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -172,7 +172,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -184,7 +184,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -196,7 +196,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"		"EditablePanel"
@@ -208,7 +208,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_5"
 	{
 		"ControlName"		"EditablePanel"
@@ -220,7 +220,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"		"EditablePanel"
@@ -232,7 +232,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_6"
 	{
 		"ControlName"		"EditablePanel"
@@ -244,7 +244,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"		"EditablePanel"
@@ -256,7 +256,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_7"
 	{
 		"ControlName"		"EditablePanel"
@@ -268,7 +268,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"		"EditablePanel"
@@ -280,7 +280,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_8"
 	{
 		"ControlName"		"EditablePanel"
@@ -292,7 +292,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"		"EditablePanel"
@@ -304,7 +304,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_9"
 	{
 		"ControlName"		"EditablePanel"
@@ -317,7 +317,7 @@
 		"visible"			"1"
 	}
 
-	"NumberBg1"	
+	"NumberBg1"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
@@ -332,7 +332,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel1"
 	{
 		"ControlName"		"CExLabel"
@@ -369,7 +369,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel2"
 	{
 		"ControlName"		"CExLabel"
@@ -390,7 +390,7 @@
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}
-	
+
 	"NumberBg3"
 	{
 		"ControlName"		"CIconPanel"
@@ -406,7 +406,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel3"
 	{
 		"ControlName"		"CExLabel"

@@ -18,14 +18,14 @@
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
 		"xpos"			"9999"
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"xpos"			"9999"
@@ -88,7 +88,7 @@
 		"default"		"1"
 		"font"			"FontBold10"
 		"fgcolor"		"ColorRed"
-		
+
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"
 		"armedBgColor_override"		"Blank"
@@ -114,11 +114,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"default"		"1"
 		"font"			"FontBold10"
 		"fgcolor"		"ColorGreen"
-		
+
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"
 		"armedBgColor_override"		"Blank"

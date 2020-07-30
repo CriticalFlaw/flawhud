@@ -13,7 +13,7 @@
 		"enabled"			"0"
 		"paintbackground"	"0"
 	}
-	
+
 	"DestroyIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -25,11 +25,11 @@
 		"tall"				"64"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_demolish"
 		"iconColor"			"White"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -49,7 +49,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
@@ -69,12 +69,12 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -94,7 +94,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -106,7 +106,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"active_item_2"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -118,7 +118,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"active_item_3"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -130,7 +130,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"active_item_4"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -142,7 +142,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -154,7 +154,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_2"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -166,7 +166,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_3"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -178,7 +178,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_4"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -190,7 +190,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -202,7 +202,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_2"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -214,7 +214,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_3"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -226,7 +226,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_4"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -238,7 +238,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"EditablePanel"

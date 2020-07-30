@@ -11,13 +11,13 @@
 		"tall"			"52"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_mvm"  {
 			"ypos"		"0"
 		}
 	}
-	
+
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -31,20 +31,20 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
-		
+
 		"if_mvm"
 		{
 			"ypos"		"14"
 			"wide"		"24"
 			"tall"		"24"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -58,12 +58,12 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"

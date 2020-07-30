@@ -6,12 +6,12 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"fgcolor"			"ColorGreen"

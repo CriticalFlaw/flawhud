@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"proportionaltoparent" "1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -35,7 +35,7 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		"attrib_only"		"1"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -54,7 +54,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -67,7 +67,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -89,7 +89,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"MainContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -105,7 +105,7 @@
 		"border"		"PanelBorder"
 		"paintborder"	"1"
 		"bgcolor_override"	"DarkGrey"
-		
+
 		"UpperLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -123,7 +123,7 @@
 			"bgcolor_override"	"255 255 255 252"
 			"proportionaltoparent"	"1"
 		}
-		
+
 		"QuestLogTitle"
 		{
 			"ControlName"	"CExLabel"
@@ -144,7 +144,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor"		"White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -171,13 +171,13 @@
 			"proportionaltoparent" "1"
 			"actionsignallevel" "2"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "Blank"
 			"armedFgColor_override" "Blank"
 			"depressedFgColor_override" "Blank"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 0 0 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -194,7 +194,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"QuestList"
 		{
 			"ControlName"	"CScrollableQuestList"
@@ -214,7 +214,7 @@
 			"not_possible"	"#QuestLog_NoContractsPossible"
 		}
 	}
-	
+
 	"ProgressPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -231,9 +231,9 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"Transparent"
 		"proportionaltoparent"	"1"
-		
+
 		"CoinModelPanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"CoinModelPanel"
 			"xpos"			"0"
@@ -255,14 +255,14 @@
 			"paint_icon_hide"	"0"
 			"hide_modifier_icons"	"1"
 			"text_ypos"		"10"
-			
+
 			"itemmodelpanel"
 			{
 				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
-		
+
 		"BadgeProgressLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -283,7 +283,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
-		
+
 		"BadgeMeterContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -300,7 +300,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"NeutralWhite" // tanlight
 			"proportionaltoparent"	"1"
-			
+
 			"BadgeProgressMeter"
 			{
 				"ControlName"	"ContinuousProgressBar"
@@ -320,7 +320,7 @@
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
 			}
-			
+
 			"BadgeProgressMeterText"
 			{
 				"ControlName"	"CExLabel"
@@ -342,7 +342,7 @@
 				"fgcolor"		"TanLight"
 			}
 		}
-		
+
 		"ContractsCompletedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -363,7 +363,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
-		
+
 		"ContractMeterContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -380,9 +380,9 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"NeutralWhite"
 			"proportionaltoparent"	"1"
-			
+
 			"ContractsCompletedProgressMeter"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"ContractsCompletedProgressMeter"
 				"xpos"			"1"
@@ -400,7 +400,7 @@
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
 			}
-			
+
 			"ContractsCompletedProgressMeterText"
 			{
 				"ControlName"	"CExLabel"

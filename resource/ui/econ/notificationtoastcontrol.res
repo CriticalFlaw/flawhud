@@ -47,7 +47,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"delete"
 		"armedBgColor_override"	"LightRed"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -92,7 +92,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"trigger"
 		"armedBgColor_override"	"CreditsGreen"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -137,7 +137,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"accept"
 		"armedBgColor_override"	"CreditsGreen"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -178,7 +178,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"decline"
 		"armedBgColor_override"	"LightRed"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

@@ -7,7 +7,7 @@
 		"labelText"			"#TF_Object_Sentry"
 		"fgcolor_override"	"NeonRed"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor_override"	"NeonRed"

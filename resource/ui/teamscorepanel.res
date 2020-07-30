@@ -17,7 +17,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-	
+
 	"TeamNameBluBG"
 	{
 		"ControlName"			"ImagePanel"
@@ -31,7 +31,7 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 200"
 	}
-	
+
 	"TeamNameBlu"
 	{
 		"ControlName"			"VariableLabel"
@@ -48,12 +48,12 @@
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
 		"fgcolor_override"		"Blue"
-		
+
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamNameBluShadow"
 	{
 		"ControlName"			"VariableLabel"
@@ -69,12 +69,12 @@
 		"visible"				"1"
 		"fgcolor_override"		"ShadowBlack"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling"		"TeamNameBlu"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamScoreBluBG"
 	{
 		"ControlName"			"ImagePanel"
@@ -85,12 +85,12 @@
 		"wide"					"25"
 		"tall"					"25"
 		"fillcolor"				"Blue"
-		
+
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamScoreBlu"
 	{
 		"ControlName"			"VariableLabel"
@@ -105,12 +105,12 @@
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"White"
-		
+
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"TeamScoreBluShadow"
 	{
 		"ControlName"			"VariableLabel"
@@ -124,12 +124,12 @@
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"TeamScoreBlu"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"CenterAnchor"
 	{
 		"ControlName"			"EditablePanel"
@@ -140,7 +140,7 @@
 		"tall"					"0"
 		"visible"				"1"
 	}
-	
+
 	"TeamScoreRed"
 	{
 		"ControlName"			"VariableLabel"
@@ -155,12 +155,12 @@
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"White"
-		
+
 		"pin_to_sibling"		"TeamScoreRedBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"TeamScoreRedShadow"
 	{
 		"ControlName"			"VariableLabel"
@@ -175,12 +175,12 @@
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"TeamScoreRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamNameRed"
 	{
 		"ControlName"			"VariableLabel"
@@ -197,12 +197,12 @@
 		"visible"				"1"
 		"fgcolor_override"		"Red"
 		"auto_wide_tocontents"	"1"
-		
+
 		"pin_to_sibling"		"TeamScoreRedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"TeamNameRedShadow"
 	{
 		"ControlName"			"VariableLabel"
@@ -218,12 +218,12 @@
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
 		"fgcolor_override"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"TeamNameRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamScoreRedBG"
 	{
 		"ControlName"			"ImagePanel"

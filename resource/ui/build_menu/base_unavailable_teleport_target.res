@@ -19,7 +19,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"ProgressOffWhite"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
@@ -55,7 +55,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -74,7 +74,7 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -90,7 +90,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

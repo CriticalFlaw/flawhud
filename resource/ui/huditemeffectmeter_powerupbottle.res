@@ -12,7 +12,7 @@
 		"MeterFG"			"TanLight"
 		"MeterBG"			"DarkGrey"
 	}
-	
+
 	"PowerupBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -28,7 +28,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -43,7 +43,7 @@
 		"image"				"../hud/ico_powerup_critboost_red"
 		"scaleImage"		"1"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -65,7 +65,7 @@
 		"brighttext"		"0"
 		"font"				"FontRegular10"
 	}
-	
+
 	"CanteenLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -82,7 +82,7 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_Spell_Athletic"
 	}
-	
+
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -101,7 +101,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"

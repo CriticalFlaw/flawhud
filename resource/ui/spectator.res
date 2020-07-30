@@ -11,9 +11,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"specgui" { }
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -40,7 +40,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -72,7 +72,7 @@
 		"textAlignment"	"east"
 		"font"			"FontRegular15"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -88,13 +88,13 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
 		"font"			"FontRegular15"
-		
+
 		if_mvm
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -112,7 +112,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -163,22 +163,22 @@
 		"bgcolor_override"		"255 255 255 0"
 		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"			"10"
 		"text_ypos"			"10"
 		"text_wide"			"170"
 		"text_center"		"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"ItemBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -194,7 +194,7 @@
 			"enabled"		"1"
 			"fillcolor"		"HudBlack"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -202,7 +202,7 @@
 			"useparentbg"	"1"
 			"inventory_image_type"	"1"
 		}
-		
+
 		"ItemLabel"
 		{
 			"ControlName"	"Label"
@@ -223,7 +223,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

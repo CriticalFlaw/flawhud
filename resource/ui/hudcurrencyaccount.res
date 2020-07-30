@@ -16,7 +16,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%currency%"
 	}
-	
+
 	"CurrencyBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -32,7 +32,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"

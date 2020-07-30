@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 0"
 		"infocus_bgcolor_override"		"27 27 27 0"
 		"outoffocus_bgcolor_override"	"27 27 27 0"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"FontRegular24"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"HudOffWhite"
 		"titlebardisabledfgcolor_override"		"HudOffWhite"
 		"titlebarbgcolor_override"				"DarkGrey"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -103,7 +103,7 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"		"EditablePanel"
@@ -114,7 +114,7 @@
 		"tabheight"			"20"
 		"transition_time" 	"0"
 		"yoffset"			"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -129,7 +129,7 @@
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
@@ -145,7 +145,7 @@
 			"selectedBgColor_override"	"DarkGrey"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -170,7 +170,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"

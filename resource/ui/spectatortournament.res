@@ -9,18 +9,18 @@
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"enabled"				"1"
-		
+
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_x"			"-140"
 		"team1_player_base_y"			"160"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"22"
-		
+
 		"team2_player_base_offset_x"	"268"
 		"team2_player_base_y"			"160"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"22"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"			"0"
@@ -29,7 +29,7 @@
 			"zpos"				"1"
 			"paintborder" 		"0"
 			"paintbackground"	"0"
-			
+
 			"classimage"
 			{
 				"ControlName"		"CTFClassImage"
@@ -45,7 +45,7 @@
 				"scaleImage"		"1"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -61,7 +61,7 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"LoadoutIconsActiveItemRed"
 			{
 				"ControlName"		"ImagePanel"
@@ -92,7 +92,7 @@
 				"proportionalToParent"	"1"
 				//fillcolor_override 	"255 0 0 32"
 			}
-			
+
 			"BluePlayerName"
 			{
 				"ControlName"		"CExLabel"
@@ -109,7 +109,7 @@
 				"textAlignment"		"west"
 				"textinsetx"		"6"
 				"proportionaltoparent"	"1"
-				
+
 				"pin_to_sibling" 		"classimagebg"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -130,7 +130,7 @@
 				"textinsetx"		"6"
 				"textAlignment"		"west"
 				"proportionaltoparent"	"1"
-				
+
 				"pin_to_sibling" 		"BluePlayerName"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -151,7 +151,7 @@
 				"textinsetx"		"6"
 				"textAlignment"		"east"
 				"proportionaltoparent"	"1"
-				
+
 				"pin_to_sibling" 		"classimagebg"
 				"pin_corner_to_sibling" "PIN_TOPRIGHT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -172,12 +172,12 @@
 				"textinsetx"		"6"
 				"textAlignment"		"east"
 				"proportionaltoparent"	"1"
-				
+
 				"pin_to_sibling" 		"RedPlayerName"
 				"pin_corner_to_sibling" "PIN_TOPLEFT"
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -193,7 +193,7 @@
 				"HealthDeathWarning"		"1.001"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 			}
-			
+
 			PanelBG
 			{
 				"ControlName"		"ImagePanel"
@@ -206,7 +206,7 @@
 				"fillcolor"			"HudBlack"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"PanelColorBG"
 			{
 				"ControlName"		"ImagePanel"
@@ -218,7 +218,7 @@
 				"tall"				"12"
 				"visible"			"0"
 			}
-			
+
 			"PlayerHealthRed"
 			{
 				"ControlName"		"ContinuousProgressBar"
@@ -247,7 +247,7 @@
 				"bgcolor_override"	"38 55 63 255"
 				"fgcolor_override"	"57 92 120 255"
 			}
-			
+
 			"BlueRespawnTime"
 			{
 				"ControlName"		"CExLabel"
@@ -263,7 +263,7 @@
 				"textAlignment"		"east"
 				"textinsetx"		"8"
 				"visible"			"1"
-				
+
 				"proportionaltoparent"	"1"
 				"pin_to_sibling"		"BluePlayerName"
 				"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -284,33 +284,33 @@
 				"textAlignment"		"east"
 				"textinsetx"		"8"
 				"visible"			"1"
-				
+
 				"proportionaltoparent"	"1"
 				"pin_to_sibling"		"RedPlayerName"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"			"ReadyBG"
 				"visible"			"0"
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"ReadyImage"
 				"visible"			"0"
 			}
-			
+
 			"specindex"
 			{
 				"fieldName"			"specindex"
 				"visible"			"0"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"		"CExLabel"
@@ -328,7 +328,7 @@
 				"textAlignment"		"south"
 				"fgcolor_override"	"0 255 0 205"
 			}
-			
+
 			"RedChargeAmount"
 			{
 				"ControlName"		"CExLabel"
@@ -348,7 +348,7 @@
 			}
 		}
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -396,13 +396,13 @@
 		"font"			"FontRegular12"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		
+
 		if_mvm
 		{
 			"visible"	"1"
 		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -427,7 +427,7 @@
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -440,22 +440,22 @@
 		"visible"				"0"
 		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"			"10"
 		"model_center_x"		"1"
 		"model_wide"			"90"
 		"model_tall"			"60"
-		
+
 		"text_xpos"				"10"
 		"text_ypos"				"10"
 		"text_wide"				"170"
 		"text_center"			"1"
-		
+
 		"max_text_height"		"100"
 		"padding_height"		"10"
 		"resize_to_text"		"1"
 		"text_forcesize"		"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"				"itemmodelpanel"
@@ -463,9 +463,9 @@
 			"useparentbg"			"1"
 			"inventory_image_type"	"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"

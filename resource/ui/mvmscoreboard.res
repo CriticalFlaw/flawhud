@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"verbose"			"1"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -27,7 +27,7 @@
 		"tall"				"20"
 		"fgcolor"			"White"
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -46,7 +46,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"PlayerListBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -61,7 +61,7 @@
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
@@ -78,7 +78,7 @@
 		"linespacing"		"22"
 		"textcolor"			"White"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -88,7 +88,7 @@
 		"wide"				"275"
 		"tall"				"132"
 		"visible"			"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -106,7 +106,7 @@
 			"src_corner_height"		"0"
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		"CreditStatsBG"
 		{
@@ -123,7 +123,7 @@
 			"PaintBackgroundType"	"2"
 
 		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -137,7 +137,7 @@
 			"tall"			"20"
 			"fgcolor"		"White"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -149,7 +149,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -161,7 +161,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -173,7 +173,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"

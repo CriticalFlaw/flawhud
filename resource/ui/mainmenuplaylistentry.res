@@ -11,11 +11,11 @@
 		"tall"			"p1.17"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
-	
+
 	"PlayListDropShadow"
 	{
 		"ControlName"	"EditablePanel"
@@ -43,11 +43,11 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
-	
+
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -96,7 +96,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override"   "White"
 		"depressedFgColor_override" "75 125 255 255"
-	}	
+	}
 
 	"MatchmakingBanPanel"
 	{
@@ -178,12 +178,12 @@
 		"fgcolor_override" "ShadowBlack"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
-		
+
 		"pin_to_sibling"		"DescLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"DisabledIcon"
 	{
 		"ControlName"	"CExImageButton"
@@ -198,19 +198,19 @@
 		"actionsignallevel"	"1"
 		"command"			"comp_access_info"
 		"labeltext"			""
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" "TanDarker"
 		"armedFgColor_override" "NeutralWhite"
 		"depressedFgColor_override" "TanDarker"
 		"defaultBgColor_override" "Transparent"
 		"armedBgColor_override" "Transparent"
 		"depressedBgColor_override" "Transparent"
-		
+
 		"image_drawcolor"	"TextColor"
 		"image_armedcolor"	"NeutralWhite"
 		"SubImage"
@@ -227,6 +227,6 @@
 			"image"			"locked_icon"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}	
+		}
 	}
 }

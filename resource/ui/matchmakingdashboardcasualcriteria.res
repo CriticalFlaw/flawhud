@@ -28,7 +28,7 @@
 		"textAlignment"	"center"
 		"font"			"FontBold20"
 		"fgcolor_override"	"White"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -57,7 +57,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}

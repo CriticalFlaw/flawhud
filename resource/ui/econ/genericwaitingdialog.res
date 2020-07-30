@@ -14,9 +14,9 @@
 		"settitlebarvisible"	"0"
 		"border"				"WhiteBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"FontBold18"
@@ -38,7 +38,7 @@
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
 		"font"			"FontBold12"
@@ -58,7 +58,7 @@
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
 		"font"			"FontBold12"
@@ -76,7 +76,7 @@
 		"fgcolor_override" "255 255 255 255"
 		"bgcolor_override" "Transparent"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"

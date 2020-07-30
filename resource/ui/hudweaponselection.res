@@ -10,7 +10,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -28,7 +28,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -46,7 +46,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -64,7 +64,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -82,7 +82,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -100,7 +100,7 @@
 		"name_only"				"1"
 		"model_ypos"			"5"
 		"standard_text_color"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"

@@ -65,7 +65,7 @@
 		"bgcolor_override"	"DarkGrey"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"Title"
@@ -86,7 +86,7 @@
 		"font"				"FontBold22"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"LabelPreview"
@@ -224,7 +224,7 @@
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
 	}
-	
+
 	"LabelDesc"
 	{
 		"ControlName"		"Label"
@@ -289,7 +289,7 @@
 		"wrap"				"0"
 		"font"				"FontBold12"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"		"Label"
@@ -345,7 +345,7 @@
 			"tall"			"25"
 			"scaleImage"	"1"
 			"image"			"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -642,7 +642,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"TextColor"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{

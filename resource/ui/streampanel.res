@@ -13,7 +13,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"255 255 255 0"
 	}
-	
+
 	"Borders"
 	{
 		"ControlName"	"EditablePanel"
@@ -28,7 +28,7 @@
 		"border"		"NoBorder"
 		"mouseinputenabled" "0"
 	}
-	
+
 	"LoadingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -40,7 +40,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		
+
 		"SpinnerImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -56,7 +56,7 @@
 			"image"			"animated/tf2_logo_hourglass"
 			"proportionaltoparent"	"1"
 		}
-		
+
 		"DescriptionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -76,7 +76,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"PreviewImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -90,7 +90,7 @@
 		"enable"		"1"
 		"scaleImage"	"0"
 	}
-	
+
 	"DisplayNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -128,12 +128,12 @@
 		"enabled"		"1"
 		"fgcolor"		"ShadowBlack"
 		"mouseinputenabled" "0"
-		
+
 		"pin_to_sibling"		"DisplayNameLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -173,12 +173,12 @@
 		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 		"mouseinputenabled" "0"
-		
+
 		"pin_to_sibling"		"TextDescriptionLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"ViewerCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -216,12 +216,12 @@
 		"enabled"		"1"
 		"fgcolor"		"ShadowBlack"
 		"mouseinputenabled" "0"
-		
+
 		"pin_to_sibling"		"ViewerCountLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
@@ -239,13 +239,13 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"command"		"stream"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"border_default"	"0 0 0 235"
 		"border_armed"		"0 0 0 235"
-		
+
 		"defaultBgColor_override"	"0 0 0 235"
 		"armedBgColor_override"		"Transparent"
 		"depressedBgColor_override" "Transparent"

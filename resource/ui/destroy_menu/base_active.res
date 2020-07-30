@@ -19,7 +19,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"ProgressOffWhite"
 	}
-	
+
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,7 +51,7 @@
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
-	
+
 	"DestroyIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -67,7 +67,7 @@
 		"icon"				"ico_demolish"
 		"iconColor"			"255 0 0 255"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -83,7 +83,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

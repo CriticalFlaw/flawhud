@@ -1,5 +1,5 @@
 "Resource/UI/MvMVictoryPanel.res"
-{	
+{
 	"SplashContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -9,7 +9,7 @@
 		"wide"				"300"
 		"tall"				"300"
 		"visible"			"1"
-		
+
 		"SplashBackground"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -24,7 +24,7 @@
 			"enabled"		"1"
 			"fillcolor"		"Red"
 		}
-		
+
 		"SplashLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -39,7 +39,7 @@
 			"tall"			"50"
 			"fgcolor"		"White"
 		}
-		
+
 		"SplashLabelShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -53,7 +53,7 @@
 			"wide"			"300"
 			"tall"			"50"
 			"fgcolor"		"ShadowBlack"
-		
+
 			"pin_to_sibling"		"SplashLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"

@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"GoalLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -32,7 +32,7 @@
 		"font"				"FontBold12"
 		"textAlignment"		"North"
 	}
-	
+
 	"GoalLabelShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -51,12 +51,12 @@
 		"labelText"			"%goal%"
 		"font"				"FontBold12"
 		"textAlignment"		"North"
-		
+
 		"pin_to_sibling"		"GoalLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"MsgLabel"
 	{
 		"ControlName"		"CExRichText"
@@ -76,7 +76,7 @@
 		"textAlignment"		"North"
 		"font"				"FontRegular12"
 	}
-	
+
 	"PressSpacebarToContinue"
 	{
 		"ControlName"		"CExLabel"
@@ -96,7 +96,7 @@
 		"textAlignment"		"North"
 		"font"				"TFFontMedium"
 	}
-	
+
 	"HudTrainingMsgBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -110,7 +110,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"	
+		"tabPosition"		"0"
 		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
 	}

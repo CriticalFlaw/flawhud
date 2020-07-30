@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"DarkerGrey"
-		
+
 		"BackColor"
     	{
     		"ControlName"			"EditablePanel"
@@ -35,7 +35,7 @@
 			"bgcolor_override"		"DarkerGrey"
     	}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -54,7 +54,7 @@
 		"enabled"				"1"
 		"fgcolor_override"		"White"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -74,7 +74,7 @@
 		"centerwrap"			"1"
 		"fgcolor_override"		"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -99,7 +99,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

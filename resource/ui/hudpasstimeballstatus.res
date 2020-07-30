@@ -1,5 +1,5 @@
 "Resource/UI/HudPasstimeBallStatus.res"
-{	
+{
 	"HudPasstimeBallStatus"
 	{
 		"ControlName"		"EditablePanel"
@@ -76,7 +76,7 @@
 	"ProgressLevelBar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLevelBar"	
+		"fieldName"		"ProgressLevelBar"
 		"xpos"			"c-190"
 		"ypos"			"r88"
 		"zpos"			"0"
@@ -105,15 +105,15 @@
 		"xpos"			"c152"
 		"ypos"			"r64"
 		"visible"		"0"
-	}	
+	}
 
 	"GoalBlue0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue0"	
+		"fieldName"		"GoalBlue0"
 		"xpos"			"c-162"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -123,13 +123,13 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue1"	
+		"fieldName"		"GoalBlue1"
 		"xpos"			"c-132"
 		"ypos"			"r72"
 		"zpos"			"1"
@@ -142,13 +142,13 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue2"	
+		"fieldName"		"GoalBlue2"
 		"xpos"			"c-102"
 		"ypos"			"r72"
 		"zpos"			"1"
@@ -161,13 +161,13 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"GoalRed0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalRed0"	
+		"fieldName"		"GoalRed0"
 		"xpos"			"c146"
 		"ypos"			"r72"
 		"zpos"			"1"
@@ -180,7 +180,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalRed1"
@@ -199,9 +199,9 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"GoalRed2"
 	{
 		"ControlName"	"ImagePanel"
@@ -218,7 +218,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"ProgressBallIcon"
@@ -237,8 +237,8 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ball"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 
 	"ProgressSelfPlayerIcon"
 	{
@@ -256,7 +256,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"scaleImage"	"1"
-	}	
+	}
 
 	"ProgressBallCarrierName"
 	{
@@ -278,8 +278,8 @@
 		pin_corner_to_sibling	"4"
 		pin_to_sibling_corner	"6"
 	}
-	
-	"BallPowerCluster" 
+
+	"BallPowerCluster"
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "BallPowerCluster"
@@ -295,7 +295,7 @@
 		"BallPowerMeterFrame"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BallPowerMeterFrame"	
+			"fieldName"		"BallPowerMeterFrame"
 			"xpos"			"c-100"
 			"ypos"			"0"
 			"zpos"			"5"
@@ -307,7 +307,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"image"			"../passtime/hud/passtime_powerball_meter_frame"
-			"scaleImage"	"1"					
+			"scaleImage"	"1"
 		}
 
 		"BallPowerMeterFinalSectionContainer"
@@ -325,7 +325,7 @@
 			"BallPowerMeterFinalSection"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFinalSection"	
+				"fieldName"		"BallPowerMeterFinalSection"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -337,10 +337,10 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
-		
+
 		"BallPowerMeterFillContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -356,7 +356,7 @@
 			"BallPowerMeterFill"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFill"	
+				"fieldName"		"BallPowerMeterFill"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -368,11 +368,11 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
 	}
-	
+
 	"playericon0"
 	{
 		"ControlName"	"ImagePanel"

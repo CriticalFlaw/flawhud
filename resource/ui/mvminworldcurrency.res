@@ -15,7 +15,7 @@
 		"enabled"			"1"
 		"fillcolor"			"White"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -32,7 +32,7 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_PVE_Missed"
 	}
-	
+
 	"CurrencyGood"
 	{
 		"ControlName"		"CExLabel"
@@ -49,7 +49,7 @@
 		"textAlignment"		"east"
 		"labelText"			"%currency%"
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"		"CExLabel"

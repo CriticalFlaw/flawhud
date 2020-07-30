@@ -14,7 +14,7 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 	}
-	
+
 	"BuildIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -30,7 +30,7 @@
 		"icon"				"ico_build"
 		"iconColor"			"White"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -50,7 +50,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
@@ -70,14 +70,14 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"font"				"SpectatorKeyHints"
@@ -95,7 +95,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -107,7 +107,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"available_target_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -119,7 +119,7 @@
 		"tall"				"124"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_target_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -131,7 +131,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"unavailable_target_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -143,7 +143,7 @@
 		"tall"				"124"
 		"visible"			"0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"EditablePanel"

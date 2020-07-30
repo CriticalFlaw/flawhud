@@ -198,7 +198,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "White"
 			}
-			
+
 			"SteamWorkshopItem0"
 			{
 				"ControlName"	"CSteamWorkshopItemPanel"
@@ -246,7 +246,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 			}
-		
+
 			"PrevPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -270,7 +270,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -289,7 +289,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "LightRed"
 			}
-			
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -312,8 +312,8 @@
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-		
+			}
+
 			"ViewPublishedButton"
 			{
 				"ControlName"	"CExButton"
@@ -339,7 +339,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"border_default"	"NoBorder"
 			}
-		
+
 			"EditButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -365,7 +365,7 @@
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
 				"border_default"	"NoBorder"
-				
+
 				"image_drawcolor"		"White"
 				"image_disabledcolor"	"Black"
 
@@ -410,7 +410,7 @@
 				"labelText"			"#TF_SteamWorkshop_View"
 				"command"			"view"
 				"border_default"	"NoBorder"
-				
+
 				"image_drawcolor"		"White"
 				"image_disabledcolor"	"Black"
 
@@ -455,7 +455,7 @@
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
 				"border_default"	"NoBorder"
-				
+
 				"image_drawcolor"		"White"
 				"image_disabledcolor"	"Black"
 

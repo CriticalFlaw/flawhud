@@ -5,7 +5,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"25"
 		"visible"		"1"
@@ -46,7 +46,7 @@
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"
 		}
-	}	
+	}
 
 	"Background"
 	{
@@ -61,7 +61,7 @@
 		"fillcolor"				"HudBlack"
 		"scaleimage"			"1"
 	}
-	
+
 	"BlueTeamBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"fillcolor"				"DarkBlue"
 		"scaleimage"			"1"
 	}
-	
+
 	"RedTeamBackground"
 	{
 		"ControlName"	"ImagePanel"

@@ -9,12 +9,12 @@
 		"wide"				"36"
 		"tall"				"36"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"xpos"				"9999"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"xpos"				"0"
@@ -23,7 +23,7 @@
 		"tall"				"36"
 		"textAlignment"		"center"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"wide"				"36"

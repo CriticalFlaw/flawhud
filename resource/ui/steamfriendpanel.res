@@ -11,7 +11,7 @@
 		"mouseinputenabled"		"0"
 		"scaleImage"			"1"
 	}
-	
+
 	"InteractButton"
 	{
 		"fieldName"				"InteractButton"

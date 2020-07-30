@@ -38,7 +38,7 @@
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
 		"classicon_xdelta"		"5"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -67,7 +67,7 @@
 			"inset_eq_y"	"2"
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -76,7 +76,7 @@
 			}
 			"use_item_sounds" "1"
 		}
-		
+
 		"modelpanel_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -87,12 +87,12 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"use_item_sounds" "1"
 		}
-		
+
 		"cart_modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -115,16 +115,16 @@
 			"name_only"		"1"
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
+
 			"use_item_sounds" "1"
 		}
-		
+
 		"cart_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -135,13 +135,13 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"use_item_sounds" "1"
 		}
 	}
-	
+
 	"NameFilterTextEntry"
 	{
 		"ControlName"	"TextEntry"
@@ -163,7 +163,7 @@
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
-	
+
 	"SubcategoryFilterComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -186,7 +186,7 @@
 		"unicode"			"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
-		
+
 		"fgcolor_override"					"White"
 		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"White"
@@ -194,7 +194,7 @@
 		"selectionColor_override"			"Black"
 		"selectionTextColor_override"		"White"
 		"defaultSelectionBG2Color_override"	"Black"
-		
+
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
@@ -204,7 +204,7 @@
 			"paintbackgroundtype"		"0"
 		}
 	}
-	
+
 	"SortFilterComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -227,7 +227,7 @@
 		"unicode"			"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
-		
+
 		"fgcolor_override"					"White"
 		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"White"
@@ -235,7 +235,7 @@
 		"selectionColor_override"			"Black"
 		"selectionTextColor_override"		"White"
 		"defaultSelectionBG2Color_override"	"Black"
-		
+
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
@@ -245,7 +245,7 @@
 			"paintbackgroundtype"		"0"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -260,13 +260,13 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -284,7 +284,7 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"DarkerGrey"
     	}
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -303,7 +303,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"ClassFilterTooltipLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -327,7 +327,7 @@
 		"border"		"LoadoutItemPopupBorder"
 		"fgcolor"		"White"
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -351,7 +351,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -370,7 +370,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "LightRed"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -394,7 +394,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PriceLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -414,7 +414,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
-	
+
 	"NameFilterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -433,7 +433,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"SubcategoryFiltersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -452,7 +452,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"SortFilterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -471,7 +471,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -490,7 +490,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -510,7 +510,7 @@
 		"auto_layout_horizontal_buffer"	"4"
 		"display_vertically"	"0"
 		"align"				"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -523,26 +523,26 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"fgcolor"			"TanDark"
 			"defaultFgColor_override" "TanDark"
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			
+
 			"image_drawcolor"		"255 255 255 180"
 			"image_armedcolor"		"White"
 			"image_selectedcolor"	"White"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -557,7 +557,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -567,7 +567,7 @@
 				"image_armed"		"class_icons/filter_all"
 				"image_selected"	"class_icons/filter_all_on"
 				"tooltiptext"		"#TF_Items_All"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_all"
@@ -580,7 +580,7 @@
 				"image_armed"		"class_icons/filter_scout"
 				"image_selected"	"class_icons/filter_scout_on"
 				"tooltiptext"		"#TF_Items_Scout"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_scout"
@@ -593,7 +593,7 @@
 				"image_armed"		"class_icons/filter_soldier"
 				"image_selected"	"class_icons/filter_soldier_on"
 				"tooltiptext"		"#TF_Items_Soldier"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_soldier"
@@ -606,7 +606,7 @@
 				"image_armed"		"class_icons/filter_pyro"
 				"image_selected"	"class_icons/filter_pyro_on"
 				"tooltiptext"		"#TF_Items_Pyro"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_pyro"
@@ -619,12 +619,12 @@
 				"image_armed"		"class_icons/filter_demo"
 				"image_selected"	"class_icons/filter_demo_on"
 				"tooltiptext"		"#TF_Items_Demoman"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_demo"
 				}
-			}	
+			}
 			"heavy"
 			{
 				"userdata"			"6"
@@ -632,7 +632,7 @@
 				"image_armed"		"class_icons/filter_heavy"
 				"image_selected"	"class_icons/filter_heavy_on"
 				"tooltiptext"		"#TF_Items_Heavy"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_heavy"
@@ -645,7 +645,7 @@
 				"image_armed"		"class_icons/filter_engineer"
 				"image_selected"	"class_icons/filter_engineer_on"
 				"tooltiptext"		"#TF_Items_Engineer"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_engineer"
@@ -658,7 +658,7 @@
 				"image_armed"		"class_icons/filter_medic"
 				"image_selected"	"class_icons/filter_medic_on"
 				"tooltiptext"		"#TF_Items_Medic"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_medic"
@@ -671,7 +671,7 @@
 				"image_armed"		"class_icons/filter_sniper"
 				"image_selected"	"class_icons/filter_sniper_on"
 				"tooltiptext"		"#TF_Items_Sniper"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_sniper"
@@ -684,7 +684,7 @@
 				"image_armed"		"class_icons/filter_spy"
 				"image_selected"	"class_icons/filter_spy_on"
 				"tooltiptext"		"#TF_Items_Spy"
-				
+
 				"SubImage"
 				{
 					"image"			"class_icons/filter_spy"
@@ -692,7 +692,7 @@
 			}
 		}
 	}
-	
+
 	"BackpackSpaceLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -710,7 +710,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"CartButton"
 	{
 		"ControlName"	"CExButton"
@@ -727,13 +727,13 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
-		
+
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CartImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -748,7 +748,7 @@
 		"image"			"store_cart"
 		"scaleImage"	"1"
 	}
-	
+
 	"CartFeaturedItemSymbol"
 	{
 		"ControlName"	"ImagePanel"
@@ -763,7 +763,7 @@
 		"image"			"store_special"
 		"scaleImage"	"1"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -788,14 +788,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"9999"
 	}
-	
+
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -805,7 +805,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"TabsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -815,7 +815,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"ItemsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -825,7 +825,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"DetailsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -835,7 +835,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"PreviewToggleExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -845,7 +845,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"AddToCartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -855,7 +855,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"CartStatusExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -865,7 +865,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"CheckoutExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -875,7 +875,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"HelpExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -885,7 +885,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"Wall"
 	{
 		"ControlName"	"EditablePanel"

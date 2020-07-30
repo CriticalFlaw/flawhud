@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"font"			"FontBold22"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -67,8 +67,8 @@
 		"textAlignment"	"center"
 		"font"			"FontRegular10"
 		"fgcolor"		"White"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -87,7 +87,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -109,7 +109,7 @@
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"9999"
 	}
-	
+
 	"MapInfoContinue2"
 	{
 		"ControlName"	"CExButton"
@@ -131,21 +131,21 @@
 		"default"		"1"
 		"font"			"FontBold14"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -166,14 +166,14 @@
 		"command"		"back"
 		"font"			"FontBold14"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CTFImagePanel"

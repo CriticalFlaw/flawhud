@@ -43,7 +43,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -54,7 +54,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -101,7 +101,7 @@
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -112,7 +112,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"

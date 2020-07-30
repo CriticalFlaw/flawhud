@@ -20,7 +20,7 @@
 		"border"				"WhiteBorder"
 		"bgcolor_override"		"DarkerGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -38,7 +38,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -58,7 +58,7 @@
 		"centerwrap"			"1"
 		"fgcolor_override"		"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -89,7 +89,7 @@
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

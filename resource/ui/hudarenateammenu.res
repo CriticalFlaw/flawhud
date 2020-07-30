@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -82,13 +82,13 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectate"
 		"font"			"FontBold18"
-		
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"White"
 	}
-	
+
 	"BlueTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -114,9 +114,9 @@
 			"enabled"		"1"
 			"bgcolor_override"	"DarkBlue"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -137,13 +137,13 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"FontBold18"
-		
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"White"
 	}
-	
+
 	"RedTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -171,7 +171,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -187,42 +187,42 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 200"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-	
+
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
 		"xpos"			"9999"
 	}
-	
+
 	"spectate"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

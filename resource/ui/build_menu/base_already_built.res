@@ -19,7 +19,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"ProgressOffWhiteTransparent"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
@@ -56,8 +56,8 @@
 		"brighttext"		"0"
 		"fgcolor"			"White"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MetalIcon"
@@ -72,7 +72,7 @@
 		"icon"				"ico_metal"
 		"iconColor"			"189 189 189 255"
 	}
-	
+
 	"CostLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -91,7 +91,7 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 	}
-	
+
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -110,7 +110,7 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -126,7 +126,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

@@ -19,7 +19,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,8 +35,8 @@
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"ProgressOffWhite"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildingIcon"
@@ -51,9 +51,9 @@
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"font"				"DefaultSmall"
@@ -70,7 +70,7 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -86,9 +86,9 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontBold10"

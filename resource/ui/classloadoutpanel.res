@@ -17,22 +17,22 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
+
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"				"60"
 		"item_ydelta"			"75"
 		"item_mod_wide"			"40"
-		
+
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
-		
+
 		"button_xpos_offcenter"	"175"
 		"button_ypos"			"85"
 		"button_ydelta"			"80"
 		"button_override_delete_xpos" "0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -45,7 +45,7 @@
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_center_x"	"1"
 			"model_ypos"		"5"
 			"model_tall"		"55"
@@ -56,13 +56,13 @@
 			"text_yoffset"		"2"
 			"inset_eq_y"		"55"
 			"name_only"			"1"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -70,7 +70,7 @@
 				"inventory_image_type"	"1"
 			}
 		}
-		
+
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
@@ -96,14 +96,14 @@
 			"image_armedcolor"	"214 206 200 255"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -121,14 +121,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"TauntCaratLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntCaratLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"TauntLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -142,7 +142,7 @@
 		"fieldName"		"CurrentlyEquippedLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -158,7 +158,7 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -175,7 +175,7 @@
 		"render_texture"	"0"
 		"fov"				"30"
 		"allow_manip"		"1"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -192,7 +192,7 @@
 			"modelname"		""
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -212,7 +212,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -231,7 +231,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -239,7 +239,7 @@
 		"font"			"FontRegular10"
 		"xpos"			"c-135"
 		"ypos"			"125"
-		"zpos"			"0"	
+		"zpos"			"0"
 		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"
@@ -251,7 +251,7 @@
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
@@ -266,7 +266,7 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
-	
+
 	"PresetsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -276,7 +276,7 @@
 		"tall"			"0"
 		"visible"		"0"
 	}
-	
+
 	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
@@ -292,14 +292,14 @@
 		"PaintBackgroundType"	"0"
 		"border"		"PanelBorder"
 	}
-	
+
 	"TauntHintLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"RedButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -319,19 +319,19 @@
 		"font"				"FontBold22"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
-		
+
 		"defaultFgColor_override"	"Red"
 		"armedFgColor_override"		"White"
 		"armedBgColor_override"		"Red"
 		"depressedFgColor_override"	"White"
 		"depressedBgColor_override"	"Red"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"keyboardinputenabled"	"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"BlueButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -351,20 +351,20 @@
 		"font"				"FontBold22"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
-		
+
 		"defaultFgColor_override"	"Blue"
 		"armedFgColor_override"		"White"
 		"armedBgColor_override"		"Blue"
 		"depressedFgColor_override"	"White"
 		"depressedBgColor_override"	"Blue"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"keyboardinputenabled"	"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -386,7 +386,7 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -402,7 +402,7 @@
 			"image"			"glyph_items"
 		}
 	}
-	
+
 	"TauntLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -424,7 +424,7 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -440,7 +440,7 @@
 			"image"			"../vgui/replay/thumbnails/reel"
 		}
 	}
-	
+
 	"SecretButton"
 	{
 		"ControlName"	"CExImageButton"

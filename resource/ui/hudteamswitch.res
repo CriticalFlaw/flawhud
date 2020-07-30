@@ -22,10 +22,10 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"SwitchLabel"
 		"font"				"FontRegular12"
@@ -45,7 +45,7 @@
 		"textinsetx"		"5"
 	}
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"BalanceLabel"
 		"font"				"FontRegular12"

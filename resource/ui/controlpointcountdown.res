@@ -1,7 +1,7 @@
 "Resource/UI/ControlPointCountdown.res"
 {
 	"CapCountdownLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CapCountdownLabel"
 		"font"			"FontBold12"

@@ -25,7 +25,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"WaveFailHeader"
 	{
 		"ControlName"		"CExLabel"
@@ -39,7 +39,7 @@
 		"tall"				"30"
 		"fgcolor"			"Orange"
 	}
-	
+
 	"HeaderDivider"
 	{
 		"ControlName"		"EditablePanel"
@@ -51,7 +51,7 @@
 		"visible"			"0"
 		"bgcolor_override"	"20 20 20 100"
 	}
-	
+
 	"SummaryHeader"
 	{
 		"ControlName"		"CExLabel"
@@ -65,7 +65,7 @@
 		"tall"				"30"
 		"fgcolor"			"White"
 	}
-	
+
 	"CollectionContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -75,7 +75,7 @@
 		"wide"				"300"
 		"tall"				"100"
 		"visible"			"1"
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -88,7 +88,7 @@
 			"wide"			"140"
 			"fgcolor"		"White"
 		}
-	
+
 		"CollectedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -101,7 +101,7 @@
 			"wide"			"120"
 			"fgcolor"		"White"
 		}
-		
+
 		"CollectedCount"
 		{
 			"ControlName"	"CExLabel"
@@ -114,7 +114,7 @@
 			"wide"			"30"
 			"fgcolor"		"CreditsGreen"
 		}
-		
+
 		"MissedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -126,7 +126,7 @@
 			"ypos"			"40"
 			"wide"			"120"
 		}
-		
+
 		"MissedCount"
 		{
 			"ControlName"	"CExLabel"
@@ -139,7 +139,7 @@
 			"wide"			"30"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"BonusLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -151,7 +151,7 @@
 			"ypos"			"55"
 			"wide"			"120"
 		}
-		
+
 		"BonusCount"
 		{
 			"ControlName"	"CExLabel"
@@ -165,7 +165,7 @@
 			"fgcolor"		"CreditsGreen"
 		}
 	}
-	
+
 	"UsageContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -175,7 +175,7 @@
 		"wide"				"300"
 		"tall"				"100"
 		"visible"			"1"
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -188,7 +188,7 @@
 			"wide"			"195"
 			"fgcolor"		"White"
 		}
-	
+
 		"YouLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -200,7 +200,7 @@
 			"ypos"			"15"
 			"wide"			"35"
 		}
-		
+
 		"TeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -212,7 +212,7 @@
 			"ypos"			"15"
 			"wide"			"35"
 		}
-		
+
 		"BuybackLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -224,7 +224,7 @@
 			"ypos"			"25"
 			"wide"			"120"
 		}
-		
+
 		"BuybackCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -236,7 +236,7 @@
 			"ypos"			"25"
 			"wide"			"35"
 		}
-		
+
 		"BuybackCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -248,7 +248,7 @@
 			"ypos"			"25"
 			"wide"			"35"
 		}
-		
+
 		"BottleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -260,7 +260,7 @@
 			"ypos"			"40"
 			"wide"			"120"
 		}
-		
+
 		"BottleCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -272,7 +272,7 @@
 			"ypos"			"40"
 			"wide"			"35"
 		}
-		
+
 		"BottleCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -284,7 +284,7 @@
 			"ypos"			"40"
 			"wide"			"35"
 		}
-		
+
 		"InactiveLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -296,7 +296,7 @@
 			"ypos"			"55"
 			"wide"			"120"
 		}
-		
+
 		"InactiveCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -309,7 +309,7 @@
 			"wide"			"35"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"InactiveCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -323,7 +323,7 @@
 			"fgcolor"		"RedSolid"
 		}
 	}
-	
+
 	"HintContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -333,7 +333,7 @@
 		"wide"				"500"
 		"tall"				"150"
 		"visible"			"1"
-		
+
 		"Background"
 		{
 			"ControlName"	"ImagePanel"
@@ -353,7 +353,7 @@
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -411,7 +411,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"HintImage1"
 		{
 			"ControlName"	"ImagePanel"
@@ -425,7 +425,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"Hint1"
 		{
 			"ControlName"	"CExLabel"
@@ -440,7 +440,7 @@
 			"fgcolor"		"White"
 			"wrap"			"1"
 		}
-		
+
 		"HintImage2"
 		{
 			"ControlName"	"ImagePanel"
@@ -454,7 +454,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"Hint2"
 		{
 			"ControlName"	"CExLabel"
@@ -470,7 +470,7 @@
 			"wrap"			"1"
 		}
 	}
-	
+
 	"VoteButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -495,7 +495,7 @@
 		"image_drawcolor"	"NeutralWhite"
 		"Command"			"vote_restart"
 	}
-	
+
 	"ContinueButton"
 	{
 		"ControlName"		"CExImageButton"

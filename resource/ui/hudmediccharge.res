@@ -16,7 +16,7 @@
 		"teambg_2"			"../hud/medic_charge_red_bg"
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,7 +38,7 @@
 		"font"				"FontBold22"
 		"fgcolor"			"White"
 	}
-	
+
 	"ChargeLabelShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -64,7 +64,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"		"CExImageButton"
@@ -82,7 +82,7 @@
 		"PaintBackgroundType"		"0"
         "textinsety" 				"99"
 	}
-	
+
 	"ChargeMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -104,9 +104,9 @@
 		"font"				"FontRegular10"
 		"fgcolor"			"150 150 150 255"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
@@ -131,7 +131,7 @@
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"ChargeMeter1"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -149,12 +149,12 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"IndividualChargesLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"ChargeMeter2"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -223,7 +223,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -235,9 +235,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"ResistIconAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -249,7 +249,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"		"ImagePanel"

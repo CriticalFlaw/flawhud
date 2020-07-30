@@ -13,14 +13,14 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"visible"		"0"
 		"xpos"			"r0"
 		"ypos"			"r0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -37,7 +37,7 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
-	
+
 	"RedPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -81,7 +81,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"BluePlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -125,7 +125,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"BottomBorder"
 	{
 		"ControlName"	"EditablePanel"

@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Overlay"
 	{
 		"ControlName"	"RoundInfoOverlay"
@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"	"CExLabel"
@@ -50,7 +50,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
-	
+
 	"Mapname"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +71,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
-	
+
 	"RoundContinue"
 	{
 		"ControlName"	"CExButton"
@@ -94,7 +94,7 @@
 		"font"			"FontBold18"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -123,7 +123,7 @@
 		"bgcolor_override"	"ShadowBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -137,7 +137,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"

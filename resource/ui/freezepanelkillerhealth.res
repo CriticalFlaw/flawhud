@@ -9,7 +9,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -19,7 +19,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,7 +39,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -55,7 +55,7 @@
 		"font"			"FontBold22"
 		"labeltext"		"%Health%"
 	}
-	
+
 	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"

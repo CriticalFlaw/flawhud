@@ -14,9 +14,9 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"WarningLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WarningLabel"
 		"font"			"ScoreboardTeamScore"
@@ -33,9 +33,9 @@
 		"labelText"		"!"
 		"textAlignment"	"center"
 	}
-	
+
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
 		"font"			"FontBold10"
@@ -52,9 +52,9 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
-	
+
 	"BalanceLabelTip"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
 		"font"			"FontRegular10"
@@ -71,7 +71,7 @@
 		"labelText"		"%notificationtip%"
 		"textAlignment"	"west"
 	}
-	
+
 	"SwitchImage"
 	{
 		"ControlName"	"CTFImagePanel"
