@@ -367,7 +367,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"FontRegular8"
+		"font"			"FontRegular10"
 		"labelText"		"%server%"
 		"textAlignment"	"West"
 		"xpos"			"5"
@@ -406,7 +406,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
 		"labelText"		"%servertimeleft%"
-		"font"			"FontRegular8"
+		"font"			"FontRegular10"
 		"textAlignment"	"east"
 		"xpos"			"-5"
 		"ypos"			"0"

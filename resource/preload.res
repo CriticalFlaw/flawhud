@@ -59,34 +59,4 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-	
-	"cpiconcapblu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapblu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
-	}
-	
-	"cpiconcapred"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapred"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_red"
-	}
-	
-	"cpiconcapmask"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapmask"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
-	}
 }

@@ -102,7 +102,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MercenaryTeamPlayerCount"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 		"labelText"			"%mercenaryteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"-5"
@@ -125,7 +125,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerLabel"
 		"labelText"			"%server%"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 		"textAlignment"		"east"
 		"xpos"				"-5"
 		"ypos"				"0"

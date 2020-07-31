@@ -85,7 +85,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -138,7 +138,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
+		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
 }

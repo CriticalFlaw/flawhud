@@ -138,10 +138,10 @@
 		"command"		"jointeam mercenary"
 		"font"			"FontBold18"
 		
-		"defaultFgColor_override"	"NeutralWhite"
-		"armedFgColor_override"		"HoverWhite"
-		"depressedFgColor_override"	"NeutralWhite"
-		"selectedFgColor_override"	"HoverWhite"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"teambutton3"
@@ -166,10 +166,10 @@
 		"command"		"jointeam spectate"
 		"font"			"FontBold18"
 		
-		"defaultFgColor_override"	"NeutralWhite"
-		"armedFgColor_override"		"HoverWhite"
-		"depressedFgColor_override"	"NeutralWhite"
-		"selectedFgColor_override"	"HoverWhite"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"White"
 	}
 	
 	"CancelButton"
