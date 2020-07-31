@@ -20,19 +20,16 @@
 	
 	"PnlBackground"
 	{
-		"ControlName"			"ImagePanel"
+		"ControlName"			"EditablePanel"
 		"fieldName"				"PnlBackground"
-		"xpos"					"9999"
-		"ypos"					"0"
-		//"ypos"				"0"
-		"zpos"					"-10"
-		"wide"					"300"
-		"tall"					"f0"
-		//"wide"				"250"
-		//"tall"				"480"
+		"xpos"					"45"
+		"ypos"					"200"
+		"zpos"					"-1"
+		"wide"					"265"
+		"tall"					"130"
 		"visible"				"1"
-		"enabled"				"1"
-		"fillColor"				"50 50 50 255"
+		"bgcolor_override"		"0 0 0 200"
+		"PaintBackgroundType"	"2"
 	}	
 
 	"Logo"
@@ -49,22 +46,6 @@
 		"scaleImage"			"1"
 		"image"					"..\logo\tf2_logo"
 		"frame"					"0"
-	}
-	
-	"LoadoutBG"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"LoadoutBG"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-15"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"..\console\background02_widescreen"
-		"scaleImage"			"1"
-		"proportionalToParent"	"1"
 	}
 	
 	"classmodelpanel"
@@ -92,9 +73,9 @@
 			"angles_x"			"0"
 			"angles_y"			"210"
 			"angles_z"			"0"
-			"origin_x"			"350"
-			"origin_y"			"-50"
-			"origin_z"			"-60"
+			"origin_x" 			"270"
+			"origin_y"			"-23"
+			"origin_z"			"-57"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -112,6 +93,31 @@
 				"name"			"PRIMARY"
 				"activity"		"ACT_MERC_LOADOUT"
 				"default"		"1"
+			}
+			"animation"
+			{
+				"name"		"DYNAMITE"
+				"activity"	"ACT_MERC_LOADOUT_DYNAMITE"
+			}
+			"animation"
+			{
+				"name"		"PISTOL"
+				"activity"	"ACT_MERC_LOADOUT_PISTOL"
+			}
+			"animation"
+			{
+				"name"		"SHOTGUN"
+				"activity"	"ACT_MERC_LOADOUT_SHOTGUN"
+			}
+			"animation"
+			{
+				"name"		"TOMMYGUN"
+				"activity"	"ACT_MERC_LOADOUT_TOMMYGUN"
+			}
+			"animation"
+			{
+				"name"		"ROCKETLAUNCHER"
+				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
 			}
 		}
 	}
@@ -138,7 +144,7 @@
 		"command"				"OpenServerBrowser"
 		"ActivationType"		"1"
 		
-		"pin_to_sibling"				"BGPanel"
+		"pin_to_sibling"				"PnlBackground"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}	
@@ -210,7 +216,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"navUp"					"BtnLoadout"
-		"navDown"				"BtnStats"
+		"navDown"				"BtnQuit"
 		"labelText"				"#GameUI_Options"
 		"tooltiptext"			"#GameUI_Options_Tip"
 		"style"					"MainMenuButton"
@@ -237,7 +243,7 @@
 		"visible"				"1" [$WIN32]
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"navUp"					"BtnStats"
+		"navUp"					"BtnOptions"
 		"navDown"				"BtnServerBrowser"
 		"labelText"				"#GameUI_Quit"
 		"tooltiptext"			"#GameUI_Quit_Tip"
@@ -249,20 +255,6 @@
 		"pin_to_sibling"				"BtnOptions"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-	}
-	
-	"BGPanel"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BGPanel"
-		"xpos"					"45"
-		"ypos"					"200"
-		"zpos"					"-1"
-		"wide"					"265"
-		"tall"					"130"
-		"visible"				"1"
-		"bgcolor_override"		"0 0 0 200"
-		"PaintBackgroundType"	"2"
 	}
 	
 	"VersionLabel"

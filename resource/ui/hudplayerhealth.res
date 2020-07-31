@@ -100,6 +100,7 @@
 		"labelText"			"%Health%"
 		"textAlignment"		"center"
 		"font"				"FontBold50"
+		"fgcolor"			"HudWhite"
 	}
 	
 	"PlayerStatusHealthValueShadow"

@@ -582,7 +582,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+		"HudFontMassiveBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"80"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontGiant"
 		{
 			"1"
@@ -674,7 +684,18 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"HudFontMediumBigBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -822,7 +843,7 @@ Scheme
 		
 		GameUIButtons
 		{
-			"1"	//[$X360]
+			"1"	//[$WIN32]
 			{
 				"bitmap"		"1"
 				"name"			"Buttons"
@@ -832,7 +853,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[$X360]
+			"1"	[$WIN32]
 			{
 				"bitmap"		"1"
 				"name"			"Buttons"
@@ -842,7 +863,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[$X360]
+			"1"	[$WIN32]
 			{
 				"bitmap"		"1"
 				"name"			"Buttons"
@@ -935,7 +956,7 @@ Scheme
 			"2"
 			{
 				"name"			"TF2"
-				"tall"			"15"
+				"tall"			"21"
 				"weight"		"700"
 				"antialias" 	"1"
 				"yres"			"600 767"
@@ -973,7 +994,7 @@ Scheme
 		
 		DebugOverlay
 		{
-			"1"
+			"1"	[$WIN32]
 			{
 				"name"			"Tahoma"
 				"tall"			"18"

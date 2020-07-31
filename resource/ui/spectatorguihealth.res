@@ -25,11 +25,19 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"PlayerStatusMegaHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMegaHealthBonusImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
 	
-	"PlayerStatusHealthValue"
+	"PlayerGuiHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerGuiHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -42,10 +50,10 @@
 		"font"			"FontBold20"
 	}
 	
-	"PlayerStatusHealthValueShadow"
+	"PlayerGuiHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
+		"fieldName"		"PlayerGuiHealthValueShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"
@@ -58,7 +66,7 @@
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
 		
-		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_to_sibling"		"PlayerGuiHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

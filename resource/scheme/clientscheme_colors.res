@@ -68,7 +68,7 @@ Scheme
 		"Red"						"158 64 61 255"
 		"RedSolid"					"158 64 61 255"
 		"Blue"						"72 112 125 255"
-		"Yellow"					"251 235 202 255"	//"170 221 183 255"
+		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		//"Black"					"0 0 0 255"
 		
@@ -86,7 +86,7 @@ Scheme
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
 		
-		"Gray"						"70 70 70 255"	//"178 178 178 255"
+		"Gray"						"70 70 70 255"
 		"TransparentGray"			"70 70 70 156"
 
 		"Blank"						"0 0 0 0"

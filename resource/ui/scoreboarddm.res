@@ -35,10 +35,10 @@
 		"scaleImage"		"1"
 		"PaintBackgroundType"	"1"
 	}
-	"MainDMBG"
+	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"MainDMBG"
+		"fieldName"			"MainBG"
 		"xpos"				"0"
 		"ypos"				"288"
 		"zpos"				"0"
@@ -52,6 +52,50 @@
 		"pin_to_sibling"		"DMBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	"MercenaryTeamPlayerCount"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"MercenaryTeamPlayerCount"
+		"font"				"FontRegular10"
+		"labelText"			"%mercenaryteamplayercount%"
+		"textAlignment"		"west"
+		"xpos"				"-5"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"290"
+		"tall"				"11"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"pin_to_sibling"		"DMBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	"ServerLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ServerLabel"
+		"font"				"FontRegular10"
+		"labelText"			"%server%"
+		"textAlignment"		"east"
+		"xpos"				"-5"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"290"
+		"tall"				"11"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"pin_to_sibling"		"DMBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 	"HudFragLimitLabel"
 	{
@@ -98,50 +142,6 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
-	"MercenaryTeamPlayerCount"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"MercenaryTeamPlayerCount"
-		"font"				"FontRegular10"
-		"labelText"			"%mercenaryteamplayercount%"
-		"textAlignment"		"west"
-		"xpos"				"-5"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"290"
-		"tall"				"11"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		
-		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-	}
-	
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ServerLabel"
-		"labelText"			"%server%"
-		"font"				"FontRegular10"
-		"textAlignment"		"east"
-		"xpos"				"-5"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"290"
-		"tall"				"11"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		
-		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
-	
 	"MercenaryPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
@@ -159,7 +159,7 @@
 		"linespacing"		"19"
 		"fgcolor"			"blue"
 		
-		"pin_to_sibling"		"MainDMBG"
+		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
@@ -209,11 +209,29 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
+	"KillsCount"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillsCount"
+		"font"			"HudFontMediumBold"
+		"labelText"		"%kills%"
+		"textAlignment"	"east"
+		"xpos"			"4000"
+		"ypos"			"347"
+		"zpos"			"3"
+		"wide"			"140"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	
-	"PointsLabel"
+	//frags
+	"Label01"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"PointsLabel"
+		"fieldName"			"Label01"
 		"font"				"FontBold14"
 		"labelText"			"Frags"
 		"textAlignment"		"center"
@@ -231,12 +249,11 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	"Points"
+	"Count01"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"Points"
+		"fieldName"			"Count01"
 		"font"				"ScoreboardVerySmall"
-		"labelText"			"%playerscore%"
 		"textAlignment"		"west"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -248,7 +265,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		
-		"pin_to_sibling"		"PointsLabel"
+		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

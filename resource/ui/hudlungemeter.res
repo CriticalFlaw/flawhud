@@ -16,7 +16,7 @@
 		"teambg_1"			"../hud/misc_ammo_area_horiz1_black"
 		"teambg_2"			"../hud/misc_ammo_area_horiz1_red"
 		"teambg_3"			"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_4"			"../hud/misc_ammo_area_horiz1_red"
+		"teambg_4"			"../hud/misc_ammo_area_horiz1_mercenary"
 	}
 	
 	"LungeLabel"

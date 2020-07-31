@@ -2,6 +2,7 @@ Scheme
 {
 	BaseSettings
 	{
+		// vgui_controls color specifications
 		Border.Bright							"Blank"
 		Border.Dark								"Black"
 		Border.Selection						"Gray"
@@ -12,13 +13,6 @@ Scheme
 		Button.ArmedBgColor						"Purple"
 		Button.DepressedTextColor				"Black"
 		Button.DepressedBgColor					"Purple"
-		
-		CheckButton.TextColor					"TFWhite" // was orange
-		CheckButton.SelectedTextColor			"TFWhite" // was orange
-		CheckButton.BgColor						"TransparentBlack"
-		CheckButton.Border1  					"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  					"Border.Bright"		// the right checkbutton border
-		CheckButton.Check						"TFWhite"			// color of the check itself
 		
 		ComboBoxButton.ArrowColor				"TanLight"
 		ComboBoxButton.ArmedArrowColor			"TanLight"
@@ -56,29 +50,18 @@ Scheme
 		Label.DisabledFgColor1					"Blank"
 		Label.DisabledFgColor2					"LightOrange"
 		
-		ListPanel.TextColor						"Purple"	//"TFWhite"
-		ListPanel.TextBgColor					"Blank"
+		ListPanel.TextColor						"Purple" // was orange
 		ListPanel.BgColor						"TransparentBlack"
-		ListPanel.SelectedTextColor				"Black"	//"TFWhite"
-		ListPanel.SelectedBgColor				"Red"	//"Purple"
-		ListPanel.SelectedOutOfFocusBgColor		"Red"	//"TransparentPurple"
-		ListPanel.EmptyListInfoTextColor		"Purple"	//"TFWhite"
+		ListPanel.SelectedTextColor				"Black"
+		ListPanel.SelectedBgColor				"Red"
+		ListPanel.SelectedOutOfFocusBgColor		"Red"
+		ListPanel.EmptyListInfoTextColor		"Purple" // was orange
 		
-		Menu.TextColor							"TanLight"	//"TFWhite"
-		Menu.BgColor							"TransparentBlack"	//"Gray"
-		Menu.ArmedTextColor						"TanDark"	//"TFWhite"
-		Menu.ArmedBgColor						"TanLight"	//"Purple"
+		Menu.TextColor							"TanLight"
+		Menu.BgColor							"TransparentBlack"
+		Menu.ArmedTextColor						"TanDark"
+		Menu.ArmedBgColor						"TanLight"
 		Menu.TextInset							"6"
-		
-		ScrollBarButton.FgColor					"TFWhite"
-		ScrollBarButton.BgColor					"Blank"
-		ScrollBarButton.ArmedFgColor			"TFWhite"
-		ScrollBarButton.ArmedBgColor			"Blank"
-		ScrollBarButton.DepressedFgColor		"TFWhite"
-		ScrollBarButton.DepressedBgColor		"Blank"
-		
-		ScrollBarSlider.FgColor					"TFWhite"
-		ScrollBarSlider.BgColor					"Blank"
 		
 		Chat.TypingText							"Purple"
 		
@@ -115,17 +98,6 @@ Scheme
 		Slider.DisabledTextColor1				"117 117 117 255"
 		Slider.DisabledTextColor2				"30 30 30 255"
 		
-		SectionedListPanel.HeaderTextColor		"TFWhite"
-		SectionedListPanel.HeaderBgColor		"Blank"
-		SectionedListPanel.DividerColor			"TFWhite"
-		SectionedListPanel.TextColor			"TFWhite"
-		SectionedListPanel.BrightTextColor		"TFWhite"
-		SectionedListPanel.BgColor				"TransparentBlack"
-		SectionedListPanel.SelectedTextColor	"TFWhite"
-		SectionedListPanel.SelectedBgColor		"Purple"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"TFWhite"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentPurple"
-		
 		TextEntry.TextColor						"Gray"
 		TextEntry.BgColor						"Blank"
 		TextEntry.CursorColor					"Gray"
@@ -141,13 +113,7 @@ Scheme
 		Tooltip.TextColor						"TransparentBlack"	//"TFWhite"
 		Tooltip.BgColor							"Red"				//"DarkGray"
 		
-		TreeView.BgColor						"TransparentBlack"
-		
-		NewGame.SelectionColor					"Purple"
-		
-		MainMenu.TextColor						"TFWhite"
-		MainMenu.ArmedTextColor					"Purple"
-		MainMenu.Inset							"32"	
+		TreeView.BgColor						"TransparentBlack"	
 		
 		WizardSubPanel.BgColor					"Blank"
 		

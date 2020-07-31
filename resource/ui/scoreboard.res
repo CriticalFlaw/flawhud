@@ -13,22 +13,23 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
+		"medal_width"		"20"
 		"avatar_width"		"60"
+		"spacer"			"5"
 		"name_width"		"80"
 		"status_width"		"15"
 		"nemesis_width"		"15"
+        "dominated_width"	"20"
 		"class_width"		"60"
 		"score_width"		"25"
 		"ping_width"		"23"
-		"kills_width"       "70"
-        "dominated_width"	"20"
 	}
 	
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"-6"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"610"
@@ -69,8 +70,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueBG"
-		"xpos"			"c-290"
-		"ypos"			"0"
+		"xpos"			"c-292"
+		"ypos"			"40"
 		"zpos"			"-1"
 		"wide"			"290"
 		"tall"			"35"
@@ -351,14 +352,14 @@
 		"xpos"				"0"
 		"ypos"				"12"
 		"zpos"				"-1"
-		"wide"				"290"
+		"wide"				"585"
 		"tall"				"11"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"		"40 40 40 255"
 		"PaintBackgroundType"	"2"
 		
-		"pin_to_sibling"		"BlueBG"
+		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
@@ -369,10 +370,10 @@
 		"fieldName"		"ServerLabel"
 		"font"			"FontRegular10"
 		"labelText"		"%server%"
-		"textAlignment"	"West"
+		"textAlignment"	"center"
 		"xpos"			"5"
 		"ypos"			"0"
-		"wide"			"290"
+		"wide"			"585"
 		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -380,45 +381,6 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling"		"ServerBackground"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
-	"TimeBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TimeBackground"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"-1"
-		"wide"			"290"
-		"tall"			"11"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"40 40 40 255"
-		"PaintBackgroundType"	"2"
-		
-		"pin_to_sibling"		"RedBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
-	"ServerTimeLeftLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeLeftLabel"
-		"labelText"		"%servertimeleft%"
-		"font"			"FontRegular10"
-		"textAlignment"	"east"
-		"xpos"			"-5"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"290"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"pin_to_sibling"		"TimeBackground"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
@@ -491,14 +453,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
@@ -585,13 +547,14 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
-	"KillsLabel"
+
+	//kills
+	"Label01"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"KillsLabel"
+		"fieldName"		"Label01"
 		"font"			"FontBold27"
-		"labelText"		":"
+		//"labelText"		":"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -608,12 +571,11 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}											
-	"Kills"
+	"Count01"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Kills"
+		"fieldName"		"Count01"
 		"font"			"FontBold27"
-		"labelText"		"%kills%"
 		"textAlignment"	"east"
 		"xpos"			"25"
 		"ypos"			"0"
@@ -626,17 +588,17 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 		
-		"pin_to_sibling"		"KillsLabel"
+		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}						
 	
-	"DeathsLabel"
+	// deaths
+	"Label02"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DeathsLabel"
+		"fieldName"		"Label02"
 		"font"			"FontBold27"
-		"labelText"		"#TF_ScoreBoard_DeathsLabel"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -648,12 +610,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}						
-	"Deaths"
+	"Count02"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Deaths"
+		"fieldName"		"Count02"
 		"font"			"FontBold27"
-		"labelText"		"%deaths%"
 		"textAlignment"	"west"
 		"xpos"			"25"
 		"ypos"			"0"
@@ -666,17 +627,17 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 		
-		"pin_to_sibling"		"KillsLabel"
+		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}						
 	
-	"AssistsLabel"
+	// assist
+	"Label03"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"AssistsLabel"
+		"fieldName"		"Label03"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_AssistsLabel"
 		"textAlignment"	"west"
 		"xpos"			"10"
 		"ypos"			"-50"
@@ -692,12 +653,11 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}						
-	"Assists"
+	"Count03"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Assists"
+		"fieldName"		"Count03"
 		"font"			"FontRegular12"
-		"labelText"		"%assists%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -709,17 +669,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"AssistsLabel"
+		"pin_to_sibling"		"Label03"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 	
-	"DestructionLabel"
+	// destruction
+	"Label04"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DestructionLabel"
+		"fieldName"		"Label04"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_DestructionLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -731,16 +691,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"AssistsLabel"
+		"pin_to_sibling"		"Label03"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}						
-	"Destruction"
+	"Count04"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Destruction"
+		"fieldName"		"Count04"
 		"font"			"FontRegular12"
-		"labelText"		"%destruction%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -752,17 +711,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DestructionLabel"
+		"pin_to_sibling"		"Label04"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"CapturesLabel"
+	// captures
+	"Label05"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CapturesLabel"
+		"fieldName"		"Label05"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_CapturesLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -774,16 +733,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DestructionLabel"
+		"pin_to_sibling"		"Label04"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Captures"
+	"Count05"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Captures"
+		"fieldName"		"Count05"
 		"font"			"FontRegular12"
-		"labelText"		"%captures%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -795,17 +753,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"CapturesLabel"
+		"pin_to_sibling"		"Label05"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"DefensesLabel"
+	// defenses
+	"Label06"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DefensesLabel"
+		"fieldName"		"Label06"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_DefensesLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -817,16 +775,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"CapturesLabel"
+		"pin_to_sibling"		"Label05"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Defenses"
+	"Count06"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Defenses"
+		"fieldName"		"Count06"
 		"font"			"FontRegular12"
-		"labelText"		"%defenses%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -838,17 +795,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DefensesLabel"
+		"pin_to_sibling"		"Label06"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"DominationLabel"
+	// domination
+	"Label07"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DominationLabel"
+		"fieldName"		"Label07"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_DominationLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -860,16 +817,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DefensesLabel"
+		"pin_to_sibling"		"Label06"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Domination"
+	"Count07"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Domination"
+		"fieldName"		"Count07"
 		"font"			"FontRegular12"
-		"labelText"		"%dominations%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -881,17 +837,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DominationLabel"
+		"pin_to_sibling"		"Label07"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"RevengeLabel"
+	// revenge
+	"Label08"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"RevengeLabel"
+		"fieldName"		"Label08"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_RevengeLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -903,16 +859,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"DominationLabel"
+		"pin_to_sibling"		"Label07"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Revenge"
+	"Count08"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Revenge"
+		"fieldName"		"Count08"
 		"font"			"FontRegular12"
-		"labelText"		"%Revenge%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -924,17 +879,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"RevengeLabel"
+		"pin_to_sibling"		"Label08"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"HealingLabel"
+	// invul
+	"Label09"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HealingLabel"
+		"fieldName"		"Label09"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_HealingLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -946,17 +901,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"RevengeLabel"
+		"pin_to_sibling"		"Label08"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
-	"Healing"
+	"Count09"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Healing"
+		"fieldName"		"Count09"
 		"font"			"FontRegular12"
-		"labelText"		"%healing%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -968,17 +921,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"HealingLabel"
+		"pin_to_sibling"		"Label09"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"InvulnLabel"
+	//headshot
+	"Label10"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"InvulnLabel"
+		"fieldName"		"Label10"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_InvulnLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -990,16 +943,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"HealingLabel"
+		"pin_to_sibling"		"Label09"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Invuln"
+	"Count10"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Invuln"
+		"fieldName"		"Count10"
 		"font"			"FontRegular12"
-		"labelText"		"%invulns%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -1011,17 +963,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"InvulnLabel"
+		"pin_to_sibling"		"Label10"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"TeleportsLabel"
+	//teleport
+	"Label11"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TeleportsLabel"
+		"fieldName"		"Label11"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -1033,16 +985,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"InvulnLabel"
+		"pin_to_sibling"		"Label10"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Teleports"
+	"Count11"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Teleports"
+		"fieldName"		"Count11"
 		"font"			"FontRegular12"
-		"labelText"		"%teleports%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -1054,17 +1005,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"TeleportsLabel"
+		"pin_to_sibling"		"Label11"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"HeadshotsLabel"
+	// healing
+	"Label12"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HeadshotsLabel"
+		"fieldName"		"Label12"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -1076,16 +1027,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"TeleportsLabel"
+		"pin_to_sibling"		"Label11"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Headshots"
+	"Count12"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Headshots"
+		"fieldName"		"Count12"
 		"font"			"FontRegular12"
-		"labelText"		"%headshots%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -1097,17 +1047,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"HeadshotsLabel"
+		"pin_to_sibling"		"Label12"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
-	"BackstabsLabel"
+	//backstab
+	"Label13"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"BackstabsLabel"
+		"fieldName"		"Label13"
 		"font"			"FontRegular12"
-		"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -1119,16 +1069,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"HeadshotsLabel"
+		"pin_to_sibling"		"Label12"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"Backstabs"
+	"Count13"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Backstabs"
+		"fieldName"		"Count13"
 		"font"			"FontRegular12"
-		"labelText"		"%backstabs%"
 		"textAlignment"	"west"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -1140,7 +1089,133 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"BackstabsLabel"
+		"pin_to_sibling"		"Label13"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	
+	//medal 14
+	"Label14"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label14"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"15"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label13"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+	}
+	"Count14"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Count14"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"70"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label14"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	
+	//medal 15
+	"Label15"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label15"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"15"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label14"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+	}
+	"Count15"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Count15"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"70"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label15"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	
+	//medal 16
+	"Label16"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label16"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"15"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label15"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+	}
+	"Count16"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Count16"
+		"font"			"FontRegular12"
+		"textAlignment"	"west"
+		"xpos"			"70"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Label16"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}

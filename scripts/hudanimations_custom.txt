@@ -6,7 +6,7 @@ event HudHealthBonusPulse
 //	Animate	PlayerHealthValue			FgColor		"Overheal"			Linear 0.0 0.2
 //	Animate	PlayerHealthValue			FgColor		"OverhealPulse"		Linear 0.2 0.6
 
-	Animate	GuiPlayerHealth				FgColor		"PositiveValue"		Linear 0.0 0.0
+	Animate	PlayerGuiHealthValue		FgColor		"PositiveValue"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.7
 }
@@ -19,7 +19,7 @@ event HudHealthBonusPulseStop
 	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
 
 	Animate PlayerHealthValue			FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate GuiPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate PlayerGuiHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
 }
 //==================================================================================
 
@@ -31,7 +31,7 @@ event HudHealthDyingPulse
 //	Animate PlayerHealthValue			FgColor		"LowHealth"			Linear 0.0 0.2
 //	Animate PlayerHealthValue			FgColor		"LowHealthPulse"	Linear 0.2 0.6
 
-	Animate	GuiPlayerHealth				FgColor		"NegativeValue"		Linear 0.0 0.0
+	Animate	PlayerGuiHealthValue		FgColor		"NegativeValue"		Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -44,7 +44,7 @@ event HudHealthDyingPulseStop
 	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
 
 	Animate PlayerHealthValue			FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate GuiPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate PlayerGuiHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
 }
 //==================================================================================
 

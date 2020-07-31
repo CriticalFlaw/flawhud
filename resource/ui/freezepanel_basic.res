@@ -12,21 +12,17 @@
 		
 		"FreezePanelBG"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"0"
-			"ypos"			"52"
+			"ypos"			"10"
 			"zpos"			"0"
-			"wide"			"266"
-			"tall"			"48"
+			"wide"			"190"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/freezecam_blue_bg"
-			"scaleImage"		"1"	
-			
-			"teambg_2"		"../hud/freezecam_blue_bg"
-			"teambg_3"		"../hud/freezecam_red_bg"
-			"teambg_4"		"../hud/freezecam_purple_bg"
+			"fillcolor"		"HudBlack"
+			"scaleImage"		"1"
 		}
 		
 		"FreezeLabel"

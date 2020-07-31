@@ -35,48 +35,6 @@
 		"teambg_4"			"../hud/freezecam_purple_bg"
 	}
 	
-	"TargetIDBG_Spec_Blue"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TargetIDBG_Spec_Blue"
-		"xpos"				"0"
-		"ypos"				"48"
-		"zpos"				"1"
-		"wide"				"640"
-		"tall"	 			"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"Blue"
-		
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
-	}
-	
-	"TargetIDBG_Spec_Red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TargetIDBG_Spec_Red"
-		"xpos"				"0"
-		"ypos"				"48"
-		"zpos"				"1"
-		"wide"				"640"
-		"tall"	 			"36"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"Red"
-		
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"
-	}
-	
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"

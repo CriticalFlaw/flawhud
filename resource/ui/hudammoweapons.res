@@ -36,6 +36,7 @@
 		"enabled"			"1"
 		"textAlignment"		"east"
 		"labelText"			"%Ammo%"
+		"fgcolor"			"HudWhite"
 	}
 	"AmmoInClipShadow"
 	{
@@ -72,6 +73,7 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"%AmmoInReserve%"
+		"fgcolor"			"HudWhite"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -108,6 +110,7 @@
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%Ammo%"
+		"fgcolor"			"HudWhite"
 	}
 	"AmmoNoClipShadow"
 	{

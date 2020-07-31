@@ -18,19 +18,16 @@
 	
 	"PnlBackground"
 	{
-		"ControlName"			"Panel"
+		"ControlName"			"EditablePanel"
 		"fieldName"				"PnlBackground"
-		"xpos"					"9999"
-		"ypos"					"120"
-		//"ypos"				"0"
+		"xpos"					"45"
+		"ypos"					"200"
 		"zpos"					"-1"
-		"wide"					"f0"
-		"tall"					"260"
-		//"wide"				"1000"
-		//"tall"				"480"
+		"wide"					"265"
+		"tall"					"230"
 		"visible"				"1"
-		"enabled"				"1"
-		"fillColor"				"0 0 0 255"
+		"bgcolor_override"		"0 0 0 200"
+		"PaintBackgroundType"	"2"
 	}
 
 	"Logo"
@@ -72,7 +69,7 @@
 		"ActivationType"		"1"
 		"ActivationType"		"1"
 		
-		"pin_to_sibling"				"BGPanel"
+		"pin_to_sibling"				"PnlBackground"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
@@ -292,20 +289,6 @@
 		"pin_to_sibling"				"BtnExitToMainMenu"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-	}
-	
-	"BGPanel"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BGPanel"
-		"xpos"					"45"
-		"ypos"					"200"
-		"zpos"					"-1"
-		"wide"					"265"
-		"tall"					"230"
-		"visible"				"1"
-		"bgcolor_override"		"0 0 0 200"
-		"PaintBackgroundType"	"2"
 	}
 	
 	"VersionLabel"

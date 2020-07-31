@@ -74,6 +74,30 @@
 		"tall"				"480"
 	}
 	
+	"HudTDM"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudTDM"
+		"xpos"			"c-150"
+		"ypos"			"r71"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"	
+	}
+	
+	HudDOM
+	{
+		"fieldName" "HudDOM"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"L150"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+	
 	HudWeaponAmmo
 	{
 		"fieldName"			"HudWeaponAmmo"
@@ -140,6 +164,7 @@
 		"enabled"			"1"
 		"xpos"				"c-74"
 		"ypos"				"c180"
+		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"8"
 		"MeterFG"			"White"
@@ -167,6 +192,7 @@
 		"MaxSlots"			"10"
 		"SelectionAlpha"	"128"
 		"EmptyBoxColor"		"0 0 0 80"
+		"ErrorYPos"	"30"
 	}
 	
 	CHudAccountPanel
@@ -716,6 +742,16 @@
 		"icon_space"		"2"
 	}
 	
+	HUDAutoAim
+	{
+
+	}	
+	
+	HudHDRDemo
+	{
+
+	}
+
 	WinPanel
 	{
 		"fieldName"			"WinPanel"
@@ -723,7 +759,6 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"r150"
-		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"152"
 	}
@@ -801,7 +836,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c155"
-		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -814,7 +848,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c155"
-		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -827,7 +860,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-99"
 		"ypos"				"c0"
-		"zpos"				"1"
 		"wide"				"198"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -883,7 +915,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-320"
-		"ypos"				"280"
+		"ypos"				"30"
 		"wide"				"640"
 		"tall"				"100"
 	}
@@ -897,6 +929,15 @@
 		"ypos"				"180"
 		"wide"				"f10"
 		"tall"				"100"
+	}
+	
+	HudMoney
+	{
+
+	}	
+	HudCredits
+	{
+
 	}
 	
 	"CHudVote"
@@ -939,32 +980,27 @@
 		"MeterBG"			"Gray"
 	}
 	
-	"HudTDM"
+	"HudDuel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudTDM"
-		"xpos"			"c-150"
-		"ypos"			"r71"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"80"
+		"ControlName"	"CTFDuelHUD"
+		"fieldName"		"HudDuel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 	}
-	
-	HudDOM
+
+	"HudDuelAnnouncement"
 	{
-		"fieldName" "HudDOM"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"L150"
-		"wide"	"f0"
-		"tall"	"480"
+		"ControlName"	"CTFDuelAnnouncement"
+		"fieldName"		"HudDuelAnnouncement"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
-	
-	HUDAutoAim			{ }
-	HudHDRDemo			{ }
-	HudMoney			{ }
-	HudCredits			{ }
 }

@@ -29,11 +29,20 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	"PlayerStatusMegaHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMegaHealthBonusImage"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	
-	"PlayerStatusHealthValue"
+	"PlayerGuiHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerGuiHealthValue"
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"5"

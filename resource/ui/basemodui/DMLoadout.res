@@ -1322,17 +1322,36 @@
 			"spotlight"			"1"
 			"modelname"			"models/player/mercenary.mdl"
 			
-			"attached_model"
-			{
-				"modelname"		"models/weapons/w_models/w_supershotgun.mdl"
-				"skin"			"0"
-			}
-			
 			"animation"
 			{
 				"name"			"PRIMARY"
 				"activity"		"ACT_MERC_LOADOUT"
 				"default"		"1"
+			}
+			"animation"
+			{
+				"name"		"DYNAMITE"
+				"activity"	"ACT_MERC_LOADOUT_DYNAMITE"
+			}
+			"animation"
+			{
+				"name"		"PISTOL"
+				"activity"	"ACT_MERC_LOADOUT_PISTOL"
+			}
+			"animation"
+			{
+				"name"		"SHOTGUN"
+				"activity"	"ACT_MERC_LOADOUT_SHOTGUN"
+			}
+			"animation"
+			{
+				"name"		"TOMMYGUN"
+				"activity"	"ACT_MERC_LOADOUT_TOMMYGUN"
+			}
+			"animation"
+			{
+				"name"		"ROCKETLAUNCHER"
+				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
 			}
 		}
 	}
