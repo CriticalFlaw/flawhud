@@ -11,11 +11,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"WhiteBorder"
-		"if_high_priority"
-		{
-			"border"	"NotificationHighPriority"
-		}
+		"border"		"NoBorder"
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
