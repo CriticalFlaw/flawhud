@@ -57,7 +57,8 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"TFTextMessage"
@@ -145,6 +146,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }

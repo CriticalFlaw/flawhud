@@ -58,10 +58,10 @@
 	"StatusLabel"
 	{
 		"fieldName"				"StatusLabel"
-		"xpos"					"27" //rs1
+		"xpos"					"27"
 		"ypos"					"13"
 		"zpos"					"100"
-		"wide"					"90" //f25
+		"wide"					"90"
 		"tall"					"10"
 		"textAlignment"			"north-west"
 		"visible"				"1"

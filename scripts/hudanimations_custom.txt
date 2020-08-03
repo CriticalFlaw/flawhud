@@ -1,3 +1,4 @@
+//Health Bonus Pulse
 event HudHealthBonusPulse
 {
 	Animate	HealthBG					BgColor		"Overheal"			Linear 0.0 0.2
@@ -27,6 +28,7 @@ event HudHealthBonusPulseStop
 }
 //==================================================================================
 
+//Health Dying Pulse
 event HudHealthDyingPulse
 {
 	Animate	HealthBG					BgColor		"LowHealth"			Linear 0.0 0.2
@@ -119,6 +121,7 @@ event HitMarker
 }
 //==================================================================================
 
+// Spy Disguise
 event HudSpyDisguiseFadeIn
 {
 //	RunEvent HudSpyDisguiseChanged	0.0

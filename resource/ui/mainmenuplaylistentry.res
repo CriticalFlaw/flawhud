@@ -93,8 +93,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" "White"
-		"armedFgColor_override"   "White"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "75 125 255 255"
 	}
 

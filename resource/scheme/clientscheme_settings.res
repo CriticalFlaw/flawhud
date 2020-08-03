@@ -1,7 +1,11 @@
 Scheme
 {
+	///////////////////// BASE SETTINGS ////////////////////////
+	// default settings for all panels
+	// controls use these to determine their settings
 	BaseSettings
 	{
+		// vgui_controls color specifications
 		ReplayBrowser.BgColor							"DarkGrey"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"LightRed"
 		ReplayBrowser.Button.ArmedBgColor				"Yellow"

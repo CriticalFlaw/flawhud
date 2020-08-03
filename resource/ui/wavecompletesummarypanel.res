@@ -31,7 +31,7 @@
 		"visible"			"1"
 		"paintborder"		"1"
 		"border"			"DarkRedTeamBorder"
-		"PaintBackgroundType" 	"0"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"Red"
 
 		"WaveCompleteLabel"

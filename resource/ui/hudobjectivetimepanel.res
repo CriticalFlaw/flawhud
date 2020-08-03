@@ -14,7 +14,8 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
-		if_match {
+		if_match
+		{
 			"visible"		"0"
 		}
 	}
@@ -36,7 +37,8 @@
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
 
-		if_match {
+		if_match
+		{
 			"visible"		"0"
 		}
 	}

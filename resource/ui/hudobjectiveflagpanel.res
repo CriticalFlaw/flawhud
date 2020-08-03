@@ -12,7 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"zpos"		"-1"
 		}
 	}
@@ -30,15 +31,18 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -56,15 +60,18 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkBlue"
 
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -82,15 +89,18 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -108,15 +118,18 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkRed"
 
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}

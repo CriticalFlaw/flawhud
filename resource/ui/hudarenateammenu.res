@@ -144,6 +144,13 @@
 		"selectedFgColor_override"	"White"
 	}
 
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
+	}
+
 	"RedTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -221,12 +228,5 @@
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
-	}
-
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
 	}
 }

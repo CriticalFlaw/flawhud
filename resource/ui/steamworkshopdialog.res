@@ -608,7 +608,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#Store_CANCEL"
+			"labelText"		"#TF_Close"
 			"font"			"FontBold12"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

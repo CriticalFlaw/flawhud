@@ -34,11 +34,11 @@
 			"wide"				"20"
 			"tall"				"20"
 			"visible"			"1"
-			"paintborder"		"0"
-			"AutoResize" 		"0"
-			"skip_autoresize"	"1"
 			"bgcolor_override"	"Transparent"
 			"PaintBackgroundType"	"0"
+			"paintborder"		"0"
+			"AutoResize"		"0"
+			"skip_autoresize"	"1"
 		}
 	}
 

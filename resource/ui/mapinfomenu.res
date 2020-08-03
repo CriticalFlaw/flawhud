@@ -107,13 +107,6 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"9999"
-	}
-
-	"MapInfoContinue2"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue2"
 		"xpos"			"c-45"
 		"ypos"			"c100"
 		"zpos"			"6"

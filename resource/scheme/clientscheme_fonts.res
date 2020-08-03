@@ -1,5 +1,8 @@
 Scheme
 {
+	//////////////////////// FONTS /////////////////////////////
+	//
+	// describes all the fonts
 	Fonts
 	{
 		// CUSTOM
@@ -498,10 +501,9 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -541,7 +543,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"480 599"
 			}
 			"2"
@@ -1747,8 +1749,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"11"  	[!$OSX]
-				"tall"			"9"  	[$OSX]
+				"tall"			"11"	[!$OSX]
+				"tall"			"9"		[$OSX]
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2058,17 +2060,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"ItemMeterFontSmall"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-LC"
-				"tall"			"6"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
 
 		"AchievementTracker_Name"
 		{
@@ -2218,7 +2209,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestStickyText"
@@ -2333,7 +2324,7 @@ Scheme
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestLargeText_Merasmus"
@@ -2344,7 +2335,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -2367,7 +2358,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2557,7 +2548,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayLarger"
@@ -2658,18 +2649,6 @@ Scheme
 			}
 		}
 
-		"TF2ComboBox"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
 		"QuestMap_Small_Blur"
 		{
 			"1"
@@ -2734,6 +2713,12 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -2742,33 +2727,129 @@ Scheme
 		{
 			"font"	"resource/TF2.ttf"
 			"name"	"TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"4"
 		{
 			"font"	"resource/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"5"
 		{
 			"font"	"resource/TF2Professor.ttf"
 			"name"	"TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
 		}
 		"6"
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"7"
 		{
+			"font"	"resource/ocra.ttf"
+			"name"	"ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}
+		"8"
 			"font"	"resource/fonts/CodeProBold.otf"
 			"name"	"Code-Pro-Bold"
 		}
-		"8"
+		"9"
 		{
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"	"Code-Pro-LC"
 		}
-		"9"
+		"10"
 		{
 			"font"	"resource/fonts/Gravity-Light.otf"
 			"name"	"Gravity-Light"

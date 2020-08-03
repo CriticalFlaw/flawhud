@@ -1,5 +1,9 @@
 Scheme
 {
+	//
+	//////////////////// BORDERS //////////////////////////////
+	//
+	// describes all the border types
 	Borders
 	{
 		WhiteBorder
@@ -341,43 +345,6 @@ Scheme
 				"1"
 				{
 					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ItemBoxBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "0 255 0 255"
-					"offset" "0 1"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "255 128 128 255"
-					"offset" "0 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "128 255 255 255"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "200 50 255 255"
 					"offset" "0 0"
 				}
 			}

@@ -30,23 +30,6 @@
 		"tabPosition"	"0"
 	}
 
-	"SelectClassLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"SelectClassLabel"
-		"xpos"			"c-150"
-		"ypos"			"c-130"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"			"FontBold22"
-		"fgcolor_override"	"White"
-	}
-
 	"scout"
 	{
 		"ControlName"		"CExButton"
@@ -470,6 +453,23 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
+	"ClassMenuSelect"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"ClassMenuSelect"
+		"xpos"			"c-150"
+		"ypos"			"c-130"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"center"
+		"font"			"FontBold22"
+		"fgcolor_override"	"White"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -511,6 +511,20 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"HudBlack"
+	}
+
+	"localPlayerImage" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"9999"
+	}
+
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
+		"xpos"			"9999"
 	}
 
 	"countImage0" [$WIN32]
@@ -1034,20 +1048,6 @@
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
-		"xpos"			"9999"
-	}
-
-	"localPlayerImage" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerImage"
-		"xpos"			"9999"
-	}
-
-	"localPlayerBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 	}
 

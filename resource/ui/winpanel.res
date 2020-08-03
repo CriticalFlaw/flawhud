@@ -109,7 +109,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabel"
 			"font"				"FontBold18"
-			"fgcolor"			"White"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"				"5"
@@ -565,7 +564,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -635,7 +633,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"

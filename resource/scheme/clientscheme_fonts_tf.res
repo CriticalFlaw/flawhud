@@ -309,7 +309,7 @@ Scheme
 				"name"			"TF2 Secondary"
 				"tall"			"12"
 				"weight"		"500"
-				"underline" 	"1"
+				"underline"		"1"
 				"range"			"0x0000 0x017F"
 			}
 			"2"
@@ -488,7 +488,7 @@ Scheme
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"additive"		"1"
 			}
 		}
@@ -510,10 +510,9 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -553,7 +552,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"480 599"
 			}
 			"2"
@@ -562,7 +561,7 @@ Scheme
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"600 767"
 			}
 			"3"
@@ -571,7 +570,7 @@ Scheme
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"768 1023"
 			}
 			"4"
@@ -634,7 +633,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMediumBigBold"
@@ -645,7 +644,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMedium"
@@ -802,7 +801,7 @@ Scheme
 				"tall"			"4"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -813,7 +812,7 @@ Scheme
 				"name"			"TF2 Secondary"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -1525,7 +1524,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -1759,8 +1758,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"11"  	[!$OSX]
-				"tall"			"9"  	[$OSX]
+				"tall"			"11"	[!$OSX]
+				"tall"			"9"		[$OSX]
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2033,7 +2032,7 @@ Scheme
 			{
 				"name"			"TF2 Secondary"
 				"tall"			"8"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"weight"		"500"
 			}
 		}
@@ -2070,17 +2069,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"ItemMeterFontSmall"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"6"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
 
 		"AchievementTracker_Name"
 		{
@@ -2090,7 +2078,7 @@ Scheme
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2230,7 +2218,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestStickyText"
@@ -2345,7 +2333,7 @@ Scheme
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestLargeText_Merasmus"
@@ -2356,7 +2344,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -2379,7 +2367,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2558,7 +2546,7 @@ Scheme
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayBrowserTab"
@@ -2569,7 +2557,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayLarger"
@@ -2616,7 +2604,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"additive"		"0"
 			}
 		}
@@ -2667,18 +2655,6 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
-			}
-		}
-
-		"TF2ComboBox"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
 			}
 		}
 
@@ -2746,6 +2722,12 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -2804,6 +2786,67 @@ Scheme
 			"turkish"
 			{
 				"range" "0x0000 0xFFFF"
+			}
+		}
+		"7"
+		{
+			"font"	"resource/ocra.ttf"
+			"name"	"ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
 			}
 		}
 	}
