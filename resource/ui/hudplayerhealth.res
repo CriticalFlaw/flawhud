@@ -71,10 +71,10 @@
 		"scaleImage"	"1"
 	}
 
-	"PlayerHealthValue"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValue"
+		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -91,10 +91,10 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
-	"PlayerHealthValueShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValueShadow"
+		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"
@@ -107,7 +107,7 @@
 		"font"			"FontBold50"
 		"fgcolor"		"ShadowBlack"
 
-		"pin_to_sibling"		"PlayerHealthValue"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

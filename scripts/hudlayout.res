@@ -598,7 +598,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"r130"
-		"ypos"				"247"
+		"ypos"				"220"
 		"wide"				"500"
 		"tall"				"136"
 		"BgAlpha"			"0"
@@ -1186,7 +1186,7 @@
 		"EngineerY"			"330"
 		"zpos"				"-10"
 		"wide"				"200"
-		"tall"				"280"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 	}

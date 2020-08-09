@@ -508,7 +508,7 @@
 		"armedBgColor_override" "Transparent"
 		"depressedBgColor_override" "Transparent"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White"
 		"image_armedcolor"	"72 255 255 255"
 
 		"SubImage"
