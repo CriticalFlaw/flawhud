@@ -355,10 +355,18 @@
 		"keyboardinputenabled"	"0"
 	}
 
+	// I believe Valve hardcoded part of this control for some reason.
+	// Using the same control with a different name fixes it.
 	"random"
 	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"random2"
+	{
 		"ControlName"		"CExButton"
-		"fieldName"			"random"
+		"fieldName"			"random2"
 		"xpos"				"c100"
 		"ypos"				"c75"
 		"zpos"				"6"
