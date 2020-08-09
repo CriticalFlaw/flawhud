@@ -194,7 +194,7 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 			}
 
-			PanelBG
+			"PanelBG"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"PanelBG"

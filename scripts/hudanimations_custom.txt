@@ -1,4 +1,4 @@
-//Health Bonus Pulse
+// Bonus Health Pulse
 event HudHealthBonusPulse
 {
 	Animate	HealthBG					BgColor		"Overheal"			Linear 0.0 0.2
@@ -16,7 +16,7 @@ event HudHealthBonusPulse
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulse		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 
 	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
@@ -27,8 +27,7 @@ event HudHealthBonusPulseStop
 	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
 }
 //==================================================================================
-
-//Health Dying Pulse
+// Low Health Pulse
 event HudHealthDyingPulse
 {
 	Animate	HealthBG					BgColor		"LowHealth"			Linear 0.0 0.2
@@ -96,10 +95,10 @@ event HudMedicCharged
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 			0.0
+	StopEvent HudMedicCharged			0.0
 	StopEvent HudMedicChargedLoop		0.0
 
-	Animate	ChargeMeter 				FgColor		"UberCharged1"		Linear 0.0 0.0001
+	Animate	ChargeMeter					FgColor		"UberCharged1"		Linear 0.0 0.0001
 }
 //==================================================================================
 

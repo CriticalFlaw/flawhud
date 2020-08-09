@@ -729,7 +729,6 @@
 		"textinsetx"	"15"
 
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

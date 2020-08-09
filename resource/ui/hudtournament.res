@@ -262,10 +262,6 @@
 
 				if_competitive
 				{
-					"xpos"			"24"
-					"ypos"			"5"
-					"wide"			"12"
-					"tall"			"12"
 					"visible"		"1"
 				}
 
@@ -298,10 +294,6 @@
 
 				if_competitive
 				{
-					"xpos"			"26"
-					"ypos"			"7"
-					"wide"			"8"
-					"tall"			"8"
 					"visible"		"1"
 				}
 
@@ -852,23 +844,6 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-
-		if_mvm
-		{
-			"xpos"			"c-20"
-		}
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-		}
-
-		if_readymode
-		{
-			"xpos"			"c-20"
-			"ypos"			"130"
-		}
 	}
 
 	"CountdownLabelShadow"
@@ -890,22 +865,5 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
 		"proportionaltoparent"	"1"
-
-		if_mvm
-		{
-			"xpos"			"c-19"
-		}
-
-		if_competitive
-		{
-			"xpos"			"cs-0.49"
-			"ypos"			"cs-0.09"
-		}
-
-		if_readymode
-		{
-			"xpos"			"c-19"
-			"ypos"			"129"
-		}
 	}
 }

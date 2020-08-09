@@ -11,7 +11,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
 

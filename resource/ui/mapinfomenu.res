@@ -116,7 +116,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Continue (&E)"
+		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -152,7 +152,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Back (&Q)"
+		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -179,5 +179,29 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
+	}
+
+	"teambutton0SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton0SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"command"		"continue"
+	}
+
+	"teambutton1SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton1SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"command"		"back"
 	}
 }
