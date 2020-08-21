@@ -287,7 +287,7 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"90"
+		"xpos"					"100"
 		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"38"

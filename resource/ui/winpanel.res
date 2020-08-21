@@ -375,30 +375,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	"WinningTeamLabelDropshadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"FontRegular10"
-		"fgcolor"		"ShadowBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"185"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"pin_to_sibling"		"WinningTeamLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
 	"AdvancingTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -417,30 +393,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
-	"AdvancingTeamLabelDropshadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"FontRegular10"
-		"fgcolor"		"ShadowBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"185"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%AdvancingTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"pin_to_sibling"		"AdvancingTeamLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"WinReasonLabel"
 	{

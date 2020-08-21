@@ -487,10 +487,10 @@
 		}
 	}
 
-	"WatchStreamButton"
+	"ReloadHUDButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"WatchStreamButton"
+		"fieldName"		"ReloadHUDButton"
 		"xpos"			"r28"
 		"ypos"			"65"
 		"zpos"			"0"
@@ -528,6 +528,51 @@
 			"drawcolor_override" "235 226 202 255"
 		}
 	}
+	
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"r28"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			"t"
+			"font"				"CustomIcons"
+			"command"			"watch_stream"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"100 65 165 255"
+		}
+	}
 
 	"StreamListPanel"
 	{
@@ -548,7 +593,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r28"
-		"ypos"			"90"
+		"ypos"			"115"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -593,7 +638,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r28"
-		"ypos"			"115"
+		"ypos"			"140"
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
