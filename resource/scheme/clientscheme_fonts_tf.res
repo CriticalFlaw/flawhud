@@ -25,29 +25,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"FontBold27"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"27"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"FontBold22Outline"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"22"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
 		"FontBold22"
 		{
 			"1"
@@ -104,18 +81,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"FontBold12Outline"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"12"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-				"outline"		"1"
-			}
-		}
 		"FontBold12"
 		{
 			"1"
@@ -168,26 +133,6 @@ Scheme
 			{
 				"name"			"TF2 Secondary"
 				"tall"			"24"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"FontRegular20"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"FontRegular18"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"16"
 				"additive"		"0"
 				"antialias" 	"1"
 			}

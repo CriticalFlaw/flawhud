@@ -12,8 +12,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
-		"settitlebarvisible" "0"
 	}
 
 	"MainBG"
@@ -29,7 +27,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HudBlack"
+		"fillcolor"			"0 0 0 200"
 	}
 
 	"TFMessageTitle"
@@ -47,8 +45,6 @@
 		"enabled"			"1"
 		"labelText"			"#TF_WELCOME"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"FontBold22"
 		"fgcolor"			"White"
 	}
@@ -110,12 +106,10 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Continue"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"wrap"				"0"
 		"command"			"okay"
 		"default"			"1"
 		"font"				"FontBold14"

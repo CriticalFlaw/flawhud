@@ -38,10 +38,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"
-		"teambg_2"		"../hud/color_panel_brown"
-		"teambg_3"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_clear"
+		"teambg_3"		"../hud/color_panel_clear"
 		"paintborder"	"0"
 
 		"src_corner_height"		"23"

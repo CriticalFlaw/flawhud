@@ -215,7 +215,7 @@
 				"ControlName"		"ComboBox"
 				"fieldName"			"ClassCombo"
 				"xpos"				"c+124"
-				"ypos"				"200"
+				"ypos"				"212"
 				"zpos"				"10"
 				"wide"				"167"
 				"tall"				"14"

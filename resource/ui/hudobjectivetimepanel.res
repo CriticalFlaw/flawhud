@@ -48,7 +48,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"28"
-		"ypos"				"16"
+		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"15"
@@ -59,12 +59,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 
 		if_match
 		{
-			"xpos"			"25"
-			"ypos"			"20"
+			"visible"		"0"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -79,7 +78,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"28"
-		"ypos"				"25"
+		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"15"
@@ -90,12 +89,12 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 
 		if_match
 		{
 			"xpos"			"25"
-			"ypos"			"26"
+			"ypos"			"22"
 		}
 	}
 	"OvertimeBG"
@@ -110,7 +109,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"28"
-		"ypos"				"16"
+		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"15"
@@ -121,12 +120,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 
 		if_match
 		{
-			"xpos"			"25"
-			"ypos"			"20"
+			"visible"		"0"
 		}
 	}
 	"SuddenDeathBG"
@@ -141,7 +139,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"28"
-		"ypos"				"16"
+		"ypos"				"18"
 		"zpos"				"15"
 		"wide"				"50"
 		"tall"				"15"
@@ -152,13 +150,13 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"FontRegular8"
+		"font"				"FontRegular10"
 		"fgcolor"			"White"
 
 		if_match
 		{
 			"xpos"			"25"
-			"ypos"			"20"
+			"ypos"			"22"
 		}
 	}
 	"SetupBG"
@@ -172,8 +170,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
-		"xpos"				"28"
-		"ypos"				"16"
+		"xpos"				"68"
+		"ypos"				"3"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"15"
@@ -188,8 +186,7 @@
 
 		if_match
 		{
-			"xpos"			"25"
-			"ypos"			"20"
+			"visible"		"0"
 		}
 
 		if_mvm

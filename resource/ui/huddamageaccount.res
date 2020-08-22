@@ -10,7 +10,7 @@
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"FontBold20Outline"
-		"delta_item_font_big"	"FontBold22Outline"
+		"delta_item_font_big"	"FontBold20Outline"
 	}
 
 	"DamageAccountValue"
