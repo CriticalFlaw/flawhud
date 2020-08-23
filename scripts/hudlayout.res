@@ -816,7 +816,7 @@
 		"enabled"			"1"
 		"separator_width"	"2"
 		"separator_height"	"7"
-		"height_offset"		"2"
+		"height_offset"		"0"
 	}
 
 	HudCapturePanel

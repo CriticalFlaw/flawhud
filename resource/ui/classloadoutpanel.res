@@ -441,25 +441,6 @@
 		}
 	}
 
-	"SecretButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldname"		"SecretButton"
-		"xpos"			"r30"
-		"ypos"			"c100"
-		"zpos"			"11"
-		"wide"			"15"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"?"
-		"font"			"FontBold8"
-		"textAlignment"	"center"
-		"sound_depressed"	""
-		"sound_released"	"ui/secret.wav"
-		"paintbackground"	"0"
-	}
-
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"

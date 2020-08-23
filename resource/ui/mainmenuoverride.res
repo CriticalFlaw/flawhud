@@ -427,7 +427,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
 		"xpos"				"rs1-10"
-		"ypos"				"35"
+		"ypos"				"40"
 		"zpos"				"0"
 		"wide"				"20"
 		"tall"				"20"
@@ -461,7 +461,7 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"Notifications_ShowButtonPanel_SB"
-			"xpos"				"0"
+			"xpos"				"-1"
 			"ypos"				"0"
 			"wide"				"20"
 			"tall"				"20"
