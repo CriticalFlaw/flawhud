@@ -11,7 +11,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"DarkerGrey"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"

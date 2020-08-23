@@ -426,7 +426,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
-		"xpos"				"r29"
+		"xpos"				"rs1-10"
 		"ypos"				"35"
 		"zpos"				"0"
 		"wide"				"20"
@@ -491,7 +491,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReloadHUDButton"
-		"xpos"			"r28"
+		"xpos"			"rs1-10"
 		"ypos"			"65"
 		"zpos"			"0"
 		"wide"			"20"
@@ -533,7 +533,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r28"
+		"xpos"			"rs1-10"
 		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"20"
@@ -592,7 +592,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r28"
+		"xpos"			"rs1-10"
 		"ypos"			"115"
 		"zpos"			"1"
 		"wide"			"20"
@@ -637,7 +637,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r28"
+		"xpos"			"rs1-10"
 		"ypos"			"140"
 		"zpos"			"0"
 		"wide"			"20"
@@ -1295,7 +1295,7 @@
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular12"
 		"labelText"		"FlawHUD v2020.0726"
-		"xpos"			"r130"
+		"xpos"			"rs1-5"
 		"ypos"			"r13"
 		"wide"			"130"
 		"tall"			"10"
@@ -1410,7 +1410,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
-		"xpos"			"-5"
+		"xpos"			"-10"
 		"ypos"			"-2"
 		"zpos"			"12"
 		"wide"			"20"

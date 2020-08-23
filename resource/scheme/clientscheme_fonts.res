@@ -28,29 +28,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"FontBold27"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"27"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"FontBold22Outline"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"22"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
 		"FontBold22"
 		{
 			"1"
@@ -118,18 +95,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"FontBold12Outline"
-		{
-			"1"
-			{
-				"name"			"Code-Pro-Bold"
-				"tall"			"12"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
 		"FontBold10"
 		{
 			"1"
@@ -159,26 +124,6 @@ Scheme
 			{
 				"name"			"Gravity-Light"
 				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"FontRegular20"
-		{
-			"1"
-			{
-				"name"			"Gravity-Light"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"FontRegular18"
-		{
-			"1"
-			{
-				"name"			"Gravity-Light"
-				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
 			}
