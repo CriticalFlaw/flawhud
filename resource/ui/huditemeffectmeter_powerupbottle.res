@@ -5,8 +5,8 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"192"
-		"ypos"				"r60"
+		"xpos"				"225"
+		"ypos"				"r35"
 		"wide"				"42"
 		"tall"				"30"
 		"MeterFG"			"TanLight"
@@ -28,7 +28,7 @@
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
 	}
-
+	
 	"ItemEffectIcon"
 	{
 		"ControlName"		"CTFImagePanel"

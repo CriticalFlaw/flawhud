@@ -384,7 +384,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"20"
+		"ypos"			"5"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -393,7 +393,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"FontRegular12"
+		"font"			"FontRegular15"
 		"wrap"			"1"
 		"centerwrap"	"1"
 
