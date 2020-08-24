@@ -186,12 +186,12 @@
 
 		if_match
 		{
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 
