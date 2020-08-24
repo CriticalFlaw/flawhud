@@ -762,7 +762,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"FontRegular10"
+		"font"			"FontBold12"
 		"xpos"			"c-125"
 		"ypos"			"30"
 		"wide"			"250"
@@ -779,7 +779,6 @@
 		if_mvm
 		{
 			"ypos"			"105"
-			"visible"		"1"
 		}
 
 		if_competitive
@@ -792,7 +791,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"FontRegular10"
+		"font"			"FontBold12"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"wide"			"250"

@@ -12,7 +12,7 @@
 
 		"SplashBackground"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SplashBackground"
 			"xpos"			"25"
 			"ypos"			"16"
@@ -22,7 +22,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"Red"
+			"fillcolor"		"Black"
 		}
 
 		"SplashLabel"
