@@ -25,6 +25,11 @@ Features available in the latest [CastingEssentials](https://github.com/PazerOP/
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 
+#### Sponsors
+Special thank you to those who are sponsoring this project via [GitHub Sponsors](https://github.com/sponsors/CriticalFlaw)
+* pazer
+* saturncaine
+
 #### Help/Support
 If you've found a bug, need help or have a suggestion, either...
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)

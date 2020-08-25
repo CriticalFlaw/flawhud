@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"ItemFontAttribSmallest"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
