@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"28"
+		"xpos"				"15"
 		"ypos"				"-10"
 		"zpos"				"2"
 		"wide"				"50"
@@ -16,14 +16,14 @@
 
 		if_match
 		{
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"15"
 		"ypos"				"16"
 		"zpos"				"4"
 		"wide"				"20"
@@ -39,7 +39,7 @@
 
 		if_match
 		{
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 
@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"28"
+		"xpos"				"15"
 		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
@@ -63,7 +63,9 @@
 
 		if_match
 		{
-			"visible"		"0"
+			"xpos"			"0"
+			"wide"			"80"
+			"ypos"			"22"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -77,7 +79,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"28"
+		"xpos"				"15"
 		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
@@ -93,8 +95,9 @@
 
 		if_match
 		{
-			"xpos"			"25"
-			"ypos"			"22"
+			"xpos"			"0"
+			"wide"			"80"
+			"ypos"			"28"
 		}
 	}
 	"OvertimeBG"
@@ -108,7 +111,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
-		"xpos"				"28"
+		"xpos"				"15"
 		"ypos"				"18"
 		"zpos"				"5"
 		"wide"				"50"
@@ -124,7 +127,7 @@
 
 		if_match
 		{
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathBG"
@@ -138,7 +141,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"28"
+		"xpos"				"15"
 		"ypos"				"18"
 		"zpos"				"15"
 		"wide"				"50"
@@ -155,7 +158,8 @@
 
 		if_match
 		{
-			"xpos"			"25"
+			"xpos"			"0"
+			"wide"			"80"
 			"ypos"			"22"
 		}
 	}
@@ -170,15 +174,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
-		"xpos"				"68"
-		"ypos"				"3"
+		"xpos"				"70"
+		"ypos"				"5"
 		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"15"
+		"wide"				"80"
+		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
@@ -186,7 +190,9 @@
 
 		if_match
 		{
-			"xpos"			"9999"
+			"xpos"			"0"
+			"textAlignment"	"center"
+			"ypos"			"25"
 		}
 
 		if_mvm

@@ -965,7 +965,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c155"
-		"zpos"				"1"
+		"zpos"				"10"
 		"wide"				"250"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"

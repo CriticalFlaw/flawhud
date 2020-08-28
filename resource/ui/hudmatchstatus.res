@@ -258,11 +258,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-50"
+		"xpos"				"c-40"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
-		"tall"				"150"
+		"wide"				"90"
+		"tall"				"80"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"31"
@@ -275,12 +275,8 @@
 
 		if_match
 		{
-			"delta_item_x"			"31"
 			"delta_item_start_y"	"23"
 			"delta_item_end_y"		"43"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"2"
 			"delta_item_font"		"FontBold14"
 		}
 
@@ -290,7 +286,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"FontBold18"
 			"fgcolor"		"White"
-			"xpos"			"28"
+			"xpos"			"15"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
@@ -302,9 +298,9 @@
 
 			if_match
 			{
-				"xpos"			"25"
-				"ypos"			"9"
-				"tall"			"14"
+				"xpos"			"0"
+				"ypos"			"7"
+				"wide"			"80"
 				"font"			"FontBold14"
 			}
 		}

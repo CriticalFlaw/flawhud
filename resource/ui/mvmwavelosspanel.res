@@ -60,7 +60,7 @@
 		"labelText"			"%summaryheader%"
 		"textAlignment"		"west"
 		"xpos"				"c-250"
-		"ypos"				"135"
+		"ypos"				"140"
 		"wide"				"550"
 		"tall"				"30"
 		"fgcolor"			"White"
