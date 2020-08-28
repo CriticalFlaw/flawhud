@@ -29,6 +29,7 @@ Features available in the latest [CastingEssentials](https://github.com/PazerOP/
 Special thank you to those who are sponsoring this project via [GitHub Sponsors](https://github.com/sponsors/CriticalFlaw)
 * pazer
 * saturncaine
+* berry-jordan
 
 #### Help/Support
 If you've found a bug, need help or have a suggestion, either...
