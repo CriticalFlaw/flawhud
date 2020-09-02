@@ -30,6 +30,7 @@ Special thank you to those who are sponsoring this project via [GitHub Sponsors]
 * pazer
 * saturncaine
 * berry-jordan
+* Doorpie624
 
 #### Help/Support
 If you've found a bug, need help or have a suggestion, either...
