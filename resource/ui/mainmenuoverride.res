@@ -574,20 +574,6 @@
 		}
 	}
 
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"r91"
-		"ypos"			"140"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"290"
-		"visible"		"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"0"
-	}
-
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
