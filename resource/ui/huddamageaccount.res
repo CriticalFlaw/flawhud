@@ -7,7 +7,7 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 255 127 255"
-		"NegativeColor"			"255 255 0 255"
+		"NegativeColor"			""	// Unused
 		"delta_lifetime"		"2"
 		"delta_item_font"		"FontBold20Outline"
 		"delta_item_font_big"	"FontBold20Outline"

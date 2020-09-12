@@ -338,8 +338,8 @@
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"	"east"
-					"xpos"			"-1"
-					"ypos"			"-1"
+					"xpos"			"6"
+					"ypos"			"102"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
@@ -347,10 +347,6 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-
-					"pin_to_sibling"		"BlueTeamWinner"
-					"pin_corner_to_sibling"	"PIN_TOPLEFT"
-					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 					if_large
 					{
@@ -612,8 +608,8 @@
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"	"west"
-					"xpos"			"-1"
-					"ypos"			"-1"
+					"xpos"			"r4-p.19"
+					"ypos"			"102"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
@@ -622,9 +618,10 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					"pin_to_sibling"		"RedTeamWinner"
-					"pin_corner_to_sibling"	"PIN_TOPLEFT"
-					"pin_to_sibling_corner"	"PIN_TOPLEFT"
+					if_large
+					{
+						"ypos"		"42"
+					}
 				}
 				"RedTeamImage"
 				{
