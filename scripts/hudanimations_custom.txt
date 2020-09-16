@@ -123,14 +123,23 @@ event HitMarker
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-//	RunEvent HudSpyDisguiseChanged	0.0
-//	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-//	RunEvent HudSpyDisguiseChanged	0.0
-//	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+}
+
+event HudSpyDisguiseChanged
+{
+	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
+	
+	RunEvent HudSpyDisguiseHide			0.7
 }
 //==================================================================================
 
