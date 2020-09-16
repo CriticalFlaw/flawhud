@@ -12,6 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
+		"fillcolor_minmode"	"Transparent"
 	}
 
 	"TargetIDBG"
@@ -88,6 +89,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetname%"
+		"labelText_minmode"	""
 		"textAlignment"		"west"
 	}
 
@@ -104,6 +106,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetname%"
+		"labelText_minmode"	""
 		"textAlignment"		"west"
 		"fgcolor_override"	"ShadowBlack"
 
@@ -117,8 +120,10 @@
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
 		"font"				"FontRegular10"
+		"font_minmode"		"FontRegular12"
 		"xpos"				"40"
 		"ypos"				"15"
+		"ypos_minmode"		"35"
 		"zpos"				"1"
 		"wide"				"640"
 		"tall"				"25"
@@ -152,6 +157,7 @@
 		"fieldName"			"AmmoIcon"
 		"xpos"				"50"
 		"ypos"				"22"
+		"ypos_minmode"		"35"
 		"zpos"				"12"
 		"wide"				"10"
 		"tall"				"10"
@@ -167,6 +173,8 @@
 		"fieldName"			"KillStreakAnchor"
 		"xpos"				"-5"
 		"ypos"				"24"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"38"
 		"wide"				"8"
 		"tall"				"8"
 		"visible"			"1"

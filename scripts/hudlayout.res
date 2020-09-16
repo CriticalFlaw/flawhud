@@ -503,6 +503,7 @@
 		"CornerRadius"			"3"
 		"RightJustify"			"1"
 		"TextFont"				"FontRegular10"
+		"TextFont_minmode"		"Transparent"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"White"
@@ -751,6 +752,7 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		"text_xpos"			"33"
+		"text_xpos_minmode"	"9999"
 	}
 
 	HudHintDisplay
@@ -1405,6 +1407,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
+		"player_name_font_minmode"	"Transparent"
 	}
 
 	MatchSummary

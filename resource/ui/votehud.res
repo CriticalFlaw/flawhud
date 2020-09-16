@@ -65,6 +65,7 @@
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 			"noshortcutsyntax"	"1"
+			"fgcolor_override_minmode"	"Transparent"
 		}
 	}
 
@@ -88,6 +89,7 @@
 			"fieldName"			"Header"
 			"xpos"				"10"
 			"ypos"				"5"
+			"ypos_minmode"		"9999"
 			"wide"				"130"
 			"tall"				"20"
 			"visible"			"1"
@@ -119,6 +121,7 @@
 			"fgcolor_override"	"White"
 			"wrap"				"1"
 			"noshortcutsyntax"	"1"
+			"fgcolor_override_minmode"	"Transparent"
 		}
 
 		"TargetAvatarImage"
@@ -132,6 +135,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"image"				""
+			"image_minmode"		"0"
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
@@ -607,6 +611,8 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			"visible_minmode"	"0"
+			"enabled_minmode"	"0"
 			"tabPosition"		"0"
 			"autoresize"		"0"
 			"linespacing"		"16"

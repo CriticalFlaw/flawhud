@@ -286,6 +286,8 @@
 			"zpos"				"0"
 			"wide"				"200"
 			"tall"	 			"f0"
+			"wide_minmode"		"0"
+			"tall_minmode"		"0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
