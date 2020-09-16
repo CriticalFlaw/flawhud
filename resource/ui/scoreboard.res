@@ -23,6 +23,7 @@
 		"ping_width"		"20"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
+		"medal_width_minmode"	 "0"
 
 		if_mvm
 		{
@@ -91,6 +92,7 @@
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
+		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -253,6 +255,7 @@
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
+		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -389,6 +392,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -459,6 +463,7 @@
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"188"
+		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -481,6 +486,7 @@
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"188"
+		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -510,6 +516,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"ShadedBar"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -528,6 +535,7 @@
 		"fieldName"			"ShadedBar"
 		"xpos"				"0"
 		"ypos"				"280"
+		"ypos_minmode"		"80"
 		"zpos"				"2"
 		"wide"				"585"
 		"tall"				"50"
@@ -548,7 +556,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SpectatorsInQueue"
-		"font"				"ScoreboardVerySmall"
+		"font"				"FontRegular10"
 		"labelText"			"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"				"-2"
@@ -560,6 +568,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"ShadedBar"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -948,6 +957,7 @@
 		"fieldName"			"LocalPlayerStatsPanel"
 		"xpos"				"0"
 		"ypos"				"282"
+		"ypos_minmode"		"82"
 		"zpos"				"3"
 		"wide"				"600"
 		"tall"				"50"
@@ -2216,7 +2226,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
+		"xpos"				"25"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"

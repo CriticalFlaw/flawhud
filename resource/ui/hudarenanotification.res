@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"FontBold10"
+		"font"			"FontBold14"
 		"xpos"			"50"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%notificationtip%"
-		"textAlignment"	"west"
+		"textAlignment"	"north"
 	}
 
 	"SwitchImage"

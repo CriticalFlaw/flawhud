@@ -503,6 +503,7 @@
 		"CornerRadius"			"3"
 		"RightJustify"			"1"
 		"TextFont"				"FontRegular10"
+		"TextFont_minmode"		"Transparent"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"White"
@@ -751,6 +752,7 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		"text_xpos"			"33"
+		"text_xpos_minmode"	"9999"
 	}
 
 	HudHintDisplay
@@ -839,6 +841,7 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"r130"
+		"ypos_minmode"		"r60"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"152"
@@ -851,6 +854,7 @@
 		"enabled"			"1"
 		"xpos"				"c-180"
 		"ypos"				"r125"
+		"ypos_minmode"		"r65"
 		"wide"				"360"
 		"tall"				"132"
 	}
@@ -1405,6 +1409,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
+		"player_name_font_minmode"	"Transparent"
 	}
 
 	MatchSummary

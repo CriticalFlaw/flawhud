@@ -136,6 +136,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
+				"visible_minmode"	"0"
 
 				if_competitive
 				{
