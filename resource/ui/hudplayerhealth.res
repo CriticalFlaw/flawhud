@@ -8,7 +8,7 @@
 		"xpos"			"c-190"
 		"ypos"			"c68"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"150"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"23"
 		"tall"			"23"
