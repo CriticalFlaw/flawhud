@@ -841,6 +841,7 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"r130"
+		"ypos_minmode"		"r60"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"152"
@@ -853,6 +854,7 @@
 		"enabled"			"1"
 		"xpos"				"c-180"
 		"ypos"				"r125"
+		"ypos_minmode"		"r65"
 		"wide"				"360"
 		"tall"				"132"
 	}
