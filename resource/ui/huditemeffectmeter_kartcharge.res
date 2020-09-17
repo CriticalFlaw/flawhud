@@ -31,7 +31,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"DefaultSmall"
+		"font"					"FontRegular10"
 	}
 
 	"ItemEffectMeter"
@@ -61,7 +61,7 @@
 		"xpos"					"115"
 		"ypos"					"8"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"50"
 		"tall"					"15"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -71,17 +71,17 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"FontBold14"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"50"
 		"tall"					"15"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -91,7 +91,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"FontBold14"
 		"fgcolor"				"ShadowBlack"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
