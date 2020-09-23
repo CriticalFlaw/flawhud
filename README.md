@@ -8,6 +8,9 @@ Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf
 #### Custom Crosshairs
 Custom crosshairs are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `CustomCrosshair` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the TF2Crosshairs.png image file (located in the `scripts` folder).
 
+#### Streamer Mode
+If you're streaming on Twitch/YouTube and need extra protection against stream snipers and DDoS attacks, then you can toggle Streamer Mode by clicking on the TF Logo on the right hand side of the main menu. Streamer Mode hides player names and other information that would otherwise let the viewer know where and who you're playing with. This feature uses minmode `cl_hud_minmode` allowing to toggle in and out of Streamer Mode without needing to restart the game.
+
 #### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the `_tf` suffix as instructed in the file.
 
