@@ -92,6 +92,38 @@
 				"proportionalToParent"	"1"
 				//fillcolor_override 	"255 0 0 32"
 			}
+			
+			"StatusEffectIconRed"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconRed"
+				"xpos"					"142"
+				"ypos"					"2"
+				"zpos"					"200"
+				"wide"					"16"
+				"tall"					"16"
+				"visible"				"0"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent"	"1"
+				"image"					""
+			}
+			
+			"StatusEffectIconBlue"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconBlue"
+				"xpos"					"142"
+				"ypos"					"2"
+				"zpos"					"200"
+				"wide"					"16"
+				"tall"					"16"
+				"visible"				"0"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent" 	"1"
+				"image"					""
+			}
 
 			"BluePlayerName"
 			{
@@ -318,7 +350,7 @@
 				"font"				"FontBold10Outline"
 				"xpos"				"140"
 				"ypos"				"1"
-				"zpos"				"6"
+				"zpos"				"201"
 				"wide"				"20"
 				"tall"				"20"
 				"autoResize"		"0"

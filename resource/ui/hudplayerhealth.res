@@ -710,7 +710,7 @@
 		"fieldName"		"PlayerStatusHookBleedImage"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"8"
+		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"

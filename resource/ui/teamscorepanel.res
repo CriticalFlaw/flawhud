@@ -9,6 +9,7 @@
 		"fieldName"				"TeamScorePanel"
 		"xpos"					"0"
 		"ypos"					"0"
+		"zpos"					"100"
 		"wide"					"f0"
 		"tall"					"100"
 		"autoResize"			"0"
@@ -21,8 +22,22 @@
 	"TeamNameBluBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamNameBluBG"
+		"fieldName"				"TeamNameBG"
 		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"398"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
+
+	"TeamNameRedBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TeamNameBG"
+		"xpos"					"c33"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"f0"
@@ -58,8 +73,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamNameBluShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"wide"					"100"
 		"tall"					"18"
 		"font"					"FontBold22"
@@ -79,16 +94,16 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"15"
-		"ypos"					"-13"
+		"xpos"					"-28"
+		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
 		"fillcolor"				"Blue"
 
 		"pin_to_sibling"		"CenterAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"TeamScoreBlu"
@@ -115,8 +130,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamScoreBluShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"wide"					"25"
 		"tall"					"25"
 		"font"					"FontBold22"
@@ -134,9 +149,9 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CenterAnchor"
-		"xpos"					"cs-0.5"
-		"ypos"					"-13"
-		"wide"					"100"
+		"xpos"					"c0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 		"visible"				"1"
 	}
@@ -165,8 +180,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamScoreRedShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"1"
 		"wide"					"35"
 		"tall"					"25"
@@ -207,8 +222,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamNameRedShadow"
-		"xpos"					"-1"
-		"ypos"					"-1"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"wide"					"100"
 		"tall"					"18"
 		"font"					"FontBold22"
@@ -228,14 +243,14 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"15"
-		"ypos"					"-13"
+		"xpos"					"-28"
+		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
 		"fillcolor"				"Red"
 		"pin_to_sibling"		"CenterAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

@@ -31,7 +31,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	"WorkshopBG"
@@ -42,7 +42,7 @@
 		"ypos"				"0"
 		"zpos"				"-99"
 		"wide"				"600"
-		"tall"				"500"
+		"tall"				"300"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"workshop_blue_top"
@@ -62,7 +62,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	"Title"
@@ -1211,9 +1211,9 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ButtonClose"
-		"xpos"				"145"
+		"xpos"				"10"
 		"ypos"				"365"
-		"wide"				"150"
+		"wide"				"100"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -1235,7 +1235,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ButtonPublish"
-		"xpos"				"305"
+		"xpos"				"120"
 		"ypos"				"365"
 		"wide"				"150"
 		"tall"				"25"
