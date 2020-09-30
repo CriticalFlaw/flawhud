@@ -141,7 +141,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"MeterFG"			"TanLight"
+		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
 
@@ -600,11 +600,11 @@
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r130"
-		"ypos"				"220"
-		"wide"				"500"
+		"xpos"				"r140"
+		"ypos"				"r200"
+		"wide"				"130"
 		"tall"				"136"
-		"BgAlpha"			"0"
+		"BgAlpha"			"100"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"
@@ -1192,7 +1192,7 @@
 		"EngineerY"			"330"
 		"zpos"				"-10"
 		"wide"				"200"
-		"tall"				"100"
+		"tall"				"95"
 		"visible"			"1"
 		"enabled"			"1"
 	}
