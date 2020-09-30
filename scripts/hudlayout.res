@@ -46,6 +46,7 @@
 		"drawcolor"			"Crosshair"
 		"Alpha"				"255"
 	}
+	
 	CrosshairPulse
 	{
 		"ControlName"		"CTFImagePanel"
@@ -67,7 +68,7 @@
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
 	//--------------------------------------------------------------
-	"TransparentViewmodel"
+	TransparentViewmodel
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
