@@ -501,8 +501,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"rs1+20"
-					"ypos"			"5"
+					"xpos"			"c-20"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -538,8 +538,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
-					"ypos"			"15"
+					"xpos"			"rs1+20"
+					"ypos"			"5"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
