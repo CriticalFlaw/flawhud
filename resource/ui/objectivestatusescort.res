@@ -404,7 +404,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
-			"xpos"			"245"
+			"xpos"			"235"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"7"

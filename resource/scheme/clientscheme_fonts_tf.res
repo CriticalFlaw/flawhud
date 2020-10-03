@@ -429,9 +429,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [!$OSX]
-				"name"			"Helvetica" [$OSX]
-				"tall"			"18"
+				"name"			"TF2 Build"
+				"tall"			"14"
 				"weight"		"900"
 				"antialias"		"1"
 				"additive"		"1"
@@ -1680,7 +1679,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"8"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"1"
 				"antialias" 	"1"
@@ -1691,7 +1690,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"9"
+				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1877,7 +1876,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"8"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
