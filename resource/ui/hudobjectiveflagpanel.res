@@ -445,7 +445,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 
 		"if_no_flags"
