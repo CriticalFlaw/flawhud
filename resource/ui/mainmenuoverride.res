@@ -1096,7 +1096,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"WhiteBorder"
+		"border"				"NoBorder"
 		"bgcolor_override"		"DarkGrey"
 
 		"Notifications_CloseButton"

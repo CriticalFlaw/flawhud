@@ -652,7 +652,7 @@
 				"xpos"				"90"
 				"ypos"				"0"
 				"zpos"				"1"
-				"wide"				"150"
+				"wide"				"90"
 				"tall"				"f0"
 				"scaleimage"		"0"
 				"positionImage"		"0"

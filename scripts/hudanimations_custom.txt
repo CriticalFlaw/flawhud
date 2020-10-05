@@ -160,6 +160,18 @@ event TrainingHudBounce
 }
 //==================================================================================
 
-event CompetitiveGame_LowerChatWindow	{ }
-event CompetitiveGame_RestoreChatWindow	{ }
-event HudTournament_MoveChatWindow 		{ }
+event CompetitiveGame_LowerChatWindow
+{ 
+	Animate HudChat ypos r120 Accel 0 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{ 
+	Animate HudChat ypos 25 Accel 0 0
+}
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 0
+}
