@@ -340,9 +340,6 @@
 					if_mini
 					{
 						"xpos"			"40"
-						"zpos"			"0"
-						"wide"			"100"
-						"textAlignment"	"south-west"
 					}
 				}
 
