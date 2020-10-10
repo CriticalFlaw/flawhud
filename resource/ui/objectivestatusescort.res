@@ -386,7 +386,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"12"
+				"xpos"		"10"
 			}
 
 			"if_multiple_trains_top"
