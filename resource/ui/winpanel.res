@@ -407,7 +407,7 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"FontRegular9"
 		"xpos"			"10"
-		"ypos"			"135"
+		"ypos"			"130"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"12"
