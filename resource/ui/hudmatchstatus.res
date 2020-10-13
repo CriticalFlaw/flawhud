@@ -265,19 +265,19 @@
 		"tall"				"80"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"31"
-		"delta_item_start_y"	"14"
-		"delta_item_end_y"		"34"
+		"delta_item_x"			"25"
+		"delta_item_start_y"	"20"
+		"delta_item_end_y"		"30"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"2"
+		"delta_lifetime"		"1"
 		"delta_item_font"		"FontBold14"
 
 		if_match
 		{
-			"delta_item_start_y"	"23"
-			"delta_item_end_y"		"43"
-			"delta_item_font"		"FontBold14"
+			"delta_item_x"			"23"
+			"delta_item_start_y"	"22"
+			"delta_item_end_y"		"32"
 		}
 
 		"TimePanelValue"

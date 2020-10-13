@@ -40,6 +40,7 @@
 	"ItemEffectMeter"
 	{
 		"ypos"			"10"
+		"wide"			"60"
 		"textAlignment"	"Left"
 	}
 
