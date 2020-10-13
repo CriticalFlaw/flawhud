@@ -841,7 +841,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-100"
-		"ypos"				"r140"
+		"ypos"				"r145"
 		"ypos_minmode"		"r60"
 		"zpos"				"1"
 		"wide"				"200"
