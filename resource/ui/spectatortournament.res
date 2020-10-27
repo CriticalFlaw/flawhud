@@ -347,9 +347,9 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"FontBold10Outline"
+				"font"				"FontBold9"
 				"xpos"				"140"
-				"ypos"				"1"
+				"ypos"				"5"
 				"zpos"				"201"
 				"wide"				"20"
 				"tall"				"20"
@@ -357,17 +357,17 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
-				"textAlignment"		"south"
-				"fgcolor_override"	"0 255 0 205"
+				"textAlignment"		"center"
+				"fgcolor_override"	"White"
 			}
 
 			"RedChargeAmount"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedChargeAmount"
-				"font"				"FontBold10Outline"
+				"font"				"FontBold9"
 				"xpos"				"140"
-				"ypos"				"1"
+				"ypos"				"5"
 				"zpos"				"6"
 				"wide"				"20"
 				"tall"				"20"
@@ -375,8 +375,8 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
-				"textAlignment"		"south"
-				"fgcolor_override"	"0 255 0 205"
+				"textAlignment"		"center"
+				"fgcolor_override"	"White"
 			}
 		}
 	}

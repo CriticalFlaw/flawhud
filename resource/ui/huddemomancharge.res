@@ -22,8 +22,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
-		"xpos"				"c-60"
-		"ypos"				"c110"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"120"
 		"tall"				"8"
@@ -37,5 +37,9 @@
 		"brighttext"		"0"
 		"font"				"FontBold10"
 		"fgcolor_override"	"Black"
+
+		"pin_to_sibling"		"ChargeMeter"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }

@@ -33,8 +33,8 @@ Scheme
 		"LowHealthPulse"			"190 20 20 200"
 		"LowAmmo"					"190 20 20 255"
 		"LowAmmoPulse"				"190 20 20 200"
-		"PositiveValue"				"0 220 127 255"
-		"NegativeValue"				"240 50 35 200"
+		"PositiveValue"				"0 170 127 255"
+		"NegativeValue"				"190 20 20 200"
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
