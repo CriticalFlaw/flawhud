@@ -828,7 +828,7 @@ Scheme
 			}
 		}
 
-		"GameUIButtons
+		"GameUIButtons"
 		{
 			"1"	//[$X360]
 			{
