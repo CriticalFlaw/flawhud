@@ -172,7 +172,6 @@
 			"visible"	"0"
 		}
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -188,10 +187,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"BlueScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"BlueScore"
 
 		"if_hybrid"
 		{
@@ -256,10 +252,7 @@
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"RedScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"RedScore"
 
 		"if_hybrid"
 		{
@@ -491,7 +484,6 @@
 		"image"			"marked_for_death"
 		"scaleImage"	"1"
 	}
-
 	"PoisonTimeLabel"
 	{
 		"ControlName"	"CExLabel"

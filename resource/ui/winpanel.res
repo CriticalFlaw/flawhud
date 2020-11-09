@@ -15,14 +15,6 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreBG"
 			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"135"
-			"tall"				"40"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
 
 		"RedScoreBG"
@@ -30,14 +22,6 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreBG"
 			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"135"
-			"tall"				"40"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"border"			"TFFatLineBorderRedBGMoreOpaque"
 		}
 
 		"BLUBG"
@@ -138,10 +122,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"BlueTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamLabel"
 		}
 
 		"BlueTeamScore"
@@ -161,10 +142,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"BlueTeamScoreDropshadow"
+		"BlueTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"BlueTeamScoreDropshadow"
+			"fieldName"			"BlueTeamScoreShadow"
 			"font"				"FontBold37"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%blueteamscore%"
@@ -178,10 +159,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"BlueTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamScore"
 		}
 
 		"BlueLeaderAvatar"
@@ -199,7 +177,6 @@
 			"scaleImage"		"1"
 			"color_outline"		"DarkBlue"
 		}
-
 		"BlueLeaderAvatarBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -231,7 +208,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"RedTeamLabelShadow"
 		{
 			"ControlName"		"CExLabel"
@@ -249,10 +225,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"RedTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamLabel"
 		}
 
 		"RedTeamScore"
@@ -272,10 +245,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"RedTeamScoreDropshadow"
+		"RedTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"RedTeamScoreDropshadow"
+			"fieldName"			"RedTeamScoreShadow"
 			"font"				"FontBold37"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%redteamscore%"
@@ -289,10 +262,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamScore"
 		}
 
 		"RedLeaderAvatar"
@@ -310,7 +280,6 @@
 			"scaleImage"		"1"
 			"color_outline"		"DarkRed"
 		}
-
 		"RedLeaderAvatarBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -398,7 +367,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"DetailsLabel"
@@ -431,14 +399,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"PointsThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"HorizontalLine"
@@ -466,6 +432,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Name"
+		"font"			"FontRegular9"
 		"xpos"			"29"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -484,6 +451,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Class"
+		"font"			"FontRegular9"
 		"xpos"			"120"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -502,6 +470,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Score"
+		"font"			"FontRegular9"
 		"xpos"			"168"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -535,6 +504,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Name"
+		"font"			"FontRegular9"
 		"xpos"			"29"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -553,6 +523,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Class"
+		"font"			"FontRegular9"
 		"xpos"			"120"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -571,6 +542,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Score"
+		"font"			"FontRegular9"
 		"xpos"			"168"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -604,6 +576,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Name"
+		"font"			"FontRegular9"
 		"xpos"			"29"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -622,6 +595,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Class"
+		"font"			"FontRegular9"
 		"xpos"			"120"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -640,6 +614,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Score"
+		"font"			"FontRegular9"
 		"xpos"			"168"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -678,13 +653,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"HorizontalLine2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HorizontalLine2"
+		"xpos"			"9999"
+	}
+	"KillStreakPlayer1Badge"
+	{
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"9999"
 	}
 	"KillStreakPlayer1Avatar"
@@ -706,6 +686,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
+		"font"			"FontRegular9"
 		"xpos"			"29"
 		"ypos"			"115"
 		"zpos"			"3"
@@ -724,6 +705,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
+		"font"			"FontRegular9"
 		"xpos"			"120"
 		"ypos"			"115"
 		"zpos"			"3"
@@ -742,6 +724,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
+		"font"			"FontRegular9"
 		"xpos"			"168"
 		"ypos"			"115"
 		"zpos"			"3"

@@ -38,6 +38,7 @@
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 		}
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -49,8 +50,9 @@
 			"bgcolor_override"		"Transparent"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
-
+			"paintborder"		"1"
+			"model_center_x"	"1"
+			"model_center_y"	"1"
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -58,7 +60,6 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
 			"deferred_description"	"1"
@@ -72,6 +73,7 @@
 
 			"use_item_sounds"	"1"
 		}
+		
 		"duplicatelabels_kv"
 		{
 			"font"			"FontRegular8"
@@ -240,6 +242,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -285,6 +288,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_backpack"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -309,6 +313,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_selection"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -333,6 +338,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -395,7 +401,6 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"paintbackground"		"0"
-
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"

@@ -103,7 +103,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"FontBold9"
+		"FontBold9Outline"
 		{
 			"1"
 			{

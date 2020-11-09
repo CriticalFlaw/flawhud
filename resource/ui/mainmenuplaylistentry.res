@@ -43,7 +43,6 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
@@ -131,7 +130,6 @@
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"proportionaltoparent"	"1"
-
 			"paintbackground"	"0"
 		}
 	}
@@ -178,10 +176,7 @@
 		"fgcolor_override" "ShadowBlack"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
-
 		"pin_to_sibling"		"DescLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"DisabledIcon"

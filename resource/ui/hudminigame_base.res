@@ -52,8 +52,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"White"
-	}	
-		
+	}
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -69,10 +68,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"BlueScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"BlueScore"
 	}	
 							
 	"RedScore"
@@ -91,7 +87,6 @@
 		"font"			"FontBold20"
 		"fgcolor"		"White"		
 	}	
-		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -107,10 +102,7 @@
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"RedScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"RedScore"
 	}
 	
 	"PlayingTo"

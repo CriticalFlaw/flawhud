@@ -117,11 +117,6 @@
 			"actionsignallevel"		"2"
 			"proportionaltoparent"	"1"
 
-			"NavUp"					"Sheet"
-			"NavDown"				"BackButton"
-			"NavLeft"				"Sheet"
-			"NavRight"				"PracticeButton"
-
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
@@ -232,11 +227,6 @@
 			"Command"				"bootcamp"
 			"actionsignallevel"		"2"
 			"proportionaltoparent"	"1"
-
-			"NavUp"					"Sheet"
-			"NavDown"				"LearnMoreButton"
-			"NavLeft"				"PlayNowButton"
-			"NavRight"				"StartPartyButton"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"

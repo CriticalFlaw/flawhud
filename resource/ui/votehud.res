@@ -2,16 +2,16 @@
 {
 	"VotePassed"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"VotePassed"
-		"xpos"				"10"
-		"ypos"				"r315"
-		"wide"				"150"
-		"tall"				"67"
-		"visible"			"0"
-		"enabled"			"1"
-		"paintborder"		"0"
-		"bgcolor_override"	"HudBlack"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"VotePassed"
+		"xpos"					"10"
+		"ypos"					"r315"
+		"wide"					"150"
+		"tall"					"67"
+		"visible"				"0"
+		"enabled"				"1"
+		"paintborder"			"0"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
@@ -71,16 +71,16 @@
 
 	"VoteActive"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"VoteActive"
-		"xpos"				"10"
-		"ypos"				"r315"
-		"wide"				"150"
-		"tall"				"144"
-		"visible"			"0"
-		"enabled"			"1"
-		"paintborder"		"0"
-		"bgcolor_override"	"HudBlack"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"VoteActive"
+		"xpos"					"10"
+		"ypos"					"r315"
+		"wide"					"150"
+		"tall"					"144"
+		"visible"				"0"
+		"enabled"				"1"
+		"paintborder"			"0"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"Header"
@@ -100,7 +100,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"fgcolor_override"	"DullWhite"
+			"fgcolor_override"	"White"
 		}
 
 		"Issue"
@@ -139,6 +139,7 @@
 			"color_outline"		"52 48 45 255"
 		}
 
+		// divider
 		"Divider"
 		{
 			"ControlName"		"ImagePanel"
@@ -350,6 +351,7 @@
 			"visible"			"0"
 		}
 
+		// divider
 		"Divider2"
 		{
 			"ControlName"		"ImagePanel"
@@ -358,7 +360,7 @@
 			"ypos"				"100"
 			"wide"				"130"
 			"tall"				"1"
-			"fillcolor"			"DullWhite"
+			"fillcolor"			"White"
 			"zpos"				"0"
 		}
 
@@ -377,7 +379,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"DullWhite"
+			"fgcolor_override"	"White"
 		}
 
 		// Vote Bar
@@ -403,16 +405,16 @@
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"CallVoteFailed"
-		"xpos"				"10"
-		"ypos"				"c-80"
-		"wide"				"150"
-		"tall"				"67"
-		"visible"			"0"
-		"enabled"			"1"
-		"paintborder"		"0"
-		"bgcolor_override"	"HudBlack"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CallVoteFailed"
+		"xpos"					"10"
+		"ypos"					"c-80"
+		"wide"					"150"
+		"tall"					"67"
+		"visible"				"0"
+		"enabled"				"1"
+		"paintborder"			"0"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
@@ -471,16 +473,16 @@
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"VoteFailed"
-		"xpos"				"10"
-		"ypos"				"r315"
-		"wide"				"150"
-		"tall"				"67"
-		"visible"			"0"
-		"enabled"			"1"
-		"paintborder"		"0"
-		"bgcolor_override"	"HudBlack"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"VoteFailed"
+		"xpos"					"10"
+		"ypos"					"r315"
+		"wide"					"150"
+		"tall"					"67"
+		"visible"				"0"
+		"enabled"				"1"
+		"paintborder"			"0"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
@@ -538,20 +540,20 @@
 
 	"VoteSetupDialog"
 	{
-		"ControlName"		"CVoteSetupDialog"
-		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
-		"ypos"				"c-150"
-		"wide"				"400"
-		"tall"				"310"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
+		"ControlName"			"CVoteSetupDialog"
+		"fieldName"				"VoteSetupDialog"
+		"xpos"					"c-200"
+		"ypos"					"c-150"
+		"wide"					"400"
+		"tall"					"310"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"0"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"27 27 27 255"
 		"PaintBackground"		"1"
 		"PaintBackgroundType"	"2"
 

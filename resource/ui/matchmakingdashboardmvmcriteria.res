@@ -58,23 +58,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"MannUpToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpToolTipButtonHack"
-		"xpos"			"106"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"170"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
-	}
-
 	"MannUpQueueButton"
 	{
 		"ControlName"	"CExButton"
@@ -102,23 +85,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"BootCampToolTipButtonHack"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BootCampToolTipButtonHack"
-		"xpos"				"5"
-		"ypos"				"rs1-8"
-		"zpos"				"101"
-		"wide"				"270"
-		"tall"				"20"
-		"visible"			"0"
-		"enabled"			"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"		"0"
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
 	}
 
 	"BootCampQueueButton"

@@ -106,6 +106,18 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"FontBold9Outline"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"9"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		"FontBold8"
 		{
 			"1"

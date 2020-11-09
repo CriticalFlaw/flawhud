@@ -117,7 +117,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-
 	}
 	"SwitchCamModeLabel"
 	{
@@ -155,6 +154,7 @@
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"

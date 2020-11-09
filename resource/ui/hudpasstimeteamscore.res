@@ -74,14 +74,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"
 	}
 
 	"BlueScore"
@@ -116,10 +108,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"BlueScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"BlueScore"
 	}
 
 	"RedScore"
@@ -154,10 +143,7 @@
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"RedScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"RedScore"
 	}
 
 	"PlayingToCluster"

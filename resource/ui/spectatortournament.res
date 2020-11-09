@@ -347,7 +347,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"FontBold9"
+				"font"				"FontBold9Outline"
 				"xpos"				"140"
 				"ypos"				"5"
 				"zpos"				"201"
@@ -365,7 +365,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedChargeAmount"
-				"font"				"FontBold9"
+				"font"				"FontBold9Outline"
 				"xpos"				"140"
 				"ypos"				"5"
 				"zpos"				"6"
@@ -416,6 +416,7 @@
 			"ypos"		"90"
 		}
 	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"

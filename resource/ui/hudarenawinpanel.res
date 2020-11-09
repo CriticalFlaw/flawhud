@@ -64,6 +64,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
+		
 		"BlueTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -81,10 +82,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"AllCaps"		"1"
-
-			"pin_to_sibling"		"BlueScoreBG"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueScoreBG"
 		}
 		"BlueTeamLabelShadow"
 		{
@@ -104,11 +102,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"AllCaps"		"1"
-
-			"pin_to_sibling"		"BlueTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamLabel"
 		}
+		
 		"BlueTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -130,10 +126,10 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		"BlueTeamScoreDropshadow"
+		"BlueTeamScoreShadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"BlueTeamScoreDropshadow"
+			"fieldName"		"BlueTeamScoreShadow"
 			"font"			"FontBold37"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
@@ -147,11 +143,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"pin_to_sibling"		"BlueTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamScore"
 		}
+		
 		"RedTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -168,7 +162,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps"		"1"
 
 			"pin_to_sibling"		"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -191,12 +184,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps"		"1"
-
-			"pin_to_sibling"		"RedTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamLabel"
 		}
+		
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -213,15 +203,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"pin_to_sibling"		"RedScoreBG"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedScoreBG"
 		}
-		"RedTeamScoreDropshadow"
+		"RedTeamScoreShadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"RedTeamScoreDropshadow"
+			"fieldName"		"RedTeamScoreShadow"
 			"font"			"FontBold37"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
@@ -235,10 +222,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamScore"
 		}
 
 		"ArenaStreaksBG"
@@ -246,42 +230,12 @@
 			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"ArenaStreaksBG"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"2"
-			"wide"			"176"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_black"
-			"scaleImage"	"1"
-
-			"src_corner_height"	"23"
-			"src_corner_width"	"23"
-			"draw_corner_width"	"6"
-			"draw_corner_height" "6"
 		}
-
 		"ArenaStreakLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"HudFontSmallest"
-			"fgcolor"		"White"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"3"
-			"wide"			"176"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%arenastreaktext%"
-			"textAlignment"	"Center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}
 
@@ -290,13 +244,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"700"
-		"tall"			"174"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
 	}
 	"WinPanelBG2"
 	{
@@ -391,6 +338,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"WinReasonLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -429,6 +377,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -446,6 +395,7 @@
 		"fillcolor"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}
+	
 	"TopPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -465,6 +415,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"DamageThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -484,6 +435,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"HealingThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -503,6 +455,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"LifetimeThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -522,6 +475,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"KillingBlowsThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -541,22 +495,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"374"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
 	}
 
 	"ArenaWinPanelWinnersPanel"
@@ -919,6 +863,7 @@
 			"brighttext"	"0"
 		}
 	}
+	
 	"ArenaWinPanelLosersPanel"
 	{
 		"ControlName"	"EditablePanel"

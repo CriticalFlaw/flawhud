@@ -46,10 +46,10 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
-		fgcolor_override	"255 235 35 200"
-		pin_to_sibling			"EventTitleLabel"
-		pin_corner_to_sibling	"6"
-		pin_to_sibling_corner	"4"
+		"fgcolor_override"		"255 235 35 200"
+		"pin_to_sibling"		"EventTitleLabel"
+		"pin_corner_to_sibling"	"6"
+		"pin_to_sibling_corner"	"4"
 	}
 
 	"EventDetailLabel"
@@ -262,7 +262,6 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//"font"				"DefaultVerySmall"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"
@@ -274,9 +273,9 @@
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
-		pin_to_sibling			"ProgressLevelBar"
-		pin_corner_to_sibling	"4"
-		pin_to_sibling_corner	"6"
+		"pin_to_sibling"		"ProgressLevelBar"
+		"pin_corner_to_sibling"	"4"
+		"pin_to_sibling_corner"	"6"
 	}
 
 	"BallPowerCluster"
