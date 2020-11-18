@@ -46,7 +46,7 @@
 		"drawcolor"			"Crosshair"
 		"Alpha"				"255"
 	}
-	
+
 	CrosshairPulse
 	{
 		"ControlName"		"CTFImagePanel"
@@ -957,7 +957,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c155"
-		"zpos"				"10"
+		"zpos"				"14"
 		"wide"				"250"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -970,7 +970,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c155"
-		"zpos"				"10"
+		"zpos"				"14"
 		"wide"				"250"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -983,7 +983,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-75"
 		"ypos"				"c155"
-		"zpos"				"1"
+		"zpos"				"14"
 		"wide"				"150"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
