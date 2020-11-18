@@ -1,80 +1,13 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"itempanel"
 	{
-		"ControlName"		"CItemModelPanel"
-		"fieldName"			"itempanel"
+		// For some reason this doesnt obey the xpos set in HUD Layout
 		"xpos"				"r200"
-		"ypos"				"0"
-		"zpos"				"10"
-		"wide"				"190"
-		"tall"				"100"
-		"visible"			"0"
-		"bgcolor_override"	"HudBlack"
-		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
-
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-
-		"text_xpos"			"10"
-		"text_ypos"			"10"
-		"text_wide"			"170"
-		"text_center"		"1"
-
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-
-		"ItemBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"ItemBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"-1"
-			"wide"				"200"
-			"tall"				"1000"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
-			"fillcolor"			"HudBlack"
-		}
-		
-		"itemmodelpanel"
-		{
-			"fieldName"			"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"			"1"
-			"inventory_image_type"	"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"ItemLabel"
-			"font"				"FontRegular9"
-			"xpos"				"5"
-			"ypos"				"5"
-			"ypos_minmode"		"9999"
-			"zpos"				"1"
-			"wide"				"180"
-			"tall"				"10"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"labelText"			"#FreezePanel_Item"
-			"textAlignment"		"north-west"
-			"dulltext"			"0"
-			"brighttext"		"0"
-		}
 	}
-	
+
 	"FreezePanel"
 	{
 		"ControlName"		"CTFFreezePanel"

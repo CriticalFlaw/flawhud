@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -92,7 +94,7 @@
 				"proportionalToParent"	"1"
 				//fillcolor_override 	"255 0 0 32"
 			}
-			
+
 			"StatusEffectIconRed"
 			{
 				"ControlName"			"ImagePanel"
@@ -108,7 +110,7 @@
 				"proportionalToParent"	"1"
 				"image"					""
 			}
-			
+
 			"StatusEffectIconBlue"
 			{
 				"ControlName"			"ImagePanel"
@@ -416,7 +418,7 @@
 			"ypos"		"90"
 		}
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
