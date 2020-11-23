@@ -17,7 +17,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"FontBold10"
+		"font"				"FontBold8"
 		"fgcolor_override"	"Black"
 	}
 
