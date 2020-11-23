@@ -1,465 +1,453 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"cpiconbluunlock"
+	"CPIconBlu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconbluunlock"
+		"fieldName"		"CPIconBlu"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
 
-	"cpiconblulock"
+	"CPIconBluLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblulock"
+		"fieldName"		"CPIconBluLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
 	}
-
-	"cpiconredunlock"
+	"CPIconRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredunlock"
+		"fieldName"		"CPIconRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
 
-	"cpiconredlock"
+	"CPIconRedLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredlock"
+		"fieldName"		"CPIconRedLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
-
-	"cpiconneutralunlock"
+	"CPIconNeutral"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutralunlock"
+		"fieldName"		"CPIconNeutral"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
 	}
 
-	"cpiconneutrallock"
+	"CPIconNeutralLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutrallock"
+		"fieldName"		"CPIconNeutralLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
 
-	"cpiconblu1unlock"
+	"CPIconBlu1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu1unlock"
+		"fieldName"		"CPIconBlu1"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu"
 	}
 
-	"cpiconblu1lock"
+	"CPIconBlu1Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu1lock"
+		"fieldName"		"CPIconBlu1Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
 	}
 
-	"cpiconred1unlock"
+	"CPIconRed1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred1unlock"
+		"fieldName"		"CPIconRed1"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red"
 	}
 
-	"cpiconred1lock"
+	"CPIconRed1Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred1lock"
+		"fieldName"		"CPIconRed1Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
 	}
 
-	"cpiconneutral1unlock"
+	"CPIconNeutral1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral1unlock"
+		"fieldName"		"CPIconNeutral1"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral"
 	}
 
-	"cpiconneutral1lock"
+	"CPIconNeutral1Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral1lock"
+		"fieldName"		"CPIconNeutral1Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral_locked"
 	}
 
-	"cpiconblu2unlock"
+	"CPIconBlu2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu2unlock"
+		"fieldName"		"CPIconBlu2"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu"
 	}
 
-	"cpiconblu2lock"
+	"CPIconBlu2Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu2lock"
+		"fieldName"		"CPIconBlu2Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
 	}
 
-	"cpiconred2unlock"
+	"CPIconRed2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred2unlock"
+		"fieldName"		"CPIconRed2"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red"
 	}
 
-	"cpiconred2lock"
+	"CPIconRed2Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred2lock"
+		"fieldName"		"CPIconRed2Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
 	}
 
-	"cpiconneutral2unlock"
+	"CPIconNeutral2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral2unlock"
+		"fieldName"		"CPIconNeutral2"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral"
 	}
 
-	"cpiconneutral2lock"
+	"CPIconNeutral2Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral2lock"
+		"fieldName"		"CPIconNeutral2Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral_locked"
 	}
 
-	"cpiconblu3unlock"
+	"CPIconBlu3"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu3unlock"
+		"fieldName"		"CPIconBlu3"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu"
 	}
 
-	"cpiconblu3lock"
+	"CPIconBlu3Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu3lock"
+		"fieldName"		"CPIconBlu3Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
 	}
 
-	"cpiconred3unlock"
+	"CPIconRed3"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred3unlock"
+		"fieldName"		"CPIconRed3"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red"
 	}
 
-	"cpiconred3lock"
+	"CPIconRed3Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred3lock"
+		"fieldName"		"CPIconRed3Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
 	}
 
-	"cpiconneutral3unlock"
+	"CPIconNeutral3"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral3unlock"
+		"fieldName"		"CPIconNeutral3"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral"
 	}
 
-	"cpiconneutral3lock"
+	"CPIconNeutral3Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral3lock"
+		"fieldName"		"CPIconNeutral3Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral_locked"
 	}
 
-	"cpiconblu4unlock"
+	"CPIconBlu4"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu4unlock"
+		"fieldName"		"CPIconBlu4"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu"
 	}
 
-	"cpiconblu4lock"
+	"CPIconBlu4Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu4lock"
+		"fieldName"		"CPIconBlu4Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
 	}
 
-	"cpiconred4unlock"
+	"CPIconRed4"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred4unlock"
+		"fieldName"		"CPIconRed4"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red"
 	}
 
-	"cpiconred4lock"
+	"CPIconRed4Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred4lock"
+		"fieldName"		"CPIconRed4Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
 	}
 
-	"cpiconneutral4unlock"
+	"CPIconNeutral4"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral4unlock"
+		"fieldName"		"CPIconNeutral4"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral"
 	}
 
-	"cpiconneutral4lock"
+	"CPIconNeutral4Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral4lock"
+		"fieldName"		"CPIconNeutral4Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
 
-		"cpiconblu5unlock"
+		"CPIconBlu5"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu5unlock"
+		"fieldName"		"CPIconBlu5"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu"
 	}
 
-	"cpiconblu5lock"
+	"CPIconBlu5Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblu5lock"
+		"fieldName"		"CPIconBlu5Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu_locked"
 	}
 
-	"cpiconred5unlock"
+	"CPIconRed5"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred5unlock"
+		"fieldName"		"CPIconRed5"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red"
 	}
 
-	"cpiconred5lock"
+	"CPIconRed5Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconred5lock"
+		"fieldName"		"CPIconRed5Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red_locked"
 	}
 
-	"cpiconneutral5unlock"
+	"CPIconNeutral5"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral5unlock"
+		"fieldName"		"CPIconNeutral5"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral"
 	}
 
-	"cpiconneutral5lock"
+	"CPIconNeutral5Locked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutral5lock"
+		"fieldName"		"CPIconNeutral5Locked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
 	}
 
-	"cpicona"
+	"CPIconA"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicona"
+		"fieldName"		"CPIconA"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_a"
 	}
-
-	"cpiconb"
+	"CPIconB"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconb"
+		"fieldName"		"CPIconB"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_b"
 	}
-
-	"cpiconc"
+	"CPIconC"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconc"
+		"fieldName"		"CPIconC"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_c"
 	}
-
-	"cpicond"
+	"CPIconD"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicond"
+		"fieldName"		"CPIconD"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_d"
 	}
-
-	"cpicone"
+	"CPIconE"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicone"
+		"fieldName"		"CPIconE"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
-
-	"cartblue"
+	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartblue"
+		"fieldName"		"CartBlue"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_blue"
 	}
-
-	"cartpointblue"
+	"CartPointBlu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartpointblue"
+		"fieldName"		"CartPointBlu"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_blue"
 	}
-
-	"cartpointblueo"
+	"CartPointBluOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartpointblueo"
+		"fieldName"		"CartPointBluOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_blue_opaque"
 	}
-
-	"cartpointneutral"
+	"CartPointNeutral"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartpointneutral"
+		"fieldName"		"CartPointNeutral"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_neutral"
 	}
-
-	"cartpointneutralo"
+	"CartPointNeutralOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartpointneutralo"
+		"fieldName"		"CartPointNeutralOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_neutral_opaque"
 	}
-
 	"cartpointred"
 	{
 		"ControlName"	"ImagePanel"
@@ -469,71 +457,65 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_point_red"
 	}
-
-	"cartpointredo"
+	"CartPointRedOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartpointredo"
+		"fieldName"		"CartPointRedOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_red_opaque"
 	}
-
-	"cartred"
+	"CartRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cartred"
+		"fieldName"		"CartRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_red"
 	}
-
-	"carttrackblue"
+	
+	"CartTrackBlue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"carttrackblue"
+		"fieldName"		"CartTrackBlue"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_track_blue"
 	}
-
-	"carttrackblueo"
+	"CartTrackBlueOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"carttrackblueo"
+		"fieldName"		"CartTrackBlueOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_track_blue_opaque"
 	}
-
-	"carttrackneutralo"
+	"CartTrackNeutralOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"carttrackneutralo"
+		"fieldName"		"CartTrackNeutralOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_track_neutral_opaque"
 	}
-
-	"carttrackred"
+	"CartTrackRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"carttrackred"
+		"fieldName"		"CartTrackRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_track_red"
 	}
-
-	"carttrackredo"
+	"CartTrackRedOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"carttrackredo"
+		"fieldName"		"CartTrackRedOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"

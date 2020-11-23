@@ -351,37 +351,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "White"
 		}
 
 		"PositionLabel"
@@ -526,38 +510,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"Command"			"close"
+			"paintbackground"	"0"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
-
-			"paintbackground"	"0"
-
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -748,37 +715,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "LightRed"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"

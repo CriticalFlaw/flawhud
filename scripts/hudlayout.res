@@ -158,11 +158,12 @@
 
 	HudDemomanCharge
 	{
-		"fieldName"			"HudItemEffectMeter"
+		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c25"
+		"xpos"				"cs-0.4"
+		"ypos"				"c110"
+		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"500"
 		"MeterFG"			"White"
@@ -174,14 +175,13 @@
 		"fieldName"			"HudBowCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"c124"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"500"
+		"wide"				"0"
 		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
-		"alpha"				"0"
 	}
 
 	HudFlameRocketCharge
@@ -290,7 +290,7 @@
 		"enabled"				"1"
 		"xpos"					"100"
 		"ypos"					"r38"
-		"zpos"					"2"
+		"zpos"					"10"
 		"wide"					"170"
 		"tall"					"38"
 	}
@@ -348,8 +348,8 @@
 		"fieldName" 			"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-15"
-		"ypos"					"c-75"
+		"xpos"					"0"
+		"ypos"					"c-100"
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -431,8 +431,8 @@
 		"fieldName"				"HudDamageIndicator"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"MinimumWidth" 			"10"
-		"MaximumWidth"			"10"
+		"MinimumWidth" 			"15"
+		"MaximumWidth"			"15"
 		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"			"30"
@@ -503,7 +503,7 @@
 		"LineSpacing"			"0"
 		"CornerRadius"			"3"
 		"RightJustify"			"1"
-		"TextFont"				"FontRegular10"
+		"TextFont"				"FontRegular11"
 		"TextFont_minmode"		"Transparent"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
@@ -588,7 +588,7 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"xpos"				"c-210"
-		"ypos"				"r88"
+		"ypos"				"r75"
 		"zpos" 				"2"
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
@@ -843,7 +843,7 @@
 		"xpos"				"c-100"
 		"ypos"				"r145"
 		"ypos_minmode"		"r60"
-		"zpos"				"1"
+		"zpos"				"10"
 		"wide"				"200"
 		"tall"				"152"
 	}
@@ -856,6 +856,7 @@
 		"xpos"				"c-180"
 		"ypos"				"r125"
 		"ypos_minmode"		"r65"
+		"zpos"				"10"
 		"wide"				"360"
 		"tall"				"132"
 	}
@@ -876,9 +877,9 @@
 		"fieldName"			"StatPanel"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"wide"				"266"
+		"xpos"				"c-133"
+		"ypos"				"270"
+		"wide"				"0"
 		"tall"				"120"
 	}
 
@@ -996,7 +997,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-99"
 		"ypos"				"c130"
-		"zpos"				"1"
+		"zpos"				"10"
 		"wide"				"198"
 		"tall"				"88"
 		"PaintBackgroundType"	"0"
@@ -1020,7 +1021,7 @@
 		"enabled"			"1"
 		"xpos"				"c-160"
 		"ypos"				"65"
-		"wide"				"320"
+		"wide"				"0"
 		"tall"				"100"
 	}
 
@@ -1031,7 +1032,7 @@
 		"enabled"			"1"
 		"xpos"				"c-160"
 		"ypos"				"15"
-		"wide"				"320"
+		"wide"				"0"
 		"tall"				"300"
 	}
 
@@ -1137,7 +1138,7 @@
 		"tall"				"100"
 	}
 
-	CriticalPanel
+	CriticalPanel [$WIN32]
 	{
 		"fieldName"			"CriticalPanel"
 		"visible"			"1"
@@ -1148,7 +1149,7 @@
 		"tall"				"25"
 	}
 
-	HudArenaClassLayout
+	HudArenaClassLayout [$WIN32]
 	{
 		"fieldName"			"HudArenaClassLayout"
 		"visible"			"1"
@@ -1160,7 +1161,7 @@
 		"tall"				"320"
 	}
 
-	HudArenaVsPanel
+	HudArenaVsPanel [$WIN32]
 	{
 		"fieldName"			"HudArenaVsPanel"
 		"visible"			"1"
@@ -1171,7 +1172,7 @@
 		"tall"				"240"
 	}
 
-	HudArenaPlayerCount
+	HudArenaPlayerCount [$WIN32]
 	{
 		"fieldName"			"HudArenaPlayerCount"
 		"visible"			"1"
@@ -1188,8 +1189,8 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
 		"xpos"				"5"
-		"NormalY"			"330"
-		"EngineerY"			"330"
+		"NormalY"			"335"
+		"EngineerY"			"335"
 		"zpos"				"-10"
 		"wide"				"200"
 		"tall"				"95"

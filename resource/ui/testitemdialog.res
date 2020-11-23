@@ -10,7 +10,7 @@
 		"zpos"					"999"
 		"wide"					"550"
 		"tall"					"300"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"WhiteBorder"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_SelectModel"
-		"font"			"HudFontSmallestBold"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -105,7 +105,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"DarkerGrey"
 
 		"ItemReplacedLabel"
 		{
@@ -166,7 +166,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"DarkerGrey"
 
 		"ItemReplacedLabel"
 		{
@@ -565,7 +565,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -590,7 +590,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

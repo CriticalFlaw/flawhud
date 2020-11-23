@@ -85,7 +85,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"3"
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"f6"
@@ -95,7 +95,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"l"
+			"labeltext"		"m"
 			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -106,16 +106,14 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-			"paintbackground"	"1"
+			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"0 191 255 255"
-
-			"armedBgColor_override"		"Transparent"
-			"defaultBgColor_override"	"Transparent"
+			"armedFgColor_override"		"Yellow"
+			"depressedFgColor_override"	"White"
 		}
 
 		"PartySlot0"
@@ -143,8 +141,8 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"54"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -158,14 +156,18 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"1"
+			
+			"pin_to_sibling"			"PartySlot0"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"78"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -179,14 +181,18 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"2"
+			
+			"pin_to_sibling"			"PartySlot1"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"102"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -200,14 +206,18 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"3"
+			
+			"pin_to_sibling"			"PartySlot2"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"126"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -221,14 +231,18 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"4"
+			
+			"pin_to_sibling"			"PartySlot3"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"150"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -242,6 +256,10 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"5"
+			
+			"pin_to_sibling"			"PartySlot4"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"QueueContainer"
@@ -412,41 +430,21 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"labeltext"		"("
+				"font"			"CustomIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"default"		"1"
+				"default"		"0"
+				"Command"			"leave_queue"
+				"paintbackground"	"0"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"Command"		"leave_queue"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "TanDarker"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "TanDarker"
-
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"255 0 0 255"
-
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"cs-0.5"
-					"ypos"			"cs-0.5"
-					"zpos"			"1"
-					"wide"			"9"
-					"tall"			"9"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"replay/thumbnails/close"
-					"scaleImage"	"1"
-					"proportionaltoparent"	"1"
-				}
+				
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"LightRed"
+				"depressedFgColor_override" "White"
 			}
 		}
 

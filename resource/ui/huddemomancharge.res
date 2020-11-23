@@ -4,8 +4,9 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
-		"xpos"				"c-60"
-		"ypos"				"c110"
+		"font"				"Default"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"120"
 		"tall"				"8"
@@ -16,6 +17,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"White"
 	}
 
 	"ItemEffectMeterLabel"
@@ -27,15 +29,11 @@
 		"zpos"				"3"
 		"wide"				"120"
 		"tall"				"8"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"FontBold10"
+		"font"				"FontBold8"
 		"fgcolor_override"	"Black"
 
 		"pin_to_sibling"		"ChargeMeter"

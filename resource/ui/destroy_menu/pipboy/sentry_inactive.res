@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{
 		"labelText"			"#TF_Object_Sentry"
-		"fgcolor_override"	"NeonRed"
+		"fgcolor_override"	"ColorGreen"
 	}
 
 	"NumberLabel"

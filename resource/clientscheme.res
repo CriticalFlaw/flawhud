@@ -6,4 +6,3 @@
 #base "scheme/clientscheme_xhairs.res"
 #base "scheme/clientscheme_xhairs_blur.res"
 #base "scheme/clientscheme_xhairs_outline.res"
-#base "scheme/clientscheme_xhairs_shadow.res"
