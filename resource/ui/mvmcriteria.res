@@ -79,10 +79,9 @@
 			"zpos"				"-1"
 			"wide"				"400"
 			"tall"				"197"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"0 0 0 200"
-			"border"				"QuickplayBorder"
+			"bgcolor_override"		"DarkerGrey"
 
 			"GreyOutPanel"
 			{
@@ -139,10 +138,9 @@
 		"zpos"				"-1"
 		"wide"				"400"
 		"tall"				"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"0 0 0 200"
-		"border"				"QuickplayBorder"
+		"bgcolor_override"		"DarkerGrey"
 
 		"TourLootImage"
 		{
@@ -206,14 +204,14 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"InventoryTitleLabel"
-			"font"				"FontBold14"
+			"font"				"FontBold18"
 			"labelText"			"#TF_MvM_InventoryTitle"
 			"textAlignment"		"north-west"
 			"xpos"				"8"
 			"ypos"				"5"
 			"zpos"				"0"
 			"wide"				"200"
-			"tall"				"30"
+			"tall"				"20"
 		}
 
 		"MannUpTicketAd"
@@ -319,15 +317,15 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"SquadSurplusCheckLabel"
-			"font"				"FontRegular10"
+			"font"				"FontRegular12"
 			"labelText"			"#TF_MvM_ActivateSquadSurplus"
-			"textAlignment"		"south-west"
+			"textAlignment"		"west"
 			"wrap"				"1"
 			"xpos"				"33"
-			"ypos"				"80"
+			"ypos"				"90"
 			"zpos"				"0"
-			"wide"				"120"
-			"tall"				"35"
+			"wide"				"140"
+			"tall"				"25"
 		}
 
 		"Slot0"
@@ -424,7 +422,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"MissingTicketsLabel"
-			"font"				"FontRegular10"
+			"font"				"FontRegular12"
 			"fgcolor_override"	"TanDark"
 			"labelText"			"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"		"south-west"

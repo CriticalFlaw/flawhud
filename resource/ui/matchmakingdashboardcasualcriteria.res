@@ -90,6 +90,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"White"
-		"defaultBgColor_override"	"Black"
+		"defaultBgColor_override"	"DarkerGrey"
 	}
 }

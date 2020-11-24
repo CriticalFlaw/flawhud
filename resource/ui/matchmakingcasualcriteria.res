@@ -157,7 +157,7 @@
 			"wide"			"f0"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
+			"labeltext"		""
 			"textAlignment"	"west"
 			"font"			"FontRegular15"
 			"mouseinputenabled"	"0"
@@ -167,7 +167,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"			"100"
+			"xpos"			"10"
 			"ypos"			"35"
 			"zpos"			"0"
 			"wide"			"f0"
@@ -175,7 +175,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"FontRegular12"
+			"font"			"FontRegular15"
 			"fgcolor_override"	"TanDark"
 			"mouseinputenabled"	"1"
 		}

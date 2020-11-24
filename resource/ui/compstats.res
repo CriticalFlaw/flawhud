@@ -68,6 +68,7 @@
 			"font"				"FontBold12"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			"defaultBgColor_override"	"DarkerGrey"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -90,6 +91,7 @@
 			"font"				"FontBold12"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			"defaultBgColor_override"	"DarkerGrey"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

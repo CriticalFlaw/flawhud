@@ -87,7 +87,7 @@
 		"xpos"					"-2"
 		"ypos"					"1"
 		"zpos"					"1"
-		"wide"					"f2"
+		"wide"					"f4"
 		"tall"					"13"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
