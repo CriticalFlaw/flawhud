@@ -6,7 +6,7 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 127 255"
+		"PositiveColor"			"TargetHealth"
 		"NegativeColor"			""	// Unused
 		"delta_lifetime"		"2"
 		"delta_item_font"		"FontBold20Outline"
@@ -27,7 +27,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"west"
 		"font"					"FontBold22"
-		"fgcolor"				"255 255 0 255"
+		"fgcolor"				"TargetDamage"
 	}
 
 	"DamageAccountValueShadow"

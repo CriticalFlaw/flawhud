@@ -36,6 +36,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"LargeIcons"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"62"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 	}
 
 	CustomFontFiles

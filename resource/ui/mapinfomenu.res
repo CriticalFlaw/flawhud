@@ -55,7 +55,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-170"
-		"ypos"			"c-110"
+		"ypos"			"c-105"
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"12"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"FontRegular10"
+		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
 
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"FontRegular10"
+		"font"			"FontRegular12"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"

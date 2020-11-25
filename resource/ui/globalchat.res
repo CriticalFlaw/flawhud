@@ -91,7 +91,7 @@
 		"tall"					"13"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"DarkerGrey"
 		"RoundedCorners"		"0"
 		"font"					"HudFontSmallest"
 		"alpha"					"0"

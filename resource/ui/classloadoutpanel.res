@@ -227,7 +227,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PassiveAttribsLabel"
-		"font"				"FontRegular10"
+		"font"				"FontRegular12"
 		"xpos"				"c-135"
 		"ypos"				"125"
 		"zpos"				"0"

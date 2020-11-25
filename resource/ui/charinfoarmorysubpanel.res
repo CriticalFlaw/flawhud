@@ -404,35 +404,4 @@
 		"bgcolor_override"		"DarkerGrey"
 		"PaintBackgroundType"	"2"
 	}
-	
-	"ItemsBackground"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ItemsBackground"
-		"xpos"										"c-285"
-		"ypos"										"12"
-		"zpos"										"0"
-		"wide"										"285"
-		"tall"										"367"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"0"
-		"border"									"MaterialBlackLight"
-	}
-	
-	"FilterComboBoxBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"FilterComboBoxBG"
-		"xpos"										"-2"
-		"ypos"										"-2"
-		"zpos"										"1"
-		"wide"										"282"
-		"tall"										"22"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"0"
-		"border"									"MaterialGrayDarker"
-		"pin_to_sibling" 							"ItemsBackground"
-	}
 }
