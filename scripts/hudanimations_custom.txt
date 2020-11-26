@@ -174,3 +174,14 @@ event HudTournament_MoveChatWindow
 	RunEvent CompetitiveGame_LowerChatWindow 0
 	RunEvent CompetitiveGame_RestoreChatWindow 0
 }
+//==================================================================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible	respawntime	1	0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}

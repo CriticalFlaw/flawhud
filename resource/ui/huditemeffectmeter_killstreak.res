@@ -6,7 +6,7 @@
 	{
 		"xpos"				"2"
 		"ypos"				"r28"
-		"wide"				"36"
+		"wide"				"50"
 		"tall"				"36"
 	}
 	"ItemEffectMeterLabel"
@@ -15,7 +15,7 @@
 	}
 	"ItemEffectMeterCount"
 	{
-		"xpos"				"0"
+		"xpos"				"10"
 		"ypos"				"0"
 		"wide"				"36"
 		"tall"				"36"
@@ -26,5 +26,40 @@
 		"wide"				"36"
 		"tall"				"36"
 		"textAlignment"		"center"
+	}
+	
+	"StreakIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIcon"
+		"xpos"					"2"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"36"
+		"tall"					"36"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"\"
+		"textAlignment"			"west"
+		"font"					"CustomIcons"
+		"fgcolor_override"		"White"
+	}
+	
+	"StreakIconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIconShadow"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"1"
+		"wide"					"36"
+		"tall"					"36"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"\"
+		"textAlignment"			"west"
+		"font"					"CustomIcons"
+		"fgcolor_override"		"ShadowBlack"
+		"pin_to_sibling"		"StreakIcon"
 	}
 }
