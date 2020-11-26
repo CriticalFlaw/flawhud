@@ -12,7 +12,7 @@ Custom crosshairs are disabled by default, to enable them open `flawhud\scripts\
 If you're streaming on Twitch/YouTube and need extra protection against stream snipers and DDoS attacks, then you can toggle Streamer Mode by clicking on the TF Logo on the right hand side of the main menu. Streamer Mode hides player names and other information that would otherwise let the viewer know where and who you're playing with. This feature uses minmode `cl_hud_minmode` allowing to toggle in and out of Streamer Mode without needing to restart the game.
 
 #### Code Pro Fonts
-To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and remove the `_tf` suffix as instructed in the file.
+To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and add the suffix `_pro` as instructed in the file.
 
 #### Transparent Viewmodels
 Due to users experiencing issues relating to their own graphics settings, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudlayout.res (disabled by default) are included, so you're responsible for acquiring and modifying your config accordingly. For more information, visit the TeamFortress.TV [thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
@@ -24,7 +24,7 @@ Features available in the latest [CastingEssentials](https://github.com/PazerOP/
 * **HUD Development Help**: N0kk and Wiethoofd
 * **Playtesting**: Yotts, Cat, SleepingBear and Strife
 * **Main Menu Background**: sevin
-* **Crosshair Pack**: Hypnootize
+* **Crosshair and Icon Packs**: Hypnootize
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 

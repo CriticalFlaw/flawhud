@@ -960,7 +960,7 @@
 		"ypos"				"c63"
 		"zpos"				"14"
 		"wide"				"125"
-		"tall"				"140"
+		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -973,7 +973,7 @@
 		"ypos"				"c63"
 		"zpos"				"14"
 		"wide"				"125"
-		"tall"				"140"
+		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
 
