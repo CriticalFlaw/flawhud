@@ -17,23 +17,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"DarkerGrey"
-
-		"BackColor"
-    	{
-    		"ControlName"			"EditablePanel"
-    		"fieldName"				"BackColor"
-    		"xpos"					"0"
-    		"ypos"					"0"
-    		"zpos"					"-1"
-    		"wide"					"300"
-    		"tall"	 				"200"
-    		"visible"				"1"
-    		"enabled"				"1"
-			"pinCorner"				"0"
-			"autoResize"			"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"DarkerGrey"
-    	}
 	}
 
 	"TitleLabel"

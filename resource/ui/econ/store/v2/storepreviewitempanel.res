@@ -1263,31 +1263,6 @@
 		}
 	}
 
-	"PaintButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PaintButton"
-		"xpos"			"c-158"
-		"ypos"			"c-140"
-		"zpos"			"20"
-		"wide"			"76"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_Paint"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"paint_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"CycleTextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1305,27 +1280,6 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}
-
-	"NextStyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextStyleButton"
-		"zpos"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_NextStyle"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"next_style"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"PaintNameLabel"

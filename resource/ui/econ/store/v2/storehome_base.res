@@ -170,24 +170,6 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType" "2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"DarkerGrey"
-		}
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -211,58 +193,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"xpos"			"c-415"
-		"ypos"			"10"
-		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"MannCoImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MannCoImage"
-			"xpos"			"15"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"420"
-			"tall"			"220"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"store/saxton_welcome"
-			"scaleImage"	"1"
-		}
+		"xpos"			"9999"
 	}
 
 	"StoreBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreBackgroundPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"0"
-		"proportiontoparent"	"1"
-
-		"StoreBackgroundImage"
-		{
-			"ControlName"	"ScalableImagePanel"
-			"fieldName"		"StoreBackgroundImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enable"		"1"
-			"image"			"store/store_bg001"
-			"scale_image"	"1"
-			"proportiontoparent"	"1"
-		}
+		"xpos"			"9999"
 	}
 
 	"ReloadSchemeButton"

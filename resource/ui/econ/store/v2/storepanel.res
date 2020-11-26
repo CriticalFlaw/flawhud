@@ -105,29 +105,14 @@
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"20"
-		"yoffset"		"14"
-		"transition_time" "0"
-
-		"HeaderLine"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"10"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"10"
+		"tabxdelta"			"3"
+		"tabxfittotext"		"1"
+		"tabheight"			"20"
+		"yoffset"			"14"
+		"transition_time"	"0"
 
 		"tabskv"
 		{
@@ -137,9 +122,9 @@
 			"selectedcolor"		"White"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"
-			"paintbackground"		"1"
-			"activeborder_override"	"ButtonDepressedBorder"
-			"normalborder_override" "ButtonDepressedBorder"
+			"paintbackground"			"1"
+			"activeborder_override"		"ButtonDepressedBorder"
+			"normalborder_override" 	"ButtonDepressedBorder"
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"DarkGrey"
 		}

@@ -92,6 +92,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -108,6 +109,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -138,6 +140,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -157,6 +160,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -173,6 +177,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"

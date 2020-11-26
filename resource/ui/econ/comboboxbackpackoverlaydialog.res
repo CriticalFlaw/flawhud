@@ -87,9 +87,9 @@
 		"maxchars"				"-1"
 		"NumericInputOnly"		"0"
 		"unicode"				"0"
-		"fgcolor_override"		"White"
-		"bgcolor_override"		"Black"
 		
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"White"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"

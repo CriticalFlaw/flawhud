@@ -17,24 +17,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"DarkerGrey"
-
-		"BackColor"
-    	{
-    		"ControlName"			"EditablePanel"
-    		"fieldName"				"BackColor"
-    		"xpos"					"0"
-    		"ypos"					"0"
-    		"zpos"					"-1"
-			"wide"					"300"
-			"tall"					"230"
-    		"visible"				"1"
-    		"enabled"				"1"
-			"pinCorner"				"0"
-			"autoResize"			"0"
-			"PaintBackgroundType"	"2"
-			"border"				"PanelBorder"
-			"bgcolor_override"		"DarkerGrey"
-    	}
 	}
 
 	"TitleLabel"
@@ -98,12 +80,5 @@
 		"Command"			"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
 }
