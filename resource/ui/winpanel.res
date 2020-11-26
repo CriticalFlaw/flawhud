@@ -373,9 +373,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"10"
-		"ypos"			"130"
+		"ypos"			"132"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"12"
@@ -432,7 +432,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Name"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"29"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -451,7 +451,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Class"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"120"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -470,7 +470,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Score"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"168"
 		"ypos"			"55"
 		"zpos"			"3"
@@ -504,7 +504,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Name"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"29"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -523,7 +523,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Class"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"120"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -542,7 +542,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Score"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"168"
 		"ypos"			"70"
 		"zpos"			"3"
@@ -576,7 +576,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Name"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"29"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -595,7 +595,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Class"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"120"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -614,7 +614,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Score"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"168"
 		"ypos"			"85"
 		"zpos"			"3"
@@ -634,7 +634,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -686,7 +686,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"29"
 		"ypos"			"115"
 		"zpos"			"3"
@@ -705,7 +705,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"120"
 		"ypos"			"115"
 		"zpos"			"3"
@@ -724,7 +724,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
-		"font"			"FontRegular9"
+		"font"			"FontRegular10"
 		"xpos"			"168"
 		"ypos"			"115"
 		"zpos"			"3"

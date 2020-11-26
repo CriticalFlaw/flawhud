@@ -69,6 +69,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 	"TitleScout"
 	{
@@ -132,6 +135,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSoldier"
 		"depressedFgColor_override" "LOGSoldier"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomScout"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -199,6 +205,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomSoldier"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -266,6 +275,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGDemoman"
 		"depressedFgColor_override" "LOGDemoman"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomPyro"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -333,6 +345,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomDemoman"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -400,6 +415,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGEngineer"
 		"depressedFgColor_override" "LOGEngineer"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomHeavy"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -467,6 +485,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomEngineer"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -534,6 +555,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSniper"
 		"depressedFgColor_override" "LOGSniper"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomMedic"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -601,6 +625,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomSniper"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -668,6 +695,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 	"ShowBackpackLabel"
 	{
@@ -728,6 +758,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"BackpackButton"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -792,6 +825,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CraftingButton"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -856,6 +892,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"ArmoryButton"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -921,6 +960,9 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"TradeButton"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"

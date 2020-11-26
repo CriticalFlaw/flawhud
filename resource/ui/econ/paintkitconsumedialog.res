@@ -2,13 +2,13 @@
 {
 	"PaintkitConsume"
 	{
-		"fieldName"	"PaintkitConsume"
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
-		"wide"		"400"
-		"tall"		"400"
-		"visible"	"1"
-		"zpos"		"1000"
+		"fieldName"		"PaintkitConsume"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"wide"			"400"
+		"tall"			"400"
+		"visible"		"1"
+		"zpos"			"1000"
 	}
 
 	"Title"

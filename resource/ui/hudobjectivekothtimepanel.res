@@ -53,8 +53,8 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"13"
-				"ypos"			"9"
+				"xpos"			"3"
+				"ypos"			"8"
 				"tall"			"15"
 				"wide"			"35"
 				"font"			"FontBold14"
@@ -107,8 +107,8 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"rs1-13"
-				"ypos"			"9"
+				"xpos"			"rs1-23"
+				"ypos"			"8"
 				"wide"			"35"
 				"tall"			"15"
 				"font"			"FontBold14"

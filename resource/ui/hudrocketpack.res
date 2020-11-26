@@ -4,62 +4,62 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c110"
-		"tall"			"500"
-		"wide"			"150"
+		"ypos"				"c110"
+		"tall"				"500"
+		"wide"				"150"
 	}
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterBG"
+		"xpos"				"9999"
 	}
 
 	"ItemEffectIcon"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"125"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/pyro_jetpack_off2"
-		"scaleImage"	"1"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectIcon"
+		"xpos"				"125"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"25"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/pyro_jetpack_off2"
+		"scaleImage"		"1"
 	}
 
 	"ItemEffectMeterLabel"
 	{
-		"ypos"			"10"
-		"labelText"		"#TF_RocketPack_Disabled"
+		"ypos"				"10"
+		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
 	"ItemEffectMeter"
 	{
-		"ypos"			"10"
-		"wide"			"60"
-		"textAlignment"	"Left"
+		"ypos"				"10"
+		"wide"				"60"
+		"textAlignment"		"Left"
 	}
 
 	"ItemEffectMeter2"
 	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter2"
-		"xpos"			"60"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"8"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"White"
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"			"ItemEffectMeter2"
+		"xpos"				"60"
+		"ypos"				"10"
+		"zpos"				"2"
+		"wide"				"60"
+		"tall"				"8"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"Left"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"White"
 	}
 }

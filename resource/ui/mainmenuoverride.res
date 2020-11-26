@@ -1372,7 +1372,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1415,7 +1415,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1458,7 +1458,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1501,7 +1501,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1544,7 +1544,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1587,7 +1587,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1630,7 +1630,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1673,7 +1673,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1716,7 +1716,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1759,7 +1759,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"	"HoverWhite"
 		}
 	}
 
@@ -1802,7 +1802,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"214 206 200 255"
+			"armedFgColor_override"		"HoverWhite"
 		}
 	}
 
