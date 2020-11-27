@@ -103,6 +103,18 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"FontBold10Outline"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"10"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		"FontBold10"
 		{
 			"1"

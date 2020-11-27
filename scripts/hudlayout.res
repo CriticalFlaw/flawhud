@@ -274,8 +274,8 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"c-120"
+		"ypos"					"c70"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
