@@ -179,11 +179,11 @@
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon_widescreen"
+			"image"		""
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		""
 		}
 	}
 
