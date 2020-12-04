@@ -681,7 +681,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"labelText"					"["
+		"labelText"					"^"
 		"font"						"LargeIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
