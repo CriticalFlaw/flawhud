@@ -15,17 +15,17 @@
 	}
 	"ItemEffectMeterCount"
 	{
-		"xpos"				"10"
+		"xpos"				"20"
 		"ypos"				"0"
 		"wide"				"36"
 		"tall"				"36"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"wide"				"36"
 		"tall"				"36"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 	}
 	
 	"StreakIcon"

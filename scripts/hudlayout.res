@@ -336,7 +336,7 @@
 		"fieldName" 			"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-15"
+		"xpos"					"0"
 		"ypos"					"c-100"
 		"wide"					"160"
 		"tall"					"480"
