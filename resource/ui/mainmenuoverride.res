@@ -175,15 +175,15 @@
 		
 		if_halloween
 		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
+			//"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		""
+			"image"		"../console/title_fullmoon_widescreen"
 		}
 		if_christmas
 		{
-			"image"		""
+			//"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 
