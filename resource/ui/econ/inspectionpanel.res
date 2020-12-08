@@ -361,7 +361,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"			"30"
+				"ypos"			"20"
 			}
 
 			"zpos"				"100"
@@ -406,7 +406,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"30"
+				"ypos"		"20"
 			}
 
 			"wide"			"80"
@@ -591,7 +591,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"50"
+				"ypos"		"40"
 			}
 
 			"zpos"			"100"

@@ -175,7 +175,7 @@
 		
 		if_halloween
 		{	
-			//"image"		"../console/title_scream_fortress_2017_widescreen"
+//			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
 		{
@@ -183,7 +183,7 @@
 		}
 		if_christmas
 		{
-			//"image"		"../console/background_xmas2020_widescreen"
+//			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 
@@ -1219,7 +1219,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VersionLabel"
 		"font"			"FontRegular12"
-		"labelText"		"FlawHUD v2020.1130"
+		"labelText"		"FlawHUD v2020.1208"
 		"labelText_minmode"	"Streamer Mode"
 		"xpos"			"rs1-5"
 		"xpos_minmode"	"r130"

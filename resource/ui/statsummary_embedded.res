@@ -1888,7 +1888,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TipText"
-		"font"			"ScoreboardVerySmall"
+		"font"			"ScoreboardSmall"
 		"labelText"		"%tiptext%"
 		"textAlignment"	"west"
 		"xpos"			"c-245"
