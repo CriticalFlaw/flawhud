@@ -23,7 +23,7 @@
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-			"xpos"			"9999"
+		"xpos"				"9999"
 	}
 
 	"WaitingForPlayersLabel"
@@ -141,7 +141,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"70"
-		"ypos"				"5"
+		"ypos"				"4"
 		"zpos"				"5"
 		"wide"				"80"
 		"tall"				"10"
