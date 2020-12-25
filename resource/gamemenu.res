@@ -18,12 +18,6 @@
 		"command"		"engine replay_reloadbrowser"
 		"tooltip" 		"#MMenu_Tooltip_Replay"
 	}
-	"ConsoleButton"
-	{
-		"label"			"c"
-		"command"		"engine toggleconsole"
-		"tooltip"		"Console"
-	}
 	"ReportBugButton"
 	{
 		"label"			"e"
@@ -35,6 +29,18 @@
 		"label" 		"f"
 		"command" 		"engine itemtest"
 		"tooltip" 		"#IT_Title"
+	}
+	"TrainingModeButton"
+	{
+		"label"			"V"
+		"command"		"engine training_showdlg"
+		"tooltip"		"#MMenu_PlayList_Training_Button"
+	}
+	"CreateServerButton"
+	{
+		"label"			"W"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"tooltip"		"#MMenu_PlayList_CreateServer_Button"
 	}
 	"CoachPlayersButton"
 	{

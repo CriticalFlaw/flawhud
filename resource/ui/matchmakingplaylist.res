@@ -16,7 +16,8 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"r205"
+		"xpos"					"r165"
+		"xpos_lodef"			"r150"
 		"ypos"					"5"
 		"tall"					"50"
 		"wide"					"140"
@@ -91,39 +92,14 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"TrainingEntry"
-		"xpos"					"5"
-		"ypos"					"0"
-		"tall"					"20"
-		"wide"					"140"
-		"proportionaltoparent"	"1"
-		"image_name"			"main_menu/main_menu_button_training"
-		"button_token"			"#MMenu_PlayList_Training_Button"
-		"button_command"		"play_training"
-		"desc_token"			"#MMenu_PlayList_Training_Desc"
-
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"xpos"					"9999"
 	}
 
 	"CreateServerEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CreateServerEntry"
-		"xpos"					"5"
-		"ypos"					"-30"
-		"tall"					"20"
-		"wide"					"140"
-		"proportionaltoparent"	"0"
-		"bgcolor_override"		"White"
-		"image_name"			"main_menu/main_menu_button_custom_server"
-		"button_token"			"#MMenu_PlayList_CreateServer_Button"
-		"button_command"		"create_server"
-		"desc_token"			"#MMenu_PlayList_CreateServer_Desc"
-		
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"xpos"					"9999"
 	}
 
 	"ScrollBar"

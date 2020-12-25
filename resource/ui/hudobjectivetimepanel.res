@@ -158,7 +158,7 @@
 		{
 			"xpos"			"0"
 			"textAlignment"	"center"
-			"ypos"			"25"
+			"ypos"			"23"
 		}
 
 		if_mvm
