@@ -116,7 +116,7 @@
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "White"
 	}
 
 	"MenuBG"

@@ -95,9 +95,9 @@
 
 		"PipeIcon"
 		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"PipeIcon"
-			"xpos"									"9999"
+			"ControlName"		"CTFImagePanel"
+			"fieldName"			"PipeIcon"
+			"xpos"				"9999"
 		}
 	}
 

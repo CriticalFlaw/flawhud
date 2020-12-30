@@ -31,7 +31,7 @@
 		"button_xpos_offcenter"			"175"
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
-		"button_override_delete_xpos" 	"0"
+		"button_override_delete_xpos"	"0"
 
 		"page_button_y"					"288"
 		"page_button_x_delta"			"3"
@@ -159,6 +159,7 @@
 		"fieldName"			"CaratLabel"
 		"xpos"				"9999"
 	}
+
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"

@@ -401,7 +401,7 @@
 			"ReadyImage"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"RewdadyImage"
+				"fieldName"		"ReadyImage"
 				"xpos"			"9999"
 			}
 			"respawntime"

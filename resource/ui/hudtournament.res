@@ -566,7 +566,6 @@
 		{
 			"visible"			"0"
 		}
-
 		if_readymode
 		{
 			"visible"			"0"

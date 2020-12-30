@@ -124,8 +124,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"		"UberCharging"
 		"bgcolor_override"		"ProgressBackground"
-		"paintborder"			"1"
-		"border"				"NoBorder"
+		"paintborder"			"0"
 
 		"pin_to_sibling"		"ChargeLabel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"

@@ -71,7 +71,7 @@
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"54"
-		"text_ypos"			"100"
+		"text_ypos"			"100"		// Hide it off the bottom
 		"text_center"		"1"
 		"name_only"			"1"
 
@@ -119,7 +119,7 @@
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"54"
-		"text_ypos"			"100"
+		"text_ypos"			"100"		// Hide it off the bottom
 		"text_center"		"1"
 		"name_only"			"1"
 

@@ -249,7 +249,7 @@ Scheme
 				"name"			"TF2 Secondary"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 			"2"
 			{

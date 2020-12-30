@@ -13,7 +13,7 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"HudBlack"
 	}
 

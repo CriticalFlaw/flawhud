@@ -45,7 +45,7 @@
 		"tall"					"120"
 		"visible"				"1"
 		"enabled"				"1"
-		"paintbackground" 		"0"
+		"paintbackground"		"0"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"

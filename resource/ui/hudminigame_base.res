@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"RightSideBG"
@@ -27,9 +27,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,7 +48,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"White"
@@ -64,13 +64,13 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
 		"pin_to_sibling"	"BlueScore"
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -82,11 +82,11 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
-		"fgcolor"		"White"		
-	}	
+		"fgcolor"		"White"
+	}
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -98,7 +98,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
@@ -151,6 +151,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }
