@@ -533,6 +533,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -557,6 +558,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"addtocart"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
