@@ -229,7 +229,7 @@
 		"fieldName"			"PassiveAttribsLabel"
 		"font"				"FontRegular12"
 		"xpos"				"c-135"
-		"ypos"				"125"
+		"ypos"				"c-117"
 		"zpos"				"0"
 		"wide"				"270"
 		"tall"				"240"
