@@ -1,24 +1,24 @@
-![alt text](https://i.imgur.com/u7nNNN9.png)
+![banner](https://i.imgur.com/u7nNNN9.png)
 
 Custom Heads-Up Display (HUD) for Team Fortress 2. [Click here for screenshots](https://imgur.com/a/0whDjXr).
 
 #### Installation
-Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf\custom`
+Extract the zipped file contents into `Steam\steamapps\common\Team Fortress 2\tf\custom`.
 
 #### Custom Crosshairs
-Custom crosshairs are disabled by default, to enable them open `flawhud\scripts\hudlayout.res` and under the `CustomCrosshair` node change the values to the right of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same node change the letter to the right of `labelText` to the corresponding crosshair letter found in the TF2Crosshairs.png image file (located in the `scripts` folder).
+Custom crosshairs are disabled by default. To enable them, open `flawhud\scripts\hudlayout.res` in a text editor and under `CustomCrosshair` change the values of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same area change the value of `labelText` to the corresponding crosshair letter found in `flawhud\scripts\TF2Crosshairs.png`.
 
 #### Streamer Mode
-If you're streaming on Twitch/YouTube and need extra protection against stream snipers and DDoS attacks, then you can toggle Streamer Mode by clicking on the TF Logo on the right hand side of the main menu. Streamer Mode hides player names and other information that would otherwise let the viewer know where and who you're playing with. This feature uses minmode `cl_hud_minmode` allowing to toggle in and out of Streamer Mode without needing to restart the game.
+If you want extra protection against stream snipers and DDoS attacks while streaming on Twitch or YouTube, you can enable Streamer Mode by clicking on the Incognito icon on the right hand side of the main menu. Streamer Mode hides player names and other information that could let the viewer know where and who you're playing with. This feature uses the game's minmode (`cl_hud_minmode`) and users are advised to remove minmode from their configs if they don't want this feature to be enalbed by default.
 
 #### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and add the suffix `_pro` as instructed in the file.
 
 #### Transparent Viewmodels
-Due to users experiencing issues relating to their own graphics settings, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudlayout.res (disabled by default) are included, so you're responsible for acquiring and modifying your config accordingly. For more information, visit the TeamFortress.TV [thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
+Due to users experiencing issues relating to their own graphics settings, the config necessary to use Transparent Viewmodels in-game will not be included. The material files and entry in hudlayout.res (disabled by default) are included, so the user is responsible for acquiring and modifying their config accordingly. For more information, visit the TeamFortress.TV [thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud).
 
 #### CastingEssentials
-Features available in the latest [CastingEssentials](https://github.com/PazerOP/CastingEssentials/releases/latest) release like the Team Scores and Medi Gun panels work with FlawHUD when enabled in console. For more information check the [CastingEssentials Wiki](https://github.com/PazerOP/CastingEssentials/wiki).
+Features available in the latest [CastingEssentials](https://github.com/PazerOP/CastingEssentials/releases/latest) release like team scores and medigun info work with FlawHUD when enabled in console. For more information check the [CastingEssentials Wiki](https://github.com/PazerOP/CastingEssentials/wiki).
 
 #### Credits
 * **HUD Development Help**: N0kk and Wiethoofd
@@ -39,6 +39,5 @@ Special thank you to those who are sponsoring this project via [GitHub Sponsors]
 If you've found a bug, need help or have a suggestion, either...
 * [Open a support ticket on GitHub](https://github.com/CriticalFlaw/FlawHUD/issues/new)
 * [Post on the Steam Group Forums](https://steamcommunity.com/groups/FlawHUD/discussions)
-* [Open a Pull Request on GitHub](https://github.com/CriticalFlaw/FlawHUD/pulls)
 
-![alt text](https://forthebadge.com/images/badges/designed-in-etch-a-sketch.svg)
+![badge](https://forthebadge.com/images/badges/powered-by-water.svg)
