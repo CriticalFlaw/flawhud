@@ -339,7 +339,8 @@
 
 					if_mini
 					{
-						"xpos"			"40"
+						"xpos"			"25"
+						"ypos"			"25"
 					}
 				}
 
@@ -359,6 +360,11 @@
 					"textAlignment"	"east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"ypos"			"25"
+					}
 				}
 
 				"ProgressBarsContainer"
