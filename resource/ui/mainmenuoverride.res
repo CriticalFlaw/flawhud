@@ -641,6 +641,47 @@
 			"armedFgColor_override"		"100 65 165 255"
 		}
 	}
+	
+	"HomeServerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"HomeServerButton"
+		"xpos"			"rs1-10"
+		"ypos"			"165"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"LabelText" 		"?"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"command" 			"engine connect 138.197.133.71; password flawhud"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"100 65 165 255"
+		}
+	}
 
 	"MOTD_Panel"
 	{
