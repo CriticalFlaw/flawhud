@@ -6,6 +6,7 @@
 		"fieldname"				"LinksPanel"
 		"xpos"					"75"
 		"ypos"					"r35"
+		"ypos_minmode"			"295"
 		"zpos"					"-1"
 		"wide"					"260"
 		"tall"					"22"
