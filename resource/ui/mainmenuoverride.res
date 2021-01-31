@@ -1,4 +1,5 @@
 #base "../../resource/preload.res"
+#base "../../resource/links.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -329,10 +330,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"285"
-		"ypos"			"145"
+		"ypos"			"138"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"38"
+		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\nogc"
@@ -1260,7 +1261,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2020.1225"
+		"labelText"			"FlawHUD v2021.0201"
 		"labelText_minmode"	"Streamer Mode"
 		"xpos"				"rs1-5"
 		"xpos_minmode"		"r130"
