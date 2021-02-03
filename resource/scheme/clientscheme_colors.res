@@ -42,10 +42,9 @@ Scheme
 		"Crosshair"					"242 242 242 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
-		// Ubercharge
-		"UberCharged1"				"0 170 127 255"
-		"UberCharged2"				"0 120 127 255"
-		"UberCharging"				"0 170 127 255"
+		// ÜberCharge
+		"UberCharge"				"0 170 127 255"
+		"UberChargePulse"			"0 120 127 255"
 		//---------------------------------------------
 		// Loadout Gradient
 		"LOGScout"					"75 112 130 255"

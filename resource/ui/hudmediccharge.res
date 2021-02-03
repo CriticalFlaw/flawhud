@@ -122,7 +122,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"		"UberCharging"
+		"fgcolor_override"		"UberCharge"
 		"bgcolor_override"		"ProgressBackground"
 		"paintborder"			"0"
 
