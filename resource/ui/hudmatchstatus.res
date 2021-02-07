@@ -284,8 +284,6 @@
 			"visible"		"0"
 			"wide"			"25"
 			"tall"			"50"
-			"wide_minmode"	"0"
-			"tall_minmode"	"0"
 			"zpos"			"1"
 			"proportionaltoparent"	"1"
 
