@@ -27,6 +27,7 @@ Features available in the latest [CastingEssentials](https://github.com/PazerOP/
 * **Crosshair and Icon Packs**: Hypnootize
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
+* **Extended TF2 Fonts**: jakadak
 
 #### Sponsors
 Special thank you to those who are sponsoring this project via [GitHub Sponsors](https://github.com/sponsors/CriticalFlaw)

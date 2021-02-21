@@ -927,7 +927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"TF2 Build"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -2705,115 +2705,395 @@ Scheme
 			"name"	"TF2"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"4"
 		{
-			"font"	"resource/TF2Secondary.ttf"
+			"font"	"resource/fonts/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"5"
 		{
-			"font"	"resource/TF2Professor.ttf"
+			"font"	"resource/fonts/TF2Progessor.ttf"
 			"name"	"TF2 Professor"
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x00FF"
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"6"
 		{
-			"font"	"resource/TF2Build.ttf"
+			"font"	"resource/fonts/TF2Build.ttf"
 			"name"	"TF2 Build"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
 			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
 			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0020 0x2116"
 			}
 		}
 		"7"
 		{
-			"font"	"resource/ocra.ttf"
+			"font"	"resource/fonts/ocra.ttf"
 			"name"	"ocra"
-			"turkish"
+			"bulgarian"
 			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
+				"range" "0x0020 0x2116"
 			}
 			"czech"
 			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
 			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
 			{
-				"range" "0x0000 0x007E"
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 	}
