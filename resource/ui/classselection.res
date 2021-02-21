@@ -489,7 +489,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"fillcolor"		"HudBlack"
+		"fillcolor"		"TransparentBlack"
 	}
 
 	"localPlayerImage" [$WIN32]

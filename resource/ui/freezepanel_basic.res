@@ -52,7 +52,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"FreezeLabel"
 			"font"				"FontRegular10"
-			"xpos"				"60"
+			"xpos"				"20"
 			"ypos"				"0"
 			"zpos"				"1"
 			"wide"				"160"
@@ -62,7 +62,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"#FreezePanel_Killer"
-			"textAlignment"		"west"
+			"textAlignment"		"east"
 			"dulltext"			"0"
 			"brighttext"		"0"
 		}

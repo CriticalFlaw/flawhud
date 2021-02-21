@@ -94,7 +94,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"Yellow"
+			"armedFgColor_override"		"HoverWhite"
 			"depressedFgColor_override"	"White"
 		}
 	}

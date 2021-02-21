@@ -19,12 +19,11 @@ Scheme
 		"DarkerGrey"				"22 22 22 255"
 		"Brown"						"49 44 41 255"
 		"ShadowBlack"				"7 7 7 255"
-		"HudBlack"					"0 0 0 230"
 		"NeonRed"					"200 10 20 255"
 		"MenuShader"				"0 0 0 100"
 		"TextColor"					"117 107 94 255"
 		"NeutralWhite"				"235 226 202 255"
-		"HoverWhite"				"214 206 200 255"
+		"HoverWhite"				"245 230 200 255"
 		//---------------------------------------------
 		// Gameplay
 		"Overheal"					"0 170 127 255"
@@ -95,7 +94,7 @@ Scheme
 		"PartyMember5"							"255 118 108 255"
 		"PartyMember6"							"255 133 255 255"
 
-		"White"									"242 242 242 255"
+		"White"									"235 235 235 255"
 		"Red"									"192 28 0 140"
 		"RedSolid"								"192 28 0 255"
 		"Blue"									"0 28 162 140"
@@ -107,7 +106,7 @@ Scheme
 
 		"Black"									"29 29 29 255"
 		"Transparent"							"0 0 0 0"
-		"TransparentBlack"						"0 0 0 196"
+		"TransparentBlack"						"0 0 0 230"
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 
@@ -119,7 +118,7 @@ Scheme
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"200 187 161 255"
-		//"HudBlack"							"65 65 65 255"
+		"HudBlack"								"29 29 29 230"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
 

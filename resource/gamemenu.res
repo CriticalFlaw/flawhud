@@ -76,6 +76,18 @@
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+	"QuestLogButton"
+	{
+		"label"			"r"
+		"command"		"questlog"
+		"tooltip"		"#TF_QuestMap_Intro_Title"
+	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label"			"o"
+		"command"		"motd_show"
+		"tooltip"		"#TF_MOTD_Title"
+	}
 	"RefreshHUDButton"
 	{
 		"label"			"."

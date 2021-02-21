@@ -1074,8 +1074,8 @@
 		"font"				"FontBold14"
 		"labelText"			"#SelectClassLoadout"
 		"textAlignment"		"center"
-		"xpos"				"9999"
-		"ypos"				"9999"
+		"xpos"				"0"
+		"ypos"				"300"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"30"
@@ -1083,7 +1083,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"DarkGrey"
+		"fgcolor_override"	"Transparent"
 	}
 
 	"LoadoutChangesLabel"
