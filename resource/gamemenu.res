@@ -100,4 +100,10 @@
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar mat_antialias 0 1 1"
 		"tooltip"		"Streamer Mode"
 	}
+	"HomeServerButton"
+	{
+		"label"			"p"
+		"command"		"engine connect 138.197.133.71; password flawhud"
+		"tooltip"		"Home Server"
+	}
 }

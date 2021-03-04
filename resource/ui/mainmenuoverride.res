@@ -484,11 +484,8 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 
 		"SubButton"
 		{
@@ -527,11 +524,8 @@
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		
 		"pin_to_sibling"			"QuestLogButton"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
@@ -565,10 +559,10 @@
 		}
 	}
 
-	"RefreshHUDButton"
+	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"RefreshHUDButton"
+		"fieldname"		"HomeServerButton"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -604,7 +598,50 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"170 221 183 255"
+			"armedFgColor_override"		"250 27 45 255"
+		}
+	}
+
+	"RefreshHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RefreshHUDButton"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		
+		"pin_to_sibling"			"HomeServerButton"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+		
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"100 65 165 255"
 		}
 	}
 	
@@ -647,48 +684,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"100 65 165 255"
-		}
-	}
-	
-	"HomeServerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"HomeServerButton"
-		"xpos"			"rs1-10"
-		"ypos"			"165"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"20"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"LabelText" 		"?"
-			"font"				"CustomIcons"
-			"use_proportional_insets" "1"
-			"textAlignment"		"center"
-			"default"			"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"command" 			"engine connect 138.197.133.71; password flawhud"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"100 65 165 255"
+			"armedFgColor_override"		"35 177 77 255"
 		}
 	}
 
@@ -1980,5 +1976,19 @@
 		"pin_to_sibling"		"BGPanel3"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+
+	"BGPanel5"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"BGPanel5"
+		"xpos"					"rs1+5"
+		"ypos"					"65"
+		"zpos"					"-1"
+		"wide"					"45"
+		"tall"					"103"
+		"visible"				"1"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

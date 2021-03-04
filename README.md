@@ -11,6 +11,9 @@ Custom crosshairs are disabled by default. To enable them, open `flawhud\scripts
 #### Streamer Mode
 If you want extra protection against stream snipers and DDoS attacks while streaming on Twitch or YouTube, you can enable Streamer Mode by clicking on the Incognito icon on the right hand side of the main menu. Streamer Mode hides player names and other information that could let the viewer know where and who you're playing with. This feature uses the game's minmode (`cl_hud_minmode`) and users are advised to remove minmode from their configs if they don't want this feature to be enalbed by default.
 
+#### Home Server
+To have the Home Server button point to your server of choice, open `flawhud\resource\gamemenu.res` and under `HomeServerButton` replace the existing connection string with one of your own.
+
 #### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` and add the suffix `_pro` as instructed in the file.
 
