@@ -11,7 +11,7 @@ Scheme
 		"DarkRed"					"102 48 46 255"
 		"ColorGreen"				"0 225 0 255"
 		"DarkGreen"					"38 53 36 255"
-		"Yellow"					"170 221 183 255"
+		"Yellow"					"92 122 90 255"
 		"BrightYellow"				"218 165 32 255"
 		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"

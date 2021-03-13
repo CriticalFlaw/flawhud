@@ -71,7 +71,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		 if_mvm
@@ -230,7 +230,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BlueBG"

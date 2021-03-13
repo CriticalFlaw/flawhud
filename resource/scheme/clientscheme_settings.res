@@ -27,7 +27,7 @@ Scheme
 		Econ.Button.PresetDefaultColorFg		"White"
 		Econ.Button.PresetArmedColorFg			"Black"
 		Econ.Button.PresetDepressedColorFg		"White"
-		Econ.Button.PresetDefaultColorBg		"DarkerGrey"
+		Econ.Button.PresetDefaultColorBg		"Yellow"
 		Econ.Button.PresetArmedColorBg			"HudWhite"
 		Econ.Button.PresetDepressedColorBg		"HudWhite"
 		Econ.Button.Border.Default				"White"
