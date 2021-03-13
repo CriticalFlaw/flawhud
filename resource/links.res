@@ -109,4 +109,112 @@
 			"urlText"				"https://huds.tf/site/s-FlawHUD"
 		}
 	}
+	
+	"CreatorsLink"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CreatorsLink"
+		"xpos"					"20"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"18"
+		"tall"					"18"
+		"visible"				"1"
+		"bgcolor_override"		"202 113 45 255"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"HudsLink"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		
+		"CreatorsUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"CreatorsUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"CustomIcons"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"center"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://creators.tf/quickplay/pubs"
+		}
+		
+		"CreatorsLogo"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"CreatorsLogo"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"wide"					"17"
+			"tall"					"17"
+			"proportionaltoparent"	"1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/creators"
+			"scaleimage"			"1"
+			"alpha"					"120"
+		}
+	}
+	
+	"UncleLink"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"UncleLink"
+		"xpos"					"20"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"18"
+		"tall"					"18"
+		"visible"				"1"
+		"bgcolor_override"		"181 64 60 255"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"CreatorsLink"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		
+		"UncleUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"UncleUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"CustomIcons"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"center"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://uncledane.com/servers"
+		}
+		
+		"UncleLogo"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"UncleLogo"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"wide"					"17"
+			"tall"					"17"
+			"proportionaltoparent"	"1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/uncletopia"
+			"scaleimage"			"1"
+			"alpha"					"120"
+		}
+	}
 }

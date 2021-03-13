@@ -118,7 +118,7 @@ Scheme
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"200 187 161 255"
-		"HudBlack"								"29 29 29 230"
+		"HudBlack"								"16 16 16 230"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
 
