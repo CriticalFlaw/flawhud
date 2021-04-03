@@ -455,7 +455,7 @@
 
 	"ClassMenuSelect"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"ClassMenuSelect"
 		"xpos"			"c-150"
 		"ypos"			"c-130"
@@ -467,7 +467,12 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"FontBold22"
-		"fgcolor_override"	"White"
+		"paintbackground"	"0"
+		"sound_released"	"UI/secret.wav"
+		"sound_depressed"	""
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 	}
 
 	"MenuBG"
