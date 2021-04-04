@@ -3,7 +3,7 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
+	"MainMenuOverride"
 	{
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
@@ -162,27 +162,27 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		
-		if_wider
+		"if_wider"
 		{
 			"wide"		"f0"
 			"tall"		"o0.628"
 		}
 		
-		if_taller
+		"if_taller"
 		{
 			"wide"		"o1.6"
 			"tall"		"f0"
 		}
 		
-		if_halloween
+		"if_halloween"
 		{	
 //			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		if_fullmoon
+		"if_fullmoon"
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		"if_christmas"
 		{
 //			"image"		"../console/background_xmas2020_widescreen"
 		}

@@ -95,13 +95,9 @@ Scheme
 		"PartyMember6"							"255 133 255 255"
 
 		"White"									"235 235 235 255"
-		"Red"									"192 28 0 140"
 		"RedSolid"								"192 28 0 255"
-		"Blue"									"0 28 162 140"
 		"BlueSolid"								"0 28 162 255"
-		"Yellow"								"251 235 202 255"
 		"TransparentYellow"						"251 235 202 140"
-		"BrightYellow"							"251 235 0 255"
 		"GreenSolid"							"76 107 34 255"
 
 		"Black"									"29 29 29 255"

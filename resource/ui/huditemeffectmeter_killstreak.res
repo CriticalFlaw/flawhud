@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"xpos"				"2"
 		"ypos"				"r28"

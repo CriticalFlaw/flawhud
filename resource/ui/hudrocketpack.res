@@ -2,7 +2,7 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"				"c110"
 		"tall"				"500"

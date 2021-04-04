@@ -4,8 +4,8 @@ event HudHealthBonusPulse
 	Animate	HealthBG					BgColor		"Overheal"			Linear 0.0 0.2
 	Animate	HealthBG					BgColor		"OverhealPulse"		Linear 0.2 0.6
 
-//	Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Linear 0.0 0.2
-//	Animate	PlayerStatusHealthValue		FgColor		"OverhealPulse"		Linear 0.2 0.6
+	//Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Linear 0.0 0.2
+	//Animate	PlayerStatusHealthValue		FgColor		"OverhealPulse"		Linear 0.2 0.6
 
 	Animate	GuiPlayerHealth				FgColor		"PositiveValue"		Linear 0.0 0.0
 	Animate RedPlayerHealth				FgColor		"PositiveValue"		Linear 0.0 0.0
@@ -33,8 +33,8 @@ event HudHealthDyingPulse
 	Animate	HealthBG					BgColor		"LowHealth"			Linear 0.0 0.2
 	Animate	HealthBG					BgColor		"LowHealthPulse"	Linear 0.2 0.6
 
-//	Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Linear 0.0 0.2
-//	Animate PlayerStatusHealthValue		FgColor		"LowHealthPulse"	Linear 0.2 0.6
+	//Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Linear 0.0 0.2
+	//Animate PlayerStatusHealthValue		FgColor		"LowHealthPulse"	Linear 0.2 0.6
 
 	Animate	GuiPlayerHealth				FgColor		"NegativeValue"		Linear 0.0 0.0
 	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
@@ -62,12 +62,12 @@ event HudLowAmmoPulse
 	Animate	AmmoBG						BgColor		"LowAmmo"			Linear 0.0 0.2
 	Animate	AmmoBG						BgColor		"LowAmmoPulse"		Linear 0.2 0.6
 
-//	Animate	AmmoInClip					FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoInClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
-//	Animate	AmmoInReserve				FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoInReserve				FgColor		"LowAmmoPulse"		Linear 0.2 0.6
-//	Animate	AmmoNoClip					FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoNoClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
+	//Animate	AmmoInClip					FgColor		"LowAmmo"			Linear 0.0 0.2
+	//Animate	AmmoInClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
+	//Animate	AmmoInReserve				FgColor		"LowAmmo"			Linear 0.0 0.2
+	//Animate	AmmoInReserve				FgColor		"LowAmmoPulse"		Linear 0.2 0.6
+	//Animate	AmmoNoClip					FgColor		"LowAmmo"			Linear 0.0 0.2
+	//Animate	AmmoNoClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
 
 	RunEvent HudLowAmmoPulseLoop		0.4
 }
