@@ -114,6 +114,44 @@
 		}
 	}
 	
+	"DiscordLink"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"DiscordLink"
+		"xpos"					"0"
+		"ypos"					"22"
+		"zpos"					"1"
+		"wide"					"18"
+		"tall"					"18"
+		"visible"				"1"
+		"bgcolor_override"		"114 137 218 255"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"HudsLink"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		
+		"DiscordUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"DiscordUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"CustomIcons"
+			"labelText"				"Z"
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"center"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://discord.gg/hTdtK9vBhE"
+		}
+	}
+	
 	"CreatorsLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -127,7 +165,7 @@
 		"bgcolor_override"		"202 113 45 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"HudsLink"
+		"pin_to_sibling"		"DiscordLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		
@@ -229,7 +267,7 @@
 		"ypos"					"175"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"125"
+		"tall"					"145"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
@@ -248,7 +286,7 @@
 		"enabled"				"1"
 		"fillcolor"				"Black"
 
-		"pin_to_sibling"		"HudsLink"
+		"pin_to_sibling"		"DiscordLink"
         "pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
         "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
