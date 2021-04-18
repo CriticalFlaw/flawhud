@@ -42,6 +42,12 @@
 		"command"		"OpenCreateMultiplayerGameDialog"
 		"tooltip"		"#MMenu_PlayList_CreateServer_Button"
 	}
+	"ConsoleButton"
+	{
+		"label" 		"="
+		"command" 		"engine toggleconsole"
+		"tooltip" 		"#TF_DemoSupport_Notify_ConsoleOnly"
+	}
 	"CoachPlayersButton"
 	{
 		"label" 		"g"
