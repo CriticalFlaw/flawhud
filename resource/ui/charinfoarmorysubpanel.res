@@ -149,7 +149,7 @@
 			"enabled"				"1"
 			"fgcolor"				"TanLight"
 			"wrap"					"1"
-			"highlight_color"		"BrightYellow"
+			"highlight_color"		"Yellow"
 			"itemset_color"			"216 244 9 255"
 			"link_color"			"Yellow"
 			"image_up_arrow"				"scroll_up_off"

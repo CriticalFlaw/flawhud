@@ -59,7 +59,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"TourLevelLabel"
-			"font"				"FontBold8"
+			"font"				"FontBold9"
 			"labelText"			"#TF_MvM_TourNumber"
 			"textAlignment"		"south-west"
 			"xpos"				"345"

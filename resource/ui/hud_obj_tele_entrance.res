@@ -61,13 +61,12 @@
 			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#Building_hud_tele_enter_not_built"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -80,7 +79,6 @@
 		"wide"			"120"
 		"tall"			"40"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
 
 		"Icon_Upgrade_1"
 		{
@@ -96,7 +94,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_2"
@@ -113,7 +110,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_3"
@@ -130,7 +126,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"AlertTray"
@@ -195,7 +190,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -255,7 +249,6 @@
 			"wide"			"50"
 			"tall"			"35"
 			"visible"		"0"
-			"proportionaltoparent"	"1"
 
 			"TeleportedIcon"
 			{
@@ -271,7 +264,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_teleport_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"ChargingPanel"
@@ -300,7 +292,6 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-					"proportionaltoparent"	"1"
 				}
 			}
 
@@ -332,7 +323,6 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"drawcolor"		"ProgressOffWhite"
-					"proportionaltoparent"	"1"
 				}
 			}
 
@@ -350,7 +340,6 @@
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"Upgrade"
@@ -369,7 +358,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 		}
 	}

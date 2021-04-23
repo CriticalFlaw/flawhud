@@ -91,8 +91,8 @@
 			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#Building_hud_sentry_not_built"
 			"textAlignment"	"west"
 			"dulltext"		"0"
@@ -110,7 +110,6 @@
 		"wide"			"120"
 		"tall"			"40"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
 
 		"Icon_Upgrade_1"
 		{
@@ -126,7 +125,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_2"
@@ -143,7 +141,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_3"
@@ -160,7 +157,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
-			"proportionaltoparent"	"1"
 		}
 
 		"AlertTray"
@@ -225,7 +221,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -285,7 +280,6 @@
 			"wide"			"50"
 			"tall"			"35"
 			"visible"		"0"
-			"proportionaltoparent"	"1"
 
 			"KillIcon"
 			{
@@ -301,7 +295,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"KillsLabel"
@@ -322,7 +315,6 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"ShellIcon"
@@ -339,7 +331,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"Shells"
@@ -358,7 +349,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 
 			"RocketIcon"
@@ -375,7 +365,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"Rockets"
@@ -394,7 +383,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 
 			"UpgradeIcon"
@@ -411,7 +399,6 @@
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"Upgrade"
@@ -430,7 +417,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 		}
 	}

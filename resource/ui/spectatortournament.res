@@ -349,7 +349,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"FontBold9Outline"
+				"font"				"FontBold9"
 				"xpos"				"140"
 				"ypos"				"7"
 				"zpos"				"201"
@@ -367,7 +367,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedChargeAmount"
-				"font"				"FontBold9Outline"
+				"font"				"FontBold9"
 				"xpos"				"140"
 				"ypos"				"7"
 				"zpos"				"6"

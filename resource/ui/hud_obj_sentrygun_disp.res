@@ -62,12 +62,11 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -80,7 +79,6 @@
 		"wide"			"100"
 		"tall"			"40"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
 
 		"Icon_Upgrade_1"
 		{
@@ -126,7 +124,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -186,7 +183,6 @@
 			"wide"			"50"
 			"tall"			"35"
 			"visible"		"0"
-			"proportionaltoparent"	"1"
 
 			"KillIcon"
 			{
@@ -202,7 +198,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"KillsLabel"
@@ -223,7 +218,6 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"ShellIcon"
@@ -240,7 +234,6 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"Shells"
@@ -259,7 +252,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 		}
 	}
