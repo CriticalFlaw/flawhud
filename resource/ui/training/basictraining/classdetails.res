@@ -23,7 +23,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OverlayPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -39,7 +39,7 @@
 		"paintbackground"	"1"
 		"bgcolor_override"	"DarkGrey"
 		"paintbackgroundtype"	"2"
-		
+
 		"ClassNameLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -57,7 +57,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"DescLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -75,7 +75,7 @@
 			"enabled"			"1"
 			"wrap"				"1"
 		}
-		
+
 		"WeaponSetLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -93,7 +93,7 @@
 			"enabled"			"1"
 			"fgcolor_override"	"116 108 101 255"
 		}
-		
+
 		"WeaponImage0"
 		{
 			"ControlName"		"ImagePanel"
@@ -106,7 +106,7 @@
 			"tileImage"			"0"
 			"scaleImage"		"1"
 		}
-		
+
 		"WeaponImage1"
 		{
 			"ControlName"		"ImagePanel"
@@ -119,7 +119,7 @@
 			"tileImage"			"0"
 			"scaleImage"		"1"
 		}
-		
+
 		"WeaponImage2"
 		{
 			"ControlName"		"ImagePanel"
@@ -132,7 +132,7 @@
 			"tileImage"			"0"
 			"scaleImage"		"1"
 		}
-		
+
 		"PrimaryLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -149,7 +149,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"SecondaryLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -166,7 +166,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"MeleeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -184,7 +184,7 @@
 			"enabled"			"1"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -198,7 +198,7 @@
 		"tileImage"			"0"
 		"scaleImage"		"1"
 	}
-	
+
 	"ClassIconImage"
 	{
 		"ControlName"		"ImagePanel"

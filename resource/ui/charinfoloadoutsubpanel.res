@@ -65,11 +65,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout scout"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -131,11 +131,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout soldier"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSoldier"
 		"depressedFgColor_override" "LOGSoldier"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -201,11 +201,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout pyro"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -271,11 +271,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout demoman"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGDemoman"
 		"depressedFgColor_override" "LOGDemoman"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -341,11 +341,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout heavy"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -411,11 +411,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout engineer"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGEngineer"
 		"depressedFgColor_override" "LOGEngineer"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -481,11 +481,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout medic"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -551,11 +551,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout sniper"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSniper"
 		"depressedFgColor_override" "LOGSniper"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -621,11 +621,11 @@
 		"paintbackground"			"0"
 		"Command"					"loadout spy"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -691,11 +691,11 @@
 		"paintbackground"			"0"
 		"Command"					"backpack"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -754,11 +754,11 @@
 		"paintbackground"			"0"
 		"Command"					"crafting"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -821,11 +821,11 @@
 		"paintbackground"			"0"
 		"Command"					"armory"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -888,11 +888,11 @@
 		"paintbackground"			"0"
 		"Command"					"trading"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -956,11 +956,11 @@
 		"paintbackground"			"0"
 		"Command"					"paintkit_preview"
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -1066,7 +1066,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"Yellow"
 	}
-	
+
 	"SelectLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -1236,10 +1236,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -1284,7 +1284,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1394,10 +1394,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -1425,7 +1425,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1492,7 +1492,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1601,10 +1601,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -1632,7 +1632,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1699,7 +1699,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1808,10 +1808,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -1839,7 +1839,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1906,7 +1906,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2015,10 +2015,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -2046,7 +2046,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2113,7 +2113,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2222,10 +2222,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -2253,7 +2253,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2320,7 +2320,7 @@
 			"default"		"0"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2428,10 +2428,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -2459,7 +2459,7 @@
 			"default"		"0"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

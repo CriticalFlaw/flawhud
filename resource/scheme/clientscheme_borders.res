@@ -42,7 +42,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		WhiteBorderThick
 		{
 			"inset" "0 0 0 0"

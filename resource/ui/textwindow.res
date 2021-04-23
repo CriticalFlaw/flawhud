@@ -113,7 +113,7 @@
 		"default"			"1"
 		"font"				"FontBold14"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "White"

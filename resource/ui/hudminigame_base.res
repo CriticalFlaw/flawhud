@@ -29,14 +29,14 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -104,7 +104,7 @@
 		"fgcolor"		"ShadowBlack"
 		"pin_to_sibling"	"RedScore"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -123,7 +123,7 @@
 		"font"			"FontRegular11"
 		"fgcolor"		"White"
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"

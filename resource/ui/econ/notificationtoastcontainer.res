@@ -14,7 +14,7 @@
 		"bgcolor_override"	"HudBlack"
 		"border"			"NoBorder"
 	}
-	
+
 	"HelpTextLabel"
 	{
 		"ControlName"		"CExLabel"

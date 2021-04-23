@@ -504,10 +504,10 @@
 		"default"		"0"
 		"Command"			"close"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LightRed"
 		"depressedFgColor_override" "White"
@@ -533,7 +533,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -558,7 +558,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"addtocart"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

@@ -359,7 +359,7 @@
 				}
 
 				"nobuttons"		"1"
-				
+
 				"UpButton"
 				{
 					"ControlName"	"Button"

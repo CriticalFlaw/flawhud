@@ -15,7 +15,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
 	}
-	
+
 	"GradientPanel"
 	{
 		"ControlName"		"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"		"1"
 		"image"				"training/gradient_black"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"		"CExButton"
@@ -55,7 +55,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"		"CExButton"
@@ -80,7 +80,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"MapNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -100,7 +100,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -121,7 +121,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"StartOfflinePracticeButton"
 	{
 		"ControlName"		"CExButton"
@@ -145,7 +145,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"DifficultyLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -164,7 +164,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"DifficultyComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -186,17 +186,17 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"textinsetx"		"50"
-		
+
 		"fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"16 14 14 255"
-		
+
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
-	
+
 	"PlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -215,7 +215,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"NumPlayersTextEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -241,7 +241,7 @@
 		"bgcolor_override"		"16 14 14 255"
 		"fgcolor_override"		"246 237 211 255"
 	}
-	
+
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"		"CExLabel"

@@ -10,7 +10,7 @@
 		"tall"				"205"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"ModeNameLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -30,7 +30,7 @@
 			"mouseinputenabled"	"0"
 			"fgcolor_override"	"87 79 70 255"
 		}
-		
+
 		"DescLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -52,7 +52,7 @@
 			"wrap"				   "1"
 			"centerwrap"		   "1"
 		}
-		
+
 		"ImageFrame"
 		{
 			"ControlName"		"EditablePanel"
@@ -65,7 +65,7 @@
 			"enabled"			"1"
 			"border"			"MainMenuHighlightBorder"
 		}
-		
+
 		// Parented to ImageFrame in code.
 		"Image"
 		{
@@ -82,7 +82,7 @@
 			"image"				""
 		}
 	}
-	
+
 	"StartButton"
 	{
 		"ControlName"		"CExButton"

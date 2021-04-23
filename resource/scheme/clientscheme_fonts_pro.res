@@ -118,7 +118,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		
+
 		"FontRegular15"
 		{
 			"1"

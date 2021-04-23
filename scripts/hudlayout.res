@@ -290,7 +290,7 @@
 		"tall"					"50"
 		"priority"				"35"
 	}
-	
+
 	"BuildingStatusAnchor"
 	{
 		"fieldName"				"BuildingStatusAnchor"
@@ -302,7 +302,7 @@
 		"wide"					"640"
 		"tall"					"480"
 	}
-	
+
 	"BuildingStatus_Spy"
 	{
 		"fieldName" 			"BuildingStatus_Spy"
@@ -313,7 +313,7 @@
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"BuildingStatusAnchor"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -329,7 +329,7 @@
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"BuildingStatusAnchor"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
