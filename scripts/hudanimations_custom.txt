@@ -2,8 +2,8 @@
 event HudHealthBonusPulse
 {
 	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
-	Animate	HealthBoxBG					Alpha		"200"				Accel 0.0 0.2
-	Animate	HealthBoxBG					Alpha		"0"					Accel 0.2 0.4
+	Animate	HealthBG					Alpha		"200"				Accel 0.0 0.2
+	Animate	HealthBG					Alpha		"0"					Accel 0.2 0.4
 
 	//Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Linear 0.0 0.2
 	//Animate	PlayerStatusHealthValue		FgColor		"OverhealPulse"		Linear 0.2 0.6
