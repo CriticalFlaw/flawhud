@@ -19,49 +19,9 @@
 		"ypos"				"cs-0.5"
 		"wide"				"f0"
 		"tall"				"f0"
-		"font"				"Size:18 | Outline:OFF"
+		"font"				"Size:18"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
-	}
-	//--------------------------------------------------------------
-	// ROTATING CROSSHAIR
-	//--------------------------------------------------------------
-	// Set visible and enabled of both nodes to 1 to use.
-	// Change xpos and ypos values if not perfectly centered.
-	// Change drawcolor of CrosshairPulse to desired hitmarker color.
-	//--------------------------------------------------------------
-	"Crosshair"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Crosshair"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"zpos"				"198"
-		"wide"				"24"
-		"tall"				"24"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"replay/thumbnails/xhair"
-		"scaleImage"		"1"
-		"drawcolor"			"Crosshair"
-		"Alpha"				"255"
-	}
-
-	"CrosshairPulse"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"CrosshairPulse"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"zpos"				"198"
-		"wide"				"24"
-		"tall"				"24"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"replay/thumbnails/xhair"
-		"scaleImage"		"1"
-		"drawcolor"			"CrosshairDamage"
-		"Alpha"				"0"
 	}
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL
@@ -330,7 +290,7 @@
 		"tall"					"50"
 		"priority"				"35"
 	}
-	
+
 	"BuildingStatusAnchor"
 	{
 		"fieldName"				"BuildingStatusAnchor"
@@ -342,7 +302,7 @@
 		"wide"					"640"
 		"tall"					"480"
 	}
-	
+
 	"BuildingStatus_Spy"
 	{
 		"fieldName" 			"BuildingStatus_Spy"
@@ -353,7 +313,7 @@
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"BuildingStatusAnchor"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -369,7 +329,7 @@
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"BuildingStatusAnchor"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

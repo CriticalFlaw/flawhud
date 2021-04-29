@@ -16,7 +16,7 @@
 		"pin_to_sibling"		"BGPanel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		
+
 		"SteamUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -37,7 +37,7 @@
 			"urlText"				"https://steamcommunity.com/groups/FlawHUD"
 		}
 	}
-	
+
 	"GitLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -54,7 +54,7 @@
 		"pin_to_sibling"		"SteamLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
+
 		"GitUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -75,7 +75,7 @@
 			"urlText"				"https://github.com/CriticalFlaw/FlawHUD"
 		}
 	}
-	
+
 	"HudsLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -92,7 +92,7 @@
 		"pin_to_sibling"		"GitLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
+
 		"HudsUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -113,7 +113,7 @@
 			"urlText"				"https://huds.tf/site/s-FlawHUD"
 		}
 	}
-	
+
 	"DiscordLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -130,7 +130,7 @@
 		"pin_to_sibling"		"HudsLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
+
 		"DiscordUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -151,7 +151,7 @@
 			"urlText"				"https://discord.gg/hTdtK9vBhE"
 		}
 	}
-	
+
 	"CreatorsLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -168,7 +168,7 @@
 		"pin_to_sibling"		"DiscordLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
+
 		"CreatorsUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -188,7 +188,7 @@
 			"proportionaltoparent"	"1"
 			"urlText"				"https://creators.tf/quickplay/pubs"
 		}
-		
+
 		"CreatorsLogo"
 		{
 			"ControlName"			"ImagePanel"
@@ -205,7 +205,7 @@
 			"alpha"					"120"
 		}
 	}
-	
+
 	"UncleLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -222,7 +222,7 @@
 		"pin_to_sibling"		"CreatorsLink"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
+
 		"UncleUrl"
 		{
 			"ControlName"			"URLLabel"
@@ -242,7 +242,7 @@
 			"proportionaltoparent"	"1"
 			"urlText"				"https://uncledane.com/servers"
 		}
-		
+
 		"UncleLogo"
 		{
 			"ControlName"			"ImagePanel"
@@ -272,7 +272,7 @@
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"Separator"
 	{
 		"ControlName"			"ImagePanel"

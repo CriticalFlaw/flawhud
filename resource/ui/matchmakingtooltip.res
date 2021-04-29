@@ -13,7 +13,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"MainMenuBGBorder"
 		"mouseinputenabled"		"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -359,10 +359,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -518,10 +518,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -723,10 +723,10 @@
 			"default"		"0"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"

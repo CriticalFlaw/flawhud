@@ -10,7 +10,7 @@
 		"scaleImage"		"1"
 		"image"				"illustrations/training_basic"
 	}
-	
+
 	"SelectButton"
 	{
 		"ControlName"		"CExButton"
@@ -30,7 +30,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"		"CExLabel"

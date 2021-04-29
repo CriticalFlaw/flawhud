@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"		"27 27 27 0"
 
 		"title"								"#CharInfoAndSetup"
-		"title_font"						"FontRegular24"
+		"title_font"						"HudFontMedium"
 		"titletextinsetX"					"40"
 		"titletextinsetY"					"0"
 		"titlebarfgcolor_override"			"HudOffWhite"
@@ -160,7 +160,7 @@
 		"brighttext"		"0"
 		"default"			"0"
 		"Command"			"back"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

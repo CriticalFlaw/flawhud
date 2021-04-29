@@ -5,6 +5,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"HudWeaponAmmoBG"
 		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"HudWeaponLowAmmoImage"
@@ -12,6 +14,8 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HudWeaponLowAmmoImage"
 		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"AmmoBG"
@@ -25,8 +29,8 @@
 		"tall"				"43"
 		"visible"			"1"
 		"enabled"			"1"
-		"defaultbgcolor_override"	"HudBlack"
-		"PaintBackgroundType"		"2"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"2"
 	}
 
 	"AmmoInClip"

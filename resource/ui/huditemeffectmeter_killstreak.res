@@ -27,7 +27,7 @@
 		"tall"				"36"
 		"textAlignment"		"west"
 	}
-	
+
 	"StreakIcon"
 	{
 		"ControlName"			"CExLabel"
@@ -44,7 +44,7 @@
 		"font"					"CustomIcons"
 		"fgcolor_override"		"White"
 	}
-	
+
 	"StreakIconShadow"
 	{
 		"ControlName"			"CExLabel"

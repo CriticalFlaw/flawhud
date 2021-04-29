@@ -36,7 +36,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons"
 		{
 			"1"

@@ -76,7 +76,7 @@
 		"labelText"		"%button_token%"
 		"textinsety"	"7"
 		"use_proportional_insets" "1"
-		"font"			"FontBold13"
+		"font"			"FontBold14"
 		"textAlignment"	"north"
 		"dulltext"		"0"
 		"brighttext"	"0"

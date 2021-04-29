@@ -94,7 +94,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ExistingItemToTestPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -574,7 +574,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

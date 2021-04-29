@@ -124,7 +124,7 @@
 				"brighttext"	"0"
 				"default"		"0"
 				"Command"			"zoom_toggle"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"0"
@@ -1032,10 +1032,10 @@
 		"default"		"0"
 		"Command"			"closex"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LightRed"
 		"depressedFgColor_override" "White"

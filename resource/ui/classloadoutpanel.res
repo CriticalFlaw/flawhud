@@ -92,7 +92,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"HoverWhite"
 			"depressedFgColor_override"	"White"
@@ -373,14 +373,14 @@
 		"scaleImage"		"1"
 		"Command"			"characterloadout"
 		"paintbackground"	"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
-		
+
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"
 	}
@@ -405,14 +405,14 @@
 		"scaleImage"		"1"
 		"Command"			"tauntloadout"
 		"paintbackground"	"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
-		
+
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"
 	}

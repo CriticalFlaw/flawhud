@@ -20,7 +20,7 @@
 		"button_x_offset"	"-285"
 		"button_y"			"120"
 		"button_y_delta"	"5"
-		
+
 		"button_kv"
 		{
 			"xpos"			"0"
@@ -161,21 +161,21 @@
 		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-		
+
 		"if_wider"
 		{
 			"wide"		"f0"
 			"tall"		"o0.628"
 		}
-		
+
 		"if_taller"
 		{
 			"wide"		"o1.6"
 			"tall"		"f0"
 		}
-		
+
 		"if_halloween"
-		{	
+		{
 //			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		"if_fullmoon"
@@ -255,10 +255,10 @@
 		"actionsignallevel" "1"
 		"command"			"open_rank_type_menu"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"HoverWhite"
 		"depressedFgColor_override" "White"
@@ -526,7 +526,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"			"QuestLogButton"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -569,11 +569,11 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"pin_to_sibling"			"MOTD_ShowButtonPanel"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"		"CExImageButton"
@@ -612,11 +612,11 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"pin_to_sibling"			"HomeServerButton"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"		"CExImageButton"
@@ -644,7 +644,7 @@
 			"armedFgColor_override"		"100 65 165 255"
 		}
 	}
-	
+
 	"StreamerHUDButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -655,11 +655,11 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"pin_to_sibling"			"RefreshHUDButton"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"		"CExImageButton"
@@ -757,10 +757,10 @@
 			"actionsignallevel"	"2"
 			"Command"			"motd_hide"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -929,7 +929,7 @@
 			"command"			"motd_viewurl"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"		"2"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -1063,10 +1063,10 @@
 			"actionsignallevel"	"2"
 			"Command"			"noti_hide"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -1257,7 +1257,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0420"
+		"labelText"			"FlawHUD v2021.0430"
 		"labelText_minmode"	"Streamer Mode"
 		"xpos"				"rs1-5"
 		"xpos_minmode"		"r130"
@@ -1277,7 +1277,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 	}
-	
+
 	"StreamerInfoLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -1298,7 +1298,7 @@
 		"textAlignment"		"east"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"CharacterSetupButton"
 	{
 		"ControlName"		"CExImageButton"

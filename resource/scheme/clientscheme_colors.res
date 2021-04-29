@@ -10,9 +10,7 @@ Scheme
 		"Red"						"158 64 61 255"
 		"DarkRed"					"102 48 46 255"
 		"ColorGreen"				"0 225 0 255"
-		"DarkGreen"					"38 53 36 255"
 		"Yellow"					"92 122 90 255"
-		"BrightYellow"				"218 165 32 255"
 		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
@@ -32,8 +30,6 @@ Scheme
 		"LowHealthPulse"			"190 20 20 200"
 		"LowAmmo"					"190 20 20 255"
 		"LowAmmoPulse"				"190 20 20 200"
-		"PositiveValue"				"0 170 127 255"
-		"NegativeValue"				"190 20 20 200"
 		"TargetHealth"				"0 170 127 255"
 		"TargetDamage"				"255 255 0 255"
 		//---------------------------------------------

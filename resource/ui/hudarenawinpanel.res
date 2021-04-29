@@ -64,7 +64,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"BlueTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -104,7 +104,7 @@
 			"AllCaps"		"1"
 			"pin_to_sibling"	"BlueTeamLabel"
 		}
-		
+
 		"BlueTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -145,7 +145,7 @@
 			"enabled"		"1"
 			"pin_to_sibling"	"BlueTeamScore"
 		}
-		
+
 		"RedTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -186,7 +186,7 @@
 			"enabled"		"1"
 			"pin_to_sibling"	"RedTeamLabel"
 		}
-		
+
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -338,7 +338,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"WinReasonLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -377,7 +377,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -395,7 +395,7 @@
 		"fillcolor"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"TopPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -415,7 +415,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"DamageThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -435,7 +435,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HealingThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -455,7 +455,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"LifetimeThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -475,7 +475,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"KillingBlowsThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -495,7 +495,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -863,7 +863,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"ArenaWinPanelLosersPanel"
 	{
 		"ControlName"	"EditablePanel"

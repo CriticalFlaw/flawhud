@@ -354,7 +354,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"random2"
 	{
 		"ControlName"		"CExButton"
@@ -596,7 +596,7 @@
 		"font"			"FontRegular12"
 		"textAlignment"	"west"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"scout"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -620,7 +620,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"soldier"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -644,7 +644,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"pyro"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -668,7 +668,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"demoman"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -692,7 +692,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"heavyweapons"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -716,7 +716,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"engineer"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -740,7 +740,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"medic"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -764,7 +764,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"sniper"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -788,7 +788,7 @@
 		"textAlignment"	"west"
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -807,7 +807,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"scout"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -826,7 +826,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"soldier"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -845,7 +845,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"pyro"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -864,7 +864,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"demoman"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -883,7 +883,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"heavyweapons"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -902,7 +902,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"engineer"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -921,7 +921,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"medic"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -940,7 +940,7 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"sniper"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
@@ -959,12 +959,12 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
-		
+
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
 	}
-	
+
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

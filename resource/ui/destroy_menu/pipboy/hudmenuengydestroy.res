@@ -18,7 +18,7 @@
 		"tileImage"			"1"
 		"drawcolor"			"192 192 192 255"
 	}
-	
+
 	"BackgroundEngineer"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -30,7 +30,7 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"image"				"pipboy_engineer"
 		"tileImage"			"0"
 		"tileVertically"	"0"

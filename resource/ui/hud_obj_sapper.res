@@ -61,13 +61,12 @@
 			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -80,7 +79,6 @@
 		"wide"			"100"
 		"tall"			"40"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
 
 		"Health"
 		{
@@ -98,7 +96,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -158,7 +155,6 @@
 			"wide"			"50"
 			"tall"			"35"
 			"visible"		"0"
-			"proportionaltoparent"	"1"
 
 			"TargetIcon"
 			{
@@ -174,7 +170,6 @@
 				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
 				"iconColor"		"ProgressOffWhite"
-				"proportionaltoparent"	"1"
 			}
 
 			"TargetHealth"
@@ -193,7 +188,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"proportionaltoparent"	"1"
 			}
 		}
 	}

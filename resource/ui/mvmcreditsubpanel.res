@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CreditRatingLabel"
-		"font"				"FontRegular16"
+		"font"				"HudFontSmallishBold"
 		"labelText"			"%rating%"
 		"textAlignment"		"center"
 		"xpos"				"66"

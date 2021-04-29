@@ -43,7 +43,7 @@
 		"button_command"		"play_competitive"
 		"desc_token"			"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"			"2" // k_eTFMatchGroup_Ladder_6v6
-		
+
 		"pin_to_sibling"		"CasualEntry"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

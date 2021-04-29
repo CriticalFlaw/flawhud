@@ -149,7 +149,7 @@
 			"enabled"				"1"
 			"fgcolor"				"TanLight"
 			"wrap"					"1"
-			"highlight_color"		"BrightYellow"
+			"highlight_color"		"Yellow"
 			"itemset_color"			"216 244 9 255"
 			"link_color"			"Yellow"
 			"image_up_arrow"				"scroll_up_off"
@@ -384,7 +384,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"openstore"
-		
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
