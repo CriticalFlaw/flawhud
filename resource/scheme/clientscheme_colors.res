@@ -24,11 +24,11 @@ Scheme
 		"HoverWhite"				"245 230 200 255"
 		//---------------------------------------------
 		// Gameplay
-		"Overheal"					"0 170 127 255"
+		"Overheal"					"0 170 127 225"
 		"OverhealPulse"				"0 170 127 200"
-		"LowHealth"					"190 20 20 255"
+		"LowHealth"					"190 20 20 225"
 		"LowHealthPulse"			"190 20 20 200"
-		"LowAmmo"					"190 20 20 255"
+		"LowAmmo"					"190 20 20 225"
 		"LowAmmoPulse"				"190 20 20 200"
 		"TargetHealth"				"0 170 127 255"
 		"TargetDamage"				"255 255 0 255"
