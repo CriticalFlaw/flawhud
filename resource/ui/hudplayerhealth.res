@@ -67,7 +67,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
+		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}
 
