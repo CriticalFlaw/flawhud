@@ -19,7 +19,7 @@
 		"ypos"				"cs-0.5"
 		"wide"				"f0"
 		"tall"				"f0"
-		"font"				"Size:18"
+		"font"				"Size:18 | Outline:OFF"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
 	}
