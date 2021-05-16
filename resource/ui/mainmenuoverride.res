@@ -1258,7 +1258,7 @@
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
 		"labelText"			"FlawHUD v2021.0430"
-		"labelText_minmode"	"Streamer Mode Activate!"
+		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
 		"xpos_minmode"		"r130"
 		"ypos"				"r13"
