@@ -104,7 +104,7 @@
 	{
 		"label"			"S"
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar mat_aaquality 0 1 1"
-		"tooltip"		"Streamer Mode"
+		"tooltip"		"Toggle Streamer Mode"
 	}
 	"HomeServerButton"
 	{
