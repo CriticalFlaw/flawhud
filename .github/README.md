@@ -33,7 +33,6 @@ There's an officially supported editor for flawhud (and other custom HUDs) calle
 * **Crosshair and Icon Packs**: Hypnootize
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
-* **Extended TF2 Fonts**: jakadak
 
 #### Sponsors
 Special thank you to those who are sponsoring this project via [GitHub Sponsors][sponsors-link].
