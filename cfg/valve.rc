@@ -1,17 +1,19 @@
-// load the base configuration
+// Load the base configuration
 //exec default.cfg
+r_decal_cullsize 1
 
 // Setup custom controller
 exec joystick.cfg
 
-// run a user script file if present
+// Run a user script file if present
 exec autoexec.cfg
 
-// stuff command line statements
+// Stuff command line statements
 stuffcmds
 
-// display the startup level
+// Display the startup level
 startupmenu
+sv_unlockedchapters 99
 
-// execute the hud settings
+// Toggle off minmode
 cl_hud_minmode 0
