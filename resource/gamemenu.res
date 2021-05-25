@@ -90,21 +90,9 @@
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label"			"o"
+		"label"			"w"
 		"command"		"motd_show"
-		"tooltip"		"#TF_MOTD_Title"
-	}
-	"RefreshHUDButton"
-	{
-		"label"			"."
-		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Refresh HUD"
-	}
-	"StreamerHUDButton"
-	{
-		"label"			"S"
-		"command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar mat_aaquality 0 1 1"
-		"tooltip"		"Toggle Streamer Mode"
+		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"HomeServerButton"
 	{

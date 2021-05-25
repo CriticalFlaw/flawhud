@@ -9,7 +9,7 @@ Extract the zipped file contents into `steamapps\common\Team Fortress 2\tf\custo
 Custom crosshairs are disabled by default. To enable them, open `flawhud\scripts\hudlayout.res` in a text editor and under `CustomCrosshair` change the values of `visible` and `enabled` from 0 to 1. The default crosshair is a thin circle, to change the style, in the same area change the value of `labelText` to the corresponding crosshair letter found in `flawhud\scripts\TF2Crosshairs.png`.
 
 #### Streamer Mode
-When live streaming, if you want extra protection against stream snipers and DDoS attacks, toggle on Streamer Mode by clicking on the Incognito icon on the right hand side of the main menu. Streamer Mode hides player names and other information that could let the viewer know where and who you're playing with. This feature uses the game's minmode HUD option (`cl_hud_minmode`), so users are advised to disable minmode in their game configs if they don't want this feature to be enabled by default.
+When live streaming, if you want extra protection against stream snipers and DDoS attacks, toggle on Streamer Mode by enabling minmode (`cl_hud_minmode 1`) in console or going to the HUD options panel. This feature will hide player names and other information that could let the viewer know where and who you're playing with.
 
 #### Home Server
 To have the Home Server button point to your server of choice, open `flawhud\resource\gamemenu.res` and under `HomeServerButton` replace the existing connection string with one of your own.

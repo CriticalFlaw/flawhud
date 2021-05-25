@@ -264,7 +264,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel"
 		"xpos"					"rs1+5"
-		"ypos"					"175"
+		"ypos"					"205"
 		"zpos"					"-1"
 		"wide"					"45"
 		"tall"					"145"
