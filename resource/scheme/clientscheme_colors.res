@@ -24,12 +24,12 @@ Scheme
 		"HoverWhite"				"245 230 200 255"
 		//---------------------------------------------
 		// Gameplay
-		"Overheal"					"0 170 127 225"
-		"OverhealPulse"				"0 170 127 200"
-		"LowHealth"					"190 20 20 225"
-		"LowHealthPulse"			"190 20 20 200"
-		"LowAmmo"					"190 20 20 225"
-		"LowAmmoPulse"				"190 20 20 200"
+		"Overheal"					"0 170 127 255"
+		"OverhealPulse"				"0 70 59 255"
+		"LowHealth"					"190 20 20 255"
+		"LowHealthPulse"			"90 20 20 255"
+		"LowAmmo"					"190 20 20 255"
+		"LowAmmoPulse"				"90 20 20 255"
 		"TargetHealth"				"0 170 127 255"
 		"TargetDamage"				"255 255 0 255"
 		//---------------------------------------------
@@ -79,7 +79,7 @@ Scheme
 		"PartyMember5"							"255 118 108 255"
 		"PartyMember6"							"255 133 255 255"
 
-		"White"									"235 235 235 255"
+		"White"									"220 220 220 255"
 		"RedSolid"								"192 28 0 255"
 		"BlueSolid"								"0 28 162 255"
 		"TransparentYellow"						"251 235 202 140"
@@ -125,8 +125,8 @@ Scheme
 		// Training
 		"HudTrainingHint"						"212 160 23 255"
 
-		"TanDark"								"242 242 242 125"
-		"TanLight"								"255 255 255 255"
+		"TanDark"								"117 107 94 255"
+		"TanLight"								"235 226 202 255"
 		"TanDarker"								"46 43 42 255"
 
 		"StoreDarkTan"							"131 121 104 255"

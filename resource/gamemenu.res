@@ -46,7 +46,7 @@
 	{
 		"label" 		"="
 		"command" 		"engine toggleconsole"
-		"tooltip" 		"#TF_DemoSupport_Notify_ConsoleOnly"
+		"tooltip" 		"#GameUI_Console"
 	}
 	"CoachPlayersButton"
 	{
