@@ -25,11 +25,11 @@ Scheme
 		//---------------------------------------------
 		// Gameplay
 		"Overheal"					"0 170 127 255"
-		"OverhealPulse"				"0 70 59 255"
+		"OverhealShadow"			"0 70 59 255"
 		"LowHealth"					"190 20 20 255"
-		"LowHealthPulse"			"90 20 20 255"
+		"LowHealthShadow"			"90 20 20 255"
 		"LowAmmo"					"190 20 20 255"
-		"LowAmmoPulse"				"90 20 20 255"
+		"LowAmmoShadow"				"90 20 20 255"
 		"TargetHealth"				"0 170 127 255"
 		"TargetDamage"				"255 255 0 255"
 		//---------------------------------------------
