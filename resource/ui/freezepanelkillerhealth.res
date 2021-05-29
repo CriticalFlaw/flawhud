@@ -40,10 +40,10 @@
 		"enabled"		"1"
 	}
 
-	"PlayerStatusHealthValue"
+	"TargetHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"TargetHealthValue"
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"5"
@@ -56,10 +56,10 @@
 		"labeltext"		"%Health%"
 	}
 
-	"PlayerStatusHealthValueShadow"
+	"TargetHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
+		"fieldName"		"TargetHealthShadow"
 		"xpos"			"1"
 		"ypos"			"6"
 		"zpos"			"5"

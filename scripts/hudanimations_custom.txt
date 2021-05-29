@@ -2,8 +2,12 @@
 event HudHealthBonusPulse
 {
 	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthShadow	FgColor		"OverhealShadow"		Accel 0.0 0.0
+	
+//	Animate	PlayerHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
+	
+	Animate	TargetHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -14,8 +18,12 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop	0.0
 
 	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthShadow	FgColor		"ShadowBlack"		Accel 0.0 0.0
+	
+//	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+
+	Animate	TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -23,8 +31,12 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthShadow	FgColor		"LowHealthShadow"	Accel 0.0 0.0
+	
+//	Animate	PlayerHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
+
+	Animate	TargetHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -35,8 +47,12 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 	0.0
 
 	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
-//	Animate PlayerStatusHealthValue		FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthShadow	FgColor		"ShadowBlack"		Accel 0.0 0.0
+	
+//	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+
+	Animate TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 

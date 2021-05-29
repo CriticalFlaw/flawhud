@@ -196,9 +196,9 @@
 		"font"				"FontRegular12"
 
 		"defaultBgColor_override" 	"HudBlack"
-		"armedBgColor_override"		"HudBlack"
+		"armedBgColor_override"		"Black"
 		"depressedBgColor_override" "HudBlack"
-		"selectedBgColor_override" 	"HudBlack"
+		"selectedBgColor_override" 	"Black"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"
@@ -232,9 +232,9 @@
 		"font"				"FontRegular12"
 
 		"defaultBgColor_override" 	"HudBlack"
-		"armedBgColor_override"		"HudBlack"
+		"armedBgColor_override"		"Black"
 		"depressedBgColor_override" "HudBlack"
-		"selectedBgColor_override" 	"HudBlack"
+		"selectedBgColor_override" 	"Black"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"
