@@ -66,11 +66,11 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"MvMPlayerList"
-		"xpos"				"10"
-		"xpos_minmode"		"-135"
-		"ypos"				"94"
-		"wide"				"530"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"550"
 		"tall"				"150"
+		"tall_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -78,6 +78,7 @@
 		"autoresize"		"3"
 		"linespacing"		"22"
 		"textcolor"			"White"
+		"pin_to_sibling"	"PlayerListBG"
 	}
 
 	"CreditStatsContainer"

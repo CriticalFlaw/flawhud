@@ -127,6 +127,16 @@ Scheme
 			}
 		}
 
+		"FontRegular20"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"FontRegular15"
 		{
 			"1"
