@@ -1,2 +1,2 @@
-#base "custom/_enabled/scoreboard-full.res"
+#base "#customizations/_enabled/scoreboard-full.res"
 #base "scoreboard-base.res"
