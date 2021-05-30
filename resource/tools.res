@@ -146,7 +146,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"Reload HUD"
-			"command"				"engine hud_reloadscheme"
+			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
@@ -194,7 +194,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"Captions ON"
-			"command"				"engine cc_subtitles 0;cc_lang english;cc_predisplay_time 0;closecaption 1;cc_emit #subtitles0"
+			"command"				"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
@@ -328,7 +328,7 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Hide/Show Chat"
+			"labeltext"				"Chat ON/OFF"
 			"command"				"engine toggle hud_saytext_time 10 0"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
@@ -385,9 +385,9 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			"defaultFgColor_override"	"227 228 230 255"
-			"armedFgColor_override"		"197 198 200 255"
-			"depressedFgColor_override"	"227 228 230 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"		"128 128 128 255"
+			"depressedFgColor_override"	"255 255 255 255"
 		}
 		
 		"DamageYellow"
@@ -415,9 +415,9 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			"defaultFgColor_override" 	"255 230 60 255"
-			"armedFgColor_override" 	"225 200 30 255"
-			"depressedFgColor_override" "255 230 60 255"
+			"defaultFgColor_override" 	"255 255 0 255"
+			"armedFgColor_override" 	"128 128 0 255"
+			"depressedFgColor_override" "255 255 0 255"
 		}
 		
 		"DamageRed"
@@ -445,9 +445,9 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			"defaultFgColor_override" 	"255 61 61 255"
-			"armedFgColor_override" 	"225 31 31 255"
-			"depressedFgColor_override" "255 61 61 255"
+			"defaultFgColor_override" 	"255 0 0 255"
+			"armedFgColor_override" 	"128 0 0 255"
+			"depressedFgColor_override" "255 0 0 255"
 		}
 		
 		"DamageGreen"
@@ -475,9 +475,9 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			"defaultFgColor_override" 	"139 229 36 255"
-			"armedFgColor_override" 	"109 199 06 255"
-			"depressedFgColor_override" "139 229 36 255"
+			"defaultFgColor_override" 	"0 255 0 255"
+			"armedFgColor_override" 	"0 128 0 255"
+			"depressedFgColor_override" "0 255 0 255"
 		}
 		
 		"DamageCyan"
@@ -505,9 +505,39 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			"defaultFgColor_override" 	"150 200 225 255"
-			"armedFgColor_override" 	"120 170 195 255"
-			"depressedFgColor_override" "150 200 225 255"
+			"defaultFgColor_override" 	"0 255 255 255"
+			"armedFgColor_override" 	"0 128 128 255"
+			"depressedFgColor_override" "0 255 255 255"
+		}
+
+		"DamagePink"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"DamagePink"
+			"xpos"					"1"
+			"ypos"					"0"
+			"zpos"					"16"
+			"wide"					"15"
+			"tall"					"15"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"#"
+			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 255"
+			"actionsignallevel"		"2"
+			"font"					"CustomIcons"
+			"textAlignment"			"center"
+			"paintbackground"		"0"
+			
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"pin_to_sibling"		"DamageCyan"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			
+			"defaultFgColor_override" 	"255 0 255 255"
+			"armedFgColor_override" 	"128 0 128 255"
+			"depressedFgColor_override" "255 0 255 255"
 		}
 	}
 }
