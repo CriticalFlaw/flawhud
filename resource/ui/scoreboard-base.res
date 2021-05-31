@@ -1,5 +1,3 @@
-#base "custom/scoreboard.res"
-
 "Resource/UI/Scoreboard.res"
 {
 	"scores"
@@ -457,7 +455,7 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"80"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -469,7 +467,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"fgcolor"			"blue"
-		"pin_to_sibling"	"BluePlayerBG"
 
 		if_mvm
 		{
@@ -480,8 +477,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"292"
+		"ypos"				"80"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -493,7 +490,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"textcolor"			"red"
-		"pin_to_sibling"	"RedPlayerBG"
 
 		if_mvm
 		{

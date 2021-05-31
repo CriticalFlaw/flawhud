@@ -364,7 +364,7 @@
 		{
 			"ControlName"			"CExImageButton"
 			"fieldname"				"DamageWhite"
-			"xpos"					"-25"
+			"xpos"					"-17"
 			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"15"
