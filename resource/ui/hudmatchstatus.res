@@ -292,13 +292,13 @@
 
 			"color_portrait_bg_red"				"158 64 61 255"
 			"color_portrait_bg_blue"			"72 112 125 255"
-			"color_portrait_bg_red_dead"		"46 73 82 255"
-			"color_portrait_bg_blue_dead"		"102 48 46 255"
+			"color_portrait_bg_red_dead"		"102 48 46 255"
+			"color_portrait_bg_blue_dead"		"46 73 82 255"
 			"color_bar_health_high"				"0 170 127 255"
-			"color_bar_health_med"				"0 170 127 200"
-			"percentage_health_med"				"0.6"
+			"color_bar_health_med"				"0 170 127 255"
+			"percentage_health_med"				"0.5"
 			"color_bar_health_low"				"190 20 20 255"
-			"percentage_health_low"				"0.3"
+			"percentage_health_low"				"0.2"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
 
