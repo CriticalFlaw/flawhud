@@ -12,6 +12,8 @@
 		"visible"				"0"
 		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
+		"paintBackground"		"1"
+		"paintBorder"			"0"
 
 		"model_ypos"			"10"
 		"model_center_x"		"1"
