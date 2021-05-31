@@ -10,7 +10,9 @@
 		"wide"					"190"
 		"tall"					"100"
 		"visible"				"0"
-		"bgcolor_override"		"HudBlack"
+		"bgcolor_override"		"16 16 16 230"
+		"paintBackground"    	"1"
+        "paintborder"        	"0"
 		"PaintBackgroundType"	"2"
 
 		"model_ypos"			"10"
