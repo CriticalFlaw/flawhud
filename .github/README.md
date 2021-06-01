@@ -27,7 +27,7 @@ Features available in the latest [CastingEssentials][ce-release] release like te
 There is an officially supported editor for flawhud (and other custom HUDs) called the **TF2HUD.Editor** - [click here for the latest version][editor-link].
 
 ### Customizations
-Currently, the only customization available is a full screen scoreboard. To enable it, go to `flawhud\resource\ui\#customizations`, create a new folder called `_enabled` and move `scoreboard-full.res` into that folder.
+Currently, the only customization available is a fullscreen scoreboard. To enable it, go to `flawhud\resource\ui\#customizations`, create a new folder called `_enabled` and move `scoreboard-full.res` into that folder.
 
 #### Credits
 * **HUD Development Help**: N0kk and Wiethoofd
