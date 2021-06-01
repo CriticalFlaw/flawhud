@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ActionText"
-		"font"				"Default"
+		"font"				"HudFontSmallest"
 		"labelText"			"%actiontext%"
 		"textAlignment"		"center"
 		"xpos"				"0"

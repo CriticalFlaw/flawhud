@@ -1925,6 +1925,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"font"			"HudFontSmallest"
 		"defaultBgColor_override"	"DarkGrey"
 	}
 
@@ -1947,6 +1948,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"font"			"HudFontSmallest"
 		"defaultBgColor_override"	"DarkGrey"
 		"armedBgColor_override"		"Red"
 		"armedFgColor_override"		"HudWhite"

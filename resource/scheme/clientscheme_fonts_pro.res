@@ -73,6 +73,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"FontBold16"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"16"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"FontBold14"
 		{
 			"1"
@@ -118,7 +129,17 @@ Scheme
 				"outline"		"1"
 			}
 		}
-
+		
+		"FontRegular20"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"FontRegular15"
 		{
 			"1"

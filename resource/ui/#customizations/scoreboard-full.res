@@ -137,21 +137,31 @@
 
 	"BluePlayerList"
 	{
+		"xpos"					"2"
 		"wide"					"423"
-		"tall"					"300"
+		"tall"					"295"
 		"linespacing"			"23"
 	}
 	
 	"RedPlayerList"
 	{
+		"xpos"					"428"
 		"wide"					"423"
-		"tall"					"300"
+		"tall"					"295"
 		"linespacing"			"23"
 	}
 	
 	"Spectators"
 	{
 		"font"					"FontRegular15"
+	}
+	
+	"ClassImage"
+	{
+		"xpos"					"5"
+		"ypos"					"388"
+		"wide"					"90"
+		"tall"					"90"
 	}
 
 	"StatsBG"
@@ -182,7 +192,7 @@
 	"MapName"
 	{
 		"font"					"FontBold20"
-		"xpos"					"-5"
+		"xpos"					"5"
 		"ypos"					"-20"
 		"wide"					"210"
 	}
@@ -201,7 +211,7 @@
 		"KillsLabel"
 		{
 			"font"				"FontBold50"
-			"xpos"				"75"
+			"xpos"				"150"
 			"ypos"				"30"
 		}
 		"Kills"
@@ -231,7 +241,7 @@
 		"AssistsLabel"
 		{
 			"font"				"FontRegular20"
-			"xpos"				"180"
+			"xpos"				"230"
 			"ypos"				"10"
 			"wide"				"100"
 		}
@@ -309,7 +319,7 @@
 		"DominationLabel"
 		{
 			"font"				"FontRegular20"
-			"xpos"				"160"
+			"xpos"				"150"
 			"ypos"				"0"
 			"wide"				"100"
 
@@ -386,7 +396,7 @@
 		"TeleportsLabel"
 		{
 			"font"				"FontRegular20"
-			"xpos"				"160"
+			"xpos"				"150"
 			"ypos"				"0"
 			"wide"				"100"
 
@@ -464,7 +474,7 @@
 		"SupportLabel"
 		{
 			"font"				"FontRegular20"
-			"xpos"				"160"
+			"xpos"				"150"
 			"wide"				"100"
 			"pin_to_sibling"	"TeleportsLabel"
 		}

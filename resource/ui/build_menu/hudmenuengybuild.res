@@ -60,7 +60,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
-		"font"				"Default"
+		"font"				"HudFontSmallest"
 		"xpos"				"0"
 		"ypos"				"130"
 		"zpos"				"1"

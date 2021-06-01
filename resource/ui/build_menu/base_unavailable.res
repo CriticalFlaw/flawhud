@@ -18,7 +18,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"NeonRed"
 	}
 
 	"ItemBackground"
@@ -46,8 +45,8 @@
 		"zpos"				"2"
 		"wide"				"34"
 		"tall"				"34"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"NeonRed"
@@ -58,7 +57,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
 		"font"				"FontRegular10"
-		"fgcolor"			"NeonRed"
 		"xpos"				"0"
 		"ypos"				"30"
 		"zpos"				"2"
@@ -66,10 +64,13 @@
 		"tall"				"18"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"labelText"			"#Hud_Menu_Build_Unavailable"
 		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"NeonRed"
 	}
 
 	"MetalIcon"

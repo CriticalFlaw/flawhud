@@ -584,8 +584,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
-		"xpos"				"-10"
-		"ypos"				"-5"
+		"xpos"				"525"
+		"ypos"				"295"
 		"zpos"				"3"
 		"wide"				"45"
 		"tall"				"45"
@@ -593,10 +593,6 @@
 		"enabled"			"1"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
-
-		"pin_to_sibling"		"StatsBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		if_mvm
 		{
