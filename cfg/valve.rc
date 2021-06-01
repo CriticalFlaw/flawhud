@@ -18,3 +18,7 @@ sv_unlockedchapters 99
 // Apply HUD settings
 cl_hud_minmode 0
 vgui_cache_res_files 0
+
+// Optional hud-reload
+alias fh_reload "incrementvar mat_aaquality 1 0 1"
+setinfo fh_reload ""
