@@ -14,12 +14,12 @@ Scheme
 			}
 		}
 
-		"ClassIcons"
+		"NormalIcons"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"62"
+				"tall"			"25"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
