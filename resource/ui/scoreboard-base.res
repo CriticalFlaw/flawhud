@@ -48,7 +48,7 @@
 		"autoResize"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Blue"
+		"bgcolor_override"		"HUDBlueTeam"
 
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -207,7 +207,7 @@
 		"autoResize"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"Red"
+		"bgcolor_override"		"HUDRedTeam"
 
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
