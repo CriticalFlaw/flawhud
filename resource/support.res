@@ -48,7 +48,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"Supporter2"
 		"font"					"FontBold12"
-		"labelText"				"1. Zeesastrous - $25.00"
+		"labelText"				"2. Revan - $10.00"
 		"textAlignment"			"west"
 		"xpos"					"0"
 		"ypos"					"2"
@@ -57,8 +57,8 @@
 		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		
 		"pin_to_sibling"		"Supporter1"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -105,7 +105,7 @@
 		"enabled"				"1"
 		"wrap"					"1"
 		
-		"pin_to_sibling"		"Supporter1"
+		"pin_to_sibling"		"Supporter2"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
@@ -118,7 +118,7 @@
 		"ypos"					"2"
 		"zpos"					"0"
 		"wide"					"260"
-		"tall"					"55"
+		"tall"					"65"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
