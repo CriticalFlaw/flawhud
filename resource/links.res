@@ -1,49 +1,11 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"SteamLink"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"SteamLink"
-		"xpos"					"-15"
-		"ypos"					"-5"
-		"zpos"					"1"
-		"wide"					"18"
-		"tall"					"18"
-		"visible"				"1"
-		"bgcolor_override"		"27 40 56 255"
-		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"BGPanel"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-
-		"SteamUrl"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"SteamUrl"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"CustomIcons"
-			"labelText"				"X"
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"center"
-			"defaultFgColor_override"	"Black"
-			"proportionaltoparent"	"1"
-			"urlText"				"https://steamcommunity.com/groups/FlawHUD"
-		}
-	}
-
 	"GitLink"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"GitLink"
-		"xpos"					"0"
-		"ypos"					"22"
+		"xpos"					"-10"
+		"ypos"					"-5"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
@@ -51,9 +13,9 @@
 		"bgcolor_override"		"23 26 33 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"SteamLink"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"pin_to_sibling"		"BGPanel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"GitUrl"
 		{
@@ -81,7 +43,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HudsLink"
 		"xpos"					"0"
-		"ypos"					"22"
+		"ypos"					"5"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
@@ -90,7 +52,7 @@
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"GitLink"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
 		"HudsUrl"
@@ -119,16 +81,16 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"DiscordLink"
 		"xpos"					"0"
-		"ypos"					"22"
+		"ypos"					"5"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
 		"visible"				"1"
-		"bgcolor_override"		"114 137 218 255"
+		"bgcolor_override"		"88 101 242 255"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"HudsLink"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
 		"DiscordUrl"
@@ -151,13 +113,70 @@
 			"urlText"				"https://discord.gg/hTdtK9vBhE"
 		}
 	}
+	
+	"DonateLink"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"DonateLink"
+		"xpos"					"0"
+		"ypos"					"5"
+		"ypos"					"5"
+		"zpos"					"1"
+		"wide"					"18"
+		"tall"					"18"
+		"visible"				"1"
+		"bgcolor_override"		"27 40 56 255"
+		"PaintBackgroundType"	"2"
 
+		"pin_to_sibling"		"DiscordLink"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+
+		"SteamUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"SteamUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"CustomIcons"
+			"labelText"				"}"
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"center"
+			"proportionaltoparent"	"1"
+			"fgcolor_override"		"236 108 185 255"
+			"urlText"				"https://github.com/sponsors/CriticalFlaw"
+		}
+	}
+	
+	"Separator"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Separator"
+		"xpos"					"6"
+		"ypos"					"5"
+		"zpos"					"2"
+		"wide"					"30"
+		"tall"					"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"Black"
+
+		"pin_to_sibling"		"DonateLink"
+        "pin_corner_to_sibling"	"PIN_TOPLEFT"
+        "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
 	"CreatorsLink"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CreatorsLink"
 		"xpos"					"0"
-		"ypos"					"30"
+		"ypos"					"12"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
@@ -165,8 +184,8 @@
 		"bgcolor_override"		"202 113 45 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"DiscordLink"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling"		"DonateLink"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
 		"CreatorsUrl"
@@ -211,7 +230,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"UncleLink"
 		"xpos"					"0"
-		"ypos"					"22"
+		"ypos"					"5"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
@@ -220,7 +239,7 @@
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"CreatorsLink"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
 		"UncleUrl"
@@ -263,31 +282,13 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel"
-		"xpos"					"rs1+5"
+		"xpos"					"rs1+10"
 		"ypos"					"205"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"145"
+		"tall"					"150"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
-	}
-
-	"Separator"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Separator"
-		"xpos"					"9"
-		"ypos"					"7"
-		"zpos"					"2"
-		"wide"					"35"
-		"tall"					"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"fillcolor"				"Black"
-
-		"pin_to_sibling"		"DiscordLink"
-        "pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 }

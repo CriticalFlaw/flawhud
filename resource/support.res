@@ -1,0 +1,130 @@
+"Resource/UI/MainMenuOverride.res"
+{
+	"SupporterTitle"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"SupporterTitle"
+		"font"					"HudFontSmallBold"
+		"labelText"				"SUPPORTERS"
+		"textAlignment"			"center"
+		"xpos"					"0"
+		"ypos"					"-5"
+		"zpos"					"1"
+		"wide"					"260"
+		"tall"					"12"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor_override"		"White"
+		
+		"pin_to_sibling"		"SupportersPanel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
+	"Supporter1"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"Supporter1"
+		"font"					"FontBold12"
+		"labelText"				"1. Zeesastrous - $25.00"
+		"textAlignment"			"west"
+		"xpos"					"-5"
+		"ypos"					"5"
+		"zpos"					"1"
+		"wide"					"255"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"pin_to_sibling"		"SupporterTitle"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	
+	"Supporter2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"Supporter2"
+		"font"					"FontBold12"
+		"labelText"				"1. Zeesastrous - $25.00"
+		"textAlignment"			"west"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"1"
+		"wide"					"255"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		
+		"pin_to_sibling"		"Supporter1"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	
+	"Supporter3"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"Supporter3"
+		"font"					"FontBold12"
+		"labelText"				"1. Zeesastrous - $25.00"
+		"textAlignment"			"west"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"1"
+		"wide"					"255"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		
+		"pin_to_sibling"		"Supporter2"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	
+	"Supporters"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"Supporters"
+		"font"					"FontRegular8"
+		"labelText"				"If you would like to support for this project and see your name on the board, please consider supporting me by clicking the heart icon on the right. Thank you!"
+		"textAlignment"			"north-center"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"1"
+		"wide"					"255"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"wrap"					"1"
+		
+		"pin_to_sibling"		"Supporter1"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	
+	"SupportersPanel"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"SupportersPanel"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"0"
+		"wide"					"260"
+		"tall"					"55"
+		"visible"				"1"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"BGPanel4"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+}

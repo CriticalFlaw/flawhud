@@ -1,6 +1,7 @@
 #base "../../resource/preload.res"
 #base "../../resource/tools.res"
 #base "../../resource/links.res"
+#base "../../resource/support.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -222,24 +223,28 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"195"
-		"ypos"			"cs-0.5-80"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"0"
-		"wide"			"170"
-		"tall"			"1000"
+		"wide"			"120"
+		"tall"			"60"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"show_progress"	"0"
+		
+		"pin_to_sibling"			"BGPanel1"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 	}
 
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"317"
-		"ypos"			"cs-0.5-102"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -263,6 +268,10 @@
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"HoverWhite"
 		"depressedFgColor_override" "White"
+		
+		"pin_to_sibling"			"BGPanel1"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 	}
 
 	"RankTooltipPanel"
@@ -290,7 +299,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"170"
-		"tall"			"65"
+		"tall"			"50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -307,39 +316,44 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"53"
-		"ypos"			"132"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"100"
+		"wide"			"200"
+		"tall"			"50"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
 		"wrap"			"1"
-		"textinsetx"	"40"
-		"textinsety"	"10"
-
-		"font"				"HudFontSmallestBold"
-		"fgcolor_override"	"TanLight"
-		"labelText"			"#TF_MM_NoGC_Rank"
-		"textAlignment"		"north-west"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"west"
+		"textinsetx"	"10"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"		"0"
 		"use_proportional_insets"	"1"
+
+		"pin_to_sibling"			"BGPanel1"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 	}
 
 	"NoGCImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"285"
-		"ypos"			"138"
+		"xpos"			"5"
+		"ypos"			"-2"
 		"zpos"			"5"
-		"wide"			"38"
-		"tall"			"51"
+		"wide"			"34"
+		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\nogc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
+
+		"pin_to_sibling"			"NoGCMessage"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 	}
 
 	"RankBorder"
@@ -480,7 +494,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"HomeServerButton"
-		"xpos"			"-10"
+		"xpos"			"-9"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
@@ -717,7 +731,7 @@
 		"ypos"				"0"
 		"zpos"				"5"
 		"wide"				"260"
-		"tall"				"150"
+		"tall"				"115"
 		"visible"			"1"
 		"border"			"NoBorder"
 		"bgcolor_override"	"Transparent"
@@ -735,9 +749,9 @@
 			"labelText"			"#TF_Competitive_Friends"
 			"textAlignment"		"center"
 			"xpos"				"0"
-			"ypos"				"0"
+			"ypos"				"5"
 			"wide"				"260"
-			"tall"				"26"
+			"tall"				"15"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor_override"	"White"
@@ -768,7 +782,7 @@
 			"ypos"				"22"
 			"zpos"				"500"
 			"wide"				"260"
-			"tall"				"121"
+			"tall"				"87"
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"columns_count"		"2"
@@ -780,7 +794,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"			"123"
+				"wide"			"122"
 				"tall"			"25"
 			}
 
@@ -825,7 +839,7 @@
 			"ypos"				"22"
 			"zpos"				"499"
 			"wide"				"260"
-			"tall"				"121"
+			"tall"				"87"
 			"visible"			"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -839,7 +853,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0601"
+		"labelText"			"FlawHUD v2021.0605"
 		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
 		"xpos_minmode"		"r130"
@@ -1538,14 +1552,18 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BGPanel1"
-		"xpos"					"75"
-		"ypos"					"130"
+		"xpos"					"0"
+		"ypos"					"2"
 		"zpos"					"-1"
 		"wide"					"260"
-		"tall"					"66"
+		"tall"					"50"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"TFLogoImage"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
 	"BGPanel2"
@@ -1553,7 +1571,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BGPanel2"
 		"xpos"					"0"
-		"ypos"					"70"
+		"ypos"					"2"
 		"zpos"					"-1"
 		"wide"					"260"
 		"tall"					"66"
@@ -1562,7 +1580,7 @@
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BGPanel1"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
@@ -1571,7 +1589,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BGPanel3"
 		"xpos"					"0"
-		"ypos"					"25"
+		"ypos"					"2"
 		"zpos"					"-1"
 		"wide"					"260"
 		"tall"					"22"
@@ -1580,7 +1598,7 @@
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BGPanel2"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
@@ -1589,16 +1607,16 @@
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel4"
 		"xpos"					"0"
-		"ypos"					"153"
+		"ypos"					"2"
 		"zpos"					"-1"
 		"wide"					"260"
-		"tall"					"150"
+		"tall"					"115"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BGPanel3"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
@@ -1606,7 +1624,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel5"
-		"xpos"					"rs1+5"
+		"xpos"					"rs1+10"
 		"ypos"					"130"
 		"zpos"					"-1"
 		"wide"					"45"
