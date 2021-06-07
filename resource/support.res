@@ -92,7 +92,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"Supporters"
 		"font"					"FontRegular8"
-		"labelText"				"If you would like to support for this project and see your name on the board, please consider supporting me by clicking the heart icon on the right. Thank you!"
+		"labelText"				"If you would like to support this project and see your name on the board, please consider donating by clicking the heart icon on the right. Thank you!"
 		"textAlignment"			"north-center"
 		"xpos"					"0"
 		"ypos"					"2"
