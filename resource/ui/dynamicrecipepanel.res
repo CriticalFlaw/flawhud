@@ -310,7 +310,7 @@
 			"Font"			"HudFontSmallestBold"
 			"textAlignment"	"west"
 			"xpos"			"-4"
-			"ypos"			"180"
+			"ypos"			"250"
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"20"
