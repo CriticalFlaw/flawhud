@@ -76,6 +76,7 @@ For extra protection against stream snipers and DDoS attacks while live streamin
 * **Crosshair and Icon Packs**: Hypnootize
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
+* **Soldier Tribute Image**: uberchain
 
 <!-- SPONSORS -->
 ## Sponsors
