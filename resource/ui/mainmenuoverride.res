@@ -856,9 +856,8 @@
 		"labelText"			"FlawHUD v2021.0605"
 		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
-		"xpos_minmode"		"r130"
 		"ypos"				"r13"
-		"ypos_minmode"		"r25"
+		"zpos"				"1"
 		"wide"				"130"
 		"tall"				"10"
 		"autoResize"		"0"
@@ -872,27 +871,6 @@
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-	}
-
-	"StreamerInfoLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StreamerInfoLabel"
-		"font"				"FontRegular10"
-		"labelText"			"To display player names, go to the HUD options above or disable minmode!"
-		"xpos"				"rs1-5"
-		"ypos"				"r13"
-		"wide"				"f0"
-		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"visible_minmode"	"1"
-		"paintbackground"	"0"
-		"sound_depressed"	""
-		"textAlignment"		"east"
-		"fgcolor_override"	"White"
 	}
 
 	"CharacterSetupButton"
