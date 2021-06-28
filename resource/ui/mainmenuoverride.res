@@ -1,7 +1,6 @@
 #base "../../resource/preload.res"
 #base "../../resource/tools.res"
 #base "../../resource/links.res"
-#base "../../resource/support.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
