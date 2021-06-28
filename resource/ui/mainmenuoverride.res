@@ -852,7 +852,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0605"
+		"labelText"			"FlawHUD v2021.0628"
 		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
