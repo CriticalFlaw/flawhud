@@ -190,7 +190,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
-		"centerwrap"	"1"
 	}
 
 	"CancelButton"

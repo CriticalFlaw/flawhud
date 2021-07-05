@@ -789,12 +789,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"gofullscreen"
 		"paintbackground"	"0"
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"SubImage"
 		{
@@ -832,12 +833,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"options"
 		"paintbackground"	"0"
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"SubImage"
 		{

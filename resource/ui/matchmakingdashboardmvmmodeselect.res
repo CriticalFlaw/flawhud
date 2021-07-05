@@ -25,7 +25,7 @@
 		"tall"					"100"
 		"visible"				"1"
 		"enabled"				"1"
-		"mouseinputenabled"		 "0"
+		"mouseinputenabled"		"0"
 		"image"					"mvm/mvm_logo"
 		"scaleImage"			"1"
 	}

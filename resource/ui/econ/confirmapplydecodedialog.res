@@ -243,7 +243,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"LightRed"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"CancelButton"

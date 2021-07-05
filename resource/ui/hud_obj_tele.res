@@ -28,7 +28,7 @@
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
+		"fieldName"		"Icon_Teleport"
 		"xpos"			"21"
 		"ypos"			"1"
 		"wide"			"28"

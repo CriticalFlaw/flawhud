@@ -24,9 +24,8 @@
 		"wide"			"410"
 		"tall"			"f50"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-
 		"pinCorner"		"2"
+		"proportionaltoparent"	"1"
 	}
 
 	"BackButton"

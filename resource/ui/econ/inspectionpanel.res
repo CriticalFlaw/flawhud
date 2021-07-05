@@ -235,10 +235,6 @@
 			"tall"		"60"
 			"visible"	"1"
 		}
-		"consume_mode"
-		{
-			"border"		"ReplayHighlightBorder"
-		}
 
 		"DebugButton"
 		{

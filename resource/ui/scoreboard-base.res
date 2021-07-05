@@ -466,7 +466,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"blue"
+		"fgcolor"			"Blue"
 
 		if_mvm
 		{
