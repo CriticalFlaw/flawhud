@@ -63,7 +63,7 @@ To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text
 To set your home server shortcut, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** change the connection string to point to your preferred server.
 
 ### Transparent Viewmodels
-To enable transparent viewmodels, you must first install the mastercomfig Transparent Viewmdoels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
+To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
 
 ### Streamer Mode
 For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewer know where and who you're playing with.
