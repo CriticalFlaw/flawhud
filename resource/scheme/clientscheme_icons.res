@@ -13,7 +13,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"NormalIcons"
 		{
 			"1"
@@ -25,29 +25,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
-		"MenuIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
+		
 		"LargeIcons"
 		{
 			"1"
@@ -58,8 +36,41 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"MenuIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"CustomIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 	}
-
+	
 	CustomFontFiles
 	{
 		"121"

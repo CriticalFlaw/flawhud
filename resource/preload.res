@@ -299,7 +299,7 @@
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
 
-		"CPIconBlu5"
+	"CPIconBlu5"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CPIconBlu5"
@@ -404,6 +404,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
+	
 	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"

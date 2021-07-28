@@ -4,11 +4,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -22,11 +22,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -40,11 +40,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel2"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -58,11 +58,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel3"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -76,11 +76,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel4"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -94,11 +94,11 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"modelpanel5"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"5"
+		"model_ypos"			"0"
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"

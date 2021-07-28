@@ -195,10 +195,10 @@
 		"command"			"jointeam auto"
 		"font"				"FontRegular12"
 
-		"defaultBgColor_override" 	"HudBlack"
-		"armedBgColor_override"		"Black"
-		"depressedBgColor_override" "HudBlack"
-		"selectedBgColor_override" 	"Black"
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"
@@ -231,10 +231,10 @@
 		"command"			"jointeam spectate"
 		"font"				"FontRegular12"
 
-		"defaultBgColor_override" 	"HudBlack"
-		"armedBgColor_override"		"Black"
-		"depressedBgColor_override" "HudBlack"
-		"selectedBgColor_override" 	"Black"
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"

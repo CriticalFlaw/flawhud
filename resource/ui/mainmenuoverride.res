@@ -428,7 +428,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
-		"xpos"				"rs1-10"
+		"xpos"				"rs1-7"
 		"ypos"				"105"
 		"zpos"				"0"
 		"wide"				"20"
@@ -488,11 +488,11 @@
 			"armedFgColor_override"		"218 165 32 255"
 		}
 	}
-	
-	"HomeServerButton"
+
+	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"HomeServerButton"
+		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"-9"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -528,7 +528,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"250 27 45 255"
+			"armedFgColor_override"		"0 191 255 255"
 		}
 	}
 	
@@ -537,15 +537,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"			"HomeServerButton"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
@@ -575,13 +575,13 @@
 			"armedFgColor_override"		"239 152 73 255"
 		}
 	}
-
-	"MOTD_ShowButtonPanel"
+	
+	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"fieldname"		"HomeServerButton"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
@@ -589,7 +589,7 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"			"QuestLogButton"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
@@ -616,7 +616,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"0 191 255 255"
+			"armedFgColor_override"		"250 27 45 255"
 		}
 	}
 
@@ -852,7 +852,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0628"
+		"labelText"			"FlawHUD v2021.0727"
 		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"

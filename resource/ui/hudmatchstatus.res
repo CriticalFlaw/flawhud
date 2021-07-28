@@ -270,17 +270,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"max_size"		"19"
+		"max_size"		"20"
 		"6v6_gap"		"2"
 		"12v12_gap"		"2"
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
-		"team1_max_expand"	"250"
+		"team1_max_expand"	"220"
 
 		"team2_grow_dir"	"east"
 		"team2_base_x"		"c45"
-		"team2_max_expand"	"250"
+		"team2_max_expand"	"220"
 
 		"playerpanels_kv"
 		{
@@ -339,7 +339,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -351,7 +351,7 @@
 				"fieldName"		"healthbar"
 				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"20"
+				"ypos"			"19"
 				"zpos"			"5"
 				"wide"			"f0"
 				"tall"			"3"
@@ -371,7 +371,7 @@
 				"fieldName"		"overhealbar"
 				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"20"
+				"ypos"			"19"
 				"zpos"			"6"
 				"wide"			"f0"
 				"tall"			"3"
