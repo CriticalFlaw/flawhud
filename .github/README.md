@@ -81,11 +81,14 @@ For extra protection against stream snipers and DDoS attacks while live streamin
 <!-- SPONSORS -->
 ## Sponsors
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
-* Zeesastrous
-* Revan
-* pazer
+* Admiral Bread Crumbs
 * berry-jordan
+* Kybrid96
+* Owlgod
+* pazer
+* Revan
 * saturncaine
+* Zeesastrous
 
 <!-- LINKS -->
 [download-link]: https://github.com/CriticalFlaw/flawhud/archive/refs/heads/master.zip

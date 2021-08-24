@@ -99,7 +99,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"Supporters"
 		"font"					"FontRegular12"
-		"labelText"				"berry-jordan ★ Kybrid96 ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ Zeesastrous"
+		"labelText"				"Admiral Bread Crumbs ★ berry-jordan ★ Kybrid96 ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ Zeesastrous"
 		"textAlignment"			"center"
 		"xpos"					"0"
 		"ypos"					"20"
