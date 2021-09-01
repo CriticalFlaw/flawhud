@@ -88,6 +88,7 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 * pazer
 * Revan
 * saturncaine
+* TemmieKaz
 * Zeesastrous
 
 <!-- LINKS -->

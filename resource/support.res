@@ -32,13 +32,30 @@
 		"pin_to_sibling"		"TopLine"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-	
+		
+		"SupportersTitle"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"SupportersTitle"
+			"font"					"FontBold18"
+			"labelText"				"Supporters"
+			"textAlignment"			"center"
+			"xpos"					"0"
+			"ypos"					"-5"
+			"zpos"					"1"
+			"wide"					"595"
+			"tall"					"15"
+			"visible"				"0"
+			"enabled"				"0"
+			"fgcolor_override"		"White"
+		}
+		
 		"DonationInfo"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DonationInfo"
 			"xpos"					"0"
-			"ypos"					"22"
+			"ypos"					"5"
 			"zpos"					"1"
 			"wide"					"595"
 			"tall"					"10"
@@ -47,7 +64,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"paintBackground"		"0"
-			"textAlignment"			"center"
+			"textAlignment"			"south"
 			"fgcolor_override"		"Yellow"
 			"proportionaltoparent"	"1"
 		}
@@ -57,7 +74,7 @@
 			"ControlName"			"URLLabel"
 			"fieldName"				"DonationLink"
 			"xpos"					"0"
-			"ypos"					"32"
+			"ypos"					"15"
 			"zpos"					"1"
 			"wide"					"595"
 			"tall"					"10"
@@ -66,52 +83,28 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"paintBackground"		"0"
-			"textAlignment"			"center"
+			"textAlignment"			"south"
 			"fgcolor_override"		"Yellow"
 			"proportionaltoparent"	"1"
 			"urlText"				"https://github.com/sponsors/CriticalFlaw"
 		}
-	}
-	
-	"SupportersTitle"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"SupportersTitle"
-		"font"					"FontBold18"
-		"labelText"				"Supporters"
-		"textAlignment"			"center"
-		"xpos"					"0"
-		"ypos"					"-5"
-		"zpos"					"1"
-		"wide"					"595"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-		"fgcolor_override"		"White"
 		
-		"pin_to_sibling"		"SupportersPanel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"Supporters"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"Supporters"
-		"font"					"FontRegular12"
-		"labelText"				"Admiral Bread Crumbs ★ berry-jordan ★ Kybrid96 ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ Zeesastrous"
-		"textAlignment"			"center"
-		"xpos"					"0"
-		"ypos"					"20"
-		"zpos"					"1"
-		"wide"					"595"
-		"tall"					"30"
-		"visible"				"1"
-		"enabled"				"1"
-		"fgcolor_override"		"White"
-		
-		"pin_to_sibling"		"SupportersTitle"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"Supporters"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"Supporters"
+			"font"					"FontRegular12"
+			"labelText"				"Admiral Bread Crumbs ★ berry-jordan ★ Kybrid96 ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ TemmieKaz ★ Zeesastrous"
+			"textAlignment"			"center"
+			"xpos"					"20"
+			"ypos"					"20"
+			"zpos"					"1"
+			"wide"					"555"
+			"tall"					"50"
+			"visible"				"1"
+			"enabled"				"1"
+			"wrap"					"1"
+			"fgcolor_override"		"White"
+		}
 	}
 }
