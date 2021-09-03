@@ -83,6 +83,7 @@ For extra protection against stream snipers and DDoS attacks while live streamin
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
 * Admiral Bread Crumbs
 * berry-jordan
+* DrummingFish
 * Kybrid96
 * Owlgod
 * pazer
