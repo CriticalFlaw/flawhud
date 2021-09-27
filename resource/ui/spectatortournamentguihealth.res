@@ -98,6 +98,7 @@
 		"textAlignment"	"center"
 		"textinsetx"	"4"
 		"fgcolor"		"White"
+		"xpos_minmode"	"-115"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"BottomBorder"
