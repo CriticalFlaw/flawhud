@@ -69,6 +69,37 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"FontIcons12"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"FontIcons10"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"FontIcons8"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 	}
 	
 	CustomFontFiles

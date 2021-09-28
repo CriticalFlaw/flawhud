@@ -114,45 +114,6 @@
 		}
 	}
 	
-	"DonateLink"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"DonateLink"
-		"xpos"					"0"
-		"ypos"					"5"
-		"ypos"					"5"
-		"zpos"					"1"
-		"wide"					"18"
-		"tall"					"18"
-		"visible"				"1"
-		"bgcolor_override"		"27 40 56 255"
-		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"DiscordLink"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-
-		"SteamUrl"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"SteamUrl"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"CustomIcons"
-			"labelText"				"}"
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"center"
-			"proportionaltoparent"	"1"
-			"fgcolor_override"		"236 108 185 255"
-			"urlText"				"https://github.com/sponsors/CriticalFlaw"
-		}
-	}
-	
 	"Separator"
 	{
 		"ControlName"			"ImagePanel"
@@ -166,7 +127,7 @@
 		"enabled"				"1"
 		"fillcolor"				"Black"
 
-		"pin_to_sibling"		"DonateLink"
+		"pin_to_sibling"		"DiscordLink"
         "pin_corner_to_sibling"	"PIN_TOPLEFT"
         "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
@@ -184,7 +145,7 @@
 		"bgcolor_override"		"202 113 45 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"DonateLink"
+		"pin_to_sibling"		"DiscordLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
@@ -286,7 +247,7 @@
 		"ypos"					"205"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"150"
+		"tall"					"125"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"

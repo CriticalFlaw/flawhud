@@ -7,6 +7,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"medal_width"			"25"
+		"medal_width_minmode"	"0"
 		"avatar_width"			"55"
 		"spacer"				"5"
 		"name_width"			"150"
@@ -16,7 +17,6 @@
 		"ping_width"			"50"
 		"killstreak_width"		"15"
 		"killstreak_image_width"	"15"
-		"medal_width_minmode"	"0"
 
 		if_mvm
 		{

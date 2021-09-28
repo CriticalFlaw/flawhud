@@ -87,12 +87,12 @@
 		"ypos"				"2"
 		"zpos"				"2"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"210"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -250,12 +250,12 @@
 		"ypos"				"2"
 		"zpos"				"2"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"210"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"ServerTimeBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -389,12 +389,12 @@
 		"xpos"				"-5"
 		"ypos"				"0"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"11"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -507,12 +507,12 @@
 		"ypos"				"16"
 		"zpos"				"4"
 		"wide"				"500"
+		"wide_minmode"		"0"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -531,9 +531,8 @@
 		"fieldName"			"StatsBG"
 		"xpos"				"0"
 		"ypos"				"2"
-		"ypos_minmode"		"80"
 		"zpos"				"2"
-		"wide"				"585"
+		"wide"				"581"
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
@@ -543,6 +542,7 @@
 		"pin_to_sibling"		"BluePlayerBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_minmode"	"ServerBackground"
 
 		if_mvm
 		{
@@ -563,12 +563,12 @@
 		"ypos"				"25"
 		"zpos"				"4"
 		"wide"				"500"
+		"wide_minmode"		"0"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -584,8 +584,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
-		"xpos"				"525"
-		"ypos"				"295"
+		"xpos"				"0"
+		"ypos"				"-5"
 		"zpos"				"3"
 		"wide"				"45"
 		"tall"				"45"
@@ -593,6 +593,10 @@
 		"enabled"			"1"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
+
+		"pin_to_sibling"		"StatsBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		if_mvm
 		{

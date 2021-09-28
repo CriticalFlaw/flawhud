@@ -22,10 +22,6 @@
 		"team2_player_base_y"			"160"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"22"
-
-		"team2_player_base_offset_x_minmode"	"-566"
-		"team1_player_base_y_minmode"			"60"
-		"team2_player_base_y_minmode"			"260"
 		
 		"playerpanels_kv"
 		{
@@ -142,11 +138,11 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"245 245 245 200"
 				"labelText"			"%playername%"
 				"textAlignment"		"west"
 				"textinsetx"		"6"
-				"xpos_minmode"		"9999"
 				"proportionaltoparent"	"1"
 
 				"pin_to_sibling" 		"classimagebg"
@@ -164,6 +160,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"ShadowBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -185,6 +182,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"245 245 245 200"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -206,6 +204,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"ShadowBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -244,7 +243,6 @@
 				"tall"				"22"
 				"fillcolor"			"HudBlack"
 				"proportionaltoparent"	"1"
-				"wide_minmode"			"150"
 			}
 
 			"PanelColorBG"
@@ -272,7 +270,6 @@
 				"direction"			"west"
 				"bgcolor_override"	"89 24 23 255"
 				"fgcolor_override"	"157 49 47 255"
-				"xpos_minmode"		"9999"
 			}
 			"PlayerHealthBlue"
 			{
@@ -287,7 +284,6 @@
 				"direction"			"east"
 				"bgcolor_override"	"38 55 63 255"
 				"fgcolor_override"	"57 92 120 255"
-				"xpos_minmode"		"9999"
 			}
 
 			"BlueRespawnTime"

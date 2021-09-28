@@ -100,6 +100,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"FontRegular10"
+				"font_minmode"	"FontIcons10"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
@@ -110,7 +111,6 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				"visible_minmode"	"0"
 			}
 
 			"classimage"
