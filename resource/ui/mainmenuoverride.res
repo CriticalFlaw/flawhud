@@ -1,6 +1,6 @@
 #base "../../resource/preload.res"
 #base "../../resource/tools.res"
-#base "../../resource/links.res"
+//#base "../../resource/links.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -175,9 +175,29 @@
 			"tall"		"f0"
 		}
 
-		"if_halloween"
+		if_halloween_0
 		{
-//			"image"		"../console/title_scream_fortress_2017_widescreen"
+			"image"		"../console/title_team_halloween2011_widescreen"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012_widescreen"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013_widescreen"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		if_halloween_4
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		"if_fullmoon"
 		{
@@ -185,7 +205,7 @@
 		}
 		"if_christmas"
 		{
-//			"image"		"../console/background_xmas2020_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 
@@ -852,7 +872,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0928"
+		"labelText"			"FlawHUD v2021.0928c"
 		"labelText_minmode"	"Streamer Mode Active!"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
