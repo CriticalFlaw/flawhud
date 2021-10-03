@@ -363,19 +363,19 @@ Scheme
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ButtonBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ButtonKeyFocusBorder
@@ -386,8 +386,8 @@ Scheme
 
 		ButtonDepressedBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ComboBoxBorder
@@ -533,7 +533,7 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -555,7 +555,7 @@ Scheme
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/tournament_panel_brown"
 			//"image"				"../hud/color_panel_browner"
 			"src_corner_height"		"23"			// pixels inside the image
@@ -567,7 +567,7 @@ Scheme
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -578,7 +578,7 @@ Scheme
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -589,7 +589,7 @@ Scheme
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -600,7 +600,7 @@ Scheme
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -611,7 +611,7 @@ Scheme
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -633,7 +633,7 @@ Scheme
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -727,7 +727,7 @@ Scheme
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -738,7 +738,7 @@ Scheme
 		StoreFreeTrialBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"image"					"loadout_rect_red"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
@@ -761,13 +761,13 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		LoadoutItemMouseOverBorder
@@ -850,7 +850,7 @@ Scheme
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"color"					"DarkGrey"
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"32"			// pixels inside the image
