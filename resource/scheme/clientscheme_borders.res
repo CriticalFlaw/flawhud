@@ -380,8 +380,8 @@ Scheme
 
 		ButtonKeyFocusBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ButtonDepressedBorder
@@ -589,7 +589,7 @@ Scheme
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -611,7 +611,7 @@ Scheme
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -622,7 +622,7 @@ Scheme
 		TFFatLineBorderRedBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_red_more_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -633,7 +633,7 @@ Scheme
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -644,7 +644,7 @@ Scheme
 		TFFatLineBorderBlueBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_blu_more_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -655,7 +655,7 @@ Scheme
 		TFFatLineBorderBlueBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"image"					"../hud/color_panel_blu_opaque"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
