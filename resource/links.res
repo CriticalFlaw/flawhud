@@ -166,7 +166,7 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://creators.tf/quickplay/pubs"
+			"urlText"				"https://creators.tf/servers"
 		}
 
 		"CreatorsLogo"
