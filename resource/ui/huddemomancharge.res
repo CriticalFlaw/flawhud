@@ -34,7 +34,6 @@
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"
 		"font"				"FontBold10"
-		"fgcolor_override"	"Black"
 
 		"pin_to_sibling"		"ChargeMeter"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"

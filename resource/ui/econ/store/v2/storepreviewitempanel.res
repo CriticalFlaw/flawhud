@@ -1063,7 +1063,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"FontBold12"
+		"font"			"FontRegular12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
