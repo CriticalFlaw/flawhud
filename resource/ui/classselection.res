@@ -41,7 +41,7 @@
 		"Command"					"joinclass scout"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -103,7 +103,7 @@
 		"Command"					"joinclass soldier"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -169,7 +169,7 @@
 		"Command"					"joinclass pyro"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -235,7 +235,7 @@
 		"Command"					"joinclass demoman"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -301,7 +301,7 @@
 		"Command"					"joinclass heavyweapons"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -367,7 +367,7 @@
 		"Command"					"joinclass engineer"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -433,7 +433,7 @@
 		"Command"					"joinclass medic"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -499,7 +499,7 @@
 		"Command"					"joinclass sniper"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -565,7 +565,7 @@
 		"Command"					"joinclass spy"
 		"Default"					"0"
 		"font"						"FontBold10"
-		"textinsetx"				"65"
+		"textinsetx"				"70"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -1268,17 +1268,17 @@
 	{
 		"ControlName"				"CTFPlayerModelPanel"
 		"fieldName"					"TFPlayerModel"
-		"xpos"						"0"
+		"xpos"						"c-110"
 		"ypos"						"145"
 		"zpos"						"6"
-		"wide"						"700"
+		"wide"						"200"
 		"tall"						"230"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"render_texture"			"0"
-		"fov"						"40"
+		"fov"						"25"
 		"allow_rot"					"1"
 		"paintbackground"			"0"
 		"paintbackgroundenabled"	"1"
