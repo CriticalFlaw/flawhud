@@ -64,7 +64,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"25"
+				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
 			}
