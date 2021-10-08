@@ -118,7 +118,7 @@
 				"angles_y"		"172"
 				"angles_z"		"0"
 				"origin_x"		"125"
-				"origin_y"		"-3"
+				"origin_y"		"0"
 				"origin_z"		"-93"
 			}
 			"Soldier"
@@ -183,13 +183,13 @@
 			}
 			"Engineer"
 			{
-				"fov"			"25"
+				"fov"			"30"
 				"angles_x"		"-10"
 				"angles_y"		"203"
 				"angles_z"		"0"
 				"origin_x"		"140"
-				"origin_y"		"-2"
-				"origin_z"		"-82"
+				"origin_y"		"0"
+				"origin_z"		"-86"
 			}
 		}
 	}
