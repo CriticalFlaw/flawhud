@@ -635,7 +635,7 @@
 		"fieldName"					"random2"
 		"xpos"						"0"
 		"ypos"						"2"
-		"zpos"						"1"
+		"zpos"						"10"
 		"wide"						"150"
 		"tall"						"15"
 		"autoResize"				"0"
@@ -648,6 +648,7 @@
 		"Command"					"joinclass random"
 		"Default"					"1"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -663,10 +664,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"sound_armed"				"UI/buttonrollover.wav"
-
-		"stayselectedonclick"		"1"
-		"selectonhover"				"1"
-		"keyboardinputenabled"		"0"
 		
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -679,7 +676,7 @@
 		"fieldName"					"EditLoadoutButton"
 		"xpos"						"0"
 		"ypos"						"2"
-		"zpos"						"6"
+		"zpos"						"10"
 		"wide"						"150"
 		"tall"						"15"
 		"autoResize"				"0"
@@ -691,6 +688,7 @@
 		"textAlignment"				"west"
 		"Command"					"openloadout"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -718,7 +716,7 @@
 		"fieldName"					"CancelButton"
 		"xpos"						"0"
 		"ypos"						"2"
-		"zpos"						"6"
+		"zpos"						"10"
 		"wide"						"150"
 		"tall"						"15"
 		"autoResize"				"0"
@@ -730,6 +728,7 @@
 		"textAlignment"				"west"
 		"Command"					"vguicancel"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"

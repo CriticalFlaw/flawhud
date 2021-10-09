@@ -78,7 +78,7 @@ event HudLowAmmoPulseStop
 	Animate	AmmoBG						BgColor		"Blank"				Accel 0.0 0.0
 //	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoInReserve				FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
+//	Animate AmmoNoClip					FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoInClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 //	Animate AmmoInReserveShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 //	Animate AmmoNoClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
