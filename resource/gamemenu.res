@@ -97,7 +97,7 @@
 	"HomeServerButton"
 	{
 		"label"			"p"
-		"command"		"engine connect 138.197.133.71; password flawhud"
-		"tooltip"		"Home Server"
+		"command"		"engine sv_allow_point_servercommand always; sv_cheats 1; map tr_walkway_rc2"
+		"tooltip"		"Load Walkway"
 	}
 }
