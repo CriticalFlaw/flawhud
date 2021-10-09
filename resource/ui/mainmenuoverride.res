@@ -174,7 +174,7 @@
 			"wide"		"o1.6"
 			"tall"		"f0"
 		}
-		
+
 		"if_halloween_0"
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
