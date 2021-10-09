@@ -639,6 +639,7 @@
 		"Command"					"joinclass random"
 		"Default"					"1"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -654,10 +655,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"sound_armed"				"UI/buttonrollover.wav"
-
-		"stayselectedonclick"		"1"
-		"selectonhover"				"1"
-		"keyboardinputenabled"		"0"
 		
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -682,6 +679,7 @@
 		"textAlignment"				"west"
 		"Command"					"openloadout"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -721,6 +719,7 @@
 		"textAlignment"				"west"
 		"Command"					"vguicancel"
 		"font"						"FontRegular12"
+		"textinsetx"				"20"
 		"paintbackground"			"1"
 
 		"defaultBgColor_override" 	"TransparentBlack"

@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"FreezePanelBase"
-		"xpos"					"c-100"
+		"xpos"					"c-125"
 		"ypos"					"c50"
 		"wide"					"250"
 		"tall"					"27"
@@ -91,7 +91,7 @@
 			"xpos"				"0"
 			"ypos"				"10"
 			"zpos"				"1"
-			"wide"				"190"
+			"wide"				"180"
 			"tall"				"17"
 			"autoResize"		"0"
 			"pinCorner"			"0"
