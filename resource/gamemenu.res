@@ -97,7 +97,7 @@
 	"HomeServerButton"
 	{
 		"label"			"p"
-		"command"		"engine connect 138.197.133.71; password flawhud"
+		"command"		"engine connect 138.197.133.71;password flawhud"
 		"tooltip"		"Home Server"
 	}
 }
