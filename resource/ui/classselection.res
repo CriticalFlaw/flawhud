@@ -765,7 +765,7 @@
 		"textAlignment"				"center"
 		"font"						"FontBold37"
 		"paintbackground"			"0"
-		"sound_released"			"UI/secret.wav"
+		"sound_released"			"UI/secret.mp3"
 		"sound_depressed"			""
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
