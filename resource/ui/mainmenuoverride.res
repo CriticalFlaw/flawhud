@@ -886,7 +886,7 @@
 		"paintbackground"	"0"
 		"sound_depressed"	""
 		"textAlignment"		"east"
-		"sound_released"	"UI/homie.wav"
+		"sound_released"	"UI/homie.mp3"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
