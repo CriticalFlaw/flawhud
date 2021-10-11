@@ -31,7 +31,6 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontBold10"
-		"fgcolor_override"	"Black"
 	}
 
 	"ItemEffectMeter"

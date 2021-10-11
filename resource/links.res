@@ -34,7 +34,7 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://github.com/CriticalFlaw/flawhud"
+			"urlText"				"https://github.com/CriticalFlaw/FlawHUD"
 		}
 	}
 
