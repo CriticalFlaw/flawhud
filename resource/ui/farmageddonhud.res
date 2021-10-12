@@ -6,16 +6,8 @@
     {
          "CarriedImage"
          {
-             "image"                                             "../hud/weedkiller_icon"
+             "image"				"../hud/weedkiller_icon"
          }
-    }
-    "CountdownContainer"
-    {
-        "CountdownImage"
-        {
-            "xpos"            "117"
-            "ypos"            "15"
-        }
     }
     "ScoreContainer"
     {
@@ -23,13 +15,11 @@
          {
              "FlagImageBlue"
              {
-                     "image"                                             "../hud/weedkiller_icon"
-                     "zpos"            "100"
+                     "image"		"../hud/weedkiller_icon"
              }
              "FlagImageRed"
              {
-                     "image"                                             "../hud/weedkiller_icon"
-                     "zpos"            "100"
+                     "image"		"../hud/weedkiller_icon"
              }
          }
     }
