@@ -1172,7 +1172,7 @@
 		"NormalY"			"330"
 		"EngineerY"			"330"
 		"zpos"				"-10"
-		"wide"				"200"
+		"wide"				"f0"
 		"tall"				"130"
 		"visible"			"1"
 		"enabled"			"1"

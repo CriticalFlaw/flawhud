@@ -94,7 +94,7 @@
 		"command"		"motd_show"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
-	"ServerButton"
+	"HomeServerButton"
 	{
 		"label"			"}"
 		"command"		"engine map itemtest"	//Replace 'map itemtest' with the connection string to your favorite server.
