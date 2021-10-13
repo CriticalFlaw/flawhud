@@ -596,10 +596,10 @@
 		}
 	}
 	
-	"HomeServerButton"
+	"ServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"HomeServerButton"
+		"fieldname"		"ServerButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
