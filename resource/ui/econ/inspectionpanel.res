@@ -65,7 +65,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"75"
+		"fov"					"65"
 
 		"consume_mode"
 		{
