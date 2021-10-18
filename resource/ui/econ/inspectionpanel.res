@@ -65,7 +65,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"75"
+		"fov"					"65"
 
 		"consume_mode"
 		{
@@ -143,7 +143,7 @@
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"r140"
+			"ypos"			"r100"
 		}
 
 		"ButtonSettings"
@@ -237,18 +237,18 @@
 
 		"fixed_item"
 		{
-			"tall"		"80"
-			"visible"	"1"
+			"tall"			"100"
+			"visible"		"1"
 		}
 		"fixed_paintkit"
 		{
-			"tall"		"60"
-			"visible"	"1"
+			"tall"			"100"
+			"visible"		"1"
 		}
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"r120"
+			"ypos"			"r80"
 		}
 
 		"DebugButton"
@@ -452,7 +452,7 @@
 			}
 
 			"zpos"			"1"
-			"wide"			"234"
+			"wide"			"235"
 			"tall"			"30"
 			"numticks"		"4"
 			"rangemin"		"1"
@@ -522,11 +522,11 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"30"
+				"ypos"		"40"
 			}
 
 			"zpos"			"10"
-			"wide"			"234"
+			"wide"			"235"
 			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -562,11 +562,11 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"			"30"
+				"ypos"			"20"
 			}
 
 			"zpos"				"10"
-			"wide"				"234"
+			"wide"				"235"
 			"tall"				"20"
 			"autoResize"		"0"
 			"visible"			"1"
@@ -602,11 +602,16 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"30"
+				"ypos"		"70"
+			}
+
+			"consume_mode"
+			{
+				"ypos"		"r60"
 			}
 
 			"zpos"			"100"
-			"wide"			"234"
+			"wide"			"235"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"

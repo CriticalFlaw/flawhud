@@ -59,14 +59,14 @@ To change the style, under **CustomCrosshair** change the value of **labelText**
 ### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
 
-### Home Server
-To set your home server shortcut, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** change the connection string to point to your preferred server.
+### Favorite Server
+To setup a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **ServerButton** enter the connection string to your preferred server as instructed.
 
 ### Transparent Viewmodels
 To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
 
 ### Streamer Mode
-For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewer know where and who you're playing with.
+For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewers know where and who you are playing with.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -96,7 +96,7 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 [download-link]: https://github.com/CriticalFlaw/flawhud/archive/refs/heads/master.zip
 [crosshairs-link]: https://raw.githubusercontent.com/Hypnootize/TF2-Hud-Crosshairs/master/crosshairs/TF2Crosshairs.png
 [paypal-link]: https://www.paypal.com/donate?business=8BHEWCPRMDDEJ&item_name=FlawHUD+Donation
-[tftv-link]: http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
+[tftv-link]: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
 [ce-release]: https://github.com/PazerOP/CastingEssentials/releases/latest
 [ce-wiki]: https://github.com/PazerOP/CastingEssentials/wiki/HUD-Mods
 [sponsors-link]: https://github.com/sponsors/CriticalFlaw

@@ -96,8 +96,8 @@
 	}
 	"HomeServerButton"
 	{
-		"label"			"p"
-		"command"		"engine connect 138.197.133.71; password flawhud"
-		"tooltip"		"Home Server"
+		"label"			"}"
+		"command"		"engine map itemtest"	//Replace 'map itemtest' with the connection string to your favorite server.
+		"tooltip"		"Favorite Server"
 	}
 }

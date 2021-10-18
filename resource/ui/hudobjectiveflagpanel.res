@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c1"
+		"xpos"			"c0"
 		"ypos"			"r24"
 		"zpos"			"2"
 		"wide"			"40"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG2"
-		"xpos"			"c1"
+		"xpos"			"c0"
 		"ypos"			"r21"
 		"zpos"			"1"
 		"wide"			"40"
@@ -309,11 +309,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"cs-0.5"
-		"ypos"			"r50"
-		"zpos"			"7"
-		"wide"			"140"
-		"tall"			"38"
+		"xpos"			"c-40"
+		"ypos"			"r38"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
@@ -373,7 +373,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-130"
+		"xpos"			"c-140"
 		"ypos"			"r67"
 		"zpos"			"5"
 		"wide"			"160"
@@ -412,7 +412,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-30"
+		"xpos"			"c-20"
 		"ypos"			"r67"
 		"zpos"			"5"
 		"wide"			"160"
