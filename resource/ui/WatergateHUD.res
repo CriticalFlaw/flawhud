@@ -1,14 +1,15 @@
 #base "HudObjectivePlayerDestruction.res"
+
 "Resource/UI/WatergateHUD.res"
 {
-   "CarriedContainer"
-   {
+   	"CarriedContainer"
+   	{
         "CarriedImage"
         {
 			"image"				"../hud/hud_invasion_bottle"
         }
-   }
-   "ScoreContainer"
+   	}
+   	"ScoreContainer"
 	{
 		"ProgressBarContainer"
 		{

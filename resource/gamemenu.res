@@ -96,8 +96,8 @@
 	}
 	"HomeServerButton"
 	{
-		"label"			"}"
-		"command"		"engine map itemtest"	//Replace 'map itemtest' with the connection string to your favorite server.
-		"tooltip"		"Favorite Server"
+		"label"			"p"
+		"command"		"engine sv_allow_point_servercommand always; sv_cheats 1; map tr_walkway_rc2"
+		"tooltip"		"Load Walkway"
 	}
 }
