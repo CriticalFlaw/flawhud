@@ -502,7 +502,7 @@
 		"xpos"					"-10"
 		"ypos"					"-50"
 		"wide"					"200"
-		"wide_minmode			"0"
+		"wide_minmode"			"0"
 		"tall"					"32"
 		"fgcolor"				"TanLight"
 		"proportionalToParent"	"1"
