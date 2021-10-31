@@ -60,7 +60,7 @@
 		"xpos"					"46"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"55"
 		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -80,7 +80,7 @@
 		"xpos"					"-2"
 		"ypos"					"-2"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"55"
 		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -93,5 +93,40 @@
 		"font"					"FontBold22"
 		"fgcolor"				"ShadowBlack"
 		"pin_to_sibling"		"ItemEffectMeterCount"
+	}
+
+	"StreakIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIcon"
+		"xpos"					"2"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"20"
+		"tall"					"20"
+		"visible"				"0"
+		"enabled"				"0"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"CustomIcons"
+		"fgcolor_override"		"White"
+	}
+
+	"StreakIconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIconShadow"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"1"
+		"wide"					"20"
+		"tall"					"20"
+		"visible"				"0"
+		"enabled"				"0"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"CustomIcons"
+		"fgcolor_override"		"ShadowBlack"
+		"pin_to_sibling"		"StreakIcon"
 	}
 }

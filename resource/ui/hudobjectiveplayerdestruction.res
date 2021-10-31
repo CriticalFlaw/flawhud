@@ -110,8 +110,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"c-220"
-		"ypos"				"r95"
+		"xpos"				"c-180"
+		"ypos"				"r102"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"
@@ -123,11 +123,11 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"			"CarriedImage"
-			"xpos"				"15"
-			"ypos"				"0"
+			"xpos"				"3"
+			"ypos"				"73"
 			"zpos"				"4"
-			"wide"				"16"
-			"tall"				"16"
+			"wide"				"18"
+			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				"../hud/hud_obj_status_ammo_64"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"FlagValue"
-			"xpos"				"0"
+			"xpos"				"23"
 			"ypos"				"75"
 			"zpos"				"4"
 			"wide"				"25"
@@ -182,36 +182,7 @@
 			"font"				"FontBold22"
 			"fgcolor"			"ShadowBlack"
 			"proportionalToParent"	"1"
-		}
-
-		"WhiteBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"WhiteBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"1"
-			"wide"				"20"
-			"tall"				"18"
-			"visible"			"1"
-			"enabled"			"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"TanLight"
-		}
-
-		"GreenBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"GreenBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"2"
-			"wide"				"20"
-			"tall"				"16"
-			"visible"			"1"
-			"enabled"			"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"CreditsGreen"
+			"pin_to_sibling"		"FlagValue"
 		}
 
 		"TeamLeaderImage"

@@ -34,7 +34,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"proportionaltoparent"	"1"
 	}
 	"CountdownLabelShadow"

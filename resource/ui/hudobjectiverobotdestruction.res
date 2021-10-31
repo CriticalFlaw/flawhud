@@ -110,8 +110,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"0"
-		"ypos"				"r115"
+		"xpos"				"c-180"
+		"ypos"				"r102"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"
@@ -163,7 +163,7 @@
 			"textAlignment"		"west"
 			"labelText"			"%flagvalue%"
 			"font"				"FontBold22"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 			"proportionalToParent"	"1"
 		}
 		"FlagValueShadow"
