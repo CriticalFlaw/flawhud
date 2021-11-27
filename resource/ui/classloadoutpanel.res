@@ -38,7 +38,7 @@
 			"ControlName"			"CItemModelPanel"
 			"xpos"					"c-70"
 			"ypos"					"270"
-			"wide"					"150"
+			"wide"					"140"
 			"tall"					"70"
 			"visible"				"0"
 			"bgcolor_override"		"Transparent"

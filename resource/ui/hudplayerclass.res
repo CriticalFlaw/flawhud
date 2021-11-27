@@ -75,7 +75,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"15"
+		"fov"				"20"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 
@@ -83,114 +83,16 @@
 		{
 			"force_pos"			"1"
 			"angles_x" 			"0"
-			"angles_y" 			"172"
+			"angles_y" 			"180"
 			"angles_z" 			"0"
 			"origin_x" 			"200"
-			"origin_y" 			"0"
-			"origin_z" 			"-60"
+			"origin_y" 			"-10"
+			"origin_z" 			"-80"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" 		"1"
 			"modelname"			""
-		}
-
-		"customclassdata"
-		{
-			"undefined"
-			{
-
-			}
-			"Scout"
-			{
-				"fov"			"30"
-				"angles_x"		"-17"
-				"angles_y"		"203"
-				"angles_z"		"-5"
-				"origin_x"		"115"
-				"origin_y"		"5"
-				"origin_z"		"-80"
-			}
-			"Sniper"
-			{
-				"fov"			"30"
-				"angles_x"		"-10"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"125"
-				"origin_y"		"5"
-				"origin_z"		"-90"
-			}
-			"Soldier"
-			{
-				"fov"			"30"
-				"angles_x"		"-5"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"5"
-				"origin_z"		"-85"
-			}
-			"Demoman"
-			{
-				"fov"			"30"
-				"angles_x"		"-13"
-				"angles_y"		"225"
-				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"3"
-				"origin_z"		"-90"
-			}
-			"Medic"
-			{
-				"fov"			"25"
-				"angles_x"		"-5"
-				"angles_y"		"225"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"0"
-				"origin_z"		"-90"
-			}
-			"Heavy"
-			{
-				"fov"			"22"
-				"angles_x"		"-5"
-				"angles_y"		"203"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"5"
-				"origin_z"		"-90"
-			}
-			"Pyro"
-			{
-				"fov"			"24"
-				"angles_x"		"-10"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"5"
-				"origin_z"		"-85"
-			}
-			"Spy"
-			{
-				"fov"			"25"
-				"angles_x"		"-1"
-				"angles_y"		"203"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"5"
-				"origin_z"		"-90"
-			}
-			"Engineer"
-			{
-				"fov"			"30"
-				"angles_x"		"-10"
-				"angles_y"		"203"
-				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_y"		"0"
-				"origin_z"		"-85"
-			}
 		}
 	}
 
