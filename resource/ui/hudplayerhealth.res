@@ -22,10 +22,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"9999"	//Change to "20" to enable health cross
-		"ypos"			"10"
+		"ypos"			"11"
 		"zpos"			"4"
-		"wide"			"75"
-		"tall"			"75"
+		"wide"			"70"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -35,8 +35,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"	//Change to "20" to enable health cross
-		"ypos"			"10"
+		"xpos"			"9999"	//Change to "18" to enable health cross
+		"ypos"			"9"
 		"zpos"			"4"
 		"wide"			"75"
 		"tall"			"75"
@@ -65,8 +65,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"	//Change to "25" to enable health cross
-		"ypos"			"15"
+		"xpos"			"9999"	//Change to "23" to enable health cross
+		"ypos"			"12"
 		"zpos"			"3"
 		"wide"			"65"
 		"tall"			"65"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"FontBold50"
+		"font"			"FontBold50"	//Change to "HudFontBiggerBold" to enable health cross
 
 		"pin_to_sibling"		"HealthBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"FontBold50"
+		"font"			"FontBold50"	//Change to "HudFontBiggerBold" to enable health cross
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"		"PlayerHealthValue"
