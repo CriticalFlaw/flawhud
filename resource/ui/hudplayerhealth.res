@@ -21,13 +21,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"27"
-		"ypos"			"52"
+		"xpos"			"9999"	//Change to "20" to enable health cross
+		"ypos"			"10"
 		"zpos"			"4"
-		"wide"			"38"
-		"tall"			"38"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 
@@ -35,10 +35,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"	//Change to "20" to enable health cross
+		"ypos"			"10"
+		"zpos"			"4"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
 	}
 
 	"HealthBG"
@@ -60,11 +65,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"22"
+		"xpos"			"9999"	//Change to "25" to enable health cross
+		"ypos"			"15"
 		"zpos"			"3"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"65"
+		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
