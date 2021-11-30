@@ -83,7 +83,7 @@
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
-		"textinsety"				"10"
+		"textinsety"		"10"
 
 		"border_default"	"PanelBorder"
 		"border_armed"		"WhiteBorderThick"

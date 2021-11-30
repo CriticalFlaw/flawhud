@@ -50,7 +50,7 @@
 	}
 	"ConsoleButton"
 	{
-		"label" 		"="
+		"label" 		"c"
 		"command" 		"engine toggleconsole"
 		"tooltip" 		"#GameUI_Console"
 	}

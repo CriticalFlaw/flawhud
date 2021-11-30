@@ -1,98 +1,14 @@
+#base "huditemeffectmeter.res"
+
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
-		"fieldName"				"HudItemEffectMeter"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-75"
-		"ypos"					"c120"
-		"wide"					"f0"
-		"tall"					"f0"
-		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+		"ypos"			"c120"
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"115"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"8"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_KART"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"FontRegular10"
-	}
-
-	"ItemEffectMeter"
-	{
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"110"
-		"tall"					"8"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"MenuShader"
-	}
-
-	"ItemEffectMeterCount"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"115"
-		"ypos"					"8"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"15"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"FontBold14"
-	}
-
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"15"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"FontBold14"
-		"fgcolor"				"ShadowBlack"
-		"pin_to_sibling"		"ItemEffectMeterCount"
+		"labelText"		"#TF_KART"
 	}
 }

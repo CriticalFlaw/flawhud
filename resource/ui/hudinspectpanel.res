@@ -12,9 +12,7 @@
 		"visible"				"0"
 		"bgcolor_override"		"16 16 16 230"
 		"paintBackground"    	"1"
-        "paintborder"        	"0"
 		"PaintBackgroundType"	"2"
-		"paintBackground"		"1"
 		"paintBorder"			"0"
 
 		"model_ypos"			"10"
