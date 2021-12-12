@@ -321,7 +321,7 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"medigun-medigun" {
-			"labelText"	"TF_Weapon_Medigun"
+			"labelText"	"#TF_Weapon_Medigun"
 		}
 
 		"medigun-kritzkrieg" {
