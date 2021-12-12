@@ -21,12 +21,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9999"	//Change to "20" to enable health cross
+		"xpos"			"20"
 		"ypos"			"11"
 		"zpos"			"4"
 		"wide"			"70"
 		"tall"			"70"
-		"visible"		"1"
+		"visible"		"0"		//Change to "1" to enable health cross
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
@@ -55,7 +55,7 @@
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"43"
-		"visible"		"1"
+		"visible"		"1"		//Change to "0" to enable health cross
 		"enabled"		"1"
 		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"2"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"-15"
+		"xpos"			"-10"
 		"ypos"			"0"
 		"wide"			"0"
 		"tall"			"0"
