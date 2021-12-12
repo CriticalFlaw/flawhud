@@ -701,7 +701,14 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"545"
+			"textAlignment"		"east"
+
+			"pin_to_sibling"		"ServerLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 	"HorizontalLine"
