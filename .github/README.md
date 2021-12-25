@@ -86,6 +86,7 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 * DrummingFish
 * Kybrid96
 * Owlgod
+* LazarusDemitri
 * pazer
 * Revan
 * saturncaine
