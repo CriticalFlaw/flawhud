@@ -220,7 +220,7 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://uncledane.com/servers"
+			"urlText"				"https://uncletopia.com/servers"
 		}
 
 		"UncleLogo"
