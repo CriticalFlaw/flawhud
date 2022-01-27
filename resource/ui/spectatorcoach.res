@@ -72,22 +72,7 @@
 		"wide"				"250"
 		"tall"				"120"
 	}
-	
-	"Crosshair"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"Crosshair"
-		"xpos"				"c-8"
-		"ypos"				"c-8"
-		"zpos"				"-100"
-		"wide"				"16"
-		"tall"				"16"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"crosshairs/default"
-		"scaleImage"		"1"
-	}
-	
+
 	"CoachingLabel"
 	{
 		"ControlName"		"CExLabel"
