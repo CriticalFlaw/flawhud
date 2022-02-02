@@ -1,0 +1,21 @@
+"lang"
+{
+    "Language"		"English"
+
+    "Tokens"
+    {
+		// Chat Changes
+		"chat_say"					"ALL "
+        "chat_say_team"				"TEAM "
+        "chat_say_party"			"PARTY "
+        "TF_Chat_All"				"%s1: %s2"
+        "TF_Chat_AllDead"			"*DEAD* %s1: %s2"
+        "TF_Chat_AllSpec"			"(SPEC) %s1: %s2"
+        "TF_Chat_Team"				"(TEAM) %s1: %s2"
+        "TF_Chat_Team_Dead"			"*DEAD* (TEAM) %s1: %s2"
+        "TF_Chat_Spec"				"(SPEC) %s1: %s2"
+        "TF_Chat_Coach"				"(COACH) %s1: %s2"
+        "TF_Name_Change"			"%s1 changed name to %s2"
+        "TF_Class_Change"			"%s1 changed name to %s2"
+    }
+}
