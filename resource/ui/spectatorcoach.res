@@ -1,5 +1,3 @@
-#base "hudinspectpanel.res"
-
 "Resource/UI/SpectatorCoach.res"
 {
 	"Spectator"
