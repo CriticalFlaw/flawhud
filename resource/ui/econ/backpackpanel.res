@@ -242,7 +242,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NameFilterLabel"
 		"font"				"FontRegular12"
-		"labelText"			"Search:"
+		"labelText"			"#FlawHUD_Search"
 		"textAlignment"		"west"
 		"xpos"				"c-287"
 		"ypos"				"35"
@@ -454,7 +454,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Tip: Use the 'A' and 'D' keys to navigate between pages."
+		"labelText"		"#FlawHUD_BackpackTip"
 		"textAlignment"	"west"
 		
 		"pin_to_sibling"		"Wall"

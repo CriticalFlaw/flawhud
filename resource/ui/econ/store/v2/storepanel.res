@@ -144,7 +144,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Exit Store (&Q)"
+		"labelText"			"#FlawHUD_ExitStore"
 		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
