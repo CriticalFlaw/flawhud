@@ -58,7 +58,7 @@ To change the style, under **CustomCrosshair** change the value of **labelText**
 
 If you don't like the hit indicator for custom crosshairs, open `flawhud\scripts\hudanimations_manifest.txt` in a text editor and comment the corresponding line as instructed in the file.
 
-If you want to change the crosshair/hit indicator color, open `flawhud\resource\scheme\clientscheme_colors.res` in a text editor and change the values of **Crosshair** and **CrosshairDamage**.
+If you want to change the crosshair/hit indicator color, open `flawhud\resource\scheme\clientscheme_colors.res` in a text editor and change the values of **Crosshair** and/or **CrosshairDamage**.
 
 ### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
