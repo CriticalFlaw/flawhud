@@ -2044,7 +2044,7 @@
 			"tall"				"15"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"labelText"			": Start Time"
+			"labelText"			"Start Time:"
 			"font"				"FontRegular12"
 			"proportionaltoparent"	"1"
 		}

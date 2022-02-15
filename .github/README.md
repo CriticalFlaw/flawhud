@@ -56,6 +56,10 @@ Custom crosshairs are disabled by default. To enable them, open `flawhud\scripts
 To change the style, under **CustomCrosshair** change the value of **labelText** to the corresponding letter below.
 ![banner](https://raw.githubusercontent.com/Hypnootize/TF2-Hud-Crosshairs/master/crosshairs/TF2Crosshairs.png)
 
+If you don't like the hit indicator for custom crosshairs, open `flawhud\scripts\hudanimations_manifest.txt` in a text editor and comment the corresponding line as instructed in the file.
+
+If you want to change the crosshair/hit indicator color, open `flawhud\resource\scheme\clientscheme_colors.res` in a text editor and change the values of **Crosshair** and **CrosshairDamage**.
+
 ### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
 

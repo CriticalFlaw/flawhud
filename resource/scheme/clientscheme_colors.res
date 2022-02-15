@@ -3,6 +3,17 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//--------------------------------------------------------------
+		// CROSSHAIR COLORS
+		//--------------------------------------------------------------
+		// Values are in RGBA (Red, Green, Blue, Alpha).
+		// Change "Crosshair" for the custom crosshair color.
+		// Change "CrosshairDamage" for the custom hit indicator color.
+		//--------------------------------------------------------------
+		"Crosshair"					"242 242 242 255"
+		"CrosshairDamage"			"255 0 0 255"
+
+		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
 		"Blue"						"72 112 125 255"
@@ -32,10 +43,6 @@ Scheme
 		"LowAmmoShadow"				"90 20 20 255"
 		"TargetHealth"				"0 170 127 255"
 		"TargetDamage"				"255 255 0 255"
-		//---------------------------------------------
-		// Crosshair Colors
-		"Crosshair"					"242 242 242 255"
-		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// ÜberCharge
 		"UberCharge"				"0 170 127 255"
