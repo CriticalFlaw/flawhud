@@ -1,10 +1,7 @@
 hudanimations_manifest
 {
-	"file"		"scripts/hudanimations.txt"
-	"file"		"scripts/hudanimations_custom.txt"
-
-// Comment the line below to disable hit indicator:
-	"file"		"scripts/hudanimations_custom - hit indicator.txt"
-
-	"file"		"scripts/hudanimations_tf.txt"
+	"file"	"scripts/hudanimations.txt"
+	"file"	"scripts/hudanimations_custom.txt"
+	"file"	"scripts/hudanimations_hitmarker.txt"
+	"file"	"scripts/hudanimations_tf.txt"
 }
