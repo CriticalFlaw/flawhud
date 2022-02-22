@@ -32,7 +32,7 @@
 		"text_center"		"0"
 		"paint_icon_hide"	"1"
 		"model_hide"		"1"
-		"text_forcesize"	"0"
+		"text_forcesize"	"4"
 		"name_only"			"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"		"Transparent"
