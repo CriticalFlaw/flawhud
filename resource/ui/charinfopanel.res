@@ -153,7 +153,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#FlawHUD_Back"
+		"labelText"			"#back"
 		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
