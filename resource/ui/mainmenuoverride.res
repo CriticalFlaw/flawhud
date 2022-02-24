@@ -873,7 +873,7 @@
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
 		"labelText"			"FlawHUD v2021.1211"
-		"labelText_minmode"	"#streamer_mode_active"
+		"labelText_minmode"	"#FH_streamer_mode_active"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
 		"zpos"				"1"
