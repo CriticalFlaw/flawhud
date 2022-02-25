@@ -144,7 +144,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#exit_store"
+		"labelText"			"#FH_exit_store"
 		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
