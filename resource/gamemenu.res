@@ -98,6 +98,6 @@
 	{
 		"label"			"w"
 		"command"		"motd_show"
-		"tooltip"		"#TF_OptionCategory_HUD"
+		"tooltip"		"#FH_flawhud_panel"
 	}
 }

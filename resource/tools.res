@@ -42,7 +42,7 @@
 				"enabled"				"1"
 				"paintbackground" 		"0"
 				"fgcolor_override"		"White"
-				"labelText"				"#TF_OptionCategory_HUD"
+				"labelText"				"#FH_flawhud_panel"
 			}
 		}
 
