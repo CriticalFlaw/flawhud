@@ -194,7 +194,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"#FH_toggle_captions"
-			"command"				"engine toggle closecaption;cc_subtitles 0;cc_predisplay_time 0"
+			"command"				"engine toggle closecaption"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
