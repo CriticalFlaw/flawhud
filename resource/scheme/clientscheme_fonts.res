@@ -1076,7 +1076,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1087,7 +1087,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1099,7 +1099,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1110,7 +1110,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
