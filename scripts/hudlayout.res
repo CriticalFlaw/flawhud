@@ -584,7 +584,7 @@
 		"ypos"				"r300"
 		"wide"				"145"
 		"tall"				"200"
-		"BgAlpha"			"120"
+		"BgAlpha"			"128"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"
