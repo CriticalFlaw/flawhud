@@ -27,6 +27,7 @@
   - [Home Server](#home-server)
   - [Transparent Viewmodels](#transparent-viewmodels)
   - [Streamer Mode](#streamer-mode)
+  - [Competitive Closed Captions (clovervidia)](#competitive-closed-captions-(clovervidia))
 - [Acknowledgements](#acknowledgements)
 - [Sponsors](#sponsors)
 
@@ -72,6 +73,9 @@ To enable transparent viewmodels, you must first install the mastercomfig's Tran
 ### Streamer Mode
 For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewers know where and who you are playing with.
 
+### Competitive Closed Captions (clovervidia)
+Currently, there are only two supported languages for closed captions. These are English and Brazilian Portuguese. To enable competitive captions for other languages, type either `cc_lang english` or `cc_lang brazilian` in the developer console.
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * **HUD Development Help**: N0kk and Wiethoofd
@@ -81,6 +85,7 @@ For extra protection against stream snipers and DDoS attacks while live streamin
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
+* **Brazilian Portuguese localization**: Tiagoquix
 
 <!-- SPONSORS -->
 ## Sponsors
