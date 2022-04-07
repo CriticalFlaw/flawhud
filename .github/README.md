@@ -19,12 +19,12 @@
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Official Editor](#official-editor)
-- [Help/Support](#help/support)
+- [Support](#support)
 - [CastingEssentials](#castingessentials)
 - [Customizations](#customizations)
-  - [HUD Crosshair](#hud-crosshair)
+  - [Crosshair](#crosshair)
   - [Code Pro Fonts](#code-pro-fonts)
-  - [Home Server](#home-server)
+  - [Favorite Server](#favorite-server)
   - [Transparent Viewmodels](#transparent-viewmodels)
   - [Streamer Mode](#streamer-mode)
   - [Competitive Closed Captions](#competitive-closed-captions)
@@ -41,7 +41,7 @@
 For easier installation and customization, download the [**TF2HUD Editor**][editor-link]. This tool handles all below customization options as well as other custom HUDs. For additional information, read the project documentation at https://www.editor.criticalflaw.ca/
 
 <!-- SUPPORT -->
-## Help/Support
+## Support
 If you need help, found a bug or have a suggestion, [open a support ticket on GitHub][issues-link] or [join our Discord server][discord-link].
 
 <!-- CASTINGESSENTIALS -->
