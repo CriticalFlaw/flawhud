@@ -85,7 +85,7 @@ Currently, there are only two supported languages for closed captions. These are
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
-* **Localizations**: Tiagoquix (Brazilian Portuguese) and DimitriDR (French)
+* **Localizations**: Tiagoquix (🇧🇷) and DimitriDR (🇫🇷)
 
 <!-- SPONSORS -->
 ## Sponsors
