@@ -19,14 +19,15 @@
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Official Editor](#official-editor)
-- [Help/Support](#help/support)
+- [Support](#support)
 - [CastingEssentials](#castingessentials)
 - [Customizations](#customizations)
-  - [HUD Crosshair](#hud-crosshair)
+  - [Crosshair](#crosshair)
   - [Code Pro Fonts](#code-pro-fonts)
-  - [Home Server](#home-server)
+  - [Favorite Server](#favorite-server)
   - [Transparent Viewmodels](#transparent-viewmodels)
   - [Streamer Mode](#streamer-mode)
+  - [Competitive Closed Captions](#competitive-closed-captions)
 - [Acknowledgements](#acknowledgements)
 - [Sponsors](#sponsors)
 
@@ -40,7 +41,7 @@
 For easier installation and customization, download the [**TF2HUD Editor**][editor-link]. This tool handles all below customization options as well as other custom HUDs. For additional information, read the project documentation at https://www.editor.criticalflaw.ca/
 
 <!-- SUPPORT -->
-## Help/Support
+## Support
 If you need help, found a bug or have a suggestion, [open a support ticket on GitHub][issues-link] or [join our Discord server][discord-link].
 
 <!-- CASTINGESSENTIALS -->
@@ -72,6 +73,9 @@ To enable transparent viewmodels, you must first install the mastercomfig's Tran
 ### Streamer Mode
 For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewers know where and who you are playing with.
 
+### Competitive Closed Captions
+Currently, there are only two supported languages for closed captions. These are English and Brazilian Portuguese. To enable competitive captions for other languages, type either `cc_lang english` or `cc_lang brazilian` in the developer console.
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * **HUD Development Help**: N0kk and Wiethoofd
@@ -81,6 +85,7 @@ For extra protection against stream snipers and DDoS attacks while live streamin
 * **CastingEssentials Support**: pazer
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
+* **Localizations**: Tiagoquix (🇧🇷) and DimitriDR (🇫🇷)
 
 <!-- SPONSORS -->
 ## Sponsors
