@@ -29,7 +29,8 @@
   - [Streamer Mode](#streamer-mode)
   - [Competitive Closed Captions](#competitive-closed-captions)
 - [Acknowledgements](#acknowledgements)
-- [Sponsors](#sponsors)
+  - [Sponsors](#sponsors)
+  - [Localizers](#localizers)
 
 <!-- INSTALLATION -->
 ## Installation
@@ -80,15 +81,14 @@ Currently, there are only two supported languages for closed captions. These are
 ## Acknowledgements
 * **HUD Development Help**: N0kk and Wiethoofd
 * **Playtesting**: Yotts, Cat, SleepingBear and Strife
-* **Main Menu Background**: sevin
-* **Crosshair and Icon Packs**: Hypnootize
-* **CastingEssentials Support**: pazer
+* **Main Menu Backgrounds**: sevin
+* **Crosshairs and Icons**: Hypnootize
+* **CastingEssentials**: pazer and dalegaard
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
-* **Localizations**: Tiagoquix (🇧🇷) and DimitriDR (🇫🇷)
 
 <!-- SPONSORS -->
-## Sponsors
+### Sponsors
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
 * Admiral Bread Crumbs
 * berry-jordan
@@ -102,12 +102,17 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 * TemmieKaz
 * Zeesastrous
 
+<!-- LOCALIZERS -->
+### Localizers
+* **Brazillian**: Tiagoquix
+* **French** DimitriDR
+
 <!-- LINKS -->
 [download-link]: https://github.com/CriticalFlaw/flawhud/archive/refs/heads/master.zip
 [crosshairs-link]: https://raw.githubusercontent.com/Hypnootize/TF2-Hud-Crosshairs/master/crosshairs/TF2Crosshairs.png
 [paypal-link]: https://www.paypal.com/donate?business=8BHEWCPRMDDEJ&item_name=FlawHUD+Donation
 [tftv-link]: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
-[ce-release]: https://github.com/PazerOP/CastingEssentials/releases/latest
+[ce-release]: https://github.com/dalegaard/CastingEssentials/releases/latest
 [ce-wiki]: https://github.com/PazerOP/CastingEssentials/wiki/HUD-Mods
 [sponsors-link]: https://github.com/sponsors/CriticalFlaw
 [editor-link]: https://github.com/CriticalFlaw/TF2HUD.Editor/releases/latest
