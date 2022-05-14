@@ -104,8 +104,8 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 
 <!-- LOCALIZERS -->
 ### Localizers
-* **Brazillian**: Tiagoquix
-* **French** DimitriDR
+* **Brazilian**: Tiagoquix
+* **French**: DimitriDR
 
 <!-- LINKS -->
 [download-link]: https://github.com/CriticalFlaw/flawhud/archive/refs/heads/master.zip
