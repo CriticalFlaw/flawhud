@@ -132,27 +132,27 @@
         "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
-	"CreatorsLink"
+	"PotatoLink"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"CreatorsLink"
+		"fieldName"				"PotatoLink"
 		"xpos"					"0"
 		"ypos"					"12"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
 		"visible"				"1"
-		"bgcolor_override"		"202 113 45 255"
+		"bgcolor_override"		"17 17 17 255"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"DiscordLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
-		"CreatorsUrl"
+		"PotatoUrl"
 		{
 			"ControlName"			"URLLabel"
-			"fieldName"				"CreatorsUrl"
+			"fieldName"				"PotatoUrl"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
@@ -166,10 +166,10 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://creators.tf/servers"
+			"urlText"				"https://potato.tf/servers"
 		}
 
-		"CreatorsLogo"
+		"PotatoLogo"
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"CreatorsLogo"
@@ -180,7 +180,7 @@
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/creators"
+			"image"					"replay/thumbnails/potato"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}
@@ -199,7 +199,7 @@
 		"bgcolor_override"		"181 64 60 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"CreatorsLink"
+		"pin_to_sibling"		"PotatoLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 

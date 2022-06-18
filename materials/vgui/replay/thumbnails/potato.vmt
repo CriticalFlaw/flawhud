@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\creators"
+	"$basetexture" "vgui\replay\thumbnails\potato"
 	"$translucent" "1"
 	"$vertexcolor" "1"
 	"$ignorez" "1"
