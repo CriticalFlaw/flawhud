@@ -16,20 +16,16 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"5"
-		"ypos"					"0"
+		"xpos"					"r165"
+		"ypos"					"5"
 		"tall"					"50"
 		"wide"					"140"
 		"proportionaltoparent"	"0"
-		"image_name"			"main_menu/main_menu_button_mvm"
+		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
 		"button_command"		"play_casual"
 		"desc_token"			"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"			"7" // k_eTFMatchGroup_Casual_12v12
-
-		"pin_to_sibling"		"MvMEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CompetitiveEntry"
@@ -47,7 +43,7 @@
 		"desc_token"			"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"			"2" // k_eTFMatchGroup_Ladder_6v6
 
-		"pin_to_sibling"		"ServerBrowserEntry"
+		"pin_to_sibling"		"CasualEntry"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
@@ -61,7 +57,7 @@
 		"tall"					"50"
 		"wide"					"140"
 		"proportionaltoparent"	"0"
-		"image_name"			"main_menu/main_menu_button_community_server"
+		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
 		"desc_token"			"#MMenu_PlayList_MvM_Desc"
@@ -76,15 +72,19 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"ServerBrowserEntry"
-		"xpos"					"r165"
-		"ypos"					"5"
+		"xpos"					"5"
+		"ypos"					"0"
 		"tall"					"50"
 		"wide"					"140"
 		"proportionaltoparent"	"0"
-		"image_name"			"main_menu/main_menu_button_casual"
+		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"
 		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
+
+		"pin_to_sibling"		"MvMEntry"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TrainingEntry"
