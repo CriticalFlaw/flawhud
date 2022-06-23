@@ -19,9 +19,9 @@ Scheme
 
 		Econ.Dialog.BgColor						"Blank"
 		Econ.Button.BgColor						"HudBlack"
-		Econ.Button.FgColor						"White"
+		Econ.Button.FgColor						"HudWhite"
 		Econ.Button.ArmedBgColor				"HudWhite"
-		Econ.Button.ArmedFgColor				"Black"
+		Econ.Button.ArmedFgColor				"HudBlack"
 		Econ.Button.DepressedBgColor			"HudBlack"
 		Econ.Button.DepressedFgColor			"Black"
 		Econ.Button.PresetDefaultColorFg		"White"
