@@ -1,9 +1,9 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"MOTD_Panel"
+	"SafeMode"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"MOTD_Panel"
+		"fieldName"			"SafeMode"
 		"xpos"				"r345"
 		"ypos"				"130"
 		"zpos"				"100"
@@ -67,7 +67,7 @@
 			"brighttext"		"0"
 			"default"			"0"
 			"actionsignallevel"	"2"
-			"Command"			"motd_hide"
+			"Command"			"engine cl_mainmenu_safemode 0"
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"

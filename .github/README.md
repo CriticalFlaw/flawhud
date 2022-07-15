@@ -16,7 +16,6 @@
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Official Editor](#official-editor)
 - [Support](#support)
@@ -34,7 +33,7 @@
 
 <!-- INSTALLATION -->
 ## Installation
-1. Download the latest version of flawhud on [GitHub][download-link] or on the [HUDS.tf](https://huds.tf/site/s-FlawHUD).
+1. Download the latest version of flawhud on [GitHub][download-link] or [HUDS.tf](https://huds.tf/site/s-FlawHUD).
 2. Extract the downloaded file contents into your `steamapps\common\Team Fortress 2\tf\custom` directory.
 
 <!-- HUD EDITOR -->

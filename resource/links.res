@@ -243,13 +243,17 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel"
-		"xpos"					"rs1+10"
-		"ypos"					"205"
+		"xpos"					"0"
+		"ypos"					"10"
 		"zpos"					"-1"
 		"wide"					"45"
 		"tall"					"125"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"BGPanel5"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 }
