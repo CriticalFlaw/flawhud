@@ -497,10 +497,10 @@
 		}
 	}
 
-	"ShowToolsButton"
+	"ReloadHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ShowToolsButton"
+		"fieldName"		"ReloadHUDButton"
 		"xpos"			"-9"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -534,7 +534,48 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"92 122 90 255"
+			"armedFgColor_override"		"112 176 74 255"
+		}
+	}
+	
+	"ShowToolsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ShowToolsButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"ReloadHUDButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"77 116 85 255"
 		}
 	}
 	
@@ -575,7 +616,7 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"0 191 255 255"
+			"armedFgColor_override"		"71 98 145 255"
 		}
 	}
 	
@@ -617,7 +658,7 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"239 152 73 255"
+			"armedFgColor_override"		"207 106 50 255"
 		}
 	}
 	
@@ -659,7 +700,7 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"250 27 45 255"
+			"armedFgColor_override"		"134 80 172 255"
 		}
 	}
 	
@@ -1957,7 +1998,7 @@
 		"ypos"					"130"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"83"
+		"tall"					"103"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
