@@ -8,6 +8,9 @@ event HudHealthBonusPulse
 	
 	Animate	TargetHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
 	Animate	TargetHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
+	
+	Animate	SpecHealthValue				FgColor		"Overheal"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -24,6 +27,9 @@ event HudHealthBonusPulseStop
 
 	Animate	TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	
+	Animate	SpecHealthValue				FgColor		"TanLight"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -37,6 +43,9 @@ event HudHealthDyingPulse
 
 	Animate	TargetHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
 	Animate	TargetHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
+
+	Animate	SpecHealthValue				FgColor		"LowHealth"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -53,6 +62,9 @@ event HudHealthDyingPulseStop
 
 	Animate TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	
+	Animate	SpecHealthValue				FgColor		"TanLight"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
