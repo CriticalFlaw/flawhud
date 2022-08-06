@@ -84,6 +84,18 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"FontBold14Outline"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"14"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
 		"FontBold14"
 		{
 			"1"
@@ -126,7 +138,6 @@ Scheme
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
-				"outline"		"1"
 			}
 		}
 		
