@@ -211,11 +211,11 @@
 		"fieldName"		"TFLogoImage"
 		"xpos"			"80"
 		"ypos"			"65"
-		"wide"			"251"
+		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/tf2_logo_black"
+		"image"			"../vgui/main_menu/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
