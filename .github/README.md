@@ -85,6 +85,7 @@ Currently, there are only two supported languages for closed captions. These are
 * **CastingEssentials**: pazer and dalegaard
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
+* **Updated Team Fortress Logo**: Metisz
 
 <!-- SPONSORS -->
 ### Sponsors
