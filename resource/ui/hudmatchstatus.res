@@ -213,8 +213,8 @@
 		"xpos"				"c-40"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"90"
-		"tall"				"80"
+		"wide"				"80"
+		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"25"
@@ -236,13 +236,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"FontBold18"
+			"font"			"FontBold20"
 			"fgcolor"		"White"
-			"xpos"			"15"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"50"
-			"tall"			"18"
+			"wide"			"80"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -250,10 +250,8 @@
 
 			if_match
 			{
-				"xpos"			"0"
-				"ypos"			"7"
-				"wide"			"80"
-				"font"			"FontBold14"
+				"ypos"		"4"
+				"font"		"FontBold14"
 			}
 		}
 	}

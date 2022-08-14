@@ -26,25 +26,25 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
-		"wide"					"398"
+		"wide"					"380"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"HudBlack"
 	}
 
 	"TeamNameRedBG"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamNameBG"
-		"xpos"					"c33"
+		"xpos"					"c40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"HudBlack"
 	}
 
 	"TeamNameBlu"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"-28"
+		"xpos"					"-40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
@@ -119,7 +119,6 @@
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -169,7 +168,6 @@
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -243,7 +241,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"-28"
+		"xpos"					"-40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"

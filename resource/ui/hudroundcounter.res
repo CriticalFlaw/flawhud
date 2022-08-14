@@ -52,7 +52,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Background"
 		"xpos"					"c-40"
-		"ypos"					"0"
+		"ypos"					"2"
 		"zpos"					"0"
 		"wide"					"80"
 		"tall"					"25"
