@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunPanel"
-		"wide"			"125"
-		"tall"			"20"
+		"wide"			"130"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -35,9 +35,6 @@
 		"player-dead" {
 			//"visible"	"0"
 		}
-		"team-red"  {
-			"xpos"		"0"
-		}
 	}
 
 	"MedigunPanelBackground"
@@ -48,7 +45,7 @@
 		"ypos"			"0"
 		"zpos" 			"1"
 		"wide" 			"f0"
-		"tall" 			"20"
+		"tall" 			"f0"
 		"autoResize" 	"0"
 		"pinCorner"		"0"
 		"visible" 		"0"
@@ -77,18 +74,17 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MedigunPanelChargeTypeIcon"
-		"xpos"			"2"
+		"xpos"			"3"
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/uber"
 
 		"team-red" {
-			"xpos"		"108"
 			"drawcolor"	"188 66 66 255"
 		}
 		"team-blu" {
@@ -100,11 +96,9 @@
 			"medigun-kritzkrieg" {
 				"image"		"replay/thumbnails/kritz"
 			}
-
 			"medigun-quickfix" {
 				"image"		"replay/thumbnails/quickfix"
 			}
-
 			"medigun-vaccinator" {
 				"ypos"		"0"
 				"wide"		"17"
@@ -123,7 +117,6 @@
 						"image" "../HUD/defense_buff_fire_red"
 					}
 				}
-
 				"team-blu"
 				{
 					"resist-bullet" {
@@ -138,10 +131,8 @@
 				}
 			}
 		}
-
 		"player-dead"
 		{
-			"wide"		"16"
 			"drawcolor_override"	"130 130 130 225"
 			"image"		"replay/thumbnails/deadshield"
 		}
@@ -151,11 +142,11 @@
     {
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
-        "xpos"			"101"
+        "xpos"			"105"
         "ypos"			"0"
         "zpos"			"2"
-        "wide"			"24"
-		"tall"			"18"
+        "wide"			"25"
+		"tall"			"15"
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
@@ -170,23 +161,19 @@
         "medigun-vaccinator" {
             "labelText"	"%charges%"
         }
-
         "player-dead" {
             "visible"	"0"
         }
-		"team-red" {
-			"xpos"		"1"
-		}
     }
 	"MedigunPanelChargeLabelShadow"
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelChargeLabelShadow"
-		"xpos"			"-1"
-        "ypos"			"-1"
+		"xpos"			"-2"
+        "ypos"			"-2"
         "zpos"			"2"
-        "wide"			"24"
-		"tall"			"18"
+        "wide"			"25"
+		"tall"			"15"
         "autoResize"	"1"
         "visible"		"0"
         "enabled"		"0"
@@ -205,9 +192,6 @@
 		"player-dead" {
 			"visible"   "0"
 		}
-		"team-red" {
-			"textAlignment"	"west"
-		}
 	}
 
 	"MedigunPanelChargeMeter"
@@ -215,11 +199,11 @@
         "ControlName"		"ImageProgressBar"
         "fieldName"			"MedigunPanelChargeMeter"
         "font"				"Default"
-        "xpos"				"21"
+        "xpos"				"16"
         "ypos"				"0"
         "zpos"				"2"
-		"wide"				"80"
-		"tall"				"18"
+		"wide"				"114"
+		"tall"				"f0"
         "autoResize"		"0"
         "pinCorner"			"0"
         "visible"			"1"
@@ -235,13 +219,10 @@
         "medigun-vaccinator" {
             "visible"       "0"
         }
-
         "player-dead" {
             "visible"       "0"
         }
 		"team-red" {
-			"xpos"				"26"
-			"direction"			"west"
 			"bgcolor_override"	"89 24 23 255"
 			"fgcolor_override"	"157 49 47 255"
 		}
@@ -251,11 +232,11 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabel"
-		"xpos"			"21"
+		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"80"
-		"tall"			"18"
+		"tall"			"15"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"1"
@@ -264,7 +245,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"textinsetx"	"6"
+		"textinsetx"	"10"
 		"font"			"FontRegular10"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
@@ -272,25 +253,17 @@
 		"medigun-medigun" {
 			"labelText"	"#TF_Weapon_Medigun"
 		}
-
 		"medigun-kritzkrieg" {
 			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
-
 		"medigun-quickfix" {
 			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
-
 		"medigun-vaccinator" {
 			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
-
 		"player-dead" {
 			"visible"	"0"
-		}
-		"team-red" {
-			"xpos"		"26"
-			"textAlignment"	"east"
 		}
 	}
 
@@ -298,11 +271,11 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabelShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"80"
-		"tall"			"18"
+		"tall"			"15"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
 		"visible"		"0"
@@ -323,19 +296,15 @@
 		"medigun-medigun" {
 			"labelText"	"#TF_Weapon_Medigun"
 		}
-
 		"medigun-kritzkrieg" {
 			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
-
 		"medigun-quickfix" {
 			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
-
 		"medigun-vaccinator" {
 			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
-
 		"player-dead" {
 			"visible"	"0"
 		}

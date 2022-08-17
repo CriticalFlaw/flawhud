@@ -14,13 +14,13 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 
-		"red_base_x"	"c302"
-		"red_base_y"	"c-122"
+		"red_base_x"	"0"
+		"red_base_y"	"c28"
 		"red_offset_x"	"0"
 		"red_offset_y"	"18"
 
 		"blu_base_x"	"0"
-		"blu_base_y"	"c-122"
+		"blu_base_y"	"c46"
 		"blu_offset_x"	"0"
 		"blu_offset_y"	"-18"
 	}
