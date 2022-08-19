@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MedigunPanelChargeTypeIcon"
-		"xpos"			"3"
+		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"12"
@@ -85,10 +85,10 @@
 		"image"			"replay/thumbnails/uber"
 
 		"team-red" {
-			"drawcolor"	"188 66 66 255"
+			"drawcolor"	"HUDRedTeamSolid"
 		}
 		"team-blu" {
-			"drawcolor"	"79 117 144 255"
+			"drawcolor"	"HUDBlueTeamSolid"
 		}
 
 		"player-alive"
@@ -211,8 +211,8 @@
         "textAlignment"		"Left"
         "dulltext"			"0"
         "brighttext"		"0"
-		"bgcolor_override"	"38 55 63 255"
-		"fgcolor_override"	"57 92 120 255"
+		"bgcolor_override"	"HUDBlueTeamDark"
+		"fgcolor_override"	"HUDBlueTeam"
         "direction"			"east"
         "variable"			"charge"
 
@@ -223,8 +223,8 @@
             "visible"       "0"
         }
 		"team-red" {
-			"bgcolor_override"	"89 24 23 255"
-			"fgcolor_override"	"157 49 47 255"
+			"bgcolor_override"	"HUDRedTeamDark"
+			"fgcolor_override"	"HUDRedTeam"
 		}
     }
 

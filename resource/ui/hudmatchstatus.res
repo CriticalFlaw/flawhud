@@ -288,8 +288,8 @@
 			"zpos"			"1"
 			"proportionaltoparent"	"1"
 
-			"color_portrait_bg_red"				"158 64 61 255"
-			"color_portrait_bg_blue"			"72 112 125 255"
+			"color_portrait_bg_red"				"HUDRedTeamSolid"
+			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"		"102 48 46 255"
 			"color_portrait_bg_blue_dead"		"46 73 82 255"
 			"color_bar_health_high"				"Overheal"
