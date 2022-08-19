@@ -215,7 +215,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/main_menu/main_menu_logo"
+		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
