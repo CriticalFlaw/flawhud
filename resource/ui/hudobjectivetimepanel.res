@@ -63,7 +63,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_Overtime"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
