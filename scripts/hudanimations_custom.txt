@@ -20,7 +20,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"HudBlack"				Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
@@ -55,7 +55,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"HudBlack"				Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
@@ -87,7 +87,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
 
-	Animate	AmmoBG						BgColor		"Blank"				Accel 0.0 0.0
+	Animate	AmmoBG						BgColor		"HudBlack"				Accel 0.0 0.0
 //	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoInReserve				FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoNoClip					FgColor		"HudWhite"			Accel 0.0 0.0

@@ -1,36 +1,31 @@
-#base "huditemeffectmeter_demoman.res"
-
+"#base"	"huditemeffectmeter_demoman.res"
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"2"
-		"ypos"				"r20"
+		"xpos"	"c-300"
+		"ypos"	"r30"
 	}
-	
 	"ItemEffectMeterLabel"
 	{
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"	"0"
+		"enabled"	"0"
 	}
-	
 	"ItemEffectMeterCount"
 	{
-		"xpos"				"20"
+		"xpos"	"20"
 	}
-
 	"StreakIcon"
 	{
-		"xpos"				"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"\"
+		"xpos"	"2"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"\"
 	}
-
 	"StreakIconShadow"
 	{
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"\"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"\"
 	}
 }
