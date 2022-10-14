@@ -104,7 +104,7 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 
 <!-- LOCALIZERS -->
 ### Localizers
-* **Brazilian**: Tiagoquix
+* **Brazilian Portuguese**: Tiagoquix
 * **French**: DimitriDR
 
 <!-- LINKS -->
