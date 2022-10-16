@@ -1319,6 +1319,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"AchievementsButton"
@@ -1357,7 +1358,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"armedFgColor_override"	"TanDark"
-
 		}
 	}
 	"ReplayButton"
