@@ -10,7 +10,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
@@ -32,6 +32,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"62"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -42,7 +43,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"16"
+				"tall"			"15"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -53,7 +55,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"18"
+				"tall"			"16"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -65,6 +68,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"25"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -76,6 +80,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"12"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -86,6 +91,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"10"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -96,8 +102,9 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"8"
+				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 	}

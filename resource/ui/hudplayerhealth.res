@@ -53,7 +53,7 @@
 		"tall"	"43"
 		"visible"	"1"
 		"enabled"	"1"
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
 	"PlayerStatusHealthBonusImage"

@@ -13,7 +13,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -21,7 +21,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -29,7 +29,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -37,7 +37,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -50,17 +50,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -68,17 +68,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -86,17 +86,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -104,17 +104,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -1015,17 +1015,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 2"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "3 3"
 				}
 			}
@@ -1051,17 +1051,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 2"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 3"
 				}
 			}

@@ -5,12 +5,12 @@
 		"fieldName"	"HudItemEffectMeter"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"c-300"
-		"ypos"	"r50"
+		"xpos"	"c-260"
+		"ypos"	"r30"
 		"wide"	"75"
 		"tall"	"20"
 		"MeterFG"	"TanLight"
-		"MeterBG"	"Gray"
+		"MeterBG"	"TanDark"
 	}
 	"ItemEffectMeterLabel"
 	{
@@ -54,8 +54,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"ItemEffectMeterCount"
-		"xpos"	"20"
-		"ypos"	"0"
+		"xpos"	"25"
+		"ypos"	"1"
 		"zpos"	"2"
 		"wide"	"55"
 		"tall"	"20"
@@ -104,7 +104,7 @@
 		"labelText"	"K"
 		"textAlignment"	"west"
 		"font"	"CustomIcons"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 	}
 	"StreakIconShadow"
 	{

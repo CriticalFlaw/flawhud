@@ -66,7 +66,7 @@
 		"Command"					"loadout scout"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 
@@ -90,7 +90,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomScout"
@@ -132,7 +132,7 @@
 		"Command"					"loadout soldier"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSoldier"
 		"depressedFgColor_override" "LOGSoldier"
 
@@ -160,7 +160,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSoldier"
@@ -202,7 +202,7 @@
 		"Command"					"loadout pyro"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 
@@ -230,7 +230,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomPyro"
@@ -272,7 +272,7 @@
 		"Command"					"loadout demoman"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGDemoman"
 		"depressedFgColor_override" "LOGDemoman"
 
@@ -300,7 +300,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomDemoman"
@@ -342,7 +342,7 @@
 		"Command"					"loadout heavy"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 
@@ -370,7 +370,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomHeavy"
@@ -412,7 +412,7 @@
 		"Command"					"loadout engineer"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGEngineer"
 		"depressedFgColor_override" "LOGEngineer"
 
@@ -440,7 +440,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomEngineer"
@@ -482,7 +482,7 @@
 		"Command"					"loadout medic"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 
@@ -510,7 +510,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomMedic"
@@ -552,7 +552,7 @@
 		"Command"					"loadout sniper"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSniper"
 		"depressedFgColor_override" "LOGSniper"
 
@@ -580,7 +580,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSniper"
@@ -622,7 +622,7 @@
 		"Command"					"loadout spy"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 
@@ -650,7 +650,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					"White"
+		"fgcolor" 					"TanLight"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSpy"
@@ -692,7 +692,7 @@
 		"Command"					"backpack"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 
@@ -755,7 +755,7 @@
 		"Command"					"crafting"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 
@@ -822,7 +822,7 @@
 		"Command"					"armory"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 
@@ -889,7 +889,7 @@
 		"Command"					"trading"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 
@@ -957,7 +957,7 @@
 		"Command"					"paintkit_preview"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 
@@ -1240,9 +1240,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 		"PositionLabel"
 		{
@@ -1292,7 +1292,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1398,9 +1398,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1433,7 +1433,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1500,7 +1500,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1605,9 +1605,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1640,7 +1640,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1707,7 +1707,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1812,9 +1812,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1847,7 +1847,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1914,7 +1914,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2019,9 +2019,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2054,7 +2054,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2121,7 +2121,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2226,9 +2226,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2261,7 +2261,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2328,7 +2328,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2432,9 +2432,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2467,7 +2467,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{

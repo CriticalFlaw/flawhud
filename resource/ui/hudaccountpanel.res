@@ -33,6 +33,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"icon"					"ico_metal"
+		"iconColor"				"TanLight"
 	}
 
 	"MetalIconShadow"

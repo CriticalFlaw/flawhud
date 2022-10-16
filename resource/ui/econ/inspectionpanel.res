@@ -511,7 +511,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"FontBold12"
+			"font"			"FontBold14"
 			"xpos"			"8"
 			"ypos"			"125"
 
@@ -527,7 +527,7 @@
 
 			"zpos"			"10"
 			"wide"			"235"
-			"tall"			"25"
+			"tall"			"30"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -553,7 +553,7 @@
 			"ControlName"		"TextEntry"
 			"fieldName"			"SeedTextEntry"
 			"xpos"				"8"
-			"ypos"				"95"
+			"ypos"				"100"
 
 			"fixed_item"
 			{
@@ -591,9 +591,9 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"font"			"FontBold12"
+			"font"			"FontBold14"
 			"xpos"			"8"
-			"ypos"			"155"
+			"ypos"			"160"
 
 			"fixed_item"
 			{
@@ -612,7 +612,7 @@
 
 			"zpos"			"100"
 			"wide"			"235"
-			"tall"			"25"
+			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"

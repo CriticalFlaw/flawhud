@@ -85,9 +85,9 @@
 		"paintbackground"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"	"White"
-		"depressedFgColor_override"	"75 125 255 255"
+		"defaultFgColor_override"	"TanDark"
+		"armedFgColor_override"	"TanLight"
+		"depressedFgColor_override"	"TanDark"
 	}
 	"MatchmakingBanPanel"
 	{

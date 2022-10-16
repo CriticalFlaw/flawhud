@@ -662,7 +662,7 @@
 		"paintbackground"	"1"
 		"paintborder"	"0"
 		"bgcolor_override"	"DarkGrey"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -717,9 +717,9 @@
 			"paintbackground"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"	"LightRed"
-			"depressedFgColor_override"	"White"
+			"depressedFgColor_override"	"TanLight"
 		}
 		"MOTD_HeaderIcon"
 		{
@@ -757,7 +757,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"MOTD_Label"
-			"font"	"HudFontSmall"
+			"font"	"TFFontMedium"
 			"labelText"	"%motddate%"
 			"textAlignment"	"north-west"
 			"xpos"	"10"
@@ -835,7 +835,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"	"MOTD_TextLabel"
-					"font"	"HudFontSmall"
+					"font"	"TFFontMedium"
 					"labelText"	"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"	"0"
@@ -880,10 +880,6 @@
 			"navRight"	"MOTD_NextButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultFgColor_override"	"235 226 202 255"
-			"defaultBgColor_override"	"46 43 42 255"
-			"armedFgColor_override"	"235 226 202 255"
-			"depressedFgColor_override"	"235 226 202 255"
 		}
 		"MOTD_PrevButton"
 		{
@@ -1073,7 +1069,7 @@
 		"ypos"	"0"
 		"zpos"	"5"
 		"wide"	"260"
-		"tall"	"115"
+		"tall"	"140"
 		"visible"	"1"
 		"border"	"NoBorder"
 		"bgcolor_override"	"Transparent"
@@ -1119,7 +1115,7 @@
 			"ypos"	"22"
 			"zpos"	"500"
 			"wide"	"260"
-			"tall"	"87"
+			"tall"	"120"
 			"visible"	"1"
 			"proportionaltoparent"	"1"
 			"columns_count"	"2"
@@ -1170,7 +1166,7 @@
 			"ypos"	"22"
 			"zpos"	"499"
 			"wide"	"260"
-			"tall"	"87"
+			"tall"	"120"
 			"visible"	"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1360,6 +1356,8 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
+
 		}
 	}
 	"ReplayButton"
@@ -1397,6 +1395,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"ReportBugButton"
@@ -1434,6 +1433,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"ItemTestButton"
@@ -1471,6 +1471,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"TrainingModeButton"
@@ -1508,6 +1509,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"CreateServerButton"
@@ -1545,6 +1547,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"ConsoleButton"
@@ -1582,6 +1585,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"CoachPlayersButton"
@@ -1619,6 +1623,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"RequestCoachButton"
@@ -1656,6 +1661,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"CallVoteButton"
@@ -1693,6 +1699,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"MutePlayersButton"
@@ -1730,6 +1737,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"ReportPlayerButton"
@@ -1767,6 +1775,7 @@
 			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"	"TanDark"
 		}
 	}
 	"BGPanel1"
@@ -1825,7 +1834,7 @@
 		"ypos"	"2"
 		"zpos"	"-1"
 		"wide"	"260"
-		"tall"	"115"
+		"tall"	"145"
 		"visible"	"1"
 		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"

@@ -13,7 +13,7 @@
 		"paintbackground"	"1"
 		"paintborder"		"0"
 		"bgcolor_override"	"DarkGrey"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"MOTD_HeaderContainer"
 		{
@@ -41,7 +41,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintbackground" 		"0"
-				"fgcolor_override"		"White"
+				"fgcolor_override"		"TanLight"
 				"labelText"				"#TF_OptionCategory_HUD"
 			}
 		}
@@ -73,9 +73,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" 	"TanLight"
 		}
 
 		"MOTD_HeaderIcon"
@@ -146,7 +146,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"#FH_reload_hud"
-			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
+			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme; toggle mat_aaquality"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
@@ -341,7 +341,6 @@
 			"labelText"				"#FH_game_volume"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			"fgcolor_override"		"White"
 			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -383,7 +382,6 @@
 			"labelText"				"#FH_damage_color"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			"fgcolor_override"		"White"
 			
 			"pin_to_sibling"		"InviliblePlayersFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
