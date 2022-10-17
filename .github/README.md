@@ -65,7 +65,7 @@ To disable the hitmarker, open `flawhud\scripts\hudanimations_manifest.txt` and 
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
 
 ### Favorite Server
-To setup a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
+To set up a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
 
 ### Transparent Viewmodels
 To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
