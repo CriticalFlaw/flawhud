@@ -20,9 +20,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"proportionaltoparent"		"1"
+		"proportionaltoparent"	"1"
 		"delta_item_x"			"10"
-		"delta_item_start_y"		"12"
+		"delta_item_start_y"	"12"
 		"delta_item_end_y"		"50"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
@@ -34,7 +34,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"HUDBlueTeam"
+			"fgcolor"			"Blue"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -42,18 +42,15 @@
 			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
-			"textAlignment"			"center"
+			"textAlignment"		"center"
 			"labelText"			"0:00"
-			"proportionaltoparent"		"1"
-			"bgcolor_override"		"57 92 120 20"
-
+			"proportionaltoparent"	"1"
 			
 			if_match
 			{
 				"font"			"FontBold14"
 				"ypos"			"8"
 				"tall"			"17"
-				"bgcolor_override"	"HUDBlack"
 			}
 		}
 	}
@@ -69,9 +66,9 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"proportionaltoparent"		"1"
+		"proportionaltoparent"	"1"
 		"delta_item_x"			"50"
-		"delta_item_start_y"		"12"
+		"delta_item_start_y"	"12"
 		"delta_item_end_y"		"50"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
@@ -83,7 +80,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"HUDRedTeam"
+			"fgcolor"			"Red"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -91,17 +88,15 @@
 			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
-			"textAlignment"			"center"
+			"textAlignment"		"center"
 			"labelText"			"0:00"
-			"proportionaltoparent"		"1"
-			"bgcolor_override"		"157 49 47 20"
+			"proportionaltoparent"	"1"
 			
 			if_match
 			{
 				"font"			"FontBold14"
 				"ypos"			"8"
 				"tall"			"17"
-				"bgcolor_override"	"HUDBlack"
 			}
 		}
 	}
@@ -111,13 +106,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"2"
+		"ypos"				"22"
+		"zpos"				"5"
 		"wide"				"40"
-		"tall"				"25"
+		"tall"				"3"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"		"200 200 200 60"
-		"PaintBackgroundType"		"0"
+		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType"	"0"
 	}
 }
