@@ -4,18 +4,29 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"-488"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"1000"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
 	}
-
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"-28"
+		"ypos"			"-40"
+		"zpos"			"3"
+		"wide"			"1000"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
+		"Alpha"			"1"
 	}
 
 	"BuildingStatusHealthImageBG"
@@ -67,7 +78,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"FontBold20"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"		"TargetHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
