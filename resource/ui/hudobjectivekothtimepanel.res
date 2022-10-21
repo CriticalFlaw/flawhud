@@ -34,7 +34,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"Blue"
+			"fgcolor"			"HUDBlueTeamSolid"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -80,7 +80,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"Red"
+			"fgcolor"			"HUDRedTeamSolid"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -99,6 +99,21 @@
 				"tall"			"17"
 			}
 		}
+	}
+
+	"InactiveTimerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"InactiveTimerBG"
+		"xpos"				"0"
+		"ypos"				"22"
+		"zpos"				"0"
+		"wide"				"80"
+		"tall"				"3"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType"	"0"
 	}
 
 	"ActiveTimerBG"
