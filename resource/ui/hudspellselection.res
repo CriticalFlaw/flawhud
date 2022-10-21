@@ -81,7 +81,7 @@
 		"ypos"				"-2"
 		"wide"				"20"
 		"tall"				"20"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"pin_to_sibling"	"CountText"
 	}
 }

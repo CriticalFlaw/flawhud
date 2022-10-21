@@ -23,13 +23,13 @@ event HudHealthBonusPulseStop
 	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 
 	Animate	TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
-	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 	
-	Animate	SpecHealthValue				FgColor		"TanLight"			Accel 0.0 0.0
-	Animate	SpecHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate	SpecHealthValue				FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -58,13 +58,13 @@ event HudHealthDyingPulseStop
 	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+//	Animate	PlayerHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 
 	Animate TargetHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
-	Animate	TargetHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate	TargetHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 	
-	Animate	SpecHealthValue				FgColor		"TanLight"			Accel 0.0 0.0
-	Animate	SpecHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate	SpecHealthValue				FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	SpecHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -91,9 +91,9 @@ event HudLowAmmoPulseStop
 //	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoInReserve				FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate AmmoNoClip					FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate AmmoInClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
-//	Animate AmmoInReserveShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
-//	Animate AmmoNoClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+//	Animate AmmoInClipShadow			FgColor		"Black"				Accel 0.0 0.0
+//	Animate AmmoInReserveShadow			FgColor		"Black"				Accel 0.0 0.0
+//	Animate AmmoNoClipShadow			FgColor		"Black"				Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -139,17 +139,17 @@ event HudSpyDisguiseChanged
 
 event HudSnapShotReminderIn
 {
-    RunEvent HudHealthDyingPulseStop 			10.0
-    RunEvent HudHealthBonusPulseStop 			10.0
-    RunEvent HudLowAmmoPulseStop 				10.0
-    RunEvent HudMedicChargedStop 				10.0
+    RunEvent HudHealthDyingPulseStop 	10.0
+    RunEvent HudHealthBonusPulseStop 	10.0
+    RunEvent HudLowAmmoPulseStop 		10.0
+    RunEvent HudMedicChargedStop 		10.0
 }
 //==================================================================================
 
 event TrainingHudBounce
 {
-	Animate ObjectiveStatusTraining	Position		"c-160 r167"		Linear 0 0
-	Animate ObjectiveStatusTraining	Position		"c-160 r107"		Bounce 0.0 2.0
+	Animate ObjectiveStatusTraining		Position	"c-160 r167"		Linear 0 0
+	Animate ObjectiveStatusTraining		Position	"c-160 r107"		Bounce 0.0 2.0
 }
 //==================================================================================
 

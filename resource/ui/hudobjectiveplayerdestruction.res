@@ -180,7 +180,7 @@
 			"textAlignment"		"west"
 			"labelText"			"%flagvalue%"
 			"font"				"FontBold22"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"proportionalToParent"	"1"
 			"pin_to_sibling"		"FlagValue"
 		}
@@ -291,7 +291,7 @@
 				"textAlignment"		"west"
 				"labelText"			"%blue_escrow%"
 				"font"				"FontBold12"
-				"fgcolor"			"ShadowBlack"
+				"fgcolor"			"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"EscrowBlue"
 			}
@@ -344,7 +344,7 @@
 				"textAlignment"		"east"
 				"labelText"			"%red_escrow%"
 				"font"				"FontBold12"
-				"fgcolor"			"ShadowBlack"
+				"fgcolor"			"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"EscrowRed"
 			}
@@ -434,7 +434,7 @@
 					"textAlignment"		"west"
 					"labelText"			"%victorytime%"
 					"font"				"HudFontSmallBold"
-					"fgcolor"			"ShadowBlack"
+					"fgcolor"			"Black"
 					"proportionalToParent"	"1"
 					"pin_to_sibling"		"VictoryLabel"
 				}
@@ -677,7 +677,7 @@
 				"textAlignment"		"east"
 				"labelText"			"%score%"
 				"font"				"FontBold22"
-				"fgcolor"			"ShadowBlack"
+				"fgcolor"			"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"Score"
 			}
@@ -729,7 +729,7 @@
 				"textAlignment"		"west"
 				"labelText"			"%score%"
 				"font"				"FontBold22"
-				"fgcolor"			"ShadowBlack"
+				"fgcolor"			"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"Score"
 			}
@@ -828,7 +828,7 @@
 				"textAlignment"		"center"
 				"labelText"			"%intelvalue%"
 				"font"				"HudFontSmallishBold"
-				"fgcolor"			"ShadowBlack"
+				"fgcolor"			"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling" 		"IntelValue"
 			}
@@ -927,7 +927,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
-				"fgcolor"		"ShadowBlack"
+				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 				"pin_to_sibling" 		"IntelValue"
 			}
@@ -1027,7 +1027,7 @@
 			"textAlignment"		"center"
 			"labelText"			"%countdowntime%"
 			"font"				"FontBold20"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"proportionalToParent"	"1"
 			"pin_to_sibling"		"CountdownLabelTime"
 		}

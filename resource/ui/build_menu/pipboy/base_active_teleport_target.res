@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor"			"NeonGreen"
 	}
 
 	"BuildingIcon"
 	{
-		"iconColor"			"ColorGreen"
+		"iconColor"			"NeonGreen"
 	}
 
 	"NumberLabel"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor"			"NeonGreen"
 	}
 }

@@ -231,7 +231,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"DarkRedTeamBorder"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"HUDRedTeamSolid"
 		}
 
 		"ServerChangeLabel"

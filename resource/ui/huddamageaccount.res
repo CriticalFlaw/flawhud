@@ -44,7 +44,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"west"
 		"font"					"FontBold22"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"pin_to_sibling"		"DamageAccountValue"
 	}
 }

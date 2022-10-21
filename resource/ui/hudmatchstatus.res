@@ -54,7 +54,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 	}
 
@@ -493,7 +493,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"DarkBlueTeamBorder"
-			"bgcolor_override"	"Blue"
+			"bgcolor_override"	"HUDBlueTeamSolid"
 		}
 		"BlueTeamImage"
 		{
@@ -553,7 +553,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"DarkBlue"
+			"bgcolor_override"		"HUDBlueTeamDark"
 		}
 		"BluePlayerList"
 		{
@@ -633,7 +633,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"DarkRedTeamBorder"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"HUDRedTeamSolid"
 		}
 		"RedTeamImage"
 		{
@@ -693,7 +693,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"DarkRed"
+			"bgcolor_override"	"HUDRedTeamDark"
 		}
 		"RedPlayerList"
 		{

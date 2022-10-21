@@ -91,7 +91,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FontBold22"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 
@@ -126,7 +126,7 @@
 		"labelText"				"K"
 		"textAlignment"			"west"
 		"font"					"CustomIcons"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 		"pin_to_sibling"		"StreakIcon"
 	}
 }

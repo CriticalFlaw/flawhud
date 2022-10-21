@@ -6,23 +6,15 @@ Scheme
 		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
-		"Blue"						"72 112 125 255"
-		"DarkBlue"					"46 73 82 255"
-		"Red"						"158 64 61 255"
-		"DarkRed"					"102 48 46 255"
-		"ColorGreen"				"0 225 0 255"
 		"Yellow"					"92 122 90 255"
 		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
-		"Brown"						"49 44 41 255"
-		"ShadowBlack"				"7 7 7 255"
+		"NeonGreen"					"0 225 0 255"
 		"NeonRed"					"200 10 20 255"
-		"MenuShader"				"0 0 0 100"
 		"TextColor"					"117 107 94 255"
 		"NeutralWhite"				"235 226 202 255"
-		"HoverWhite"				"245 230 200 255"
 		//---------------------------------------------
 		// GAMEPLAY
 		//---------------------------------------------
@@ -95,14 +87,14 @@ Scheme
 		"TransparentBlack"						"0 0 0 230"
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
-
-		"HUDBlueTeam"							"57 92 120 127"
-		"HUDRedTeam"							"157 49 47 127"
+		
+		"HUDBlueTeam"							"72 112 125 175"
+		"HUDRedTeam"							"158 64 61 175"
 		"HUDSpectator"							"124 124 124 127"
 		"HUDBlueTeamSolid"						"57 92 120 255"
-		"HUDRedTeamSolid"						"157 49 47 255"
-		"HUDBlueTeamDark"						"38 55 63 255"
-		"HUDRedTeamDark"						"89 24 23 255"
+		"HUDRedTeamSolid"						"158 64 61 255"
+		"HUDBlueTeamDark"						"46 73 82 255"
+		"HUDRedTeamDark"						"102 48 46 255"
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"200 187 161 255"

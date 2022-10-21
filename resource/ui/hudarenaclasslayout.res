@@ -84,7 +84,7 @@
 		"font"				"FontBold20"
 		"labelText"			"#TF_Arena_Team_Layout"
 		"textAlignment"		"center"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"pin_to_sibling"	"title"
 	}
 
@@ -122,7 +122,7 @@
 		"font"				"HudFontSmallBold"
 		"labelText"			"#TF_Arena_F4_ChangeClass"
 		"textAlignment"		"center"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"pin_to_sibling"	"changeLabel"
 	}
 

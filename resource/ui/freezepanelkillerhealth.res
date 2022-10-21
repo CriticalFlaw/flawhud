@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"FontBold22"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"labeltext"		"%Health%"
 	}
 }

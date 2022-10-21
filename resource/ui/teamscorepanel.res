@@ -62,7 +62,7 @@
 		"textAlignment"			"east"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"Blue"
+		"fgcolor_override"		"HUDBlueTeamSolid"
 
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -82,7 +82,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"east"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 		"auto_wide_tocontents"	"1"
 
 		"pin_to_sibling"		"TeamNameBlu"
@@ -99,7 +99,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"Blue"
+		"fillcolor"				"HUDBlueTeamSolid"
 
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -137,7 +137,7 @@
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamScoreBlu"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -187,7 +187,7 @@
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamScoreRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -208,7 +208,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"west"
 		"visible"				"1"
-		"fgcolor_override"		"Red"
+		"fgcolor_override"		"HUDRedTeamSolid"
 		"auto_wide_tocontents"	"1"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
@@ -230,7 +230,7 @@
 		"textAlignment"			"west"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamNameRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -246,7 +246,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"Red"
+		"fillcolor"				"HUDRedTeamSolid"
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

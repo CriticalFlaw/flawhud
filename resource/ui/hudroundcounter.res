@@ -70,7 +70,7 @@
 		"zpos"					"1"
 		"wide"					"80"
 		"tall"					"8"
-		"fillcolor"				"Blue"
+		"fillcolor"				"HUDBlueTeamSolid"
 		"scaleimage"			"1"
 		"proportionaltoparent"	"1"
 	}
@@ -84,7 +84,7 @@
 		"zpos"					"5"
 		"wide"					"40"
 		"tall"					"8"
-		"fillcolor"				"Red"
+		"fillcolor"				"HUDRedTeamSolid"
 		"scaleimage"			"1"
 		"proportionaltoparent"	"1"
 	}

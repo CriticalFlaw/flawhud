@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{
 		"labelText"			"#TF_Object_Tele_Entrance_360"
-		"fgcolor_override"	"ColorGreen"
+		"fgcolor_override"	"NeonGreen"
 	}
 
 	"NumberLabel"

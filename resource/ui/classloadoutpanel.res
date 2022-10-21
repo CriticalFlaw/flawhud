@@ -93,7 +93,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"HoverWhite"
+			"armedFgColor_override"		"TanLight"
 			"depressedFgColor_override"	"White"
 		}
 	}
@@ -311,11 +311,11 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"Red"
+		"defaultFgColor_override"	"HUDRedTeamSolid"
 		"armedFgColor_override"		"White"
-		"armedBgColor_override"		"Red"
+		"armedBgColor_override"		"HUDRedTeamSolid"
 		"depressedFgColor_override"	"White"
-		"depressedBgColor_override"	"Red"
+		"depressedBgColor_override"	"HUDRedTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -343,11 +343,11 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"Blue"
+		"defaultFgColor_override"	"HUDBlueTeamSolid"
 		"armedFgColor_override"		"White"
-		"armedBgColor_override"		"Blue"
+		"armedBgColor_override"		"HUDBlueTeamSolid"
 		"depressedFgColor_override"	"White"
-		"depressedBgColor_override"	"Blue"
+		"depressedBgColor_override"	"HUDBlueTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

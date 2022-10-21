@@ -47,7 +47,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"FontBold22"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"1"

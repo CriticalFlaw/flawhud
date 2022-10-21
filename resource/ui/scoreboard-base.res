@@ -466,7 +466,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"Blue"
+		"fgcolor"			"HUDBlueTeamSolid"
 
 		if_mvm
 		{
@@ -489,7 +489,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"textcolor"			"red"
+		"textcolor"			"HUDRedTeamSolid"
 
 		if_mvm
 		{

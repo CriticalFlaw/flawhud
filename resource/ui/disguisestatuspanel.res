@@ -106,7 +106,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"DisguiseNameLabel"
 	}
 
@@ -147,7 +147,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"WeaponNameLabel"
 	}
 

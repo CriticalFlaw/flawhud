@@ -48,7 +48,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"icon"					"ico_metal"
-		"iconColor"				"ShadowBlack"
+		"iconColor"				"Black"
 		"pin_to_sibling"		"MetalIcon"
 	}
 
@@ -92,7 +92,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FontBold22"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"pin_to_sibling"		"AccountValue"
 	}
 }

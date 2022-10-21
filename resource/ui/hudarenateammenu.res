@@ -100,7 +100,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Blue"
+		"bgcolor_override"	"HUDBlueTeamSolid"
 
 		"BlueTeamBG2"
 		{
@@ -112,7 +112,7 @@
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"DarkBlue"
+			"bgcolor_override"	"HUDBlueTeamDark"
 			"proportionaltoparent"	"1"
 		}
 	}
@@ -162,7 +162,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Red"
+		"bgcolor_override"	"HUDRedTeamSolid"
 
 		"RedTeamBG2"
 		{
@@ -174,7 +174,7 @@
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"DarkRed"
+			"bgcolor_override"	"HUDRedTeamDark"
 			"proportionaltoparent"	"1"
 		}
 	}

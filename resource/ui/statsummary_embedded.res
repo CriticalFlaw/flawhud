@@ -208,7 +208,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"bgcolor_override"		"MenuShader"
+			"bgcolor_override"		"TransparentLightBlack"
 			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
@@ -1382,7 +1382,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"MenuShader"
+			"bgcolor_override"	"TransparentLightBlack"
 			"PaintBackgroundType"	"2"
 
 			"pin_to_sibling"		"AveragesBG"
@@ -2096,7 +2096,7 @@
 		"Command"			"resetstatsbutton"
 		"font"				"HudFontSmallest"
 		"defaultBgColor_override"	"DarkGrey"
-		"armedBgColor_override"		"Red"
+		"armedBgColor_override"		"HUDRedTeamSolid"
 		"armedFgColor_override"		"HudWhite"
 	}
 	
