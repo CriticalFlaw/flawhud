@@ -49,8 +49,7 @@
 			if_match
 			{
 				"font"			"FontBold14"
-				"ypos"			"8"
-				"tall"			"17"
+				"tall"			"32"
 			}
 		}
 	}
@@ -95,8 +94,7 @@
 			if_match
 			{
 				"font"			"FontBold14"
-				"ypos"			"8"
-				"tall"			"17"
+				"tall"			"32"
 			}
 		}
 	}
@@ -114,6 +112,11 @@
 		"enabled"			"1"
 		"bgcolor_override"	"TanLight"
 		"PaintBackgroundType"	"0"
+			
+		if_match
+		{
+			"visible"		"0"
+		}
 	}
 
 	"ActiveTimerBG"
