@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{
 		"labelText"			"#TF_Object_Sentry"
-		"fgcolor_override"	"ColorGreen"
+		"fgcolor_override"	"NeonGreen"
 	}
 
 	"BuildingIcon"
@@ -15,11 +15,11 @@
 
 	"DestroyIcon"
 	{
-		"iconColor"			"ColorGreen"
+		"iconColor"			"NeonGreen"
 	}
 
 	"NumberLabel"
 	{
-		"fgcolor_override"	"ColorGreen"
+		"fgcolor_override"	"NeonGreen"
 	}
 }

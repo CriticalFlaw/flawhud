@@ -93,8 +93,8 @@ Scheme
 		ListPanel.TextColor						"Orange"
 		ListPanel.BgColor						"TransparentBlack"
 		ListPanel.SelectedTextColor				"Black"
-		ListPanel.SelectedBgColor				"Red"
-		ListPanel.SelectedOutOfFocusBgColor		"Red"
+		ListPanel.SelectedBgColor				"HUDRedTeamSolid"
+		ListPanel.SelectedOutOfFocusBgColor		"HUDRedTeamSolid"
 		ListPanel.EmptyListInfoTextColor		"Orange"
 
 		Menu.TextColor							"White"
@@ -130,7 +130,7 @@ Scheme
 		RichText.TextColor						"Gray"
 		RichText.BgColor						"Blank"
 		RichText.SelectedTextColor				"Gray"
-		RichText.SelectedBgColor				"Red"
+		RichText.SelectedBgColor				"HUDRedTeamSolid"
 
 		ScrollBarButton.FgColor					"Gray"
 		ScrollBarButton.BgColor					"Blank"
@@ -149,7 +149,7 @@ Scheme
 		SectionedListPanel.BrightTextColor		"Orange"
 		SectionedListPanel.BgColor				"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor	"Black"
-		SectionedListPanel.SelectedBgColor		"Red"
+		SectionedListPanel.SelectedBgColor		"HUDRedTeamSolid"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
@@ -172,7 +172,7 @@ Scheme
 		ToggleButton.SelectedTextColor			"Yellow"
 
 		Tooltip.TextColor						"TransparentBlack"
-		Tooltip.BgColor							"Red"
+		Tooltip.BgColor							"HUDRedTeamSolid"
 
 		TreeView.BgColor						"TransparentBlack"
 

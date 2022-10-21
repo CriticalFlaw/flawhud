@@ -32,7 +32,7 @@
 		"paintborder"				"1"
 		"border"					"DarkRedTeamBorder"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"			"Red"
+		"bgcolor_override"			"HUDRedTeamSolid"
 
 		"WaveCompleteLabel"
 		{

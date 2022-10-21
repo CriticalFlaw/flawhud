@@ -74,7 +74,7 @@
 		"tall"				"3"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"DarkBlue"
+		"bgcolor_override"	"HUDBlueTeamDark"
 		"proportionaltoparent"	"1"
 	}
 
@@ -89,7 +89,7 @@
 		"tall"				"3"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"DarkRed"
+		"bgcolor_override"	"HUDRedTeamDark"
 		"proportionaltoparent"	"1"
 		
 		"pin_to_sibling"		"BlueBorder"
@@ -123,10 +123,10 @@
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
-		"defaultBgColor_override" 	"Blue"
-		"armedBgColor_override"		"DarkBlue"
-		"depressedBgColor_override" "Blue"
-		"selectedBgColor_override" 	"DarkBlue"
+		"defaultBgColor_override" 	"HUDBlueTeamSolid"
+		"armedBgColor_override"		"HUDBlueTeamDark"
+		"depressedBgColor_override" "HUDBlueTeamSolid"
+		"selectedBgColor_override" 	"HUDBlueTeamDark"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"
@@ -163,10 +163,10 @@
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
-		"defaultBgColor_override" 	"Red"
-		"armedBgColor_override"		"DarkRed"
-		"depressedBgColor_override" "Red"
-		"selectedBgColor_override" 	"DarkRed"
+		"defaultBgColor_override" 	"HUDRedTeamSolid"
+		"armedBgColor_override"		"HUDRedTeamDark"
+		"depressedBgColor_override" "HUDRedTeamSolid"
+		"selectedBgColor_override" 	"HUDRedTeamDark"
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanLight"
@@ -366,7 +366,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontRegular12"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"centerwrap"		"1"
 
 		"pin_to_sibling"		"TeamsFullLabel"

@@ -67,7 +67,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -101,7 +101,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"RedScore"
 	}
 

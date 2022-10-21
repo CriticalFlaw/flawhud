@@ -74,7 +74,7 @@
 		"textAlignment"			"center"
 		"textinsetx"			"2"
 		"visible"				"1"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"SpecHealthValue"

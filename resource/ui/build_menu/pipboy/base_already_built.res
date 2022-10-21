@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor"			"NeonGreen"
 	}
 
 	"MetalIcon"
 	{
-		"iconColor"			"ColorGreen"
+		"iconColor"			"NeonGreen"
 	}
 
 	"CantBuildReason"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor"			"NeonGreen"
 	}
 }

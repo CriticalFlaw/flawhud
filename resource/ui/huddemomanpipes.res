@@ -89,7 +89,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"FontBold20"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"pin_to_sibling"	"NumPipesLabel"
 		}
 

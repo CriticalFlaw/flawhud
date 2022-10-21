@@ -24,7 +24,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Blue"
+		"fillcolor"		"HUDBlueTeamSolid"
 	}
 
 	"LeftSideBG2"
@@ -38,7 +38,7 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkBlue"
+		"fillcolor"		"HUDBlueTeamDark"
 	}
 
 	"RightSideBG"
@@ -52,7 +52,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Red"
+		"fillcolor"		"HUDRedTeamSolid"
 	}
 
 	"RightSideBG2"
@@ -66,7 +66,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkRed"
+		"fillcolor"		"HUDRedTeamDark"
 	}
 
 	"OutlineBG"
@@ -107,7 +107,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -142,7 +142,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"RedScore"
 	}
 

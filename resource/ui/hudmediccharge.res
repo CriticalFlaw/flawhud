@@ -58,7 +58,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontBold22"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 
 		"pin_to_sibling"		"ChargeLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

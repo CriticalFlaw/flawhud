@@ -92,7 +92,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabelShadow"
 		"font"				"FontBold20"
-		"fgcolor"			"ShadowBlack"
+		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"3"
