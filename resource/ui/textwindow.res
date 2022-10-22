@@ -122,7 +122,7 @@
 		
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"

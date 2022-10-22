@@ -138,7 +138,7 @@
 		
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -174,13 +174,13 @@
 		
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"		"CExButton"
@@ -209,7 +209,7 @@
 		
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"

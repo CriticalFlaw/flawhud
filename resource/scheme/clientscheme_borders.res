@@ -119,7 +119,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		DarkBorderThick
 		{
 			"inset" "0 0 0 0"
@@ -196,8 +196,7 @@ Scheme
 				}
 			}
 		}
-
-
+		
 		MenuBorder
 		{
 			"inset" "0 0 0 0"
@@ -1111,17 +1110,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "2 2"
 				}
 			}
@@ -1147,17 +1146,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "1 2"
 				}
 				"3"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "2 3"
 				}
 			}

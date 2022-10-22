@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"50"
 				"weight"		"0"
 				"additive"		"0"
@@ -21,7 +21,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"37"
 				"weight"		"0"
 				"additive"		"0"
@@ -32,7 +32,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"22"
 				"weight"		"0"
 				"additive"		"0"
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -66,18 +66,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"18"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold16"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
@@ -88,11 +88,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"outline"		"1"
 			}
 		}
@@ -100,52 +100,52 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold12"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold10"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontBold9"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"FontRegular20"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -155,57 +155,57 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular14"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular12"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular11"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular10"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"FontRegular9"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"additive"		"0"
 				"antialias"		"1"
@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -227,14 +227,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"20"
+				"name"			"Code-Pro-LC"
+				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -255,7 +255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"500"
 				"underline"		"1"
@@ -263,7 +263,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -273,7 +273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -281,7 +281,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -289,7 +289,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -298,7 +298,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -307,7 +307,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -316,7 +316,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -334,7 +334,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -342,7 +342,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -351,7 +351,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -360,7 +360,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -372,7 +372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -380,7 +380,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -388,7 +388,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -397,7 +397,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -406,7 +406,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -415,14 +415,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -433,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias"		"1"
@@ -496,7 +496,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -505,7 +505,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -514,7 +514,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -523,7 +523,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -532,7 +532,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -544,7 +544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -555,7 +555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -566,7 +566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -577,7 +577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -588,7 +588,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -599,7 +599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -610,7 +610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -621,7 +621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -632,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -643,7 +643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -654,7 +654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -665,7 +665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -676,7 +676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -687,7 +687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -698,7 +698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -710,7 +710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -721,7 +721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -733,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -745,7 +745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"4"
 				"weight"		"500"
 				"additive"		"0"
@@ -757,7 +757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -768,7 +768,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"16"
 				//"weight"		"500"
 				"additive"		"0"
@@ -779,8 +779,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"10"
+				"name"			"Code-Pro-LC"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -790,7 +790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -801,7 +801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -812,7 +812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -824,8 +824,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"name"			"Code-Pro-LC"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -896,7 +896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -908,7 +908,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -966,7 +966,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -976,7 +976,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -986,7 +986,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -995,7 +995,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1004,7 +1004,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1086,7 +1086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1097,7 +1097,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1109,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1120,7 +1120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1132,7 +1132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1167,7 +1167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1177,7 +1177,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1187,7 +1187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1198,7 +1198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"13"
 				"weight"		"800"
 				"additive"		"0"
@@ -1267,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
@@ -1278,8 +1278,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"9"
+				"name"			"Code-Pro-LC"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1289,7 +1289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1301,7 +1301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1313,7 +1313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1325,7 +1325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1337,7 +1337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1349,7 +1349,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"34"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1361,7 +1361,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1372,7 +1372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"52"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1381,7 +1381,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"72"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1390,7 +1390,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1399,7 +1399,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1408,7 +1408,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1421,7 +1421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1433,7 +1433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1444,7 +1444,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
@@ -1456,7 +1456,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1468,7 +1468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1479,7 +1479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -1491,7 +1491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1645,7 +1645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -1657,7 +1657,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1669,7 +1669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1682,8 +1682,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"10"
+				"name"			"Code-Pro-LC"
+				"tall"			"8"
 				"weight"		"0"
 				"additive"		"1"
 				"antialias" 	"1"
@@ -1693,8 +1693,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"name"			"Code-Pro-LC"
+				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1718,7 +1718,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"36"
 				"weight"		"500"
 			}
@@ -1727,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"30"
 				"weight"		"500"
 			}
@@ -1736,7 +1736,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"28"
 				"weight"		"500"
 			}
@@ -1745,7 +1745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1754,7 +1754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -1763,7 +1763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"22"
 				"weight"		"500"
 			}
@@ -1772,7 +1772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 			}
@@ -1781,7 +1781,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1790,7 +1790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -1800,7 +1800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"weight"		"900"
 			}
@@ -1810,7 +1810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1821,7 +1821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"600"
 				"additive"		"0"
@@ -1833,7 +1833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
@@ -1879,7 +1879,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1923,7 +1923,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1934,7 +1934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -1945,7 +1945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1956,7 +1956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Code-Pro-Bold"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -1967,7 +1967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1978,7 +1978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"8"
 				"antialias"		"1"
 				"weight"		"500"
@@ -1988,8 +1988,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"10"
+				"name"			"Code-Pro-LC"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1999,7 +1999,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2010,7 +2010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2022,7 +2022,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2033,7 +2033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
@@ -2045,7 +2045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"7"
 				"weight"		"0"
 				"additive"		"1"
@@ -2404,7 +2404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2468,7 +2468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2479,7 +2479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2490,7 +2490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2501,7 +2501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2512,7 +2512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2525,7 +2525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2536,7 +2536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2548,7 +2548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2561,7 +2561,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
@@ -2573,7 +2573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2584,7 +2584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"11"
 				"weight"		"500"
 				"blur"			"3"
@@ -2597,7 +2597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2610,7 +2610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"7"
 				"weight"		"0"
 				"blur"			"3"
@@ -2622,7 +2622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -2633,7 +2633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2644,7 +2644,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -2655,7 +2655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Code-Pro-LC"
 				"tall"			"30"
 				"weight"		"400"
 				"additive"		"0"
@@ -2678,13 +2678,12 @@ Scheme
 	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
-
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
+			"font"	"resource/TF2.ttf"
+			"name"	"TF2"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2696,8 +2695,8 @@ Scheme
 		}
 		"4"
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font"	"resource/TF2Secondary.ttf"
+			"name"	"TF2 Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2709,8 +2708,8 @@ Scheme
 		}
 		"5"
 		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
+			"font"	"resource/TF2Professor.ttf"
+			"name"	"TF2 Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -2722,8 +2721,8 @@ Scheme
 		}
 		"6"
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"font"	"resource/TF2Build.ttf"
+			"name"	"TF2 Build"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2797,6 +2796,16 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font"	"resource/fonts/CodeProBold.otf"
+			"name"	"Code-Pro-Bold"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/CodeProLC.otf"
+			"name"	"Code-Pro-LC"
 		}
 	}
 }

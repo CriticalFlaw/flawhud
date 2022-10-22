@@ -75,7 +75,7 @@
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"MOTD_HeaderIcon"

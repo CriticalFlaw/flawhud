@@ -37,10 +37,10 @@ Scheme
 		Border.Dark								"Black"
 		Border.Selection						"Gray"
 
-		Button.TextColor					"TanLight"
-		Button.BgColor						"HudBlack"
+		Button.TextColor						"TanLight"
+		Button.BgColor							"HudBlack"
 		Button.ArmedTextColor					"TanLight"
-		Button.ArmedBgColor					"TanDark"
+		Button.ArmedBgColor						"TanDark"
 		Button.SelectedTextColor				"TanDark"
 		Button.SelectedBgColor					"TanLight"
 		Button.DepressedTextColor				"TanDark"

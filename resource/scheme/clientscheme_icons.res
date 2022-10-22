@@ -10,7 +10,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -104,7 +104,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"0"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias" 	"1"
 			}
 		}
 	}
