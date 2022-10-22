@@ -26,7 +26,7 @@
 		"wide"					"595"
 		"tall"					"70"
 		"visible"				"1"
-		"bgcolor_override"		"MenuShader"
+		"bgcolor_override"		"TransparentLightBlack"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"TopLine"

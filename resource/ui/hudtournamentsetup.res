@@ -117,7 +117,7 @@
 		"command"		"teamready"
 		"default"		"1"
 		"font"			"FontBold10"
-		"fgcolor"		"ColorGreen"
+		"fgcolor"		"NeonGreen"
 
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"White"

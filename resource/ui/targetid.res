@@ -48,7 +48,7 @@
 		"tall"	 			"35"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Blue"
+		"fillcolor"			"HUDBlueTeamSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -67,7 +67,7 @@
 		"tall"	 			"36"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Red"
+		"fillcolor"			"HUDRedTeamSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -107,7 +107,7 @@
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"TargetNameLabel"
 	}
 

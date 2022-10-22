@@ -4,6 +4,6 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor"			"NeonGreen"
 	}
 }

@@ -554,6 +554,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"MenuShader"
+		"bgcolor_override"	"TransparentLightBlack"
 	}
 }

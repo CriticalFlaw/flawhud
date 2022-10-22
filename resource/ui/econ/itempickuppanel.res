@@ -277,7 +277,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HoverWhite"
+		"armedFgColor_override"		"TanLight"
 
 		"SubImage"
 		{

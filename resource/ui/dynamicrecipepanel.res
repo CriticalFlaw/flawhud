@@ -174,7 +174,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor"		"Red"
+			"fgcolor"		"HUDRedTeamSolid"
 		}
 
 		"CraftButton"

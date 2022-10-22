@@ -34,7 +34,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"HUDBlueTeam"
+			"fgcolor"			"HUDBlueTeamSolid"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -49,8 +49,7 @@
 			if_match
 			{
 				"font"			"FontBold14"
-				"ypos"			"8"
-				"tall"			"17"
+				"tall"			"32"
 			}
 		}
 	}
@@ -80,7 +79,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"FontBold16"
-			"fgcolor"			"HUDRedTeam"
+			"fgcolor"			"HUDRedTeamSolid"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -95,9 +94,28 @@
 			if_match
 			{
 				"font"			"FontBold14"
-				"ypos"			"8"
-				"tall"			"17"
+				"tall"			"32"
 			}
+		}
+	}
+
+	"InactiveTimerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"InactiveTimerBG"
+		"xpos"				"0"
+		"ypos"				"22"
+		"zpos"				"0"
+		"wide"				"80"
+		"tall"				"3"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType"	"0"
+			
+		if_match
+		{
+			"visible"		"0"
 		}
 	}
 
@@ -106,13 +124,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"2"
+		"ypos"				"22"
+		"zpos"				"5"
 		"wide"				"40"
-		"tall"				"25"
+		"tall"				"3"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"TanLight"
 		"PaintBackgroundType"	"0"
 	}
 }

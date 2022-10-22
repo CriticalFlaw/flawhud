@@ -21,7 +21,7 @@
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"Blue"
+			"bgcolor_override"	"HUDBlueTeamSolid"
 
 			"BlueScoreBG2"
 			{
@@ -33,7 +33,7 @@
 				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"DarkBlue"
+				"bgcolor_override"		"HUDBlueTeamDark"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -48,7 +48,7 @@
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"HUDRedTeamSolid"
 
 			"RedScoreBG2"
 			{
@@ -60,7 +60,7 @@
 				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"	"DarkRed"
+				"bgcolor_override"	"HUDRedTeamDark"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -89,7 +89,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabelShadow"
 			"font"			"FontBold18"
-			"fgcolor"		"ShadowBlack"
+			"fgcolor"		"Black"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"-2"
@@ -131,7 +131,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreShadow"
 			"font"			"FontBold37"
-			"fgcolor"		"ShadowBlack"
+			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"-2"
@@ -172,7 +172,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabelShadow"
 			"font"			"FontBold18"
-			"fgcolor"		"ShadowBlack"
+			"fgcolor"		"Black"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"-2"
@@ -210,7 +210,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreShadow"
 			"font"			"FontBold37"
-			"fgcolor"		"ShadowBlack"
+			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"-2"
@@ -283,7 +283,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
@@ -323,7 +323,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"LosingTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"

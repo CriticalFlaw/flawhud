@@ -7,7 +7,7 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"31"
 		"wide"				"585"
-		"tall"				"350"
+		"tall"				"360"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -139,7 +139,7 @@
 		"font"				"FontBold37"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"				"5"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"4"
 		"wide"				"80"
@@ -302,7 +302,7 @@
 		"font"				"FontBold37"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"				"5"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"4"
 		"wide"				"80"
@@ -466,7 +466,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"Blue"
+		"fgcolor"			"HUDBlueTeamSolid"
 
 		if_mvm
 		{
@@ -489,7 +489,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"textcolor"			"red"
+		"textcolor"			"HUDRedTeamSolid"
 
 		if_mvm
 		{
@@ -504,18 +504,18 @@
 		"labelText"			"%spectators%"
 		"textAlignment"		"west"
 		"xpos"				"-2"
-		"ypos"				"16"
+		"ypos"				"0"
 		"zpos"				"4"
-		"wide"				"500"
+		"wide"				"f0"
 		"wide_minmode"		"0"
-		"tall"				"20"
+		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 
 		"pin_to_sibling"		"StatsBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm

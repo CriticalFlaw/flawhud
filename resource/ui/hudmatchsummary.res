@@ -199,7 +199,7 @@
 				"fieldName"		"StatsAndMedalsShadow"
 				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"#TF_StatsAndMedals"
-				"fgcolor"		"ShadowBlack"
+				"fgcolor"		"Black"
 				"textAlignment"	"center"
 				"xpos"			"-1"
 				"ypos"			"-1"
@@ -253,7 +253,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"DarkBlueTeamBorder"
-					"bgcolor_override"	"Blue"
+					"bgcolor_override"	"HUDBlueTeamSolid"
 
 					if_large
 					{
@@ -288,7 +288,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"ShadowBlack"
+					"fgcolor"		"Black"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"	"east"
 					"xpos"			"6"
@@ -333,7 +333,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"ShadowBlack"
+					"fgcolor"		"Black"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"	"east"
 					"xpos"			"6"
@@ -525,7 +525,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"DarkRedTeamBorder"
-					"bgcolor_override"	"Red"
+					"bgcolor_override"	"HUDRedTeamSolid"
 
 					if_large
 					{
@@ -559,7 +559,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"ShadowBlack"
+					"fgcolor"		"Black"
 					"labelText"		"%redteamscore%"
 					"textAlignment"	"west"
 					"xpos"			"r3-p.19"
@@ -604,7 +604,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"ShadowBlack"
+					"fgcolor"		"Black"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"	"west"
 					"xpos"			"r4-p.19"

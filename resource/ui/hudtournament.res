@@ -77,7 +77,7 @@
 			"tall"			"35"
 			"zpos"			"1"
 			"color_ready"		"0 255 0 220"
-			"color_notready"	"ShadowBlack"
+			"color_notready"	"Black"
 
 			"PanelBG"
 			{
@@ -92,7 +92,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"MenuShader"
+				"fillcolor"		"TransparentLightBlack"
 			}
 
 			"playername"
@@ -371,7 +371,7 @@
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"Blue"
+		"fillcolor"				"HUDBlueTeamSolid"
 
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -389,7 +389,7 @@
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"DarkBlue"
+		"fillcolor"				"HUDBlueTeamDark"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -450,7 +450,7 @@
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"Red"
+		"fillcolor"				"HUDRedTeamSolid"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -468,7 +468,7 @@
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"DarkRed"
+		"fillcolor"				"HUDRedTeamDark"
 
 		"pin_to_sibling"		"HudTournamentREDBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -573,7 +573,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"TournamentInstructionsLabelShadow"
 		"font"					"FontBold10"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"wide"					"250"
@@ -631,7 +631,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabelShadow"
 		"font"					"FontBold22"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"xpos"					"cs-0.48"
 		"ypos"					"cs-0.48"
 		"wide"					"40"

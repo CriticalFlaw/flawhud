@@ -66,16 +66,16 @@
 	}
 	"CountTextShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"	"CountTextShadow"
-		"font"	"FontBold20"
-		"labelText"	"%counttext%"
-		"textAlignment"	"center"
-		"xpos"	"-2"
-		"ypos"	"-2"
-		"wide"	"20"
-		"tall"	"20"
-		"fgcolor"	"ShadowBlack"
+		"ControlName"		"CExLabel"
+		"fieldName"			"CountTextShadow"
+		"font"				"FontBold20"
+		"labelText"			"%counttext%"
+		"textAlignment"		"center"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"wide"				"20"
+		"tall"				"20"
+		"fgcolor"			"Black"
 		"pin_to_sibling"	"CountText"
 	}
 }

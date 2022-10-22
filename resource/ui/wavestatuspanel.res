@@ -43,7 +43,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"WaveCountLabelShadow"
 		"font"					"FontBold12"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"3"

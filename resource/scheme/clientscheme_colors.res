@@ -2,23 +2,21 @@
 {
 	"Colors"
 	{
-		"Blue"	"72 112 125 255"
-		"DarkBlue"	"46 73 82 255"
-		"Red"	"158 64 61 255"
-		"DarkRed"	"102 48 46 255"
-		"ColorGreen"	"0 225 0 255"
+		//---------------------------------------------
+		// HUD COLORS
+		//---------------------------------------------
 		"Yellow"	"92 122 90 255"
 		"DullWhite"	"132 132 132 255"
 		"Grey"	"51 47 46 255"
 		"DarkGrey"	"27 27 27 255"
 		"DarkerGrey"	"22 22 22 255"
-		"Brown"	"49 44 41 255"
-		"ShadowBlack"	"7 7 7 255"
+		"NeonGreen"					"0 225 0 255"
 		"NeonRed"	"200 10 20 255"
-		"MenuShader"	"0 0 0 100"
 		"TextColor"	"117 107 94 255"
 		"NeutralWhite"	"235 226 202 255"
-		"HoverWhite"	"245 230 200 255"
+		//---------------------------------------------
+		// GAMEPLAY
+		//---------------------------------------------
 		"Overheal"	"0 170 127 255"
 		"OverhealShadow"	"0 102 76 255"
 		"LowHealth"	"190 20 20 255"
@@ -27,10 +25,19 @@
 		"LowAmmoShadow"	"114 12 12 255"
 		"TargetHealth"	"0 170 127 255"
 		"TargetDamage"	"255 255 0 255"
-		"Crosshair"	"242 242 242 255"
-		"CrosshairDamage"	"255 0 0 255"
+		//---------------------------------------------
+		// CROSSHAIR COLORS
+		//---------------------------------------------
+		"Crosshair"					"242 242 242 255"	// Default
+		"CrosshairDamage"			"255 0 0 255"		// Hitmarker
+		//---------------------------------------------
+		// ÜBERCHARGE
+		//---------------------------------------------
 		"UberCharge"	"0 170 127 255"
 		"UberChargePulse"	"0 170 127 205"
+		//---------------------------------------------
+		// CLASS GRADIENT
+		//---------------------------------------------
 		"LOGScout"	"75 112 130 255"
 		"LOGSoldier"	"80 105 120 255"
 		"LOGPyro"	"95 100 110 255"
@@ -40,37 +47,46 @@
 		"LOGMedic"	"130 75 75 255"
 		"LOGSniper"	"140 70 70 255"
 		"LOGSpy"	"158 65 65 255"
+		//---------------------------------------------
+		// DEFAULT COLORS
+		//---------------------------------------------
 		"Orange"	"178 82 22 255"
 		"OrangeDim"	"178 82 22 120"
 		"LightOrange"	"188 112 0 128"
 		"GoalOrange"	"255 133 0 255"
 		"TFOrange"	"145 73 59 255"
 		"Purple"	"137 69 99 255"
+		
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"	"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		
 		"QuestGold"	"208 147 75 255"
 		"QuestUncommitted"	"183 147 100 255"
 		"QuestMap_Bonus"	"222 217 166 255"
 		"QuestMap_ActiveOrange"	"212 127 25 255"
 		"QuestMap_InactiveGrey"	"100 100 100 255"
 		"QuestMap_BGImages"	"56 58 60 255"
+		
 		"PartyMember1"	"124 173 255 255"
 		"PartyMember2"	"99  232 167 255"
 		"PartyMember3"	"229 255 121 255"
 		"PartyMember4"	"232 184 99  255"
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
+		
 		"White"	"220 220 220 255"
 		"RedSolid"	"192 28 0 255"
 		"BlueSolid"	"0 28 162 255"
 		"TransparentYellow"	"251 235 202 140"
 		"GreenSolid"	"76 107 34 255"
+		
 		"Black"	"29 29 29 255"
 		"Transparent"	"0 0 0 0"
 		"TransparentBlack"	"0 0 0 230"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"	"52 48 55 255"
+		
 		"HUDBlueTeam"	"57 92 120 127"
 		"HUDRedTeam"	"157 49 47 127"
 		"HUDSpectator"	"124 124 124 127"
@@ -84,36 +100,50 @@
 		"HudBlack"	"16 16 16 230"
 		"ProgressBarBlue"	"91 122 142 255"
 		"CreditsGreen"	"94 150 49 255"
+		
 		"Gray"	"178 178 178 255"
 		"Blank"	"0 0 0 0"
 		"ForTesting"	"255 0 0 32"
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
+		
 		"HudPanelForeground"	"123 110 59 184"
 		"HudPanelBackground"	"123 110 59 184"
 		"HudPanelBorder"	"255 255 255 102"
+		
 		"HudProgressBarActive"	"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"
+		
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
+
+		// Training
 		"HudTrainingHint"	"212 160 23 255"
+		
 		"TanDark"	"117 107 94 255"
 		"TanLight"	"235 226 202 255"
 		"TanDarker"	"46 43 42 255"
+		
 		"StoreDarkTan"	"131 121 104 255"
 		"StoreGreen"	"76 107 34 255"
+		
+		// Building HUD Specific
 		"LowHealthRed"	"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"	"72 71 69 255"
+		
 		"LabelDark"	"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
+		
 		"BuildMenuActive"	"248 231 198 255"
+		
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
+		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		"MatchmakingDialogTitleColor"	"200 184 151 255"
 		"MatchmakingMenuItemBackground"	"46 43 42 255"

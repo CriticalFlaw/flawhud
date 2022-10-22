@@ -22,7 +22,7 @@
 			"tall"				"23"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"	"Blue"
+			"bgcolor_override"	"HUDBlueTeamSolid"
 
 			"background2"
 			{
@@ -35,7 +35,7 @@
 				"tall"				"3"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"	"DarkBlue"
+				"bgcolor_override"	"HUDBlueTeamDark"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -77,7 +77,7 @@
 			"font"				"FontBold18"
 			"labelText"			"%blue_alive%"
 			"textAlignment"		"east"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"pin_to_sibling"	"count"
 		}
 
@@ -119,7 +119,7 @@
 			"tall"				"23"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"HUDRedTeamSolid"
 
 			"background2"
 			{
@@ -132,7 +132,7 @@
 				"tall"				"3"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"	"DarkRed"
+				"bgcolor_override"	"HUDRedTeamDark"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -172,7 +172,7 @@
 			"font"				"FontBold18"
 			"labelText"			"%red_alive%"
 			"textAlignment"		"west"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"pin_to_sibling"	"count"
 		}
 

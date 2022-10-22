@@ -35,7 +35,7 @@
 			"tall"				"21"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"Blue"
+			"fillcolor"			"HUDBlueTeamSolid"
 		}
 
 		"BLUBG2"
@@ -49,7 +49,7 @@
 			"tall"				"22"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"DarkBlue"
+			"fillcolor"			"HUDBlueTeamDark"
 		}
 
 		"REDBG"
@@ -63,7 +63,7 @@
 			"tall"				"21"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"Red"
+			"fillcolor"			"HUDRedTeamSolid"
 		}
 
 		"REDBG2"
@@ -77,7 +77,7 @@
 			"tall"				"22"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"DarkRed"
+			"fillcolor"			"HUDRedTeamDark"
 		}
 
 		"BlueTeamLabel"
@@ -102,7 +102,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabelShadow"
 			"font"				"FontBold20"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"				"-2"
@@ -139,7 +139,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreShadow"
 			"font"				"FontBold37"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"-2"
@@ -167,7 +167,7 @@
 			"enabled"			"1"
 			"image"				""
 			"scaleImage"		"1"
-			"color_outline"		"DarkBlue"
+			"color_outline"		"HUDBlueTeamDark"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -180,7 +180,7 @@
 			"tall"				"39"
 			"visible"			"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"DarkBlue"
+			"bgcolor_override"		"HUDBlueTeamDark"
 		}
 
 		"RedTeamLabel"
@@ -205,7 +205,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabelShadow"
 			"font"				"FontBold20"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"labelText"			"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"				"-2"
@@ -242,7 +242,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreShadow"
 			"font"				"FontBold37"
-			"fgcolor"			"ShadowBlack"
+			"fgcolor"			"Black"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"-2"
@@ -270,7 +270,7 @@
 			"enabled"			"1"
 			"image"				""
 			"scaleImage"		"1"
-			"color_outline"		"DarkRed"
+			"color_outline"		"HUDRedTeamDark"
 		}
 		"RedLeaderAvatarBG"
 		{
@@ -283,7 +283,7 @@
 			"tall"				"39"
 			"visible"			"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"DarkRed"
+			"bgcolor_override"		"HUDRedTeamDark"
 		}
 	}
 

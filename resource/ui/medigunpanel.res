@@ -183,7 +183,7 @@
         "dulltext"		"0"
         "brighttext"	"0"
         "font"			"FontBold12"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -286,7 +286,7 @@
 		"brighttext"	"0"
 		"textinsetx"	"6"
 		"font"			"FontRegular10"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling" 		"MedigunPanelNameLabel"
