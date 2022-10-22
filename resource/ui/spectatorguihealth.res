@@ -52,7 +52,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TargetHealthValue"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"20"
