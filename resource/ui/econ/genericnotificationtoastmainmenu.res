@@ -1,1 +1,1 @@
-#base "Resource/UI/GenericNotificationToast.res"
+#base "GenericNotificationToast.res"

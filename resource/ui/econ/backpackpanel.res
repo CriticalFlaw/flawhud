@@ -22,7 +22,7 @@
 		"item_xpos_offcenter_b"			"165"
 		"item_ypos"						"60"
 		"item_ydelta"					"80"
-		"item_mod_wide"					"40"
+		"item_mod_wide"					"40"d
 
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
@@ -37,7 +37,7 @@
 		"page_button_x_delta"			"3"
 		"page_button_y_delta"			"3"
 		"page_button_per_row"			"20"
-		"page_button_height"			"13"
+		"page_button_height"			"15"
 
 		"pagebuttons_kv"
 		{
@@ -55,7 +55,7 @@
 				"fieldName"				"Button"
 				"ControlName"			"CExButton"
 				"wide"					"25"
-				"tall"					"13"
+				"tall"					"15"
 				"visible"				"1"
 				"bgcolor_override"		"Transparent"
 				"noitem_textcolor"		"TextColor"
@@ -63,7 +63,7 @@
 				"paintborder"			"1"
 				"textAlignment"			"center"
 				"labelText"				"%page%"
-				"font"					"FontBold10"
+				"font"					"FontBold12"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
@@ -190,8 +190,8 @@
 		"fieldName"			"ShowRarityComboBox"
 		"font"				"FontRegular11"
 		"wrap"				"0"
-		"xpos"				"c-25"
-		"ypos"				"37"
+		"xpos"				"c134"
+		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"15"
@@ -206,12 +206,12 @@
 		"unicode"			"0"
 		"default"			"0"
 
-		"fgcolor_override"					"White"
+		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Black"
-		"disabledFgColor_override"			"White"
+		"disabledFgColor_override"			"TanLight"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"
-		"selectionTextColor_override"		"White"
+		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 	}
 
@@ -220,9 +220,9 @@
 		"ControlName"		"CheckButton"
 		"fieldName"			"ShowBaseItemsCheckbox"
 		"labelText"			"#ShowBaseItemsCheckBox"
-		"font"				"FontRegular11"
+		"font"				"FontRegular12"
 		"textAlignment"		"east"
-		"xpos"				"c-135"
+		"xpos"				"c-65"
 		"ypos"				"34"
 		"zpos"				"1"
 		"wide"				"120"
@@ -233,7 +233,7 @@
 		"enabled"			"1"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 	}
 
@@ -245,44 +245,44 @@
 		"labelText"			"#FH_search"
 		"textAlignment"		"west"
 		"xpos"				"c-287"
-		"ypos"				"35"
+		"ypos"				"15"
 		"zpos"				"1"
-		"wide"				"40"
+		"wide"				"90"
 		"tall"				"20"
-		"autoResize"		"1"
+		"autoResize"			"1"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"NameFilterTextEntry"
-		"xpos"				"c-250"
-		"ypos"				"37"
-		"wide"				"110"
+		"font"				"FontRegular12"
+		"xpos"				"c-287"
+		"ypos"				"35"
+		"wide"				"220"
 		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"1"
-		"textHidden"		"0"
-		"editable"			"1"
-		"unicode"			"1"
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"1"
+		"textHidden"	"0"
+		"editable"		"1"
+		"unicode"		"1"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype" "2"
-		"font"				"FontRegular10"
 	}
 
 	"SortByComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"font"				"FontRegular10"
+		"font"				"FontRegular11aaaaa"
 		"xpos"				"c134"
 		"ypos"				"37"
 		"zpos"				"1"
@@ -298,12 +298,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"				"White"
+		"fgcolor_override"				"TanLight"
 		"bgcolor_override"				"Black"
-		"disabledFgColor_override"		"White"
+		"disabledFgColor_override"		"TanLight"
 		"disabledBgColor_override"		"Black"
 		"selectionColor_override"		"Black"
-		"selectionTextColor_override"	"White"
+		"selectionTextColor_override"	"TanLight"
 		"defaultSelectionBG2Color_override" "Black"
 	}
 
@@ -413,7 +413,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 	}
 
 	"NextPageButton"
@@ -633,9 +633,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PositionLabel"
@@ -686,7 +686,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -791,9 +791,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -825,7 +825,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -891,7 +891,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -996,9 +996,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1030,7 +1030,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1077,7 +1077,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1202,9 +1202,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1236,7 +1236,7 @@
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1283,7 +1283,7 @@
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1407,9 +1407,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1441,7 +1441,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{

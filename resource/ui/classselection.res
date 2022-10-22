@@ -49,9 +49,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"LOGScout"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"LOGScout"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -112,9 +112,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSoldier"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSoldier"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -179,9 +179,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGPyro"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGPyro"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -246,9 +246,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGDemoman"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGDemoman"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -313,9 +313,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGHeavy"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGHeavy"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -380,9 +380,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGEngineer"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGEngineer"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -447,9 +447,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGMedic"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGMedic"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -514,9 +514,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSniper"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSniper"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -581,9 +581,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSpy"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSpy"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -656,9 +656,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -696,9 +696,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -735,10 +735,10 @@
 		"armedBgColor_override"		"HudBlack"
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
-		
-		"defaultFgColor_override" 	"White"
+
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -767,9 +767,9 @@
 		"paintbackground"			"0"
 		"sound_released"			"UI/secret.mp3"
 		"sound_depressed"			""
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override"	"TanLight"
 	}
 
 	"MenuBG"
@@ -892,7 +892,6 @@
 		"labelText"					"%numScout%"
 		"font"						"FontRegular20"
 		"textAlignment"				"west"
-		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling"			"scout"
@@ -1299,7 +1298,7 @@
 			"angles_y"				"200"
 			"angles_z"				"0"
 			"origin_x"				"250"
-			"origin_y"				"15"
+			"origin_y"				"25"
 			"origin_z"				"-50"
 			"frame_origin_x"		"0"
 			"frame_origin_y"		"0"

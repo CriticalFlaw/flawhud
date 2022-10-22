@@ -45,7 +45,7 @@
 		"labelText"			"#TF_WELCOME"
 		"textAlignment"		"center"
 		"font"				"FontBold37"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"TextMessage"
@@ -71,7 +71,7 @@
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"west"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"paintbackground"	"0"
 	}
 

@@ -60,7 +60,7 @@
 		"font"				"FontBold37"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"220 220 220 255"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"BlueBorder"
@@ -128,9 +128,9 @@
 		"depressedBgColor_override" "HUDBlueTeamSolid"
 		"selectedBgColor_override" 	"HUDBlueTeamDark"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -168,9 +168,9 @@
 		"depressedBgColor_override" "HUDRedTeamSolid"
 		"selectedBgColor_override" 	"HUDRedTeamDark"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -291,8 +291,8 @@
 		"brighttext"		"1"
 		"mouseinputenabled"	"0"
 		"textinsetx"		"10"
-		"font"				"FontRegular14"
-		"fgcolor"			"White"
+		"font"				"FontRegular16"
+		"fgcolor"			"TanLight"
 		
 		"pin_to_sibling"		"teambutton0"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -318,8 +318,8 @@
 		"brighttext"		"1"
 		"mouseinputenabled"	"0"
 		"textinsetx"		"10"
-		"font"				"FontRegular14"
-		"fgcolor"			"White"
+		"font"				"FontRegular16"
+		"fgcolor"			"TanLight"
 		
 		"pin_to_sibling"		"teambutton1"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -344,7 +344,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontRegular12"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"centerwrap"		"1"
 	}
 
