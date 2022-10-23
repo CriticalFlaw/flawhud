@@ -158,7 +158,7 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
@@ -187,17 +187,17 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 
-		"fgcolor_override"					"White"
+		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Black"
-		"disabledFgColor_override"			"White"
+		"disabledFgColor_override"			"TanLight"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"
-		"selectionTextColor_override"		"White"
+		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 
 		"Button"
 		{
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"Black"
 			"armedFgColor_override"		"Black"
 			"armedBgColor_override"		"251 235 202 255"
@@ -228,17 +228,17 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 
-		"fgcolor_override"					"White"
+		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Black"
-		"disabledFgColor_override"			"White"
+		"disabledFgColor_override"			"TanLight"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"
-		"selectionTextColor_override"		"White"
+		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 
 		"Button"
 		{
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"Black"
 			"armedFgColor_override"		"Black"
 			"armedBgColor_override"		"251 235 202 255"
@@ -325,7 +325,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"PrevPageButton"
@@ -431,7 +431,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"SubcategoryFiltersLabel"
@@ -450,7 +450,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"SortFilterLabel"
@@ -469,7 +469,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassFilterLabel"
@@ -488,7 +488,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassFilterNavPanel"
@@ -537,8 +537,8 @@
 			"paintborder"		"0"
 
 			"image_drawcolor"		"255 255 255 180"
-			"image_armedcolor"		"White"
-			"image_selectedcolor"	"White"
+			"image_armedcolor"		"TanLight"
+			"image_selectedcolor"	"TanLight"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
