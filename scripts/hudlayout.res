@@ -715,7 +715,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos" 				"r145"
-		"ypos" 				"30"
+		"ypos" 				"0"
 		"wide" 				"145"
 		"tall" 				"400"
 		"item_wide"			"119"

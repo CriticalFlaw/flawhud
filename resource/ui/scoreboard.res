@@ -386,7 +386,7 @@
 		"textAlignment"		"west"
 		"xpos"				"-5"
 		"ypos"				"0"
-		"wide"				"290"
+		"wide"				"280"
 		"wide_minmode"		"0"
 		"tall"				"11"
 		"autoResize"		"0"
