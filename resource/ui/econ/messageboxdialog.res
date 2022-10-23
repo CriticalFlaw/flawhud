@@ -54,7 +54,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"centerwrap"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"ConfirmButton"

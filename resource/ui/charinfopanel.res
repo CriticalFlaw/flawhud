@@ -104,7 +104,7 @@
 		"tabxindent"		"80"
 		"tabxdelta"			"10"
 		"tabwidth"			"240"
-		"tabheight"			"35"
+		"tabheight"			"25"
 		"transition_time" 	"0"
 		"yoffset"			"10"
 
@@ -143,7 +143,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"BackButton"
-		"xpos"				"c-288"
+		"xpos"				"100"
 		"ypos"				"440"
 		"zpos"				"2"
 		"wide"				"150"

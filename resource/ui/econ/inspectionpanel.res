@@ -171,7 +171,7 @@
 			"paintborder"			"0"
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"White"
+			"image_selectedcolor"	"TanLight"
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 
@@ -329,12 +329,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"DarkGrey"
-			"disabledFgColor_override" "White"
+			"disabledFgColor_override" "TanLight"
 			"disabledBgColor_override" "DarkGrey"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "TanLight"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -353,7 +353,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 
 			"fixed_paintkit"
 			{
@@ -396,12 +396,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"DarkGrey"
-			"disabledFgColor_override" "White"
+			"disabledFgColor_override" "TanLight"
 			"disabledBgColor_override" "DarkGrey"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "TanLight"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -426,7 +426,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 
 			"fixed_item"
 			{
@@ -494,7 +494,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 
 			"fixed_paintkit"
 			{
@@ -576,10 +576,10 @@
 			"default"			"1"
 			"NumericInputOnly"	"1"
 			"maxchars"			"18"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"DarkGrey"
 			"selectedFgColor_override"	"DarkGrey"
-			"selectedBgColor_override"	"White"
+			"selectedBgColor_override"	"TanLight"
 
 			"consume_mode"
 			{

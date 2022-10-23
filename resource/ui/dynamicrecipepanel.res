@@ -116,7 +116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"wrap"			"1"
 		}
 

@@ -56,10 +56,10 @@
 			"ControlName"		"CExButton"
 			"fieldName"			"ShowLeaderboardsButton"
 			"xpos"				"rs1-10"
-			"ypos"				"38"
+			"ypos"				"35"
 			"zpos"				"0"
 			"wide"				"p0.45"
-			"tall"				"15"
+			"tall"				"20"
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
@@ -79,10 +79,10 @@
 			"ControlName"		"CExButton"
 			"fieldName"			"ShowMatchHistoryButton"
 			"xpos"				"10"
-			"ypos"				"38"
+			"ypos"				"35"
 			"zpos"				"0"
 			"wide"				"p0.45"
-			"tall"				"15"
+			"tall"				"20"
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
@@ -198,7 +198,7 @@
 					"armedFgColor_override"		"Orange"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -231,7 +231,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -264,7 +264,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -295,7 +295,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 

@@ -142,7 +142,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"CloseButton"
@@ -171,9 +171,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"QuestList"

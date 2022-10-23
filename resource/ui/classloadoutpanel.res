@@ -93,9 +93,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanDark"
+			"depressedFgColor_override"	"TanLight"
 		}
 	}
 
@@ -313,9 +313,9 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"HUDRedTeamSolid"
-		"armedFgColor_override"		"White"
+		"armedFgColor_override"		"TanLight"
 		"armedBgColor_override"		"HUDRedTeamSolid"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"depressedBgColor_override"	"HUDRedTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -345,9 +345,9 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"HUDBlueTeamSolid"
-		"armedFgColor_override"		"White"
+		"armedFgColor_override"		"TanLight"
 		"armedBgColor_override"		"HUDBlueTeamSolid"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"depressedBgColor_override"	"HUDBlueTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -379,9 +379,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override" 	"White"
+		"defaultFgColor_override"		"TanLight"
+		"armedFgColor_override"			"TanLight"
+		"depressedFgColor_override" 	"TanLight"
 
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"
@@ -411,9 +411,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override" 	"White"
+		"defaultFgColor_override"		"TanLight"
+		"armedFgColor_override"			"TanLight"
+		"depressedFgColor_override" 	"TanLight"
 
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"

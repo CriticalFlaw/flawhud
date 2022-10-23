@@ -130,19 +130,9 @@
 		"default"			"1"
 		"font"				"FontBold22"
 		"paintbackground"	"1"
-
-		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"HudBlack"
-		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanLight"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MapInfoWatchIntro"
@@ -166,19 +156,9 @@
 		"default"			"1"
 		"font"				"FontBold22"
 		"paintbackground"	"1"
-
-		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"HudBlack"
-		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanLight"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MapInfoBack"
@@ -201,19 +181,9 @@
 		"command"			"back"
 		"font"				"FontBold22"
 		"paintbackground"	"1"
-
-		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"HudBlack"
-		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanLight"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MenuBG"
