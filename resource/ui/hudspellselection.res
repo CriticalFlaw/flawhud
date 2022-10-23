@@ -27,7 +27,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"image"				"../signs/death_wheel_whammy"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"ActionText"
@@ -41,7 +41,7 @@
 		"ypos"				"28"
 		"wide"				"80"
 		"tall"				"0"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"visible"			"1"
 	}
 
@@ -64,7 +64,7 @@
 		"zpos"				"1"
 		"wide"				"20"
 		"tall"				"20"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"pin_to_sibling"	"SpellIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"

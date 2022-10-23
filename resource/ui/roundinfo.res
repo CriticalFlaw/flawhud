@@ -46,7 +46,7 @@
 		"labelText"		"#round_info_header"
 		"textAlignment"	"center"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"Mapname"
@@ -65,7 +65,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"FontRegular12"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"RoundContinue"
@@ -90,8 +90,8 @@
 		"font"			"FontBold14"
 		"paintbackground"	"0"
 
-		"fgcolor"					"White"
-		"defaultFgColor_override" 	"White"
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"

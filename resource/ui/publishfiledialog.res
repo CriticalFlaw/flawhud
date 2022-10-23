@@ -219,7 +219,7 @@
 		"maxchars"			"128"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
@@ -263,7 +263,7 @@
 		"maxchars"			"8000"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
@@ -400,7 +400,7 @@
 		"brighttext"		"0"
 		"wrap"				"1"
 		"font"				"FontRegular10"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"TagsTitle"

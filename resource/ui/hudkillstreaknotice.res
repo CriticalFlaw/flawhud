@@ -28,7 +28,7 @@
 		"wide"					"500"
 		"tall"					"50"
 		"autoResize"			"0"
-		"fgcolor"				"White"
+		"fgcolor"				"TanLight"
 		"font_override"			"FontRegular10"
 		"labelText"				""
 		"textAlignment"		 	"center"

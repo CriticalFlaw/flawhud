@@ -36,7 +36,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontBold22"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"ChargeLabelShadow"

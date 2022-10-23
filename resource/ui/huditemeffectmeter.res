@@ -9,7 +9,7 @@
 		"ypos"				"r65"
 		"wide"				"110"
 		"tall"				"8"
-		"MeterFG"			"White"
+		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
 

@@ -165,7 +165,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"

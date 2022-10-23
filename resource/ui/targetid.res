@@ -231,7 +231,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -246,7 +246,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 
