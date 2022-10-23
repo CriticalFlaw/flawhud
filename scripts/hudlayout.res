@@ -1033,9 +1033,9 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"xpos"				"c-140"
-		"ypos"				"75"
+		"ypos"				"35"
 		"wide"				"280"
-		"tall"				"75"
+		"tall"				"50"
 	}
 
 	"HudArenaCapPointCountdown"
