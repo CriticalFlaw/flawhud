@@ -37,6 +37,8 @@
 			"text_center"			"0"
 			"text_yoffset"			"2"
 			"name_only"				"1"
+			"inset_eq_y"			"56"
+			"inset_eq_x"			"56"
 		}
 
 		"modelpanels_kv"
