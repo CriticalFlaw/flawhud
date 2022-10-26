@@ -291,7 +291,7 @@
 		"brighttext"		"1"
 		"mouseinputenabled"	"0"
 		"textinsetx"		"10"
-		"font"				"FontRegular16"
+		"font"				"FontRegular20"
 		"fgcolor"			"TanLight"
 		
 		"pin_to_sibling"		"teambutton0"
@@ -318,7 +318,7 @@
 		"brighttext"		"1"
 		"mouseinputenabled"	"0"
 		"textinsetx"		"10"
-		"font"				"FontRegular16"
+		"font"				"FontRegular20"
 		"fgcolor"			"TanLight"
 		
 		"pin_to_sibling"		"teambutton1"
