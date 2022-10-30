@@ -27,7 +27,7 @@
 		"labeltext"				"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"			"west"
 		"font"					"HudFontMediumBold"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"
 		"wrap"					"1"
 	}

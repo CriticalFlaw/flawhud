@@ -131,6 +131,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
+			"fgcolor"		"TanLight"
 		}
 
 		// Scrollable editable panel for right-hand side of preview, for all text details
@@ -563,7 +564,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -615,7 +616,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -667,7 +668,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -719,7 +720,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -771,7 +772,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -825,7 +826,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -841,7 +842,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -857,7 +858,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -873,7 +874,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -889,7 +890,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -905,7 +906,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -1257,7 +1258,7 @@
 
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"White"
+			"image_selectedcolor"	"TanLight"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -1379,7 +1380,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		"("
-		"font"			"CustomIcons"
+		"font"			"SmallIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1390,9 +1391,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LightRed"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanLight"
 	}
 
 	"BackButton"
@@ -1403,7 +1404,7 @@
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1428,7 +1429,7 @@
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1453,7 +1454,7 @@
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"160"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"

@@ -18,13 +18,13 @@ Scheme
 		//---------------------------------------------
 		// GAMEPLAY
 		//---------------------------------------------
-		"Overheal"					"0 170 127 255"
-		"OverhealShadow"			"0 70 59 255"
-		"LowHealth"					"190 20 20 255"
-		"LowHealthShadow"			"90 20 20 255"
-		"LowAmmo"					"190 20 20 255"
-		"LowAmmoShadow"				"90 20 20 255"
-		"TargetHealth"				"0 170 127 255"
+		"Overheal"					"0 225 165 255"
+		"OverhealShadow"			"0 100 75 255"
+		"LowHealth"					"215 25 25 255"
+		"LowHealthShadow"			"115 12 12 255"
+		"LowAmmo"					"215 25 25 255"
+		"LowAmmoShadow"				"115 12 12 255"
+		"TargetHealth"				"0 225 165 255"
 		"TargetDamage"				"255 255 0 255"
 		//---------------------------------------------
 		// CROSSHAIR COLORS
@@ -34,8 +34,8 @@ Scheme
 		//---------------------------------------------
 		// ÜBERCHARGE
 		//---------------------------------------------
-		"UberCharge"				"0 170 127 255"
-		"UberChargePulse"			"0 120 127 255"
+		"UberCharge"				"0 225 165 255"
+		"UberChargePulse"			"0 165 125 255"
 		//---------------------------------------------
 		// CLASS GRADIENT
 		//---------------------------------------------
@@ -88,13 +88,13 @@ Scheme
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 		
-		"HUDBlueTeam"							"72 112 125 175"
-		"HUDRedTeam"							"158 64 61 175"
+		"HUDBlueTeam"							"57 92 120 127"
+		"HUDRedTeam"							"157 49 47 127"
 		"HUDSpectator"							"124 124 124 127"
 		"HUDBlueTeamSolid"						"57 92 120 255"
-		"HUDRedTeamSolid"						"158 64 61 255"
-		"HUDBlueTeamDark"						"46 73 82 255"
-		"HUDRedTeamDark"						"102 48 46 255"
+		"HUDRedTeamSolid"						"157 49 47 255"
+		"HUDBlueTeamDark"						"38 55 63 255"
+		"HUDRedTeamDark"						"89 24 23 255"
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"200 187 161 255"

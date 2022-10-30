@@ -163,7 +163,7 @@
 			"textAlignment"		"west"
 			"labelText"			"%flagvalue%"
 			"font"				"FontBold22"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 			"proportionalToParent"	"1"
 		}
 		"FlagValueShadow"

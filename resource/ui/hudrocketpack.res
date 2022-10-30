@@ -4,7 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c110"
+		"ypos"				"r75"
 		"tall"				"500"
 		"wide"				"150"
 	}
@@ -40,7 +40,7 @@
 	"ItemEffectMeter"
 	{
 		"ypos"				"10"
-		"wide"				"60"
+		"wide"				"55"
 		"textAlignment"		"Left"
 	}
 
@@ -48,10 +48,10 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter2"
-		"xpos"				"60"
+		"xpos"				"55"
 		"ypos"				"10"
 		"zpos"				"2"
-		"wide"				"60"
+		"wide"				"55"
 		"tall"				"8"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -60,6 +60,6 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 }

@@ -45,7 +45,7 @@
 		"labelText"			"#TF_WELCOME"
 		"textAlignment"		"center"
 		"font"				"FontBold37"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"TextMessage"
@@ -71,7 +71,7 @@
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"west"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"paintbackground"	"0"
 	}
 
@@ -120,9 +120,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"

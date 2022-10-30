@@ -68,6 +68,7 @@
 				"allow_rot"				"0"
 				"inventory_image_type"	"1"
 			}
+			"inset_eq_y"	"0"
 		}
 
 		"itemoptionpanels_kv"
@@ -83,7 +84,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"w"
-			"font"				"CustomIcons"
+			"font"				"SmallIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -92,9 +93,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanDark"
+			"depressedFgColor_override"	"TanLight"
 		}
 	}
 
@@ -111,11 +112,11 @@
 		"fieldName"			"ClassLabel"
 		"font"				"FontBold37"
 		"labelText"			"#ClassBeingEquipped"
-		"textAlignment"		"center"
-		"xpos"				"c72"
+		"textAlignment"		"east"
+		"xpos"				"100"
 		"ypos"				"15"
 		"zpos"				"1"
-		"wide"				"300"
+		"wide"				"600"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -312,9 +313,9 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"HUDRedTeamSolid"
-		"armedFgColor_override"		"White"
+		"armedFgColor_override"		"TanLight"
 		"armedBgColor_override"		"HUDRedTeamSolid"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"depressedBgColor_override"	"HUDRedTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -344,9 +345,9 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"HUDBlueTeamSolid"
-		"armedFgColor_override"		"White"
+		"armedFgColor_override"		"TanLight"
 		"armedBgColor_override"		"HUDBlueTeamSolid"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"depressedBgColor_override"	"HUDBlueTeamSolid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -370,7 +371,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"CustomIcons"
+		"font"				"SmallIcons"
 		"scaleImage"		"1"
 		"Command"			"characterloadout"
 		"paintbackground"	"1"
@@ -378,9 +379,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override" 	"White"
+		"defaultFgColor_override"		"TanLight"
+		"armedFgColor_override"			"TanLight"
+		"depressedFgColor_override" 	"TanLight"
 
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"
@@ -402,7 +403,7 @@
 		"tabPosition"		"0"
 		"labelText"			"C"
 		"textAlignment"		"center"
-		"font"				"CustomIcons"
+		"font"				"SmallIcons"
 		"scaleImage"		"1"
 		"Command"			"tauntloadout"
 		"paintbackground"	"1"
@@ -410,9 +411,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override" 	"White"
+		"defaultFgColor_override"		"TanLight"
+		"armedFgColor_override"			"TanLight"
+		"depressedFgColor_override" 	"TanLight"
 
 		"defaultBgColor_override"		"DarkGrey"
 		"depressedBgColor_override" 	"DarkGrey"

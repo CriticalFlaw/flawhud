@@ -52,7 +52,7 @@
 			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"	"Center"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 	}
 

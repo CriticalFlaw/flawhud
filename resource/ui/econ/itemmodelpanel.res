@@ -90,7 +90,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"centerwrap"	"1"
 		}
 

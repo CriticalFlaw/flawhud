@@ -96,7 +96,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"m"
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -111,9 +111,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"Yellow"
-			"depressedFgColor_override"	"White"
+			"depressedFgColor_override"	"TanLight"
 		}
 
 		"PartySlot0"
@@ -359,7 +359,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -397,7 +397,7 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "TanDarker"
 
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"0 191 255 255"
 
 				"SubImage"
@@ -431,7 +431,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -444,9 +444,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 		}
 
@@ -564,7 +564,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"NormalIcons"
+			"font"			"MediumIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -599,7 +599,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"NormalIcons"
+			"font"			"MediumIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -634,7 +634,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"NormalIcons"
+			"font"			"MediumIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -669,7 +669,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"NormalIcons"
+			"font"			"MediumIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

@@ -13,7 +13,7 @@
 		"paintbackground"	"1"
 		"paintborder"		"0"
 		"bgcolor_override"	"DarkGrey"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"MOTD_HeaderContainer"
 		{
@@ -30,7 +30,7 @@
 			{
 				"ControlName"			"Label"
 				"fieldName"				"HeaderLabel"
-				"font"					"FontBold12"
+				"font"					"FontBold14"
 				"textAlignment"			"center"
 				"xpos"					"0"
 				"ypos"					"0"
@@ -41,7 +41,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintbackground" 		"0"
-				"fgcolor_override"		"White"
+				"fgcolor_override"		"TanLight"
 				"labelText"				"#TF_OptionCategory_HUD"
 			}
 		}
@@ -61,7 +61,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labeltext"			"("
-			"font"				"CustomIcons"
+			"font"				"SmallIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -73,9 +73,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"MOTD_HeaderIcon"
@@ -341,7 +341,6 @@
 			"labelText"				"#FH_game_volume"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			"fgcolor_override"		"White"
 			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -383,7 +382,6 @@
 			"labelText"				"#FH_damage_color"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			"fgcolor_override"		"White"
 			
 			"pin_to_sibling"		"InviliblePlayersFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -404,7 +402,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -434,7 +432,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -464,7 +462,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -494,7 +492,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -524,7 +522,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -554,7 +552,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			

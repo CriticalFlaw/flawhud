@@ -68,8 +68,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"playername"
-				"font"				"FontRegular10"
-				"font_minmode"		"FontIcons10"
+				"font"				"FontRegular11"
+				"font_minmode"		"FontIcons11"
 				"xpos"				"22"
 				"ypos"				"0"
 				"zpos"				"5"
@@ -80,15 +80,15 @@
 				"visible"			"1"
 				"labelText"			"%playername%"
 				"textAlignment"		"west"
-				"fgcolor"			"White"
+				"fgcolor"			"TanLight"
 			}
 
 			"playernameshadow"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"playernameshadow"
-				"font"				"FontRegular10"
-				"font_minmode"		"FontIcons10"
+				"font"				"FontRegular11"
+				"font_minmode"		"FontIcons11"
 				"xpos"				"0"
 				"ypos"				"-1"
 				"zpos"				"5"
@@ -206,7 +206,7 @@
 				"visible"			"1"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"center"
-				"fgcolor"			"White"
+				"fgcolor"			"TanLight"
 			}
 
 			"respawntimeshadow"

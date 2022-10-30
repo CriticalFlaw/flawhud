@@ -50,7 +50,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"FontBold20"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"TargetHealthShadow"

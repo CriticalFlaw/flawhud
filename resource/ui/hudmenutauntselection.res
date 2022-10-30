@@ -13,7 +13,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"Divider"
@@ -148,7 +148,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel1"
@@ -156,7 +156,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"31"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -221,7 +221,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel2"
@@ -229,7 +229,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"87"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -294,7 +294,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel3"
@@ -302,7 +302,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"142"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -367,7 +367,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel4"
@@ -375,7 +375,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"199"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -440,7 +440,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel5"
@@ -448,7 +448,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"255"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -513,7 +513,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel6"
@@ -521,7 +521,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"311"
 		"ypos"			"68"
 		"zpos"			"5"
@@ -586,7 +586,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel7"
@@ -658,7 +658,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel8"
@@ -666,7 +666,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
 		"font"			"FontBold14"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"424"
 		"ypos"			"68"
 		"zpos"			"5"

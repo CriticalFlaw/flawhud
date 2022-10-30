@@ -25,7 +25,7 @@
 		"ypos"				"74"
 		"wide"				"550"
 		"tall"				"20"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"PlayerListBackground"
@@ -77,7 +77,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"22"
-		"textcolor"			"White"
+		"textcolor"			"TanLight"
 		"pin_to_sibling"	"PlayerListBG"
 	}
 
@@ -137,7 +137,7 @@
 			"ypos"			"5"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"PreviousWaveCreditInfoPanel"

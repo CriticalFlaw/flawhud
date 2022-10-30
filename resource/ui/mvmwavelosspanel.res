@@ -63,7 +63,7 @@
 		"ypos"				"140"
 		"wide"				"550"
 		"tall"				"30"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"CollectionContainer"
@@ -86,7 +86,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"CollectedLabel"
@@ -99,7 +99,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"CollectedCount"
@@ -186,7 +186,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"YouLabel"
@@ -364,7 +364,7 @@
 			"xpos"			"0"
 			"ypos"			"5"
 			"wide"			"500"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"CptCntnBody"
@@ -437,7 +437,7 @@
 			"ypos"			"60"
 			"wide"			"185"
 			"tall"			"55"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"wrap"			"1"
 		}
 
@@ -466,7 +466,7 @@
 			"ypos"			"60"
 			"wide"			"185"
 			"tall"			"55"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"wrap"			"1"
 		}
 	}

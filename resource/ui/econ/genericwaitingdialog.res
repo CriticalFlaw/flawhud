@@ -33,7 +33,7 @@
 		"centerwrap"			"1"
 		"labelText"				"%updatetext%"
 		"textAlignment"			"center"
-		"fgcolor_override" 		"White"
+		"fgcolor_override" 		"TanLight"
 	}
 
 	"EllipsesLabel"
@@ -52,7 +52,7 @@
 		"enabled"				"1"
 		"labelText"				"%ellipses%"
 		"textAlignment"			"north"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
 
@@ -72,7 +72,7 @@
 		"enabled"				"1"
 		"labelText"				"%duration%"
 		"textAlignment"			"north"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
 
