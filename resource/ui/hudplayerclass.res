@@ -184,7 +184,7 @@
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"
-			"font_minmode"		"FontIcons8"
+			"font_minmode"		"SmallerIcons"
 			"xpos"				"5"
 			"ypos"				"14"
 			"zpos"				"0"

@@ -100,7 +100,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"FontRegular10"
-				"font_minmode"	"FontIcons10"
+				"font_minmode"	"SmallerIcons"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"

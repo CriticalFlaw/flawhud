@@ -61,7 +61,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labeltext"			"("
-			"font"				"CustomIcons"
+			"font"				"SmallIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -402,7 +402,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -432,7 +432,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -462,7 +462,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -492,7 +492,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 0"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -522,7 +522,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			
@@ -552,7 +552,7 @@
 			"labelText"				"#"
 			"command"				"engine hud_combattext 1;hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 255"
 			"actionsignallevel"		"2"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
 			

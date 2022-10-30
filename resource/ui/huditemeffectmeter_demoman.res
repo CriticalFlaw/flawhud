@@ -108,7 +108,7 @@
 		"enabled"				"1"
 		"labelText"				"K"
 		"textAlignment"			"west"
-		"font"					"CustomIcons"
+		"font"					"SmallIcons"
 		"fgcolor_override"		"TanLight"
 	}
 
@@ -125,7 +125,7 @@
 		"enabled"				"1"
 		"labelText"				"K"
 		"textAlignment"			"west"
-		"font"					"CustomIcons"
+		"font"					"SmallIcons"
 		"fgcolor_override"		"Black"
 		"pin_to_sibling"		"StreakIcon"
 	}
