@@ -110,6 +110,6 @@
 	{
 		"label"			"."
 		"command"		"engine vgui_cache_res_files 0;hud_reloadscheme"
-		"tooltip"		"#FH_reload_hud"
+		"tooltip"		"#FH_refresh_hud"
 	}
 }
