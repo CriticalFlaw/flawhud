@@ -27,11 +27,10 @@
 		{
 			"wide"					"95"
 			"tall"					"70"
-
-			"model_center_x"		"1"
 			"model_ypos"			"5"
-			"model_tall"			"55"
 			"model_wide"			"82"
+			"model_tall"			"55"
+			"model_center_x"		"1"
 			"text_ypos"				"0"
 			"text_forcesize"		"2"
 			"text_center"			"0"
@@ -39,30 +38,33 @@
 			"name_only"				"1"
 			"inset_eq_y"			"56"
 			"inset_eq_x"			"56"
+			"deferred_description"	"1"
+			"deferred_icon"			"1"
 		}
 
 		"modelpanels_kv"
 		{
-			"ControlName"	"CItemModelPanel"
+			"ControlName"			"CItemModelPanel"
 			"xpos"					"c-70"
 			"ypos"					"270"
-			"wide"					"95"
-			"tall"					"70"
+			"wide"					"54"
+			"tall"					"42"
 			"visible"				"0"
 			"bgcolor_override"		"Transparent"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
-
-			"model_center_x"		"1"
-			"model_ypos"			"5"
-			"model_tall"			"55"
-			"model_wide"			"82"
-			"text_ypos"				"0"
-			"text_forcesize"		"2"
-			"text_center"			"0"
-			"text_yoffset"			"2"
+			
+			"model_xpos"			"2"
+			"model_ypos"			"5" 
+			"model_wide"			"50"
+			"model_tall"			"35"
+			"text_ypos"				"60"
+			"text_center"			"1"
 			"name_only"				"1"
+			"inset_eq_x"			"4"
+			"inset_eq_y"			"2"
+			"deferred_description"	"1"
 
 			"itemmodelpanel"
 			{
@@ -224,7 +226,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -253,7 +255,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c-40"
+		"xpos"			"c-55"
 		"ypos"			"320"
 		"zpos"			"20"
 		"wide"			"220"
@@ -270,7 +272,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_backpack"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -278,7 +280,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c25"
+		"xpos"			"c-55"
 		"ypos"			"320"
 		"zpos"			"20"
 		"wide"			"220"
@@ -295,7 +297,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_selection"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -304,7 +306,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
+		"xpos"			"c185"
 		"ypos"			"320"
 		"zpos"			"1"
 		"wide"			"30"
@@ -320,7 +322,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -332,7 +334,7 @@
 		"font"			"FontBold16"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c225"
+		"xpos"			"c220"
 		"ypos"			"320"
 		"zpos"			"1"
 		"wide"			"40"
@@ -363,6 +365,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -381,7 +384,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
-		"paintbackground"		"0"
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
