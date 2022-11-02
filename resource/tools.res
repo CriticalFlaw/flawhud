@@ -146,7 +146,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"#FH_reload_hud"
-			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme; toggle mat_aaquality"
+			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
