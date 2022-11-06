@@ -108,8 +108,8 @@
 			"labelText"	"4"
 			"textAlignment"	"center"
 			"font"	"SmallIcons"
-			"fgcolor_override"	"White"
-			"fgcolor"	"White"
+			"fgcolor_override"	"255 255 255 255"
+			"fgcolor"	"255 255 255 255"
 		}
 		"StickyIconShadow"
 		{
