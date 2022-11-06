@@ -5,8 +5,8 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
-		"xpos"				"c-55"
-		"ypos"				"c110"
+		"xpos"				"r120"
+		"ypos"				"c105"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"8"
@@ -17,6 +17,8 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"255 255 255 255"
+		"fgcolor"	"255 255 255 255"
 	}
 
 	"ItemEffectMeterLabel"
