@@ -67,8 +67,8 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"FontBold20"
-			"fgcolor_override"	"255 255 255 255"
-			"fgcolor"			"255 255 255 255"
+			"fgcolor_override"	"TanLight"
+			"fgcolor"			"TanLight"
 			"pin_to_sibling"	"StickyIcon"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -109,8 +109,8 @@
 			"labelText"			"4"
 			"textAlignment"		"center"
 			"font"				"SmallIcons"
-			"fgcolor_override"	"255 255 255 255"
-			"fgcolor"			"255 255 255 255"
+			"fgcolor_override"	"TanLight"
+			"fgcolor"			"TanLight"
 		}
 		"StickyIconShadow"
 		{
