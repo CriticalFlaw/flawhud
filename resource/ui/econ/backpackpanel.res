@@ -242,7 +242,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NameFilterLabel"
 		"font"				"FontRegular12"
-		"labelText"			"#FH_search"
+		"labelText"			"#Store_NameFilterLabel"
 		"textAlignment"		"west"
 		"xpos"				"c-287"
 		"ypos"				"15"
