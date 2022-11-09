@@ -14,11 +14,12 @@
 		"paintBackground"    	"1"
 		"PaintBackgroundType"	"2"
 		"paintBorder"			"0"
-
-		"model_ypos"			"10"
+		
+		"model_center_y"		"1"
 		"model_center_x"		"1"
-		"model_wide"			"100"
-		"model_tall"			"75"
+		"model_wide"			"110"
+		"model_tall"			"82"
+		"noitem_use_fullpanel " "1"
 
 		"text_xpos"				"10"
 		"text_ypos"				"10"
@@ -51,8 +52,8 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
