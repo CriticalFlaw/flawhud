@@ -225,7 +225,7 @@
 		"xpos"				"c-65"
 		"ypos"				"34"
 		"zpos"				"1"
-		"wide"				"120"
+		"wide"				"122"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
