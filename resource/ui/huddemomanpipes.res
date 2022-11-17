@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
-		"xpos"				"r120"
-		"ypos"				"c125"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"110"
 		"tall"				"8"
@@ -19,6 +19,7 @@
 		"brighttext"		"0"
 		"font"				"FontBold10"
 		"fgcolor_override"	"Black"
+		"pin_to_sibling"	"ChargeMeter"
 	}
 	"ChargeMeter"
 	{
