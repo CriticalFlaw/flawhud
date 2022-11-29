@@ -4,15 +4,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SafeMode"
-		"xpos"				"r345"
+		"xpos"				"c30"
 		"ypos"				"130"
 		"zpos"				"100"
-		"wide"				"300"
-		"tall"				"200"
+		"wide"				"350"
+		"tall"				"300"
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"MOTD_HeaderContainer"
@@ -21,7 +21,7 @@
 			"fieldName"			"MOTD_HeaderContainer"
 			"xpos"				"0"
 			"ypos"				"0"
-			"wide"				"300"
+			"wide"				"350"
 			"tall"				"22"
 			"visible"			"1"
 			"bgcolor_override"	"Yellow"
@@ -30,12 +30,12 @@
 			{
 				"ControlName"			"Label"
 				"fieldName"				"HeaderLabel"
-				"font"					"FontBold14"
+				"font"					"FontBold18"
 				"textAlignment"			"center"
 				"xpos"					"0"
 				"ypos"					"0"
-				"wide"					"300"
-				"tall"					"24"
+				"wide"					"350"
+				"tall"					"22"
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -50,18 +50,18 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"MOTD_CloseButton"
-			"xpos"				"282"
-			"ypos"				"4"
+			"xpos"				"325"
+			"ypos"				"1"
 			"zpos"				"10"
-			"wide"				"14"
-			"tall"				"14"
+			"wide"				"20"
+			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labeltext"			"("
-			"font"				"SmallIcons"
+			"font"				"MediumIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -184,7 +184,7 @@
 		
 		"CaptionsToggle"
 		{
-			"ControlName"			"CExImageButton"
+			"ControlName"			"CExCheckButton"
 			"fieldname"				"CaptionsToggle"
 			"xpos"					"0"
 			"ypos"					"5"
@@ -208,7 +208,7 @@
 		
 		"MatchStatusToggle"
 		{
-			"ControlName"			"CExImageButton"
+			"ControlName"			"CExCheckButton"
 			"fieldname"				"MatchStatusToggle"
 			"xpos"					"5"
 			"ypos"					"0"
@@ -232,7 +232,7 @@
 		
 		"NetgraphToggle"
 		{
-			"ControlName"			"CExImageButton"
+			"ControlName"			"CExCheckButton"
 			"fieldname"				"NetgraphToggle"
 			"xpos"					"0"
 			"ypos"					"5"
@@ -256,7 +256,7 @@
 		
 		"ChatToggle"
 		{
-			"ControlName"			"CExImageButton"
+			"ControlName"			"CExCheckButton"
 			"fieldname"				"ChatToggle"
 			"xpos"					"5"
 			"ypos"					"0"
@@ -363,6 +363,47 @@
 			"allowoutofrange"		"0"
 			
 			"pin_to_sibling"		"VolumeLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"ViewmodelLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"ViewmodelLabel"
+			"xpos"					"0"
+			"ypos"					"5"
+			"wide"					"130"
+			"tall"					"11"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"Viewmodel FOV"
+			"font"					"FontBold12"
+			"textAlignment"			"center"
+			
+			"pin_to_sibling"		"SoundSlider"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"ViewmodelSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"ViewmodelSlider"
+			"xpos"					"0"
+			"ypos"					"5"
+			"wide"					"130"
+			"tall"					"20"
+			"leftText"				"75"
+			"rightText"				"90"
+			"minvalue"				"75"
+			"maxvalue"				"90"
+			"cvar_name"				"viewmodel_fov"
+			"allowoutofrange"		"0"
+			
+			"pin_to_sibling"		"ViewmodelLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
