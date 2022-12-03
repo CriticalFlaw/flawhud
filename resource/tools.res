@@ -12,7 +12,7 @@
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"DarkGrey"
 		"PaintBackgroundType"	"2"
 
 		"MOTD_HeaderContainer"
@@ -30,7 +30,7 @@
 			{
 				"ControlName"			"Label"
 				"fieldName"				"HeaderLabel"
-				"font"					"FontBold18"
+				"font"					"FontBold16"
 				"textAlignment"			"center"
 				"xpos"					"0"
 				"ypos"					"0"
@@ -136,7 +136,7 @@
 		
 		"ReloadScheme"
 		{
-			"ControlName"			"CExImageButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"ReloadScheme"
 			"xpos"					"-20"
 			"ypos"					"10"
@@ -283,7 +283,7 @@
 	
 		"StreamerMode"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"StreamerMode"
 			"xpos"					"5"
 			"ypos"					"1"
@@ -307,7 +307,7 @@
 		
 		"CaptionsToggle"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"CaptionsToggle"
 			"xpos"					"0"
 			"ypos"					"6"
@@ -331,7 +331,7 @@
 		
 		"MatchStatusToggle"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"MatchStatusToggle"
 			"xpos"					"0"
 			"ypos"					"6"
@@ -355,7 +355,7 @@
 		
 		"NetgraphToggle"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"NetgraphToggle"
 			"xpos"					"0"
 			"ypos"					"6"
@@ -379,7 +379,7 @@
 		
 		"ChatToggle"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"ChatToggle"
 			"xpos"					"0"
 			"ypos"					"6"
@@ -403,7 +403,7 @@
 		
 		"MinViewmodelToggle"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CExButton"
 			"fieldname"				"MinViewmodelToggle"
 			"xpos"					"0"
 			"ypos"					"6"
