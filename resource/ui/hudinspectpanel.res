@@ -17,9 +17,9 @@
 		
 		"model_center_y"		"1"
 		"model_center_x"		"1"
-		"model_wide"			"110"
-		"model_tall"			"82"
-		"noitem_use_fullpanel " "1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		"noitem_use_fullpanel " "0"
 
 		"text_xpos"				"10"
 		"text_ypos"				"10"
