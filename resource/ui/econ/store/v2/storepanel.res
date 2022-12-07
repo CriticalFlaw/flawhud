@@ -106,14 +106,14 @@
 		"tabwidth"			"240"
 		"tabheight"			"25"
 		"transition_time" 	"0"
-		"yoffset"			"10"
+		"yoffset"			"20"
 
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"20"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"

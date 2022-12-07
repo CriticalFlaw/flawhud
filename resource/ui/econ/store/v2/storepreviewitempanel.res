@@ -131,7 +131,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"TanLight"
 		}
 
 		// Scrollable editable panel for right-hand side of preview, for all text details
