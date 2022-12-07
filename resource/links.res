@@ -247,7 +247,7 @@
 		"ypos"					"10"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"125"
+		"tall"					"128"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"

@@ -24,7 +24,7 @@
 			"wide"				"345"
 			"tall"				"22"
 			"visible"			"1"
-			"bgcolor_override"	"Yellow"
+			"bgcolor_override"	"77 116 85 255"
 
 			"HeaderLabel"
 			{
