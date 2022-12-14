@@ -279,6 +279,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanLight"
 		
 		"pin_to_sibling"			"BGPanel1"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
@@ -1283,7 +1287,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2022.1112"
+		"labelText"			"FlawHUD v2022.1214"
 		"labelText_minmode"	"#FH_streamer_mode_active"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"

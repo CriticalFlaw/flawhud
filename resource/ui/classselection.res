@@ -37,11 +37,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Scout"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass scout"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -70,7 +69,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"11"
-		"wide"						"30"
+		"wide"						"25"
 		"tall"						"25"
 		"visible"					"1"
 		"enabled"					"1"
@@ -83,6 +82,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"scout"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"soldier"
@@ -100,11 +101,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Soldier"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass soldier"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -150,6 +150,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"soldier"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"pyro"
@@ -167,11 +169,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Pyro"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass pyro"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -217,6 +218,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"pyro"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"demoman"
@@ -234,11 +237,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Demoman"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass demoman"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -284,6 +286,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"demoman"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"heavyweapons"
@@ -301,11 +305,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_HWGuy"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass heavyweapons"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -351,6 +354,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"heavyweapons"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"engineer"
@@ -368,11 +373,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Engineer"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass engineer"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -418,6 +422,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"engineer"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"medic"
@@ -435,11 +441,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Medic"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass medic"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -485,6 +490,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"medic"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"sniper"
@@ -502,11 +509,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Sniper"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass sniper"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -552,6 +558,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"sniper"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"spy"
@@ -569,11 +577,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Spy"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass spy"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -619,6 +626,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"spy"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	// I believe Valve hardcoded part of this control for some reason.
