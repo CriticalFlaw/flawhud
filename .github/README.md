@@ -92,6 +92,7 @@ Currently, there are only two supported languages for closed captions. These are
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
 * Admiral Bread Crumbs
 * berry-jordan
+* ca7x3
 * DrummingFish
 * Kybrid96
 * Owlgod
