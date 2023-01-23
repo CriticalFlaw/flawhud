@@ -156,7 +156,7 @@
         "dulltext"		"0"
         "brighttext"	"0"
         "font"			"FontBold12"
-        "fgcolor"		"White"
+        "fgcolor"		"TanLight"
 
         "medigun-vaccinator" {
             "labelText"	"%charges%"
@@ -247,7 +247,7 @@
 		"brighttext"	"0"
 		"textinsetx"	"10"
 		"font"			"FontRegular10"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"proportionaltoparent"	"1"
 
 		"medigun-medigun" {

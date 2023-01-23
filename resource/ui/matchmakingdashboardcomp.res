@@ -27,7 +27,7 @@
 		"labeltext"				"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"			"center"
 		"font"					"FontBold20"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"DarkGrey"
 		"mouseinputenabled"		"0"
 	}
@@ -133,8 +133,5 @@
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"White"
-		"defaultBgColor_override"	"DarkerGrey"
 	}
 }

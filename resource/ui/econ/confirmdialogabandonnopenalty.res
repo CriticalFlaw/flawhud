@@ -35,7 +35,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"AbandonIcon"
@@ -69,7 +69,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
-		"fgcolor_override" 		"White"
+		"fgcolor_override" 		"TanLight"
 	}
 
 	"CancelButton"

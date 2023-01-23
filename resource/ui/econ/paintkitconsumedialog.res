@@ -25,7 +25,7 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"proportionaltoparent"	"1"
 	}
 
@@ -43,7 +43,7 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"proportionaltoparent"	"1"
 		"pin_to_sibling"		"InspectionPanel"
 	}

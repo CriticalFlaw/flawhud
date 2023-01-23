@@ -4,33 +4,16 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"2"
-		"ypos"				"r20"
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-	}
-	
-	"ItemEffectMeterCount"
-	{
-		"xpos"				"20"
+		"ypos"				"r50"
 	}
 
 	"StreakIcon"
 	{
-		"xpos"				"2"
-		"visible"			"1"
-		"enabled"			"1"
 		"labelText"			"\"
 	}
 
 	"StreakIconShadow"
 	{
-		"visible"			"1"
-		"enabled"			"1"
 		"labelText"			"\"
 	}
 }

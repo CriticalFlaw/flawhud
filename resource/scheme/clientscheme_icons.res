@@ -2,19 +2,19 @@ Scheme
 {
 	Fonts
 	{
-		"MenuArrows"
+		"LargeIcons"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"15"
-				"weight"		"400"
+				"tall"			"50"
+				"weight"		"0"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
-		"NormalIcons"
+		"MediumIcons"
 		{
 			"1"
 			{
@@ -26,78 +26,27 @@ Scheme
 			}
 		}
 		
-		"LargeIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"62"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"MenuIcons"
+		"SmallIcons"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
 				"tall"			"16"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
 		
-		"CustomIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"ClassIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"25"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"FontIcons12"
+		"SmallerIcons"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
 				"tall"			"12"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
-			}
-		}
-		"FontIcons10"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"10"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"FontIcons8"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"8"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 	}

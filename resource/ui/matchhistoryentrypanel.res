@@ -383,10 +383,10 @@
 				"textAlignment"		"west"
 			}
 
-			"ClassIcons"
+			"MediumIcons"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"ClassIcons"
+				"fieldName"		"MediumIcons"
 				"xpos"			"rs1-5"
 				"ypos"			"2"
 				"wide"			"o1"

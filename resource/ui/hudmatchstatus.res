@@ -34,7 +34,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
 	}
 	"CountdownLabelShadow"
@@ -237,7 +237,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"FontBold20"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -274,11 +274,11 @@
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
-		"team1_max_expand"	"220"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir"	"east"
 		"team2_base_x"		"c45"
-		"team2_max_expand"	"220"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -290,8 +290,8 @@
 
 			"color_portrait_bg_red"				"HUDRedTeamSolid"
 			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
-			"color_portrait_bg_red_dead"		"102 48 46 255"
-			"color_portrait_bg_blue_dead"		"46 73 82 255"
+			"color_portrait_bg_red_dead"		"HUDRedTeamDark"
+			"color_portrait_bg_blue_dead"		"HUDBlueTeamDark"
 			"color_bar_health_high"				"Overheal"
 			"color_bar_health_med"				"Overheal"
 			"percentage_health_med"				"0.5"

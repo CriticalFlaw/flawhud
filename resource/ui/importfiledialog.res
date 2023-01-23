@@ -125,7 +125,7 @@
 		"maxchars"			"128"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
@@ -165,7 +165,7 @@
 		"pinCorner"			"0"
 		"editable"			"0"
 		"visible"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 	}
 
@@ -216,7 +216,7 @@
 			"pinCorner"			"0"
 			"editable"			"0"
 			"visible"			"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"Black"
 		}
 	}
@@ -260,7 +260,7 @@
 		"maxchars"			"128"
 		"NumericInputOnly"	"1"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
@@ -305,7 +305,7 @@
 		"maxchars"			"128"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 		"paintbackgroundtype"	"2"
 		"font"					"FontRegular12"
@@ -379,7 +379,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labeltext"			"("
-			"font"				"CustomIcons"
+			"font"				"SmallIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -390,9 +390,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"ButtonIconBrowse"
@@ -412,7 +412,7 @@
 			"textAlignment"	"west"
 			"labelText"		""
 			"command"		"BrowseIcon"
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"170 221 183 255"
 			"image_disabledcolor"	"0 0 0 255"
 			"paintbackground"		"0"
@@ -520,7 +520,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Scout"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight2"
 		{
@@ -544,7 +544,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Sniper"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight3"
 		{
@@ -568,7 +568,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Soldier"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight4"
 		{
@@ -592,7 +592,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Demoman"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight5"
 		{
@@ -616,7 +616,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Medic"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight6"
 		{
@@ -640,7 +640,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_HWGuy"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight7"
 		{
@@ -664,7 +664,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Pyro"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight8"
 		{
@@ -688,7 +688,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Spy"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight9"
 		{
@@ -712,7 +712,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Engineer"
 			"font"			"FontRegular12"
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"TanLight"
 		}
 	}
 
@@ -1000,7 +1000,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1011,9 +1011,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD0Browse"
 			{
@@ -1031,7 +1031,7 @@
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseLOD0"
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"170 221 183 255"
 				"image_disabledcolor"	"0 0 0 255"
 				"paintbackground"		"0"
@@ -1118,7 +1118,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1129,9 +1129,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD1Browse"
 			{
@@ -1150,7 +1150,7 @@
 				"enabled"		"0"
 				"labelText"		""
 				"command"		"BrowseLOD1"
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"170 221 183 255"
 				"image_disabledcolor"	"0 0 0 255"
 				"paintbackground"		"0"
@@ -1239,7 +1239,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1250,9 +1250,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD2Browse"
 			{
@@ -1271,7 +1271,7 @@
 				"enabled"		"0"
 				"labelText"		""
 				"command"		"BrowseLOD2"
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"170 221 183 255"
 				"image_disabledcolor"	"0 0 0 255"
 				"paintbackground"		"0"
@@ -1413,7 +1413,7 @@
 			"pinCorner"			"0"
 			"editable"			"0"
 			"visible"			"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"Black"
 		}
 
@@ -1818,7 +1818,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1829,9 +1829,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonAnimationSourceBrowse"
 			{
@@ -1849,7 +1849,7 @@
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseAnimationSource"
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"170 221 183 255"
 				"image_disabledcolor"	"0 0 0 255"
 				"paintbackground"		"0"
@@ -1935,7 +1935,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"("
-				"font"			"CustomIcons"
+				"font"			"SmallIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1946,9 +1946,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonAnimationVCDBrowse"
 			{
@@ -1966,7 +1966,7 @@
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseAnimationVCD"
-				"image_drawcolor"	"White"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"170 221 183 255"
 				"image_disabledcolor"	"0 0 0 255"
 				"paintbackground"		"0"
@@ -2067,7 +2067,7 @@
 			"maxchars"			"128"
 			"NumericInputOnly"	"1"
 			"unicode"			"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"Black"
 			"paintbackgroundtype" "2"
 			"proportionaltoparent"	"1"

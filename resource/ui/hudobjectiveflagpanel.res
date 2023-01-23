@@ -155,7 +155,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{
@@ -219,7 +219,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{
@@ -321,7 +321,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FontRegular12"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{

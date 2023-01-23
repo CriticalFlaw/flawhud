@@ -35,7 +35,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"ExplanationLabel"
@@ -55,7 +55,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"centerwrap"			"1"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"CancelButton"

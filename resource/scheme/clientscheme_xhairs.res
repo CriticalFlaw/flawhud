@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Size:10 | Outline:OFF"
+		"Size:10"
 		{
 			"1"
 			{
@@ -12,7 +12,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:11 | Outline:OFF"
+		"Size:11"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:12 | Outline:OFF"
+		"Size:12"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:13 | Outline:OFF"
+		"Size:13"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:14 | Outline:OFF"
+		"Size:14"
 		{
 			"1"
 			{
@@ -52,7 +52,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:15 | Outline:OFF"
+		"Size:15"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:16 | Outline:OFF"
+		"Size:16"
 		{
 			"1"
 			{
@@ -72,7 +72,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:17 | Outline:OFF"
+		"Size:17"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:18 | Outline:OFF"
+		"Size:18"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:19 | Outline:OFF"
+		"Size:19"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:20 | Outline:OFF"
+		"Size:20"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:21 | Outline:OFF"
+		"Size:21"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:22 | Outline:OFF"
+		"Size:22"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:23 | Outline:OFF"
+		"Size:23"
 		{
 			"1"
 			{
@@ -142,7 +142,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:24 | Outline:OFF"
+		"Size:24"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:25 | Outline:OFF"
+		"Size:25"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:26 | Outline:OFF"
+		"Size:26"
 		{
 			"1"
 			{
@@ -172,7 +172,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:27 | Outline:OFF"
+		"Size:27"
 		{
 			"1"
 			{
@@ -182,7 +182,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:28 | Outline:OFF"
+		"Size:28"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:29 | Outline:OFF"
+		"Size:29"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:30 | Outline:OFF"
+		"Size:30"
 		{
 			"1"
 			{

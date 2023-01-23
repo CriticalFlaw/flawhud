@@ -76,25 +76,25 @@
 		"labelText"		"%button_token%"
 		"use_proportional_insets" "1"
 		"font"			"FontBold12"
-		"textAlignment"	"north"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
-		"textinsety"		"10"
+		"textinsety"		"0"
 
-		"border_default"	"PanelBorder"
+		"border_default"	"DarkBorderThick"
 		"border_armed"		"WhiteBorderThick"
 		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "75 125 255 255"
+		"defaultFgColor_override"	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
 	}
 
 	"MatchmakingBanPanel"

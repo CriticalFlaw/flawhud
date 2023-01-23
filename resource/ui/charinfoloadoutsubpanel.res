@@ -66,7 +66,7 @@
 		"Command"					"loadout scout"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 
@@ -80,22 +80,14 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Scout"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"c-310"
+		"ypos"						"c-100"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
-
-		"pin_to_sibling"			"CustomScout"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"fgcolor" 					"TanLight"
 	}
 
 	"soldier"
@@ -112,7 +104,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomSoldier"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -132,7 +124,7 @@
 		"Command"					"loadout soldier"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSoldier"
 		"depressedFgColor_override" "LOGSoldier"
 
@@ -140,7 +132,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomScout"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleSoldier"
@@ -150,22 +142,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Soldier"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomSoldier"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleScout"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"pyro"
@@ -182,7 +170,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomPyro"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -202,7 +190,7 @@
 		"Command"					"loadout pyro"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 
@@ -210,7 +198,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomSoldier"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitlePyro"
@@ -220,22 +208,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Pyro"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomPyro"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleSoldier"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"demoman"
@@ -252,7 +236,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomDemoman"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -272,7 +256,7 @@
 		"Command"					"loadout demoman"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGDemoman"
 		"depressedFgColor_override" "LOGDemoman"
 
@@ -280,7 +264,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomPyro"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleDemoman"
@@ -290,22 +274,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Demoman"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomDemoman"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitlePyro"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"heavyweapons"
@@ -322,7 +302,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomHeavy"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -342,7 +322,7 @@
 		"Command"					"loadout heavy"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 
@@ -350,7 +330,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomDemoman"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleHeavy"
@@ -360,22 +340,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_HWGuy"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomHeavy"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleDemoman"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"engineer"
@@ -392,7 +368,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomEngineer"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -412,7 +388,7 @@
 		"Command"					"loadout engineer"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGEngineer"
 		"depressedFgColor_override" "LOGEngineer"
 
@@ -420,7 +396,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomHeavy"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleEngineer"
@@ -430,22 +406,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Engineer"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomEngineer"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleHeavy"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"medic"
@@ -462,7 +434,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomMedic"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -482,7 +454,7 @@
 		"Command"					"loadout medic"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 
@@ -490,7 +462,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomEngineer"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleMedic"
@@ -500,22 +472,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Medic"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomMedic"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleEngineer"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"sniper"
@@ -532,7 +500,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomSniper"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -552,7 +520,7 @@
 		"Command"					"loadout sniper"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSniper"
 		"depressedFgColor_override" "LOGSniper"
 
@@ -560,7 +528,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomMedic"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleSniper"
@@ -570,22 +538,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Sniper"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomSniper"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleMedic"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"spy"
@@ -602,7 +566,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomSpy"
-		"xpos"						"70"
+		"xpos"						"10"
 		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"60"
@@ -622,7 +586,7 @@
 		"Command"					"loadout spy"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 
@@ -630,7 +594,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"			"CustomSniper"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleSpy"
@@ -640,22 +604,18 @@
 		"font"						"FontBold12"
 		"labelText"					"#TF_Spy"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"5"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
-		"wide"						"70"
+		"wide"						"60"
 		"tall"						"15"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"wrap"						"1"
-		"fgcolor" 					"White"
-		"centerwrap"				"1"
+		"fgcolor" 					"TanLight"
 
-		"pin_to_sibling"			"CustomSpy"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"			"TitleSniper"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"ShowBackpackButton"
@@ -692,7 +652,7 @@
 		"Command"					"backpack"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 
@@ -755,7 +715,7 @@
 		"Command"					"crafting"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 
@@ -822,7 +782,7 @@
 		"Command"					"armory"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 
@@ -889,7 +849,7 @@
 		"Command"					"trading"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 
@@ -957,7 +917,7 @@
 		"Command"					"paintkit_preview"
 		"paintbackground"			"0"
 
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 
@@ -1229,7 +1189,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1240,9 +1200,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 		"PositionLabel"
 		{
@@ -1292,7 +1252,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1387,7 +1347,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1398,9 +1358,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1433,7 +1393,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1500,7 +1460,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1594,7 +1554,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1605,9 +1565,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1640,7 +1600,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1707,7 +1667,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1801,7 +1761,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1812,9 +1772,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1847,7 +1807,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -1914,7 +1874,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2008,7 +1968,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2019,9 +1979,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2054,7 +2014,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2121,7 +2081,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2215,7 +2175,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2226,9 +2186,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2261,7 +2221,7 @@
 			"armedFgColor_override" "Yellow"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2328,7 +2288,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -2421,7 +2381,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2432,9 +2392,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -2467,7 +2427,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{

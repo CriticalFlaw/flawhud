@@ -90,7 +90,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"BlueScoreShadow"
@@ -125,7 +125,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"RedScoreShadow"
@@ -174,7 +174,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FontRegular12"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"PlayingToBG"

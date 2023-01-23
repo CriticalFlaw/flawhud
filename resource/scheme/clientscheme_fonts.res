@@ -228,7 +228,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"10"
+				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -825,7 +825,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"11"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"

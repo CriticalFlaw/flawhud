@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
-		"xpos"				"c-60"
-		"ypos"				"c120"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
-		"wide"				"120"
+		"wide"				"110"
 		"tall"				"8"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -19,16 +19,16 @@
 		"brighttext"		"0"
 		"font"				"FontBold10"
 		"fgcolor_override"	"Black"
+		"pin_to_sibling"	"ChargeMeter"
 	}
-
 	"ChargeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
-		"xpos"				"c-60"
-		"ypos"				"c120"
+		"xpos"				"r120"
+		"ypos"				"c155"
 		"zpos"				"2"
-		"wide"				"120"
+		"wide"				"110"
 		"tall"				"8"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -38,26 +38,25 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PipesPresentPanel"
-		"xpos"				"0"
-		"ypos"				"c92"
+		"xpos"				"125"
+		"ypos"				"r68"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-
+		
 		"NumPipesLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"c-12"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"2"
-			"wide"				"24"
+			"wide"				"18"
 			"tall"				"14"
 			"autoResize"		"1"
 			"pinCorner"			"2"
@@ -65,10 +64,15 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"%activepipes%"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"FontBold20"
+			"fgcolor_override"	"TanLight"
+			"fgcolor"			"TanLight"
+			"pin_to_sibling"	"StickyIcon"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -77,7 +81,7 @@
 			"xpos"				"-2"
 			"ypos"				"-2"
 			"zpos"				"2"
-			"wide"				"24"
+			"wide"				"18"
 			"tall"				"14"
 			"autoResize"		"1"
 			"pinCorner"			"2"
@@ -85,14 +89,49 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"%activepipes%"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"FontBold20"
 			"fgcolor"			"Black"
 			"pin_to_sibling"	"NumPipesLabel"
 		}
-
+		"StickyIcon"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"StickyIcon"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"20"
+			"wide"				"20"
+			"tall"				"14"
+			"visible"			"1"
+			"enabled"			"1"
+			"labelText"			"4"
+			"textAlignment"		"west"
+			"font"				"SmallIcons"
+			"fgcolor_override"	"TanLight"
+			"fgcolor"			"TanLight"
+		}
+		"StickyIconShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"StickyIconShadow"
+			"xpos"				"-2"
+			"ypos"				"-2"
+			"zpos"				"1"
+			"wide"				"20"
+			"tall"				"14"
+			"visible"			"1"
+			"enabled"			"1"
+			"labelText"			"4"
+			"textAlignment"		"west"
+			"font"				"SmallIcons"
+			"fgcolor"			"Black"
+			"fgcolor_override"	"Black"
+			"pin_to_sibling"	"StickyIcon"
+		}
+		
 		"PipeIcon"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -100,7 +139,7 @@
 			"xpos"				"9999"
 		}
 	}
-
+	
 	"NoPipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"

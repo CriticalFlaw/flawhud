@@ -56,7 +56,7 @@
 			"font"				"FontBold18"
 			"labelText"			"%blue_alive%"
 			"textAlignment"		"east"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 			"pin_to_sibling"	"background"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -153,7 +153,7 @@
 			"font"				"FontBold18"
 			"labelText"			"%red_alive%"
 			"textAlignment"		"west"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 			"pin_to_sibling"	"background"
 		}
 		"countshadow"

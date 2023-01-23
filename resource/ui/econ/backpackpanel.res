@@ -34,15 +34,15 @@
 		"button_override_delete_xpos"	"0"
 
 		"page_button_y"					"288"
-		"page_button_x_delta"			"3"
-		"page_button_y_delta"			"3"
-		"page_button_per_row"			"20"
-		"page_button_height"			"13"
+		"page_button_x_delta"			"5"
+		"page_button_y_delta"			"5"
+		"page_button_per_row"			"15"
+		"page_button_height"			"15"
 
 		"pagebuttons_kv"
 		{
 			"ControlName"			"EditablePanel"
-			"wide"					"10"
+			"wide"					"15"
 			"tall"					"10"
 			"visible"				"0"
 			"bgcolor_override"		"Transparent"
@@ -54,8 +54,8 @@
 			{
 				"fieldName"				"Button"
 				"ControlName"			"CExButton"
-				"wide"					"25"
-				"tall"					"13"
+				"wide"					"34"
+				"tall"					"15"
 				"visible"				"1"
 				"bgcolor_override"		"Transparent"
 				"noitem_textcolor"		"TextColor"
@@ -63,30 +63,30 @@
 				"paintborder"			"1"
 				"textAlignment"			"center"
 				"labelText"				"%page%"
-				"font"					"FontBold10"
+				"font"					"FontBold12"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
 
 			"New"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"New"
-				"font"				"FontStorePrice"
-				"textAlignment"		"east"
-				"ypos"				"0"
-				"xpos"				"0"
-				"zpos"				"0"
-				"wide"				"f1"
-				"tall"				"f-3"
-				"textinsetx"		"8"
-				"autoResize"		"1"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"1"
-				"labelText"			"#Store_Price_New"
-				"mouseinputenabled" "0"
-				"paintbackground"	"0"
+				"ControlName"			"CExLabel"
+				"fieldName"				"New"
+				"font"					"FontBold10"
+				"textAlignment"			"center"
+				"ypos"					"0"
+				"xpos"					"0"
+				"zpos"					"0"
+				"wide"					"f1"
+				"tall"					"f-5"
+				"textinsetx"			"8"
+				"autoResize"			"1"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"enabled"				"1"
+				"labelText"				"#Store_Price_New"
+				"mouseinputenabled"		"0"
+				"paintbackground"		"0"
 				"proportionaltoparent"	"1"
 				"border"				"StoreNewBorder"
 				"fgcolor"				"10 10 10 255"
@@ -128,7 +128,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"New"
-				"font"				"FontStorePrice"
+				"font"				"ItemFontNameSmallest"
 				"textAlignment"		"east"
 				"xpos"				"rs1"
 				"ypos"				"0"
@@ -190,8 +190,8 @@
 		"fieldName"			"ShowRarityComboBox"
 		"font"				"FontRegular11"
 		"wrap"				"0"
-		"xpos"				"c-25"
-		"ypos"				"37"
+		"xpos"				"c134"
+		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"15"
@@ -206,12 +206,12 @@
 		"unicode"			"0"
 		"default"			"0"
 
-		"fgcolor_override"					"White"
+		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Black"
-		"disabledFgColor_override"			"White"
+		"disabledFgColor_override"			"TanLight"
 		"disabledBgColor_override"			"Black"
 		"selectionColor_override"			"Black"
-		"selectionTextColor_override"		"White"
+		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"Black"
 	}
 
@@ -220,12 +220,12 @@
 		"ControlName"		"CheckButton"
 		"fieldName"			"ShowBaseItemsCheckbox"
 		"labelText"			"#ShowBaseItemsCheckBox"
-		"font"				"FontRegular11"
+		"font"				"FontRegular12"
 		"textAlignment"		"east"
-		"xpos"				"c-135"
+		"xpos"				"c-65"
 		"ypos"				"34"
 		"zpos"				"1"
-		"wide"				"120"
+		"wide"				"122"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -233,7 +233,7 @@
 		"enabled"			"1"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Black"
 	}
 
@@ -242,28 +242,29 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NameFilterLabel"
 		"font"				"FontRegular12"
-		"labelText"			"#FH_search"
+		"labelText"			"#Store_NameFilterLabel"
 		"textAlignment"		"west"
 		"xpos"				"c-287"
-		"ypos"				"35"
+		"ypos"				"15"
 		"zpos"				"1"
-		"wide"				"40"
+		"wide"				"90"
 		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"NameFilterTextEntry"
-		"xpos"				"c-250"
-		"ypos"				"37"
-		"wide"				"110"
-		"tall"				"15"
+		"font"				"FontRegular12"
+		"xpos"				"c-287"
+		"ypos"				"35"
+		"wide"				"220"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -272,17 +273,16 @@
 		"textHidden"		"0"
 		"editable"			"1"
 		"unicode"			"1"
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype" "2"
-		"font"				"FontRegular10"
 	}
 
 	"SortByComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"font"				"FontRegular10"
+		"font"				"FontRegular11"
 		"xpos"				"c134"
 		"ypos"				"37"
 		"zpos"				"1"
@@ -298,12 +298,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"				"White"
+		"fgcolor_override"				"TanLight"
 		"bgcolor_override"				"Black"
-		"disabledFgColor_override"		"White"
+		"disabledFgColor_override"		"TanLight"
 		"disabledBgColor_override"		"Black"
 		"selectionColor_override"		"Black"
-		"selectionTextColor_override"	"White"
+		"selectionTextColor_override"	"TanLight"
 		"defaultSelectionBG2Color_override" "Black"
 	}
 
@@ -378,17 +378,17 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c-328"
-		"ypos"			"105"
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"30"
-		"tall"			"150"
+		"tall"			"220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"MenuArrows"
+		"font"			"SmallIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -413,7 +413,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 	}
 
 	"NextPageButton"
@@ -421,45 +421,23 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c298"
-		"ypos"			"105"
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"30"
-		"tall"			"150"
+		"tall"			"220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"MenuArrows"
+		"font"			"SmallIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"NavHintLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NavHintLabel"
-		"font"			"FontRegular10"
-		"xpos"			"-5"
-		"ypos"			"20"
-		"zpos"			"1"	
-		"wide"			"250"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#FH_backpack_tip"
-		"textAlignment"	"west"
-		
-		"pin_to_sibling"		"Wall"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
 	"DragToNextPageButton"
@@ -477,7 +455,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"MenuArrows"
+		"font"			"SmallIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -501,7 +479,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"MenuArrows"
+		"font"			"SmallIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -622,7 +600,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -633,9 +611,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PositionLabel"
@@ -686,7 +664,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -780,7 +758,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -791,9 +769,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -825,7 +803,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -891,7 +869,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -985,7 +963,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -996,9 +974,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1030,7 +1008,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1077,7 +1055,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1191,7 +1169,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1202,9 +1180,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1236,7 +1214,7 @@
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1283,7 +1261,7 @@
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1396,7 +1374,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1407,9 +1385,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -1441,7 +1419,7 @@
 			"armedFgColor_override"		"LightRed"
 			"depressedFgColor_override"	"TanDarker"
 			"image_drawcolor"			"NeutralWhite"
-			"image_armedcolor"			"White"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -1477,20 +1455,5 @@
 			"enabled"		"1"
 			"fgcolor_override" "LightRed"
 		}
-	}
-
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"c-340"
-		"ypos"			"20"
-		"zpos"			"-10"
-		"wide"			"680"
-		"tall"			"325"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"DarkerGrey"
-		"PaintBackgroundType"	"2"
 	}
 }

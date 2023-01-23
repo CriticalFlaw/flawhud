@@ -158,7 +158,7 @@
 			"enabled"		"1"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"BottomBorder"
 		{
@@ -175,7 +175,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"LeftBorder"
 		{
@@ -192,7 +192,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"RightBorder"
 		{
@@ -209,7 +209,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 
 		"InnerBGPanel"
@@ -300,7 +300,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 			"PaintBackgroundType"	"0"
 		}
 

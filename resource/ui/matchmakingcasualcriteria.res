@@ -74,7 +74,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"169 123 53 255"
 
 			"SubImage"
@@ -118,7 +118,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"169 123 53 255"
 
 			"SubImage"

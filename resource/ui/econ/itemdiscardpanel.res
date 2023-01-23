@@ -352,7 +352,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -363,9 +363,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PositionLabel"
@@ -416,7 +416,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -511,7 +511,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -522,9 +522,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -556,7 +556,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -622,7 +622,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -716,7 +716,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"CustomIcons"
+			"font"			"SmallIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -727,9 +727,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"PrevButton"
@@ -761,7 +761,7 @@
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"NeutralWhite"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{

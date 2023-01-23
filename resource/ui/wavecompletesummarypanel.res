@@ -47,7 +47,7 @@
 			"tall"					"30"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 	}
 
@@ -73,7 +73,7 @@
 			"ypos"					"5"
 			"wide"					"105"
 			"tall"					"20"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 
 		"CreditCollectedCountLabel"
@@ -101,7 +101,7 @@
 			"ypos"					"17"
 			"wide"					"105"
 			"tall"					"20"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 
 		"CreditMissedCountLabel"
@@ -129,7 +129,7 @@
 			"ypos"					"29"
 			"wide"					"105"
 			"tall"					"20"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 
 		"CreditBonusCountLabel"
@@ -169,7 +169,7 @@
 			"ypos"					"5"
 			"wide"					"115"
 			"tall"					"20"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 
 		"RatingText"
@@ -183,7 +183,7 @@
 			"ypos"					"19"
 			"wide"					"115"
 			"tall"					"30"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 	}
 
@@ -229,7 +229,7 @@
 			"ypos"					"3"
 			"wide"					"160"
 			"tall"					"20"
-			"fgcolor"				"White"
+			"fgcolor"				"TanLight"
 		}
 
 		"RespecCountLabel"

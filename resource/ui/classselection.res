@@ -37,11 +37,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Scout"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass scout"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -49,9 +48,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"LOGScout"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"LOGScout"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -70,12 +69,12 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"11"
-		"wide"						"30"
+		"wide"						"25"
 		"tall"						"25"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&1"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"north"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout scout"
@@ -83,6 +82,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"scout"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"soldier"
@@ -100,11 +101,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Soldier"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass soldier"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -112,9 +112,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSoldier"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSoldier"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -142,7 +142,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&2"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout soldier"
@@ -150,6 +150,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"soldier"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"pyro"
@@ -167,11 +169,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Pyro"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass pyro"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -179,9 +180,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGPyro"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGPyro"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -209,7 +210,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&3"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout pyro"
@@ -217,6 +218,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"pyro"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"demoman"
@@ -234,11 +237,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Demoman"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass demoman"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -246,9 +248,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGDemoman"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGDemoman"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -276,7 +278,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&4"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout demoman"
@@ -284,6 +286,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"demoman"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"heavyweapons"
@@ -301,11 +305,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_HWGuy"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass heavyweapons"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -313,9 +316,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGHeavy"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGHeavy"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -343,7 +346,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&5"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout heavyweapons"
@@ -351,6 +354,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"heavyweapons"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"engineer"
@@ -368,11 +373,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Engineer"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass engineer"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -380,9 +384,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGEngineer"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGEngineer"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -410,7 +414,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&6"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout engineer"
@@ -418,6 +422,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"engineer"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"medic"
@@ -435,11 +441,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Medic"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass medic"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -447,9 +452,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGMedic"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGMedic"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -477,7 +482,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&7"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout medic"
@@ -485,6 +490,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"medic"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"sniper"
@@ -502,11 +509,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Sniper"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass sniper"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -514,9 +520,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSniper"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSniper"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -544,7 +550,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&8"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout sniper"
@@ -552,6 +558,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"sniper"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	
 	"spy"
@@ -569,11 +577,10 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_Spy"
-		"textAlignment"				"west"
+		"textAlignment"				"center"
 		"Command"					"joinclass spy"
 		"Default"					"0"
 		"font"						"FontBold20"
-		"textinsetx"				"65"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -581,9 +588,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"LOGSpy"
-		"depressedFgColor_override"	"White"
+		"depressedFgColor_override"	"TanLight"
 		"selectedFgColor_override"	"LOGSpy"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -611,7 +618,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"&9"
-		"font"						"ClassIcons"
+		"font"						"MediumIcons"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
 		"Command"					"loadout spy"
@@ -619,6 +626,8 @@
 		"mouseinputenabled"			"0"
 		"textinsety"				"-3"
 		"pin_to_sibling"			"spy"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	// I believe Valve hardcoded part of this control for some reason.
@@ -656,9 +665,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -696,9 +705,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 		
-		"defaultFgColor_override" 	"White"
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -735,10 +744,10 @@
 		"armedBgColor_override"		"HudBlack"
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
-		
-		"defaultFgColor_override" 	"White"
+
+		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -767,9 +776,9 @@
 		"paintbackground"			"0"
 		"sound_released"			"UI/secret.mp3"
 		"sound_depressed"			""
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override"	"TanLight"
 	}
 
 	"MenuBG"
@@ -892,7 +901,6 @@
 		"labelText"					"%numScout%"
 		"font"						"FontRegular20"
 		"textAlignment"				"west"
-		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling"			"scout"
@@ -1299,7 +1307,7 @@
 			"angles_y"				"200"
 			"angles_z"				"0"
 			"origin_x"				"250"
-			"origin_y"				"15"
+			"origin_y"				"25"
 			"origin_z"				"-50"
 			"frame_origin_x"		"0"
 			"frame_origin_y"		"0"

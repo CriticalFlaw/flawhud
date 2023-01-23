@@ -80,7 +80,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"-20"
 		"ypos"				"35"
 		"zpos"				"1"
@@ -97,7 +97,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabelShadow"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -231,7 +231,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -246,7 +246,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 
