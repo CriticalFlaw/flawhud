@@ -201,4 +201,19 @@
 			"auto_wide_tocontents"	"1"
 		}
 	}
+	
+	"Speedometer"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"Speedometer"
+		"xpos"				"cs-0.5"
+		"ypos"				"c25"
+		"zpos"				"-100"
+		"wide"				"50"
+		"tall"				"12"
+		"visible"			"0"		// Change to 1 to enable
+		"enabled"			"0"		// Change to 1 to enable
+		"image"				"replay/thumbnails/numbers"
+		"scaleImage"		"1"
+	}
 }
