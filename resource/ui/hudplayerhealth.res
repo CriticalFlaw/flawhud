@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"FontBold50"	//Change to "HudFontBiggerBold" to enable health cross
+		"font"			"ScanlineShadow"	//Change to "HudFontBiggerBold" to enable health cross
 		"fgcolor"		"Black"
 
 		"pin_to_sibling"		"PlayerHealthValue"
