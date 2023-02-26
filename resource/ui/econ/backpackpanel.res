@@ -469,7 +469,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToPrevPageButton"
 		"xpos"			"c-328"
-		"ypos"			"10560
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"220"
