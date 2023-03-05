@@ -48,7 +48,7 @@
 		"autoResize"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"HUDBlueTeam"
+		"bgcolor_override"		"BlueTeam"
 
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -119,7 +119,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDBlueTeam"
+		"fgcolor"			"BlueTeam"
 		"TextInsetX"		"15"
 
 		"pin_to_sibling"		"BlueBG"
@@ -148,7 +148,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDBlueTeam"
+		"fgcolor"			"BlueTeam"
 		"TextInsetX"		"20"
 
 		"pin_to_sibling"		"BlueBG"
@@ -176,7 +176,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDBlueTeam"
+		"fgcolor"			"BlueTeam"
 		"TextInsetX"		"15"
 
 		"pin_to_sibling"		"BlueTeamName"
@@ -464,7 +464,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"HUDBlueTeamSolid"
+		"fgcolor"			"BlueTeamSolid"
 
 		if_mvm
 		{
