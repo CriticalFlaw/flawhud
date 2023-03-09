@@ -241,14 +241,14 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"tall"			"11"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}
