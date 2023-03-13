@@ -11,8 +11,8 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
-		"border"			"NoBorder"
+		"bgcolor_override"	"TextColor"
+		"border"			"DarkBorderThick"
 	}
 
 	"HelpTextLabel"
