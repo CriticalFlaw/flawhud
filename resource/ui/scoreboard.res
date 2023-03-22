@@ -6,8 +6,8 @@
 		"fieldName"			"scoreinfo"
 		"xpos"				"cs-0.5"
 		"ypos"				"31"
-		"wide"				"585"
-		"tall"				"360"
+		"wide"				"f0"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -64,8 +64,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BlueBG"
-		"xpos"				"0"
-		"ypos"				"30"
+		"xpos"				"c-291"
+		"ypos"				"100"
 		"zpos"				"-1"
 		"wide"				"290"
 		"tall"				"35"
@@ -452,8 +452,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"1"
-		"ypos"				"80"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -465,6 +465,7 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"fgcolor"			"BlueTeamSolid"
+		"pin_to_sibling"	"BluePlayerBG"
 
 		if_mvm
 		{
@@ -475,8 +476,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"292"
-		"ypos"				"80"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -488,6 +489,7 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"textcolor"			"HUDRedTeamSolid"
+		"pin_to_sibling"	"RedPlayerBG"
 
 		if_mvm
 		{
@@ -601,25 +603,41 @@
 			"xpos"				"9999"
 		}
 	}
-
+	
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
-		"xpos"			"9999"
-		"ypos"			"280"
-		"zpos"			"10"
-		"wide"			"70"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"12"
-		"allow_rot"		"1"
+		"ControlName"		"CTFPlayerModelPanel"
+		"fieldName"			"classmodelpanel"
+		"xpos"				"0"
+		"ypos"				"r302"
+		"zpos"				"2"
+		"wide"				"150"
+		"tall"				"300"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fov"				"23"
+		"allow_rot"			"1"
 		"render_texture"	"0"
-		"disable_speak_event"	"1"
+		
+		"model"
+		{
+			"force_pos"			"1"
+			"angles_x" 			"0"
+			"angles_y" 			"200"
+			"angles_z" 			"0"
+			"origin_x" 			"200"
+			"origin_y" 			"2"
+			"origin_z" 			"-80"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" 		"1"
+			"modelname"			""
+		}
 	}
+	
 	"PlayerNameBG"
 	{
 		"ControlName"		"EditablePanel"
