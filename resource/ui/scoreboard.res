@@ -609,7 +609,7 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
 		"xpos"				"0"
-		"ypos"				"r302"
+		"ypos"				"r300"
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"300"
@@ -617,7 +617,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"23"
+		"fov"				"13"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 		
