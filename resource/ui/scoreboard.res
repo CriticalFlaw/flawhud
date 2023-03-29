@@ -452,8 +452,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-290"
+		"ypos"				"c-88"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -465,7 +465,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"fgcolor"			"BlueTeamSolid"
-		"pin_to_sibling"	"BluePlayerBG"
 
 		if_mvm
 		{
@@ -476,8 +475,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c+2"
+		"ypos"				"c-88"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -489,7 +488,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"textcolor"			"HUDRedTeamSolid"
-		"pin_to_sibling"	"RedPlayerBG"
 
 		if_mvm
 		{
