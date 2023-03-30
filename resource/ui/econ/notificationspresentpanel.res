@@ -31,7 +31,7 @@
 		"wrap"				"0"
 		"labelText"			"#Notifications_Present"
 		"textAlignment"		"center"
-		"font"				"FontRegular10"
+		"font"				"FontRegular9"
 		"proportionaltoparent"	"1"
 	}
 }
