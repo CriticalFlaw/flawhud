@@ -69,7 +69,11 @@
 
 		"consume_mode"
 		{
-			"ypos"			"0"
+			"xpos"			"20"
+			"wide"			"o1.5"
+			"tall"			"p0.5"
+			"fov"					"60"
+			"proportionaltoparent"	"0"
 		}
 
 		"model"
@@ -143,7 +147,7 @@
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"r100"
+			"ypos"			"r75"
 		}
 
 		"ButtonSettings"
@@ -249,6 +253,7 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"r80"
+			"bgcolor_override"	"Transparent"
 		}
 
 		"DebugButton"
@@ -396,6 +401,11 @@
 				"visible"	"0"
 			}
 
+			"consume_mode"
+			{
+				"ypos"			"25"
+			}
+
 			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"DarkGrey"
 			"disabledFgColor_override" "TanLight"
@@ -435,6 +445,7 @@
 
 			"consume_mode"
 			{
+				"ypos"			"25"
 				"labelText"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
@@ -607,7 +618,7 @@
 
 			"consume_mode"
 			{
-				"ypos"		"r60"
+				"ypos"		"r55"
 			}
 
 			"zpos"			"100"
