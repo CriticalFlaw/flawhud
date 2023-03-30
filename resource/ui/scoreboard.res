@@ -24,11 +24,6 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 		"medal_width_minmode"	 "0"
-
-		if_mvm
-		{
-			"tall"				"380"
-		}
 	}
 
 	"BlueLine"
@@ -372,7 +367,7 @@
 		if_mvm
 		{
 			"xpos"				"-25"
-			"ypos"				"13"
+			"ypos"				"-55"
 			"visible"			"0"
 		}
 	}
@@ -544,10 +539,12 @@
 
 		if_mvm
 		{
-			"xpos"				"-305"
-			"ypos"				"33"
+			"ypos"				"165"
 			"wide"				"270"
 			"tall"				"132"
+			"pin_to_sibling"		"mapname"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 	}
 	"SpectatorsInQueue"
@@ -2240,7 +2237,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"25"
+		"xpos"				"c-266"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
