@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_bg"
-		"iconColor"			"White"
+		"iconColor"			"TanLight"
 	}
 
 	"TitleLabel"
@@ -327,7 +327,7 @@
 		"enabled"			"0"
 		"scaleImage"		"0"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"TanLight"
 	}
 
 	"NumberLabel1"
@@ -335,7 +335,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontBold20"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"xpos"				"10"
 		"ypos"				"35"
 		"zpos"				"5"
@@ -364,7 +364,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"TanLight"
 	}
 
 	"NumberLabel2"
@@ -372,7 +372,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontBold20"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"xpos"				"65"
 		"ypos"				"35"
 		"zpos"				"5"
@@ -401,7 +401,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"TanLight"
 	}
 
 	"NumberLabel3"
@@ -409,7 +409,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontBold20"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"xpos"				"133"
 		"ypos"				"35"
 		"zpos"				"5"
