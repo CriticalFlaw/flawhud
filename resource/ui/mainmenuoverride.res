@@ -1070,8 +1070,7 @@
 		"tall"				"80"
 		"visible"			"0"
 		"paintbackground"	"1"
-		"border"			"NoBorder"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"Notifications_CloseButton"

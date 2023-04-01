@@ -3,6 +3,6 @@
 {
     "TextLabel"
     {
-	    "fgcolor"			"HudBlack"
+	    "font"			"FontRegular12"
     }
 }
