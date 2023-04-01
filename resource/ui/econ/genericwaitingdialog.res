@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"FontBold18"
+		"font"					"FontBold16"
 		"xpos"					"0"
 		"ypos"					"8"
 		"zpos"					"0"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"EllipsesLabel"
-		"font"					"FontBold12"
+		"font"					"FontBold14"
 		"xpos"					"0"
 		"ypos"					"42"
 		"zpos"					"0"
@@ -51,7 +51,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%ellipses%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
@@ -60,7 +60,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"DurationLabel"
-		"font"					"FontBold12"
+		"font"					"FontBold14"
 		"xpos"					"0"
 		"ypos"					"52"
 		"zpos"					"0"
@@ -71,7 +71,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%duration%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
