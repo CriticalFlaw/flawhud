@@ -1048,7 +1048,7 @@
 		"xpos"				"c-140"
 		"ypos"				"35"
 		"wide"				"280"
-		"tall"				"50"
+		"tall"				"80"
 	}
 
 	"HudArenaCapPointCountdown"
