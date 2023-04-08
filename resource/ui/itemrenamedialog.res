@@ -295,7 +295,7 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Grey"
 		"labelText"			""
-		"font"				"FontBold12"
+		"font"				"FontRegular12"
 		"textAlignment"		"west"
 		"paintbackgroundtype" "0"
 	}
