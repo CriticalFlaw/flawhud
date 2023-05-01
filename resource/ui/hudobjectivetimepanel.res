@@ -63,11 +63,18 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_Overtime"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular10"
+		
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"wide"					"p1"
+			"font"					"FontRegular10"
+		}
 	}
 	"OvertimeBG"
 	{
