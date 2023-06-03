@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"10"
-		"ypos"			"r77"
+		"xpos"			"c-250"
+		"ypos"			"c95"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"150"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
 		"wide"			"0"
 		"tall"			"0"

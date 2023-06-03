@@ -4,9 +4,9 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"r75"
-		"tall"				"500"
-		"wide"				"150"
+		"xpos"				"c-55"
+		"ypos"				"c120"
+		"tall"				"110"
 	}
 
 	"ItemEffectMeterBG"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemEffectIcon"
-		"xpos"				"125"
+		"xpos"				"42"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"25"
@@ -33,13 +33,13 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ypos"				"10"
+		"ypos"				"20"
 		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
 	"ItemEffectMeter"
 	{
-		"ypos"				"10"
+		"ypos"				"20"
 		"wide"				"55"
 		"textAlignment"		"Left"
 	}
@@ -49,7 +49,7 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter2"
 		"xpos"				"55"
-		"ypos"				"10"
+		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"55"
 		"tall"				"8"

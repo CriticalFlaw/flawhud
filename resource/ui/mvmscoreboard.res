@@ -70,7 +70,7 @@
 		"ypos"				"0"
 		"wide"				"550"
 		"wide_minmode"		"0"
-		"tall"				"150"
+		"tall"				"145"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
