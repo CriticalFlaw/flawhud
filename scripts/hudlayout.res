@@ -110,9 +110,9 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-55"
+		"xpos"				"c-60"
 		"ypos"				"r130"
-		"wide"				"110"
+		"wide"				"120"
 		"tall"				"60"
 	}
 
@@ -211,8 +211,8 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c87"
-		"wide"					"100"
+		"ypos"					"c120"
+		"wide"					"150"
 		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
