@@ -23,7 +23,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"AmmoBG"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"43"

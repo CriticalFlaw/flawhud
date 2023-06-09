@@ -61,7 +61,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c150"
-		"ypos"				"c119"
+		"ypos"				"c120"
 		"wide"				"110"
 		"tall"				"43"
 	}
