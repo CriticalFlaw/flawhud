@@ -71,7 +71,7 @@
 		
 		if_mvm
  		{
-			"ypos"				"100"
+			"ypos"				"100"	// This is needed for the 32-player scoreboard customization available in the HUD Editor.
  			"visible"			"0"
  		}
 	}
