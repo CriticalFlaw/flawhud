@@ -249,7 +249,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"c70"
+		"ypos"					"r160"
 		"zpos"					"10"
 		"wide"					"100"
 		"tall"					"45"
