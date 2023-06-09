@@ -68,9 +68,10 @@
 		"enabled"			"1"
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
-
-		 if_mvm
+		
+		if_mvm
  		{
+			"ypos"				"100"
  			"visible"			"0"
  		}
 	}
