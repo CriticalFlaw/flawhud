@@ -231,7 +231,7 @@
 			"leftText"				"0.0"
 			"rightText"				"1.0"
 			"minvalue"				"0"
-			"maxvalue"				"100"
+			"maxvalue"				"1"
 			"cvar_name"				"volume"
 			"allowoutofrange"		"0"
 			
