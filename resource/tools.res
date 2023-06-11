@@ -413,7 +413,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"#FH_viewmodel_min"
-			"command"				"engine toggle tf_use_min_viewmodels 1 0"
+			"command"				"engine toggle tf_use_min_viewmodels"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
