@@ -79,7 +79,7 @@
 		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"1"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"labelText"			"%currency%"
 		"pin_to_sibling"	"CurrencyBad"
 	}
