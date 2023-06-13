@@ -66,4 +66,21 @@
 		"textAlignment"		"east"
 		"labelText"			"%currency%"
 	}
+	"CurrencyBadShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CurrencyBadShadow"
+		"font"				"FontBold14"
+		"fgcolor"			"HudBlack"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"4"
+		"wide"				"98"
+		"tall"				"15"
+		"visible"			"0"
+		"enabled"			"1"
+		"textAlignment"		"east"
+		"labelText"			"%currency%"
+		"pin_to_sibling"	"CurrencyBad"
+	}
 }
