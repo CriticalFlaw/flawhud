@@ -112,7 +112,7 @@
 		"enabled"			"1"
 		"xpos"				"c-55"
 		"ypos"				"r135"
-		"wide"				"120"
+		"wide"				"150"
 		"tall"				"60"
 	}
 
