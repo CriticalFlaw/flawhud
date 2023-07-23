@@ -100,13 +100,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"100"
-		"ypos"					"r27"
+		"xpos"					"0"
+		"ypos"					"r19"
 		"zpos"					"100"
 		"wide"					"500"
-		"tall"	 				"28"
-		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
+		"tall"	 				"20"
 
 		"CarryingBackground"
 		{
@@ -130,16 +128,16 @@
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 
 		"CarryingLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"5"
+			"font"				"FontRegular15"
+			"xpos"				"15"
 			"ypos"				"3"
 			"zpos"				"1"
 			"wide"				"200"
