@@ -6,6 +6,7 @@
 	{
 		"xpos"				"c200"
 		"ypos"				"r75"
+		"wide"				"100"
 	}
 
 	"StreakIcon"
