@@ -210,7 +210,7 @@
 		"wide"				"50"
 		"tall"				"12"
 		"visible"			"0"		// Change to 1 to enable
-		"enabled"			"0"		// Change to 1 to enable
+		"enabled"			"1"
 		"image"				"replay/thumbnails/numbers"
 		"scaleImage"		"1"
 	}

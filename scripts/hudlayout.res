@@ -10,7 +10,7 @@
 	"CustomCrosshair"
 	{
 		"visible"			"0"
-		"enabled"			"0"
+		"enabled"			"1"
 		"labelText"			"<"
 		"controlName"		"CExLabel"
 		"fieldName"			"CustomCrosshair"
@@ -31,7 +31,7 @@
 	"TransparentViewmodel"
 	{
 		"visible"			"0"
-		"enabled"			"0"
+		"enabled"			"1"
 		"controlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
 		"zpos"				"-100"
