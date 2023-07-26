@@ -33,7 +33,7 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ypos"				"20"
+		"visible"			"0"
 		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
@@ -52,7 +52,7 @@
 		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"55"
-		"tall"				"8"
+		"tall"				"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

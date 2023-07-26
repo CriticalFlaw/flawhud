@@ -8,7 +8,7 @@
 		"ypos"				"33"
 		"zpos"				"0"
 		"wide"				"640"
-		"tall"				"17"
+		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"HudBlack"
