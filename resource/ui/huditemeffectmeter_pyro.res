@@ -1,1 +1,1 @@
-#base "huditemeffectmeter_cleaver.res"
+#base "huditemeffectmeter.res"
