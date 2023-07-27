@@ -141,7 +141,7 @@ event HudSpyDisguiseFadeOut
 event HudSpyDisguiseChanged
 {
 	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r125"		Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Position	"100 r145"			Linear 0.0 0.2
 	Animate	PlayerStatusSpyOutlineImage	Size		"120 120"			Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide			0.7

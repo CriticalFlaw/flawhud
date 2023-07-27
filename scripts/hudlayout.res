@@ -991,10 +991,10 @@
 		"fieldName" 		"HudMenuSpyDisguise"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c85"
-		"ypos"				"c63"
+		"xpos"				"c-97"
+		"ypos"				"c78"
 		"zpos"				"14"
-		"wide"				"125"
+		"wide"				"195"
 		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
