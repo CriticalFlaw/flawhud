@@ -9,7 +9,7 @@
 		"ypos"				"c145"
 		"zpos"				"2"
 		"wide"				"110"
-		"tall"				"8"
+		"tall"				"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -37,7 +37,7 @@
 		"font"				"FontBold10"
 
 		"pin_to_sibling"		"ChargeMeter"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }
