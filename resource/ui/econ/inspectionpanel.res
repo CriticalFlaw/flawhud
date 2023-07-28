@@ -230,7 +230,7 @@
 		"xpos"			"cs0.3"
 		"ypos"			"p.2"
 		"wide"			"250"
-		"tall"			"200"
+		"tall"			"190"
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
@@ -246,7 +246,7 @@
 		}
 		"fixed_paintkit"
 		{
-			"tall"			"100"
+			"tall"			"125"
 			"visible"		"1"
 		}
 		"consume_mode"
@@ -464,7 +464,7 @@
 
 			"zpos"			"1"
 			"wide"			"235"
-			"tall"			"30"
+			"tall"			"20"
 			"numticks"		"4"
 			"rangemin"		"1"
 			"rangemax"		"5"
@@ -524,7 +524,7 @@
 			"fieldName"		"NewSeedButton"
 			"font"			"FontBold14"
 			"xpos"			"8"
-			"ypos"			"125"
+			"ypos"			"115"
 
 			"fixed_item"
 			{
@@ -533,7 +533,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"40"
+				"ypos"		"55"
 			}
 
 			"zpos"			"10"
@@ -564,7 +564,7 @@
 			"ControlName"		"TextEntry"
 			"fieldName"			"SeedTextEntry"
 			"xpos"				"8"
-			"ypos"				"100"
+			"ypos"				"90"
 
 			"fixed_item"
 			{
@@ -573,7 +573,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"			"20"
+				"ypos"			"30"
 			}
 
 			"zpos"				"10"
@@ -604,7 +604,7 @@
 			"fieldName"		"MarketButton"
 			"font"			"FontBold14"
 			"xpos"			"8"
-			"ypos"			"160"
+			"ypos"			"150"
 
 			"fixed_item"
 			{
@@ -613,12 +613,12 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"70"
+				"ypos"		"90"
 			}
 
 			"consume_mode"
 			{
-				"ypos"		"r55"
+				"ypos"		"r80"
 			}
 
 			"zpos"			"100"
