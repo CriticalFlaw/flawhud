@@ -4,8 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c-55"
-		"ypos"				"c115"
+		"ypos"				"c85"
 		"tall"				"110"
 	}
 
@@ -41,7 +40,6 @@
 	{
 		"ypos"				"20"
 		"wide"				"55"
-		"textAlignment"		"Left"
 	}
 
 	"ItemEffectMeter2"
@@ -57,7 +55,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"Left"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor"			"TanLight"
