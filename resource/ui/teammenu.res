@@ -129,9 +129,9 @@
 		"selectedBgColor_override" 	"HUDBlueTeamDark"
 		
 		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"BlueTeam"
+		"depressedFgColor_override" "BlueTeam"
+		"selectedFgColor_override" 	"BlueTeam"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -169,9 +169,9 @@
 		"selectedBgColor_override" 	"HUDRedTeamDark"
 		
 		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"RedTeam"
+		"depressedFgColor_override" "RedTeam"
+		"selectedFgColor_override" 	"RedTeam"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
