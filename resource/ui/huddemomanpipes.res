@@ -53,7 +53,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"3"
+			"xpos"				"7"
 			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"60"
@@ -100,7 +100,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"StickyIcon"
-			"xpos"				"0"
+			"xpos"				"-2"
 			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"15"
@@ -147,3 +147,4 @@
 		"xpos"				"9999"
 	}
 }
+
