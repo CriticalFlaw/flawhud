@@ -29,7 +29,7 @@
 		"tall"				"43"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"16 16 16 135"
+		"bgcolor_override"	"BGBlack"
 		"PaintBackgroundType"	"2"
 	}
 

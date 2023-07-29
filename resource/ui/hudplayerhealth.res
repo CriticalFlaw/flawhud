@@ -57,7 +57,7 @@
 		"tall"			"43"
 		"visible"		"1"		//Change to "0" to enable health cross
 		"enabled"		"1"
-		"bgcolor_override"		"16 16 16 135"
+		"bgcolor_override"		"BGBlack"
 		"PaintBackgroundType"	"2"
 	}
 
