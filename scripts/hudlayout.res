@@ -738,7 +738,7 @@
 		"dead_wide"			"14"
 		"dead_tall"			"14"
 		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
+		"icon_ypos"			"2"
 		"icon_xpos"			"2"
 		"icon_tall"			"12"
 		"icon_wide"			"12"
@@ -747,7 +747,7 @@
 		"show_avatar"		"1"
 		"avatar_ypos"		"-1"
 		"avatar_xpos"		"115"
-		"avatar_tall"		"14"
+		"avatar_tall"		"17"
 		
 		"text_xpos_minmode"	"9999"
 	}
