@@ -94,7 +94,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"Supporters"
 			"font"					"FontRegular12"
-			"labelText"				"Admiral Bread Crumbs ★ berry-jordan ★ ca7x3 ★ DrummingFish ★ Kybrid96 ★ LazarusDemitri ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ TemmieKaz ★ Zeesastrous"
+			"labelText"				"Admiral Bread Crumbs ★ berry-jordan ★ ca7x3 ★ DrummingFish ★ Kybrid96 ★ LazarusDemitri ★ nigiri emoji ★ Owlgod ★ Pazer ★ Revan ★ saturncaine ★ TemmieKaz ★ Zeesastrous"
 			"textAlignment"			"center"
 			"xpos"					"20"
 			"ypos"					"20"
