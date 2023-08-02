@@ -1004,7 +1004,7 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-15"
+		"xpos"				"c-55"
 		"ypos"				"c120"
 		"wide"				"110"
 		"tall"				"20"
