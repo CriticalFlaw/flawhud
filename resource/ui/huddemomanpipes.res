@@ -42,18 +42,18 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PipesPresentPanel"
-		"xpos"				"c147"
-		"ypos"				"r74"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
+		"wide"				"110"
+		"tall"				"20"
 		"visible"			"1"
 		
 		"NumPipesLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"7"
+			"xpos"				"5"
 			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"60"
@@ -100,7 +100,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"StickyIcon"
-			"xpos"				"-2"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"15"
