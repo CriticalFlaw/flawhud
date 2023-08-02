@@ -54,7 +54,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 	}
 
 	"MetalIcon"

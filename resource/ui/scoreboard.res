@@ -613,7 +613,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"13"
+		"fov"				"17"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 		

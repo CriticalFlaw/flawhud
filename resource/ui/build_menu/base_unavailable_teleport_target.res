@@ -96,7 +96,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"FontBold10"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"xpos"				"25"
 		"ypos"				"58"
 		"zpos"				"1"

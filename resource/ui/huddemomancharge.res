@@ -9,7 +9,7 @@
 		"zpos"				"3"
 		"wide"				"110"
 		"tall"				"8"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"

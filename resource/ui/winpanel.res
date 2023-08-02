@@ -314,7 +314,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"bgcolor_override"		"HudBlack"
+		"bgcolor_override"		"16 16 16 240"
 		"PaintBackgroundType"	"2"
 	}
 	"WinningTeamLabel"
