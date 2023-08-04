@@ -706,6 +706,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor"			"TanLight"
+		"allcaps"			"1"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
