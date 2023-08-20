@@ -176,6 +176,10 @@
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" 	"Blank"
+		"armedBgColor_override" 	"HudBlack"
+		"depressedBgColor_override" "Blank"
 	}
 	
 	"PrevButton"
@@ -202,6 +206,10 @@
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" 	"Blank"
+		"armedBgColor_override" 	"HudBlack"
+		"depressedBgColor_override" "Blank"
 	}
 	
 	"CloseButton"

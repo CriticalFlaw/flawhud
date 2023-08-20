@@ -92,11 +92,12 @@
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		"autoResize"		"1"
+		"pinCorner"			"1"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
+		"proportionaltoparent"	"1"
 		"defaultbgcolor_override"	"Black"
 	}
 
@@ -149,7 +150,7 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter1"
 		"font"				"Default"
-		"xpos"				"-3"
+		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"4"
 		"wide"				"25"
@@ -161,6 +162,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"proportionaltoparent"	"1"
 		"pin_to_sibling"	"IndividualChargesLabel"
 	}
 
@@ -181,6 +183,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"ChargeMeter1"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -204,6 +207,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"ChargeMeter2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -227,6 +231,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"ChargeMeter3"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
