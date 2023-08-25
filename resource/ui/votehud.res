@@ -554,7 +554,7 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"0"
-		"bgcolor_override"		"27 27 27 255"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackground"		"1"
 		"PaintBackgroundType"	"2"
 
