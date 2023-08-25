@@ -608,7 +608,7 @@
 			"xpos"				"190"
 			"ypos"				"38"
 			"zpos"				"2"
-			"wide"				"200"
+			"wide"				"227"
 			"wide_minmode"		"0"
 			"tall"				"200"
 			"pinCorner"			"0"
