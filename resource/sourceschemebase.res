@@ -502,9 +502,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"TF2 Build"
 				"tall"		"24"
 				"weight"	"900"
+                                "antialias"     "1"
+                                "dropshadow"    "1"
 			}
 		}
 
@@ -512,9 +514,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"TF2 Build"
 				"tall"		"20"
 				"weight"	"900"
+                                "antialias"     "1"
+                                "dropshadow"    "1"
 			}
 		}
 
@@ -522,9 +526,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"900"
+                                "antialias"     "1"
+                                "dropshadow"    "1"
 			}
 		}
 
