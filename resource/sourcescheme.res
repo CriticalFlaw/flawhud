@@ -212,6 +212,42 @@ Scheme
 
 	Fonts
 	{
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
