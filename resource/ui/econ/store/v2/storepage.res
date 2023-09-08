@@ -18,7 +18,7 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		"max_cart_model_panels"	"10"
+		"max_cart_model_panels"	"14"
 		"item_ypos"				"70"
 		"item_panels"			"15"
 		"item_columns"			"5"

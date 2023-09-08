@@ -21,7 +21,7 @@
 
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-		"max_cart_model_panels"	"8"
+		"max_cart_model_panels"	"11"
 		"item_ypos"				"70"
 		"item_mod_wide"			"40"
 		"item_panels"			"12"
