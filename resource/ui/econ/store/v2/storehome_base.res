@@ -378,7 +378,7 @@
 		"ypos"			"334"
 		"zpos"			"12"
 		"wide"			"74"
-		"tall"			"30"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
