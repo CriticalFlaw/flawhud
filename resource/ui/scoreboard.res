@@ -393,6 +393,12 @@
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
+		if_mvm
+		{
+			"font"				"FontRegular10"
+			"ypos"				"2"
+		}
 	}
 	"ServerTimeBackground"
 	{

@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"ScrollBar"
 		"FieldName"		"ScrollBar"
-		"xpos"			"c226"
+		"xpos"			"c228"
 		"ypos"			"c-120"
 		"wide"			"4"
 		"tall"			"200"
