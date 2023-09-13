@@ -35,8 +35,9 @@
 
 		if_competitive
 		{
-			"team1_player_base_y"		"66"
-			"team2_player_base_y"		"66"
+			"team1_player_base_y"		"86"
+			"team2_player_base_y"		"86"
+			"teams_player_delta_x_comp" "52"
 			"team2_player_base_offset_x" "5"
 		}
 
@@ -52,8 +53,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"50"
+			"xpos"			"c-31"
+			"ypos"			"70"
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
