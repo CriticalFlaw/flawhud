@@ -116,7 +116,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
-			"font"			"MMenuPlayListDesc"
+			"font"			"DefaultVerySmall"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"south-west"
