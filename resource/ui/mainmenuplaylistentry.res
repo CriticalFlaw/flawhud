@@ -121,7 +121,7 @@
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"south-west"
 			"xpos"			"5"
-			"ypos"			"0"
+			"ypos"			"-2"
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"f0"
