@@ -119,7 +119,7 @@
 			"font"			"DefaultVerySmall"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
-			"textalignment"	"south-west"
+			"textalignment"	"south"
 			"xpos"			"5"
 			"ypos"			"-2"
 			"zpos"			"2"
