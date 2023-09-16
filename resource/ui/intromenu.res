@@ -79,7 +79,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"Continue"
-		"xpos"				"c-100"
+		"xpos"				"r225"
 		"ypos"				"r50"
 		"zpos"				"2"
 		"wide"				"200"
@@ -130,7 +130,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ReplayVideo"
-		"xpos"				"c-100"
+		"xpos"				"30"
 		"ypos"				"r50"
 		"zpos"				"2"
 		"wide"				"200"
