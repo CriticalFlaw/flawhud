@@ -546,7 +546,7 @@
 
 		if_mvm
 		{
-			"ypos"				"165"
+			"ypos"				"167"
 			"wide"				"270"
 			"tall"				"132"
 			"pin_to_sibling"		"mapname"
