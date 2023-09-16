@@ -74,7 +74,7 @@
 		"wrap"				"1"
 		"labelText"			""
 		"textAlignment"		"North"
-		"font"				"FontRegular12"
+		"font"				"DefaultSmall"
 	}
 
 	"PressSpacebarToContinue"
