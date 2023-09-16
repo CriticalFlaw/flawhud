@@ -37,6 +37,8 @@
 
 			"model_ypos"		"5"
 			"model_tall"		"32"
+			"model_wide"        "48"
+			"model_center_x"    "1"
 			"text_ypos"			"60"
 			"text_center"		"1"
 			"name_only"			"1"

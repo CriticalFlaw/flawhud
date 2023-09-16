@@ -335,7 +335,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"TanLight"
+				"image"			"white"
 				"scaleImage"	"1"
 			}
 		}
@@ -366,7 +366,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"TanLight"
+				"image"			"white"
 				"scaleImage"	"1"
 			}
 		}
