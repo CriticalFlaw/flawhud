@@ -37,6 +37,7 @@ If you need help, found a bug or have a suggestion; [open a support ticket on Gi
 ### Localization
 * Tiagoquix - Brazilian Portuguese
 * DimitriDR - French
+* Surrealtastic - Italian
 
 <!-- LINKS -->
 [download-link]: https://github.com/CriticalFlaw/flawhud/releases/latest
