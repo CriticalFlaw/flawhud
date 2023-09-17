@@ -9,6 +9,8 @@
 	
     "TextLabel"
     {
+		"wide"			"138"
+		"tall"			"38"
 	    "font"			"FontRegular12"
     }
 }
