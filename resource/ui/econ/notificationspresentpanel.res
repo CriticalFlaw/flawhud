@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CNotificationsPresentPanel"
 		"fieldName"			"NotificationsPresentPanel"
-		"xpos"				"c50"
-		"ypos"				"25"
+		"xpos"				"c45"
+		"ypos"				"30"
 		"zpos"				"10000"
 		"wide"				"280"
 		"tall"				"26"
@@ -18,7 +18,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TextLabel"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"QuestGold"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -31,7 +31,7 @@
 		"wrap"				"0"
 		"labelText"			"#Notifications_Present"
 		"textAlignment"		"center"
-		"font"				"FontRegular9"
+		"font"				"FontRegular10"
 		"proportionaltoparent"	"1"
 	}
 }

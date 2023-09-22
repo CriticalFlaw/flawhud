@@ -6,7 +6,7 @@
 		"fieldName"			"SafeMode"
 		"xpos"				"rs1-45"
 		"ypos"				"130"
-		"zpos"				"100"
+		"zpos"				"200"
 		"wide"				"345"
 		"tall"				"230"
 		"visible"			"0"
