@@ -8,12 +8,12 @@
 		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"110"
-		"tall"				"8"
+		"tall"				"10"
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"
-		"font"				"FontBold10"
+		"font"				"FontBold9"
 	}
 	
 	"ChargeMeter"
@@ -25,7 +25,7 @@
 		"ypos"				"8"
 		"zpos"				"2"
 		"wide"				"110"
-		"tall"				"2"
+		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
