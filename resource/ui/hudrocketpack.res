@@ -4,8 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c85"
-		"tall"				"110"
+		"tall"				"22"
 	}
 
 	"ItemEffectMeterBG"
