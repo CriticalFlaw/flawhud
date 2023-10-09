@@ -307,7 +307,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor"			"RedTeam"
-		"TextInsetX"		"20"
+		"TextInsetX"		"23"
 
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -506,7 +506,7 @@
 		"xpos"				"-2"
 		"ypos"				"0"
 		"zpos"				"4"
-		"wide"				"f0"
+		"wide"				"544"
 		"wide_minmode"		"0"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -520,8 +520,7 @@
 
 		if_mvm
 		{
-			"xpos"				"-3"
-			"ypos"				"1"
+			"xpos"				"277"
 		}
 	}
 
