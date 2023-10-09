@@ -349,4 +349,16 @@
 			"border"		"ReplayDefaultBorder"
 		}
 	}
+	
+	"ReturnButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReturnButton"
+		"xpos"			"9999"
+
+		if_left
+		{
+			"xpos"	"9999"
+		}
+	}
 }
