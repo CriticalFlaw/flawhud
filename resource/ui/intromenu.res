@@ -189,7 +189,8 @@
 		"font"				"IntroMenuCaption"
 		"fgcolor"			"TanLight"
 		"wrap"				"1"
-		"bgcolor_override"	"0 0 0 230"
+		"textinsetx"		"20"
+		"bgcolor_override"	"0 0 0 255"
 	}
 	
 	"MenuBG"
