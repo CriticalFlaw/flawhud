@@ -6,7 +6,7 @@
 		"fieldName"		"NewMatchFound"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"9999"
+		"zpos"			"10001"
 		"wide"			"200"
 		"tall"			"60"
 		"visible"		"1"
