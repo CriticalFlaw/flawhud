@@ -274,32 +274,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "BlueTeam"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 			}
@@ -312,32 +312,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "RedTeam"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 			}
