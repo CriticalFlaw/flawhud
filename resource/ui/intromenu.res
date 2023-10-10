@@ -165,8 +165,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"start_delay"	"2.0"
-		"end_delay"		"2.0"
+		"start_delay"	"0"
+		"end_delay"		"0"
 	}
 	
 	"VideoCaption"
@@ -189,7 +189,8 @@
 		"font"				"IntroMenuCaption"
 		"fgcolor"			"TanLight"
 		"wrap"				"1"
-		"bgcolor_override"	"Transparent"
+		"textinsetx"		"20"
+		"bgcolor_override"	"0 0 0 255"
 	}
 	
 	"MenuBG"

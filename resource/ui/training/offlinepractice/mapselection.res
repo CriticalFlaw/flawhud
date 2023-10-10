@@ -15,6 +15,15 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
 	}
+	
+	"HackCoverBottomOfMapImagePanel"
+	{
+		"ControlName"	"EditablePanel"
+		"ypos"		"320"
+		"wide"		"f0"
+		"tall"		"f0"
+		"bgcolor_override"	"DarkerGrey"
+	}
 
 	"GradientPanel"
 	{
