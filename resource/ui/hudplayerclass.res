@@ -1,9 +1,9 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	//--------------------------------------------------------------
-	// HUD CROSSHAIR
+	// CROSSHAIR
 	//--------------------------------------------------------------
-	// Set visible and enabled to 1 to use.
+	// Set visible to 1 to enable.
 	// Change xpos and ypos values if not perfectly centered.
 	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
 	//--------------------------------------------------------------
@@ -22,6 +22,24 @@
 		"font"				"Size:18"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
+	}
+	//--------------------------------------------------------------
+	//--------------------------------------------------------------
+	// Set visible to 1 to enable.
+	//--------------------------------------------------------------
+	"Speedometer"
+	{
+		"visible"			"0"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Speedometer"
+		"xpos"				"cs-0.5"
+		"ypos"				"c25"
+		"zpos"				"-100"
+		"wide"				"50"
+		"tall"				"12"
+		"image"				"replay/thumbnails/numbers"
+		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
 	
@@ -223,20 +241,5 @@
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
-	}
-	
-	"Speedometer"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"Speedometer"
-		"xpos"				"cs-0.5"
-		"ypos"				"c25"
-		"zpos"				"-100"
-		"wide"				"50"
-		"tall"				"12"
-		"visible"			"0"		// Change to 1 to enable
-		"enabled"			"1"
-		"image"				"replay/thumbnails/numbers"
-		"scaleImage"		"1"
 	}
 }
