@@ -17,5 +17,4 @@ sv_unlockedchapters 99
 
 // Apply HUD settings
 cl_hud_minmode 0
-vgui_cache_res_files 0
 tf_hud_target_id_alpha 255
