@@ -189,8 +189,8 @@
 			"tall"					"20"
 			"leftText"				"70"
 			"rightText"				"90"
-			"minvalue"				"70"
-			"maxvalue"				"90"
+			"minvalue"				"54"
+			"maxvalue"				"70"
 			"cvar_name"				"viewmodel_fov"
 			"allowoutofrange"		"0"
 			
@@ -231,7 +231,7 @@
 			"leftText"				"0.0"
 			"rightText"				"1.0"
 			"minvalue"				"0"
-			"maxvalue"				"100"
+			"maxvalue"				"1.0"
 			"cvar_name"				"volume"
 			"allowoutofrange"		"0"
 			
@@ -272,7 +272,7 @@
 			"leftText"				"0.0"
 			"rightText"				"1.0"
 			"minvalue"				"0"
-			"maxvalue"				"100"
+			"maxvalue"				"1"
 			"cvar_name"				"voice_scale"
 			"allowoutofrange"		"0"
 			

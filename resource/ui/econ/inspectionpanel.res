@@ -586,7 +586,7 @@
 			"actionsignallevel" "2"
 			"default"			"1"
 			"NumericInputOnly"	"1"
-			"maxchars"			"18"
+			"maxchars"			"20"
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"DarkGrey"
 			"selectedFgColor_override"	"DarkGrey"

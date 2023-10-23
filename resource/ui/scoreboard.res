@@ -506,7 +506,7 @@
 		"xpos"				"-2"
 		"ypos"				"0"
 		"zpos"				"4"
-		"wide"				"544"
+		"wide"				"577"
 		"wide_minmode"		"0"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -521,6 +521,7 @@
 		if_mvm
 		{
 			"xpos"				"277"
+		    "wide"				"544"
 		}
 	}
 
@@ -563,7 +564,7 @@
 		"xpos"				"-2"
 		"ypos"				"30"
 		"zpos"				"4"
-		"wide"				"500"
+		"wide"				"577"
 		"wide_minmode"		"0"
 		"tall"				"20"
 		"autoResize"		"0"

@@ -47,8 +47,8 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r0"
+		"xpos"			"9999"
+		"ypos"			"r55"
 		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"	"0"
