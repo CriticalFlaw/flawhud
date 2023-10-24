@@ -241,7 +241,7 @@
 			"textAlignment"	"north"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-			"wrap" "1"
+			"centerwrap" "1"
 
 			if_mini
 			{
