@@ -190,7 +190,7 @@
 			"leftText"				"70"
 			"rightText"				"90"
 			"minvalue"				"54"
-			"maxvalue"				"70"
+			"maxvalue"				"90"
 			"cvar_name"				"viewmodel_fov"
 			"allowoutofrange"		"0"
 			
