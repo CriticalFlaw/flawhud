@@ -316,7 +316,8 @@
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"visible"		"0"
-		"ypos"			"480"
+		"xpos"			"9999"
+		"ypos"			"r55"
 	}
 	"ReinforcementsLabel"
 	{

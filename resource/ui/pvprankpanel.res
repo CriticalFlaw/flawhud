@@ -233,14 +233,15 @@
 			"ypos"			"18"
 			"wide"			"140"
 			"zpos"			"100"
-			"tall"			"10"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			"centerwrap" "1"
 
 			if_mini
 			{

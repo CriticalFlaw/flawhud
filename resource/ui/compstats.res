@@ -314,7 +314,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"20"
 				"wide"			"p0.95"
-				"tall"			"p0.98"
+				"tall"			"p0.78"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" 		"0"
