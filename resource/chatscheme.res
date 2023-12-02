@@ -336,7 +336,7 @@ Scheme
 				"symbol"		"1"
 			}
 		}
-
+		
 		"ChatFont"
 		{
 			"1"
@@ -346,6 +346,7 @@ Scheme
 				"weight"		"400"
 				"dropshadow"	"1"
 				"antialias"		"1"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -354,6 +355,7 @@ Scheme
 				"weight"		"400"
 				"dropshadow"	"1"
 				"antialias"		"1"
+				"yres"			"600 767"
 			}
 			"3"
 			{
@@ -362,6 +364,7 @@ Scheme
 				"weight"		"400"
 				"dropshadow"	"1"
 				"antialias"		"1"
+				"yres"			"768 1023"
 			}
 			"4"
 			{
@@ -370,6 +373,7 @@ Scheme
 				"weight"		"400"
 				"dropshadow"	"1"
 				"antialias"		"1"
+				"yres"			"1024 1199"
 			}
 			"5"
 			{
@@ -378,6 +382,7 @@ Scheme
 				"weight"		"400"
 				"dropshadow"	"1"
 				"antialias"		"1"
+				"yres"			"1200 10000"
 			}
 		}
 
