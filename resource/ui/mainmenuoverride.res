@@ -201,7 +201,7 @@
 		}
 		"if_christmas"
 		{
-			"image"		"../console/background_xmas2020_widescreen"
+			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
 
