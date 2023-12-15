@@ -4,6 +4,8 @@
   <p align="center">
     Custom HUD for Team Fortress 2, focusing on minimalistic design and dark themed colors.
     <br />
+    <a href="https://github.com/CriticalFlaw/flawhud/archive/master.zip">Download</a>
+    ·
     <a href="https://github.com/CriticalFlaw/flawhud/issues">Issue Tracker</a>
     ·
     <a href="https://discord.gg/hTdtK9vBhE">Discord</a>
