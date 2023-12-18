@@ -59,11 +59,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UpgradeButton"
-		"xpos"			"62"
-		"ypos"			"120"
+		"xpos"			"10"
+		"ypos"			"0"
 		"zpos"			"20"
-		"wide"			"175"
-		"tall"			"15"
+		"wide"			"135"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -82,16 +82,20 @@
 		"armedBgColor_override"		"143 167 57 255"
 		"depressedBgColor_override"	"143 167 57 255"
 		"selectedBgColor_override"	"143 167 57 255"
+		
+    	"pin_to_sibling"            "ConfirmButton"
+    	"pin_corner_to_sibling"     "PIN_CENTER_LEFT"
+    	"pin_to_sibling_corner"     "PIN_CENTER_RIGHT"
 	}			
 
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
-		"xpos"			"62"
+		"xpos"			"10"
 		"ypos"			"160"
 		"zpos"			"20"
-		"wide"			"175"
+		"wide"			"135"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
