@@ -88,7 +88,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"IndividualChargesLabel"
 		"xpos"				"0"
-		"ypos"				"5"
+		"ypos"				"15"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"30"
