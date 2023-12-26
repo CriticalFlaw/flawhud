@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemEffectIcon"
-		"xpos"				"42"
+		"xpos"				"44"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"25"
