@@ -119,7 +119,7 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"font"					"SmallIcons"
-			"labelText"				"Z"
+			"labelText"				""
 			"enabled"				"1"
 			"visible"				"1"
 			"paintBackground"		"0"
@@ -127,6 +127,22 @@
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
 			"urlText"				"https://discord.gg/hTdtK9vBhE"
+		}
+
+		"DiscordLogo"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"DiscordLogo"
+			"xpos"					"cs-0.55"
+			"ypos"					"cs-0.5"
+			"wide"					"13"
+			"tall"					"11"
+			"proportionaltoparent"	"1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/discord"
+			"scaleimage"			"1"
+			"alpha"					"120"
 		}
 	}
 	
@@ -245,8 +261,8 @@
 			"fieldName"				"UncleLogo"
 			"xpos"					"cs-0.5"
 			"ypos"					"cs-0.5"
-			"wide"					"17"
-			"tall"					"17"
+			"wide"					"15"
+			"tall"					"15"
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
@@ -255,6 +271,7 @@
 			"alpha"					"120"
 		}
 	}
+	
 	"BGPanel"
 	{
 		"ControlName"			"EditablePanel"
