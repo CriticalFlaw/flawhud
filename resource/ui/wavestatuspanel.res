@@ -103,53 +103,37 @@
 	{
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBar"
-		"xpos"					"276"
-		"ypos"					"10"
+		"xpos"					"277"
+		"ypos"					"7"
 		"zpos"					"3"
 		"wide"					"118"
-		"tall"					"6"
+		"tall"					"9"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"../HUD/tournament_panel_tan"
-
+		"image"					"../HUD/tournament_panel_blu"
+		
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
-	}
-
-	"NewProgressBarBG"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"NewProgressBarBG"
-		"xpos"					"276"
-		"ypos"					"10"
-		"zpos"					"-1"
-		"wide"					"118"
-		"tall"					"6"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"fillcolor"				"HudBlack"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 
 	"ProgressBarBG"
 	{
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBarBG"
-		"xpos"					"210"
-		"ypos"					"10"
-		"zpos"					"3"
-		"wide"					"180"
+		"xpos"					"276"
+		"ypos"					"6"
+		"zpos"					"0"
+		"wide"					"120"
 		"tall"					"12"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"image"					"../HUD/tournament_panel_tan"
 
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"
+		"draw_corner_width"		"5"
+		"draw_corner_height"	"5"
 	}
 }
