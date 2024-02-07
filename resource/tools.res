@@ -305,30 +305,6 @@
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		
-		"CaptionsToggle"
-		{
-			"ControlName"			"CExButton"
-			"fieldname"				"CaptionsToggle"
-			"xpos"					"0"
-			"ypos"					"6"
-			"zpos"					"16"
-			"wide"					"150"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"#FH_toggle_captions"
-			"command"				"engine toggle closecaption"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			
-			"pin_to_sibling"		"StreamerMode"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		}
-		
 		"MatchStatusToggle"
 		{
 			"ControlName"			"CExButton"
@@ -348,7 +324,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"pin_to_sibling"		"CaptionsToggle"
+			"pin_to_sibling"		"StreamerMode"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
