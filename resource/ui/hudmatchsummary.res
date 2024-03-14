@@ -9,7 +9,7 @@
 		"tabPosition"		"0"
 		"paintbackground"	"0"
 		"ypos"				"20"
-		"zpos"				"1003"
+		"zpos"				"20"
 		"visible"			"0"
 
 		"AnimBluePlayerListParent"			"p.47"
