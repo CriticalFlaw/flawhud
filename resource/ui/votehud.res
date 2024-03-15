@@ -564,7 +564,7 @@
 		"issue_font"				"ItemFontNameSmall"
 		"issue_fgcolor"				"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
-		"parameter_width"			"200"
+		"parameter_width"			"190"
 
 		"TitleLabel"
 		{
@@ -608,7 +608,7 @@
 			"xpos"				"190"
 			"ypos"				"38"
 			"zpos"				"2"
-			"wide"				"227"
+			"wide"				"209"
 			"wide_minmode"		"0"
 			"tall"				"200"
 			"pinCorner"			"0"
