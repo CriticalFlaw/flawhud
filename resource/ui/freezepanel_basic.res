@@ -117,6 +117,10 @@
 			"image"				""
 			"scaleImage"		"1"
 			"color_outline"		"HudTimerProgressInActive"
+			"if_mvm"
+			{
+				"visible"	"0"
+			}
 		}
 
 		"NemesisSubPanel"
