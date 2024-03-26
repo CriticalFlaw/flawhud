@@ -100,7 +100,7 @@
 			{
 				"ControlName"		"SectionedListPanel"
 				"fieldName"			"TourList"
-				"font"				"HudFontSmall"
+				"font"				"FontRegular10"
 				"xpos"				"0"
 				"ypos"				"5"
 				"zpos"				"0"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"TourDifficultyWarning"
-			"font"				"HudFontSmall"
+			"font"				"FontRegular10"
 			"labelText"			"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"xpos"				"30"
 			"ypos"				"100"
@@ -194,10 +194,10 @@
 		"fieldName"			"MvMEconItemsGroupBox"
 		"xpos"				"0"
 		"ypos"				"240"
-		"zpos"				"-1"
+		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"120"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"25 25 25 50"
 		"border"			"QuickplayBorder"
 
 		"InventoryTitleLabel"
@@ -305,11 +305,11 @@
 			"ControlName"		"CheckButton"
 			"fieldName"			"SquadSurplusCheckButton"
 			"xpos"				"5"
-			"ypos"				"92"
+			"ypos"				"80"
 			"zpos"				"2"
 			"wide"				"25"
 			"tall"				"25"
-			"font"				"HudFontSmall"
+			"font"				"FontRegular10"
 			"labelText"			""
 		}
 
@@ -322,7 +322,7 @@
 			"textAlignment"		"west"
 			"wrap"				"1"
 			"xpos"				"33"
-			"ypos"				"90"
+			"ypos"				"80"
 			"zpos"				"0"
 			"wide"				"140"
 			"tall"				"25"
@@ -440,8 +440,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MvMPracticeGroupBox"
-		"xpos"				"0"
-		"ypos"				"240"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"-1"
 		"wide"				"400"
 		"tall"				"120"
@@ -470,7 +470,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"NoMannUpTitleLabel"
-			"font"				"HudFontSmallBold"
+			"font"				"FontRegular10Bold"
 			"labelText"			"#TF_MvM_NoMannUpTitle"
 			"textAlignment"		"west"
 			"xpos"				"10"
@@ -484,7 +484,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"NoMannUpDescriptionLabel"
-			"font"				"HudFontSmall"
+			"font"				"FontRegular10"
 			"labelText"			"#TF_MvM_NoMannUpDescription"
 			"textAlignment"		"west"
 			"wrap"				"1"
@@ -510,7 +510,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"#TF_MvM_MannUpNow"
-			"font"				"HudFontSmallBold"
+			"font"				"FontRegular10Bold"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
@@ -518,6 +518,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
+		
 	}
 
 	"MvMSelectChallengeGroupBox"
@@ -528,7 +529,7 @@
 		"ypos"				"10"
 		"zpos"				"-1"
 		"wide"				"400"
-		"tall"				"225"
+		"tall"				"400"
 
 		"ChallengeLabel"
 		{
@@ -599,11 +600,12 @@
 			"ypos"				"28"
 			"zpos"				"-1"
 			"wide"				"400"
-			"tall"				"197"
+			"tall"				"400"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 200"
 			"border"				"QuickplayBorder"
+			
 
 			"GreyOutPanel"
 			{
@@ -613,7 +615,7 @@
 				"ypos"				"0"
 				"zpos"				"200"
 				"wide"				"400"
-				"tall"				"225"
+				"tall"				"400"
 				"visible"			"0"
 				"bgcolor_override"	"128 128 128 128"
 			}
@@ -622,12 +624,12 @@
 			{
 				"ControlName"		"SectionedListPanel"
 				"fieldName"			"ChallengeList"
-				"font"				"HudFontSmall"
+				"font_override"		"FontRegular10"
 				"xpos"				"70"
 				"ypos"				"5"
 				"zpos"				"0"
 				"wide"				"330"
-				"tall"				"192"
+				"tall"				"400"
 				"linespacing"		"12"
 			}
 		}
