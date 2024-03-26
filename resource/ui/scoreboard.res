@@ -37,7 +37,7 @@
 		"tall"				"35"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
+					"1"
 		"enabled"			"1"
 		"pinCorner"			"0"
 		"autoResize"		"0"
@@ -51,7 +51,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+						"0"
 		}
 	}
 
@@ -96,7 +96,7 @@
 
 		if_mvm
  		{
- 			"visible"			"0"
+ 			"visible"	"0"
  		}
 	}
 
@@ -124,7 +124,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -153,7 +153,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -181,7 +181,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -210,7 +210,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -234,7 +234,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 	"RedPlayerBG"
@@ -258,7 +258,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -286,7 +286,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -315,7 +315,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -343,7 +343,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -367,9 +367,9 @@
 
 		if_mvm
 		{
-			"xpos"				"-25"
-			"ypos"				"-55"
-			"visible"			"0"
+			"xpos"		"-25"
+			"ypos"		"-55"
+			"visible"	"0"
 		}
 	}
 
@@ -396,8 +396,8 @@
 
 		if_mvm
 		{
-			"font"				"FontRegular10"
-			"ypos"				"2"
+			"font"		"FontRegular10"
+			"ypos"		"2"
 		}
 	}
 	"ServerTimeBackground"
@@ -420,7 +420,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 	"ServerTimeLabel"
@@ -446,7 +446,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -470,7 +470,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 	"RedPlayerList"
@@ -493,7 +493,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 	"Spectators"
@@ -520,8 +520,8 @@
 
 		if_mvm
 		{
-			"xpos"				"277"
-		    "wide"				"544"
+			"xpos"		"277"
+			"wide"		"544"
 		}
 	}
 
@@ -546,10 +546,10 @@
 
 		if_mvm
 		{
-			"ypos"				"167"
-			"wide"				"270"
-			"tall"				"132"
-			"pin_to_sibling"		"mapname"
+			"ypos"			"167"
+			"wide"			"270"
+			"tall"			"132"
+			"pin_to_sibling"	"mapname"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
@@ -578,7 +578,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 
@@ -602,7 +602,7 @@
 
 		if_mvm
 		{
-			"xpos"				"9999"
+			"xpos"		"9999"
 		}
 	}
 	
@@ -657,7 +657,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"visible"	"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -720,12 +720,12 @@
 
 		if_mvm
 		{
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"545"
-			"textAlignment"		"east"
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"545"
+			"textAlignment"	"east"
 
-			"pin_to_sibling"		"ServerLabel"
+			"pin_to_sibling"	"ServerLabel"
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
@@ -783,7 +783,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 
 		"DuelingLabel"
