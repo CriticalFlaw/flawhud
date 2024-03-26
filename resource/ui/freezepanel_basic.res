@@ -99,7 +99,7 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"center"
-            "use_proportional_insets" "1"
+			"use_proportional_insets" "1"
 		}
 
 		"AvatarImage"
