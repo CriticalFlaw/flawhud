@@ -549,7 +549,7 @@
 			"font"			"FontRegular9"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
-			"wrap"			"1"s
+			"wrap"			"1"
 			"centerwrap"	"1"
 			"xpos"			"20"
 			"ypos"			"50"
