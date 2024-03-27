@@ -8,7 +8,7 @@
 		"xpos"					"0"
 		"ypos"					"600"
 		"zpos"					"9999"
-		"wide"					"250"
+		"wide"					"300"
 		"tall"					"300"
 		"visible"				"0"
 		"bgcolor_override"		"0 0 0 0"
