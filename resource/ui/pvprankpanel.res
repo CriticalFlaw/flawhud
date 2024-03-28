@@ -203,22 +203,22 @@
 
 		"NameLabel"
 		{
-			"ControlName"	"Label"
+			"ControlName"		"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"15"
+			"xpos"			"0"
 			"ypos"			"2"
-			"wide"			"140"
+			"wide"			"170"
 			"zpos"			"100"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"FontRegular14"
 			"font_minmode"	"SmallerIcons"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
-			"labelText"		"%name%"
+			"fgcolor_override"		"TanLight"
+			"textAlignment"			"center"
+			"labelText"				"%name%"
 			"proportionaltoparent"	"1"
-
+			
 			if_mini
 			{
 				"visible"	"0"
@@ -227,19 +227,19 @@
 
 		"DescLine1"
 		{
-			"ControlName"	"CAutoFittingLabel"
+			"ControlName"		"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"15"
+			"xpos"			"12"
 			"ypos"			"18"
-			"wide"			"140"
+			"wide"			"146"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"				"HudFontSmallest"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north"
-			"labelText"		"%desc1%"
+			"font"					"HudFontSmallest"
+			"fgcolor_override"		"TanLight"
+			"textAlignment"			"north"
+			"labelText"				"%desc1%"
 			"proportionaltoparent"	"1"
 			"centerwrap" "1"
 

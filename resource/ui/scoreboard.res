@@ -1170,9 +1170,9 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"0"
-				"ypos"				"50"
+				"font"		"FontRegular10"
+				"xpos"		"0"
+				"ypos"		"50"
 			}
 		}
 		"Assists"
@@ -1191,7 +1191,6 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -1212,14 +1211,13 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"pin_to_sibling"		"Assists"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"		"FontRegular10"
 			}
 		}
 
@@ -1239,14 +1237,20 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
+			
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 			if_mvm
 			{
-				"visible"		"0"
+				"font"		"FontRegular10"
+				"xpos"		"0"
+				"ypos"		"50"
+				
+				"pin_to_sibling"		"HeadshotsLabel"
+				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
 		}
 		"Destruction"
@@ -1265,7 +1269,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-
+			
 			"pin_to_sibling"		"DestructionLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -1298,7 +1302,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"font"		"FontRegular10"
 			}
 		}
 
@@ -1377,7 +1381,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"		"0"
 			}
 		}
 
@@ -1401,10 +1405,16 @@
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			
 			if_mvm
 			{
-				"visible"			"0"
+				"font"		"FontRegular10"
+				"xpos"		"0"
+				"ypos"		"25"
+				
+				"pin_to_sibling"		"HeadshotsLabel"
+				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
 		}
 		"Defenses"
@@ -1430,7 +1440,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"	"0"
 			}
 		}
 		"Defenses2"
@@ -1456,7 +1466,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"font"	"FontRegular10"
 			}
 		}
 
@@ -1641,9 +1651,11 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"0"
-				"ypos"				"20"
+				"font"			"FontRegular10"
+				"xpos"			"0"
+				"ypos"			"20"
+				"visible"		"0" 
+				
 				"pin_to_sibling"		"AssistsLabel"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1694,7 +1706,8 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"		"FontRegular10"
+				"visible"	"0"
 			}
 		}
 
@@ -1721,8 +1734,12 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"ypos"				"20"
+				"font"		"FontRegular10"
+				"ypos"		"25"
+				
+				"pin_to_sibling"		"AssistsLabel"
+				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"			   						 				 
 			}
 		}
 		"Invuln"
@@ -1769,7 +1786,7 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"				"FontRegular10"
 			}
 		}
 
@@ -1796,9 +1813,10 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"90"
-				"ypos"				"0"
+				"font"				"FontRegular10"
+				"xpos"				"0"
+				"ypos"				"50"
+				
 				"pin_to_sibling"		"AssistsLabel"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1848,7 +1866,7 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"			"FontRegular10"
 			}
 		}
 
@@ -1875,11 +1893,12 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"0"
-				"ypos"				"20"
-				"wide"				"55"
-				"pin_to_sibling"		"TeleportsLabel"
+				"font"				"FontRegular10"
+				"xpos"				"90"
+				"ypos"				"0"
+				"wide"				"60"
+				
+				"pin_to_sibling"		"AssistsLabel"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
@@ -1928,7 +1947,7 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"				"FontRegular10"
 			}
 		}
 
@@ -1955,8 +1974,13 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"ypos"				"20"
+				"font"		"FontRegular10"
+				"xpos"		"90"
+				"ypos"		"0"
+				
+				"pin_to_sibling"		"HeadshotsLabel"
+				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"		 
 			}
 		}
 		"Backstabs"
@@ -2003,7 +2027,7 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"				"FontRegular10"
 			}
 		}
 
@@ -2030,10 +2054,11 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"90"
-				"ypos"				"0"
-				"pin_to_sibling"		"TeleportsLabel"
+				"font"				"FontRegular10"
+				"xpos"				"0"
+				"ypos"				"25"
+				
+				"pin_to_sibling"		"BackstabsLabel"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
@@ -2082,7 +2107,7 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"				"FontRegular10"
 			}
 		}
 
@@ -2109,9 +2134,11 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"xpos"				"0"
-				"ypos"				"20"
+				"font"			"FontRegular10"
+				"xpos"			"0"
+				"ypos"			"20"
+				"visible"		"0"
+				
 				"pin_to_sibling"		"BonusLabel"
 				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -2161,7 +2188,8 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"		"FontRegular10"
+				"visible"	"0"
 			}
 		}
 
@@ -2188,8 +2216,9 @@
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
-				"ypos"				"20"
+				"font"		"FontRegular10"
+				"ypos"		"20"
+				"visible"	"0"
 			}
 		}
 		"Damage"
@@ -2231,12 +2260,13 @@
 			"enabled"			"1"
 
 			"pin_to_sibling"		"Damage"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 			if_mvm
 			{
-				"font"				"FontRegular12"
+				"font"		"FontRegular10"
+				"visible"	"0"
 			}
 		}
 	}
