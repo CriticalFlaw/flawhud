@@ -572,7 +572,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"mouseinputenabled" 		"0"
-			"image"				"replay/thumbnails/mvm_tours"
+			"image"				"../hud/mvm_tours"
 			"scaleImage"		"1"
 		}
 
@@ -584,7 +584,7 @@
 			"labelText"			"%tour_level%"
 			"textAlignment"		"south"
 			"xpos"				"330"
-			"ypos"				"0"
+			"ypos"				"2"
 			"zpos"				"0"
 			"wide"				"70"
 			"tall"				"26"
