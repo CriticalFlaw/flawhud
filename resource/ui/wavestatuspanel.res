@@ -27,7 +27,7 @@
 		"fieldName"				"WaveCountLabel"
 		"font"					"FontBold12"
 		"fgcolor"				"TanLight"
-		"xpos"					"140"
+		"xpos"					"136"
 		"ypos"					"5"
 		"zpos"					"3"
 		"wide"					"200"
