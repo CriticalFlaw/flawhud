@@ -579,18 +579,21 @@
 		"TourLevelLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"			"TourLevelLabel"
-			"font"				"FontBold14"
-			"labelText"			"%tour_level%"
+			"fieldName"		"TourLevelLabel"
+			"font"			"FontBold14"
+			"labelText"		"%tour_level%"
 			"textAlignment"		"south"
-			"xpos"				"228"
-			"ypos"				"3"
-			"zpos"				"0"
-			"wide"				"70"
-			"tall"				"26"
+			"xpos"			"0"
+			"ypos"			"-13"
+			"zpos"			"1"
+			"wide"			"70"
+			"tall"			"26"
 			"fgcolor_override"	"Black"
+			
+			"pin_to_sibling"		"TourLevelImage"
+			"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
 		}
-
 		"ChallengeListGroupBox"
 		{
 			"ControlName"		"EditablePanel"
