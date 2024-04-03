@@ -24,8 +24,8 @@
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MetalIcon"
-		"xpos"					"15"
-		"ypos"					"5"
+		"xpos"					"18"
+		"ypos"					"6"
 		"zpos"					"1"
 		"wide"					"10"
 		"tall"					"10"
