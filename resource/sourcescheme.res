@@ -95,7 +95,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
-		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.Font				"UiBold"		[!$OSX]
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.DisabledTextColor	"DullWhite"
 
@@ -112,8 +112,8 @@ Scheme
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 
-		MainMenu.TextColor					"DullWhite"
-		MainMenu.ArmedTextColor				"White"
+		MainMenu.TextColor					"DullWhite"	[!$OSX]
+		MainMenu.ArmedTextColor				"White"		[!$OSX]
 		MainMenu.Inset						"32"
 
 		Menu.TextInset						"6"
@@ -250,7 +250,7 @@ Scheme
 		
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
 				"name"			"TF2 Build"
 				"tall"			"18"
@@ -340,7 +340,7 @@ Scheme
 			}
 		}
 
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
@@ -353,7 +353,7 @@ Scheme
 			}
 		}
 
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
@@ -366,7 +366,7 @@ Scheme
 			}
 		}
 
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
@@ -517,5 +517,13 @@ Scheme
 				"range" "0x0000 0x0451"
 			}
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
