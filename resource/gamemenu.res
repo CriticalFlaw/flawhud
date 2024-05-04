@@ -109,7 +109,7 @@
 	"ReloadHUDButton"
 	{
 		"label"			"."
-		"command"		"engine record fix;stop;snd_restart;vgui_cache_res_files 0;hud_reloadscheme"
+		"command"		"engine record fix;stop;snd_restart;vgui_cache_res_files 0;hud_reloadscheme;vgui_cache_res_files 1"
 		"tooltip"		"#FH_refresh_hud"
 	}
 }
