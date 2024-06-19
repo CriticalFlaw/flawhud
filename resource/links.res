@@ -144,7 +144,7 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://mastercomfig.com/quickplay/"
+			"urlText"				"https://comfig.app/quickplay/"
 		}
 
 		"ComfigLogo"
