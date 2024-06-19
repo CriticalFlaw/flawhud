@@ -2289,4 +2289,30 @@
 			"visible"		"1"
 		}
 	}
+	
+	"DrawingBoard"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"paintBorder"	"1"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		
+		"Draw"
+		{
+			"ControlName"		"CDrawingPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"linecolor"			"TanLight"
+			"bgcolor_override"	"Transparent"
+			"proportionaltoparent"	"1"
+		}
+	}
 }
