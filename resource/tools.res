@@ -134,6 +134,8 @@
 			"xpos"					"9999"
 		}
 		
+		//---------------
+		
 		"ReloadScheme"
 		{
 			"ControlName"			"CExButton"
@@ -157,6 +159,8 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
+		
+		//---------------
 		
 		"ViewmodelLabel"
 		{
@@ -199,6 +203,8 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
+		//---------------
+		
 		"SoundLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -240,6 +246,8 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
+		//---------------
+		
 		"VoiceVolumeLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -280,11 +288,13 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-	
-		"StreamerMode"
+		
+		//---------------
+		
+		"StreamerModeToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"StreamerMode"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"StreamerModeToggle"
 			"xpos"					"5"
 			"ypos"					"1"
 			"zpos"					"16"
@@ -292,23 +302,57 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_streamer_mode"
-			"command"				"engine toggle cl_hud_minmode;toggle mat_aaquality"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+			
+			"StreamerModeButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"StreamerModeButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle cl_hud_minmode;toggle mat_aaquality"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"StreamerModeCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"StreamerModeCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_streamer_mode"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"cl_hud_minmode"
+				"mouseinputenabled"				"0"
+			}
 		}
 		
-		"MatchStatusToggle"
+		//---------------
+		
+		"MatchHudToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"MatchStatusToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"MatchHudToggle"
 			"xpos"					"0"
 			"ypos"					"6"
 			"zpos"					"16"
@@ -316,23 +360,57 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_match_hud"
-			"command"				"engine toggle tf_use_match_hud"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"StreamerMode"
+			"pin_to_sibling"		"StreamerModeToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"MatchHudButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"MatchHudButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle tf_use_match_hud"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"MatchHudCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"MatchHudCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_match_hud"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"tf_use_match_hud"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
 		
 		"NetgraphToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"NetgraphToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"NetgraphToggle"
 			"xpos"					"0"
 			"ypos"					"6"
 			"zpos"					"16"
@@ -340,23 +418,57 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_netgraph"
-			"command"				"engine toggle net_graph"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"MatchStatusToggle"
+			"pin_to_sibling"		"MatchHudToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"NetgraphButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"NetgraphButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle net_graph"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"NetgraphCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"NetgraphCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_netgraph"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"net_graph"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
 		
 		"ChatToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"ChatToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"ChatToggle"
 			"xpos"					"0"
 			"ypos"					"6"
 			"zpos"					"16"
@@ -364,18 +476,52 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_chat"
-			"command"				"engine toggle hud_saytext_time 10 0"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"ChatButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ChatButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle hud_saytext_time 10 0"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"ChatCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"ChatCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_chat"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"hud_saytext_time"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
 		
 		"MinViewmodelToggle"
 		{
@@ -432,6 +578,8 @@
 				"mouseinputenabled"				"0"
 			}
 		}
+		
+		//---------------
 		
 		"DamageLabel"
 		{
