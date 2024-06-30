@@ -120,7 +120,7 @@
 		"wide"					"18"
 		"tall"					"18"
 		"visible"				"1"
-		"bgcolor_override"		"67 147 136 255"
+		"bgcolor_override"		"ComfigGreen"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"DiscordLink"

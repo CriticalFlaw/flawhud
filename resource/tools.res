@@ -8,7 +8,7 @@
 		"ypos"				"130"
 		"zpos"				"200"
 		"wide"				"345"
-		"tall"				"230"
+		"tall"				"240"
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
@@ -354,7 +354,7 @@
 			"ControlName"			"EditablePanel"
 			"fieldName"				"MatchHudToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
@@ -412,7 +412,7 @@
 			"ControlName"			"EditablePanel"
 			"fieldName"				"NetgraphToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
@@ -470,7 +470,7 @@
 			"ControlName"			"EditablePanel"
 			"fieldName"				"ChatToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
@@ -528,7 +528,7 @@
 			"ControlName"			"EditablePanel"
 			"fieldName"				"MinViewmodelToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
@@ -581,12 +581,186 @@
 		
 		//---------------
 		
+		"AutoStartToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"AutoStartToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"MinViewmodelToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"AutoStartButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"AutoStartButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_autostart"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"AutoStartCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"AutoStartCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: Auto-Start"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_autostart"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
+		
+		"NoConnectToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"NoConnectToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"AutoStartToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"NoConnectButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"NoConnectButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_noconnect"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"NoConnectCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"NoConnectCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: No Connect"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_noconnect"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
+		
+		"AutoCloseToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"AutoCloseToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"NoConnectToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"AutoCloseButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"AutoCloseButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_autoclose"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"AutoCloseCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"AutoCloseCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: Auto-Close"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_autoclose"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
+		
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DamageLabel"
 			"xpos"					"0"
-			"ypos"					"5"
+			"ypos"					"3"
 			"wide"					"150"
 			"tall"					"11"
 			"autoResize"			"0"

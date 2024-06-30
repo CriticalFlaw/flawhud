@@ -19,3 +19,9 @@ sv_unlockedchapters 99
 cl_hud_minmode 0
 tf_hud_target_id_alpha 255
 vgui_cache_res_files 1
+
+// Quickplay settings
+setinfo hud_qp_autostart 0		// If set to 1, will automatically start finding a server instead of needing to press a button. If set to 2, will open the advanced options panel. If set to 3, will open the server list.
+setinfo hud_qp_gamemode 0		// Sets the gamemode. Can be; any, alternative, arena or a string value for special events.
+setinfo hud_qp_noconnect 0		// If set to 1, skips automatically connecting.
+setinfo hud_qp_autoclose 0		// If set to 1, closes after finding a server.
