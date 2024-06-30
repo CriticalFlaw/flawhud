@@ -6,7 +6,7 @@
 	{
 		"fieldName"				"ExpandableList"
 		"xpos"					"r0"
-		"ypos"					"r63"
+		"ypos"					"r75"
 		"zpos"					"2001"
 		"wide"					"f0"
 		"tall"					"f0"
@@ -24,7 +24,7 @@
 		"wide"					"130"
 		"tall"					"40"
 		"proportionaltoparent"	"1"
-		"labeltext"				"#TF_Matchmaking_HeaderModeSelect"
+		"labeltext"				""
 		"textAlignment"			"west"
 		"font"					"HudFontMediumBold"
 		"fgcolor_override"		"TanLight"
