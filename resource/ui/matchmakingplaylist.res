@@ -134,6 +134,48 @@
 	
 	//---------------
 	
+	"ServerBrowserLabel"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"ServerBrowserLabel"
+		"xpos"					"5"
+		"ypos"					"0"
+		"zpos"					"15"
+		"tall"					"15"
+		"wide"					"115"
+		"labeltext"				"#MMenu_BrowseServers"
+		"textAlignment"			"center"
+		"font"					"FontBold12"
+		"fgcolor_override"		"TanLight"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"MvMLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+
+	"ServerBrowserEntry"
+	{
+		"ControlName"			"CPlayListEntry"
+		"fieldName"				"ServerBrowserEntry"
+		"xpos"					"0"
+		"ypos"					"5"
+		"tall"					"40"
+		"wide"					"115"
+		"proportionaltoparent"	"1"
+		"image_name"			"main_menu/main_menu_button_community_server"
+		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
+		"button_command"		"play_community"
+		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
+		"matchgroup"			"1" // k_eTFMatchGroup_MvM_MannUp
+
+		"pin_to_sibling"		"ServerBrowserLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	//---------------
+	
 	"QuickplayLabel"
 	{
 		"ControlName"			"Label"
@@ -149,7 +191,7 @@
 		"fgcolor_override"		"ComfigGreen"
 		"proportionaltoparent"	"1"
 
-		"pin_to_sibling"		"MvMLabel"
+		"pin_to_sibling"		"ServerBrowserLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -227,102 +269,6 @@
 			"urlText"				"https://comfig.app/quickplay/?gm=core"
 		}
 	}
-
-	//---------------
-	
-	"QuickplayMiscLabel"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"QuickplayMiscLabel"
-		"xpos"					"5"
-		"ypos"					"0"
-		"zpos"					"15"
-		"wide"					"120"
-		"tall"					"15"
-		"labeltext"				"Quickplay Misc"
-		"textAlignment"			"center"
-		"font"					"FontBold12"
-		"fgcolor_override"		"ComfigGreen"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"		"QuickplayLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}
-
-	"QuickplayMiscEntry"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"QuickplayMiscEntry"
-		"xpos"					"0"
-		"ypos"					"5"
-		"zpos"					"5"
-		"tall"					"40"
-		"wide"					"120"
-		"visible"				"1"
-		"enabled"				"1"
-		"paintBackground"		"1"
-		"bgcolor_override"		"TanLight"
-		"border"				"GreenBorderThick"
-
-		"pin_to_sibling"		"QuickplayMiscLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		"ComfigLogo"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ComfigLogo"
-			"xpos"					"103"
-			"ypos"					"23"
-			"zpos"					"3"
-			"wide"					"17"
-			"tall"					"17"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"replay/thumbnails/comfig"
-			"bgcolor_override"		"ComfigGreen"
-			"scaleimage"			"1"
-			"proportionaltoparent"	"1"
-		}
-
-		"QuickplayImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"QuickplayImage"
-			"xpos"					"cs-0.55"
-			"ypos"					"cs-0.4"
-			"wide"					"104"
-			"tall"					"116"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"illustrations/gamemode_sd"
-			"scaleimage"			"1"
-			"paintBackground"		"1"
-			"proportionaltoparent"	"1"
-			"fillcolor"				"TanLight"
-		}
-
-		"QuickplayLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"QuickplayLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"5"
-			"wide"					"f0"
-			"tall"					"f0"
-			"enabled"				"1"
-			"visible"				"1"
-			"font"					"FontBold12"
-			"labelText"				""
-			"textAlignment"			"center"
-			"proportionaltoparent"	"1"
-			"paintBackground"		"0"
-			"bgcolor_override"		"BGBlack"
-			"urlText"				"https://comfig.app/quickplay/?gm=alternative"
-		}
-	}
 	
 	//---------------
 	
@@ -341,7 +287,7 @@
 		"fgcolor_override"		"ComfigGreen"
 		"proportionaltoparent"	"1"
 
-		"pin_to_sibling"		"QuickplayMiscLabel"
+		"pin_to_sibling"		"QuickplayLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
