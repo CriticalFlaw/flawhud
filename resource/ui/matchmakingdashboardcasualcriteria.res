@@ -39,7 +39,7 @@
 		"ypos"					"40"
 		"zpos"					"100"
 		"wide"					"f0"
-		"tall"					"f63"
+		"tall"					"f73"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
 	}
@@ -66,7 +66,7 @@
 		"ControlName"			"CExButton"
 		"fieldName"				"QueueButton"
 		"xpos"					"cs-0.51"
-		"ypos"					"rs1-7"
+		"ypos"					"rs1-17"
 		"zpos"					"100"
 		"wide"					"f19"
 		"tall"					"20"
@@ -85,8 +85,10 @@
 		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"		"1"
+		"defaultBgColor_override"	"OverhealShadow"
+		"armedBgColor_override"		"Overheal"
 		
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 }
