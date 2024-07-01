@@ -29,7 +29,6 @@
 		"font"					"HudFontMediumBold"
 		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"
-		"wrap"					"1"
 		"visible"				"0"
 	}
 
