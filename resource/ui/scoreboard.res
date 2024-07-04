@@ -2290,7 +2290,7 @@
 		}
 	}
 	
-	"DrawingBoard"
+	"DrawingBoardRight"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
@@ -2302,6 +2302,100 @@
 		"paintBorder"	"1"
 		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"			"RedBG"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+		"Draw"
+		{
+			"ControlName"		"CDrawingPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"linecolor"			"TanLight"
+			"bgcolor_override"	"Transparent"
+			"proportionaltoparent"	"1"
+		}
+	}
+	
+	"DrawingBoardDown"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"paintBorder"	"1"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"			"StatsBG"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		
+		"Draw"
+		{
+			"ControlName"		"CDrawingPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"linecolor"			"TanLight"
+			"bgcolor_override"	"Transparent"
+			"proportionaltoparent"	"1"
+		}
+	}
+	
+	"DrawingBoardLeft"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"paintBorder"	"1"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"			"BlueBG"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		
+		"Draw"
+		{
+			"ControlName"		"CDrawingPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"linecolor"			"TanLight"
+			"bgcolor_override"	"Transparent"
+			"proportionaltoparent"	"1"
+		}
+	}
+	
+	"DrawingBoardTop"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"paintBorder"	"1"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"			"DrawingBoardRight"
+		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
 		"Draw"
 		{
