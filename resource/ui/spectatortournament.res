@@ -337,7 +337,9 @@
 
 		if_mvm
 		{
-			"ypos"		"90"
+			"ypos"		"-2"
+			"xpos"		"1"
+			"font"		"FontRegular11"
 		}
 	}
 	
@@ -345,8 +347,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
-		"ypos"			"110"
+		"xpos"			"1"
+		"ypos"			"12"
 		"wide"			"f0"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -355,7 +357,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"FontRegular15"
+		"font"			"FontRegular11"
 		"wrap"			"1"
 		"centerwrap"	"1"
 
