@@ -87,10 +87,10 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-55"
-		"ypos"				"r127"
-		"wide"				"150"
-		"tall"				"60"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
 	}
 
 	"HudDemomanCharge"
