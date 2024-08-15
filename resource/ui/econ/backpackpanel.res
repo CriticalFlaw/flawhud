@@ -34,9 +34,9 @@
 		"button_override_delete_xpos"	"0"
 
 		"page_button_y"					"288"
-		"page_button_x_delta"			"5"
-		"page_button_y_delta"			"5"
-		"page_button_per_row"			"15"
+		"page_button_x_delta"			"4"
+		"page_button_y_delta"			"4"
+		"page_button_per_row"			"20"
 		"page_button_height"			"15"
 
 		"pagebuttons_kv"
@@ -54,7 +54,7 @@
 			{
 				"fieldName"				"Button"
 				"ControlName"			"CExButton"
-				"wide"					"34"
+				"wide"					"25"
 				"tall"					"15"
 				"visible"				"1"
 				"bgcolor_override"		"Transparent"
@@ -77,7 +77,7 @@
 				"ypos"					"0"
 				"xpos"					"0"
 				"zpos"					"0"
-				"wide"					"f1"
+				"wide"					"f0"
 				"tall"					"f-5"
 				"textinsetx"			"8"
 				"autoResize"			"1"
