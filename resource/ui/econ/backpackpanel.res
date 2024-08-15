@@ -77,7 +77,7 @@
 				"ypos"					"0"
 				"xpos"					"0"
 				"zpos"					"0"
-				"wide"					"f1"
+				"wide"					"f0"
 				"tall"					"f-5"
 				"textinsetx"			"8"
 				"autoResize"			"1"
