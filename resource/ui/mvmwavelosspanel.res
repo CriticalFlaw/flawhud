@@ -60,7 +60,7 @@
 		"labelText"			"%summaryheader%"
 		"textAlignment"		"center"
 		"xpos"				"c-275"
-		"ypos"				"125"
+		"ypos"				"128"
 		"wide"				"550"
 		"tall"				"30"
 		"fgcolor"			"TanLight"
