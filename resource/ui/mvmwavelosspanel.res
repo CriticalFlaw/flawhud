@@ -60,7 +60,7 @@
 		"labelText"			"%summaryheader%"
 		"textAlignment"		"center"
 		"xpos"				"c-275"
-		"ypos"				"135"
+		"ypos"				"125"
 		"wide"				"550"
 		"tall"				"30"
 		"fgcolor"			"TanLight"
@@ -70,8 +70,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CollectionContainer"
-		"xpos"				"190"
-		"ypos"				"160"
+		"xpos"				"220"
+		"ypos"				"168"
 		"wide"				"300"
 		"tall"				"100"
 		"visible"			"1"
@@ -83,8 +83,9 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Collection"
 			"textAlignment" "center"
-			"xpos"			"0"
+			"xpos"			"5"
 			"ypos"			"0"
+			"tall"			"12"
 			"wide"			"140"
 			"fgcolor"		"TanLight"
 		}
@@ -98,6 +99,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
+			"tall"			"10"
 			"wide"			"120"
 			"fgcolor"		"TanLight"
 		}
@@ -124,6 +126,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
+			"tall"			"10"
 			"wide"			"120"
 		}
 
@@ -149,6 +152,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
+			"tall"			"10"
 			"wide"			"120"
 		}
 
@@ -170,10 +174,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"UsageContainer"
-		"xpos"				"390"
-		"ypos"				"160"
+		"xpos"				"430"
+		"ypos"				"168"
 		"wide"				"300"
-		"tall"				"100"
+		"tall"				"105"
 		"visible"			"1"
 
 		"Header"
@@ -183,8 +187,9 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Use"
 			"textAlignment" "center"
-			"xpos"			"0"
+			"xpos"			"10"
 			"ypos"			"0"
+			"tall"			"12"
 			"wide"			"195"
 			"fgcolor"		"TanLight"
 		}
@@ -195,9 +200,9 @@
 			"fieldName"		"YouLabel"
 			"font"			"FontStorePriceSmall"
 			"labelText"		"#TF_PVE_You"
-			"textAlignment" "east"
-			"xpos"			"120"
-			"ypos"			"15"
+			"textAlignment" "center"
+			"xpos"			"134"
+			"ypos"			"14"
 			"wide"			"35"
 		}
 
@@ -207,9 +212,9 @@
 			"fieldName"		"TeamLabel"
 			"font"			"FontStorePriceSmall"
 			"labelText"		"#Winpanel_Team2"
-			"textAlignment" "east"
-			"xpos"			"175"
-			"ypos"			"15"
+			"textAlignment" "center"
+			"xpos"			"189"
+			"ypos"			"14"
 			"wide"			"35"
 		}
 
@@ -222,6 +227,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
+			"tall"			"10"
 			"wide"			"120"
 		}
 
@@ -258,6 +264,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
+			"tall"			"10"
 			"wide"			"120"
 		}
 
@@ -294,6 +301,7 @@
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
+			"tall"			"10"
 			"wide"			"120"
 		}
 
@@ -363,6 +371,7 @@
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"5"
+			"tall"			"12"
 			"wide"			"500"
 			"fgcolor"		"TanLight"
 		}
@@ -481,8 +490,8 @@
 		"wide"				"200"
 		"tall"				"25"
 		"autoResize"		"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"#TF_PVE_Vote_MissionRestart"
 		"font"				"FontBold14"
@@ -500,10 +509,10 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ContinueButton"
-		"xpos"				"c150"
+		"xpos"				"cs-.5"
 		"ypos"				"410"
 		"zpos"				"1000"
-		"wide"				"100"
+		"wide"				"200"
 		"tall"				"25"
 		"autoResize"		"0"
 		"visible"			"1"
