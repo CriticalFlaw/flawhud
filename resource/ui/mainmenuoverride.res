@@ -677,14 +677,13 @@
 	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"HomeServerButton"
+		"fieldName"		"HomeServerButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
 
 		"pin_to_sibling"			"QuestLogButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
@@ -1164,7 +1163,7 @@
 	"FriendsContainer"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"FriendsContainer"
+		"fieldName"			"FriendsContainer"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"5"
@@ -1197,7 +1196,7 @@
 		"InnerShadow"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldname"			"InnerShadow"
+			"fieldName"			"InnerShadow"
 			"xpos"				"cs-0.5"
 			"ypos"				"rs1-10"
 			"zpos"				"501"
@@ -1214,7 +1213,7 @@
 		"SteamFriendsList"
 		{
 			"ControlName"		"CSteamFriendsListPanel"
-			"fieldname"			"SteamFriendsList"
+			"fieldName"			"SteamFriendsList"
 			"xpos"				"0"
 			"ypos"				"22"
 			"zpos"				"500"
@@ -1271,7 +1270,7 @@
 		"BelowDarken"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldname"			"BelowDarken"
+			"fieldName"			"BelowDarken"
 			"xpos"				"0"
 			"ypos"				"22"
 			"zpos"				"499"
@@ -1313,7 +1312,7 @@
 	"CharacterSetupButton"
 	{
 		"ControlName"		"CExImageButton"
-		"fieldname"			"CharacterSetupButton"
+		"fieldName"			"CharacterSetupButton"
 		"xpos"				"-5"
 		"ypos"				"-5"
 		"zpos"				"11"
@@ -1336,7 +1335,7 @@
 	"GeneralStoreButton"
 	{
 		"ControlName"		"CExImageButton"
-		"fieldname"			"GeneralStoreButton"
+		"fieldName"			"GeneralStoreButton"
 		"xpos"				"-5"
 		"ypos"				"-5"
 		"zpos"				"11"
@@ -1383,7 +1382,7 @@
 	"SettingButton"
 	{
 		"ControlName"		"CExImageButton"
-		"fieldname"			"SettingButton"
+		"fieldName"			"SettingButton"
 		"xpos"				"-5"
 		"ypos"				"-5"
 		"zpos"				"11"
@@ -1407,7 +1406,7 @@
 	"TF2SettingsButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"TF2SettingsButton"
+		"fieldName"			"TF2SettingsButton"
 		"xpos"				"-8"
 		"ypos"				"-2"
 		"zpos"				"12"
@@ -1448,7 +1447,7 @@
 	"AchievementsButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"AchievementsButton"
+		"fieldName"			"AchievementsButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1489,7 +1488,7 @@
 	"ReplayButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"ReplayButton"
+		"fieldName"			"ReplayButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1530,7 +1529,7 @@
 	"ReportBugButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"ReportBugButton"
+		"fieldName"			"ReportBugButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1571,7 +1570,7 @@
 	"ItemTestButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"ItemTestButton"
+		"fieldName"			"ItemTestButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1612,7 +1611,7 @@
 	"TrainingModeButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"TrainingModeButton"
+		"fieldName"			"TrainingModeButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1653,7 +1652,7 @@
 	"CreateServerButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"CreateServerButton"
+		"fieldName"			"CreateServerButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1694,7 +1693,7 @@
 	"ConsoleButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"ConsoleButton"
+		"FieldName"			"ConsoleButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1735,7 +1734,7 @@
 	"CoachPlayersButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"CoachPlayersButton"
+		"FieldName"			"CoachPlayersButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1776,7 +1775,7 @@
 	"RequestCoachButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"RequestCoachButton"
+		"FieldName"			"RequestCoachButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1817,7 +1816,7 @@
 	"CallVoteButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"CallVoteButton"
+		"FieldName"			"CallVoteButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1858,7 +1857,7 @@
 	"MutePlayersButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"MutePlayersButton"
+		"FieldName"			"MutePlayersButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1899,7 +1898,7 @@
 	"ReportPlayerButton"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"ReportPlayerButton"
+		"FieldName"			"ReportPlayerButton"
 		"xpos"				"19"
 		"ypos"				"0"
 		"zpos"				"12"
@@ -1982,7 +1981,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
-		}			
+		}
 	}
 
 	"TF2SettingsButtonSDK"
@@ -2031,7 +2030,7 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"BGPanel1"
@@ -2091,7 +2090,7 @@
 	"BGPanel4"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldname"				"BGPanel4"
+		"FieldName"				"BGPanel4"
 		"xpos"					"0"
 		"ypos"					"2"
 		"zpos"					"-1"
@@ -2109,7 +2108,7 @@
 	"BGPanel5"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldname"				"BGPanel5"
+		"FieldName"				"BGPanel5"
 		"xpos"					"rs1+10"
 		"ypos"					"130"
 		"zpos"					"-1"
