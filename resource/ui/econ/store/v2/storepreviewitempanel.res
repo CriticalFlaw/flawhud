@@ -930,9 +930,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"icons_left"
+		"paintbackground"	"0"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
+		
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
@@ -959,6 +961,7 @@
 		"brighttext"	"0"
 		"command"		"icons_right"
 		"paintbackground"	"0"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
