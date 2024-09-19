@@ -20,6 +20,7 @@
 		"font"				"FontBold10"
 		"fgcolor_override"	"Black"
 	}
+	
 	"ChargeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -37,6 +38,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -241,4 +243,3 @@
 		}
 	}
 }
-
