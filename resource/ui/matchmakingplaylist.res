@@ -16,7 +16,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"CasualLabel"
-		"xpos"					"r-40"
+		"xpos"					"0"
 		"ypos"					"5"
 		"zpos"					"15"
 		"tall"					"15"
@@ -26,14 +26,18 @@
 		"font"					"FontBold12"
 		"fgcolor_override"		"TanLight"
 		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"CasualEntry"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CasualEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"0"
-		"ypos"					"5"
+		"xpos"					"r150"
+		"ypos"					"25"
 		"tall"					"40"
 		"wide"					"115"
 		"proportionaltoparent"	"0"
@@ -42,10 +46,6 @@
 		"button_command"		"play_casual"
 		"desc_token"			"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"			"7" // k_eTFMatchGroup_Casual_12v12
-
-		"pin_to_sibling"		"CasualLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
 	//---------------
@@ -66,8 +66,8 @@
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"CasualLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CompetitiveEntry"
@@ -108,8 +108,8 @@
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"CompetitiveLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"MvMEntry"
@@ -150,8 +150,8 @@
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"MvMLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"ServerBrowserEntry"
@@ -192,8 +192,8 @@
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"ServerBrowserLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"QuickplayEntry"
@@ -288,8 +288,8 @@
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"QuickplayLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"QuickplayArenaEntry"
