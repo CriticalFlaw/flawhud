@@ -203,6 +203,7 @@ Scheme
 	{
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"			"Verdana"
@@ -244,11 +245,9 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"20" [!$POSIX]
-				"tall"			"24" [$POSIX]
+				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -344,6 +343,7 @@ Scheme
 		
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"			"Verdana"
@@ -387,10 +387,8 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"22"	[!$POSIX]
-				"tall"			"25"	[$POSIX]
-				"weight"		"700"
-				"yres"			"1200 10000"
+				"tall"			"8"
+				"weight"		"300"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}
