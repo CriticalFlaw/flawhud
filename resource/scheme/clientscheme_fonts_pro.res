@@ -337,7 +337,6 @@ Scheme
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 			"6"
@@ -390,7 +389,6 @@ Scheme
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -436,7 +434,6 @@ Scheme
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 			"6"
@@ -512,9 +509,9 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"24"
+				"tall"			"12"
 				"weight"		"700"
-				"yres"			"1200 10000"
+				"antialias"		"1"
 			}
 		}
 
@@ -524,6 +521,7 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
+				"tall_lodef"	"80"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -533,6 +531,7 @@ Scheme
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"32"
+				"tall_hidef"	"120"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -559,46 +558,52 @@ Scheme
 			"5"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"52"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-				"yres"			"1200 10000"
 			}
 		}
+		
 		"HudFontGiantBold"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"44"
+				"tall_lodef"	"52"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontBiggerBold"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"35"
+				"tall_lodef"	"40"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+		
 		"HudFontBig"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"36"
+				"tall_hidef"	"48"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontMediumBig"
 		{
 			"1"
@@ -610,6 +615,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -621,17 +627,20 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
 		"HudFontMedium"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
+				"tall_lodef"	"28"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+		
 		"HudFontMediumSecondary"
 		{
 			"1"
@@ -639,10 +648,20 @@ Scheme
 				"name"			"Code-Pro-LC"
 				"tall"			"24"
 				"weight"		"500"
+				"yres"			"1 1199"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
+			"2"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+			}
 		}
+		
 		"HudFontMediumBold"
 		{
 			"1"
@@ -654,6 +673,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -665,39 +685,48 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontSmall"
 		{
 			"1"
 			{
 				"name"			"Code-Pro-LC"
 				"tall"			"14"
+				"tall_lodef"	"16"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -709,6 +738,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontSmallBold"
 		{
 			"1"
@@ -720,6 +750,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontSmallBoldShadow"
 		{
 			"1"
@@ -732,6 +763,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		
 		"HudFontSmallest"
 		{
 			"1"
@@ -743,6 +775,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -755,6 +788,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		
 		"HudFontSmallestBold"
 		{
 			"1"
