@@ -387,34 +387,4 @@
 		"FieldName"				"ScrollBar"
 		"xpos"					"9999"
 	}
-	
-	"DrawingBoard"
-	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"1000"
-		"wide"			"230"
-		"tall"			"130"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"		"QuickplayEntry"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-		
-		"Draw"
-		{
-			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
-		}
-	}
 }
