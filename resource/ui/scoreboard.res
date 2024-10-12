@@ -2346,7 +2346,7 @@
 			"wide"				"f0"
 			"tall"				"f0"
 			"linecolor"			"TanLight"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"Transparent"
 			"proportionaltoparent"	"1"
 		}
 	}
@@ -2376,7 +2376,7 @@
 			"wide"				"f0"
 			"tall"				"f0"
 			"linecolor"			"TanLight"
-			"bgcolor_override"	"red"
+			"bgcolor_override"	"Transparent"
 			"proportionaltoparent"	"1"
 		}
 	}
