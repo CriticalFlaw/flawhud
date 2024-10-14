@@ -455,7 +455,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"8"
-			"ypos"			"70"
+			"ypos"			"60"
 
 			"fixed_item"
 			{
@@ -464,7 +464,7 @@
 
 			"zpos"			"1"
 			"wide"			"235"
-			"tall"			"20"
+			"tall"			"30"
 			"numticks"		"4"
 			"rangemin"		"1"
 			"rangemax"		"5"
