@@ -58,7 +58,7 @@
 		"xpos"				"0"
 		"ypos"				"25"
 		"zpos"				"5"
-		"wide"				"80"
+		"wide"				"p1"
 		"tall"				"15"
 		"visible"			"0"
 		"enabled"			"1"
@@ -68,13 +68,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"FontRegular10"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"wide"					"p1"
-			"font"					"FontRegular10"
-		}
+		"proportionaltoparent"	"1"
 	}
 	"OvertimeBG"
 	{
