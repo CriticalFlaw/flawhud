@@ -266,7 +266,7 @@
 			"bgcolor_override"		"BGBlack"
 			"proportionaltoparent"	"1"
 			"paintBackground"		"0"
-			"urlText"				"https://comfig.app/quickplay/?gm=core"
+			"urlText"				"https://comfig.app/quickplay/?gm=any"
 		}
 	}
 	
