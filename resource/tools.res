@@ -571,8 +571,66 @@
 				"cvar_name"						"tf_use_min_viewmodels"
 				"mouseinputenabled"				"0"
 			}
-		}
+		}	
+
+		//////////////////////////////////////////
 		
+		"VoiceEnableToggle"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"VoiceEnableToggle"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"16"
+			"wide"					"150"
+			"tall"					"26"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"MinViewmodelToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"VoiceEnableButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"VoiceEnableButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle voice_enable"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"VoiceEnableCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"VoiceEnableCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"Enable Voice"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"voice_enable"
+				"mouseinputenabled"				"0"
+			}
+		}
+
 		//---------------
 		
 		"DamageLabel"
