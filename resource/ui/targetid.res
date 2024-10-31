@@ -117,15 +117,14 @@
 		"fieldName"			"TargetDataLabel"
 		"font"				"FontRegular12"
 		"xpos"				"40"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"640"
-		"tall"				"10"
+		"tall"				"13"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
 		"textAlignment"			"west"
-		"textinsetx"			"-30"
 	}
 
 	"SpectatorGUIHealth"
