@@ -113,9 +113,9 @@
 
 	"TargetDataLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"			"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"FontRegular10"
+		"font"				"FontRegular12"
 		"xpos"				"40"
 		"ypos"				"23"
 		"zpos"				"1"
@@ -124,7 +124,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
-		"textAlignment"		"west"
+		"textAlignment"			"west"
+		"textinsetx"			"-30"
 	}
 
 	"SpectatorGUIHealth"
