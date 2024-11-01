@@ -147,17 +147,17 @@
 
 	"AmmoIcon"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"			"ImagePanel"
 		"fieldName"			"AmmoIcon"
-		"xpos"				"60"
+		"xpos"				"70"
 		"ypos"				"22"
 		"zpos"				"12"
-		"wide"				"10"
-		"tall"				"10"
+		"wide"				"9"
+		"tall"				"9"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_class_heavy"
-		"scaleImage"		"1"
+		"scaleImage"			"1"
 	}
 
 	"KillStreakAnchor"
