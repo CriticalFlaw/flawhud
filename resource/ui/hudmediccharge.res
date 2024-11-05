@@ -97,8 +97,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
-		"textAlignment"		"east"
-		"font"				"HudFontMediumBold"
+		"textAlignment"		"north"
+		"font"				"FontBold20"
 		"proportionaltoparent"	"1"
 		"defaultbgcolor_override"	"Black"
 	}
