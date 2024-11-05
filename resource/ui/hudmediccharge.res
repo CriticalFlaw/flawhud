@@ -284,22 +284,4 @@
 		"scaleImage"		"1"
 		"pin_to_sibling"	"ResistIconAnchor"
 	}
-
-	"VaccinatorBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"VaccinatorBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"30"
-		"visible"			"0"
-		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
-		"PaintBackgroundType"	"2"
-		"pin_to_sibling"		"ResistIconAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}
 }
