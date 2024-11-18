@@ -804,7 +804,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ExportButton"
-		"xpos"				"100"
+		"xpos"				"c-310"
 		"ypos"				"400"
 		"zpos"				"1"
 		"wide"				"200"
@@ -829,7 +829,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ImportButton"
-		"xpos"				"310"
+		"xpos"				"c110"
 		"ypos"				"400"
 		"zpos"				"1"
 		"wide"				"200"
@@ -854,7 +854,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ImportRecentButton"
-		"xpos"				"520"
+		"xpos"				"c-100"
 		"ypos"				"400"
 		"zpos"				"1"
 		"wide"				"200"
@@ -879,7 +879,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
-		"xpos"				"100"
+		"xpos"				"c-310"
 		"ypos"				"435"
 		"zpos"				"1"
 		"wide"				"200"
@@ -904,7 +904,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"OkButton"
-		"xpos"				"310"
+		"xpos"				"c-100"
 		"ypos"				"435"
 		"zpos"				"1"
 		"wide"				"200"
@@ -929,7 +929,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"SteamWorkshopButton"
-		"xpos"				"520"
+		"xpos"				"c110"
 		"ypos"				"435"
 		"zpos"				"11"
 		"wide"				"200"
