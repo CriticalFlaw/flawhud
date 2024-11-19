@@ -113,18 +113,18 @@
 
 	"TargetDataLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"			"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"FontRegular10"
+		"font"				"FontRegular12"
 		"xpos"				"40"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"640"
-		"tall"				"10"
+		"tall"				"13"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
-		"textAlignment"		"west"
+		"textAlignment"			"west"
 	}
 
 	"SpectatorGUIHealth"
@@ -147,17 +147,17 @@
 
 	"AmmoIcon"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"			"ImagePanel"
 		"fieldName"			"AmmoIcon"
-		"xpos"				"60"
+		"xpos"				"70"
 		"ypos"				"22"
 		"zpos"				"12"
-		"wide"				"10"
-		"tall"				"10"
+		"wide"				"8"
+		"tall"				"8"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_class_heavy"
-		"scaleImage"		"1"
+		"scaleImage"			"1"
 	}
 
 	"KillStreakAnchor"

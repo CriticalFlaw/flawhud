@@ -254,14 +254,14 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"10"
+				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"12"
+				"tall"			"11"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -334,7 +334,7 @@ Scheme
 			"5"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"22"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"antialias"		"1"
@@ -386,7 +386,7 @@ Scheme
 			"5"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"16"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"antialias"		"1"
@@ -431,7 +431,7 @@ Scheme
 			"5"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"30"
+				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 				"antialias"		"1"

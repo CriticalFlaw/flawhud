@@ -97,6 +97,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
+		"textAlignment"		"north"
+		"font"				"FontBold20"
 		"proportionaltoparent"	"1"
 		"defaultbgcolor_override"	"Black"
 	}
