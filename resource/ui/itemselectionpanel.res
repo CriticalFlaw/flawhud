@@ -96,6 +96,7 @@
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -103,11 +104,11 @@
 		"font"			"FontBold37"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
-		"xpos"			"c-120"
-		"ypos"			"17"
+		"xpos"			"0"
+		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
+		"wide"			"f0"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
