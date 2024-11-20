@@ -26,6 +26,18 @@ Scheme
 			}
 		}
 		
+		"MediumSmallIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"20"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"SmallIcons"
 		{
 			"1"

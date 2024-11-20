@@ -804,7 +804,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ExportButton"
-		"xpos"				"100"
+		"xpos"				"c-310"
 		"ypos"				"400"
 		"zpos"				"1"
 		"wide"				"200"
@@ -829,8 +829,8 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ImportButton"
-		"xpos"				"310"
-		"ypos"				"400"
+		"xpos"				"5"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"30"
@@ -848,14 +848,18 @@
 		"Command"			"import"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"		"ExportButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"ImportRecentButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ImportRecentButton"
-		"xpos"				"520"
-		"ypos"				"400"
+		"xpos"				"5"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"30"
@@ -873,14 +877,18 @@
 		"Command"			"importrecent"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"		"ImportButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
-		"xpos"				"100"
-		"ypos"				"435"
+		"xpos"				"0"
+		"ypos"				"5"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"30"
@@ -898,14 +906,18 @@
 		"Command"			"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"		"ExportButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"OkButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"OkButton"
-		"xpos"				"310"
-		"ypos"				"435"
+		"xpos"				"5"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"30"
@@ -923,19 +935,27 @@
 		"Command"			"ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"		"CancelButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"SteamWorkshopButton"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"SteamWorkshopButton"
-		"xpos"				"520"
-		"ypos"				"435"
+		"xpos"				"5"
+		"ypos"				"0"
 		"zpos"				"11"
 		"wide"				"200"
 		"tall"				"30"
 		"visible"			"1"
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"		"OkButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		"SteamWorkshopButtonSubButton"
 		{
