@@ -185,7 +185,7 @@
 		"zpos"					"15"
 		"wide"					"115"
 		"tall"					"15"
-		"labeltext"				"Quickplay Core"
+		"labeltext"				"comfig Quickplay"
 		"textAlignment"			"center"
 		"font"					"FontBold12"
 		"fgcolor_override"		"ComfigGreen"
@@ -214,23 +214,6 @@
 		"pin_to_sibling"		"QuickplayLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		"ComfigLogo"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ComfigLogo"
-			"xpos"					"98"
-			"ypos"					"23"
-			"zpos"					"3"
-			"wide"					"17"
-			"tall"					"17"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"replay/thumbnails/comfig"
-			"bgcolor_override"		"ComfigGreen"
-			"scaleimage"			"1"
-			"proportionaltoparent"	"1"
-		}
 
 		"QuickplayImage"
 		{
@@ -269,103 +252,6 @@
 			"urlText"				"https://comfig.app/quickplay/?gm=any"
 		}
 	}
-	
-	//---------------
-	
-	"QuickplayArenaLabel"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"QuickplayArenaLabel"
-		"xpos"					"5"
-		"ypos"					"0"
-		"zpos"					"15"
-		"wide"					"115"
-		"tall"					"15"
-		"labeltext"				"Quickplay Arena"
-		"textAlignment"			"center"
-		"font"					"FontBold12"
-		"fgcolor_override"		"ComfigGreen"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"		"QuickplayLabel"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-
-	"QuickplayArenaEntry"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"QuickplayArenaEntry"
-		"xpos"					"0"
-		"ypos"					"5"
-		"zpos"					"5"
-		"tall"					"40"
-		"wide"					"115"
-		"visible"				"1"
-		"enabled"				"1"
-		"paintBackground"		"1"
-		"bgcolor_override"		"TanLight"
-		"border"				"GreenBorderThick"
-
-		"pin_to_sibling"		"QuickplayArenaLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		"ComfigLogo"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ComfigLogo"
-			"xpos"					"98"
-			"ypos"					"23"
-			"zpos"					"3"
-			"wide"					"17"
-			"tall"					"17"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"replay/thumbnails/comfig"
-			"bgcolor_override"		"ComfigGreen"
-			"scaleimage"			"1"
-			"proportionaltoparent"	"1"
-		}
-
-		"QuickplayImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"QuickplayImage"
-			"xpos"					"cs-0.5"
-			"ypos"					"cs-0.15"
-			"wide"					"114"
-			"tall"					"117"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"illustrations/training_offlinepractice"
-			"scaleimage"			"1"
-			"paintBackground"		"1"
-			"proportionaltoparent"	"1"
-			"fillcolor"				"TanLight"
-		}
-
-		"QuickplayLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"QuickplayLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"5"
-			"wide"					"f0"
-			"tall"					"f0"
-			"enabled"				"1"
-			"visible"				"1"
-			"font"					"FontBold12"
-			"labelText"				""
-			"textAlignment"			"center"
-			"proportionaltoparent"	"1"
-			"paintBackground"		"0"
-			"bgcolor_override"		"BGBlack"
-			"urlText"				"https://comfig.app/quickplay/?gm=arena"
-		}
-	}
-	
 
 	"TrainingEntry"
 	{
