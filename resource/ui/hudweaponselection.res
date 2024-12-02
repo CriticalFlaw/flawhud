@@ -9,7 +9,6 @@
 		"paintborder"			"1"
 		"name_only"				"1"
 		
-		"model_ypos"			"0"
 		"model_center_x"		"1"
 		"model_center_y"		"1"
 		"model_wide" 			"80"
@@ -33,8 +32,6 @@
 		"paintborder"			"1"
 		"name_only"				"1"
 		
-		"model_ypos"			"0"
-		"model_ypos"			"0"
 		"model_center_x"		"1"
 		"model_center_y"		"1"
 		"model_wide" 			"80"
