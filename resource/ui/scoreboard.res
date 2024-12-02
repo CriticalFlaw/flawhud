@@ -2284,7 +2284,7 @@
 			"font"				"FontRegular10"
 			"labelText"			"#TF_Competitive_MatchHistory_Loss"
 			"textAlignment"		"east"
-			"xpos"				"0"
+			"xpos"				"1"
 			"ypos"				"-25"
 			"zpos"				"3"
 			"wide"				"50"
