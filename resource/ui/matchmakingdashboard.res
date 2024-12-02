@@ -589,7 +589,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -624,7 +624,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -659,7 +659,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -694,7 +694,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
