@@ -39,8 +39,8 @@
 			"wide"			"p0.5"
 			"tall"			"f6"
 			"zpos"			"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
 			"scaleimage"		"1"
@@ -114,6 +114,20 @@
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"Yellow"
 			"depressedFgColor_override"	"TanLight"
+		}
+		
+		"PartyBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PartyBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"99"
+			"wide"			"175"
+			"tall"			"30"
+			
+			"paintbackground" 		"1"
+			"bgcolor_override"		"darkergrey"
 		}
 
 		"PartySlot0"
