@@ -14,9 +14,9 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"paintborder"			"1"
+		"paintborder"			"0"
 		"border"				"WhiteBorder"
 		"bgcolor_override"		"DarkerGrey"
 	}
