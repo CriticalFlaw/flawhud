@@ -530,7 +530,7 @@
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"ChatToggle"
+			"pin_to_sibling"		"VoiceEnableToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 			
@@ -588,7 +588,7 @@
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"MinViewmodelToggle"
+			"pin_to_sibling"		"ChatToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 			
@@ -649,7 +649,7 @@
 			"font"					"FontBold12"
 			"textAlignment"			"center"
 			
-			"pin_to_sibling"		"VoiceEnableToggle"
+			"pin_to_sibling"		"MinViewmodelToggle"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		}

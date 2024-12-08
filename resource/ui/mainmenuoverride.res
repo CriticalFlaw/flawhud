@@ -1222,7 +1222,7 @@
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"columns_count"		"2"
-			"inset_x"			"4"
+			"inset_x"			"6"
 			"inset_y"			"2"
 			"row_gap"			"5"
 			"column_gap"		"5"

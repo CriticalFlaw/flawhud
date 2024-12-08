@@ -8,7 +8,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -26,7 +31,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -44,7 +54,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -62,7 +77,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -80,7 +100,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
@@ -98,7 +123,12 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"name_only"				"1"
-		"model_ypos"			"0"
+		
+		"model_center_y"		"1"
+		"model_center_x"		"1"
+		"model_wide"			"80"
+		"model_tall"			"50"
+		
 		"standard_text_color"	"1"
 
 		"itemmodelpanel"
