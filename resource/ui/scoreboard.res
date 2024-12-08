@@ -154,7 +154,14 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"font"				"FontRegular10"
+			"textAlignment"		"west"
+			"xpos"				"294"
+			"ypos"				"-245"
+			"zpos"				"11"
+			"wide"				"50"
+			"tall"				"20"
+			"fgcolor"			"DisguiseMenuIconBlue"
 		}
 	}
 
@@ -2268,6 +2275,62 @@
 			{
 				"font"		"FontRegular10"
 				"visible"	"0"
+			}
+		}
+		"MvmLossLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"MvmLossLabel"
+			"font"				"FontRegular10"
+			"labelText"			"#TF_Competitive_MatchHistory_Loss"
+			"textAlignment"		"east"
+			"xpos"				"1"
+			"ypos"				"-25"
+			"zpos"				"3"
+			"wide"				"50"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"0"
+			"enabled"			"0"
+			"fgcolor"			"DisguiseMenuIconBlue"
+
+			"pin_to_sibling"		"BonusLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
+			if_mvm
+			{
+				"visible"			"1"
+				"enabled"			"1"
+			}
+		}
+		"MvmLossLabelColon"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"MvmLossLabelColon"
+			"font"				"FontRegular10"
+			"labelText"			":"
+			"textAlignment"		"west"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"50"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"0"
+			"enabled"			"0"
+			"fgcolor"			"DisguiseMenuIconBlue"
+
+			"pin_to_sibling"		"MvmLossLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+			if_mvm
+			{
+				"visible"			"1"
+				"enabled"			"1"
 			}
 		}
 	}
