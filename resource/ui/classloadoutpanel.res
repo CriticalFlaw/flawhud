@@ -150,7 +150,7 @@
 		"ControlName"		"ImagePanel"
 		"xpos"				"9999"
 	}
-
+	
 	"classmodelpanel"
 	{
 		"ControlName"		"CTFPlayerModelPanel"
@@ -158,8 +158,8 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"p.6"
-		"tall"				"f0-2"
+		"wide"				"375"
+		"tall"				"f4"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -168,7 +168,7 @@
 		"fov"				"29"
 		"allow_manip"		"1"
 
-		"model"
+		"model" //customclassdata overrides this
 		{
 			"force_pos"			"1"
 			"angles_x" 			"0"
@@ -182,6 +182,112 @@
 			"frame_origin_z"	"0"
 			"spotlight" 		"1"
 			"modelname"			""
+		}
+		
+		"customclassdata" //relative unadjusted sizes [scout < demo/engi/sniper/med/spy < soldier < heavy/demoknight < (stock)pyro]
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"32"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-29"
+			}
+			"Sniper"
+			{
+				"fov"			"34"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-33"
+			}
+			"Soldier"
+			{
+				"fov"			"35"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"4"
+				"origin_z"		"-34"
+			}
+			"Demoman"
+			{
+				"fov"			"34"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-33"
+			}
+			"Medic"
+			{
+				"fov"			"34"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-33"
+			}
+			"Heavy"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-36"
+			}
+			"Pyro"
+			{
+				"fov"			"39"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"8"
+				"origin_z"		"-39"
+			}
+			"Spy"
+			{
+				"fov"			"34"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-33"
+			}
+			"Engineer"
+			{
+				"fov"			"34"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"7"
+				"origin_z"		"-33"
+			}
 		}
 	}
 
