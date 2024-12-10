@@ -150,38 +150,155 @@
 		"ControlName"		"ImagePanel"
 		"xpos"				"9999"
 	}
-
+	
+	"classmodelpanelanchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"classmodelpanelanchor"
+		"xpos"				"p.63"
+	}
+	
 	"classmodelpanel"
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"c-320"
+		"xpos"				"100"
 		"ypos"				"0"
-		"zpos"				"-1"
+		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"f0"
+		"tall"				"f4"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"render_texture"	"0"
-		"fov"				"27"
+		"fov"				"29"
 		"allow_manip"		"1"
+		
+		"pin_to_sibling"				"classmodelpanelanchor"
+		"pin_corner_to_sibling"			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"			"PIN_TOPLEFT"
 
-		"model"
+		"model" //customclassdata overrides this
 		{
 			"force_pos"			"1"
 			"angles_x" 			"0"
 			"angles_y" 			"170"
 			"angles_z" 			"0"
-			"origin_x" 			"250"
-			"origin_y" 			"20"
-			"origin_z" 			"-30"
+			"origin_x" 			"280"
+			"origin_y" 			"15"
+			"origin_z" 			"-32"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" 		"1"
 			"modelname"			""
+		}
+		
+		"customclassdata" //relative unadjusted sizes [scout < demo/engi/sniper/med/spy < soldier < heavy/demoknight < (stock)pyro]
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"35"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"6"
+				"origin_z"		"-29"
+			}
+			"Sniper"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-33"
+			}
+			"Soldier"
+			{
+				"fov"			"38"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"4"
+				"origin_z"		"-34"
+			}
+			"Demoman"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-33"
+			}
+			"Medic"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-33"
+			}
+			"Heavy"
+			{
+				"fov"			"40"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-36"
+			}
+			"Pyro"
+			{
+				"fov"			"47"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"6"
+				"origin_z"		"-39"
+			}
+			"Spy"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-33"
+			}
+			"Engineer"
+			{
+				"fov"			"37"
+				"angles_x" 		"0"
+				"angles_y" 		"170"
+				"angles_z" 		"0"
+				
+				"origin_x"		"180"
+				"origin_y"		"0"
+				"origin_z"		"-33"
+			}
 		}
 	}
 
@@ -227,12 +344,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PassiveAttribsLabel"
-		"font"				"FontRegular12"
+		"font"				"FontRegular10"
 		"xpos"				"c-55"
-		"ypos"				"r240"
-		"zpos"				"0"
+		"ypos"				"139"
+		"zpos"				"2"
 		"wide"				"110"
-		"tall"				"120"
+		"tall"				"222"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

@@ -39,8 +39,8 @@
 			"wide"			"p0.5"
 			"tall"			"f6"
 			"zpos"			"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
 			"scaleimage"		"1"
@@ -114,6 +114,20 @@
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"Yellow"
 			"depressedFgColor_override"	"TanLight"
+		}
+		
+		"PartyBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PartyBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"99"
+			"wide"			"175"
+			"tall"			"30"
+			
+			"paintbackground" 		"1"
+			"bgcolor_override"		"darkergrey"
 		}
 
 		"PartySlot0"
@@ -575,7 +589,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -610,7 +624,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -645,7 +659,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -680,7 +694,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"paintbackground"	"0"
-			"textinsety"		"4"
+			"textinsety"		"7"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			

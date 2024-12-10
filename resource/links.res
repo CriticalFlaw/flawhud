@@ -99,11 +99,11 @@
 		"xpos"					"6"
 		"ypos"					"5"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"29"
 		"tall"					"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"Black"
+		"fillcolor"				"44 44 44 255"
 
 		"pin_to_sibling"		"DiscordLink"
         "pin_corner_to_sibling"	"PIN_TOPLEFT"
