@@ -479,7 +479,7 @@
 		"TeamRed"				"RedTeam"
 		"IconColor"				"White"
 		"LocalPlayerColor"		"Black"
-		"BaseBackgroundColor"	"HudBlack"
+		"BaseBackgroundColor"	"16 16 16 220"
 		"LocalBackgroundColor"	"White"
 	}
 
