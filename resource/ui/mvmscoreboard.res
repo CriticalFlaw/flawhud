@@ -9,8 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
 		"verbose"			"1"
 	}
 
@@ -25,26 +23,14 @@
 		"ypos"				"74"
 		"wide"				"550"
 		"tall"				"20"
-		"fgcolor"			"TanLight"
 	}
 
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"PlayerListBackground"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"image"				"../hud/tournament_panel_brown"
-		"scaleImage"		"0"
-		"src_corner_height"		"0"
-		"src_corner_width"		"0"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 	}
 
 	"PlayerListBG"
@@ -56,8 +42,6 @@
 		"zpos"				"-1"
 		"wide"				"550"
 		"tall"				"150"
-		"visible"			"1"
-		"enabled"			"1"
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
 	}
@@ -71,10 +55,6 @@
 		"wide"				"550"
 		"wide_minmode"		"0"
 		"tall"				"145"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"22"
 		"textcolor"			"TanLight"
@@ -89,26 +69,14 @@
 		"ypos"				"245"
 		"wide"				"275"
 		"tall"				"132"
-		"visible"			"1"
 
 		"CreditStatsBackground"
 		{
 			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
 			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
 		}
 		"CreditStatsBG"
 		{
@@ -119,8 +87,6 @@
 			"zpos"			"-1"
 			"wide"			"275"
 			"tall"			"132"
-			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"25 25 25 200"
 			"PaintBackgroundType"	"2"
 
@@ -137,7 +103,6 @@
 			"ypos"			"5"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"TanLight"
 		}
 
 		"PreviousWaveCreditInfoPanel"
@@ -148,20 +113,6 @@
 			"ypos"			"30"
 			"wide"			"130"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
-		}
-
-		"TotalGameCreditInfoPanel"
-		{
-			"ControlName"	"CCreditDisplayPanel"
-			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"153"
-			"ypos"			"30"
-			"wide"			"130"
-			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
 		}
 
 		"PreviousWaveCreditSpendPanel"
@@ -172,8 +123,6 @@
 			"ypos"			"72"
 			"wide"			"130"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
 		}
 
 		"TotalGameCreditSpendPanel"
@@ -184,8 +133,16 @@
 			"ypos"			"72"
 			"wide"			"130"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
+		}
+
+		"TotalGameCreditInfoPanel"
+		{
+			"ControlName"	"CCreditDisplayPanel"
+			"fieldName"		"TotalGameCreditInfoPanel"
+			"xpos"			"153"
+			"ypos"			"30"
+			"wide"			"130"
+			"tall"			"60"
 		}
 
 		"RespecStatusLabel"
@@ -199,7 +156,6 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"TanLight"
 		}
 	}
 }
