@@ -345,13 +345,13 @@
 		"tall"				"11"
 
 		"pin_to_sibling"		"ServerBackground"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 		if_mvm
 		{
 			"font"				"FontRegular10"
-			"ypos"				"2"
+			"xpos"				"c-270"
+			"ypos"				"78"
+			"pin_to_sibling"	""
 		}
 	}
 	"ServerTimeBackground"
@@ -452,7 +452,7 @@
 		"zpos"				"4"
 		"wide"				"577"
 		"wide_minmode"		"0"
-		"tall"				"15"
+		"tall"				"11"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -460,7 +460,7 @@
 
 		if_mvm
 		{
-			"xpos"				"277"
+			"xpos"				"275"
 		    "wide"				"544"
 		}
 	}
@@ -484,7 +484,8 @@
 
 		if_mvm
 		{
-			"ypos"				"167"
+			"xpos"				"4"
+			"ypos"				"166"
 			"wide"				"270"
 			"tall"				"132"
 			"pin_to_sibling"		"mapname"
@@ -614,14 +615,11 @@
 
 		if_mvm
 		{
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"545"
+			"xpos"				"c-279"
+			"ypos"				"64"
+			"wide"				"550"
 			"textAlignment"		"east"
-
-			"pin_to_sibling"		"ServerLabel"
-			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"		""
 		}
 	}
 	"HorizontalLine"
@@ -1931,13 +1929,12 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"c-266"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"
 		"verbose"			"1"
 
 		if_mvm

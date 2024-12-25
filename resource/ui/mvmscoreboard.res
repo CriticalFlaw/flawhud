@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"-35"
+		"xpos"				"c-300"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
@@ -19,7 +19,8 @@
 		"font"				"FontRegular10"
 		"labelText"			"%popfile%"
 		"textAlignment"		"east"
-		"xpos"				"0"
+		"textinsetx"		"1"
+		"xpos"				"c-279"
 		"ypos"				"74"
 		"wide"				"550"
 		"tall"				"20"
@@ -37,7 +38,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayerListBG"
-		"xpos"				"0"
+		"xpos"				"c-275"
 		"ypos"				"90"
 		"zpos"				"-1"
 		"wide"				"550"
@@ -65,7 +66,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CreditStatsContainer"
-		"xpos"				"0"
+		"xpos"				"c-275"
 		"ypos"				"245"
 		"wide"				"275"
 		"tall"				"132"
