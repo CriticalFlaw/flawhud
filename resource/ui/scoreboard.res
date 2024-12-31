@@ -23,36 +23,12 @@
 		"medal_width_minmode"	 "0"
 	}
 
-	"BlueLine"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BlueLine"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"2"
-		"tall"				"35"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"BlueTeam"
-
-		"pin_to_sibling"		"BlueBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}
-
 	"BlueBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BlueBG"
 		"xpos"				"c-291"
-		"ypos"				"100"
-		"zpos"				"-1"
+		"ypos"				"83"
 		"wide"				"290"
 		"tall"				"35"
 		"bgcolor_override"	"HudBlack"
@@ -60,33 +36,10 @@
 		
 		if_mvm
  		{
-			"ypos"				"100"	// This is needed for the 32-player scoreboard customization available in the HUD Editor.
  			"visible"			"0"
  		}
 	}
-	"BluePlayerBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BluePlayerBG"
-		"xpos"				"0"
-		"ypos"				"2"
-		"zpos"				"2"
-		"wide"				"290"
-		"wide_minmode"		"0"
-		"tall"				"210"
-		"bgcolor_override"	"25 25 25 200"
-		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"ServerBackground"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		if_mvm
- 		{
- 			"visible"			"0"
- 		}
-	}
-
+	
 	"BlueTeamName"
 	{
 		"ControlName"		"CExLabel"
@@ -94,52 +47,16 @@
 		"font"				"FontBold22"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"				"0"
+		"xpos"				"-6"
 		"ypos"				"0"
 		"wide"				"250"
 		"tall"				"22"
 		"fgcolor"			"BlueTeam"
-		"TextInsetX"		"15"
-
 		"pin_to_sibling"		"BlueBG"
 
 		if_mvm
 		{
 			"visible"			"0"
-		}
-	}
-
-	"BlueTeamScore"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"BlueTeamScore"
-		"font"				"FontBold37"
-		"labelText"			"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"4"
-		"wide"				"80"
-		"tall"				"35"
-		"fgcolor"			"BlueTeam"
-		"TextInsetX"		"20"
-
-		"pin_to_sibling"		"BlueBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"font"				"FontRegular10"
-			"textAlignment"		"west"
-			"TextInsetX"		"0"
-			"xpos"				"0"
-			"ypos"				"-100"
-			"zpos"				"11"
-			"wide"				"44"
-			"tall"				"20"
-			"fgcolor"			"DisguiseMenuIconBlue"
-			"pin_to_sibling"		"StatsBG"
 		}
 	}
 
@@ -155,7 +72,6 @@
 		"wide"				"210"
 		"tall"				"12"
 		"fgcolor"			"BlueTeam"
-		"TextInsetX"		"15"
 
 		"pin_to_sibling"		"BlueTeamName"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -167,20 +83,49 @@
 		}
 	}
 
-	"RedLine"
+	"BlueTeamScore"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamScore"
+		"font"				"FontBold37"
+		"labelText"			"%blueteamscore%"
+		"textAlignment"		"east"
+		"xpos"				"-10"
+		"ypos"				"0"
+		"wide"				"80"
+		"tall"				"35"
+		"fgcolor"			"BlueTeam"
+
+		"pin_to_sibling"		"BlueBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		if_mvm
+		{
+			"font"				"FontRegular10"
+			"textAlignment"		"west"
+			"ypos"				"-100"
+			"zpos"				"1"
+			"wide"				"34"
+			"tall"				"20"
+			"fgcolor"			"DisguiseMenuIconBlue"
+			"pin_to_sibling"		"StatsBG"
+		}
+	}
+
+	"BlueLine"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"RedLine"
+		"fieldName"			"BlueLine"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"2"
+		"wide"				"3"
 		"tall"				"35"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"RedTeam"
+		"bgcolor_override"		"BlueTeam"
 
-		"pin_to_sibling"		"RedBG"
+		"pin_to_sibling"		"BlueBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		if_mvm
 		{
@@ -193,8 +138,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"RedBG"
 		"xpos"				"2"
-		"ypos"				"0"
-		"zpos"				"-1"
+		"ypos"				"0"	
 		"wide"				"290"
 		"tall"				"35"
 		"bgcolor_override"	"HudBlack"
@@ -209,29 +153,7 @@
 			"visible"			"0"
 		}
 	}
-	"RedPlayerBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"RedPlayerBG"
-		"xpos"				"0"
-		"ypos"				"2"
-		"zpos"				"2"
-		"wide"				"290"
-		"wide_minmode"		"0"
-		"tall"				"210"
-		"bgcolor_override"	"25 25 25 200"
-		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"ServerTimeBackground"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}
-
+	
 	"RedTeamName"
 	{
 		"ControlName"		"CExLabel"
@@ -239,39 +161,15 @@
 		"font"				"FontBold22"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"				"0"
+		"xpos"				"-6"
 		"ypos"				"0"
 		"wide"				"250"
 		"tall"				"22"
 		"fgcolor"			"RedTeam"
-		"TextInsetX"		"15"
 
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}
-
-	"RedTeamScore"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"RedTeamScore"
-		"font"				"FontBold37"
-		"labelText"			"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"4"
-		"wide"				"80"
-		"tall"				"35"
-		"fgcolor"			"RedTeam"
-		"TextInsetX"		"23"
-
-		"pin_to_sibling"		"RedBG"
 
 		if_mvm
 		{
@@ -291,7 +189,6 @@
 		"wide"				"210"
 		"tall"				"12"
 		"fgcolor"			"RedTeam"
-		"TextInsetX"		"20"
 
 		"pin_to_sibling"		"RedTeamName"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -303,16 +200,138 @@
 		}
 	}
 
+	"RedLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RedLine"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"3"
+		"tall"				"35"
+		"bgcolor_override"		"RedTeam"
+		"pin_to_sibling"		"RedBG"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+
+	"RedTeamScore"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamScore"
+		"font"				"FontBold37"
+		"labelText"			"%redteamscore%"
+		"textAlignment"		"west"
+		"xpos"				"-10"
+		"ypos"				"0"
+		"wide"				"80"
+		"tall"				"35"
+		"fgcolor"			"RedTeam"
+		"pin_to_sibling"		"RedBG"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+
+	"BluePlayerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BluePlayerBG"
+		"xpos"				"0"
+		"ypos"				"2"
+		"wide"				"290"
+		"wide_minmode"		"0"
+		"tall"				"210"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"ServerBackground"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+ 		{
+ 			"visible"			"0"
+ 		}
+	}
+	
+	"BluePlayerList"
+	{
+		"ControlName"		"SectionedListPanel"
+		"fieldName"			"BluePlayerList"
+		"xpos"				"c-290"
+		"ypos"				"c-105"
+		"zpos"				"1"
+		"wide"				"288"
+		"tall"				"204"
+		"wide_minmode"		"0"
+		"tabPosition"		"0"
+		"autoresize"		"3"
+		"linespacing"		"16"
+		"fgcolor"			"BlueTeamSolid"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"RedPlayerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RedPlayerBG"
+		"xpos"				"0"
+		"ypos"				"2"
+		"wide"				"290"
+		"wide_minmode"		"0"
+		"tall"				"210"
+		"bgcolor_override"	"HudBlack"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"ServerTimeBackground"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+
+	"RedPlayerList"
+	{
+		"ControlName"		"SectionedListPanel"
+		"fieldName"			"RedPlayerList"
+		"xpos"				"c+2"
+		"ypos"				"c-105"
+		"zpos"				"1"
+		"wide"				"288"
+		"tall"				"204"
+		"wide_minmode"		"0"
+		"tabPosition"		"0"
+		"autoresize"		"3"
+		"linespacing"		"16"
+		"textcolor"			"HUDRedTeamSolid"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
 	"ServerBackground"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ServerBackground"
 		"xpos"				"0"
 		"ypos"				"2"
-		"zpos"				"-1"
 		"wide"				"290"
 		"tall"				"11"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BlueBG"
@@ -357,10 +376,9 @@
 		"fieldName"			"ServerTimeBackground"
 		"xpos"				"0"
 		"ypos"				"2"
-		"zpos"				"-1"
 		"wide"				"290"
 		"tall"				"11"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"RedBG"
@@ -382,55 +400,12 @@
 		"textAlignment"		"east"
 		"xpos"				"-5"
 		"ypos"				"0"
-		"zpos"				"2"
 		"wide"				"290"
 		"tall"				"11"
 
 		"pin_to_sibling"		"ServerTimeBackground"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}
-
-	"BluePlayerList"
-	{
-		"ControlName"		"SectionedListPanel"
-		"fieldName"			"BluePlayerList"
-		"xpos"				"c-290"
-		"ypos"				"c-88"
-		"zpos"				"20"
-		"wide"				"288"
-		"tall"				"204"
-		"wide_minmode"		"0"
-		"tabPosition"		"0"
-		"autoresize"		"3"
-		"linespacing"		"16"
-		"fgcolor"			"BlueTeamSolid"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}
-
-	"RedPlayerList"
-	{
-		"ControlName"		"SectionedListPanel"
-		"fieldName"			"RedPlayerList"
-		"xpos"				"c+2"
-		"ypos"				"c-88"
-		"zpos"				"20"
-		"wide"				"288"
-		"tall"				"204"
-		"wide_minmode"		"0"
-		"tabPosition"		"0"
-		"autoresize"		"3"
-		"linespacing"		"16"
-		"textcolor"			"HUDRedTeamSolid"
 
 		if_mvm
 		{
@@ -448,7 +423,6 @@
 		"wrap"				"1"
 		"xpos"				"-2"
 		"ypos"				"1"
-		"zpos"				"4"
 		"wide"				"370"
 		"wide_minmode"		"0"
 		"tall"				"22"
@@ -472,7 +446,7 @@
 		"ypos"				"2"
 		"wide"				"582"
 		"tall"				"50"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BluePlayerBG"
@@ -501,7 +475,6 @@
 		"textAlignment"		"north-west"
 		"xpos"				"-2"
 		"ypos"				"-72"
-		"zpos"				"4"
 		"wide"				"577"
 		"wide_minmode"		"0"
 		"tall"				"20"
@@ -519,7 +492,6 @@
 		"fieldName"			"ClassImage"
 		"xpos"				"0"
 		"ypos"				"-5"
-		"zpos"				"3"
 		"wide"				"45"
 		"tall"				"45"
 		"image"				"../hud/class_scoutred"
@@ -541,7 +513,6 @@
 		"fieldName"			"classmodelpanel"
 		"xpos"				"0"
 		"ypos"				"r200"
-		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"200"
 		"fov"				"23"
@@ -581,7 +552,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"ServerLabelNew"
 	{
 		"ControlName"		"CExLabel"
@@ -590,6 +560,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
+
 	"MapName"
 	{
 		"ControlName"		"CExLabel"
@@ -599,7 +570,6 @@
 		"textAlignment"		"north-east"
 		"xpos"				"-2"
 		"ypos"				"1"
-		"zpos"				"5"
 		"wide"				"210"
 		"tall"				"15"
 		"allcaps"			"1"
@@ -1570,7 +1540,6 @@
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"

@@ -6,7 +6,6 @@
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
 		"ypos"				"0"
-		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
 		"verbose"			"1"
@@ -20,10 +19,12 @@
 		"labelText"			"%popfile%"
 		"textAlignment"		"east"
 		"textinsetx"		"1"
-		"xpos"				"c-278"
-		"ypos"				"74"
-		"wide"				"550"
-		"tall"				"20"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"547"
+		"tall"				"11"
+		"pin_to_sibling"			"PlayerListBG"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 	}
 
 	"PlayerListBackground"
@@ -43,7 +44,7 @@
 		"zpos"				"-1"
 		"wide"				"550"
 		"tall"				"150"
-		"bgcolor_override"		"25 25 25 200"
+		"bgcolor_override"		"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -85,10 +86,9 @@
 			"fieldName"		"CreditStatsBG"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"-1"
 			"wide"			"275"
 			"tall"			"132"
-			"bgcolor_override"		"25 25 25 200"
+			"bgcolor_override"		"HudBlack"
 			"PaintBackgroundType"	"2"
 
 		}
