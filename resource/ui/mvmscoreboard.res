@@ -20,7 +20,7 @@
 		"labelText"			"%popfile%"
 		"textAlignment"		"east"
 		"textinsetx"		"1"
-		"xpos"				"c-279"
+		"xpos"				"c-278"
 		"ypos"				"74"
 		"wide"				"550"
 		"tall"				"20"
