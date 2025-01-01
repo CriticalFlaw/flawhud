@@ -340,8 +340,10 @@
 
 		if_mvm
 		{
-			"xpos"				"-25"
-			"ypos"				"-55"
+			"xpos"				"c-275" //MVM StatsBG anchor
+			"ypos"				"64"
+			"wide"				"550"
+			"pin_to_sibling"		""
 			"visible"			"0"
 		}
 	}
@@ -457,11 +459,10 @@
 
 		if_mvm
 		{
-			"xpos"				"3"
 			"ypos"				"-181"
 			"wide"				"270"
 			"tall"				"132"
-			"pin_to_sibling"		"mapname"
+			"pin_to_sibling"		"ServerBackground"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
@@ -854,7 +855,7 @@
 			"textAlignment"				"east"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"80"
+			"wide"						"100"
 			"tall"						"50"
 
 			"pin_to_sibling"			"KillsLabel"
@@ -1560,16 +1561,25 @@
 			"tall"				"f0"
 			"linecolor"			"TanLight"
 		}
+
+		if_mvm
+		{
+			"zpos"			"998"
+		}
 	}
 	
 	"DrawingBoardRight"
 	{
 		"ControlName"	"EditablePanel"
-		"xpos"			"c-290"
+		"xpos"			"-20"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
+
+		"pin_to_sibling"			"classmodelpanel"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT" 
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 		
 		"Draw"
 		{
