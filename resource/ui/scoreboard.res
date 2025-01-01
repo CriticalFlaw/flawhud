@@ -423,6 +423,7 @@
 		"wrap"				"1"
 		"xpos"				"-2"
 		"ypos"				"1"
+		"zpos"				"-1"
 		"wide"				"370"
 		"wide_minmode"		"0"
 		"tall"				"22"
@@ -457,12 +458,12 @@
 		if_mvm
 		{
 			"xpos"				"3"
-			"ypos"				"166"
+			"ypos"				"-181"
 			"wide"				"270"
 			"tall"				"132"
 			"pin_to_sibling"		"mapname"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 	}
 
@@ -475,6 +476,7 @@
 		"textAlignment"		"north-west"
 		"xpos"				"-2"
 		"ypos"				"-72"
+		"zpos"				"-1"
 		"wide"				"577"
 		"wide_minmode"		"0"
 		"tall"				"20"
@@ -490,21 +492,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
-		"xpos"				"0"
-		"ypos"				"-5"
-		"wide"				"45"
-		"tall"				"45"
+		"xpos"				"25"
+		"ypos"				"r75"
+		"wide"				"75"
+		"tall"				"75"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
-
-		"pin_to_sibling"		"StatsBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"xpos"				"9999"
-		}
 	}
 	
 	"classmodelpanel"
@@ -513,6 +506,7 @@
 		"fieldName"			"classmodelpanel"
 		"xpos"				"0"
 		"ypos"				"r200"
+		"zpos"				"-1"
 		"wide"				"150"
 		"tall"				"200"
 		"fov"				"23"
@@ -570,6 +564,7 @@
 		"textAlignment"		"north-east"
 		"xpos"				"-2"
 		"ypos"				"1"
+		"zpos"				"-1"
 		"wide"				"210"
 		"tall"				"15"
 		"allcaps"			"1"
@@ -1162,13 +1157,7 @@
 			
 			"if_mvm"
 			{
-				"font"						"FontRegular10"
-				"xpos"						"0"
-				"ypos"						"20"
-				"visible"					"0"
-				"pin_to_sibling"			"AssistsLabel"
-				"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
+				"visible"		"0"
 			}
 		}
 		"Healing2"
@@ -1426,7 +1415,7 @@
 			
 			"if_mvm"
 			{
-				"visible"					"0"
+				"visible"			"0"
 			}
 		}
 		"Support2"
@@ -1550,124 +1539,49 @@
 			"visible"		"1"
 		}
 	}
-	
-	"DrawingBoardDown"
+
+	"DrawingBoardLeft"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
+		"ypos"			"-70"
+		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"			"StatsBG"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"classmodelpanel"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT" 
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		
 		"Draw"
 		{
 			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
 			"wide"				"f0"
 			"tall"				"f0"
 			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
-	"DrawingBoardTop"
-	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"			"RedBG"
-		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-		"Draw"
-		{
-			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
 		}
 	}
 	
 	"DrawingBoardRight"
 	{
 		"ControlName"	"EditablePanel"
-		"xpos"			"0"
+		"xpos"			"c-290"
 		"ypos"			"0"
-		"zpos"			"1000"
+		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"			"StatsBG"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 		
 		"Draw"
 		{
 			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
 			"wide"				"f0"
 			"tall"				"f0"
 			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
 		}
-	}
-	
-	"DrawingBoardLeft"
-	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"			"classmodelpanel"
-		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-		"Draw"
+
+		if_mvm
 		{
-			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
+			"zpos"			"999"
 		}
 	}
 }
