@@ -2862,12 +2862,12 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/CodeProBold.otf"
+			"font"	"resource/fonts/code-pro-bold.otf"
 			"name"	"Code-Pro-Bold"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/CodeProLC.otf"
+			"font"	"resource/fonts/code-pro-lc.otf"
 			"name"	"Code-Pro-LC"
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
