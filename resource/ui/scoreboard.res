@@ -21,6 +21,7 @@
 		"killstreak_width"	"18"
 		"killstreak_image_width" "15"
 		"medal_width_minmode"	 "0"
+		"medal_column_width_minmode" "0"
 	}
 
 	"BlueBG"
@@ -567,6 +568,7 @@
 		"ypos"				"1"
 		"zpos"				"-1"
 		"wide"				"210"
+		"wide_minmode"		"0"
 		"tall"				"15"
 		"allcaps"			"1"
 

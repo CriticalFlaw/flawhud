@@ -124,6 +124,7 @@
 			"ypos"			"0"
 			"zpos"			"99"
 			"wide"			"175"
+			"wide_minmode"	"0"
 			"tall"			"30"
 			
 			"paintbackground" 		"1"
