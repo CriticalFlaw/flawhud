@@ -67,7 +67,7 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/TF2Icons.ttf"
+			"font"	"resource/fonts/icons.ttf"
 			"name"	"TF2Icons"
 		}
 	}
