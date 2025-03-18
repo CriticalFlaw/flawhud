@@ -33,7 +33,6 @@
 		"labelText"			""
 		"textAlignment"		"North"
 		"font"				"FontRegular9"
-		"textinsetx"		"2"
-		"textinsety"		"7"
+		"textinsety"		"5"
 	}
 }

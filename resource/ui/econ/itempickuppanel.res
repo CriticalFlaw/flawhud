@@ -186,7 +186,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"PrevButton"
-		"xpos"				"c-251"
+		"xpos"				"c-250"
 		"ypos"				"340"
 		"zpos"				"1"
 		"wide"				"70"
