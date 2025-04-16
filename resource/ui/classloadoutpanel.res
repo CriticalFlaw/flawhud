@@ -208,7 +208,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"6"
+				"origin_y"		"10"
 				"origin_z"		"-29"
 			}
 			"Sniper"
@@ -219,7 +219,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-33"
 			}
 			"Soldier"
@@ -230,7 +230,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"4"
+				"origin_y"		"10"
 				"origin_z"		"-34"
 			}
 			"Demoman"
@@ -241,7 +241,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-33"
 			}
 			"Medic"
@@ -252,7 +252,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-33"
 			}
 			"Heavy"
@@ -263,19 +263,19 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-36"
 			}
 			"Pyro"
 			{
-				"fov"			"47"
+				"fov"			"37"
 				"angles_x" 		"0"
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"6"
-				"origin_z"		"-39"
+				"origin_y"		"10"
+				"origin_z"		"-33"
 			}
 			"Spy"
 			{
@@ -296,7 +296,7 @@
 				"angles_z" 		"0"
 				
 				"origin_x"		"180"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-33"
 			}
 		}
