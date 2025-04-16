@@ -286,10 +286,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"17"
+				"name"			"Verdana"
+				"tall"			"14"
 				"weight"		"500"
-				"antialias" 	"1"
 			}
 		}
 
