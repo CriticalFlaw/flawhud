@@ -112,7 +112,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"25"
+			"ypos"			"30"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
