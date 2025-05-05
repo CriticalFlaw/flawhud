@@ -1142,12 +1142,12 @@ Scheme
 			}
 		}
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"18"
+				"tall"			"10"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1158,7 +1158,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"18"
+				"tall"			"1012"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1170,7 +1170,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"18"
+				"tall"			"10"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1181,7 +1181,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"18"
+				"tall"			"10"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
@@ -1193,7 +1193,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"15"
+				"tall"			"8"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
