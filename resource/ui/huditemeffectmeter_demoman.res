@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
@@ -75,7 +75,6 @@
 		"pin_to_sibling"		"StreakIcon"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
 	}
 
 	"ItemEffectMeterCountShadow"
