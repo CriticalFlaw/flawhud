@@ -226,7 +226,7 @@
 			"ControlName"			"Label"
 			"fieldName"				"OwnerLabel"
 			"font"					"FontStoreOriginalPrice"
-			"font_minmode"			"SmallerIcons"
+			"font_minmode"			"StreamerMode"
 			"xpos"					"5"
 			"ypos"					"14"
 			"zpos"					"0"

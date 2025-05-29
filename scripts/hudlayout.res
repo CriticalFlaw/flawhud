@@ -474,7 +474,7 @@
 		"CornerRadius"			"3"
 		"RightJustify"			"1"
 		"TextFont"				"FontRegular10"
-		"TextFont_minmode"		"FontIcons8"
+		"TextFont_minmode"		""
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"White"
