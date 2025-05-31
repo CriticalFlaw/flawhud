@@ -2739,125 +2739,415 @@ Scheme
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
 	// For TF2: Any special character will need to be added to our font file
+	// Includes Extended TF2 Fonts by by Jakadak: https://github.com/jakadak/TF2-extended-fonts
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
+		"font" "resource/fonts/TF2.ttf"
+		"name" "TF2"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
 			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4"
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5"
-		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}
-		"6"
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
+				"range" "0x0020 0x2116"
 			}
 			"bulgarian"
 			{
-				"range" "0x0000 0x007E"
+				"range" "0x0020 0x2116"
 			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"4" 
+		{
+		"font" "resource/fonts/TF2Secondary.ttf"
+		"name" "TF2 Secondary"
 			"russian"
 			{
-				"range" "0x0000 0x007E"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"5" 
+		{
+		"font" "resource/fonts/TF2Professor.ttf"
+		"name" "TF2 Professor"
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"6" 
+		{
+		"font" "resource/fonts/TF2Build.ttf"
+		"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"7" 
+		{
+		"font"	"resource/fonts/ocra.ttf"
+		"name" "ocra"	
+
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"

@@ -213,7 +213,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"FontRegular14"
-			"font_minmode"	"SmallerIcons"
+			"font_minmode"	"StreamerMode"
 			"fgcolor_override"		"TanLight"
 			"textAlignment"			"center"
 			"labelText"				"%name%"

@@ -44,7 +44,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"FontRegular10"
-			"font_minmode"	"SmallerIcons"
+			"font_minmode"	"StreamerMode"
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"1"

@@ -101,7 +101,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"FontRegular10"
-				"font_minmode"	"SmallerIcons"
+				"font_minmode"	"StreamerMode"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
