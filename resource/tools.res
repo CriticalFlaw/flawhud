@@ -133,9 +133,9 @@
 			"fieldName"				"MOTD_NextButton"
 			"xpos"					"9999"
 		}
-		
+
 		//---------------
-		
+
 		"ReloadScheme"
 		{
 			"ControlName"			"CExButton"
@@ -154,14 +154,14 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"MOTD_HeaderContainer"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		//---------------
-		
+
 		"ViewmodelLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -177,12 +177,12 @@
 			"labelText"				"#FH_viewmodel_fov"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			
+
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"ViewmodelSlider"
 		{
 			"ControlName"			"CCvarSlider"
@@ -195,14 +195,14 @@
 			"maxvalue"				"90"
 			"cvar_name"				"viewmodel_fov"
 			"allowoutofrange"		"0"
-			
+
 			"pin_to_sibling"		"ViewmodelLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		//---------------
-		
+
 		"SoundLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -218,12 +218,12 @@
 			"labelText"				"#FH_game_volume"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			
+
 			"pin_to_sibling"		"ViewmodelSlider"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"SoundSlider"
 		{
 			"ControlName"			"CCvarSlider"
@@ -236,14 +236,14 @@
 			"maxvalue"				"1.0"
 			"cvar_name"				"volume"
 			"allowoutofrange"		"0"
-			
+
 			"pin_to_sibling"		"SoundLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		//---------------
-		
+
 		"VoiceVolumeLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -259,12 +259,12 @@
 			"labelText"				"#FH_voice_volume"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			
+
 			"pin_to_sibling"		"SoundSlider"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"VoiceVolumeSlider"
 		{
 			"ControlName"			"CCvarSlider"
@@ -277,14 +277,14 @@
 			"maxvalue"				"1"
 			"cvar_name"				"voice_scale"
 			"allowoutofrange"		"0"
-			
+
 			"pin_to_sibling"		"VoiceVolumeLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		//---------------
-		
+
 		"StreamerModeToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -297,11 +297,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-			
+
 			"StreamerModeButton"
 			{
 				"controlName"					"CExButton"
@@ -321,7 +321,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"StreamerModeCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -340,9 +340,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"MatchHudToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -355,11 +355,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"StreamerModeToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-			
+
 			"MatchHudButton"
 			{
 				"controlName"					"CExButton"
@@ -379,7 +379,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"MatchHudCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -398,9 +398,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"NetgraphToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -413,11 +413,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"MatchHudToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-			
+
 			"NetgraphButton"
 			{
 				"controlName"					"CExButton"
@@ -437,7 +437,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"NetgraphCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -456,9 +456,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"ChatToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -471,11 +471,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-			
+
 			"ChatButton"
 			{
 				"controlName"					"CExButton"
@@ -487,7 +487,7 @@
 				"visible"						"1"
 				"enabled"						"1"
 				"labelText"						""
-				"command"						"engine toggle hud_saytext_time 10 0"
+				"command"						"engine toggle hud_saytext_time 12 0"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
 				"font"							"FontBold12"
@@ -495,7 +495,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"ChatCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -514,9 +514,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"MinViewmodelToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -529,11 +529,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"VoiceEnableToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-			
+
 			"MinViewmodelButton"
 			{
 				"controlName"					"CExButton"
@@ -553,7 +553,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"MinViewmodelCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -572,9 +572,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"VoiceEnableToggle"
 		{
 			"ControlName"			"EditablePanel"
@@ -587,11 +587,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-			
+
 			"pin_to_sibling"		"ChatToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-			
+
 			"VoiceEnableButton"
 			{
 				"controlName"					"CExButton"
@@ -611,7 +611,7 @@
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-			
+
 			"VoiceEnableCheckbox"
 			{
 				"ControlName"					"CvarToggleCheckButton"
@@ -630,9 +630,9 @@
 				"mouseinputenabled"				"0"
 			}
 		}
-		
+
 		//---------------
-		
+
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -648,12 +648,12 @@
 			"labelText"				"#FH_damage_color"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
-			
+
 			"pin_to_sibling"		"MinViewmodelToggle"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		}
-		
+
 		"DamageWhite"
 		{
 			"ControlName"			"CExImageButton"
@@ -671,19 +671,19 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			"defaultFgColor_override"	"255 255 255 255"
 			"armedFgColor_override"		"150 150 150 255"
 			"depressedFgColor_override"	"255 255 255 255"
 		}
-		
+
 		"DamageYellow"
 		{
 			"ControlName"			"CExImageButton"
@@ -701,19 +701,19 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageWhite"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 255 0 255"
 			"armedFgColor_override" 	"150 150 0 255"
 			"depressedFgColor_override" "255 255 0 255"
 		}
-		
+
 		"DamageRed"
 		{
 			"ControlName"			"CExImageButton"
@@ -731,19 +731,19 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageYellow"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 0 0 255"
 			"armedFgColor_override" 	"150 0 0 255"
 			"depressedFgColor_override" "255 0 0 255"
 		}
-		
+
 		"DamageGreen"
 		{
 			"ControlName"			"CExImageButton"
@@ -761,19 +761,19 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageRed"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"0 255 0 255"
 			"armedFgColor_override" 	"0 150 0 255"
 			"depressedFgColor_override" "0 255 0 255"
 		}
-		
+
 		"DamageCyan"
 		{
 			"ControlName"			"CExImageButton"
@@ -791,14 +791,14 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageGreen"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"0 255 255 255"
 			"armedFgColor_override" 	"0 150 150 255"
 			"depressedFgColor_override" "0 255 255 255"
@@ -821,14 +821,14 @@
 			"font"					"SmallIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageCyan"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 0 255 255"
 			"armedFgColor_override" 	"150 0 150 255"
 			"depressedFgColor_override" "255 0 255 255"
