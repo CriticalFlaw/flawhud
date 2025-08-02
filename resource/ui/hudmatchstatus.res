@@ -293,10 +293,10 @@
 			"color_portrait_bg_red_dead"		"HUDRedTeamDark"
 			"color_portrait_bg_blue_dead"		"HUDBlueTeamDark"
 			"color_bar_health_high"				"Overheal"
-			"color_bar_health_med"				"Overheal"
-			"percentage_health_med"				"0.5"
+			"color_bar_health_med"				"191 183 58 255"
+			"percentage_health_med"				"0.6"
 			"color_bar_health_low"				"LowHealth"
-			"percentage_health_low"				"0.2"
+			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
 
