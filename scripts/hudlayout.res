@@ -1,4 +1,6 @@
-"Resource/HudLayout.res"
+#base "../resource/ui/customizations/#customization_menu/hud_customization_layout.res"
+
+"Scripts/HudLayout.res"
 {
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL

@@ -1,0 +1,8 @@
+"Scheme"
+{
+	"Colors"
+	{
+		"Ubercharge_Full"									"250 125 115 255"
+		"Ubercharge_Shadow_Full"							"250 125 115 255"
+	}
+}

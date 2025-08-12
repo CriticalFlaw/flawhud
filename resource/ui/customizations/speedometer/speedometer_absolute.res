@@ -1,0 +1,37 @@
+"Resource/UI/Customizations/Speedometer/Speedometer_Absolute.res"
+{
+	"Speedometer"
+	{
+		"controlName"								"ImagePanel"
+		"FieldName"									"Speedometer"
+		"XPos"										"cs-0.5"
+		"YPos"										"c107"
+		"YPos_minmode"								"c132"
+		"ZPos"										"2"
+		"Wide"										"40"
+		"Tall"										"20"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"Image"										"replay/thumbnails/speedometer/speed_hud_absolute"
+		"ScaleImage"								"1"
+		"DrawColor"									"White"
+	}
+	"SpeedometerShadow"
+	{
+		"controlName"								"ImagePanel"
+		"FieldName"									"SpeedometerShadow"
+		"XPos"										"-1"
+		"YPos"										"-1"
+		"ZPos"										"1"
+		"Wide"										"40"
+		"Tall"										"20"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"Image"										"replay/thumbnails/speedometer/speed_hud_absolute"
+		"ScaleImage"								"1"
+		"DrawColor"									"Black"
+		"Pin_To_Sibling"							"Speedometer"
+	}
+}
