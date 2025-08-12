@@ -16,9 +16,9 @@
 		"PaintBackgroundType"							"0"
 		"BGcolor_Override"								"DarkGrey"
 		
-		//==============================================================================================================================
-		// TITLE BAR
-		//==============================================================================================================================
+		//========================================================================================
+		// TOP ROW
+		//========================================================================================
 		"Title"
 		{
 			"ControlName"								"CExLabel"
@@ -34,8 +34,8 @@
 			"Use_Proportional_Insets"					"1"
 			"AllCaps"									"1"
 			"LabelText"									"#TF_OptionCategory_HUD"
-			"Font"										"HudFontSmallBold"
-			"TextAlignment"								"west"
+			"Font"										"HudFontSmallishBold"
+			"TextAlignment"								"center"
 			"TextInsetX"								"5"
 			"FGColor"									"TanLight"
 			"PaintBackground"							"1"
@@ -47,7 +47,7 @@
 		{
 			"ControlName"								"CExButton"
 			"FieldName"									"CloseButton"
-			"XPos"										"rs1-2"
+			"XPos"										"rs1-5"
 			"YPos"										"2"
 			"ZPos"										"20"
 			"Wide"										"18"
@@ -67,94 +67,10 @@
 			"armedFgColor_override" 					"LightRed"
 			"depressedFgColor_override" 				"TanLight"
 		}
-		"GitHubWiki"
-		{
-			"ControlName"								"CExButton"
-			"FieldName"									"GitHubWiki"
-			"XPos"										"2"
-			"YPos"										"0"
-			"ZPos"										"20"
-			"Wide"										"54"
-			"Tall"										"18"
-			"Visible"									"1"
-			"Enabled"									"1"
-			"ProportionalToParent"						"1"
-			"LabelText"									"WIKI"
-			"Font"										"FontStorePrice"
-			"TextAlignment"								"center"
-			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
-			"PaintBackground"							"1"
-
-			"DefaultBGColor_Override"					"67 147 136 255"
-			"ArmedBGColor_Override"						"17 97 86 255"
-			"DepressedBGColor_Override"					"17 97 86 255"
-
-			"Pin_To_Sibling"							"CloseButton"
-			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-		}
-		"ResetAllButton"
-		{
-			"ControlName"								"CExButton"
-			"FieldName"									"ResetAllButton"
-			"XPos"										"2"
-			"YPos"										"0"
-			"ZPos"										"20"
-			"Wide"										"100"
-			"Tall"										"18"
-			"Visible"									"1"
-			"Enabled"									"1"
-			"ProportionalToParent"						"1"
-			"AllCaps"									"1"
-			"LabelText"									"Reset HUD"
-			"Font"										"FontStorePrice"
-			"TextAlignment"								"center"
-			"Command"									"engine hud_customization_reset"
-			"ActionSignalLevel"							"2"
-			"Sound_Depressed"							"UI/buttonclick.wav"
-
-			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"200 170 65 255"
-			"ArmedBGColor_Override"						"150 120 50 255"
-			"DepressedBGColor_Override"					"150 120 50 255"
-
-			"Pin_To_Sibling"							"GitHubWiki"
-			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-		}
-		"RestartGameButton"
-		{
-			"ControlName"								"CExButton"
-			"FieldName"									"RestartGameButton"
-			"XPos"										"2"
-			"YPos"										"0"
-			"ZPos"										"20"
-			"Wide"										"70"
-			"Tall"										"18"
-			"Visible"									"1"
-			"Enabled"									"1"
-			"ProportionalToParent"						"1"
-			"AllCaps"									"1"
-			"LabelText"									"Restart TF2"
-			"Font"										"FontStorePrice"
-			"TextAlignment"								"center"
-			"Command"									"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
-			"ActionSignalLevel"							"2"
-			"Sound_Depressed"							"UI/buttonclick.wav"
-
-			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"200 80 60 255"
-			"ArmedBGColor_Override"						"150 30 10 255"
-			"DepressedBGColor_Override"					"150 30 10 255"
-
-			"Pin_To_Sibling"							"ResetAllButton"
-			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-		}
 		
-		//==============================================================================================================================
+		//========================================================================================
 		// MAIN SCROLLER LIST
-		//==============================================================================================================================
+		//========================================================================================
 		"Categories_Navigation"
 		{
 			"ControlName"								"EditablePanel"
@@ -431,9 +347,9 @@
 			}
 		}
 		
-		//==============================================================================================================================
-		// MAIN CUSTOMIZATION PANEL
-		//==============================================================================================================================
+		//========================================================================================
+		//MAIN CUSTOMIZATION PANEL
+		//========================================================================================
 		"Customizations_Panel"
 		{
 			"ControlName"								"EditablePanel"
@@ -450,36 +366,112 @@
 			"BGColor_Override"							"Gray"
 		}
 		
-		//==============================================================================================================================
-		// OK/APPLY BUTTON
-		//==============================================================================================================================
+		//========================================================================================
+		// BOTTOM ROW
+		//========================================================================================
 		"ApplyButton"
 		{
 			"ControlName"								"CExButton"
 			"FieldName"									"ApplyButton"
-			"XPos"										"cs-0.5"
+			"XPos"										"0"
 			"YPos"										"rs1"
 			"ZPos"										"20"
-			"Wide"										"f0"
+			"Wide"										"225"
 			"Tall"										"22"
 			"Visible"									"1"
 			"Enabled"									"1"
 			"ProportionalToParent"						"1"
-			"AllCaps"									"1"
-			"LabelText"									"Reload to Apply Changes"
+			"LabelText"									"Reload HUD to Apply Changes"
 			"Font"										"HudFontSmallBold"
 			"TextAlignment"								"center"
 			"Command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme; toggle mat_aaquality"
 			"ActionSignalLevel"							"2"
+			"RoundedCorners"							"0"
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
-			"PaintBackground"							"1"
-			"PaintBorder"								"0"
+			"DefaultBGColor_Override"					"17 97 86 255"
+			"ArmedBGColor_Override"						"67 147 136 255"
+			"DepressedBGColor_Override"					"67 147 136 255"
+		}
+		"ResetAllButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"ResetAllButton"
+			"XPos"										"0"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"125"
+			"Tall"										"22"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"LabelText"									"Reset Changes"
+			"Font"										"HudFontSmallBold"
+			"TextAlignment"								"center"
+			"Command"									"engine hud_customization_reset"
+			"ActionSignalLevel"							"2"
 			"RoundedCorners"							"0"
+			"Sound_Depressed"							"UI/buttonclick.wav"
 
-			"DefaultBGColor_Override"					"OverhealShadow"
-			"ArmedBGColor_Override"						"Overheal"
-			"DepressedBGColor_Override"					"Overheal"
+			"DefaultBGColor_Override"					"150 120 50 255"
+			"ArmedBGColor_Override"						"200 170 65 255"
+			"DepressedBGColor_Override"					"200 170 65 255"
+			
+			"Pin_To_Sibling"							"ApplyButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+		}
+		"RestartGameButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"RestartGameButton"
+			"XPos"										"0"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"125"
+			"Tall"										"22"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"LabelText"									"Restart TF2"
+			"Font"										"HudFontSmallBold"
+			"TextAlignment"								"center"
+			"Command"									"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
+			"ActionSignalLevel"							"2"
+			"RoundedCorners"							"0"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+
+			"DefaultBGColor_Override"					"150 30 10 255"
+			"ArmedBGColor_Override"						"200 80 60 255"
+			"DepressedBGColor_Override"					"200 80 60 255"
+			
+			"Pin_To_Sibling"							"ResetAllButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+		}
+		"ConsoleButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"ConsoleButton"
+			"XPos"										"0"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"125"
+			"Tall"										"22"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"LabelText"									"Open Console"
+			"Font"										"HudFontSmallBold"
+			"TextAlignment"								"center"
+			"Command"									"engine toggleconsole"
+			"ActionSignalLevel"							"2"
+			"RoundedCorners"							"0"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+			
+			"Pin_To_Sibling"							"RestartGameButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 		}
 	}
 }
