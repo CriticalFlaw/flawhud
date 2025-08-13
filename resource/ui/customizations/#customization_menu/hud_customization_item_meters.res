@@ -89,7 +89,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // METERS ----------------------------------------------------------------------------------------
 				"Item_Meters"
@@ -318,7 +318,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // COUNTERS ----------------------------------------------------------------------------------------
 				"Item_Counters"
@@ -547,7 +547,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // KILLSTREAK STYLE ----------------------------------------------------------------------------------------
 				"Killstreak_Style"
@@ -595,7 +595,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Killstreak_Disabled"
 					{
@@ -908,7 +908,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Notice_Disabled"
 					{

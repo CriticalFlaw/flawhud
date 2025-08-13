@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // FLOATING DAMAGE STYLE -----------------------------------------------------------------------------------
 				"Floating_Damage_Style"
@@ -133,7 +133,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 // DAMAGE SMALL -------------------------------------------------------------------------------------------
 					"Damage_Small"
@@ -680,7 +680,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Damage_Solid"
 					{
@@ -900,7 +900,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Damage_Batching"
 					{
@@ -1075,7 +1075,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Last_Damage_Disabled"
 					{
@@ -1552,7 +1552,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Indicator_Disabled"
 					{

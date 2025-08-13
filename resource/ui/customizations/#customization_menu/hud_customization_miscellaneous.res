@@ -89,7 +89,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // SCOREBOARD STYLES -------------------------------------------------------------------------------------------------------
 				"Scoreboard_Styles"
@@ -137,7 +137,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -354,7 +354,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -457,7 +457,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -682,7 +682,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // TRANSPARENT VIEWMODELS ----------------------------------------------------------------------------------------
 				"Transparent_Viewmodels"
@@ -730,7 +730,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -947,7 +947,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1309,7 +1309,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // DISGUISE TOGGLE ----------------------------------------------------------------------------------------
 				"Disguise_Toggle"
@@ -1357,7 +1357,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1592,7 +1592,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1815,7 +1815,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // PLAYER MODEL POSITION ----------------------------------------------------------------------------------------
 				"Player_Model_Settings"
@@ -2044,7 +2044,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // SCOPE CHARGE POSITION ----------------------------------------------------------------------------------------
 				"Scope_Charge_Position"
@@ -2273,7 +2273,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 // SPEEDOMETER STYLE ----------------------------------------------------------------------------------------
 				"Speedometer_Style"

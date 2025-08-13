@@ -49,7 +49,7 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"6"
+					"LabelText"							"I"
 					"Font"								"Symbols20"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Theme_Picker"
 				{
@@ -154,7 +154,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Themes"
 					{
@@ -865,7 +865,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 // HEALTH NUMBERS ----------------------------------------------------------------------------------------------------------------------
 					"Health_Numbers"
@@ -10614,7 +10614,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Color_Shadows"
 					{
@@ -10794,8 +10794,8 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"`"
-					"Font"								"Symbols20"
+					"LabelText"							"&"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -10830,7 +10830,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Menu_Style"
 				{
@@ -10899,7 +10899,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Menu_Default"
 					{
@@ -11134,7 +11134,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Theme_Gray"
 					{
@@ -11847,7 +11847,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Menu_Default"
 					{

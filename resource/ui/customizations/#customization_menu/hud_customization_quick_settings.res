@@ -6,7 +6,7 @@
 		{
 			"HUD_Quick_Settings_Selection"
 			{
-				"ControlName"							"CScrollableList"
+				"ControlName"							"EditablePanel"
 				"FieldName"								"HUD_Quick_Settings_Selection"
 				"XPos"									"cs-0.5"
 				"YPos"									"cs-0.5"
@@ -19,24 +19,7 @@
 				"PaintBackground"						"0"
 				"paintBackgroundType"					"0"
 				"BGColor_Override"						"Black"
-
-				"Scrollbar"
-				{
-					"XPos"								"rs1+1"
-					"YPos"								"0"
-					"Wide"								"6"
-					"Tall"								"f0"
-					"ZPos"								"1000"
-					"ProportionalToParent"				"1"
-
-					"Slider"
-					{
-						"PaintBackgroundType"			"0"
-						"FGColor_Override"				"Gray"
-					}
-
-					"nobuttons"							"1"
-				}
+				
 				"Title_Icon"
 				{
 					"ControlName"						"CExLabel"
@@ -49,8 +32,8 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"T"
-					"Font"								"Symbols24"
+					"LabelText"							"v"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -67,7 +50,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"QUICK SETTINGS"
-					"Font"								"HudFontMediumbold"
+					"Font"								"HudFontMediumBold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -85,7 +68,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Settings"
 				{
@@ -344,11 +327,11 @@
 							"FGColor"					"White"
 						}
 					}
-// SHOWPOS -------------------------------------------------------------------------------------------------
-					"Toggle_ShowPos"
+// CAPTIONS ON -----------------------------------------------------------------------------------------------------
+					"Toggle_Captions"
 					{
 						"ControlName"					"EditablePanel"
-						"FieldName"						"Toggle_ShowPos"
+						"FieldName"						"Toggle_Captions"
 						"XPos"							"0"
 						"YPos"							"3"
 						"ZPos"							"20"
@@ -361,6 +344,89 @@
 						"Pin_To_Sibling"				"Toggle_Chat"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+
+						"Toggle_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Toggle_Button"
+							"XPos"						"cs-0.5"
+							"YPos"						"cs-0.5"
+							"ZPos"						"20"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"ActionSignalLevel"			"6"
+							"ProportionalToParent"		"1"
+							"LabelText"					""
+							"TextAlignment"				"west"
+							"Command"					"engine toggle closecaption"
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"PaintBackground"			"1"
+							"PaintBorder"				"0"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionWhite"
+
+							"DefaultBGColor_Override"	"Blank"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
+						}
+						"Captions_Checkbox"
+						{
+							"ControlName"				"CvarToggleCheckButton"
+							"FieldName"					"Captions_Checkbox"
+							"XPos"						"-2"
+							"YPos"						"cs-0.5"
+							"ZPos"						"21"
+							"Wide"						"22"
+							"Tall"						"22"
+							"ProportionalToParent"		"1"
+							"LabelText"					""
+							"TextAlignment"				"west"
+							"SmallCheckImage"			"0"
+							"button_activation_type"	"1"
+							"cvar_name"					"closecaption"
+							"MouseInputEnabled"			"0"
+						}
+						"Captions_Label"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Captions_Label"
+							"XPos"						"24"
+							"YPos"						"cs-0.5"
+							"ZPos"						"21"
+							"Wide"						"f24"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"AllCaps"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"Font"						"HudFontSmallest"
+							"LabelText"					"Show Captions"
+							"TextAlignment"				"west"
+							"Wrap"						"0"
+							"FGColor"					"White"
+						}
+					}
+// SHOWPOS -------------------------------------------------------------------------------------------------
+					"Toggle_ShowPos"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Toggle_ShowPos"
+						"XPos"							"5"
+						"YPos"							"0"
+						"ZPos"							"20"
+						"Wide"							"120"
+						"Tall"							"22"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+
+						"Pin_To_Sibling"				"Toggle_Captions"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
 						"Toggle_Button"
 						{
@@ -421,7 +487,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"Font"						"HudFontSmallest"
-							"LabelText"					"Show Position Graph"
+							"LabelText"					"Show Pos. Graph"
 							"TextAlignment"				"west"
 							"Wrap"						"0"
 							"FGColor"					"White"
@@ -511,11 +577,11 @@
 						}
 					}
 					
-// CLOSE CAPTIONS ------------------------------------------------------------------------------------------
-					"Close_Captions"
+// STREAMER MODE ------------------------------------------------------------------------------------------
+					"Streamer_Mode"
 					{
 						"ControlName"					"CExLabel"
-						"FieldName"						"Close_Captions"
+						"FieldName"						"Streamer_Mode"
 						"XPos"							"5"
 						"YPos"							"58"
 						"ZPos"							"0"
@@ -525,7 +591,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"AllCaps"						"1"
-						"LabelText"						"Close Captions"
+						"LabelText"						"Streamer Mode"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
 						"FGColor"						"Gray"
@@ -544,149 +610,14 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
-					}
-					"Captions_Explanation"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Captions_Explanation"
-						"XPos"							"5"
-						"YPos"							"78"
-						"ZPos"							"1"
-						"Wide"							"f30"
-						"Tall"							"50"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"mouseinputenabled"				"0"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"Wrap"							"1"
-						"CenterWrap"					"0"
-						"Font"							"HudFontSmallest"
-						"labeltext"						"Streamer mode aims to remove all the information that could be used to track the server you're playing in such as server names, player names, avatars and more in order to reduce the chance of stream snipes and DDoS"
-						"TextAlignment"					"North-West"
-						"FGColor"						"Gray"
-					}
-// CAPTIONS ON -----------------------------------------------------------------------------------------------------
-					"Toggle_Captions"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Toggle_Captions"
-						"XPos"							"5"
-						"YPos"							"115"
-						"ZPos"							"20"
-						"Wide"							"150"
-						"Tall"							"22"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"Toggle_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Toggle_Button"
-							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5"
-							"ZPos"						"20"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ActionSignalLevel"			"6"
-							"ProportionalToParent"		"1"
-							"LabelText"					""
-							"TextAlignment"				"west"
-							"Command"					"engine toggle closecaption"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"PaintBackground"			"1"
-							"PaintBorder"				"0"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
-						}
-						"Captions_Checkbox"
-						{
-							"ControlName"				"CvarToggleCheckButton"
-							"FieldName"					"Captions_Checkbox"
-							"XPos"						"-2"
-							"YPos"						"cs-0.5"
-							"ZPos"						"21"
-							"Wide"						"22"
-							"Tall"						"22"
-							"ProportionalToParent"		"1"
-							"LabelText"					""
-							"TextAlignment"				"west"
-							"SmallCheckImage"			"0"
-							"button_activation_type"	"1"
-							"cvar_name"					"closecaption"
-							"MouseInputEnabled"			"0"
-						}
-						"Captions_Label"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Captions_Label"
-							"XPos"						"24"
-							"YPos"						"cs-0.5"
-							"ZPos"						"21"
-							"Wide"						"f24"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"AllCaps"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"Font"						"HudFontSmallest"
-							"LabelText"					"Enable Closed Captions"
-							"TextAlignment"				"west"
-							"Wrap"						"0"
-							"FGColor"					"White"
-						}
-					}
-// STREAMER MODE ------------------------------------------------------------------------------------------
-					"Streamer_Mode"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Streamer_Mode"
-						"XPos"							"5"
-						"YPos"							"138"
-						"ZPos"							"0"
-						"Wide"							"f25"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Streamer Mode"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Separator_4"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator_4"
-						"XPos"							"3"
-						"YPos"							"153"
-						"ZPos"							"0"
-						"Wide"							"f40"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 					}
 					"Streamer_Mode_Explanation"
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Streamer_Mode_Explanation"
 						"XPos"							"5"
-						"YPos"							"158"
+						"YPos"							"78"
 						"ZPos"							"1"
 						"Wide"							"f30"
 						"Tall"							"50"
@@ -707,7 +638,7 @@
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Toggle_Streamer"
 						"XPos"							"5"
-						"YPos"							"195"
+						"YPos"							"118"
 						"ZPos"							"20"
 						"Wide"							"150"
 						"Tall"							"22"
@@ -774,7 +705,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"Font"						"HudFontSmallest"
-							"LabelText"					"Enable Streamer Mode"
+							"LabelText"					"Streamer Mode"
 							"TextAlignment"				"west"
 							"Wrap"						"0"
 							"FGColor"					"White"

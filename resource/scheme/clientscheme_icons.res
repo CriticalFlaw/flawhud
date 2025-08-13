@@ -74,18 +74,4 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
-	{
-		"121"
-		{
-			"font"	"resource/fonts/icons.ttf"
-			"name"	"TF2Icons"
-		}
-		"122"
-		{
-			"font"	"resource/fonts/streamer-mode.ttf"
-			"name"	"Streamer Mode"
-		}
-	}
 }

@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"General_Styles"
 				{
@@ -393,7 +393,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Health_Options"
 				{
@@ -1023,7 +1023,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Health_Warning"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1234,7 +1234,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Health_Fullscreen_Warning"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1463,7 +1463,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Health_Gain"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1687,7 +1687,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Ammo_Options"
 				{
@@ -1734,7 +1734,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Ammo_Low_Style"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1958,7 +1958,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Ubercharge_Options"
 				{
@@ -2005,7 +2005,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Ubercharge_Style"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2213,7 +2213,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Ubercharge_Counter"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2455,7 +2455,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Gray"
 				}
 				"Target_Options"
 				{
@@ -2502,7 +2502,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Target_Health_Style"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2710,7 +2710,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Target_Background_Style"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2918,7 +2918,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Target_Uber_Style"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3293,7 +3293,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Target_CVARS"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3389,7 +3389,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Separator_5"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3532,7 +3532,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Gray"
 
 						"Pin_To_Sibling"				"Separator_6"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
