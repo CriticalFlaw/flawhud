@@ -53,7 +53,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"'"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -198,7 +198,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Scoreboard_Button"
 						{
@@ -222,7 +222,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Scoreboard_Foster"
@@ -280,7 +280,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Scoreboard_Button"
 						{
@@ -304,7 +304,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -646,7 +646,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"@"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -775,7 +775,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -815,7 +815,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Style_Transparent"
@@ -857,7 +857,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -897,7 +897,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -1273,7 +1273,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"i"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -1402,7 +1402,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1442,7 +1442,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Disguise_OFF"
@@ -1484,7 +1484,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1542,7 +1542,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -1637,7 +1637,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1677,7 +1677,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Disguise_Bottom"
@@ -1719,7 +1719,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1759,7 +1759,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -1779,7 +1779,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"."
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -1866,7 +1866,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1906,7 +1906,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Model_Right"
@@ -1948,7 +1948,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -1988,7 +1988,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -2008,7 +2008,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"h"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -2095,7 +2095,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2135,7 +2135,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Charge_Outside"
@@ -2177,7 +2177,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2217,7 +2217,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -2237,7 +2237,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"7"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -2324,7 +2324,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2382,7 +2382,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Speedo_Absolute"
@@ -2424,7 +2424,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2464,7 +2464,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Speedo_Horizontal_M0re"
@@ -2506,7 +2506,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2546,7 +2546,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Speedo_Horizontal_Block"
@@ -2588,7 +2588,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -2628,7 +2628,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}

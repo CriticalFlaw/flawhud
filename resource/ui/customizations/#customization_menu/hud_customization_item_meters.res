@@ -53,7 +53,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"R"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -140,7 +140,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -180,7 +180,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Item_Meters_Fat_Bar"
@@ -222,7 +222,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -262,7 +262,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -282,7 +282,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"j"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -369,7 +369,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -409,7 +409,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Counter_Bottom_Right"
@@ -451,7 +451,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Image"
 						{
@@ -491,7 +491,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -511,7 +511,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"r"
-					"Font"								"Symbols24"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -670,7 +670,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Button"
 						{
@@ -694,7 +694,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Killstreak_Bottom_Left"
@@ -752,7 +752,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Button"
 						{
@@ -776,7 +776,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Killstreak_Top_Right"
@@ -834,7 +834,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Button"
 						{
@@ -858,7 +858,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
@@ -983,7 +983,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Button"
 						{
@@ -1007,7 +1007,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 					"Notice_Enabled"
@@ -1065,7 +1065,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"Black"
 						}
 						"Style_Button"
 						{
@@ -1089,7 +1089,7 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
+							"border_armed"				"DarkBorderThick"
 						}
 					}
 				}
