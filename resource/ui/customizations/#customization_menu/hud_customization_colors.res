@@ -6,7 +6,7 @@
 		{
 			"HUD_Colors_Selection"
 			{
-				"ControlName"							"CScrollableList"
+				"ControlName"							"EditablePanel"
 				"FieldName"								"HUD_Colors_Selection"
 				"XPos"									"cs-0.5"
 				"YPos"									"cs-0.5"
@@ -19,24 +19,7 @@
 				"PaintBackground"						"0"
 				"paintBackgroundType"					"0"
 				"BGColor_Override"						"Black"
-
-				"Scrollbar"
-				{
-					"XPos"								"rs1+1"
-					"YPos"								"0"
-					"Wide"								"6"
-					"Tall"								"f0"
-					"ZPos"								"1000"
-					"ProportionalToParent"				"1"
-
-					"Slider"
-					{
-						"PaintBackgroundType"			"0"
-						"FGColor_Override"				"Gray"
-					}
-
-					"nobuttons"							"1"
-				}
+				
 				"Title_Icon"
 				{
 					"ControlName"						"CExLabel"
@@ -50,7 +33,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"I"
-					"Font"								"Symbols20"
+					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -87,723 +70,12 @@
 					"paintBackgroundtype"				"3"
 					"BGcolor_Override"					"Gray"
 				}
-				"Theme_Picker"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Theme_Picker"
-					"XPos"								"0"
-					"YPos"								"30"
-					"ZPos"								"20"
-					"Wide"								"f7"
-					"Tall"								"50"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-
-					"Themes_Title"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Themes_Title"
-						"XPos"							"3"
-						"YPos"							"2"
-						"ZPos"							"0"
-						"Wide"							"f35"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Select a Theme"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Restart_Warning"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Restart_Warning"
-						"XPos"							"-85"
-						"YPos"							"0"
-						"ZPos"							"0"
-						"Wide"							"20"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"C"
-						"Font"							"Symbols14"
-						"TextAlignment"					"center"
-						"FGColor"						"Red"
-
-						"Pin_To_Sibling"				"Themes_Title"
-						"Pin_Corner_To_Sibling"			"PIN_CENTER_LEFT"
-						"Pin_To_Sibling_Corner"			"PIN_CENTER_LEFT"
-					}
-					"Separator_1"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator_1"
-						"XPos"							"1"
-						"YPos"							"17"
-						"ZPos"							"0"
-						"Wide"							"f40"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Gray"
-					}
-					"Themes"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Themes"
-						"XPos"							"3"
-						"YPos"							"22"
-						"ZPos"							"-1"
-						"Wide"							"f7"
-						"Tall"							"25"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"0"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
-
-						"White_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Theme"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_white"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
-						}
-						"Tan_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Tan_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_tan"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"235 226 202 255"
-							"ArmedBGColor_Override"		"235 226 202 255"
-							"DepressedBGColor_Override"	"235 226 202 255"
-
-							"Pin_To_Sibling"			"White_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Grey_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_grey"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
-
-							"Pin_To_Sibling"			"Tan_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_maroon"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
-
-							"Pin_To_Sibling"			"Grey_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_red"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
-
-							"Pin_To_Sibling"			"Maroon_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_salmon"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
-
-							"Pin_To_Sibling"			"Red_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_orange"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
-
-							"Pin_To_Sibling"			"Salmon_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_yellow"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
-
-							"Pin_To_Sibling"			"Orange_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_olive"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
-
-							"Pin_To_Sibling"			"Yellow_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_green"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
-
-							"Pin_To_Sibling"			"Olive_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_forest"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
-
-							"Pin_To_Sibling"			"Green_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_teal"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
-
-							"Pin_To_Sibling"			"Forest_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_cyan"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
-
-							"Pin_To_Sibling"			"Teal_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_blue"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
-
-							"Pin_To_Sibling"			"Cyan_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_navy"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
-
-							"Pin_To_Sibling"			"Blue_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_purple"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
-
-							"Pin_To_Sibling"			"Navy_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_violet"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
-
-							"Pin_To_Sibling"			"Purple_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_pink"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
-
-							"Pin_To_Sibling"			"Violet_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Theme"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Theme"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_theme_magenta"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
-
-							"Pin_To_Sibling"			"Pink_Theme"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-				}
 				"Element_Color_Picker"
 				{
 					"ControlName"						"EditablePanel"
 					"FieldName"							"Element_Color_Picker"
 					"XPos"								"0"
-					"YPos"								"80"
+					"YPos"								"30"
 					"ZPos"								"20"
 					"Wide"								"f7"
 					"Tall"								"215"
@@ -833,8 +105,8 @@
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Restart_Warning"
-						"XPos"							"-172"
-						"YPos"							"0"
+						"XPos"							"-212"
+						"YPos"							"-1"
 						"ZPos"							"0"
 						"Wide"							"20"
 						"Tall"							"15"
@@ -842,10 +114,10 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"AllCaps"						"1"
-						"LabelText"						"C"
-						"Font"							"Symbols14"
+						"LabelText"						"."
+						"Font"							"SmallIcons"
 						"TextAlignment"					"center"
-						"FGColor"						"Red"
+						"FGColor"						"LightRed"
 
 						"Pin_To_Sibling"				"Color_Title"
 						"Pin_Corner_To_Sibling"			"PIN_CENTER_LEFT"
@@ -867,11 +139,11 @@
 						"paintBackgroundtype"			"3"
 						"BGcolor_Override"				"Gray"
 					}
-// HEALTH NUMBERS ----------------------------------------------------------------------------------------------------------------------
-					"Health_Numbers"
+// TEAM RED ----------------------------------------------------------------------------------------------------------------------
+					"Team_Red"
 					{
 						"ControlName"					"EditablePanel"
-						"FieldName"						"Health_Numbers"
+						"FieldName"						"Team_Red"
 						"XPos"							"2"
 						"YPos"							"22"
 						"ZPos"							"12"
@@ -883,7 +155,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
 						"Example_Image"
 						{
@@ -914,7 +186,7 @@
 							"ProportionalToParent"		"1"
 							"Use_Proportional_Insets"	"1"
 							"AllCaps"					"1"
-							"LabelText"					"Health Numbers"
+							"LabelText"					"Team RED"
 							"Font"						"HudFontSmallest"
 							"TextAlignment"				"west"
 							"FGColor"					"Gray"
@@ -941,11 +213,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -969,11 +241,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1001,11 +273,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1035,9 +307,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1065,11 +337,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1097,11 +369,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1129,11 +401,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1161,11 +433,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1193,11 +465,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1225,11 +497,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1257,11 +529,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1289,11 +561,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1321,11 +593,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1353,11 +625,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1385,11 +657,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1417,11 +689,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1449,11 +721,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1481,11 +753,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1513,11 +785,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1545,11 +817,1397 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
+
+							"Pin_To_Sibling"			"Violet_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+					}
+// TEAM BLU ----------------------------------------------------------------------------------------------------------------------
+					"Team_Blu"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Team_Blu"
+						"XPos"							"3"
+						"YPos"							"0"
+						"ZPos"							"12"
+						"Wide"							"144"
+						"Tall"							"36"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+
+						"PaintBackground"				"1"
+						"paintBackgroundType"			"0"
+						"BGColor_Override"				"Black"
+
+						"Pin_To_Sibling"				"Team_Red"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+
+						"Example_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Example_Image"
+							"XPos"						"2"
+							"YPos"						"cs-0.5"
+							"ZPos"						"1"
+							"Wide"						"o1"
+							"Tall"						"f4"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"ProportionalToParent"		"1"
+							"ScaleImage"				"1"
+							"Image"						"replay/thumbnails/customizations/colors/health_buff"
+						}
+						"Element_Name"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Element_Name"
+							"XPos"						"36"
+							"YPos"						"rs1"
+							"ZPos"						"0"
+							"Wide"						"f38"
+							"Tall"						"13"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"ProportionalToParent"		"1"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"Team BLU"
+							"Font"						"HudFontSmallest"
+							"TextAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+						"White_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"White_Preset"
+							"XPos"						"36"
+							"YPos"						"2"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_white"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
+						}
+						"Tan_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Tan_Preset"
+							"XPos"						"0"
+							"YPos"						"1"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_tan"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
+
+							"Pin_To_Sibling"			"White_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
+						}
+						"Grey_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Grey_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_grey"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
+
+							"Pin_To_Sibling"			"White_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Black_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Black_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_black"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionWhite"
+
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
+
+							"Pin_To_Sibling"			"Tan_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Maroon_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Maroon_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_maroon"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
+
+							"Pin_To_Sibling"			"Grey_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Red_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Red_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_red"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
+
+							"Pin_To_Sibling"			"Black_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Salmon_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Salmon_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_salmon"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
+
+							"Pin_To_Sibling"			"Maroon_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Orange_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Orange_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_orange"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
+
+							"Pin_To_Sibling"			"Red_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Yellow_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Yellow_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_yellow"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
+
+							"Pin_To_Sibling"			"Salmon_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Olive_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Olive_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_olive"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
+
+							"Pin_To_Sibling"			"Orange_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Green_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Green_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_green"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
+
+							"Pin_To_Sibling"			"Yellow_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Forest_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Forest_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_forest"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
+
+							"Pin_To_Sibling"			"Olive_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Teal_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Teal_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_teal"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
+
+							"Pin_To_Sibling"			"Green_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Cyan_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Cyan_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_cyan"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
+
+							"Pin_To_Sibling"			"Forest_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Blue_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Blue_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_blue"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
+
+							"Pin_To_Sibling"			"Teal_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Navy_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Navy_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_navy"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
+
+							"Pin_To_Sibling"			"Cyan_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Purple_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Purple_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_purple"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
+
+							"Pin_To_Sibling"			"Blue_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Violet_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Violet_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_violet"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
+
+							"Pin_To_Sibling"			"Navy_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Pink_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Pink_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_pink"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
+
+							"Pin_To_Sibling"			"Purple_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Magenta_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Magenta_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_health_magenta"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
+
+							"Pin_To_Sibling"			"Violet_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+					}
+// NEUTRAL COLOR  ----------------------------------------------------------------------------------------------------------------------
+					"Neutral_Color"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Neutral_Color"
+						"XPos"							"0"
+						"YPos"							"3"
+						"ZPos"							"12"
+						"Wide"							"144"
+						"Tall"							"36"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+
+						"PaintBackground"				"1"
+						"paintBackgroundType"			"0"
+						"BGColor_Override"				"Black"
+
+						"Pin_To_Sibling"				"Team_Red"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+
+						"Example_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Example_Image"
+							"XPos"						"2"
+							"YPos"						"cs-0.5"
+							"ZPos"						"1"
+							"Wide"						"o1"
+							"Tall"						"f4"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"ProportionalToParent"		"1"
+							"ScaleImage"				"1"
+							"Image"						"replay/thumbnails/customizations/colors/health_buff"
+						}
+						"Element_Name"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Element_Name"
+							"XPos"						"36"
+							"YPos"						"rs1"
+							"ZPos"						"0"
+							"Wide"						"f38"
+							"Tall"						"13"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"ProportionalToParent"		"1"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"Neutral Color"
+							"Font"						"HudFontSmallest"
+							"TextAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+						"White_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"White_Preset"
+							"XPos"						"36"
+							"YPos"						"2"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_white"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
+						}
+						"Tan_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Tan_Preset"
+							"XPos"						"0"
+							"YPos"						"1"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_tan"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
+
+							"Pin_To_Sibling"			"White_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
+						}
+						"Grey_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Grey_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_grey"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
+
+							"Pin_To_Sibling"			"White_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Black_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Black_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_black"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionWhite"
+
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
+
+							"Pin_To_Sibling"			"Tan_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Maroon_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Maroon_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_maroon"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
+
+							"Pin_To_Sibling"			"Grey_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Red_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Red_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_red"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
+
+							"Pin_To_Sibling"			"Black_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Salmon_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Salmon_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_salmon"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
+
+							"Pin_To_Sibling"			"Maroon_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Orange_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Orange_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_orange"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
+
+							"Pin_To_Sibling"			"Red_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Yellow_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Yellow_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_yellow"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
+
+							"Pin_To_Sibling"			"Salmon_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Olive_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Olive_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_olive"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
+
+							"Pin_To_Sibling"			"Orange_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Green_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Green_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_green"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
+
+							"Pin_To_Sibling"			"Yellow_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Forest_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Forest_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_forest"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
+
+							"Pin_To_Sibling"			"Olive_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Teal_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Teal_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_teal"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
+
+							"Pin_To_Sibling"			"Green_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Cyan_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Cyan_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_cyan"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
+
+							"Pin_To_Sibling"			"Forest_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Blue_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Blue_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_blue"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
+
+							"Pin_To_Sibling"			"Teal_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Navy_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Navy_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_navy"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
+
+							"Pin_To_Sibling"			"Cyan_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Purple_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Purple_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_purple"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
+
+							"Pin_To_Sibling"			"Blue_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Violet_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Violet_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_violet"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
+
+							"Pin_To_Sibling"			"Navy_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Pink_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Pink_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_pink"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
+
+							"Pin_To_Sibling"			"Purple_Preset"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+						}
+						"Magenta_Preset"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Magenta_Preset"
+							"XPos"						"1"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"10"
+							"Tall"						"10"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine hud_color_buff_magenta"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"1"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1572,9 +2230,9 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Health_Numbers"
+						"Pin_To_Sibling"				"Neutral_Color"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
@@ -1634,11 +2292,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -1662,11 +2320,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1694,11 +2352,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1728,9 +2386,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1758,11 +2416,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1790,11 +2448,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1822,11 +2480,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1854,11 +2512,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1886,11 +2544,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1918,11 +2576,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1950,11 +2608,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -1982,11 +2640,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2014,11 +2672,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2046,11 +2704,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2078,11 +2736,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2110,11 +2768,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2142,11 +2800,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2174,11 +2832,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2206,11 +2864,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2238,11 +2896,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2265,7 +2923,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
 						"Pin_To_Sibling"				"Health_Buff"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2327,11 +2985,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -2355,11 +3013,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2387,11 +3045,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2421,9 +3079,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2451,11 +3109,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2483,11 +3141,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2515,11 +3173,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2547,11 +3205,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2579,11 +3237,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2611,11 +3269,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2643,11 +3301,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2675,11 +3333,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2707,11 +3365,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2739,11 +3397,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2771,11 +3429,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2803,11 +3461,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2835,11 +3493,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2867,11 +3525,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2899,11 +3557,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -2931,1397 +3589,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
-
-							"Pin_To_Sibling"			"Violet_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-// AMMO IN CLIP ----------------------------------------------------------------------------------------------------------------------
-					"Ammo_In_Clip"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Ammo_In_Clip"
-						"XPos"							"0"
-						"YPos"							"3"
-						"ZPos"							"12"
-						"Wide"							"144"
-						"Tall"							"36"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
-
-						"Pin_To_Sibling"				"Health_Numbers"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"2"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"o1"
-							"Tall"						"f4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/ammo_clip"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"36"
-							"YPos"						"rs1"
-							"ZPos"						"0"
-							"Wide"						"f38"
-							"Tall"						"13"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Ammo In Clip"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"west"
-							"FGColor"					"Gray"
-						}
-						"White_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Preset"
-							"XPos"						"36"
-							"YPos"						"2"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_white"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
-						}
-						"Tan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Tan_Preset"
-							"XPos"						"0"
-							"YPos"						"1"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_tan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-						}
-						"Grey_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_grey"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Black_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Black_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_black"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
-
-							"Pin_To_Sibling"			"Tan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_maroon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
-
-							"Pin_To_Sibling"			"Grey_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_red"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
-
-							"Pin_To_Sibling"			"Black_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_salmon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
-
-							"Pin_To_Sibling"			"Maroon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_orange"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
-
-							"Pin_To_Sibling"			"Red_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_yellow"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
-
-							"Pin_To_Sibling"			"Salmon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_olive"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
-
-							"Pin_To_Sibling"			"Orange_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_green"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
-
-							"Pin_To_Sibling"			"Yellow_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_forest"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
-
-							"Pin_To_Sibling"			"Olive_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_teal"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
-
-							"Pin_To_Sibling"			"Green_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_cyan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
-
-							"Pin_To_Sibling"			"Forest_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_blue"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
-
-							"Pin_To_Sibling"			"Teal_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_navy"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
-
-							"Pin_To_Sibling"			"Cyan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_purple"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
-
-							"Pin_To_Sibling"			"Blue_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_violet"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
-
-							"Pin_To_Sibling"			"Navy_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_pink"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
-
-							"Pin_To_Sibling"			"Purple_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_clip_magenta"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
-
-							"Pin_To_Sibling"			"Violet_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-// AMMO IN RESERVE ----------------------------------------------------------------------------------------------------------------------
-					"Ammo_In_Reserve"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Ammo_In_Reserve"
-						"XPos"							"3"
-						"YPos"							"0"
-						"ZPos"							"12"
-						"Wide"							"144"
-						"Tall"							"36"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
-
-						"Pin_To_Sibling"				"Ammo_In_Clip"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"2"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"o1"
-							"Tall"						"f4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/ammo_reserve"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"36"
-							"YPos"						"rs1"
-							"ZPos"						"0"
-							"Wide"						"f38"
-							"Tall"						"13"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Ammo In Reserve"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"west"
-							"FGColor"					"Gray"
-						}
-						"White_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Preset"
-							"XPos"						"36"
-							"YPos"						"2"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_white"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
-						}
-						"Tan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Tan_Preset"
-							"XPos"						"0"
-							"YPos"						"1"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_tan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-						}
-						"Grey_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_grey"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Black_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Black_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_black"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
-
-							"Pin_To_Sibling"			"Tan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_maroon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
-
-							"Pin_To_Sibling"			"Grey_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_red"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
-
-							"Pin_To_Sibling"			"Black_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_salmon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
-
-							"Pin_To_Sibling"			"Maroon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_orange"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
-
-							"Pin_To_Sibling"			"Red_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_yellow"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
-
-							"Pin_To_Sibling"			"Salmon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_olive"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
-
-							"Pin_To_Sibling"			"Orange_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_green"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
-
-							"Pin_To_Sibling"			"Yellow_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_forest"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
-
-							"Pin_To_Sibling"			"Olive_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_teal"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
-
-							"Pin_To_Sibling"			"Green_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_cyan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
-
-							"Pin_To_Sibling"			"Forest_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_blue"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
-
-							"Pin_To_Sibling"			"Teal_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_navy"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
-
-							"Pin_To_Sibling"			"Cyan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_purple"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
-
-							"Pin_To_Sibling"			"Blue_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_violet"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
-
-							"Pin_To_Sibling"			"Navy_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_pink"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
-
-							"Pin_To_Sibling"			"Purple_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_reserve_magenta"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"border_armed"				"DarkBorderThick"
+
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4333,8 +3605,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Ammo_Low"
-						"XPos"							"3"
-						"YPos"							"0"
+						"XPos"							"0"
+						"YPos"							"3"
 						"ZPos"							"12"
 						"Wide"							"144"
 						"Tall"							"36"
@@ -4344,11 +3616,11 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Ammo_In_Reserve"
+						"Pin_To_Sibling"				"Neutral_Color"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
 						"Example_Image"
 						{
@@ -4406,11 +3678,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -4434,11 +3706,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4466,11 +3738,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4500,9 +3772,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4530,11 +3802,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4562,11 +3834,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4594,11 +3866,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4626,11 +3898,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4658,11 +3930,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4690,11 +3962,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4722,11 +3994,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4754,11 +4026,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4786,11 +4058,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4818,11 +4090,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4850,11 +4122,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4882,11 +4154,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4914,11 +4186,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4946,11 +4218,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -4978,11 +4250,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5010,11 +4282,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5026,8 +4298,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Ubercharge"
-						"XPos"							"0"
-						"YPos"							"3"
+						"XPos"							"3"
+						"YPos"							"0"
 						"ZPos"							"12"
 						"Wide"							"144"
 						"Tall"							"36"
@@ -5037,11 +4309,11 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Ammo_In_Clip"
+						"Pin_To_Sibling"				"Ammo_Low"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
 						"Example_Image"
 						{
@@ -5099,11 +4371,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -5127,11 +4399,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5159,11 +4431,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5193,9 +4465,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5223,11 +4495,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5255,11 +4527,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5287,11 +4559,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5319,11 +4591,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5351,11 +4623,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5383,11 +4655,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5415,11 +4687,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5447,11 +4719,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5479,11 +4751,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5511,11 +4783,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5543,11 +4815,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5575,11 +4847,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5607,11 +4879,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5639,11 +4911,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5671,11 +4943,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5703,11 +4975,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5730,7 +5002,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
 						"Pin_To_Sibling"				"Ubercharge"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5792,11 +5064,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -5820,11 +5092,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5852,11 +5124,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5886,9 +5158,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5916,11 +5188,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5948,11 +5220,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -5980,11 +5252,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6012,11 +5284,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6044,11 +5316,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6076,11 +5348,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6108,11 +5380,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6140,11 +5412,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6172,11 +5444,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6204,11 +5476,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6236,11 +5508,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6268,11 +5540,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6300,11 +5572,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6332,11 +5604,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6364,11 +5636,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -6396,715 +5668,22 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
 						}
 					}
-// SHADOWS ----------------------------------------------------------------------------------------------------------------------
-					"Shadows"
+// HEALING DONE ----------------------------------------------------------------------------------------------------------------------
+					"Healing_Done"
 					{
 						"ControlName"					"EditablePanel"
-						"FieldName"						"Shadows"
-						"XPos"							"3"
-						"YPos"							"0"
-						"ZPos"							"12"
-						"Wide"							"144"
-						"Tall"							"36"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
-
-						"Pin_To_Sibling"				"Ubercharge_Full"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"2"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"o1"
-							"Tall"						"f4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/shadows"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"36"
-							"YPos"						"rs1"
-							"ZPos"						"0"
-							"Wide"						"f38"
-							"Tall"						"13"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Shadows"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"west"
-							"FGColor"					"Gray"
-						}
-						"White_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Preset"
-							"XPos"						"36"
-							"YPos"						"2"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_white"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
-						}
-						"Tan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Tan_Preset"
-							"XPos"						"0"
-							"YPos"						"1"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_tan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-						}
-						"Grey_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_grey"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Black_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Black_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_black"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
-
-							"Pin_To_Sibling"			"Tan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_maroon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
-
-							"Pin_To_Sibling"			"Grey_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_red"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
-
-							"Pin_To_Sibling"			"Black_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_salmon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
-
-							"Pin_To_Sibling"			"Maroon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_orange"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
-
-							"Pin_To_Sibling"			"Red_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_yellow"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
-
-							"Pin_To_Sibling"			"Salmon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_olive"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
-
-							"Pin_To_Sibling"			"Orange_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_green"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
-
-							"Pin_To_Sibling"			"Yellow_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_forest"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
-
-							"Pin_To_Sibling"			"Olive_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_teal"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
-
-							"Pin_To_Sibling"			"Green_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_cyan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
-
-							"Pin_To_Sibling"			"Forest_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_blue"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
-
-							"Pin_To_Sibling"			"Teal_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_navy"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
-
-							"Pin_To_Sibling"			"Cyan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_purple"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
-
-							"Pin_To_Sibling"			"Blue_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_violet"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
-
-							"Pin_To_Sibling"			"Navy_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_pink"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
-
-							"Pin_To_Sibling"			"Purple_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_shadows_magenta"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
-
-							"Pin_To_Sibling"			"Violet_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-// DAMAGE ----------------------------------------------------------------------------------------------------------------------
-					"Damage"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Damage"
+						"FieldName"						"Healing_Done"
 						"XPos"							"0"
 						"YPos"							"3"
 						"ZPos"							"12"
@@ -7116,9 +5695,9 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Ubercharge"
+						"Pin_To_Sibling"				"Ammo_Low"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
@@ -7135,7 +5714,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/damage_numbers"
+							"Image"						"replay/thumbnails/customizations/colors/ammo_clip"
 						}
 						"Element_Name"
 						{
@@ -7151,7 +5730,7 @@
 							"ProportionalToParent"		"1"
 							"Use_Proportional_Insets"	"1"
 							"AllCaps"					"1"
-							"LabelText"					"Damage"
+							"LabelText"					"Healing Done"
 							"Font"						"HudFontSmallest"
 							"TextAlignment"				"west"
 							"FGColor"					"Gray"
@@ -7168,7 +5747,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 255"
+							"Command"					"engine hud_color_clip_white"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7178,11 +5757,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -7196,7 +5775,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 235; hud_combattext_green 226; hud_combattext_blue 202"
+							"Command"					"engine hud_color_clip_tan"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7206,11 +5785,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7228,7 +5807,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 152; hud_combattext_blue 154"
+							"Command"					"engine hud_color_clip_grey"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7238,11 +5817,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7260,7 +5839,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 0"
+							"Command"					"engine hud_color_clip_black"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7272,9 +5851,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7292,7 +5871,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 50; hud_combattext_blue 50"
+							"Command"					"engine hud_color_clip_maroon"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7302,11 +5881,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7324,7 +5903,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 0"
+							"Command"					"engine hud_color_clip_red"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7334,11 +5913,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7356,7 +5935,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 250; hud_combattext_green 125; hud_combattext_blue 115"
+							"Command"					"engine hud_color_clip_salmon"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7366,11 +5945,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7388,7 +5967,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 155; hud_combattext_blue 75"
+							"Command"					"engine hud_color_clip_orange"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7398,11 +5977,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7420,7 +5999,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 0"
+							"Command"					"engine hud_color_clip_yellow"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7430,11 +6009,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7452,7 +6031,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 180; hud_combattext_green 200; hud_combattext_blue 100"
+							"Command"					"engine hud_color_clip_olive"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7462,11 +6041,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7484,7 +6063,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 0"
+							"Command"					"engine hud_color_clip_green"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7494,11 +6073,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7516,7 +6095,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 135; hud_combattext_blue 55"
+							"Command"					"engine hud_color_clip_forest"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7526,11 +6105,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7548,7 +6127,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 100; hud_combattext_green 180; hud_combattext_blue 170"
+							"Command"					"engine hud_color_clip_teal"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7558,11 +6137,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7580,7 +6159,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 255"
+							"Command"					"engine hud_color_clip_cyan"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7590,11 +6169,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7612,7 +6191,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 170; hud_combattext_blue 255"
+							"Command"					"engine hud_color_clip_blue"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7622,11 +6201,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7644,7 +6223,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 90; hud_combattext_green 120; hud_combattext_blue 200"
+							"Command"					"engine hud_color_clip_navy"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7654,11 +6233,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7676,7 +6255,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 50; hud_combattext_blue 235"
+							"Command"					"engine hud_color_clip_purple"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7686,11 +6265,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7708,7 +6287,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 190; hud_combattext_green 150; hud_combattext_blue 210"
+							"Command"					"engine hud_color_clip_violet"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7718,11 +6297,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7740,7 +6319,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 250; hud_combattext_green 185; hud_combattext_blue 240"
+							"Command"					"engine hud_color_clip_pink"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7750,11 +6329,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7772,7 +6351,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 127"
+							"Command"					"engine hud_color_clip_magenta"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -7782,11 +6361,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7809,9 +6388,9 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Damage"
+						"Pin_To_Sibling"				"Healing_Done"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
@@ -7871,11 +6450,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -7899,11 +6478,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7931,11 +6510,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7965,9 +6544,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -7995,11 +6574,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8027,11 +6606,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8059,11 +6638,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8091,11 +6670,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8123,11 +6702,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8155,11 +6734,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8187,11 +6766,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8219,11 +6798,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8251,11 +6830,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8283,11 +6862,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8315,11 +6894,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8347,11 +6926,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8379,11 +6958,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8411,11 +6990,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8443,11 +7022,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8475,11 +7054,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8491,8 +7070,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"HUD_Crosshair"
-						"XPos"							"3"
-						"YPos"							"0"
+						"XPos"							"0"
+						"YPos"							"3"
 						"ZPos"							"12"
 						"Wide"							"144"
 						"Tall"							"36"
@@ -8502,11 +7081,11 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Last_Damage_Done"
+						"Pin_To_Sibling"				"Healing_Done"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
 						"Example_Image"
 						{
@@ -8564,11 +7143,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -8592,11 +7171,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8624,11 +7203,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8658,9 +7237,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8688,11 +7267,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8720,11 +7299,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8752,11 +7331,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8784,11 +7363,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8816,11 +7395,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8848,11 +7427,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8880,11 +7459,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8912,11 +7491,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8944,11 +7523,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -8976,11 +7555,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9008,11 +7587,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9040,11 +7619,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9072,11 +7651,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9104,11 +7683,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9136,11 +7715,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9168,11 +7747,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9184,8 +7763,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"HUD_Crosshair_Pulse"
-						"XPos"							"0"
-						"YPos"							"3"
+						"XPos"							"3"
+						"YPos"							"0"
 						"ZPos"							"12"
 						"Wide"							"144"
 						"Tall"							"36"
@@ -9195,11 +7774,11 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
-						"Pin_To_Sibling"				"Damage"
+						"Pin_To_Sibling"				"HUD_Crosshair"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
 						"Example_Image"
 						{
@@ -9257,11 +7836,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -9285,11 +7864,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9317,11 +7896,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9351,9 +7930,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9381,11 +7960,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9413,11 +7992,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9445,11 +8024,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9477,11 +8056,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9509,11 +8088,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9541,11 +8120,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9573,11 +8152,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9605,11 +8184,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9637,11 +8216,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9669,11 +8248,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9701,11 +8280,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9733,11 +8312,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9765,11 +8344,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9797,11 +8376,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9829,11 +8408,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9861,11 +8440,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -9888,7 +8467,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"Black"
 
 						"Pin_To_Sibling"				"HUD_Crosshair_Pulse"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -9950,11 +8529,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
+							"DefaultBGColor_Override"	"White"
+							"ArmedBGColor_Override"		"White"
+							"DepressedBGColor_Override"	"White"
 						}
 						"Tan_Preset"
 						{
@@ -9978,11 +8557,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTan"
-							"ArmedBGColor_Override"		"m0reTan"
-							"DepressedBGColor_Override"	"m0reTan"
+							"DefaultBGColor_Override"	"Tan"
+							"ArmedBGColor_Override"		"Tan"
+							"DepressedBGColor_Override"	"Tan"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10010,11 +8589,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
+							"DefaultBGColor_Override"	"Grey"
+							"ArmedBGColor_Override"		"Grey"
+							"DepressedBGColor_Override"	"Grey"
 
 							"Pin_To_Sibling"			"White_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10044,9 +8623,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
+							"DefaultBGColor_Override"	"Black"
+							"ArmedBGColor_Override"		"Black"
+							"DepressedBGColor_Override"	"Black"
 
 							"Pin_To_Sibling"			"Tan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10074,11 +8653,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
+							"DefaultBGColor_Override"	"Maroon"
+							"ArmedBGColor_Override"		"Maroon"
+							"DepressedBGColor_Override"	"Maroon"
 
 							"Pin_To_Sibling"			"Grey_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10106,11 +8685,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
+							"DefaultBGColor_Override"	"Red"
+							"ArmedBGColor_Override"		"Red"
+							"DepressedBGColor_Override"	"Red"
 
 							"Pin_To_Sibling"			"Black_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10138,11 +8717,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
+							"DefaultBGColor_Override"	"Salmon"
+							"ArmedBGColor_Override"		"Salmon"
+							"DepressedBGColor_Override"	"Salmon"
 
 							"Pin_To_Sibling"			"Maroon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10170,11 +8749,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
+							"DefaultBGColor_Override"	"Orange"
+							"ArmedBGColor_Override"		"Orange"
+							"DepressedBGColor_Override"	"Orange"
 
 							"Pin_To_Sibling"			"Red_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10202,11 +8781,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
+							"DefaultBGColor_Override"	"Yellow"
+							"ArmedBGColor_Override"		"Yellow"
+							"DepressedBGColor_Override"	"Yellow"
 
 							"Pin_To_Sibling"			"Salmon_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10234,11 +8813,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
+							"DefaultBGColor_Override"	"Olive"
+							"ArmedBGColor_Override"		"Olive"
+							"DepressedBGColor_Override"	"Olive"
 
 							"Pin_To_Sibling"			"Orange_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10266,11 +8845,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
+							"DefaultBGColor_Override"	"Green"
+							"ArmedBGColor_Override"		"Green"
+							"DepressedBGColor_Override"	"Green"
 
 							"Pin_To_Sibling"			"Yellow_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10298,11 +8877,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
+							"DefaultBGColor_Override"	"Forest"
+							"ArmedBGColor_Override"		"Forest"
+							"DepressedBGColor_Override"	"Forest"
 
 							"Pin_To_Sibling"			"Olive_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10330,11 +8909,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
+							"DefaultBGColor_Override"	"Teal"
+							"ArmedBGColor_Override"		"Teal"
+							"DepressedBGColor_Override"	"Teal"
 
 							"Pin_To_Sibling"			"Green_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10362,11 +8941,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
+							"DefaultBGColor_Override"	"Cyan"
+							"ArmedBGColor_Override"		"Cyan"
+							"DepressedBGColor_Override"	"Cyan"
 
 							"Pin_To_Sibling"			"Forest_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10394,11 +8973,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
+							"DefaultBGColor_Override"	"Blue"
+							"ArmedBGColor_Override"		"Blue"
+							"DepressedBGColor_Override"	"Blue"
 
 							"Pin_To_Sibling"			"Teal_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10426,11 +9005,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
+							"DefaultBGColor_Override"	"Navy"
+							"ArmedBGColor_Override"		"Navy"
+							"DepressedBGColor_Override"	"Navy"
 
 							"Pin_To_Sibling"			"Cyan_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10458,11 +9037,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
+							"DefaultBGColor_Override"	"Purple"
+							"ArmedBGColor_Override"		"Purple"
+							"DepressedBGColor_Override"	"Purple"
 
 							"Pin_To_Sibling"			"Blue_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10490,11 +9069,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
+							"DefaultBGColor_Override"	"Violet"
+							"ArmedBGColor_Override"		"Violet"
+							"DepressedBGColor_Override"	"Violet"
 
 							"Pin_To_Sibling"			"Navy_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10522,11 +9101,11 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
+							"DefaultBGColor_Override"	"Pink"
+							"ArmedBGColor_Override"		"Pink"
+							"DepressedBGColor_Override"	"Pink"
 
 							"Pin_To_Sibling"			"Purple_Preset"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -10554,1939 +9133,13 @@
 							"PaintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
+							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
+							"DefaultBGColor_Override"	"Magenta"
+							"ArmedBGColor_Override"		"Magenta"
+							"DepressedBGColor_Override"	"Magenta"
 
 							"Pin_To_Sibling"			"Violet_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-				}
-//==================================================================================================================================
-// COLORING STYLE
-//==================================================================================================================================
-				"Element_Coloring_Style"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Element_Coloring_Style"
-					"XPos"								"0"
-					"YPos"								"300"
-					"ZPos"								"20"
-					"Wide"								"f7"
-					"Tall"								"85"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-
-					"Color_Title"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Color_Title"
-						"XPos"							"3"
-						"YPos"							"2"
-						"ZPos"							"0"
-						"Wide"							"f35"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Coloring Styles"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Separator_1"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator_1"
-						"XPos"							"1"
-						"YPos"							"17"
-						"ZPos"							"0"
-						"Wide"							"f40"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Gray"
-					}
-					"Color_Shadows"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Color_Shadows"
-						"XPos"							"2"
-						"YPos"							"22"
-						"ZPos"							"12"
-						"Wide"							"100"
-						"Tall"							"60"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"18 15 14 255"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-8"
-							"ZPos"						"1"
-							"Wide"						"80"
-							"Tall"						"80"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_shadow"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"cs-0.5"
-							"YPos"						"rs1"
-							"ZPos"						"2"
-							"Wide"						"f0"
-							"Tall"						"14"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Apply To Shadows"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"center"
-							"FGColor"					"Gray"
-							"PaintBackground"			"1"
-							"paintBackgroundType"		"0"
-							"BGColor_Override"			"Black"
-						}
-						"Element_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Element_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_animated_shadows"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Color_Numbers"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Color_Numbers"
-						"XPos"							"4"
-						"YPos"							"0"
-						"ZPos"							"12"
-						"Wide"							"100"
-						"Tall"							"60"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"18 15 14 255"
-
-						"Pin_To_Sibling"				"Color_Shadows"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-8"
-							"ZPos"						"1"
-							"Wide"						"80"
-							"Tall"						"80"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_number"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"cs-0.5"
-							"YPos"						"rs1"
-							"ZPos"						"2"
-							"Wide"						"f0"
-							"Tall"						"14"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Apply To Numbers"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"center"
-							"FGColor"					"Gray"
-							"PaintBackground"			"1"
-							"paintBackgroundType"		"0"
-							"BGColor_Override"			"Black"
-						}
-						"Element_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Element_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_animated_numbers"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-				}
-//=================================================================================================================================
-// MENUS
-//=================================================================================================================================
-				"Menu_Title_Icon"
-				{
-					"ControlName"						"CExLabel"
-					"FieldName"							"Menu_Title_Icon"
-					"XPos"								"0"
-					"YPos"								"396"
-					"ZPos"								"0"
-					"Wide"								"18"
-					"Tall"								"25"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-					"LabelText"							"&"
-					"Font"								"MediumIcons"
-					"TextAlignment"						"center"
-					"FGColor"							"Gray"
-				}
-				"Menu_Title"
-				{
-					"ControlName"						"CExLabel"
-					"FieldName"							"Menu_Title"
-					"XPos"								"20"
-					"YPos"								"395"
-					"ZPos"								"0"
-					"Wide"								"f35"
-					"Tall"								"25"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-					"LabelText"							"MENU COLORS"
-					"Font"								"HudFontMediumbold"
-					"TextAlignment"						"west"
-					"FGColor"							"Gray"
-				}
-				"Separator_3"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Separator_3"
-					"XPos"								"3"
-					"YPos"								"420"
-					"ZPos"								"0"
-					"Wide"								"f40"
-					"Tall"								"2"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-					"paintBackground"					"1"
-					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Gray"
-				}
-				"Menu_Style"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Menu_Style"
-					"XPos"								"0"
-					"YPos"								"423"
-					"ZPos"								"20"
-					"Wide"								"260"
-					"Tall"								"105"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-
-					"Style_Title"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Style_Title"
-						"XPos"							"3"
-						"YPos"							"2"
-						"ZPos"							"0"
-						"Wide"							"f35"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Main Menu Background Style"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Restart_Warning"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Restart_Warning"
-						"XPos"							"-165"
-						"YPos"							"0"
-						"ZPos"							"0"
-						"Wide"							"20"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"C"
-						"Font"							"Symbols14"
-						"TextAlignment"					"center"
-						"FGColor"						"Red"
-
-						"Pin_To_Sibling"				"Style_Title"
-						"Pin_Corner_To_Sibling"			"PIN_CENTER_LEFT"
-						"Pin_To_Sibling_Corner"			"PIN_CENTER_LEFT"
-					}
-					"Separator"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator"
-						"XPos"							"1"
-						"YPos"							"17"
-						"ZPos"							"0"
-						"Wide"							"f15"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Gray"
-					}
-					"Menu_Default"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Menu_Default"
-						"XPos"							"-2"
-						"YPos"							"5"
-						"ZPos"							"1"
-						"Wide"							"120"
-						"Tall"							"72"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"1"
-						"BGcolor_Override"				"Button_Hover"
-
-						"Pin_To_Sibling"				"Separator"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"Menu_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Menu_Image"
-							"XPos"						"cs-0.5"
-							"YPos"						"rs1-12"
-							"ZPos"						"0"
-							"Wide"						"120"
-							"Tall"						"60"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/menu/menu_bg_default"
-						}
-						"Menu_Label"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Menu_Label"
-							"XPos"						"0"
-							"YPos"						"rs1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"FontStorePrice"
-							"LabelText"					"Default Background"
-							"TextAlignment"				"center"
-							"FGColor"					"Gray"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
-						}
-						"Menu_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Menu_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_bg_clear"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Menu_Solid"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Menu_Solid"
-						"XPos"							"5"
-						"YPos"							"0"
-						"ZPos"							"1"
-						"Wide"							"120"
-						"Tall"							"72"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"1"
-						"BGcolor_Override"				"Button_Hover"
-
-						"Pin_To_Sibling"				"Menu_Default"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Menu_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Menu_Image"
-							"XPos"						"cs-0.5"
-							"YPos"						"rs1-12"
-							"ZPos"						"0"
-							"Wide"						"120"
-							"Tall"						"60"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/menu/menu_bg_solid"
-						}
-						"Menu_Label"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Menu_Label"
-							"XPos"						"0"
-							"YPos"						"rs1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"FontStorePrice"
-							"LabelText"					"Solid Background"
-							"TextAlignment"				"center"
-							"FGColor"					"Gray"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
-						}
-						"Menu_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Menu_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_bg_solid"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-				}
-// MENU THEMES ---------------------------------------------------------------------------------------------------------------
-				"Menu_Themes"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Menu_Themes"
-					"XPos"								"270"
-					"YPos"								"423"
-					"ZPos"								"20"
-					"Wide"								"180"
-					"Tall"								"105"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-
-					"Themes_Title"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Themes_Title"
-						"XPos"							"3"
-						"YPos"							"2"
-						"ZPos"							"0"
-						"Wide"							"f35"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Menus Theme"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Restart_Warning_1"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Restart_Warning_1"
-						"XPos"							"-73"
-						"YPos"							"0"
-						"ZPos"							"0"
-						"Wide"							"20"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"C"
-						"Font"							"Symbols14"
-						"TextAlignment"					"center"
-						"FGColor"						"Red"
-
-						"Pin_To_Sibling"				"Themes_Title"
-						"Pin_Corner_To_Sibling"			"PIN_CENTER_LEFT"
-						"Pin_To_Sibling_Corner"			"PIN_CENTER_LEFT"
-					}
-					"Separator"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator"
-						"XPos"							"1"
-						"YPos"							"17"
-						"ZPos"							"0"
-						"Wide"							"f15"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Gray"
-					}
-					"Theme_Gray"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Gray"
-						"XPos"							"-2"
-						"YPos"							"4"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Separator"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"66 63 61 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"46 43 42 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"28 26 25 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"18 15 14 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_gray"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Theme_Grey_Blue"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Grey_Blue"
-						"XPos"							"5"
-						"YPos"							"0"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Theme_Gray"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"50 52 57 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"30 32 37 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"20 22 27 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"10 12 17 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_blue_gray"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Theme_Blue"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Blue"
-						"XPos"							"0"
-						"YPos"							"5"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Theme_Gray"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"70 95 105 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"50 75 85 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"30 55 65 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"15 30 40 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_blue"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Theme_Green"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Green"
-						"XPos"							"5"
-						"YPos"							"0"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Theme_Blue"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"50 75 70 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"30 55 50 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"15 40 35 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"5 30 25 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_green"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Theme_Red"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Red"
-						"XPos"							"0"
-						"YPos"							"5"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Theme_Blue"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"90 50 50 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"65 30 30 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"50 20 20 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"35 10 10 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_red"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-					"Theme_Purple"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Theme_Purple"
-						"XPos"							"5"
-						"YPos"							"0"
-						"ZPos"							"1"
-						"Wide"							"72"
-						"Tall"							"21"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Theme_Red"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Theme_Color_1"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_1"
-							"XPos"						"0"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"70 55 80 255"
-						}
-						"Theme_Color_2"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_2"
-							"XPos"						"18"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"55 40 65 255"
-						}
-						"Theme_Color_3"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_3"
-							"XPos"						"36"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"40 25 50 255"
-						}
-						"Theme_Color_4"
-						{
-							"ControlName"				"Panel"
-							"FieldName"					"Theme_Color_4"
-							"XPos"						"54"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"18"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"PaintBackground"			"1"
-							"PaintBackgroundType"		"0"
-							"BGcolor_Override"			"25 10 35 255"
-						}
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Theme_Button"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"f0"
-							"Tall"						"f0"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_menu_theme_purple"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"0"
-							"PaintBorder"				"1"
-
-							"border_default"			"BorderSelectionBlack"
-							"border_armed"				"BorderSelectionGray"
-						}
-					}
-				}
-// ACCENT COLORS -----------------------------------------------------------------------------------------------------
-				"Menu_Accent_Colors"
-				{
-					"ControlName"						"EditablePanel"
-					"FieldName"							"Menu_Accent_Colors"
-					"XPos"								"0"
-					"YPos"								"525"
-					"ZPos"								"20"
-					"Wide"								"f0"
-					"Tall"								"60"
-					"Visible"							"1"
-					"Enabled"							"1"
-					"ProportionalToParent"				"1"
-
-					"Colors_Title"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Colors_Title"
-						"XPos"							"3"
-						"YPos"							"2"
-						"ZPos"							"0"
-						"Wide"							"f35"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"Menus Accent Color"
-						"Font"							"HudFontSmallBold"
-						"TextAlignment"					"west"
-						"FGColor"						"Gray"
-					}
-					"Restart_Warning"
-					{
-						"ControlName"					"CExLabel"
-						"FieldName"						"Restart_Warning"
-						"XPos"							"-117"
-						"YPos"							"0"
-						"ZPos"							"0"
-						"Wide"							"20"
-						"Tall"							"15"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
-						"LabelText"						"C"
-						"Font"							"Symbols14"
-						"TextAlignment"					"center"
-						"FGColor"						"Red"
-
-						"Pin_To_Sibling"				"Colors_Title"
-						"Pin_Corner_To_Sibling"			"PIN_CENTER_LEFT"
-						"Pin_To_Sibling_Corner"			"PIN_CENTER_LEFT"
-					}
-					"Separator"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Separator"
-						"XPos"							"1"
-						"YPos"							"17"
-						"ZPos"							"0"
-						"Wide"							"f15"
-						"Tall"							"1"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"paintBackground"				"1"
-						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Gray"
-					}
-					"Menu_Default"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Menu_Default"
-						"XPos"							"-2"
-						"YPos"							"5"
-						"ZPos"							"1"
-						"Wide"							"f0"
-						"Tall"							"72"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-						"PaintBackground"				"0"
-
-						"Pin_To_Sibling"				"Separator"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-
-						"White_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Accent"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_white"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reWhite"
-							"ArmedBGColor_Override"		"m0reWhite"
-							"DepressedBGColor_Override"	"m0reWhite"
-						}
-						"Black_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Black_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_black"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"m0reBlack"
-							"ArmedBGColor_Override"		"m0reBlack"
-							"DepressedBGColor_Override"	"m0reBlack"
-
-							"Pin_To_Sibling"			"White_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Grey_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_grey"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGrey"
-							"ArmedBGColor_Override"		"m0reGrey"
-							"DepressedBGColor_Override"	"m0reGrey"
-
-							"Pin_To_Sibling"			"Black_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_maroon"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMaroon"
-							"ArmedBGColor_Override"		"m0reMaroon"
-							"DepressedBGColor_Override"	"m0reMaroon"
-
-							"Pin_To_Sibling"			"Grey_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_red"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reRed"
-							"ArmedBGColor_Override"		"m0reRed"
-							"DepressedBGColor_Override"	"m0reRed"
-
-							"Pin_To_Sibling"			"Maroon_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_salmon"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reSalmon"
-							"ArmedBGColor_Override"		"m0reSalmon"
-							"DepressedBGColor_Override"	"m0reSalmon"
-
-							"Pin_To_Sibling"			"Red_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_orange"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOrange"
-							"ArmedBGColor_Override"		"m0reOrange"
-							"DepressedBGColor_Override"	"m0reOrange"
-
-							"Pin_To_Sibling"			"Salmon_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_yellow"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reYellow"
-							"ArmedBGColor_Override"		"m0reYellow"
-							"DepressedBGColor_Override"	"m0reYellow"
-
-							"Pin_To_Sibling"			"Orange_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_olive"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reOlive"
-							"ArmedBGColor_Override"		"m0reOlive"
-							"DepressedBGColor_Override"	"m0reOlive"
-
-							"Pin_To_Sibling"			"Yellow_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_green"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reGreen"
-							"ArmedBGColor_Override"		"m0reGreen"
-							"DepressedBGColor_Override"	"m0reGreen"
-
-							"Pin_To_Sibling"			"Olive_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_forest"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reForest"
-							"ArmedBGColor_Override"		"m0reForest"
-							"DepressedBGColor_Override"	"m0reForest"
-
-							"Pin_To_Sibling"			"Green_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_teal"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reTeal"
-							"ArmedBGColor_Override"		"m0reTeal"
-							"DepressedBGColor_Override"	"m0reTeal"
-
-							"Pin_To_Sibling"			"Forest_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_cyan"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reCyan"
-							"ArmedBGColor_Override"		"m0reCyan"
-							"DepressedBGColor_Override"	"m0reCyan"
-
-							"Pin_To_Sibling"			"Teal_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_blue"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reBlue"
-							"ArmedBGColor_Override"		"m0reBlue"
-							"DepressedBGColor_Override"	"m0reBlue"
-
-							"Pin_To_Sibling"			"Cyan_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_navy"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reNavy"
-							"ArmedBGColor_Override"		"m0reNavy"
-							"DepressedBGColor_Override"	"m0reNavy"
-
-							"Pin_To_Sibling"			"Blue_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_purple"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePurple"
-							"ArmedBGColor_Override"		"m0rePurple"
-							"DepressedBGColor_Override"	"m0rePurple"
-
-							"Pin_To_Sibling"			"Navy_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_violet"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reViolet"
-							"ArmedBGColor_Override"		"m0reViolet"
-							"DepressedBGColor_Override"	"m0reViolet"
-
-							"Pin_To_Sibling"			"Purple_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_pink"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0rePink"
-							"ArmedBGColor_Override"		"m0rePink"
-							"DepressedBGColor_Override"	"m0rePink"
-
-							"Pin_To_Sibling"			"Violet_Accent"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Accent"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Accent"
-							"XPos"						"2"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"21"
-							"Tall"						"21"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						"HudFontVerySmallBold"
-							"Command"					"engine hud_color_menu_magenta"
-							"LabelText"					""
-							"TextAlignment"				"center"
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionBlack"
-
-							"DefaultBGColor_Override"	"m0reMagenta"
-							"ArmedBGColor_Override"		"m0reMagenta"
-							"DepressedBGColor_Override"	"m0reMagenta"
-
-							"Pin_To_Sibling"			"Pink_Accent"
 							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
 						}
