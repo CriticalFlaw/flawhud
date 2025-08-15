@@ -49,7 +49,7 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"l"
+					"LabelText"							"["
 					"Font"								"MediumIcons"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
