@@ -159,7 +159,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -169,8 +169,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/health_numbers"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"RED"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"RedTeam"
 						}
 						"Element_Name"
 						{
@@ -852,7 +856,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -862,8 +866,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/health_buff"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"BLU"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"BlueTeam"
 						}
 						"Element_Name"
 						{
@@ -1545,7 +1553,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -1555,8 +1563,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/health_buff"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"TanLight"
 						}
 						"Element_Name"
 						{
@@ -2238,7 +2250,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -2248,8 +2260,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/health_buff"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"Overheal"
 						}
 						"Element_Name"
 						{
@@ -2931,7 +2947,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -2941,8 +2957,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/health_hurt"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"LowHealth"
 						}
 						"Element_Name"
 						{
@@ -3624,7 +3644,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -3634,8 +3654,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/ammo_low"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"LowAmmo"
 						}
 						"Element_Name"
 						{
@@ -4317,7 +4341,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -4327,8 +4351,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/uber_numbers"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"Overheal"
 						}
 						"Element_Name"
 						{
@@ -5010,7 +5038,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -5020,8 +5048,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/uber_full"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"Overheal"
 						}
 						"Element_Name"
 						{
@@ -5703,7 +5735,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -5713,8 +5745,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/ammo_clip"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"TargetHealth"
 						}
 						"Element_Name"
 						{
@@ -6396,7 +6432,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -6406,8 +6442,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/damage_last"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"100"
+							"Font"						"HudFontSmallBold"
+							"TextAlignment"				"center"
+							"FGColor"					"TargetDamage"
 						}
 						"Element_Name"
 						{
@@ -7089,7 +7129,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -7099,8 +7139,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"<"
+							"Font"						"Size:30"
+							"TextAlignment"				"center"
+							"FGColor"					"Crosshair"
 						}
 						"Element_Name"
 						{
@@ -7782,7 +7826,7 @@
 
 						"Example_Image"
 						{
-							"ControlName"				"ImagePanel"
+							"ControlName"				"CExLabel"
 							"FieldName"					"Example_Image"
 							"XPos"						"2"
 							"YPos"						"cs-0.5"
@@ -7792,8 +7836,12 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair_flash"
+							"Use_Proportional_Insets"	"1"
+							"AllCaps"					"1"
+							"LabelText"					"<"
+							"Font"						"Size:30"
+							"TextAlignment"				"center"
+							"FGColor"					"CrosshairDamage"
 						}
 						"Element_Name"
 						{
@@ -8431,699 +8479,6 @@
 							"Enabled"					"1"
 							"Font"						""
 							"Command"					"engine hud_color_xhair_flash_magenta"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
-
-							"Pin_To_Sibling"			"Violet_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-					}
-// HITMARKER ----------------------------------------------------------------------------------------------------------------------
-					"Hitmarker"
-					{
-						"ControlName"					"EditablePanel"
-						"FieldName"						"Hitmarker"
-						"XPos"							"3"
-						"YPos"							"0"
-						"ZPos"							"12"
-						"Wide"							"144"
-						"Tall"							"36"
-						"Visible"						"1"
-						"Enabled"						"1"
-						"ProportionalToParent"			"1"
-
-						"PaintBackground"				"1"
-						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
-
-						"Pin_To_Sibling"				"HUD_Crosshair_Pulse"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
-
-						"Example_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Example_Image"
-							"XPos"						"2"
-							"YPos"						"cs-0.5"
-							"ZPos"						"1"
-							"Wide"						"o1"
-							"Tall"						"f4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hitmarker"
-						}
-						"Element_Name"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Element_Name"
-							"XPos"						"36"
-							"YPos"						"rs1"
-							"ZPos"						"0"
-							"Wide"						"f38"
-							"Tall"						"13"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"ProportionalToParent"		"1"
-							"Use_Proportional_Insets"	"1"
-							"AllCaps"					"1"
-							"LabelText"					"Hitmarkers"
-							"Font"						"HudFontSmallest"
-							"TextAlignment"				"west"
-							"FGColor"					"Gray"
-						}
-						"White_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"White_Preset"
-							"XPos"						"36"
-							"YPos"						"2"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_white"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
-						}
-						"Tan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Tan_Preset"
-							"XPos"						"0"
-							"YPos"						"1"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_tan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-						}
-						"Grey_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Grey_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_grey"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
-
-							"Pin_To_Sibling"			"White_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Black_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Black_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_black"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
-
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
-
-							"Pin_To_Sibling"			"Tan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Maroon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Maroon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_maroon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
-
-							"Pin_To_Sibling"			"Grey_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Red_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Red_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_red"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
-
-							"Pin_To_Sibling"			"Black_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Salmon_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Salmon_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_salmon"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
-
-							"Pin_To_Sibling"			"Maroon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Orange_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Orange_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_orange"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
-
-							"Pin_To_Sibling"			"Red_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Yellow_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Yellow_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_yellow"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
-
-							"Pin_To_Sibling"			"Salmon_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Olive_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Olive_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_olive"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
-
-							"Pin_To_Sibling"			"Orange_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Green_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Green_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_green"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
-
-							"Pin_To_Sibling"			"Yellow_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Forest_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Forest_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_forest"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
-
-							"Pin_To_Sibling"			"Olive_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Teal_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Teal_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_teal"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
-
-							"Pin_To_Sibling"			"Green_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Cyan_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Cyan_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_cyan"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
-
-							"Pin_To_Sibling"			"Forest_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Blue_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Blue_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_blue"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
-
-							"Pin_To_Sibling"			"Teal_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Navy_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Navy_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_navy"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
-
-							"Pin_To_Sibling"			"Cyan_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Purple_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Purple_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_purple"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
-
-							"Pin_To_Sibling"			"Blue_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Violet_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Violet_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_violet"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
-
-							"Pin_To_Sibling"			"Navy_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Pink_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Pink_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_pink"
-							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
-							"ProportionalToParent"		"1"
-							"ActionSignalLevel"			"6"
-
-							"PaintBackground"			"1"
-							"PaintBorder"				"1"
-
-							"border_default"			"NoBorder"
-							"border_armed"				"DarkBorderThick"
-
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
-
-							"Pin_To_Sibling"			"Purple_Preset"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-						}
-						"Magenta_Preset"
-						{
-							"ControlName"				"CExButton"
-							"FieldName"					"Magenta_Preset"
-							"XPos"						"1"
-							"YPos"						"0"
-							"ZPos"						"5"
-							"Wide"						"10"
-							"Tall"						"10"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"Font"						""
-							"Command"					"engine hud_color_hitmarker_magenta"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
