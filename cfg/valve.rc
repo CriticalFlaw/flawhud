@@ -1,27 +1,38 @@
-// Load the base configuration
+// ====================================================================
+// Default valve.rc contents
+// ====================================================================
+
+// load the base configuration
 //exec default.cfg
 r_decal_cullsize 1
 
 // Setup custom controller
 exec joystick.cfg
 
-// Run a user script file if present
+// run a user script file if present
 exec autoexec.cfg
 
-// Stuff command line statements
+//
+// stuff command line statements
+//
 stuffcmds
 
-// Display the startup level
+// display the startup level
 startupmenu
+
 sv_unlockedchapters 99
 
-// Apply HUD settings
-cl_hud_minmode 0
-tf_hud_target_id_alpha 255
-vgui_cache_res_files 1
+// ====================================================================
+// HUD settings
+// ====================================================================
+
+// General settings
+cl_hud_minmode                  0           // Minmode ON enables Streamer Mode
+tf_hud_target_id_alpha          255         // Might fix lag for some users (doesn't change the HUD visually in any way)
+vgui_cache_res_files            1           // Having this disabled can cause FPS drops when using the Engineer PDA
 
 // Quickplay settings
-setinfo hud_qp_autostart 0		// If set to 1, will automatically start finding a server instead of needing to press a button. If set to 2, will open the advanced options panel. If set to 3, will open the server list.
-setinfo hud_qp_gamemode 0		// Sets the gamemode. Can be; any, alternative, arena or a string value for special events.
-setinfo hud_qp_noconnect 0		// If set to 1, skips automatically connecting.
-setinfo hud_qp_autoclose 0		// If set to 1, closes after finding a server.
+setinfo hud_qp_autostart        0		    // If set to 1, will automatically start finding a server instead of needing to press a button. If set to 2, will open the advanced options panel. If set to 3, will open the server list.
+setinfo hud_qp_gamemode         0		    // Sets the gamemode. Can be one of: any, alternative, arena or a string value for special events.
+setinfo hud_qp_noconnect        0		    // If set to 1, skips automatically connecting.
+setinfo hud_qp_autoclose        0		    // If set to 1, closes after finding a server.
