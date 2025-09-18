@@ -219,7 +219,7 @@
 							"mouseinputenabled"			"0"
 							"ScaleImage"				"1"
 							"proportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/size/size_normal"
+							"Image"						""
 						}
 						"Size_Button"
 						{
@@ -302,7 +302,7 @@
 							"mouseinputenabled"			"0"
 							"ScaleImage"				"1"
 							"proportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/size/size_small"
+							"Image"						""
 						}
 						"Size_Button"
 						{
@@ -466,7 +466,7 @@
 							"mouseinputenabled"			"0"
 							"ScaleImage"				"1"
 							"proportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/scoreboard/scoreboard_default"
+							"Image"						""
 						}
 						"Scoreboard_Label"
 						{
@@ -547,7 +547,7 @@
 							"mouseinputenabled"			"0"
 							"ScaleImage"				"1"
 							"proportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/scoreboard/scoreboard_Fullscreen"
+							"Image"						""
 						}
 						"Scoreboard_Label"
 						{
