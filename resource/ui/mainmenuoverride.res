@@ -1,6 +1,6 @@
 #base "../../resource/preload.res"
-#base "../../resource/tools.res"
 #base "../../resource/links.res"
+#base "customizations/#customization_menu/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

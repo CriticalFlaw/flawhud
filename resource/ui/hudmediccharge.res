@@ -284,4 +284,36 @@
 		"scaleImage"		"1"
 		"pin_to_sibling"	"ResistIconAnchor"
 	}
+
+	"UberCounterBG"
+	{
+		"ControlName"								"Panel"
+		"FieldName"									"UberCounterBG"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"0"
+		"Wide"										"110"
+		"Tall"										"0"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"BGColor_Override"							"HudBlack"
+
+		"pin_to_sibling"							"ChargeMeter"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+
+	"UberCounter"
+	{
+		"ControlName"								"Panel"
+		"FieldName"									"UberCounter"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"0"
+		"Tall"										"2"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Pin_To_Sibling"							"UberCounterBG"
+	}
 }

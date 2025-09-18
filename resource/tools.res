@@ -313,7 +313,7 @@
 				"visible"						"1"
 				"enabled"						"1"
 				"labelText"						""
-				"command"						"engine toggle cl_hud_minmode;toggle mat_aaquality"
+				"command"						"engine toggle cl_hud_minmode; toggle mat_aaquality"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
 				"font"							"FontBold12"

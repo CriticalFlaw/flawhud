@@ -8,6 +8,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"50"
+				"tall"			"45" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -20,6 +21,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"25"
+				"tall"			"23" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -32,6 +34,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"20"
+				"tall"			"18" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -44,6 +47,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"16"
+				"tall"			"14" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -56,6 +60,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"12"
+				"tall"			"10" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -68,24 +73,11 @@ Scheme
 			{
 				"name"			"Streamer Mode"
 				"tall"			"15"
+				"tall"			"13" [$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
 			}
-		}
-	}
-	
-	CustomFontFiles
-	{
-		"121"
-		{
-			"font"	"resource/fonts/icons.ttf"
-			"name"	"TF2Icons"
-		}
-		"122"
-		{
-			"font"	"resource/fonts/streamer-mode.ttf"
-			"name"	"Streamer Mode"
 		}
 	}
 }
