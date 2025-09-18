@@ -8,8 +8,8 @@
 			{
 				"controlName"							"CScrollableList"
 				"fieldName"								"HUD_Health_Ammo_Uber_Selection"
-				"xpos"									"cs-0.5+5"
-				"ypos"									"cs-0.5+5"
+				"xpos"									"cs-0.5"
+				"ypos"									"cs-0.5"
 				"zpos"									"0"
 				"wide"									"f0"
 				"tall"									"f0"
