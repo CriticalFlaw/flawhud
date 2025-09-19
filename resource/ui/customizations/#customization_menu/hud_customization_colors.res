@@ -18,7 +18,7 @@
 				"proportionalToParent"					"1"
 				"paintBackground"						"0"
 				"paintBackgroundType"					"0"
-				"BGColor_Override"						"Black"
+				"BGColor_Override"						"MenuBlack"
 
 				"Scrollbar"
 				{
@@ -184,7 +184,7 @@
 						"enabled"						"1"
 						"proportionalToParent"			"1"
 						"paintBackgroundType"			"2"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"Example_Text"
 						{
@@ -246,9 +246,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -274,9 +274,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -306,9 +306,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -338,9 +338,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -370,9 +370,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -402,9 +402,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -434,9 +434,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -466,9 +466,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -498,9 +498,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -530,9 +530,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -562,9 +562,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -594,9 +594,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -626,9 +626,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -658,9 +658,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -690,9 +690,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -722,9 +722,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -754,9 +754,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -786,9 +786,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -818,9 +818,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -850,9 +850,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -877,7 +877,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Team_Red"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -943,9 +943,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -971,9 +971,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1003,9 +1003,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1035,9 +1035,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1067,9 +1067,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1099,9 +1099,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1131,9 +1131,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1163,9 +1163,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1195,9 +1195,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1227,9 +1227,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1259,9 +1259,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1291,9 +1291,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1323,9 +1323,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1355,9 +1355,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1387,9 +1387,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1419,9 +1419,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1451,9 +1451,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1483,9 +1483,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1515,9 +1515,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1547,9 +1547,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1574,7 +1574,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Team_Red"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -1640,9 +1640,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -1668,9 +1668,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1700,9 +1700,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1732,9 +1732,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1764,9 +1764,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1796,9 +1796,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1828,9 +1828,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1860,9 +1860,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1892,9 +1892,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1924,9 +1924,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1956,9 +1956,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -1988,9 +1988,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2020,9 +2020,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2052,9 +2052,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2084,9 +2084,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2116,9 +2116,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2148,9 +2148,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2180,9 +2180,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2212,9 +2212,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2244,9 +2244,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2271,7 +2271,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Neutral_Color"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -2337,9 +2337,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -2365,9 +2365,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2397,9 +2397,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2429,9 +2429,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2461,9 +2461,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2493,9 +2493,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2525,9 +2525,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2557,9 +2557,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2589,9 +2589,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2621,9 +2621,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2653,9 +2653,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2685,9 +2685,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2717,9 +2717,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2749,9 +2749,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2781,9 +2781,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2813,9 +2813,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2845,9 +2845,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2877,9 +2877,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2909,9 +2909,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2941,9 +2941,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -2968,7 +2968,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Health_Buff"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -3034,9 +3034,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -3062,9 +3062,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3094,9 +3094,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3126,9 +3126,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3158,9 +3158,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3190,9 +3190,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3222,9 +3222,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3254,9 +3254,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3286,9 +3286,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3318,9 +3318,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3350,9 +3350,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3382,9 +3382,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3414,9 +3414,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3446,9 +3446,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3478,9 +3478,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3510,9 +3510,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3542,9 +3542,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3574,9 +3574,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3606,9 +3606,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3638,9 +3638,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3665,7 +3665,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Neutral_Color"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -3731,9 +3731,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -3759,9 +3759,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3791,9 +3791,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3823,9 +3823,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3855,9 +3855,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3887,9 +3887,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3919,9 +3919,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3951,9 +3951,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -3983,9 +3983,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4015,9 +4015,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4047,9 +4047,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4079,9 +4079,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4111,9 +4111,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4143,9 +4143,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4175,9 +4175,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4207,9 +4207,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4239,9 +4239,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4271,9 +4271,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4303,9 +4303,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4335,9 +4335,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4362,7 +4362,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Ammo_Low"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -4428,9 +4428,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -4456,9 +4456,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4488,9 +4488,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4520,9 +4520,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4552,9 +4552,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4584,9 +4584,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4616,9 +4616,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4648,9 +4648,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4680,9 +4680,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4712,9 +4712,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4744,9 +4744,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4776,9 +4776,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4808,9 +4808,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4840,9 +4840,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4872,9 +4872,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4904,9 +4904,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4936,9 +4936,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -4968,9 +4968,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5000,9 +5000,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5032,9 +5032,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5059,7 +5059,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Ubercharge"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -5125,9 +5125,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -5153,9 +5153,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5185,9 +5185,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5217,9 +5217,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5249,9 +5249,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5281,9 +5281,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5313,9 +5313,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5345,9 +5345,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5377,9 +5377,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5409,9 +5409,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5441,9 +5441,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5473,9 +5473,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5505,9 +5505,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5537,9 +5537,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5569,9 +5569,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5601,9 +5601,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5633,9 +5633,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5665,9 +5665,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5697,9 +5697,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5729,9 +5729,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5756,7 +5756,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Ammo_Low"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -5822,9 +5822,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -5850,9 +5850,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5882,9 +5882,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5914,9 +5914,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5946,9 +5946,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -5978,9 +5978,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6010,9 +6010,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6042,9 +6042,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6074,9 +6074,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6106,9 +6106,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6138,9 +6138,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6170,9 +6170,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6202,9 +6202,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6234,9 +6234,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6266,9 +6266,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6298,9 +6298,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6330,9 +6330,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6362,9 +6362,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6394,9 +6394,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6426,9 +6426,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6453,7 +6453,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Healing_Done"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -6519,9 +6519,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -6547,9 +6547,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6579,9 +6579,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6611,9 +6611,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6643,9 +6643,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6675,9 +6675,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6707,9 +6707,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6739,9 +6739,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6771,9 +6771,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6803,9 +6803,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6835,9 +6835,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6867,9 +6867,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6899,9 +6899,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6931,9 +6931,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6963,9 +6963,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -6995,9 +6995,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7027,9 +7027,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7059,9 +7059,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7091,9 +7091,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7123,9 +7123,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7150,7 +7150,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"Healing_Done"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -7216,9 +7216,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -7244,9 +7244,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7276,9 +7276,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7308,9 +7308,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7340,9 +7340,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7372,9 +7372,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7404,9 +7404,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7436,9 +7436,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7468,9 +7468,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7500,9 +7500,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7532,9 +7532,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7564,9 +7564,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7596,9 +7596,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7628,9 +7628,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7660,9 +7660,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7692,9 +7692,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7724,9 +7724,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7756,9 +7756,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7788,9 +7788,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7820,9 +7820,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7847,7 +7847,7 @@
 
 						"paintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Black"
+						"BGColor_Override"				"MenuBlack"
 
 						"pin_to_sibling"				"HUD_Crosshair"
 						"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -7913,9 +7913,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"White"
-							"ArmedBGColor_Override"		"White"
-							"DepressedBGColor_Override"	"White"
+							"DefaultBGColor_Override"	"MenuWhite"
+							"ArmedBGColor_Override"		"MenuWhite"
+							"DepressedBGColor_Override"	"MenuWhite"
 						}
 						"Tan_Preset"
 						{
@@ -7941,9 +7941,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Tan"
-							"ArmedBGColor_Override"		"Tan"
-							"DepressedBGColor_Override"	"Tan"
+							"DefaultBGColor_Override"	"MenuTan"
+							"ArmedBGColor_Override"		"MenuTan"
+							"DepressedBGColor_Override"	"MenuTan"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -7973,9 +7973,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Grey"
-							"ArmedBGColor_Override"		"Grey"
-							"DepressedBGColor_Override"	"Grey"
+							"DefaultBGColor_Override"	"MenuGrey"
+							"ArmedBGColor_Override"		"MenuGrey"
+							"DepressedBGColor_Override"	"MenuGrey"
 
 							"pin_to_sibling"			"White_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8005,9 +8005,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionWhite"
 
-							"DefaultBGColor_Override"	"Black"
-							"ArmedBGColor_Override"		"Black"
-							"DepressedBGColor_Override"	"Black"
+							"DefaultBGColor_Override"	"MenuBlack"
+							"ArmedBGColor_Override"		"MenuBlack"
+							"DepressedBGColor_Override"	"MenuBlack"
 
 							"pin_to_sibling"			"Tan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8037,9 +8037,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Maroon"
-							"ArmedBGColor_Override"		"Maroon"
-							"DepressedBGColor_Override"	"Maroon"
+							"DefaultBGColor_Override"	"MenuMaroon"
+							"ArmedBGColor_Override"		"MenuMaroon"
+							"DepressedBGColor_Override"	"MenuMaroon"
 
 							"pin_to_sibling"			"Grey_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8069,9 +8069,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Red"
-							"ArmedBGColor_Override"		"Red"
-							"DepressedBGColor_Override"	"Red"
+							"DefaultBGColor_Override"	"MenuRed"
+							"ArmedBGColor_Override"		"MenuRed"
+							"DepressedBGColor_Override"	"MenuRed"
 
 							"pin_to_sibling"			"Black_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8101,9 +8101,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Salmon"
-							"ArmedBGColor_Override"		"Salmon"
-							"DepressedBGColor_Override"	"Salmon"
+							"DefaultBGColor_Override"	"MenuSalmon"
+							"ArmedBGColor_Override"		"MenuSalmon"
+							"DepressedBGColor_Override"	"MenuSalmon"
 
 							"pin_to_sibling"			"Maroon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8133,9 +8133,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Orange"
-							"ArmedBGColor_Override"		"Orange"
-							"DepressedBGColor_Override"	"Orange"
+							"DefaultBGColor_Override"	"MenuOrange"
+							"ArmedBGColor_Override"		"MenuOrange"
+							"DepressedBGColor_Override"	"MenuOrange"
 
 							"pin_to_sibling"			"Red_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8165,9 +8165,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Yellow"
-							"ArmedBGColor_Override"		"Yellow"
-							"DepressedBGColor_Override"	"Yellow"
+							"DefaultBGColor_Override"	"MenuYellow"
+							"ArmedBGColor_Override"		"MenuYellow"
+							"DepressedBGColor_Override"	"MenuYellow"
 
 							"pin_to_sibling"			"Salmon_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8197,9 +8197,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Olive"
-							"ArmedBGColor_Override"		"Olive"
-							"DepressedBGColor_Override"	"Olive"
+							"DefaultBGColor_Override"	"MenuOlive"
+							"ArmedBGColor_Override"		"MenuOlive"
+							"DepressedBGColor_Override"	"MenuOlive"
 
 							"pin_to_sibling"			"Orange_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8229,9 +8229,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Green"
-							"ArmedBGColor_Override"		"Green"
-							"DepressedBGColor_Override"	"Green"
+							"DefaultBGColor_Override"	"MenuGreen"
+							"ArmedBGColor_Override"		"MenuGreen"
+							"DepressedBGColor_Override"	"MenuGreen"
 
 							"pin_to_sibling"			"Yellow_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8261,9 +8261,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Forest"
-							"ArmedBGColor_Override"		"Forest"
-							"DepressedBGColor_Override"	"Forest"
+							"DefaultBGColor_Override"	"MenuForest"
+							"ArmedBGColor_Override"		"MenuForest"
+							"DepressedBGColor_Override"	"MenuForest"
 
 							"pin_to_sibling"			"Olive_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8293,9 +8293,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Teal"
-							"ArmedBGColor_Override"		"Teal"
-							"DepressedBGColor_Override"	"Teal"
+							"DefaultBGColor_Override"	"MenuTeal"
+							"ArmedBGColor_Override"		"MenuTeal"
+							"DepressedBGColor_Override"	"MenuTeal"
 
 							"pin_to_sibling"			"Green_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8325,9 +8325,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Cyan"
-							"ArmedBGColor_Override"		"Cyan"
-							"DepressedBGColor_Override"	"Cyan"
+							"DefaultBGColor_Override"	"MenuCyan"
+							"ArmedBGColor_Override"		"MenuCyan"
+							"DepressedBGColor_Override"	"MenuCyan"
 
 							"pin_to_sibling"			"Forest_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8357,9 +8357,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Blue"
-							"ArmedBGColor_Override"		"Blue"
-							"DepressedBGColor_Override"	"Blue"
+							"DefaultBGColor_Override"	"MenuBlue"
+							"ArmedBGColor_Override"		"MenuBlue"
+							"DepressedBGColor_Override"	"MenuBlue"
 
 							"pin_to_sibling"			"Teal_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8389,9 +8389,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Navy"
-							"ArmedBGColor_Override"		"Navy"
-							"DepressedBGColor_Override"	"Navy"
+							"DefaultBGColor_Override"	"MenuNavy"
+							"ArmedBGColor_Override"		"MenuNavy"
+							"DepressedBGColor_Override"	"MenuNavy"
 
 							"pin_to_sibling"			"Cyan_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8421,9 +8421,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Purple"
-							"ArmedBGColor_Override"		"Purple"
-							"DepressedBGColor_Override"	"Purple"
+							"DefaultBGColor_Override"	"MenuPurple"
+							"ArmedBGColor_Override"		"MenuPurple"
+							"DepressedBGColor_Override"	"MenuPurple"
 
 							"pin_to_sibling"			"Blue_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8453,9 +8453,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Violet"
-							"ArmedBGColor_Override"		"Violet"
-							"DepressedBGColor_Override"	"Violet"
+							"DefaultBGColor_Override"	"MenuViolet"
+							"ArmedBGColor_Override"		"MenuViolet"
+							"DepressedBGColor_Override"	"MenuViolet"
 
 							"pin_to_sibling"			"Navy_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8485,9 +8485,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Pink"
-							"ArmedBGColor_Override"		"Pink"
-							"DepressedBGColor_Override"	"Pink"
+							"DefaultBGColor_Override"	"MenuPink"
+							"ArmedBGColor_Override"		"MenuPink"
+							"DepressedBGColor_Override"	"MenuPink"
 
 							"pin_to_sibling"			"Purple_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -8517,9 +8517,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"DarkBorderThick"
 
-							"DefaultBGColor_Override"	"Magenta"
-							"ArmedBGColor_Override"		"Magenta"
-							"DepressedBGColor_Override"	"Magenta"
+							"DefaultBGColor_Override"	"MenuMagenta"
+							"ArmedBGColor_Override"		"MenuMagenta"
+							"DepressedBGColor_Override"	"MenuMagenta"
 
 							"pin_to_sibling"			"Violet_Preset"
 							"pin_corner_to_sibling"		"PIN_TOPLEFT"
