@@ -166,10 +166,10 @@
 				"pin_corner_to_sibling"					"PIN_TOPLEFT"
 				"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 			}
-			"Health_Ammo_Uber_Button"
+			"Health_Ammo_Button"
 			{
 				"controlName"							"CExButton"
-				"fieldName"								"Health_Ammo_Uber_Button"
+				"fieldName"								"Health_Ammo_Button"
 				"xpos"									"0"
 				"ypos"									"2"
 				"zpos"									"20"
@@ -179,7 +179,7 @@
 				"enabled"								"1"
 				"proportionalToParent"					"1"
 				"AllCaps"								"1"
-				"labelText"								"Health - Ammo - Uber"
+				"labelText"								"Health - Ammo"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
 				"command"								"engine hud_custom_health_ammo; hud_reloadscheme; gameui_activate;"
@@ -210,7 +210,7 @@
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
-				"pin_to_sibling"						"Health_Ammo_Uber_Button"
+				"pin_to_sibling"						"Health_Ammo_Button"
 				"pin_corner_to_sibling"					"PIN_TOPLEFT"
 				"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 			}

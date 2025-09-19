@@ -19,9 +19,9 @@
 #base "hud_customization_fonts.res"
 
 //==============================================================
-// HEALTH - AMMO - UBER
+// HEALTH - AMMO
 //==============================================================
-#base "hud_customization_health_ammo_uber.res"
+#base "hud_customization_health_ammo.res"
 
 //==============================================================
 // DAMAGE

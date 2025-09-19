@@ -16,7 +16,7 @@
 		"zpos"				"-100"
 		"wide"				"50"
 		"tall"				"12"
-		"image"				"replay/thumbnails/numbers"
+		"image"				"replay/thumbnails/speedometer"
 		"scaleImage"		"1"
 	}
 

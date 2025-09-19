@@ -252,7 +252,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"Tall"			"24"
+				"tall"			"24"
 				"antialias"		"1"
 			}
 		}
@@ -261,7 +261,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"Tall"			"20"
+				"tall"			"20"
 				"antialias"		"1"
 			}
 		}
@@ -270,7 +270,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code Pro Bold"
-				"Tall"			"24"
+				"tall"			"24"
 				"antialias"		"1"
 			}
 		}
@@ -279,7 +279,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code Pro LC"
-				"Tall"			"20"
+				"tall"			"20"
 				"antialias"		"1"
 			}
 		}

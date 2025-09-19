@@ -13,7 +13,7 @@
 				"HUD_Quick_Settings_Selection"		{visible 0}
 				"HUD_Colors_Selection"				{visible 0}
 				"HUD_Font_Selection"				{visible 0}
-				"HUD_Health_Ammo_Uber_Selection"	{visible 0}
+				"HUD_Health_Ammo_Selection"			{visible 0}
 				"HUD_Damage_Selection"				{visible 0}
 				"HUD_Match_Status_Selection"		{visible 0}
 				"HUD_Crosshairs_Selection"			{visible 0}

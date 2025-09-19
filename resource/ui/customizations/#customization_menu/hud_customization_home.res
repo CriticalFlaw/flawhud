@@ -128,7 +128,7 @@
 				{
 					"controlName"						"CExLabel"
 					"fieldName"							"Reload_Text"
-					"xpos"								"3"
+					"xpos"								"5"
 					"ypos"								"0"
 					"zpos"								"0"
 					"wide"								"f40"
@@ -197,10 +197,10 @@
 				{
 					"controlName"						"CExLabel"
 					"fieldName"							"GitHub_Text"
-					"xpos"								"3"
+					"xpos"								"5"
 					"ypos"								"0"
 					"zpos"								"0"
-					"wide"								"f40"
+					"wide"								"f45"
 					"tall"								"30"
 					"visible"							"1"
 					"enabled"							"1"
@@ -266,7 +266,7 @@
 				{
 					"controlName"						"CExLabel"
 					"fieldName"							"Discord_Text"
-					"xpos"								"3"
+					"xpos"								"5"
 					"ypos"								"0"
 					"zpos"								"0"
 					"wide"								"f40"
