@@ -114,7 +114,7 @@
 				"labelText"								"Quick Settings"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_settings; hud_reloadscheme"
+				"command"								"engine hud_custom_settings; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 			}
@@ -134,7 +134,7 @@
 				"labelText"								"Fonts"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_fonts; hud_reloadscheme"
+				"command"								"engine hud_custom_fonts; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -158,7 +158,7 @@
 				"labelText"								"Colors"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_colors; hud_reloadscheme"
+				"command"								"engine hud_custom_colors; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -182,7 +182,7 @@
 				"labelText"								"Health - Ammo - Uber"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_health_ammo; hud_reloadscheme"
+				"command"								"engine hud_custom_health_ammo; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -206,7 +206,7 @@
 				"labelText"								"Damage"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_damage; hud_reloadscheme"
+				"command"								"engine hud_custom_damage; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -230,7 +230,7 @@
 				"labelText"								"Crosshairs"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_crosshairs; hud_reloadscheme"
+				"command"								"engine hud_custom_crosshairs; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -254,7 +254,7 @@
 				"labelText"								"Miscellaneous"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_miscellaneous; hud_reloadscheme"
+				"command"								"engine hud_custom_miscellaneous; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -278,7 +278,7 @@
 				"labelText"								"Dev"
 				"font"									"HudFontSmallestBold"
 				"textAlignment"							"center"
-				"command"								"engine hud_custom_dev; hud_reloadscheme"
+				"command"								"engine hud_custom_dev; hud_reloadscheme; gameui_activate;"
 				"actionsignallevel"						"3"
 				"sound_depressed"						"UI/buttonclick.wav"
 
@@ -325,7 +325,7 @@
 			"labelText"									"Reload to Apply Changes"
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"center"
-			"command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme; toggle mat_aaquality"
+			"command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme;"
 			"actionsignallevel"							"2"
 			"RoundedCorners"							"0"
 			"sound_depressed"							"UI/buttonclick.wav"
