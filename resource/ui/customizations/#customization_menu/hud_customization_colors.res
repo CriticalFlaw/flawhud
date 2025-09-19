@@ -11,7 +11,7 @@
 				"xpos"									"cs-0.5+5"
 				"ypos"									"cs-0.5+5"
 				"zpos"									"0"
-				"wide"									"f0"
+				"wide"									"f5"
 				"tall"									"f0"
 				"visible"								"0"
 				"enabled"								"1"
@@ -219,7 +219,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Team RED"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -916,7 +916,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Team BLU"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -1613,7 +1613,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Neutral Color"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -2310,7 +2310,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Health Buffed"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -3007,7 +3007,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Health Low"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -3704,7 +3704,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Ammo Low"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -4401,7 +4401,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Ubercharge"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -5098,7 +5098,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Ubercharge Pulse"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -5795,7 +5795,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Healing Done"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -6492,7 +6492,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"Last Damage Done"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -7170,7 +7170,7 @@
 							"proportionalToParent"		"1"
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"<"
-							"font"						"Size:25"
+							"font"						"Size_25"
 							"textAlignment"				"center"
 							"FGColor"					"Crosshair"
 						}
@@ -7189,7 +7189,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"HUD Crosshairs"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"
@@ -7867,7 +7867,7 @@
 							"proportionalToParent"		"1"
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"<"
-							"font"						"Size:25"
+							"font"						"Size_25"
 							"textAlignment"				"center"
 							"FGColor"					"CrosshairDamage"
 						}
@@ -7886,7 +7886,7 @@
 							"Use_Proportional_Insets"	"1"
 							"labelText"					"HUD Crosshairs Flash"
 							"font"						"HudFontSmallest"
-							"textAlignment"				"west"
+							"textAlignment"				"center"
 							"FGColor"					"Gray"
 						}
 						"White_Preset"

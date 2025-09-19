@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Size:10"
+		"Size_10"
 		{
 			"1"
 			{
@@ -12,7 +12,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:11"
+		"Size_11"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:12"
+		"Size_12"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:13"
+		"Size_13"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:14"
+		"Size_14"
 		{
 			"1"
 			{
@@ -52,7 +52,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:15"
+		"Size_15"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:16"
+		"Size_16"
 		{
 			"1"
 			{
@@ -72,7 +72,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:17"
+		"Size_17"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:18"
+		"Size_18"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:19"
+		"Size_19"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:20"
+		"Size_20"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:21"
+		"Size_21"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:22"
+		"Size_22"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:23"
+		"Size_23"
 		{
 			"1"
 			{
@@ -142,7 +142,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:24"
+		"Size_24"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:25"
+		"Size_25"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:26"
+		"Size_26"
 		{
 			"1"
 			{
@@ -172,7 +172,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:27"
+		"Size_27"
 		{
 			"1"
 			{
@@ -182,7 +182,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:28"
+		"Size_28"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:29"
+		"Size_29"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:30"
+		"Size_30"
 		{
 			"1"
 			{

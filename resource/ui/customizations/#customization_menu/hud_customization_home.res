@@ -11,7 +11,7 @@
 				"xpos"									"cs-0.5+5"
 				"ypos"									"cs-0.5+5"
 				"zpos"									"0"
-				"wide"									"f0"
+				"wide"									"f5"
 				"tall"									"f0"
 				"visible"								"1"
 				"enabled"								"1"
