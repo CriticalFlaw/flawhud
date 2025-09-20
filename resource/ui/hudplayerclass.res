@@ -1,5 +1,6 @@
 #base "../../../../cfg/flawhud/hud_disguise_anim.txt"
 #base "../../../../cfg/flawhud/hud_player_model.txt"
 #base "../../../../cfg/flawhud/hud_speedometer.txt"
+#base "../../../../cfg/flawhud/hud_transparent_viewmodels.txt"
 #base "customizations/crosshair/crosshair.res"
 #base "hudplayerclass_base.res"

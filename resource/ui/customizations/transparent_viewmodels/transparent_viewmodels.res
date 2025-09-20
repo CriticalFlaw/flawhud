@@ -7,7 +7,7 @@
 	//--------------------------------------------------------------
 	"TransparentViewmodel"
 	{
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"controlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"

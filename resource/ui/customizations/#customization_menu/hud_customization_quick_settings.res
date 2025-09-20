@@ -617,7 +617,6 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionalToParent"			"1"
-						"AllCaps"						"1"
 						"labelText"						"Streamer Mode"
 						"font"							"HudFontSmallBold"
 						"textAlignment"					"west"
