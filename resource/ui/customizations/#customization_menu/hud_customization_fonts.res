@@ -1,0 +1,322 @@
+"Resource/UI/Customizations/#Customization_Menu/hud_customization_fonts.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Panel"
+		{
+			"HUD_Font_Selection"
+			{
+				"controlName"							"CScrollableList"
+				"fieldName"								"HUD_Font_Selection"
+				"xpos"									"cs-0.5+5"
+				"ypos"									"cs-0.5+5"
+				"zpos"									"0"
+				"wide"									"f5"
+				"tall"									"f0"
+				"visible"								"0"
+				"enabled"								"1"
+				"proportionalToParent"					"1"
+				"paintBackground"						"0"
+				"paintBackgroundType"					"0"
+				"BGColor_Override"						"Black"
+
+				"Scrollbar"
+				{
+					"xpos"								"rs1+1"
+					"ypos"								"0"
+					"wide"								"6"
+					"tall"								"f0"
+					"zpos"								"1000"
+					"proportionalToParent"				"1"
+
+					"Slider"
+					{
+						"PaintBackgroundType"			"0"
+						"FGColor_Override"				"Gray"
+					}
+
+					"nobuttons"							"1"
+				}
+				
+				"Title_Icon"
+				{
+					"controlName"						"CExLabel"
+					"fieldName"							"Title_Icon"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"20"
+					"tall"								"25"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"labelText"							"F"
+					"font"								"MediumIcons"
+					"textAlignment"						"center"
+					"FGColor"							"Gray"
+				}
+				"Title"
+				{
+					"controlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"5"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f25"
+					"tall"								"25"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"labelText"							"HUD FONTS"
+					"font"								"HudFontMediumBold"
+					"textAlignment"						"west"
+					"FGColor"							"Gray"
+
+					"pin_to_sibling"					"Title_Icon"
+					"pin_corner_to_sibling"				"PIN_TOPLEFT"
+					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
+				}
+				"Reload_Icon"
+				{
+					"controlName"						"CExLabel"
+					"fieldName"							"Reload_Icon"
+					"xpos"								"-140"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"25"
+					"tall"								"25"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"labelText"							"."
+					"font"								"MediumIcons"
+					"textAlignment"						"center"
+					"FGColor"							"LightRed"
+
+					"pin_to_sibling"					"Title"
+					"pin_corner_to_sibling"				"PIN_CENTER_LEFT"
+					"pin_to_sibling_corner"				"PIN_CENTER_LEFT"
+				}
+				"Separator"
+				{
+					"controlName"						"EditablePanel"
+					"fieldName"							"Separator"
+					"xpos"								"0"
+					"ypos"								"3"
+					"zpos"								"0"
+					"wide"								"f40"
+					"tall"								"2"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"paintBackground"					"1"
+					"PaintBackgroundType"				"3"
+					"BGColor_Override"					"Gray"
+
+					"pin_to_sibling"					"Title_Icon"
+					"pin_corner_to_sibling"				"PIN_TOPLEFT"
+					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
+				}
+				"Font_Picker"
+				{
+					"controlName"						"EditablePanel"
+					"fieldName"							"Font_Picker"
+					"xpos"								"2"
+					"ypos"								"8"
+					"zpos"								"20"
+					"wide"								"f10"
+					"tall"								"1780"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+
+					"pin_to_sibling"					"Separator"
+					"pin_corner_to_sibling"				"PIN_TOPLEFT"
+					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
+
+					//========================================================================================
+					// TF2 FONT
+					//========================================================================================
+					"TF2"
+					{
+						"controlName"					"EditablePanel"
+						"fieldName"						"TF2"
+						"xpos"							"4"
+						"ypos"							"0"
+						"zpos"							"0"
+						"wide"							"f5"
+						"tall"							"50"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionalToParent"			"1"
+
+						"Font_Button"
+						{
+							"controlName"				"CExButton"
+							"fieldName"					"Font_Button"
+							"xpos"						"cs-0.5"
+							"ypos"						"cs-0.5"
+							"zpos"						"0"
+							"wide"						"f0"
+							"tall"						"f0"
+							"visible"					"1"
+							"enabled"					"1"
+							"font"						""
+							"command"					"engine hud_font_tf2"
+							"labelText"					""
+							"textAlignment"				"center"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"proportionalToParent"		"1"
+							"actionsignallevel"			"6"
+
+							"paintBackground"			"1"
+
+							"DefaultBGColor_Override"	"16 16 16 255"
+							"ArmedBGColor_Override"		"16 16 16 135"
+							"DepressedBGColor_Override"	"16 16 16 135"
+						}
+						"Font_Name"
+						{
+							"controlName"				"CExLabel"
+							"fieldName"					"Font_Name"
+							"xpos"						"5"
+							"ypos"						"5"
+							"zpos"						"1"
+							"wide"						"f25"
+							"tall"						"20"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionalToParent"		"1"
+							"mouseinputenabled"			"0"
+							"labelText"					"TF2"
+							"font"						"Showcase_TF2_Build"
+							"textAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+						"Font_Showcase"
+						{
+							"controlName"				"CExLabel"
+							"fieldName"					"Font_Showcase"
+							"xpos"						"5"
+							"ypos"						"25"
+							"zpos"						"1"
+							"wide"						"f25"
+							"tall"						"24"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionalToParent"		"1"
+							"mouseinputenabled"			"0"
+							"labelText"					"1234567890 - The quick brown fox jumps over the lazy dog"
+							"font"						"Showcase_TF2_Secondary"
+							"textAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+					}		
+					"Separator_1"
+					{
+						"controlName"				"EditablePanel"
+						"fieldName"					"Separator_1"
+						"xpos"						"0"
+						"ypos"						"0"
+						"zpos"						"0"
+						"wide"						"f0"
+						"tall"						"1"
+						"visible"					"1"
+						"enabled"					"1"
+						"proportionalToParent"		"1"
+						"mouseinputenabled"			"0"
+						"paintBackground"			"1"
+						"PaintBackgroundType"		"3"
+						"BGColor_Override"			"Gray"
+
+						"pin_to_sibling"				"TF2"
+						"pin_corner_to_sibling"			"PIN_TOPLEFT"
+						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+					}
+					//========================================================================================
+					// CODE PRO FONT
+					//========================================================================================
+					"Code_Pro"
+					{
+						"controlName"					"EditablePanel"
+						"fieldName"						"Code_Pro"
+						"xpos"							"0"
+						"ypos"							"0"
+						"zpos"							"0"
+						"wide"							"f5"
+						"tall"							"50"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionalToParent"			"1"
+
+						"pin_to_sibling"				"Separator_1"
+						"pin_corner_to_sibling"			"PIN_TOPLEFT"
+						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+
+						"Font_Button"
+						{
+							"controlName"				"CExButton"
+							"fieldName"					"Font_Button"
+							"xpos"						"cs-0.5"
+							"ypos"						"cs-0.5"
+							"zpos"						"0"
+							"wide"						"f0"
+							"tall"						"f0"
+							"visible"					"1"
+							"enabled"					"1"
+							"font"						""
+							"command"					"engine hud_font_code_pro"
+							"labelText"					""
+							"textAlignment"				"center"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"proportionalToParent"		"1"
+							"actionsignallevel"			"6"
+
+							"paintBackground"			"1"
+
+							"DefaultBGColor_Override"	"16 16 16 255"
+							"ArmedBGColor_Override"		"16 16 16 135"
+							"DepressedBGColor_Override"	"16 16 16 135"
+						}
+						"Font_Name"
+						{
+							"controlName"				"CExLabel"
+							"fieldName"					"Font_Name"
+							"xpos"						"5"
+							"ypos"						"5"
+							"zpos"						"1"
+							"wide"						"f25"
+							"tall"						"20"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionalToParent"		"1"
+							"mouseinputenabled"			"0"
+							"labelText"					"CODE PRO"
+							"font"						"Showcase_Code_Pro_Bold"
+							"textAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+						"Font_Showcase"
+						{
+							"controlName"				"CExLabel"
+							"fieldName"					"Font_Showcase"
+							"xpos"						"5"
+							"ypos"						"25"
+							"zpos"						"1"
+							"wide"						"f25"
+							"tall"						"24"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionalToParent"		"1"
+							"mouseinputenabled"			"0"
+							"labelText"					"1234567890 - The quick brown fox jumps over the lazy dog"
+							"font"						"Showcase_Code_Pro_LC"
+							"textAlignment"				"west"
+							"FGColor"					"Gray"
+						}
+					}
+				}
+			}
+		}
+	}
+}

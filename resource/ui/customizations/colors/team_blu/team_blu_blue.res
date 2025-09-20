@@ -1,0 +1,7 @@
+"Scheme"
+{
+	"Colors"
+	{
+		"BlueTeam"										"0 170 255 255"
+	}
+}

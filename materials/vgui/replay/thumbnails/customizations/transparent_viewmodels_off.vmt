@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/transparent_viewmodels_off"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$no_fullbright"		"1"
+}

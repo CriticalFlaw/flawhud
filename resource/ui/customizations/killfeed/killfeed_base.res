@@ -1,0 +1,27 @@
+"Resource/HudLayout.res"
+{
+	"HudDeathNotice"
+	{
+		"fieldName" 			"HudDeathNotice"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"	 				"r635"
+		"ypos"	 				"25"
+		"wide"	 				"628"
+		"tall"	 				"468"
+		"MaxDeathNotices"		"5"
+		"IconScale"				"0.35"
+		"LineHeight"			"15"
+		"LineSpacing"			"0"
+		"CornerRadius"			"3"
+		"RightJustify"			"1"
+		"TextFont"				"FontRegular10"
+		"TextFont_minmode"		""
+		"TeamBlue"				"HUDBlueTeamSolid"
+		"TeamRed"				"HUDRedTeamSolid"
+		"IconColor"				"White"
+		"LocalPlayerColor"		"Black"
+		"BaseBackgroundColor"	"32 32 32 255"
+		"LocalBackgroundColor"	"245 229 196 200"
+	}
+}

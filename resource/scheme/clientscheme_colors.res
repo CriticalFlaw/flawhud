@@ -43,15 +43,38 @@ Scheme
 		//---------------------------------------------
 		// CLASS GRADIENT
 		//---------------------------------------------
-		"LOGScout"					"75 112 130 255"
-		"LOGSoldier"				"80 105 120 255"
-		"LOGPyro"					"95 100 110 255"
-		"LOGDemoman"				"100 95 100 255"
-		"LOGHeavy"					"110 90 90 255"
-		"LOGEngineer"				"120 80 80 255"
-		"LOGMedic"					"130 75 75 255"
-		"LOGSniper"					"140 70 70 255"
-		"LOGSpy"					"158 65 65 255"
+		"MenuScout"					"75 112 130 255"
+		"MenuSoldier"				"80 105 120 255"
+		"MenuPyro"					"95 100 110 255"
+		"MenuDemoman"				"100 95 100 255"
+		"MenuHeavy"					"110 90 90 255"
+		"MenuEngineer"				"120 80 80 255"
+		"MenuMedic"					"130 75 75 255"
+		"MenuSniper"				"140 70 70 255"
+		"MenuSpy"					"158 65 65 255"
+		//---------------------------------------------
+		// CUSTOMIZATIONS
+		//---------------------------------------------
+		"MenuWhite"					"255 255 255 255"
+		"MenuTan"					"235 226 202 255"
+		"MenuGrey"					"150 152 154 255"
+		"MenuBlack"					"0 0 0 255"
+		"MenuMaroon"				"150 50 50 255"
+		"MenuRed"					"255 0 0 255"
+		"MenuSalmon"				"250 125 115 255"
+		"MenuOrange"				"255 155 75 255"
+		"MenuYellow"				"255 190 0 255"
+		"MenuOlive"					"180 200 100 255"
+		"MenuGreen"					"0 215 0 255"
+		"MenuForest"				"0 135 55 255"
+		"MenuTeal"					"100 180 170 255"
+		"MenuCyan"					"0 195 200 255"
+		"MenuBlue"					"0 170 255 255"
+		"MenuNavy"					"90 120 200 255"
+		"MenuPurple"				"150 50 235 255"
+		"MenuViolet"				"190 150 210 255"
+		"MenuPink"					"250 185 240 255"
+		"MenuMagenta"				"255 0 127 255"
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------

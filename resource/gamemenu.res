@@ -103,7 +103,7 @@
 	"ShowToolsButton"
 	{
 		"label"			"w"
-		"command"		"engine toggle cl_mainmenu_safemode"
+		"command"		"engine toggle cl_mainmenu_safemode 1; gameui_preventescape; mat_queue_mode 0"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"ReloadHUDButton"
