@@ -9,11 +9,11 @@
 
 	"StreakIcon"
 	{
-		"labelText"			"\"
+		"labelText"			"Q"
 	}
 
 	"StreakIconShadow"
 	{
-		"labelText"			"\"
+		"labelText"			"Q"
 	}
 }
