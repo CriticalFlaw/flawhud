@@ -390,7 +390,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"xpos"			"9999"
 	}
 	"PointsThisRoundLabel"

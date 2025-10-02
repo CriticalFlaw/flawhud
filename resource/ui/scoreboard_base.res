@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
+		"fieldName"			"scores"
 		"xpos"				"cs-0.5"
 		"ypos"				"31"
 		"wide"				"f0"
@@ -273,7 +273,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"BlueTeamSolid"
+		"fgcolor"			"TeamBlue"
 
 		if_mvm
 		{
@@ -560,7 +560,7 @@
 	"MapName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"mapname"
+		"fieldName"			"MapName"
 		"font"				"FontRegular11"
 		"labelText"			"%mapname%"
 		"textAlignment"		"north-east"
@@ -893,7 +893,7 @@
 		"GameType"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"gametype"
+			"fieldName"			"GameType"
 			"visible"			"0"
 			"enabled"			"0"
 		}

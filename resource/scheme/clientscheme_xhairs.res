@@ -213,13 +213,4 @@ Scheme
 			}
 		}
 	}
-
-	CustomFontFiles
-	{
-		"200"
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "TF2Crosshairs"
-		}
-	}
 }

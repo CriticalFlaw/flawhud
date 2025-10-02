@@ -55,7 +55,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

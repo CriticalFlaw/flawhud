@@ -316,7 +316,7 @@
 		"ActivateSquadSurplusLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"			"SquadSurplusCheckLabel"
+			"fieldName"			"ActivateSquadSurplusLabel"
 			"font"				"FontRegular12"
 			"labelText"			"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"		"west"

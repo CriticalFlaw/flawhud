@@ -427,7 +427,7 @@
 		"FilterOptionsGroupBox"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"			"SelectFilterGroupBox"
+			"fieldName"			"FilterOptionsGroupBox"
 			"Font"				"HudFontSmallestBold"
 			"xpos"				"0"
 			"ypos"				"25"

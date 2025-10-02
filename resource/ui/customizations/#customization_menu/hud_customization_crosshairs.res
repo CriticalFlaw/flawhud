@@ -401,7 +401,7 @@
 						"Flash_Icon"
 						{
 							"controlName"				"CExLabel"
-							"fieldName"					"Xhair_Icon"
+							"fieldName"					"Flash_Icon"
 							"xpos"						"cs-0.5"
 							"ypos"						"0"
 							"zpos"						"1"

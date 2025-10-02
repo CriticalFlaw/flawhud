@@ -360,10 +360,9 @@
 				"zpos"					"1"
 				"wide"					"f0"
 				"tall"					"f0"
-				"visible"				"0"
+				"visible"				"1"
 				"bgcolor_override"		"208 145 58 255"
 				"proportionalToParent"	"1"
-				"visible"				"1"
 			}
 			
 			"LevelProgressBarFGStatic"
@@ -482,7 +481,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"VeteranBonusLabel"
 		"font"					"HudFontSmallestBold"
-		"labelText"				"#TF_MVM_Victory_VeteranBonus"
+		"labelText"				"#TF_MVM_Victory_SquadSurplus"
 		"textAlignment" 		"south-west"
 		"xpos"					"0"
 		"ypos"					"0"

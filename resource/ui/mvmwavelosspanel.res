@@ -29,7 +29,7 @@
 	"WaveFailHeader"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"HeaderLabel"
+		"fieldName"			"WaveFailHeader"
 		"font"				"FontBold20"
 		"labelText"			"%waveheader%"
 		"textAlignment"		"center"
@@ -308,7 +308,7 @@
 		"InactiveCountYou"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"ActiveCountYou"
+			"fieldName"		"InactiveCountYou"
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesyou%"
 			"textAlignment" "east"
@@ -321,7 +321,7 @@
 		"InactiveCountTeam"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"ActiveCountTeam"
+			"fieldName"		"InactiveCountTeam"
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesteam%"
 			"textAlignment" "east"

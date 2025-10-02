@@ -1,4 +1,4 @@
-#base "../../resource/support.res"
+#base "../support.res"
 
 "Resource/UI/statsummary_embedded.res"
 {

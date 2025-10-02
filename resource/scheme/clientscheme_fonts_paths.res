@@ -152,6 +152,11 @@ Scheme
 		}
 		"19"
 		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "TF2Crosshairs"
+		}
+		"20"
+		{
 			"font"	"resource/fonts/streamer-mode.ttf"
 			"name"	"Streamer Mode"
 		}

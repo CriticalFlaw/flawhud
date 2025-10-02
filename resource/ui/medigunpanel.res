@@ -140,7 +140,7 @@
 
 	"MedigunPanelChargeLabel"
     {
-        "ControlName"	"VariableLabel"
+        "ControlName"	"Label"
         "fieldName"		"MedigunPanelChargeLabel"
         "xpos"			"105"
         "ypos"			"0"
@@ -167,7 +167,7 @@
     }
 	"MedigunPanelChargeLabelShadow"
 	{
-		"ControlName"	"VariableLabel"
+		"ControlName"	"Label"
 		"fieldName"		"MedigunPanelChargeLabelShadow"
 		"xpos"			"-2"
         "ypos"			"-2"
@@ -196,7 +196,7 @@
 
 	"MedigunPanelChargeMeter"
     {
-        "ControlName"		"ImageProgressBar"
+        "ControlName"		"ContinuousProgressBar"
         "fieldName"			"MedigunPanelChargeMeter"
         "font"				"Default"
         "xpos"				"16"
@@ -208,7 +208,7 @@
         "pinCorner"			"0"
         "visible"			"1"
         "enabled"			"1"
-        "textAlignment"		"Left"
+        "textAlignment"		"west"
         "dulltext"			"0"
         "brighttext"		"0"
 		"bgcolor_override"	"HUDBlueTeamDark"
@@ -230,7 +230,7 @@
 
 	"MedigunPanelNameLabel"
 	{
-		"ControlName"	"VariableLabel"
+		"ControlName"	"Label"
 		"fieldName"		"MedigunPanelNameLabel"
 		"xpos"			"18"
 		"ypos"			"0"
@@ -269,7 +269,7 @@
 
 	"MedigunPanelNameLabelShadow"
 	{
-		"ControlName"	"VariableLabel"
+		"ControlName"	"Label"
 		"fieldName"		"MedigunPanelNameLabelShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"

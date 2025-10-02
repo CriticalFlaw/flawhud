@@ -299,7 +299,7 @@
 	"topbar"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
+		"fieldName"		"topbar"
 		"visible"		"0"
 		"tall"			"0"
 	}

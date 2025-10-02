@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui/replay/thumbnails/customizations/health_cross"
-	"$vertexalpha"			"1"
-	"$alpha"				"1"
-	"$translucent"			"1"
-	"$vertexcolor"			"1"
+	"$baseTexture"		"vgui/replay/thumbnails/customizations/health_cross"
+	"$vertexalpha"		"1"
+	"$alpha"			"1"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
 }

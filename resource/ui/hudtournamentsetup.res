@@ -20,7 +20,7 @@
 	"TournamentSetupLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"xpos"			"9999"
 	}
 
@@ -87,7 +87,7 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"FontBold10"
-		"fgcolor"		"ColorRed"
+		"fgcolor"		"NeonRed"
 
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" 	"TanLight"

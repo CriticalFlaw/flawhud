@@ -22,7 +22,7 @@
 	"TeamNameBluBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamNameBG"
+		"fieldName"				"TeamNameBluBG"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
@@ -36,7 +36,7 @@
 	"TeamNameRedBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamNameBG"
+		"fieldName"				"TeamNameRedBG"
 		"xpos"					"c40"
 		"ypos"					"0"
 		"zpos"					"0"
@@ -49,7 +49,7 @@
 
 	"TeamNameBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBlu"
 		"xpos"					"0"
 		"ypos"					"-3"
@@ -71,7 +71,7 @@
 
 	"TeamNameBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBluShadow"
 		"xpos"					"-2"
 		"ypos"					"-2"
@@ -108,7 +108,7 @@
 
 	"TeamScoreBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBlu"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -127,7 +127,7 @@
 
 	"TeamScoreBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBluShadow"
 		"xpos"					"-2"
 		"ypos"					"-2"
@@ -157,7 +157,7 @@
 
 	"TeamScoreRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRed"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -176,7 +176,7 @@
 
 	"TeamScoreRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRedShadow"
 		"xpos"					"-2"
 		"ypos"					"-2"
@@ -196,7 +196,7 @@
 
 	"TeamNameRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRed"
 		"xpos"					"0"
 		"ypos"					"-3"
@@ -218,7 +218,7 @@
 
 	"TeamNameRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRedShadow"
 		"xpos"					"-2"
 		"ypos"					"-2"

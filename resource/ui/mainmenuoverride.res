@@ -1,5 +1,5 @@
-#base "../../resource/preload.res"
-#base "../../resource/links.res"
+#base "../preload.res"
+#base "../links.res"
 #base "customizations/#customization_menu/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -219,7 +219,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu_logo"
+		"image"			"replay/thumbnails/main_menu/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -366,7 +366,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\nogc"
+		"image"			"replay/thumbnails/main_menu/nogc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 

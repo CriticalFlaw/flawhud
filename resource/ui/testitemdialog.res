@@ -589,7 +589,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		"labelText"		"#GameUI_Ok"
+		"labelText"		"#TF_OK"
 		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"

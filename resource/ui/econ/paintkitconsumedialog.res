@@ -92,7 +92,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"			"WorkingLogo"
+			"fieldName"			"CTFLogoPanel"
 			"controlname"		"CTFLogoPanel"
 			"xpos"				"cs-0.5"
 			"ypos"				"cs-0.5-15"
@@ -139,7 +139,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"			"SuccessLogo"
+			"fieldName"			"CTFLogoPanel"
 			"controlname"		"CTFLogoPanel"
 			"xpos"				"cs-0.5"
 			"ypos"				"cs-0.5-15"
@@ -186,7 +186,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"			"FailureLogo"
+			"fieldName"			"CTFLogoPanel"
 			"controlname"		"CTFLogoPanel"
 			"xpos"				"cs-0.5"
 			"ypos"				"cs-0.5-15"
@@ -243,7 +243,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#GameUI_CancelBold"
+		"labelText"			"#Cancel"
 		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"

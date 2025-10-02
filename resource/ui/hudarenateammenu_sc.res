@@ -1,1 +1,1 @@
-#base "ArenaTeamMenu.res"
+#base "hudarenateammenu.res"

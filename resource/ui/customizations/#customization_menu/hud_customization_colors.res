@@ -335,7 +335,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -1032,7 +1032,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -1729,7 +1729,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -2426,7 +2426,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -3123,7 +3123,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -3820,7 +3820,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -4517,7 +4517,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -5214,7 +5214,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -5911,7 +5911,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -6608,7 +6608,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -7305,7 +7305,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"
@@ -8002,7 +8002,7 @@
 							"paintBorder"				"1"
 
 							"border_default"			"NoBorder"
-							"border_armed"				"BorderSelectionWhite"
+							"border_armed"				"DarkBorderThick"
 
 							"DefaultBGColor_Override"	"MenuBlack"
 							"ArmedBGColor_Override"		"MenuBlack"

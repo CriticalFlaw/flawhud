@@ -86,7 +86,7 @@
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/discord"
+			"image"					"replay/thumbnails/main_menu/discord"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}
@@ -158,7 +158,7 @@
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/comfig"
+			"image"					"replay/thumbnails/main_menu/comfig"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}
@@ -212,7 +212,7 @@
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/uncletopia"
+			"image"					"replay/thumbnails/main_menu/uncletopia"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}
@@ -258,7 +258,7 @@
 		"PotatoLogo"
 		{
 			"ControlName"			"ImagePanel"
-			"fieldName"				"CreatorsLogo"
+			"fieldName"				"PotatoLogo"
 			"xpos"					"cs-0.53"
 			"ypos"					"cs-0.5"
 			"wide"					"16"
@@ -266,7 +266,7 @@
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/potato"
+			"image"					"replay/thumbnails/main_menu/potato"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}

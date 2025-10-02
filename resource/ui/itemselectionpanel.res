@@ -175,7 +175,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"HudFontMedium"
-		"labelText"		"#PrimaryWeapon"
+		"labelText"		"#LoadoutSlot_Primary"
 		"textAlignment"	"west"
 		"xpos"			"c-55"
 		"ypos"			"15"

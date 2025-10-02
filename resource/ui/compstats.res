@@ -360,7 +360,6 @@
 				"ypos"			"7"
 				"wide"			"p0.95"
 				"tall"			"p0.98"
-				"tall"			"f20"
 				"visible"		"0"
 				"enabled"		"1"
 				"mouseinputenabled" "1"

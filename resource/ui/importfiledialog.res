@@ -480,7 +480,7 @@
 		"ClassesTitle"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"ClassModelsTitle"
+			"fieldName"		"ClassesTitle"
 			"xpos"			"4"
 			"ypos"			"-3"
 			"wide"			"100"
@@ -513,7 +513,7 @@
 		"ClassButton1"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass1"
+			"fieldName"		"ClassButton1"
 			"xpos"			"4"
 			"ypos"			"15"
 			"wide"			"75"
@@ -537,7 +537,7 @@
 		"ClassButton2"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass2"
+			"fieldName"		"ClassButton2"
 			"xpos"			"4"
 			"ypos"			"37"
 			"wide"			"75"
@@ -561,7 +561,7 @@
 		"ClassButton3"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass3"
+			"fieldName"		"ClassButton3"
 			"xpos"			"4"
 			"ypos"			"59"
 			"wide"			"75"
@@ -585,7 +585,7 @@
 		"ClassButton4"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass4"
+			"fieldName"		"ClassButton4"
 			"xpos"			"4"
 			"ypos"			"81"
 			"wide"			"75"
@@ -609,7 +609,7 @@
 		"ClassButton5"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass5"
+			"fieldName"		"ClassButton5"
 			"xpos"			"4"
 			"ypos"			"103"
 			"wide"			"75"
@@ -633,7 +633,7 @@
 		"ClassButton6"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass6"
+			"fieldName"		"ClassButton6"
 			"xpos"			"4"
 			"ypos"			"125"
 			"wide"			"75"
@@ -657,7 +657,7 @@
 		"ClassButton7"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass7"
+			"fieldName"		"ClassButton7"
 			"xpos"			"4"
 			"ypos"			"147"
 			"wide"			"75"
@@ -681,7 +681,7 @@
 		"ClassButton8"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass8"
+			"fieldName"		"ClassButton8"
 			"xpos"			"4"
 			"ypos"			"169"
 			"wide"			"75"
@@ -705,7 +705,7 @@
 		"ClassButton9"
 		{
 			"ControlName"	"RadioButton"
-			"fieldName"		"ButtonSelectClass9"
+			"fieldName"		"ClassButton9"
 			"xpos"			"4"
 			"ypos"			"191"
 			"wide"			"75"

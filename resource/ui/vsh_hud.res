@@ -47,7 +47,7 @@
 	"alivecounter"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"aivecounter"
+		"fieldName"		"alivecounter"
 		"xpos"			"c-30"
 		"ypos"			"r90"
 		"zpos"			"-10"
@@ -116,7 +116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thinlineborder"
+			"image"			"replay/thinlineborder"
 				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -127,7 +127,7 @@
 		"dmg_icon"
 		{
 			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
+			"fieldName"		"dmg_icon"
 			"xpos"			"9"
 			"ypos"			"11"
 			"zpos"			"3"

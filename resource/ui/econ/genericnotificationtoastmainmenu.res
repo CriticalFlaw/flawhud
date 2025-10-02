@@ -2,10 +2,10 @@
 
 "Resource/UI/GenericNotificationToastMainMenu.res"
 {
-    "TextLabel"
-    {
-		"wide"			"138"
-		"tall"			"38"
-		"font"			"FontRegular12"
-    }
+  "TextLabel"
+  {
+    "wide"			"138"
+    "tall"			"38"
+    "font"			"FontRegular12"
+  }
 }

@@ -508,7 +508,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu/main_menu_button_casual"
+		"image"			"replay/thumbnails/main_menu/main_menu_button_casual"
 	}
 	"MainMenuButtonCommunityServer"
 	{
@@ -517,7 +517,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu/main_menu_button_community_server"
+		"image"			"replay/thumbnails/main_menu/main_menu_button_community_server"
 	}
 	"MainMenuButtonCompetitive"
 	{
@@ -526,7 +526,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu/main_menu_button_competitive"
+		"image"			"replay/thumbnails/main_menu/main_menu_button_competitive"
 	}
 	"MainMenuButtonMvM"
 	{
@@ -535,7 +535,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu/main_menu_button_mvm"
+		"image"			"replay/thumbnails/main_menu/main_menu_button_mvm"
 	}
 	"MainMenuLogo"
 	{
@@ -544,7 +544,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu_logo"
+		"image"			"replay/thumbnails/main_menu/main_menu_logo"
 	}
 	
 	//---------------------
@@ -558,15 +558,15 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/maps/menu_thumb_Missing"
+		"image"			"maps/menu_thumb_Missing"
 	}
 	"SelbyenPickup"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuLogo"
+		"fieldName"		"SelbyenPickup"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/selbyen_pickup"
+		"image"			"replay/thumbnails/selbyen_pickup"
 	}
 }

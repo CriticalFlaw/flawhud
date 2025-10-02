@@ -127,7 +127,7 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"50"
-		"MeterFG"			"Red"
+		"MeterFG"			"TeamRed"
 		"MeterBG"			"Gray"
 	}
 
@@ -360,7 +360,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"IconColor"				"Hostage_Yellow"
+		"IconColor"				"Yellow"
 	}
 
 	"HudFlashlight"

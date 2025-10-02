@@ -327,7 +327,7 @@
 	"NumberBg1"
 	{
 		"ControlName"		"CIconPanel"
-		"fieldName"			"NumberBg"
+		"fieldName"			"NumberBg1"
 		"xpos"				"9999"
 		"ypos"				"9999"
 		"zpos"				"4"
@@ -343,7 +343,7 @@
 	"NumberLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"NumberLabel"
+		"fieldName"			"NumberLabel1"
 		"font"				"FontBold20"
 		"fgcolor"			"TanLight"
 		"xpos"				"0"
@@ -364,7 +364,7 @@
 	"NumberBg2"
 	{
 		"ControlName"		"CIconPanel"
-		"fieldName"			"NumberBg"
+		"fieldName"			"NumberBg2"
 		"xpos"				"9999"
 		"ypos"				"9999"
 		"zpos"				"4"
@@ -380,7 +380,7 @@
 	"NumberLabel2"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"NumberLabel"
+		"fieldName"			"NumberLabel2"
 		"font"				"FontBold20"
 		"fgcolor"			"TanLight"
 		"xpos"				"60"
@@ -401,7 +401,7 @@
 	"NumberBg3"
 	{
 		"ControlName"		"CIconPanel"
-		"fieldName"			"NumberBg"
+		"fieldName"			"NumberBg3"
 		"xpos"				"9999"
 		"ypos"				"9999"
 		"zpos"				"4"
@@ -417,7 +417,7 @@
 	"NumberLabel3"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"NumberLabel"
+		"fieldName"			"NumberLabel3"
 		"font"				"FontBold20"
 		"fgcolor"			"TanLight"
 		"xpos"				"130"

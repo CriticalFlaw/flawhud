@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"		"vgui/replay/thumbnails/uber"
+	"$basetexture"		"vgui/replay/thumbnails/main_menu/discord"
 	"$translucent"		"1"
 	"$vertexcolor"		"1"
 	"$ignorez"			"1"

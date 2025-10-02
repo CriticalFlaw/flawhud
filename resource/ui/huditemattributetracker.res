@@ -25,7 +25,7 @@
 		"proportionaltoparent"	"1"
 
 		"border"	"NoBorder"
-		"paintborder"	"2"
+		"paintborder"	"1"
 
 		"Header"
 		{
