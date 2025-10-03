@@ -2029,7 +2029,6 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
-			"scaleImage"	"1"
 		}
 	}
 

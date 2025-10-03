@@ -35,7 +35,7 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 		
-		if_mvm
+		"if_mvm"
  		{
  			"visible"			"0"
  		}
@@ -55,7 +55,7 @@
 		"fgcolor"			"BlueTeam"
 		"pin_to_sibling"		"BlueBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -78,7 +78,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -101,7 +101,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"font"				"FontRegular10"
 			"textAlignment"		"west"
@@ -128,7 +128,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -149,7 +149,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -172,7 +172,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -195,7 +195,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -212,7 +212,7 @@
 		"bgcolor_override"		"RedTeam"
 		"pin_to_sibling"		"RedBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -232,7 +232,7 @@
 		"fgcolor"			"RedTeam"
 		"pin_to_sibling"		"RedBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -254,7 +254,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
  		{
  			"visible"			"0"
  		}
@@ -275,7 +275,7 @@
 		"linespacing"		"16"
 		"fgcolor"			"TeamBlue"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -297,7 +297,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -318,7 +318,7 @@
 		"linespacing"		"16"
 		"textcolor"			"HUDRedTeamSolid"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -339,7 +339,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"xpos"				"c-275" //MVM StatsBG anchor
 			"ypos"				"64"
@@ -364,7 +364,7 @@
 
 		"pin_to_sibling"		"ServerBackground"
 
-		if_mvm
+		"if_mvm"
 		{
 			"font"				"FontRegular10"
 			"xpos"				"c-271"
@@ -388,7 +388,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -410,7 +410,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -435,7 +435,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"xpos"				"276"
 		    "wide"				"546"
@@ -458,7 +458,7 @@
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_minmode"	"ServerBackground"
 
-		if_mvm
+		"if_mvm"
 		{
 			"ypos"				"-181"
 			"wide"				"270"
@@ -484,7 +484,7 @@
 		"tall"				"20"
 		"pin_to_sibling"		"StatsBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -576,7 +576,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"xpos"				"c-278"
 			"ypos"				"64"
@@ -614,7 +614,7 @@
 		"tall"				"50"
 		"pin_to_sibling"	"StatsBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"		"0"
 		}
@@ -1537,7 +1537,7 @@
 		"visible"			"0"
 		"verbose"			"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"		"1"
 		}
@@ -1564,7 +1564,7 @@
 			"linecolor"			"TanLight"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"zpos"			"998"
 		}
@@ -1591,7 +1591,7 @@
 			"linecolor"			"TanLight"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"zpos"			"999"
 		}
