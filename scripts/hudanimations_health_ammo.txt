@@ -1,22 +1,15 @@
 event HudHealthBonusBox
 {
 	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
-
-	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 event HudHealthDyingBox
 {
 	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
-
-	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 event HudHealthStopBox
 {
-	StopEvent HudHealthBonusPulse		0.0
-	StopEvent HudHealthBonusPulseLoop	0.0
-
 	Animate	HealthBG					BgColor		"Transparent"		Accel 0.0 0.0
 }
 
@@ -32,8 +25,6 @@ event HudHealthBonusText
 	
 	Animate	SpecHealthValue				FgColor		"Overheal"			Accel 0.0 0.0
 	Animate	SpecHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
-
-	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 event HudHealthDyingText
@@ -46,15 +37,10 @@ event HudHealthDyingText
 
 	Animate	SpecHealthValue				FgColor		"LowHealth"			Accel 0.0 0.0
 	Animate	SpecHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
-
-	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 event HudHealthStopText
 {
-	StopEvent HudHealthBonusPulse		0.0
-	StopEvent HudHealthBonusPulseLoop	0.0
-
 	Animate	PlayerHealthValue			FgColor		"TanLight"			Accel 0.0 0.0
 	Animate	PlayerHealthShadow			FgColor		"Black"				Accel 0.0 0.0
 
@@ -70,15 +56,10 @@ event HudHealthStopText
 event HudAmmoLowBox
 {
 	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.0
-
-	RunEvent HudLowAmmoPulseLoop		0.4
 }
 
 event HudAmmoStopBox
 {
-	StopEvent HudLowAmmoPulse 			0.0
-	StopEvent HudLowAmmoPulseLoop 		0.0
-
 	Animate	AmmoBG						BgColor		"Transparent"		Accel 0.0 0.0
 }
 
@@ -94,15 +75,10 @@ event HudAmmoLowText
 	
 	Animate	AmmoNoClip					FgColor		"LowAmmo"			Accel 0.0 0.0
 	Animate	AmmoNoClipShadow			FgColor		"LowAmmoShadow"		Accel 0.0 0.0
-
-	RunEvent HudLowAmmoPulseLoop		0.4
 }
 
 event HudAmmoStopText
 {
-	StopEvent HudLowAmmoPulse 			0.0
-	StopEvent HudLowAmmoPulseLoop 		0.0
-
 	Animate AmmoInClip					FgColor		"TanLight"			Accel 0.0 0.0
 	Animate AmmoInClipShadow			FgColor		"Black"				Accel 0.0 0.0
 	
