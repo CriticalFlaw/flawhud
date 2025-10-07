@@ -360,10 +360,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"5"
-		"ypos"			"0"
+		"ypos"			"-3"
 		"zpos"			"5"
-		"wide"			"34"
-		"tall"			"46"
+		"wide"			"45"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/main_menu/nogc"
@@ -371,8 +371,8 @@
 		"proportionaltoparent" "1"
 
 		"pin_to_sibling"			"NoGCMessage"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMRIGHT"
 	}
 
 	"RankBorder"
