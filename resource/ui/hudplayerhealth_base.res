@@ -121,10 +121,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"76"
+		"ypos"			"55"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayerStatusAnchor"
