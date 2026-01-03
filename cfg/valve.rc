@@ -23,4 +23,4 @@ tf_mm_dashboard_slide_panel_step 14
 hud_reloadscheme
 
 // Setup HUD customizations
-exec hud_customization.cfg
+exec hud_customization
