@@ -45,7 +45,7 @@
 					"xpos"								"0"
 					"ypos"								"0"
 					"zpos"								"0"
-					"wide"								"20"
+					"wide"								"25"
 					"tall"								"25"
 					"visible"							"1"
 					"enabled"							"1"
@@ -59,7 +59,7 @@
 				{
 					"controlName"						"CExLabel"
 					"fieldName"							"Title_Text"
-					"xpos"								"25"
+					"xpos"								"5"
 					"ypos"								"0"
 					"zpos"								"0"
 					"wide"								"f25"
@@ -71,13 +71,17 @@
 					"font"								"HudFontMediumBold"
 					"textAlignment"						"west"
 					"FGColor"							"Gray"
+
+					"pin_to_sibling"					"Title_Icon"
+					"pin_corner_to_sibling"				"PIN_TOPLEFT"
+					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 				}
 				"Separator_1"
 				{
 					"controlName"						"EditablePanel"
 					"fieldName"							"Separator_1"
 					"xpos"								"0"
-					"ypos"								"28"
+					"ypos"								"3"
 					"zpos"								"0"
 					"wide"								"f40"
 					"tall"								"2"
@@ -87,6 +91,10 @@
 					"paintBackground"					"1"
 					"PaintBackgroundType"				"3"
 					"BGColor_Override"					"Gray"
+
+					"pin_to_sibling"					"Title_Icon"
+					"pin_corner_to_sibling"				"PIN_TOPLEFT"
+					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 				}
 				//==========================================================================================================
 				// FLOATING DAMAGE STYLE
@@ -112,7 +120,7 @@
 						"ypos"							"0"
 						"zpos"							"0"
 						"wide"							"20"
-						"tall"							"15"
+						"tall"							"20"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionalToParent"			"1"
@@ -129,7 +137,7 @@
 						"ypos"							"0"
 						"zpos"							"0"
 						"wide"							"f35"
-						"tall"							"15"
+						"tall"							"20"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionalToParent"			"1"
@@ -531,7 +539,7 @@
 						"ypos"							"0"
 						"zpos"							"0"
 						"wide"							"20"
-						"tall"							"15"
+						"tall"							"20"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionalToParent"			"1"
@@ -548,7 +556,7 @@
 						"ypos"							"0"
 						"zpos"							"0"
 						"wide"							"f35"
-						"tall"							"15"
+						"tall"							"20"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionalToParent"			"1"
