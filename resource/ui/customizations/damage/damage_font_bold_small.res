@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Damage/damage_font_bold_small.res"
+"resource/ui/customizations/damage/damage_font_bold_small.res"
 {
 	"CDamageAccountPanel"
 	{

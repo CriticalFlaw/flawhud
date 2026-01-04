@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Scoreboard/scoreboard_large.res"
+"resource/ui/customizations/scoreboard/scoreboard_large.res"
 {
 	"BlueBG"
 	{

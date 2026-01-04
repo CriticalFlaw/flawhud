@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Health/health_cross.res"
+"resource/ui/customizations/health/health_cross.res"
 {
 	"PlayerStatusHealthImage"
 	{

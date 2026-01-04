@@ -1,4 +1,4 @@
-"Resource/UI/ItemDiscardPanel.res"
+"resource/ui/itemdiscardpanel.res"
 {
 	"item_discard"
 	{

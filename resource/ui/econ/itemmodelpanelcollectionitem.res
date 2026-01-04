@@ -1,4 +1,4 @@
-"Resource/UI/ItemModelPanelCollectionItem.res"
+"resource/ui/itemmodelpanelcollectionitem.res"
 {
 	"mouseoveritempanel"
 	{

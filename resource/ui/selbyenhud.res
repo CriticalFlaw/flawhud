@@ -1,6 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
-"Resource/UI/SelbyenHUD.res"
+"resource/ui/selbyenhud.res"
 {
 	"CarriedContainer"
 	{

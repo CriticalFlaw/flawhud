@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Speedometer/speedometer.res"
+"resource/ui/customizations/speedometer/speedometer.res"
 {
 	"Speedometer"
 	{

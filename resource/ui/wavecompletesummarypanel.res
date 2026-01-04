@@ -1,4 +1,4 @@
-"Resource/UI/WaveCompletePanel.res"
+"resource/ui/wavecompletepanel.res"
 {
 	"Background"
 	{

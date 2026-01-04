@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Ammo/ammo_no_box.res"
+"resource/ui/customizations/ammo/ammo_no_box.res"
 {
 	"AmmoBG"
 	{

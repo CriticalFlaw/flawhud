@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Health/health_no_box.res"
+"resource/ui/customizations/health/health_no_box.res"
 {
 	"HealthBG"
 	{

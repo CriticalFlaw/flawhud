@@ -1,6 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
-"Resource/UI/HudObjectiveArenaHybrid.res"
+"resource/ui/hudobjectivearenahybrid.res"
 {
 	"blueteam"
 	{

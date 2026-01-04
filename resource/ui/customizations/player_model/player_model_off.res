@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Player_Model/player_model_off.res"
+"resource/ui/customizations/player_model/player_model_off.res"
 {
 	"PlayerStatusClassImage"
 	{

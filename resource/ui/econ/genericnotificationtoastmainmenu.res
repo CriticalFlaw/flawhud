@@ -1,6 +1,6 @@
-#base "GenericNotificationToast.res"
+#base "genericnotificationtoast.res"
 
-"Resource/UI/GenericNotificationToastMainMenu.res"
+"resource/ui/genericnotificationtoastmainmenu.res"
 {
   "TextLabel"
   {

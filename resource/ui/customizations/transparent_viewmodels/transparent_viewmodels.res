@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Transparent_Viewmodels/transparent_viewmodels.res"
+"resource/ui/customizations/transparent_viewmodels/transparent_viewmodels.res"
 {
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL

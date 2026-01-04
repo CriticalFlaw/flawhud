@@ -1,4 +1,4 @@
-"Resource/UI/econ/QuestLogPanel.res"
+"resource/ui/econ/questlogpanel.res"
 {
 	"QuestLog"
 	{
