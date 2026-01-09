@@ -18,6 +18,7 @@
 				"HUD_Match_Status_Selection"		{visible 0}
 				"HUD_Crosshairs_Selection"			{visible 0}
 				"HUD_Miscellaneous_Selection"		{visible 0}
+				"HUD_Dev_Selection"					{visible 0}
 			}
 		}
 	}

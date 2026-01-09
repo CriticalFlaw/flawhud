@@ -257,6 +257,29 @@
 				"pin_corner_to_sibling"					"PIN_TOPLEFT"
 				"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 			}
+			"Dev"
+			{
+				"controlName"							"CExButton"
+				"fieldName"								"Dev"
+				"xpos"									"0"
+				"ypos"									"2"
+				"zpos"									"20"
+				"wide"									"f4"
+				"tall"									"22"
+				"visible"								"0"
+				"enabled"								"1"
+				"proportionalToParent"					"1"
+				"labelText"								"HUD Dev"
+				"font"									"HudFontSmallestBold"
+				"textAlignment"							"center"
+				"command"								"engine hud_custom_dev; hud_reloadscheme; gameui_activate;"
+				"actionsignallevel"						"3"
+				"sound_depressed"						"UI/buttonclick.wav"
+
+				"pin_to_sibling"						"Miscellaneous"
+				"pin_corner_to_sibling"					"PIN_TOPLEFT"
+				"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+			}
 		}
 		
 		//========================================================================================
@@ -296,7 +319,7 @@
 			"labelText"									"Reload to Apply Changes"
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"center"
-			"command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme; toggle_mataaquality;"
+			"command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
 			"actionsignallevel"							"2"
 			"RoundedCorners"							"0"
 			"sound_depressed"							"UI/buttonclick.wav"
