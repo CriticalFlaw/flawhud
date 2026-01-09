@@ -659,7 +659,7 @@
 						"enabled"						"1"
 						"mouseinputenabled"				"0"
 						"proportionalToParent"			"1"
-						"AllCaps"						"1"
+						"AllCaps"						"0"
 						"Wrap"							"1"
 						"CenterWrap"					"0"
 						"font"							"HudFontSmallest"
