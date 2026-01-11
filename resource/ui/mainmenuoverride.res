@@ -1,6 +1,7 @@
 #base "../preload.res"
 #base "../links.res"
 #base "customizations/#customization_menu/hud_customization.res"
+#base "vguipreload.res"
 
 "resource/ui/mainmenuoverride.res"
 {
