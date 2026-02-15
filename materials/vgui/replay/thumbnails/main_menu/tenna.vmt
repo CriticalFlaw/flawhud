@@ -1,0 +1,35 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"vgui/replay/thumbnails/main_menu/tenna"
+	"$translucent"		"1"
+	"$alphatest"		"1"
+	"$nocull"			"1"
+	"$ignorez"		"1"
+	"$vertexcolor"		"1"
+	"$no_fullbright"		"1"
+	
+	"$frameinterval"		"30"
+	"$framecounter"		"0"
+	"$const_one"		"1"
+	"$const_zero"		"0"
+	"$constfloat"		"0.07"
+	"$addtoframe"		"0"
+	
+	Proxies
+	{
+		Add
+		{
+			srcVar1		"$constfloat"
+			srcVar2		"$frame"
+			resultVar		"$frame"
+		}
+		
+		WrapMinMax
+		{
+			srcVar1		"$frame"
+			minVal		"0"
+			maxVal		"92"
+			resultVar		"$frame"
+		}
+	}
+}

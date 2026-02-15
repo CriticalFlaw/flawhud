@@ -1029,4 +1029,20 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
+	"Tenna"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"Tenna"
+		"xpos"					"r85"
+		"ypos"					"r118"
+		"zpos"					"25"
+		"wide"					"62"
+		"tall"					"102"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/main_menu/tenna"
+		"scaleimage"			"1"
+		"proportionaltoparent"	"1"
+	}
 }
