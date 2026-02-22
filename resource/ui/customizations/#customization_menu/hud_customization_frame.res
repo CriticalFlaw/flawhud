@@ -266,7 +266,7 @@
 				"zpos"									"20"
 				"wide"									"f4"
 				"tall"									"22"
-				"visible"								"0"
+				"visible"								"1"
 				"enabled"								"1"
 				"proportionalToParent"					"1"
 				"labelText"								"HUD Dev"

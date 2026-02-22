@@ -40,7 +40,7 @@
 		"xpos"				"0"
 		"ypos"				"22"
 		"wide"				"80"
-		"tall"				"10"
+		"tall"				"0"
 		"fgcolor"			"TanLight"
 		"visible"			"1"
 	}
