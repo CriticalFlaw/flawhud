@@ -18,15 +18,15 @@
 
 	"ItemName"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"ItemName"
-		"xpos"			"0"
-		"ypos"			"6"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"200"
-		"visible"		"1"
-		"paintborder"	"0"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"ItemName"
+		"xpos"				"0"
+		"ypos"				"6"
+		"zpos"				"5"
+		"wide"				"f0"
+		"tall"				"60"
+		"visible"			"1"
+		"paintborder"		"0"
 		"mouseinputenabled"	"0"
 		"text_ypos"			"15"
 		"text_center"		"0"
@@ -38,7 +38,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -51,8 +51,8 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"cs-0.8"
-		"ypos"			"20"
+		"xpos"			"cs-0.5"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"o1.5"
 		"tall"			"p0.8"
@@ -65,7 +65,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"65"
+		"fov"					"75"
 
 		"consume_mode"
 		{
@@ -127,7 +127,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs1.4"
+		"xpos"				"cs-0.5"
 		"ypos"				"c-135"
 		"zpos"				"100"
 		"wide"				"60"
@@ -146,10 +146,10 @@
 
 		"consume_mode"
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"r75"
+			"xpos"			"cs-0.47"
+			"ypos"			"r105"
 		}
-
+		
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -227,10 +227,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"cs0.3"
-		"ypos"			"p.2"
-		"wide"			"250"
-		"tall"			"190"
+		"xpos"			"cs-0.5"
+		"ypos"			"p.68"
+		"wide"			"400"
+		"tall"			"100"
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
@@ -251,8 +251,8 @@
 		}
 		"consume_mode"
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"r80"
+			"xpos"			"cs-0.31"
+			"ypos"			"r110"
 			"bgcolor_override"	"Transparent"
 		}
 
@@ -403,6 +403,7 @@
 
 			"consume_mode"
 			{
+				"xpos"			"76"
 				"ypos"			"25"
 			}
 
@@ -445,6 +446,7 @@
 
 			"consume_mode"
 			{
+				"xpos"			"7"
 				"ypos"			"25"
 				"labelText"		"#TF_ItemPreview_RedeemItem"
 			}
@@ -463,7 +465,7 @@
 			}
 
 			"zpos"			"1"
-			"wide"			"235"
+			"wide"			"234"
 			"tall"			"30"
 			"numticks"		"4"
 			"rangemin"		"1"
@@ -499,7 +501,7 @@
 				"ypos"		"30"
 			}
 
-			"wide"			"80"
+			"wide"			"70"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -523,8 +525,8 @@
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
 			"font"			"FontBold14"
-			"xpos"			"8"
-			"ypos"			"115"
+			"xpos"			"c57"
+			"ypos"			"35"
 
 			"fixed_item"
 			{
@@ -537,8 +539,8 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"235"
-			"tall"			"30"
+			"wide"			"130"
+			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -563,8 +565,8 @@
 		{
 			"ControlName"		"TextEntry"
 			"fieldName"			"SeedTextEntry"
-			"xpos"				"8"
-			"ypos"				"90"
+			"xpos"				"255"
+			"ypos"				"10"
 
 			"fixed_item"
 			{
@@ -577,7 +579,7 @@
 			}
 
 			"zpos"				"10"
-			"wide"				"235"
+			"wide"				"115"
 			"tall"				"20"
 			"autoResize"		"0"
 			"visible"			"1"
@@ -603,8 +605,8 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
 			"font"			"FontBold14"
-			"xpos"			"8"
-			"ypos"			"150"
+			"xpos"			"c57"
+			"ypos"			"65"
 
 			"fixed_item"
 			{
@@ -618,12 +620,14 @@
 
 			"consume_mode"
 			{
+				"xpos"		"c-193"
 				"ypos"		"r80"
+				"wide"		"234"
 			}
 
 			"zpos"			"100"
-			"wide"			"235"
-			"tall"			"30"
+			"wide"			"130"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
