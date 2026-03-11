@@ -506,7 +506,8 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"218 165 32 255"
+			"defaultFgColor_override"	"255 190 25 255"
+			"armedFgColor_override"		"202 153 27 255"
 		}
 	}
 
