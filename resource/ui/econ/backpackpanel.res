@@ -73,7 +73,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"New"
-				"font"					"FontBold10"
+				"font"					"FontBold9"
 				"textAlignment"			"center"
 				"ypos"					"0"
 				"xpos"					"0"
