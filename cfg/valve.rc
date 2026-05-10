@@ -24,3 +24,4 @@ hud_reloadscheme
 
 // Setup HUD customizations
 exec hud_customization
+exec flawhud/setup.txt
