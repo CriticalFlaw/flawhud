@@ -24,19 +24,6 @@
 		"FH_supporters_info"		"Besonderer Dank geht an alle, die dieses Projekt über PayPal oder GitHub-Sponsoren unterstützt haben."
 		"FH_supporters_list"		"Wenn du mich unterstützen möchtest und du deinen Namem auf dem Board sehen möchtest, klicke hier: https://github.com/sponsors/CriticalFlaw"
 
-		// resource/tools.res
-		"FH_reload_hud"				"HUD NEU LADEN"
-		"FH_streamer_mode"			"STREAMER-MODUS"
-		"FH_toggle_captions"		"UNTERTITEL"
-		"FH_toggle_netgraph"		"NET GRAPH"
-		"FH_toggle_match_hud"		"SPIEL-HUD"
-		"FH_toggle_chat"			"SPIEL-CHAT"
-		"FH_viewmodel_min"			"MINIMALES ANSICHTSMODELL"
-		"FH_viewmodel_fov"			"FOV ANSICHTSMODELL"
-		"FH_game_volume"			"SPIELLAUTSTÄRKE"
-		"FH_voice_volume"			"SPRACHLAUTSTÄRKE"
-		"FH_damage_color"			"SCHADENSFARBE"
-
 		// resource/ui/charinfopanel.res
 		"FH_back"					"Zurück (&Q)"
 
@@ -50,8 +37,5 @@
 
 		// resource/ui/mainmenuoverride.res
 		"FH_streamer_mode_active"	"Streamer-Modus Aktiviert!"
-
-		// resource/ui/replaybrowser/mainpanel.res
-		// This one is not translated because it uses the same translation as resource/ui/charinfopanel.res ("FH_back")
 	}
 }
