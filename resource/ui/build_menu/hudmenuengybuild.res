@@ -268,6 +268,23 @@
 		"visible"			"1"
 	}
 
+	"active_selection_bg"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"active_selection_bg"
+		"xpos"			"8"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			""
+		"iconColor"		"0 0 0 0"
+		"border"		"WhiteBorder"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"		"EditablePanel"

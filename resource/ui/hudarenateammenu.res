@@ -115,7 +115,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"command"			"jointeam spectate"
-		"font"				"FontBold37"
+		"font"				"FontBold22"
 		
 		"pin_to_sibling"			"BlueBorder"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
@@ -154,7 +154,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"command"			"jointeam spectatearena"
-		"font"				"FontBold37"
+		"font"				"FontBold22"
 		
 		"pin_to_sibling"			"RedBorder"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"

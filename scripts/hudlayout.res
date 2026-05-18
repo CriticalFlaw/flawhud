@@ -889,7 +889,7 @@
 		"xpos"				"c140"
 		"ypos"				"c63"
 		"zpos"				"14"
-		"wide"				"125"
+		"wide"				"f0"
 		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}

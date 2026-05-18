@@ -27,7 +27,7 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoIntroHintIcon"
-		"xpos"			"-5"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"25"
