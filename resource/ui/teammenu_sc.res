@@ -22,6 +22,28 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
+	"teambutton1"
+	{
+		"ControlName"	"CTFTeamButton"
+		"fieldName"		"teambutton1"
+		"xpos"			"c0"
+		"ypos"			"c-17"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"4"
+		"labelText"			"#TF_RedTeam_Name"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"jointeam red"
+		"team"			"2"
+		"font"			"FontBold37"
+	}
 	"JoinRedHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -39,9 +61,9 @@
 		"actionName"	"menu_select"
 		"pin_to_sibling"	"RedBorder"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-	}
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
+	}
 
 	"JoinAutoHintIcon"
 	{

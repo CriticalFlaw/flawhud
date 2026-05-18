@@ -6,4 +6,9 @@
 	{
 		"labelText"			"#TF_Object_Sentry"
 	}
+
+	"BuildingIcon"
+	{
+		"icon"				"obj_status_sentrygun_1"
+	}
 }
