@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"		"vgui/replay/thumbnails/main_menu/main_menu_logo"
+	"$basetexture"		"logo/new_tf2_logo"
 	"$vertexcolor"		"1"
 	"$no_fullbright"	"1"
 	"$ignorez"			"1"
