@@ -167,10 +167,10 @@
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 				}
-				"GitHub_Icon"
+				"Warning_Icon"
 				{
 					"controlName"						"CExButton"
-					"fieldName"							"GitHub_Icon"
+					"fieldName"							"Warning_Icon"
 					"xpos"								"0"
 					"ypos"								"8"
 					"zpos"								"0"
@@ -179,24 +179,24 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"proportionalToParent"				"1"
-					"labelText"							"Y"
+					"labelText"							"k"
 					"font"								"MediumIcons"
 					"textAlignment"						"center"
 					"command"							"url https://discord.gg/hTdtK9vBhE"
 					"paintBackground"					"0"
-
-					"DefaultFGColor_Override"			"255 255 255 255"
-					"ArmedFGColor_Override"				"205 205 205 255"
-					"DepressedFGColor_Override"			"205 205 205 255"
+					
+					"DefaultFGColor_Override"			"255 190 25 255"
+					"ArmedFGColor_Override"				"202 153 27 255"
+					"DepressedFGColor_Override"			"202 153 27 255"
 
 					"pin_to_sibling"					"Separator_2"
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 				}
-				"GitHub_Text"
+				"Warning_Text"
 				{
 					"controlName"						"CExLabel"
-					"fieldName"							"GitHub_Text"
+					"fieldName"							"Warning_Text"
 					"xpos"								"5"
 					"ypos"								"0"
 					"zpos"								"0"
@@ -207,12 +207,12 @@
 					"proportionalToParent"				"1"
 					"Use_Proportional_Insets"			"1"
 					"Wrap"								"1"
-					"labelText"							"Want to contribute to flawhud? Head to the GitHub repo to make a suggestion, reports bugs or contribute changes."
+					"labelText"							"To ensure that all HUD customizations work propertly, please make sure this HUD folder is called: flawhud"
 					"font"								"FontBold12"
 					"textAlignment"						"west"
 					"FGColor"							"Gray"
 
-					"pin_to_sibling"					"GitHub_Icon"
+					"pin_to_sibling"					"Warning_Icon"
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 				}
@@ -232,7 +232,7 @@
 					"PaintBackgroundType"				"3"
 					"BGColor_Override"					"Gray"
 
-					"pin_to_sibling"					"GitHub_Icon"
+					"pin_to_sibling"					"Warning_Icon"
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 				}
@@ -251,7 +251,7 @@
 					"labelText"							"Z"
 					"font"								"MediumIcons"
 					"textAlignment"						"east"
-					"command"							"url https://github.com/criticalflaw/flawhud"
+					"command"							"url https://discord.gg/hTdtK9vBhE"
 					"paintBackground"					"0"
 
 					"DefaultFGColor_Override"			"88 101 242 255"
@@ -352,32 +352,6 @@
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 				}
-				"Links_Discord"
-				{
-					"controlName"						"CExButton"
-					"fieldName"							"Links_Discord"
-					"xpos"								"3"
-					"ypos"								"0"
-					"zpos"								"20"
-					"wide"								"20"
-					"tall"								"15"
-					"visible"							"1"
-					"enabled"							"1"
-					"proportionalToParent"				"1"
-					"labelText"							"Z"
-					"font"								"SmallIcons"
-					"textAlignment"						"center"
-					"command"							"url https://discord.gg/hTdtK9vBhE"
-					"paintBackground"					"0"
-
-					"DefaultFGColor_Override"			"88 101 242 255"
-					"ArmedFGColor_Override"				"68 81 212 255"
-					"DepressedFGColor_Override"			"68 81 212 255"
-
-					"pin_to_sibling"					"Links_GitHub"
-					"pin_corner_to_sibling"				"PIN_TOPLEFT"
-					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
-				}
 				"Links_ComfigHUDs"
 				{
 					"controlName"						"CExButton"
@@ -400,7 +374,7 @@
 					"ArmedFGColor_Override"				"0 100 90 255"
 					"DepressedFGColor_Override"			"0 150 135 255"
 
-					"pin_to_sibling"					"Links_Discord"
+					"pin_to_sibling"					"Links_GitHub"
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 				}
