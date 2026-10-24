@@ -94,7 +94,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
-		FrameTitleBar.Font				"UiBold"		[!$OSX]
+		FrameTitleBar.Font				"ConsoleText"	[!$OSX]
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.DisabledTextColor	"DullWhite"
 
@@ -211,6 +211,46 @@ Scheme
 
 	Fonts
 	{
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"			"Lucida Console" [$WINDOWS]
+				"name"			"Verdana" [$POSIX]
+				"tall"			"14"
+				"weight"		"500"
+				"antialias"		"1"
+				"yres"			"1 899"
+			}
+			"2"
+			{
+				"name"			"Lucida Console" [$WINDOWS]
+				"name"			"Verdana" [$POSIX]
+				"tall"			"16"
+				"weight"		"500"
+				"antialias"		"1"
+				"yres"			"900 1199"
+			}
+			"3"
+			{
+				"name"			"Lucida Console" [$WINDOWS]
+				"name"			"Verdana" [$POSIX]
+				"tall"			"20"
+				"weight"		"500"
+				"antialias"		"1"
+				"yres"			"1200 1599"
+			}
+			"4"
+			{
+				"name"			"Lucida Console" [$WINDOWS]
+				"name"			"Verdana" [$POSIX]
+				"tall"			"26"
+				"weight"		"500"
+				"antialias"		"1"
+				"yres"			"1600 10000"
+			}
+		}
+
 		"Trebuchet24"
 		{
 			"1"
