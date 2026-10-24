@@ -974,7 +974,6 @@
 			"textalignment" "center"
 			"use_proportional_insets" "1"
 			"font"			"FontBold16"
-			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

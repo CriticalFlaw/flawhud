@@ -50,7 +50,6 @@
 		"proportionaltoparent"	"1"
 		"wrap"					"0"
 		"labelText"				"%name%"
-		"proportionaltoparent"	"1"
 		"font"					"FontRegular10"
 		"mouseinputenabled"		"0"
 	}
@@ -69,7 +68,6 @@
 		"proportionaltoparent"	"1"
 		"wrap"					"0"
 		"labelText"				"%status%"
-		"proportionaltoparent"	"1"
 		"font"					"FontRegular8"
 		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"

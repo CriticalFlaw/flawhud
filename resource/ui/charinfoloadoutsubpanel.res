@@ -64,7 +64,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout scout"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuScout"
@@ -122,7 +121,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout soldier"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuSoldier"
@@ -188,7 +186,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout pyro"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuPyro"
@@ -254,7 +251,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout demoman"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuDemoman"
@@ -320,7 +316,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout heavy"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuHeavy"
@@ -386,7 +381,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout engineer"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuEngineer"
@@ -452,7 +446,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout medic"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuMedic"
@@ -518,7 +511,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout sniper"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuSniper"
@@ -584,7 +576,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout spy"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuSpy"
@@ -650,7 +641,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"backpack"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuScout"
@@ -713,7 +703,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"crafting"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuPyro"
@@ -780,7 +769,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"armory"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuHeavy"
@@ -847,7 +835,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"trading"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuMedic"
@@ -915,7 +902,6 @@
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"paintkit_preview"
-		"paintbackground"			"0"
 
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"MenuSpy"
