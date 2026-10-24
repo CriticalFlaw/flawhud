@@ -208,7 +208,7 @@
 							"visible"					"1"
 							"enabled"					"1"
 							"font"						""
-							"command"					"engine r_drawviewmodel 1; hud_clear_viewmodels_clear"
+							"command"					"engine r_drawviewmodel 1; hud_clear_viewmodels_off"
 							"labelText"					""
 							"sound_depressed"			"UI/buttonclick.wav"
 							"proportionalToParent"		"1"
