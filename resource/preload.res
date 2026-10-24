@@ -537,15 +537,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/main_menu/main_menu_button_mvm"
 	}
-	"MainMenuLogo"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuLogo"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/main_menu/main_menu_logo"
-	}
 	
 	//---------------------
 	// Misc
